@@ -1,7 +1,6 @@
 package nl.korfbalelo.elo
 
 import nl.korfbalelo.elo.Team.Companion.MAGIC_1500
-import nl.korfbalelo.elo.Team.Companion.deltaBenchmark
 import nl.korfbalelo.elo.graph.DyGraph
 
 object RankingNew {
@@ -54,8 +53,16 @@ object RankingNew {
         }
 
         val diffDistro = diffDistroBetween(home, away)
+        PredictionBenchmark.record(match, home, away, diffDistro)
         val awayRating = away.newRating(home, awayScore, homeScore, false, match, -diffDistro.first to diffDistro.second)
         val homeRating = home.newRating(away, homeScore, awayScore, true, match, diffDistro)
+        val (adjustedHomeRating, adjustedAwayRating) = ScoreRatingTweak.adjust(
+            match = match,
+            home = home,
+            away = away,
+            homeUpdate = homeRating,
+            awayUpdate = awayRating,
+        )
 //        val addedTotalRating = awayRating.first + homeRating.first - home.rating - away.rating
 
 //        if (recordFrom.isBefore(match.date) && match.date.isBefore(recordTo)){
@@ -66,14 +73,14 @@ object RankingNew {
 //            if (maxes.size > 10) maxes.removeAt(10)
 //        }
 
-        home.setNewRating(homeRating)
-        away.setNewRating(awayRating)
+        home.setNewRating(adjustedHomeRating)
+        away.setNewRating(adjustedAwayRating)
 //        rebalance(addedTotalRating)
         if (ApplicationNew.log) {
             if (home.rd <= 200.0)
-                graph.addRanking(match.date, home.graphName, (home.rating).toInt())
+                graph.addRanking(match.date, home.graphName, home.rating.toInt())
             if (away.rd <= 200.0)
-                graph.addRanking(match.date, away.graphName, (away.rating).toInt())
+                graph.addRanking(match.date, away.graphName, away.rating.toInt())
         }
     }
 
@@ -94,7 +101,7 @@ object RankingNew {
             if (team.rating !in 900.0..2000.0) {
                 val d = if (team.rating > 2000.0) team.rating - 2000.0
                 else 900.0 - team.rating
-                deltaBenchmark += 1.0e-10 * d
+                PredictionBenchmark.recordStartRatingClampPenalty(d)
             }
             team.rating = team.rating.coerceIn(900.0, 2000.0)
         }

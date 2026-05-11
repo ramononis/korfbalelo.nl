@@ -1,1 +1,358 @@
-{"Korfbal League":{"KL":["Fortuna (D)","LDODK","PKC","DVO","KZ","DOS \u002746","TOP (S)","DeetosSnel","Dalto","Unitas"],"KL2":["Blauw Wit","HKC (Ha)","AW.DTV","Die Haghe","DSC","Mid Fryslân","Wageningen","KCC","Groen Geel","Spirit (Vo)"]},"Hoofdklasse":{"HKA":["KVA","Nic","De Meeuwen","Fiks","KIOS (R)","OVVO","Dindoa","AVO"],"HKB":["KVS","Valto","Nieuwerkerk","TOP (A)","Oost Arnhem","GKV (G)","Albatros","Achilles (H)"]},"Overgangsklasse":{"OKA":["Wit Blauw","SCO","Heerenveen","CSL","Ritola","Noordenveld","OKO","Sparta (Zw)"],"OKB":["DOT (O)","NKC \u002751","SKF","Antilopen","Apeldoorn","Amicitia (V)","Synergo","NRC \u002722"],"OKC":["KVZ \u002723","Tempo","Avanti (P)","ONDO (G)","Pernix","VEO","Maassluis","Rohda (A)"],"OKD":["Swift (M)","Tilburg","Sporting Delta","Oranje Wit (D)","Vitesse (Ba)","Kinderdijk","Fortis","DES (De)"]},"1e Klasse":{"1A":["Drachten","Flamingo\u0027s (B)","Kinea / Udiros","ASVD","De Wâlden","Rood Wit (W)","Harich","ROG"],"1B":["ZKC \u002719","DOS Kampen","De Parabool","Wez Handich","KVW \u002722","De Granaet","Hoogkerk","De Pein"],"1C":["KVZ","Telstar","Reehorst \u002745","DOS-WK","Juventa","Exakwa","Devinco","Sparta (N)"],"1D":["Victum","Tiel \u002772","Woudenberg","Noviomagum","SDO (V)","Rust Roest (E)","Animo (G)","Viking"],"1E":["De Vinken","BEP","Tweemaal Zes","KIOS (N)","Swift","Haarlem","Velocitas (L)","KZ Danaiden"],"1F":["SDO (K)","De Meervogels","Excelsior (D)","Fiducia","Refleks","Sporting Trigon","ALO","Atlantis"],"1G":["Korbis","Vriendenschaar (H)","HKV / Ons Eibernest","Trekvogels (R)","RWA","Weidevogels","ACKC","NIO"],"1H":["KCR","KOAG","Tjoba","Merwede","Juliana","ONDO (M)","Atlas","TOGO (G)"]},"2e Klasse":{"2A":["DTL","Pallas \u002708","HHV","Sparta (Ze)","Spannum","Joure","Leeuwarden","MN en W"],"2B":["IFC \u002725","WWC","It Fean","Elko","Quick \u002721 / Vlug en Vaardig (G)","VDDO","Thrianta","Lintjo"],"2C":["Elburg","Hellas \u002763","HKC (He)","Achilles (A) / AKC","Zwart Wit","Blauw Zwart","Stadskanaal \u002774","SDO (S)"],"2D":["ODIK","Zwaluwen (Ze)","DWS (K)","HKC (U)","PSV","Duko","Arena","Kesteren"],"2E":["MIA","Nova","Fortissimo","Sporting West","RODA (W)","OKV","Wolderwijd","Revival"],"2F":["Fluks (N)","EKVA","DKV Victoria","Phoenix (Z)","Apollo","HBC (Be)","Madjoe","Badhoevedorp"],"2G":["IJsselvogels","DVS \u002769","Movado","Erasmus","Korbatjo","ODO (M)","Good Luck","Triade"],"2H":["Zuid \u002727","Vriendenschaar (B)","Reeuwijk","ADO","DSO (K)","OZC","Blauw Wit (K)","Zaamslag"]},"3e Klasse":{"3A":["Emmeloord","Olympia (T)","DTG","De Waterpoort","Westergo","WIK \u002734","Lemmer","SF Deinum"],"3B":["DTS (S) / Harkema","DWA / Argo","WSS","Noveas","Vitesse (Be)","Oerterp","WK","NKC (N)/Wees Kwiek"],"3C":["Oranje Zwart","Centrum","Roreko","Olympia \u002722","Regio \u002772","TOP (V)","SDO (W)","EKC 2000"],"3D":["SkunK","Rheko","EKCA","KCD","Rivalen","SEV (Z)","DKOD","Hemur Enge"],"3E":["Luno","Hebbes","ESDO","Huizen","RDZ","Thor (H)","Koveni","DOS (W)"],"3F":["Furore","Helios","DTS (E)","Ados","De Corvers","Stormvogels (U)","DSO (A)","Kleine Sluis"],"3G":["Dunas","Dijkvogels","GKV","Rapid (H)","Paal Centraal","VZOD","Aurora / DKV (IJ)","Oosterkwartier (H)"],"3H":["NKV","Ready \u002760","OJC \u002798","DKB","OEC","Attila","VIKO","KVS \u002717"],"3I":["Twist","WION","Nexus","Ventura Sport","\u0027t Capproen","Gemini","Conventus","Olympia (S)"],"3J":["KVK","Keep Fit \u002770","Luctor","Seolto","Oranje Zwart (M)","Focus","Scheldevogels","SKV (S)"]}}
+{
+  "Korfbal League": {
+    "KL": [
+      "Fortuna (D)",
+      "Unitas",
+      "DVO",
+      "DOS \u002746",
+      "TOP (S)",
+      "Dalto",
+      "LDODK",
+      "DeetosSnel",
+      "KZ",
+      "PKC"
+    ],
+    "KL2": [
+      "HKC (Ha)",
+      "Mid Fryslân",
+      "AW.DTV",
+      "Die Haghe",
+      "Groen Geel",
+      "DSC",
+      "KCC",
+      "Blauw Wit",
+      "Wageningen",
+      "Spirit (Vo)"
+    ]
+  },
+  "Hoofdklasse": {
+    "HKA": [
+      "AVO",
+      "De Meeuwen",
+      "Dindoa",
+      "Fiks",
+      "KVA",
+      "KIOS (R)",
+      "Nic",
+      "OVVO"
+    ],
+    "HKB": [
+      "Achilles (H)",
+      "Oost Arnhem",
+      "Nieuwerkerk",
+      "GKV (G)",
+      "Valto",
+      "TOP (A)",
+      "Albatros",
+      "KVS"
+    ]
+  },
+  "Overgangsklasse": {
+    "OKA": [
+      "Heerenveen",
+      "Ritola",
+      "CSL",
+      "OKO",
+      "SCO",
+      "Sparta (Zw)",
+      "Noordenveld",
+      "Wit Blauw"
+    ],
+    "OKB": [
+      "DOT (O)",
+      "NKC \u002751",
+      "Synergo",
+      "Apeldoorn",
+      "Antilopen",
+      "SKF",
+      "Amicitia (V)",
+      "NRC \u002722"
+    ],
+    "OKC": [
+      "ONDO (G)",
+      "Rohda (A)",
+      "Tempo",
+      "Pernix",
+      "Avanti (P)",
+      "Maassluis",
+      "VEO",
+      "KVZ \u002723"
+    ],
+    "OKD": [
+      "Fortis",
+      "Kinderdijk",
+      "Swift (M)",
+      "Tilburg",
+      "Vitesse (Ba)",
+      "Sporting Delta",
+      "DES (De)",
+      "Oranje Wit (D)"
+    ]
+  },
+  "1e Klasse": {
+    "1A": [
+      "De Wâlden",
+      "ROG",
+      "ASVD",
+      "Flamingo\u0027s (B)",
+      "Drachten",
+      "Rood Wit (W)",
+      "Harich",
+      "Kinea / Udiros"
+    ],
+    "1B": [
+      "De Pein",
+      "De Granaet",
+      "DOS Kampen",
+      "Hoogkerk",
+      "Wez Handich",
+      "KVW \u002722",
+      "De Parabool",
+      "ZKC \u002719"
+    ],
+    "1C": [
+      "Exakwa",
+      "KVZ",
+      "DOS-WK",
+      "Juventa",
+      "Devinco",
+      "Reehorst \u002745",
+      "Sparta (N)",
+      "Telstar"
+    ],
+    "1D": [
+      "Noviomagum",
+      "Woudenberg",
+      "Rust Roest (E)",
+      "Victum",
+      "Tiel \u002772",
+      "Animo (G)",
+      "Viking",
+      "SDO (V)"
+    ],
+    "1E": [
+      "BEP",
+      "De Vinken",
+      "Tweemaal Zes",
+      "Haarlem",
+      "KZ Danaiden",
+      "KIOS (N)",
+      "Swift",
+      "Velocitas (L)"
+    ],
+    "1F": [
+      "Sporting Trigon",
+      "De Meervogels",
+      "Atlantis",
+      "Excelsior (D)",
+      "SDO (K)",
+      "Fiducia",
+      "ALO",
+      "Refleks"
+    ],
+    "1G": [
+      "Vriendenschaar (H)",
+      "Korbis",
+      "Trekvogels (R)",
+      "Weidevogels",
+      "HKV / Ons Eibernest",
+      "NIO",
+      "ACKC",
+      "RWA"
+    ],
+    "1H": [
+      "Juliana",
+      "TOGO (G)",
+      "Tjoba",
+      "KOAG",
+      "Atlas",
+      "KCR",
+      "Merwede",
+      "ONDO (M)"
+    ]
+  },
+  "2e Klasse": {
+    "2A": [
+      "Leeuwarden",
+      "Sparta (Ze)",
+      "DTL",
+      "Joure",
+      "Pallas \u002708",
+      "Spannum",
+      "HHV",
+      "MN en W"
+    ],
+    "2B": [
+      "It Fean",
+      "VDDO",
+      "Lintjo",
+      "Elko",
+      "Thrianta",
+      "WWC",
+      "Quick \u002721 / Vlug en Vaardig (G)",
+      "IFC \u002725"
+    ],
+    "2C": [
+      "Zwart Wit",
+      "HKC (He)",
+      "SDO (S)",
+      "Stadskanaal \u002774",
+      "Achilles (A) / AKC",
+      "Elburg",
+      "Hellas \u002763",
+      "Blauw Zwart"
+    ],
+    "2D": [
+      "DWS (K)",
+      "PSV",
+      "Kesteren",
+      "Duko",
+      "ODIK",
+      "HKC (U)",
+      "Zwaluwen (Ze)",
+      "Arena"
+    ],
+    "2E": [
+      "Revival",
+      "Nova",
+      "MIA",
+      "Wolderwijd",
+      "OKV",
+      "Sporting West",
+      "Fortissimo",
+      "RODA (W)"
+    ],
+    "2F": [
+      "Badhoevedorp",
+      "Apollo",
+      "Phoenix (Z)",
+      "Fluks (N)",
+      "EKVA",
+      "DKV Victoria",
+      "HBC (Be)",
+      "Madjoe"
+    ],
+    "2G": [
+      "Good Luck",
+      "Erasmus",
+      "Movado",
+      "ODO (M)",
+      "Triade",
+      "DVS \u002769",
+      "IJsselvogels",
+      "Korbatjo"
+    ],
+    "2H": [
+      "ADO",
+      "OZC",
+      "Vriendenschaar (B)",
+      "Zuid \u002727",
+      "Reeuwijk",
+      "Blauw Wit (K)",
+      "DSO (K)",
+      "Zaamslag"
+    ]
+  },
+  "3e Klasse": {
+    "3A": [
+      "Westergo",
+      "Emmeloord",
+      "WIK \u002734",
+      "DTG",
+      "De Waterpoort",
+      "Lemmer",
+      "Olympia (T)",
+      "SF Deinum"
+    ],
+    "3B": [
+      "DWA / Argo",
+      "NKC (N)/Wees Kwiek",
+      "Vitesse (Be)",
+      "Oerterp",
+      "DTS (S) / Harkema",
+      "WSS",
+      "WK",
+      "Noveas"
+    ],
+    "3C": [
+      "EKC 2000",
+      "Oranje Zwart",
+      "Regio \u002772",
+      "Centrum",
+      "Roreko",
+      "Olympia \u002722",
+      "SDO (W)",
+      "TOP (V)"
+    ],
+    "3D": [
+      "Rivalen",
+      "Hemur Enge",
+      "SkunK",
+      "Rheko",
+      "KCD",
+      "EKCA",
+      "DKOD",
+      "SEV (Z)"
+    ],
+    "3E": [
+      "Thor (H)",
+      "RDZ",
+      "ESDO",
+      "Hebbes",
+      "Luno",
+      "Koveni",
+      "Huizen",
+      "DOS (W)"
+    ],
+    "3F": [
+      "Ados",
+      "De Corvers",
+      "DSO (A)",
+      "Furore",
+      "Helios",
+      "DTS (E)",
+      "Kleine Sluis",
+      "Stormvogels (U)"
+    ],
+    "3G": [
+      "GKV",
+      "Dijkvogels",
+      "Oosterkwartier (H)",
+      "Aurora / DKV (IJ)",
+      "VZOD",
+      "Paal Centraal",
+      "Rapid (H)",
+      "Dunas"
+    ],
+    "3H": [
+      "VIKO",
+      "OJC \u002798",
+      "Attila",
+      "NKV",
+      "Ready \u002760",
+      "KVS \u002717",
+      "OEC",
+      "DKB"
+    ],
+    "3I": [
+      "Gemini",
+      "WION",
+      "Nexus",
+      "Conventus",
+      "\u0027t Capproen",
+      "Olympia (S)",
+      "Ventura Sport",
+      "Twist"
+    ],
+    "3J": [
+      "Seolto",
+      "Oranje Zwart (M)",
+      "Luctor",
+      "SKV (S)",
+      "Focus",
+      "KVK",
+      "Keep Fit \u002770",
+      "Scheldevogels"
+    ]
+  }
+}

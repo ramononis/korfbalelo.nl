@@ -1,6 +1,5 @@
 package nl.korfbalelo.elo
 
-import nl.korfbalelo.elo.AccuracyTracker.accuracyRange
 import java.time.LocalDate
 import java.time.temporal.ChronoUnit
 import java.util.Comparator
@@ -109,19 +108,6 @@ class Team {
 
         val v = 1 / (g * g * bigE * (1.0 - bigE))
         val delta = v * g * (s - bigE)
-        (diff.sign - dr.sign.toInt()).let { resultD ->
-            if (atHome) {
-                if (match.date in accuracyRange.first..accuracyRange.second) {
-                    ns++
-                    if (ApplicationNew.log) {
-                        totalDiff += diff.absoluteValue
-                    }
-                    if (resultD == 0) {
-                        benchmark2Field += diff.absoluteValue
-                    }
-                }
-            }
-        }
 
         val a = ln(sig1 * sig1)
         fun f(x: Double) =
@@ -156,7 +142,7 @@ class Team {
         if (muD.isNaN()) {
             error("WTF")
         }
-        deltaBenchmark += muD.absoluteValue
+        PredictionBenchmark.recordRatingDelta(muD.absoluteValue)
         val muPrime = mu1 + muD
         val rPrime = D * muPrime + 1500.0
         val rdPrime = D * phiPrime
@@ -174,23 +160,6 @@ class Team {
                 if (match.guessHome == match.guessAway) {
                     match.guessHome += dr.sign.toInt()
                 }
-                if (trackCurrent) {
-                    nAllMatchesBM++
-                    if (match.guessHome == _for && match.guessAway == against) {
-                        nVeryCorrectBM++
-                    }
-                    if (diff != 0) {
-                        nMatchesBM++
-
-                        if (diff.sign == dr.sign.toInt()) {
-                            nCorrectBM++
-                        } else {
-                            if (min(match.pHome, match.pAway) < 0.06 && rd < 250.0 && opponent.rd < 250) {
-                                Thread.yield()
-                            }
-                        }
-                    }
-                }
                 match.homeDiff = rPrime - rating
                 match.homeRating = rating
                 match.awayRating = opponent.rating
@@ -204,8 +173,6 @@ class Team {
         }
 
         if (atHome) {
-            if (match.date in accuracyRange.first..accuracyRange.second)
-                benchmark3Field -= (diffDistro.first - diff).absoluteValue + sqrt((sumAve - (_for + against) / 2).absoluteValue)
             H += delta * H_SPEED
         }
 
@@ -246,12 +213,6 @@ class Team {
     companion object {
         const val MAGIC_1500 = 1500.0000000001
         val allTeams = mutableSetOf<Team>()
-        var ns = 0
-        var deltaBenchmark = 0.0
-        var minDeltaBenchmark = Double.MAX_VALUE
-        var benchmark2Field = 0
-        var benchmark3Field = 0.0
-        var totalDiff = 0
         var trackCurrent = false
         const val D = 173.7178 // non-tweakable
         const val RD_MAX = 350.0
@@ -262,19 +223,10 @@ class Team {
         // average score to sd:
         const val SD_A = 0.166
         const val SD_B = 1.85
-        var nMatchesBM = 0
-        var nAllMatchesBM = 0
-        var nCorrectBM = 0
-        var nVeryCorrectBM = 0
-
         var H = java.lang.Double.NaN
         val TAU = 0.6 // volatility constant
         const val EPSILON = 0.000001 // non-tweakable
         fun reset() {
-            ns = 0
-            deltaBenchmark = 0.0
-            benchmark2Field = 0
-            benchmark3Field = 0.0
             trackCurrent = false
             H = 35.0
         }

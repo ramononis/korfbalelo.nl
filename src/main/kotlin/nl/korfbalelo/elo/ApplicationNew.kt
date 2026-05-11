@@ -7,21 +7,17 @@ import nl.korfbalelo.elo.application.RatingPipeline
 import nl.korfbalelo.elo.domain.RatingRunWindow
 import nl.korfbalelo.elo.infrastructure.FileEventCatalog
 import nl.korfbalelo.elo.infrastructure.FileRatingOutputs
-import nl.korfbalelo.elo.startratings.StartRatingFinder.off
 import nl.korfbalelo.mijnkorfbal.Scraper
 import nl.korfbalelo.mijnkorfbal.Scraper.indoorPoules
 import nl.korfbalelo.mijnkorfbal.Scraper.outdoorPoules
 import nl.korfbalelo.mijnkorfbal.StaticPoules
 import java.io.File
-import java.text.DecimalFormat
 import java.time.LocalDate
 import kotlin.jvm.JvmStatic
-import kotlin.math.min
 
 object ApplicationNew {
     var forceOutput = false
     var log = true
-    val format = DecimalFormat("##.#####%")
     var startRatings = File("startratings.csv").readLines().filter(String::isNotBlank)
         .associate { it.split(",").let { (a, b) -> a to b.toDouble() } }.toMutableMap()
 
@@ -61,7 +57,7 @@ object ApplicationNew {
     @JvmStatic
     fun main(args: Array<String>) {
         main(LocalDate.now(), LocalDate.now().minusDays(1)) {}
-        Team.minDeltaBenchmark = min(Team.deltaBenchmark, Team.minDeltaBenchmark)
+        PredictionBenchmark.finishRun()
     }
 
     val matchesRemembered by lazy {
@@ -105,17 +101,9 @@ object ApplicationNew {
             outputFiles.writeGraph(RankingNew.graph)
         }
 
-        if (maxPredicability < Team.benchmark2Field) {
-            maxPredicability = Team.benchmark2Field
-            println("\nPredictability benchmark: ${maxPredicability - record} - ${format.format(maxPredicability.toDouble() / Team.totalDiff)}")
-        }
-        printlnn("Delta benchmark: ${off - Team.deltaBenchmark}")
+        printlnn("Prediction benchmark: ${PredictionBenchmark.accuracy.summary().compactLine()}")
         if (log) {
             val maxId = outputFiles.writeAggregates(events)
-            if (maxPredicability2 < Team.benchmark3Field) {
-                maxPredicability2 = Team.benchmark3Field
-                println("\nPredictability benchmark2: ${maxPredicability2 + record2}")
-            }
             val hasScrapedPoules = indoorPoules.isNotEmpty() || outdoorPoules.isNotEmpty()
             if (hasScrapedPoules) {
                 if (doOutdoor) {
@@ -135,6 +123,10 @@ object ApplicationNew {
                 "SD_B" to Team.SD_B,
                 "RD_PERIOD_DAYS" to Team.RD_PERIOD_DAYS,
                 "RD_MAX" to Team.RD_MAX,
+                "SCORE_RATING_TWEAK_MODE" to ScoreRatingTweak.config.mode.name,
+                "SCORE_RATING_TWEAK_LEARNING_RATE" to ScoreRatingTweak.config.learningRate,
+                "SCORE_RATING_TWEAK_MAX_ADJUSTMENT" to ScoreRatingTweak.config.maxAdjustment,
+                "SCORE_RATING_TWEAK_MIN_GAMES" to ScoreRatingTweak.config.minGames,
                 "MAX_ID" to maxId,
                 "ACTIVE_SEASON" to primaryActiveSeason.seasonName,
                 "ACTIVE_MODE" to primaryActiveSeason.mode.name.lowercase(),
@@ -142,16 +134,11 @@ object ApplicationNew {
                 "INDOOR_SEASON" to SeasonContext.indoor.seasonName,
                 "OUTDOOR_SEASON" to SeasonContext.outdoor.seasonName,
             )))
-            println("This season correct predictions: ${Team.nCorrectBM} / ${Team.nMatchesBM} = ${(Team.nCorrectBM.toDouble() / Team.nMatchesBM) * 100.0}%")
-            println("This season perfect predictions: ${Team.nVeryCorrectBM} / ${Team.nAllMatchesBM} = ${(Team.nVeryCorrectBM.toDouble() / Team.nAllMatchesBM) * 100.0}%")
+            val currentSummary = PredictionBenchmark.current.summary()
+            println("This season prediction benchmark: ${currentSummary.compactLine()}")
         }
         Thread.yield()
     }
-
-    const val record = 427497
-    var maxPredicability = -1000000000
-    const val record2 = 661548.2851552791
-    var maxPredicability2 = -1000000000.0
 
     fun printlnn(string: Any?) {
         if (log) println(string)

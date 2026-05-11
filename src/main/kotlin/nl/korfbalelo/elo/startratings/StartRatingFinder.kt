@@ -4,9 +4,8 @@ import nl.korfbalelo.elo.ApplicationNew
 import nl.korfbalelo.elo.ApplicationNew.log
 import nl.korfbalelo.elo.ApplicationNew.startRatings
 import nl.korfbalelo.elo.ApplicationNew.isolatedClusters
+import nl.korfbalelo.elo.PredictionBenchmark
 import nl.korfbalelo.elo.SpawnEvent
-import nl.korfbalelo.elo.Team.Companion.deltaBenchmark
-import nl.korfbalelo.elo.Team.Companion.minDeltaBenchmark
 import nl.korfbalelo.elo.parseEvent
 import java.io.File
 import kotlin.math.max
@@ -30,19 +29,19 @@ object StartRatingFinder {
         ApplicationNew.main(emptyArray())
         log = false
 
-        return off - deltaBenchmark
+        return off - PredictionBenchmark.ratingDeltaMagnitude
     }
     fun doIt(event: String): Double {
         val before = startRatings[event] ?: 0.0
         var x1 = (before - window)
         var x2 = before
         var x3 = (before + window)
-        val memo = mutableMapOf(before to off - minDeltaBenchmark)
+        val memo = mutableMapOf(before to off - PredictionBenchmark.minRatingDeltaMagnitude)
         fun doIt2(startRating: Double) = memo.getOrPut(startRating) {
             doIt(event, startRating)
         }
         log = false
-        var y2 = off - minDeltaBenchmark
+        var y2 = off - PredictionBenchmark.minRatingDeltaMagnitude
         var y1 = doIt2(x1)
         var y3 = doIt2(x3)
         while(!(y2 >= y1 && y2 >= y3)
@@ -77,19 +76,19 @@ object StartRatingFinder {
     fun main(args: Array<String>) {
         ApplicationNew.main(emptyArray())
         replaceStringInFile()
-//        off = deltaBenchmark
+//        off = PredictionBenchmark.ratingDeltaMagnitude
         val commands = File("club_events.txt").readLines().filter(String::isNotBlank).map(::parseEvent).filterIsInstance<SpawnEvent>().filter {
             it.toString() !in isolatedClusters
         }
         val commandsEvents = commands.map{it.toString()}.toSet()
         commands.forEach {
             if (it.toString() !in startRatings) {
-                val before = minDeltaBenchmark
+                val before = PredictionBenchmark.minRatingDeltaMagnitude
                 val prevStartRating = startRatings[it.toString()]
                 val startRating = doIt(it.toString())
                 startRatings[it.toString()] = startRating
 //                println("Choosing: $it $startRating")
-                val performance = before - minDeltaBenchmark
+                val performance = before - PredictionBenchmark.minRatingDeltaMagnitude
 //                if (performance <= 0.0 && prevStartRating != startRating) {
 //                    error("WTF: $it")
 //                }
@@ -107,23 +106,23 @@ object StartRatingFinder {
                 if (maxPerf == 0.0) {
                     if (todo.size == commandsEvents.size) {
                         window /= 2.0
-                        commandFile.appendText("${off - minDeltaBenchmark}\twindow increase to $window\n")
+                        commandFile.appendText("${off - PredictionBenchmark.minRatingDeltaMagnitude}\twindow increase to $window\n")
                     }
                     todo.clear()
                     todo.addAll(commandsEvents)
                     succesCommands.clear()
-                    commandFile.appendText("${off - minDeltaBenchmark}\treset\n")
+                    commandFile.appendText("${off - PredictionBenchmark.minRatingDeltaMagnitude}\treset\n")
                 } else {
                     todo.clear()
                     todo.addAll(succesCommands)
-                    commandFile.appendText("${off - minDeltaBenchmark}\treset, restrict to ${todo.size}\n")
+                    commandFile.appendText("${off - PredictionBenchmark.minRatingDeltaMagnitude}\treset, restrict to ${todo.size}\n")
                     succesCommands.clear()
                 }
                 maxPerf = 0.0
                 replaceStringInFile()
                 continue
             }
-            val before = minDeltaBenchmark
+            val before = PredictionBenchmark.minRatingDeltaMagnitude
 //            print(prevPerf + "\t")
             val oldStartMem = startRatings[event]
             if (oldStart.toDouble() != oldStartMem) {
@@ -132,12 +131,12 @@ object StartRatingFinder {
             val startRating = if (event in todo) doIt(event) else oldStart.toDouble()
 //            println("set $event to $startRating")
             startRatings[event] = startRating
-            val performance = before - minDeltaBenchmark
+            val performance = before - PredictionBenchmark.minRatingDeltaMagnitude
             maxPerf = max(maxPerf, performance)
             if (performance > 0.0) {
                 succesCommands += event
                 print("\t" +
-                    "${off - minDeltaBenchmark}")
+                    "${off - PredictionBenchmark.minRatingDeltaMagnitude}")
             }
             replaceLineInFile("startratings.csv", event, "$event,$startRating,$performance\n")
         }
@@ -181,4 +180,3 @@ object StartRatingFinder {
     }
 
 }
-

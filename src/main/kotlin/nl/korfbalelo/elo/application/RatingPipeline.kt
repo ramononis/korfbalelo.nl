@@ -2,8 +2,10 @@ package nl.korfbalelo.elo.application
 
 import nl.korfbalelo.elo.AccuracyTracker
 import nl.korfbalelo.elo.DiscontinuedTeams
+import nl.korfbalelo.elo.PredictionBenchmark
 import nl.korfbalelo.elo.RankingEvent
 import nl.korfbalelo.elo.RankingNew
+import nl.korfbalelo.elo.ScoreRatingTweak
 import nl.korfbalelo.elo.SpawnEvent
 import nl.korfbalelo.elo.Team
 import nl.korfbalelo.elo.domain.RatingRunResult
@@ -23,9 +25,12 @@ class RatingPipeline(
         window: RatingRunWindow,
         activeTeams: Set<String>,
         logEnabled: Boolean,
+        rebalanceRatings: Boolean = logEnabled,
         onDate: (LocalDate) -> Unit,
     ): RatingRunResult {
         Team.reset()
+        PredictionBenchmark.reset()
+        ScoreRatingTweak.reset()
         RankingNew.ranking.clear()
         RankingNew.aliases.clear()
         RankingNew.graph.clear()
@@ -45,14 +50,17 @@ class RatingPipeline(
                 if (date.isAfter(trackStartDate)) {
                     Team.trackCurrent = true
                 }
-            } else if (dateEvents.any { it is SpawnEvent }) {
+            } else if (!rebalanceRatings && dateEvents.any { it is SpawnEvent }) {
                 RankingNew.rebalance()
             }
 
+            ScoreRatingTweak.prepare(date, RankingNew.ranking.values)
             dateEvents.forEach(RankingEvent::run)
 
-            if (logEnabled) {
+            if (rebalanceRatings) {
                 RankingNew.rebalance()
+            }
+            if (logEnabled) {
                 val average = RankingNew.ranking.values.map(Team::rating).average()
                 if ((average - 1500.0).absoluteValue > 0.1) {
                     error("$average$date")

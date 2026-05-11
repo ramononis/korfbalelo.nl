@@ -69,6 +69,12 @@ tasks.register<JavaExec>("scrape") {
     forwardSystemProperties("elo.scraper.")
 }
 
+tasks.register<JavaExec>("benchmarkScoreRating") {
+    classpath = sourceSets["main"].runtimeClasspath
+    mainClass.set("nl.korfbalelo.elo.ScoreRatingBenchmark")
+    forwardSystemProperties("elo.model.", "elo.benchmark.")
+}
+
 tasks.test {
     useJUnitPlatform()
 }

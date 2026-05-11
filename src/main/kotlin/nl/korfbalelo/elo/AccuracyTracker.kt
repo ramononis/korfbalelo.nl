@@ -1,8 +1,6 @@
 package nl.korfbalelo.elo
 
 import nl.korfbalelo.elo.ApplicationNew.events
-import nl.korfbalelo.elo.ApplicationNew.format
-import nl.korfbalelo.elo.ApplicationNew.maxPredicability
 import java.io.File
 import java.time.LocalDate
 import java.time.temporal.TemporalAdjusters
@@ -22,17 +20,16 @@ object AccuracyTracker {
     fun main(args: Array<String>) {
         val file = File("accuracy.csv")
         ignoreMatchesBelow = accuracyRange.first
+        ApplicationNew.log = false
         ApplicationNew.main(emptyArray())
 
-        ApplicationNew.log = false
-
-        val record = maxPredicability.toDouble() / Team.totalDiff
-        println("Start score = ${format.format(record)}")
+        val record = PredictionBenchmark.accuracy.summary().weightedMarginAccuracy
+        println("Start score = ${record.formatPct()}")
         file.writeText("date,score\n${accuracyRange.first},$record\n")
         events.map { it.date.with(TemporalAdjusters.firstDayOfNextMonth()) }.toSet().filter { it < accuracyRange.first }.sortedDescending().forEach { ignoreBelow ->
             ignoreMatchesBelow = ignoreBelow
             ApplicationNew.main(emptyArray())
-            file.appendText("$ignoreBelow,${Team.benchmark2Field.toDouble() / Team.totalDiff}\n")
+            file.appendText("$ignoreBelow,${PredictionBenchmark.accuracy.summary().weightedMarginAccuracy}\n")
         }
     }
 }
