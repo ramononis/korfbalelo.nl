@@ -44,10 +44,14 @@ jobs:
               --jq '[.author.login, (.isDraft | tostring), .headRefOid] | @tsv'
           )
 
-          if [[ "$author" != "dependabot[bot]" ]]; then
-            echo "Skipping PR #$pr_number because author is $author"
-            exit 0
-          fi
+          case "$author" in
+            dependabot\[bot\]|app/dependabot)
+              ;;
+            *)
+              echo "Skipping PR #$pr_number because author is $author"
+              exit 0
+              ;;
+          esac
 
           if [[ "$is_draft" == "true" ]]; then
             echo "Skipping draft Dependabot PR #$pr_number"
