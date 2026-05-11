@@ -1,0 +1,64 @@
+name: Dependabot Auto Merge
+
+on:
+  workflow_run:
+    workflows:
+      - Build and Test
+    types:
+      - completed
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  merge:
+    if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'pull_request'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Merge green Dependabot PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          pr_number=$(
+            gh api \
+              -H "Accept: application/vnd.github+json" \
+              "repos/$REPO/commits/$HEAD_SHA/pulls" \
+              --jq '[.[] | select(.state == "open")] | first | .number // ""'
+          )
+
+          if [[ -z "$pr_number" ]]; then
+            echo "No open pull request found for $HEAD_SHA"
+            exit 0
+          fi
+
+          read -r author is_draft current_head_sha < <(
+            gh pr view "$pr_number" \
+              --repo "$REPO" \
+              --json author,isDraft,headRefOid \
+              --jq '[.author.login, (.isDraft | tostring), .headRefOid] | @tsv'
+          )
+
+          if [[ "$author" != "dependabot[bot]" ]]; then
+            echo "Skipping PR #$pr_number because author is $author"
+            exit 0
+          fi
+
+          if [[ "$is_draft" == "true" ]]; then
+            echo "Skipping draft Dependabot PR #$pr_number"
+            exit 0
+          fi
+
+          if [[ "$current_head_sha" != "$HEAD_SHA" ]]; then
+            echo "Skipping stale workflow run for PR #$pr_number"
+            echo "Workflow SHA: $HEAD_SHA"
+            echo "Current PR SHA: $current_head_sha"
+            exit 0
+          fi
+
+          gh pr merge "$pr_number" --repo "$REPO" --squash --delete-branch
