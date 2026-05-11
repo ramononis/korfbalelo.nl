@@ -50,7 +50,7 @@ object RankingNew {
             return
         }
 
-        val diffDistro = diffDistroBetween(home, away)
+        val diffDistro = diffDistroBetween(home, away, match.date)
         PredictionBenchmark.record(match, home, away, diffDistro)
         val awayRating = away.newRating(home, awayScore, homeScore, false, match, -diffDistro.first to diffDistro.second)
         val homeRating = home.newRating(away, homeScore, awayScore, true, match, diffDistro)
@@ -61,6 +61,7 @@ object RankingNew {
             homeUpdate = homeRating,
             awayUpdate = awayRating,
         )
+        ScoreSeasonality.learn(match, home, away, diffDistro)
 //        val addedTotalRating = awayRating.first + homeRating.first - home.rating - away.rating
 
 //        if (recordFrom.isBefore(match.date) && match.date.isBefore(recordTo)){

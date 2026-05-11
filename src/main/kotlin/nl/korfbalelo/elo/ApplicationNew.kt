@@ -117,16 +117,27 @@ object ApplicationNew {
             SeasonContext.writeFrontendSeasonModule()
             val primaryActiveSeason = SeasonContext.primaryActive
             val activeSeasonNames = SeasonContext.active.map { it.seasonName }
+            val seasonalitySummary = ScoreSeasonality.summary()
             File("web/public/meta.json").writeText(gson.toJson(mapOf(
                 "H" to Team.H,
                 "SD_A" to Team.SD_A,
                 "SD_B" to Team.SD_B,
                 "RD_PERIOD_DAYS" to Team.RD_PERIOD_DAYS,
                 "RD_MAX" to Team.RD_MAX,
+                "INITIAL_HOME_ADVANTAGE" to RatingModel.config.initialHomeAdvantage,
+                "HOME_ADVANTAGE_SPEED" to RatingModel.config.homeAdvantageSpeed,
+                "SCORE_SPEED_INV" to RatingModel.config.scoreSpeedInv,
+                "MARGIN_RATING_SCALE" to RatingModel.config.marginRatingScale,
+                "MIN_AVERAGE_SCORE" to RatingModel.config.minAverageScore,
                 "SCORE_RATING_TWEAK_MODE" to ScoreRatingTweak.config.mode.name,
                 "SCORE_RATING_TWEAK_LEARNING_RATE" to ScoreRatingTweak.config.learningRate,
                 "SCORE_RATING_TWEAK_MAX_ADJUSTMENT" to ScoreRatingTweak.config.maxAdjustment,
                 "SCORE_RATING_TWEAK_MIN_GAMES" to ScoreRatingTweak.config.minGames,
+                "SCORE_SEASONALITY_MODE" to ScoreSeasonality.config.mode.name,
+                "SCORE_SEASONALITY_LEARNING_RATE" to ScoreSeasonality.config.learningRate,
+                "SCORE_SEASONALITY_MAX_ADJUSTMENT" to ScoreSeasonality.config.maxAdjustment,
+                "SCORE_SEASONALITY_HALF_LIFE_DAYS" to ScoreSeasonality.config.halfLifeDays,
+                "SCORE_SEASONALITY_MONTH_OFFSETS" to seasonalitySummary.monthOffsets,
                 "MAX_ID" to maxId,
                 "ACTIVE_SEASON" to primaryActiveSeason.seasonName,
                 "ACTIVE_MODE" to primaryActiveSeason.mode.name.lowercase(),

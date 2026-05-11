@@ -6,6 +6,7 @@ import nl.korfbalelo.elo.PredictionBenchmark
 import nl.korfbalelo.elo.RankingEvent
 import nl.korfbalelo.elo.RankingNew
 import nl.korfbalelo.elo.ScoreRatingTweak
+import nl.korfbalelo.elo.ScoreSeasonality
 import nl.korfbalelo.elo.SpawnEvent
 import nl.korfbalelo.elo.Team
 import nl.korfbalelo.elo.domain.RatingRunResult
@@ -31,6 +32,7 @@ class RatingPipeline(
         Team.reset()
         PredictionBenchmark.reset()
         ScoreRatingTweak.reset()
+        ScoreSeasonality.reset()
         RankingNew.ranking.clear()
         RankingNew.aliases.clear()
         RankingNew.graph.clear()
@@ -54,6 +56,7 @@ class RatingPipeline(
                 RankingNew.rebalance()
             }
 
+            ScoreSeasonality.prepare(date)
             ScoreRatingTweak.prepare(date, RankingNew.ranking.values)
             dateEvents.forEach(RankingEvent::run)
 

@@ -112,7 +112,7 @@ export default class PoulePredicter {
       const a = teamsCopy[aI]!
       h.sampleRating(date)
       a.sampleRating(date)
-      const distro = distroBetween(h, a, singleRoundRobin)
+      const distro = distroBetween(h, a, singleRoundRobin, date)
       const [sh, sa] = sampleMatch(distro)
       matches[m] = [sh, sa, date]
       const bal = sh - sa

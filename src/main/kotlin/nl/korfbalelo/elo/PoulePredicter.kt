@@ -170,8 +170,8 @@ class PoulePredicter(
         fixtures.forEach { m ->
             val home = ranking[m.home] ?: error("missing ranking for fixture home team '${m.home}'")
             val away = ranking[m.away] ?: error("missing ranking for fixture away team '${m.away}'")
-            val diffDistro = diffDistroBetween(home, away)
-            val distro = distroBetween(home, away)
+            val diffDistro = diffDistroBetween(home, away, m.date)
+            val distro = distroBetween(home, away, date = m.date)
             m.pHome = 1.0 - diffDistro.cdf(0.5)
             m.pDraw = diffDistro.cdf(0.5) - diffDistro.cdf(-0.5)
             m.pAway = diffDistro.cdf(-0.5)
@@ -232,7 +232,12 @@ class PoulePredicter(
         fun doMatch(m: Int, date: LocalDate) {
             val h = m / n
             val a = m % n
-            val (sh, sa) = distroBetween(teamsCopy[h].also{it.sampleRating(date)}, teamsCopy[a].also{it.sampleRating(date)}, oneway).sample()
+            val (sh, sa) = distroBetween(
+                teamsCopy[h].also { it.sampleRating(date) },
+                teamsCopy[a].also { it.sampleRating(date) },
+                neutral = oneway,
+                date = date,
+            ).sample()
             val result = sh to sa ot date
             matches[m] = result
             val r = result.pts()

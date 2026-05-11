@@ -20,12 +20,26 @@ export function getRatingColor(rating: number | string): string {
 
   return `hsl(${hue}, ${colorValue}, 50%)`;}
 
-export function distroBetween(home: Team, away: Team, neutral: boolean = false): [[number, number], [number, number]] {
+function adjustedAverageScore(averageScore: number, date?: Date): number {
+  if (
+    metaData?.SCORE_SEASONALITY_MODE !== 'MONTHLY_OFFSET' ||
+    !date ||
+    !metaData.SCORE_SEASONALITY_MONTH_OFFSETS
+  ) {
+    return averageScore
+  }
+
+  const monthOffset = metaData.SCORE_SEASONALITY_MONTH_OFFSETS[date.getMonth()] ?? 0.0
+  return Math.max(metaData.MIN_AVERAGE_SCORE ?? 0.5, averageScore + monthOffset)
+}
+
+export function distroBetween(home: Team, away: Team, neutral: boolean = false, date?: Date): [[number, number], [number, number]] {
   const rh = home.rating + (neutral ? 0.0 : metaData!.H)
   const ra = away.rating
-  const muH = home.averageScore
-  const muA = away.averageScore
-  const twoP = 2.0 / (1.0 + 10 ** ((ra - rh) / 400.0))
+  const muH = adjustedAverageScore(home.averageScore, date)
+  const muA = adjustedAverageScore(away.averageScore, date)
+  const marginScale = metaData!.MARGIN_RATING_SCALE ?? 400.0
+  const twoP = 2.0 / (1.0 + 10 ** ((ra - rh) / marginScale))
   const sdH = muH * metaData!.SD_A + metaData!.SD_B
   const sdA = muA * metaData!.SD_A + metaData!.SD_B
   const sdDiff = Math.sqrt(sdH * sdH + sdA * sdA)

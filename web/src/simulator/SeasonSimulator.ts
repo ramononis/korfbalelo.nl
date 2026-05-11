@@ -31,6 +31,10 @@ export type MetaData = {
   SD_B: number,
   RD_PERIOD_DAYS: number,
   RD_MAX: number,
+  MARGIN_RATING_SCALE?: number,
+  MIN_AVERAGE_SCORE?: number,
+  SCORE_SEASONALITY_MODE?: 'OFF' | 'MONTHLY_OFFSET',
+  SCORE_SEASONALITY_MONTH_OFFSETS?: number[],
   MAX_ID: number,
 }
 export let metaData: MetaData

@@ -14,8 +14,8 @@ object ScoreRatingBenchmark {
     @JvmStatic
     fun main(args: Array<String>) {
         val quick = "quick" in args
-        val window = AccuracyTracker.accuracyRange
         val events = eventCatalog.loadAllEvents()
+        val window = BenchmarkWindow.fromEvents(events)
         ApplicationNew.log = false
 
         val configs = configs(quick)
@@ -54,7 +54,9 @@ object ScoreRatingBenchmark {
         events: Set<RankingEvent>,
     ): ScoreRatingBenchmarkResult {
         ScoreRatingTweak.config = config
+        ScoreSeasonality.config = ScoreSeasonalityConfig.off
         PredictionBenchmark.range = window
+        AccuracyTracker.ignoreMatchesBelow = window.first
         RatingPipeline().run(
             events = events,
             window = RatingRunWindow(window.first, window.second),

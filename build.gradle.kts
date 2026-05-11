@@ -54,13 +54,13 @@ application {
 }
 
 tasks.named<JavaExec>("run") {
-    forwardSystemProperties("elo.scraper.")
+    forwardSystemProperties("elo.model.", "elo.scraper.")
 }
 // Add a new task for running the alternative class
 tasks.register<JavaExec>("predict") {
     classpath = sourceSets["main"].runtimeClasspath
     mainClass.set("nl.korfbalelo.elo.SeasonPredicter") // Replace with your other class name
-    forwardSystemProperties("elo.predict.", "elo.scraper.")
+    forwardSystemProperties("elo.model.", "elo.predict.", "elo.scraper.")
 }
 
 tasks.register<JavaExec>("scrape") {
@@ -72,6 +72,12 @@ tasks.register<JavaExec>("scrape") {
 tasks.register<JavaExec>("benchmarkScoreRating") {
     classpath = sourceSets["main"].runtimeClasspath
     mainClass.set("nl.korfbalelo.elo.ScoreRatingBenchmark")
+    forwardSystemProperties("elo.model.", "elo.benchmark.")
+}
+
+tasks.register<JavaExec>("benchmarkModel") {
+    classpath = sourceSets["main"].runtimeClasspath
+    mainClass.set("nl.korfbalelo.elo.RatingModelBenchmark")
     forwardSystemProperties("elo.model.", "elo.benchmark.")
 }
 

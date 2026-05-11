@@ -2,19 +2,11 @@ package nl.korfbalelo.elo
 
 import java.time.LocalDate
 import java.time.temporal.ChronoUnit
-import java.util.Comparator
-import java.util.SortedSet
 import java.util.random.RandomGenerator
-import kotlin.math.PI
 import kotlin.math.absoluteValue
-import kotlin.math.exp
-import kotlin.math.ln
 import kotlin.math.max
-import kotlin.math.min
-import kotlin.math.pow
 import kotlin.math.roundToInt
 import kotlin.math.sign
-import kotlin.math.sqrt
 
 data class RatingUpdate(
     val rating: Double,
@@ -52,7 +44,7 @@ class Team {
         }
 
     var rd: Double = RD_MAX / 2.0
-    var rv: Double = 0.06
+    var rv: Double = Glicko2Calculator.DEFAULT_VOLATILITY
     var averageScore = 5.0
     var currentDiff = 0.0
     var origins = 1
@@ -82,9 +74,13 @@ class Team {
     }
 
     fun setNewRD(date: LocalDate) {
-        val phiPre = rd / D
         val periods = ChronoUnit.DAYS.between(lastDate ?: date, date) / RD_PERIOD_DAYS
-        rd = min(RD_MAX / D, sqrt(phiPre * phiPre + periods * rv * rv)) * D
+        rd = Glicko2Calculator.ageRatingDeviation(
+            ratingDeviation = rd,
+            volatility = rv,
+            periods = periods,
+            maxRatingDeviation = RD_MAX,
+        )
         lastDate = date
     }
 
@@ -97,68 +93,36 @@ class Team {
         diffDistro: ND
     ): RatingUpdate {
         val diff = _for - against
-        val sumAve = (averageScore + opponent.averageScore) / 2
-        val s = 1.0 - diffDistro.cdf(diffDistro.first - diff.toDouble())
+        val ownAverageScore = ScoreSeasonality.adjustedAverageScore(averageScore, match.date)
+        val opponentAverageScore = ScoreSeasonality.adjustedAverageScore(opponent.averageScore, match.date)
+        val sumAve = (ownAverageScore + opponentAverageScore) / 2
+        val matchScore = 1.0 - diffDistro.cdf(diffDistro.first - diff.toDouble())
         val expScore = sumAve + diffDistro.first * 0.5
-
-        val mu1 = (rating - 1500.0) / D
-        val phi1 = rd / D
-        var mu2 = (opponent.rating - 1500.0) / D
-        val phi2 = opponent.rd / D
-        mu2 -= when (atHome) {
-            true -> H
-            false -> -H
-        } / D
-
-        val sig1 = rv
-
-        val g = 1.0 / sqrt(1.0 + 3.0 * phi2 * phi2 / PI / PI)
-        val dr = mu1 - mu2
-        val bigE = 1.0 / (1.0 + exp(-g * dr))
-
-        val v = 1 / (g * g * bigE * (1.0 - bigE))
-        val delta = v * g * (s - bigE)
-
-        val a = ln(sig1 * sig1)
-        fun f(x: Double) =
-            exp(x) * (delta * delta - phi1 * phi1 - v - exp(x)) / (2.0 * (phi1 * phi1 + v + exp(x)).pow(2)) - (x - a) / (TAU * TAU)
-
-        var bigA = a
-        var bigB = if (delta * delta > phi1 * phi1 + v) ln(delta * delta - phi1 * phi1 - v)
-        else run {
-            var k = 1
-            while (f(a - k * TAU) < 0.0) {
-                k++
-            }
-            a - k * TAU
-        }
-        var fA = f(bigA)
-        var fB = f(bigB)
-        while ((bigB - bigA).absoluteValue > EPSILON) {
-            val bigC = bigA + (bigA - bigB) * fA / (fB - fA)
-            val fC = f(bigC)
-            if (fC * fB <= 0.0) {
-                bigA = bigB
-                fA = fB
-            } else {
-                fA /= 2.0
-            }
-            bigB = bigC
-            fB = fC
-        }
-        val sigPrime = exp(bigA / 2.0)
-        val phiPrime = min(RD_MAX / D, 1.0 / sqrt(1.0 / phi1 / phi1 + 1.0 / v))
-        val muD = phiPrime * phiPrime * (g * (s - bigE))
-        if (muD.isNaN()) {
-            error("rating delta for ${name} became NaN against ${opponent.name} on ${match.date}")
-        }
-        PredictionBenchmark.recordRatingDelta(muD.absoluteValue)
-        val muPrime = mu1 + muD
-        val rPrime = D * muPrime + 1500.0
-        val rdPrime = D * phiPrime
+        val homeAdvantageForTeam = if (atHome) H else -H
+        val glickoUpdate = Glicko2Calculator.update(
+            player = Glicko2Rating(
+                rating = rating,
+                ratingDeviation = rd,
+                volatility = rv,
+            ),
+            game = Glicko2Game(
+                opponent = Glicko2Rating(
+                    rating = opponent.rating,
+                    ratingDeviation = opponent.rd,
+                    volatility = opponent.rv,
+                ),
+                score = matchScore,
+                opponentRatingPenalty = homeAdvantageForTeam,
+            ),
+            maxRatingDeviation = RD_MAX,
+        )
+        PredictionBenchmark.recordRatingDelta(glickoUpdate.normalizedRatingDelta.absoluteValue)
+        val rPrime = glickoUpdate.rating.rating
+        val rdPrime = glickoUpdate.rating.ratingDeviation
 
         if (trackCurrent) currentDiff += rPrime - rating
-        val newAverageScore = averageScore + (_for - expScore) / SCORE_SPEED_INV * v * g
+        val scoreLearningWeight = glickoUpdate.ratingPeriodVariance * glickoUpdate.opponentImpact
+        val newAverageScore = averageScore + (_for - expScore) / SCORE_SPEED_INV * scoreLearningWeight
 
         if (ApplicationNew.log) {
             if (atHome) {
@@ -168,7 +132,8 @@ class Team {
                 match.guessHome = expScore.roundToInt()
                 match.guessAway = (expScore - diffDistro.first).roundToInt()
                 if (match.guessHome == match.guessAway) {
-                    match.guessHome += dr.sign.toInt()
+                    val adjustedOpponentRating = opponent.rating - homeAdvantageForTeam
+                    match.guessHome += (rating - adjustedOpponentRating).sign.toInt()
                 }
                 match.homeDiff = rPrime - rating
                 match.homeRating = rating
@@ -183,7 +148,7 @@ class Team {
         }
 
         if (atHome) {
-            H += delta * H_SPEED
+            H += glickoUpdate.estimatedImprovement * H_SPEED
         }
 
         games++
@@ -192,7 +157,7 @@ class Team {
         return RatingUpdate(
             rating = rPrime,
             rd = rdPrime,
-            rv = sigPrime,
+            rv = glickoUpdate.rating.volatility,
             averageScore = newAverageScore,
         )
     }
@@ -201,7 +166,7 @@ class Team {
         rating = update.rating
         rd = update.rd
         rv = update.rv
-        averageScore = max(0.5, update.averageScore)
+        averageScore = max(RatingModel.config.minAverageScore, update.averageScore)
     }
 
     override fun toString(): String {
@@ -229,21 +194,24 @@ class Team {
         const val MAGIC_1500 = 1500.0000000001
         val allTeams = mutableSetOf<Team>()
         var trackCurrent = false
-        const val D = 173.7178 // non-tweakable
-        const val RD_MAX = 350.0
-        const val RD_PERIOD_DAYS = 1.0
-        const val H_SPEED = 1.0 / 64.0
-        const val SCORE_SPEED_INV = 100.0
+        val RD_MAX: Double
+            get() = RatingModel.config.rdMax
+        val RD_PERIOD_DAYS: Double
+            get() = RatingModel.config.rdPeriodDays
+        val H_SPEED: Double
+            get() = RatingModel.config.homeAdvantageSpeed
+        val SCORE_SPEED_INV: Double
+            get() = RatingModel.config.scoreSpeedInv
         const val STAT_COUNT = 10
         // average score to sd:
-        const val SD_A = 0.166
-        const val SD_B = 1.85
+        val SD_A: Double
+            get() = RatingModel.config.scoreSdSlope
+        val SD_B: Double
+            get() = RatingModel.config.scoreSdIntercept
         var H = java.lang.Double.NaN
-        val TAU = 0.6 // volatility constant
-        const val EPSILON = 0.000001 // non-tweakable
         fun reset() {
             trackCurrent = false
-            H = 35.0
+            H = RatingModel.config.initialHomeAdvantage
         }
     }
 }
