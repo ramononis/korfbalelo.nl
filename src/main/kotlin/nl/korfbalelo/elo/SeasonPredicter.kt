@@ -153,6 +153,20 @@ object SeasonPredicter {
             .forEach(File::delete)
     }
 
+    internal fun compatibleSnapshotHeaderTeamOrder(header: List<String>, teamNames: List<String>): List<String>? {
+        val headerTeamNames = header
+            .drop(2)
+            .chunked(5)
+            .mapNotNull { columns -> columns.firstOrNull() }
+        if (headerTeamNames.size != teamNames.size) {
+            return null
+        }
+        if (headerTeamNames.toSet() != teamNames.toSet()) {
+            return null
+        }
+        return headerTeamNames
+    }
+
     //    val outdoorTiers = listOf("ek", "ek2", "hk", "ok", "1k", "2k", "3k", "4k")
     val outdoorTiers = listOf("ek", "ek", "hk", "ok", "1k", "2k", "3k", "4k")
     val indoorTiers = listOf("kl", "kl2", "hk", "ok", "1k", "2k", "3k")
@@ -485,24 +499,30 @@ object SeasonPredicter {
                     continue
                 }
                 val file = File("$path/${season.name}/${predicter.pouleName}.csv").also { it.parentFile.mkdirs() }
-                val didHeader = file.takeIf(File::exists)?.readText()?.startsWith("date") == true
+                val existingLines = file.takeIf(File::exists)?.readLines().orEmpty()
+                val existingHeader = existingLines.firstOrNull()?.takeIf { it.startsWith("date\tpouleData\t") }
+                val existingHeaderTeamOrder = existingHeader
+                    ?.split("\t")
+                    ?.let { compatibleSnapshotHeaderTeamOrder(it, predicter.teamNames) }
+                val outputTeamNames = existingHeaderTeamOrder ?: predicter.teamNames
+                val didHeader = existingHeaderTeamOrder != null
                 val dateString = format.format(date)
-                // remove line starting with date
-                file.takeIf { it.exists() }
-                    ?.readLines()
-                    ?.filter { !it.startsWith(dateString) }
-                    ?.joinToString("\n")
-                    ?.let(file::writeText)
+                existingLines
+                    .takeIf { didHeader }
+                    .orEmpty()
+                    .filter { !it.startsWith(dateString) }
+                    .joinToString("\n")
+                    .let(file::writeText)
                 val fileEndsWithNewline = file.takeIf(File::exists)?.readText()?.endsWith("\n") == true
                 file.appendText(buildString {
                     if (!didHeader) {
                         append("date\tpouleData\t")
-                        appendLine(predicter.teamNames.flatMap { listOf(it, it, it, it, it) }.joinToString("\t"))
+                        appendLine(outputTeamNames.flatMap { listOf(it, it, it, it, it) }.joinToString("\t"))
                     }
                     if (!fileEndsWithNewline) append("\n")
                     append("${format.format(date)}\t")
                     append("${gson.toJson(predicter.currentStanding())}\t")
-                    appendLine(predicter.teamNames.flatMap { t ->
+                    appendLine(outputTeamNames.flatMap { t ->
                         val champion = events[t to "champion"]?.toDouble() ?: 0.0
                         val plus = events[t to "promote"]?.toDouble() ?: 0.0
                         val minus = events[t to "relegate"]?.toDouble() ?: 0.0
