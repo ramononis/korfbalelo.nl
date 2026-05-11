@@ -1,0 +1,806 @@
+1916-09-17	TOG (L)	AKC (Al)	1	8
+1916-09-24	DOS	DVD²	0	6
+	Excelsior	OSCA	3	3
+	DEV	Haarlem	14	1
+	Fluks	Vitesse (Leiden)	1	2
+	Velox	ALO	3	2
+	Vitesse (Haag)	HSV	2	3
+	OKK	Rozenburg	10	2
+1916-10-01	DTV	Haarlem	13	2
+	OSCA	DED	3	11
+	DVD²	Excelsior	10	0
+	Quick (Arn)	Onder Ons	0	7
+	TOP (H)	EKCA	6	2
+1916-10-08	DED	DEV	7	4
+	Excelsior	DTV	1	7
+	OSCA	DOS	1	0
+	ALO	HSV	0	5
+	OSCR	Vitesse (Haag)	0	6
+	BKC (DB)	Quick (Arn)	1	1
+	AKV	ZKC (Zu)	5	3
+	TOP (Sch)	DOSO	2	8
+1916-10-15	Haarlem	OSCA	1	0
+	DTV	DED	2	3
+	Fluks	ALO	6	1
+	Onder Ons	EKCA	4	2
+	AW	UNI	1	6
+	Spartaan	Dordt	2	6
+	Naas	Wilhelmina	4	4
+1916-10-22	Haarlem	Excelsior	1	5
+	DEV	DOS	8	3
+	Vitesse (Haag)	Vitesse (Leiden)	2	9
+	OSCR	Fluks	0	5
+	KZ	Velocitas	2	4
+	Dordt	OKK	4	6
+	Gazelle	AKV	2	9
+	Avanti	Advendo	5	2
+1916-10-29	DTV	DOS	5	1
+	OSCA	DEV	2	3
+	Excelsior	DED	2	7
+	Velox	Vitesse (Haag)	2	8
+	Onder Ons	Quick (Arn)	7	0
+	KZ	UNI	4	4
+	TOP (Sch)	Hercules	1	3
+	Advendo	DVS	8	0
+1916-11-05	DEV	DTV	1	5
+	DED	DOS	3	3
+	OSCA	Haarlem	4	0
+	HSV	Fluks	0	4
+	ALO	Vitesse (Haag)	0	3
+	Rozenburg	Spartaan	9	2
+	Dordt	RSGV	3	1
+	Be Quick	HS	2	2
+	DVS	Avanti	2	3
+	Animo	DOSO	6	17
+	Naas	HKC (He)	1	1
+	AKC (Al)	AOC	2	4
+	TOG (L)	Boekelo	5	3
+1916-11-12	DVD²	DTV	2	5
+	Excelsior	DOS	5	4
+	Haarlem	DED	1	5
+	Vitesse (Leiden)	ALO	9	3
+	OSCR	Velox	3	3
+	Quick (Arn)	TOP (H)	6	4
+	OKK	Spartaan	11	1
+	RSGV	Rozenburg	2	4
+	Wilhelmina	HKC (He)	4	3
+	UD (Al)	AKC (Al)	1	3
+1916-11-19	Excelsior	DVD²	2	2
+	BKC (DB)	Onder Ons	1	15
+	PSV	Helmond	2	6
+1916-11-26	Haarlem	DOS	1	2
+	ALO	Fluks	1	15
+	HSV	OSCR	7	1
+	Amersfoort	Olympia	3	6
+1916-12-03	Haarlem	DTV	2	7
+	DVD²	DEV	2	2
+	HSV	Vitesse (Haag)	0	3
+	Velox	Vitesse (Leiden)	0	15
+	Quick (Arn)	BKC (DB)	3	4
+	AW	Velocitas	2	3
+	Spartaan	RSGV	2	4
+	HSV	Be Quick	5	3
+	OC	Gazelle	7	3
+	Lycurgus	PSV	0	16
+	Animo	Hercules	6	2
+	Wilhelmina	DOS (E)	1	0
+	TOG (L)	AOC	2	12
+1916-12-10	DOS	DTV	2	6
+	DED	Excelsior	5	5
+	Vitesse (Haag)	Velox	5	0
+	OSCR	HSV	4	3
+	TOP (H)	Onder Ons	4	8
+	UNI	KZ	9	1
+	ZKC (Zu)	AKV	3	2
+	Helmond	PSV	1	5
+	DOS (E)	Naas	9	3
+1916-12-17	Excelsior	Haarlem	5	4
+	OSCA	DTV	0	18
+	Vitesse (Haag)	OSCR	8	3
+	HSV	ALO	7	0
+	EKCA	Quick (Arn)	4	4
+	Velocitas	AW	8	2
+	RSGV	Dordt	1	1
+	Rozenburg	OKK	2	5
+	OC	ZKC (Zu)	5	3
+	DVS	Advendo	3	6
+1916-12-24	DTV	Excelsior	8	2
+	Vitesse (Leiden)	HSV	7	1
+	BKC (DB)	TOP (H)	5	3
+	Velocitas	UNI	3	1
+	Spartaan	Rozenburg	1	7
+	Hercules	DVD²	6	9
+	Animo	TOP (Sch)	15	1
+	Haarlem	DVS	2	3
+1917-01-07	DOS	DEV	1	10
+	OSCR	Vitesse (Leiden)	2	9
+	Fluks	Vitesse (Haag)	6	1
+	EKCA	Onder Ons	1	8
+	Dordt	Rozenburg	2	4
+1917-01-14	DVD²	Haarlem	5	1
+	DED	OSCA	9	4
+	Vitesse (Haag)	ALO	3	3
+	HSV	Vitesse (Leiden)	4	11
+1917-01-21	Velocitas	DTV	3	14
+	DED	ALO	8	4
+	Haarlem	DOS	0	1
+	OSCA	DEV	4	3
+	Vitesse (Leiden)	Velox	13	1
+1917-02-18	DTV	OSCA	3	1
+	DOS	Haarlem	5	3
+	DVD²	DED	4	3
+	Advendo	BEP	12	1
+1917-02-25	DVD²	DOS	6	1
+	DED	Haarlem	10	1
+	DTV	DEV	7	2
+	OSCA	Excelsior	2	1
+	Fluks	Velox	7	0
+	ALO	OSCR	2	2
+	RSGV	OKK	2	4
+	AKV	Gazelle	6	1
+1917-03-04	DVD²	OSCA	6	4
+	Haarlem	DEV	0	10
+	DOS	Excelsior	5	2
+	DED	DTV	4	1
+	ALO	Vitesse (Leiden)	0	3
+	Fluks	HSV	4	3
+	Velox	OSCR	6	1
+	Onder Ons	BKC (DB)	12	0
+	UNI	Velocitas	4	3
+	OKK	Dordt	3	1
+	RSGV	Spartaan	1	1
+	OC	AKV	2	7
+	Olympia	Amersfoort	2	0
+	BEP	Advendo	0	5
+1917-03-11	DTV	DVD²	8	5
+	DOS	DED	2	10
+	Vitesse (Leiden)	Fluks	1	4
+	UNI	AW	6	4
+	Rozenburg	Dordt	5	2
+	Spartaan	OKK	1	18
+	PSV	Lycurgus	5	1
+	Gazelle	ZKC (Zu)	2	4
+	Olympia	Advendo	3	8
+1917-03-18	DEV	DED	6	5
+	DOS	OSCA	4	6
+	Haarlem	DVD²	1	1
+	Fluks	OSCR	4	1
+	Velox	HSV	4	3
+	Quick (Arn)	EKCA	0	4
+	AKV	OC	1	1
+	Merwestad	Victoria (V)	2	0
+	AKC (Al)	TOG (L)	3	0
+1917-03-25	DED	DVD²	5	2
+	DEV	Excelsior	16	1
+	ALO	Velox	3	1
+	Rozenburg	RSGV	6	1
+1917-04-01	OSCA	DTV	3	8
+	DEV	DVD²	7	4
+	Vitesse (Haag)	Fluks	1	4
+	HSV	Velox	10	0
+	Onder Ons	TOP (H)	11	2
+	DOS (E)	Wilhelmina	5	2
+1917-04-08	DVD²	DOS	8	0
+	DEV	OSCA	13	1
+	Vitesse (Leiden)	Vitesse (Haag)	10	0
+1917-04-09	DED	DVD²	3	3
+	Vitesse (Leiden)	DTV	4	2
+	Amicitia	OKK	1	5
+1917-04-22	OSCA	DVD²	2	2
+	Excelsior	DEV	4	3
+	TOP (H)	Quick (Arn)	3	0
+	Victoria (V)	Merwestad	0	0
+	ZKC (Zu)	OC	5	1
+	DTV	Vitesse (Leiden)	2	3
+	OKK	Amicitia	3	2
+1917-04-29	Vitesse (Leiden)	Onder Ons	13	0
+	DVD²	DTV	4	3
+1917-05-06	UD (Al)	BKC (DB)	2	4
+1917-05-13	Onder Ons	Vitesse (Leiden)	3	8
+1917-06-03	Velocitas	DOSO	4	2
+	Olympia	Hercules	10	3
+	Olympia	Rozenburg	1	5
+	Rozenburg	Velocitas	8	4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

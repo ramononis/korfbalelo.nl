@@ -1,0 +1,50 @@
+{
+  "id": "veld2526nj__veld2526vj",
+  "tierOrder": ["ek", "ekd", "hk", "ok", "1k", "2k", "3k", "4k"],
+  "simpleVacancyChain": {
+    "targetTiers": ["hk", "ok", "1k", "2k", "3k", "4k"],
+    "sameTierPositions": [3, 4],
+    "lowerTierPositions": [2, 3, 4]
+  },
+  "groups": [
+    { "id": "ek", "poulePattern": "^EK-\\d+$", "expectedPoules": 8 },
+    { "id": "hk", "poulePattern": "^HK-.*$", "expectedPoules": 8 },
+    { "id": "ok", "poulePattern": "^OK-.*$", "expectedPoules": 8 },
+    { "id": "1k", "poulePattern": "^1-.*$", "expectedPoules": 12 },
+    { "id": "2k", "poulePattern": "^2-.*$", "expectedPoules": 12 },
+    { "id": "3k", "poulePattern": "^3-.*$", "expectedPoules": 12 },
+    { "id": "4k", "poulePattern": "^4-.*$", "expectedPoules": 10 }
+  ],
+  "rules": [
+    { "id": "ek-1-2", "type": "direct", "groupId": "ek", "positions": [1, 2], "tier": "ek" },
+    { "id": "ek-3", "type": "direct", "groupId": "ek", "positions": [3], "tier": "ekd" },
+    { "id": "ek-4", "type": "direct", "groupId": "ek", "positions": [4], "tier": "hk" },
+
+    { "id": "hk-1", "type": "direct", "groupId": "hk", "positions": [1], "tier": "ekd" },
+    { "id": "hk-2-3", "type": "direct", "groupId": "hk", "positions": [2, 3], "tier": "hk" },
+    { "id": "hk-4", "type": "direct", "groupId": "hk", "positions": [4], "tier": "ok" },
+
+    { "id": "ok-1", "type": "direct", "groupId": "ok", "positions": [1], "tier": "hk" },
+    { "id": "ok-2", "type": "direct", "groupId": "ok", "positions": [2], "tier": "ok" },
+    { "id": "ok-3-best4", "type": "ranked", "groupId": "ok", "position": 3, "selection": "best", "count": 4, "tier": "ok" },
+    { "id": "ok-3-rest", "type": "ranked", "groupId": "ok", "position": 3, "selection": "rest", "count": 4, "onlyUnassigned": true, "tier": "1k" },
+    { "id": "ok-4", "type": "direct", "groupId": "ok", "positions": [4], "tier": "1k" },
+
+    { "id": "1k-1", "type": "direct", "groupId": "1k", "positions": [1], "tier": "ok" },
+    { "id": "1k-2-3", "type": "direct", "groupId": "1k", "positions": [2, 3], "tier": "1k" },
+    { "id": "1k-4", "type": "direct", "groupId": "1k", "positions": [4], "tier": "2k" },
+
+    { "id": "2k-1", "type": "direct", "groupId": "2k", "positions": [1], "tier": "1k" },
+    { "id": "2k-2-3", "type": "direct", "groupId": "2k", "positions": [2, 3], "tier": "2k" },
+    { "id": "2k-4", "type": "direct", "groupId": "2k", "positions": [4], "tier": "3k" },
+
+    { "id": "3k-1", "type": "direct", "groupId": "3k", "positions": [1], "tier": "2k" },
+    { "id": "3k-2-3", "type": "direct", "groupId": "3k", "positions": [2, 3], "tier": "3k" },
+    { "id": "3k-4", "type": "direct", "groupId": "3k", "positions": [4], "tier": "4k" },
+
+    { "id": "4k-1", "type": "direct", "groupId": "4k", "positions": [1], "tier": "3k" },
+    { "id": "4k-2-best2", "type": "ranked", "groupId": "4k", "position": 2, "selection": "best", "count": 2, "tier": "3k" },
+    { "id": "4k-2-rest", "type": "ranked", "groupId": "4k", "position": 2, "selection": "rest", "count": 2, "onlyUnassigned": true, "tier": "4k" },
+    { "id": "4k-3plus", "type": "direct", "groupId": "4k", "fromPosition": 3, "tier": "4k" }
+  ]
+}

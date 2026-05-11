@@ -1,0 +1,3175 @@
+1903-12-03 spawn HOC > Haarlem
+1903-12-03 spawn OSCA > Amsterdam
+1904-02-14 spawn BKC > Bloemendaal
+1904-02-14 spawn DTV > Amsterdam
+1904-04-30 spawn DEV > Amsterdam
+1904-06-05 spawn Quick > Amsterdam²
+1904-10-30 spawn DEAK > Amsterdam
+1904-10-31 end BKC
+1905-03-05 spawn Amsterdamsch Twaalftal > Amsterdam
+1905-03-19 spawn OSCR > Rotterdam
+1905-03-20 end Amsterdamsch Twaalftal
+1905-04-17 end DEAK
+1905-05-21 spawn EHOC > Den Haag
+1905-05-21 spawn Swift² > Amsterdam
+1905-06-25 spawn DVD > Amsterdam
+1905-08-31 spawn Vitesse (Leiden) > Leiden
+1905-10-22 spawn Nausikaa > Amsterdam
+1905-11-12 spawn DVV > Amsterdam
+1906-05-12 spawn DOS > Amsterdam
+1906-09-29 replace EHOC > ALO
+1906-10-27 replace DVD > Reuni
+1907-03-24 spawn Velox > Rotterdam
+1907-04-29 end HOC
+1907-09-29 spawn HBC > Utrecht
+1907-12-15 spawn DVD² > Amsterdam
+1908-02-02 spawn GSC > Hilversum
+1908-03-23 end HBC
+1908-04-12 spawn Delft > Delft
+1908-05-10 spawn AVOG > Amersfoort
+1908-05-31 spawn AKC (Ap) > Apeldoorn
+1908-05-31 spawn Sparta > Den Haag
+1908-05-31 spawn THOR (Ar) > Arnhem
+1908-06-01 end Sparta
+1908-06-01 end THOR (Ar)
+1908-09-28 spawn DIOS > Utrecht
+1908-10-25 spawn MHS > Utrecht
+1908-10-25 spawn ONI > Utrecht
+1908-10-25 spawn SDO > Utrecht
+1908-11-01 spawn Amicitia > Boskoop²
+1908-11-08 spawn THOR > Den Haag
+1909-01-10 spawn Inter Nos > Rotterdam
+1909-01-25 end Swift²
+1909-03-22 end Reuni
+1909-04-05 end Inter Nos
+1909-04-19 end THOR
+1909-05-21 end DVV
+1909-10-24 spawn NOSC > Nijmegen
+1909-11-07 spawn AW > Amsterdam
+1909-11-07 spawn DES > Amsterdam
+1909-11-14 spawn DEOS > Amsterdam
+1910-01-31 end GSC
+1910-02-06 spawn Vitesse (Haag) > Den Haag
+1910-04-11 end NOSC
+1910-04-11 end Quick
+1910-10-09 spawn UD > Amsterdam
+1910-10-16 spawn EDO > Arnhem
+1910-10-16 spawn EKCA > Arnhem
+1910-12-12 end AVOG
+1911-03-06 end ONI
+1911-10-15 spawn Fluks > Leiden
+1911-10-15 spawn HSV > Den Haag
+1911-10-15 spawn KZ > Koog aan de Zaan
+1911-10-15 spawn Onder Ons > Oosterbeek
+1911-10-15 spawn Quick (Arn) > Arnhem
+1911-10-15 spawn TOG > Amsterdam
+1911-11-12 spawn DED > Amsterdam
+1911-12-10 spawn OKK > Dordrecht
+1911-12-18 end DEOS
+1912-01-28 spawn Noviomagum > Nijmegen
+1912-01-28 spawn Victoria > Wageningen
+1912-04-01 end DIOS
+1912-04-21 spawn DOS (E) > Enschede
+1912-04-21 spawn OSV > Oldenzaal
+1912-04-28 spawn ASC > Almelo
+1912-04-28 spawn TOP (H) > Hengelo Ov
+1912-07-01 end OSV
+1912-10-13 spawn Swift (G) > Gouda
+1912-11-03 spawn HOC² > Haarlem
+1912-11-10 spawn TOP (Sch) > Schellingwoude
+1912-11-10 spawn ZOV > Zaandam
+1912-11-17 spawn Excelsior > Hilversum
+1913-02-16 spawn Boekelo > Boekelo
+1913-02-16 spawn Goor > Goor
+1913-04-13 spawn Deventer > Deventer
+1913-04-13 spawn Naas > Deventer
+1913-04-29 end ASC
+1913-05-19 spawn Wilhelmina > Enschede
+1913-06-29 spawn BKC (DB) > Den Bosch
+1913-09-07 spawn HS > Zoelen
+1913-09-07 spawn KIOS (Z) > Zwolle
+1913-09-28 spawn RSGV > Rotterdam
+1913-09-28 spawn Spartaan > Rotterdam
+1913-10-05 spawn Dordt > Dordrecht
+1913-10-12 spawn Apeldoorn² > Apeldoorn
+1913-10-12 spawn Dwingelo > Dwingeloo
+1913-10-12 spawn Frederiksoord > Frederiksoord
+1913-10-12 spawn LB > Laren NH
+1913-10-12 spawn Maasstad > Rotterdam
+1913-10-12 spawn SSS (Z) > Zuidlaren
+1913-10-12 spawn UDI (K) > Klijndijk
+1913-10-12 spawn VDW (R) > Rolde
+1913-10-12 spawn Vitesse (Be) > Beilen
+1913-10-12 spawn Westerbork > Westerbork
+1913-10-13 end Apeldoorn²
+1913-10-13 end Dwingelo
+1913-10-13 end Frederiksoord
+1913-10-13 end MHS
+1913-10-13 end Westerbork
+1913-10-19 spawn ODIS > IJmuiden
+1913-10-26 spawn Hercules > Amsterdam
+1913-10-26 spawn UNI > Amsterdam
+1913-11-03 end Swift (G)
+1913-11-23 spawn Doelen > Tweede Exloermond
+1913-11-23 spawn Oring > Odoorn
+1913-12-01 end AKC (Ap)
+1913-12-08 end TOG
+1914-02-09 end ZOV
+1914-03-23 end SDO
+1914-03-30 end Maasstad
+1914-04-05 spawn UNA (S) > Scheemda
+1914-04-05 spawn VKC (Ve) > Veendam
+1914-04-12 spawn TOP (Ap) > Appingedam
+1914-04-20 end DES
+1914-04-20 end KIOS (Z)
+1914-06-15 end VDW (R)
+1914-10-04 spawn Baarn > Baarn
+1914-10-04 spawn MAAS > Poortugaal
+1914-10-04 spawn Rozenburg > Rotterdam
+1914-10-04 spawn UKC > Utrecht
+1914-10-11 spawn Bussum > Bussum
+1914-10-11 spawn Haarlem > Haarlem
+1914-10-12 end VKC (Ve)
+1914-10-18 spawn Residentie > Den Haag
+1914-10-25 spawn DOSO > Amsterdam
+1914-10-25 spawn DVS > Amsterdam
+1914-10-25 spawn WIK > Gorinchem
+1914-11-08 spawn VOMOS > Bellingwolde
+1914-12-14 end LB
+1915-01-04 end Residentie
+1915-01-25 end MAAS
+1915-02-15 end WIK
+1915-03-14 spawn HKC (He) > Hengelo Ov
+1915-03-14 spawn Ready > Enschede
+1915-03-29 end EDO
+1915-04-05 end Ready
+1915-04-18 spawn Animo > Amsterdam
+1915-05-09 spawn DDK (Z) > Zuidbroek
+1915-05-16 spawn LKC > Loppersum
+1915-05-23 spawn Quick (OP) > Oude Pekela
+1915-05-24 end Quick (OP)
+1915-05-24 spawn AKV > Apeldoorn
+1915-06-20 spawn NKC (Nw) > Nieuwolda
+1915-08-29 spawn Advendo > Haarlem
+1915-09-27 end UNA (S)
+1915-10-03 spawn Avanti > Amsterdam²
+1915-10-03 spawn Olympia > Weesp
+1915-10-03 spawn Purmerend > Purmerend
+1915-10-03 spawn Velocitas > Hoorn
+1915-10-18 end LKC
+1915-10-18 end NKC (Nw)
+1915-10-25 end Victoria
+1915-11-01 end Baarn
+1915-12-13 end Bussum
+1916-03-06 end UKC
+1916-04-10 end UD
+1916-04-25 end ODIS
+1916-05-01 end Deventer
+1916-09-17 spawn AKC (Al) > Almelo
+1916-09-17 spawn TOG (L) > Lochem
+1916-10-08 spawn ZKC (Zu) > Zutphen
+1916-10-22 spawn Gazelle > Dieren
+1916-11-05 spawn AOC > Almelo
+1916-11-05 spawn Be Quick > Nijmegen
+1916-11-12 spawn UD (Al) > Almelo
+1916-11-19 spawn Helmond > Helmond²
+1916-11-19 spawn PSV > Eindhoven
+1916-11-26 spawn Amersfoort > Amersfoort
+1916-12-03 spawn Lycurgus > Den Bosch
+1916-12-03 spawn OC > Arnhem
+1916-12-04 end AOC
+1916-12-25 end TOP (Sch)
+1917-02-18 replace Purmerend > BEP
+1917-03-12 end Gazelle
+1917-03-12 end Lycurgus
+1917-03-12 end UNI
+1917-03-18 spawn Merwestad > Dordrecht
+1917-03-18 spawn Victoria (V) > Vlaardingen
+1917-04-23 end OC
+1917-09-09 spawn Frisia > Harlingen
+1917-09-09 spawn ODIS² > Enkhuizen
+1917-09-09 spawn UDI > Harlingen
+1917-09-09 spawn WKC (Wo) > Wormerveen
+1917-09-16 spawn Friso (L) > Leeuwarden
+1917-09-30 spawn Jong Holland > Hoorn
+1917-10-07 spawn Delden > Deldem
+1917-10-08 end UD (Al)
+1917-10-14 spawn Friso (H) > Heerenveen
+1917-10-14 spawn Sparta (A) > Amsterdam
+1917-10-14 spawn Stanfries > Gorredijk
+1917-10-14 spawn VOS > Amsterdam
+1917-10-21 spawn Ready (A) > Amsterdam
+1917-10-21 spawn Rood Wit (H) > Den Haag
+1917-10-21 spawn TOGO (H) > Den Haag
+1917-10-28 spawn MKC (Me) > Meppel
+1917-10-29 end Friso (H)
+1917-11-04 spawn DDV > Amsterdam
+1917-11-04 spawn HW > Amsterdam
+1917-11-05 end RSGV
+1917-11-05 end Stanfries
+1917-12-09 spawn Steeds Voorwaarts > Goes
+1917-12-09 spawn Zeelandia > Hansweert
+1917-12-16 spawn Mercedes > Velp
+1917-12-23 spawn HBS (G) > Goes
+1918-01-28 end VOS
+1918-03-03 merge DOS,DOSO > DOSO > Amsterdam
+1918-03-04 end Victoria (V)
+1918-03-18 end UDI
+1918-03-25 end WKC (Wo)
+1918-04-15 end Helmond
+1918-05-05 spawn HHD > Goes
+1918-05-19 spawn RODA (W) > Westzaan
+1918-05-19 spawn Six Semper > Vlissingen
+1918-05-20 end BKC (DB)
+1918-07-07 spawn Sparta (V) > Vlissingen
+1918-07-07 spawn VTV > Vlissingen
+1918-08-18 spawn THOR (S) > Sas van Gent
+1918-08-18 spawn TKC (T) > Terneuzen
+1918-08-19 end THOR (S)
+1918-08-19 end TKC (T)
+1918-08-25 spawn Luctor et Emergo > Zeeland
+1918-09-01 spawn AKC (Aa) > Aardenburg
+1918-09-02 end Six Semper
+1918-09-15 spawn HSL > Leerdam
+1918-09-15 spawn Juliana (G) > Goes
+1918-09-15 spawn Voorwaarts (M) > Muntendam
+1918-09-22 replace OKK > EDN
+1918-09-22 spawn Venetas > Warnsveld
+1918-09-29 spawn Blauw Wit > Amsterdam
+1918-09-29 spawn LUTO > Amsterdam
+1918-09-29 spawn Rap > Utrecht
+1918-09-29 spawn Vriendschap > Sneek
+1918-10-13 spawn THB > Haarlem
+1918-10-20 spawn Bijenkorf > Amsterdam
+1918-10-20 spawn Dubbel Zes > Den Haag
+1918-10-27 spawn Swift > Amsterdam
+1918-11-03 spawn Gelria > Borculo
+1918-11-03 spawn Kattenburg > Kattenburg
+1918-11-03 spawn Twentsch Haagje > Goor
+1918-11-03 spawn Westerkwartier > Amsterdam
+1918-11-10 spawn Markelo > Markelo²
+1918-11-10 spawn OHS > Amsterdam
+1918-11-17 spawn DOVA > Almelo
+1918-11-24 spawn DHBSC > Dordrecht
+1918-11-24 spawn TIA > Dordrecht
+1918-11-25 end DVS
+1918-12-01 spawn TOV (D) > Dordrecht
+1918-12-09 end Merwestad
+1918-12-09 end Twentsch Haagje
+1919-01-13 end HOC²
+1919-01-20 end HS
+1919-03-24 end Gelria
+1919-03-24 end HSL
+1919-05-05 end Olympia
+1919-05-25 spawn DOS (M) > Middelburg
+1919-05-25 spawn UDI (Te) > Terneuzen
+1919-05-26 end Amicitia
+1919-06-09 spawn Thor (Zu) > Zutphen
+1919-06-15 spawn Volharding > Ierseke
+1919-06-16 end Vriendschap
+1919-06-30 end HHD
+1919-07-28 end Sparta (V)
+1919-08-04 end Luctor et Emergo
+1919-09-01 end VTV
+1919-09-07 spawn Gooiers > Laren NH²·
+1919-09-14 merge Dordt,EDN > Deetos > Dordrecht
+1919-09-14 spawn DDM > Brielle
+1919-09-14 spawn Inter Nos (A) > Amsterdam
+1919-09-14 spawn KVD > Amsterdam
+1919-09-14 spawn VIJW > Poortugaal
+1919-09-14 spawn Zuiden > Amsterdam
+1919-09-21 spawn Vlug en Lenig > Dordrecht
+1919-09-28 spawn VIOD (D) > Dordrecht
+1919-09-29 end VIOD (D)
+1919-10-13 end Boekelo
+1919-10-13 end Goor
+1919-10-19 spawn HKV > Den Haag
+1919-10-27 end Dubbel Zes
+1919-11-02 spawn Noorden > Amsterdam
+1919-11-02 spawn Tekca > Amsterdam
+1919-11-09 spawn KVO > Amsterdam
+1919-12-01 end Venetas
+1919-12-14 spawn DKC (Di) > Diepenheim
+1919-12-14 spawn TOV (H) > Holten
+1919-12-15 end TOP (H)
+1919-12-29 end Inter Nos (A)
+1920-01-19 end HW
+1920-01-19 end Markelo
+1920-01-19 end TIA
+1920-02-02 end Sparta (A)
+1920-03-01 end Naas
+1920-04-12 end Delden
+1920-05-30 spawn DSV (H) > Haarlem
+1920-05-30 spawn Macbi > Haarlem
+1920-06-13 spawn AJC (H) > Haarlem
+1920-06-20 spawn AKC (As) > Assen
+1920-06-20 spawn HBS (As) > Assen
+1920-06-20 spawn Hercules (NP) > Nieuwe Pekela
+1920-06-20 spawn Kinea (A) > Assen
+1920-06-20 spawn NKC (Ne) > Neede
+1920-06-20 spawn Pro Patria > Den Helder
+1920-06-21 end DKC (Di)
+1920-06-21 end HBS (As)
+1920-06-21 end NKC (Ne)
+1920-06-21 end Pro Patria
+1920-06-27 spawn DDK (S) > Smilde
+1920-06-27 spawn HBS (B) > Blijham
+1920-06-27 spawn Veendam > Veendam
+1920-07-11 spawn WKC (Gro) > Wildervank
+1920-07-12 end WKC (Gro)
+1920-07-18 spawn WK > Jubbega
+1920-07-25 spawn Quick (S) > Stadskanaal
+1920-08-01 spawn UDI (T) > Tolbert
+1920-08-01 spawn UNA (L) > Leek
+1920-08-08 spawn Rapide > Axel
+1920-08-08 spawn UDI (H) > Havelte
+1920-08-08 spawn WKC (DW) > De Wijk
+1920-08-22 spawn WTK > Vlissingen
+1920-08-23 end WTK
+1920-08-29 spawn OLS > Witten
+1920-08-30 end DDK (S)
+1920-09-05 spawn MIA (M) > Musselkanaal
+1920-09-05 spawn OKK (R) > Roswinkel
+1920-09-05 spawn SSS (V) > Valthermond
+1920-09-05 spawn VOP (M) > Maten
+1920-09-12 spawn UDI (N) > Nieuweschans
+1920-09-13 end AJC (H)
+1920-09-13 end DSV (H)
+1920-09-19 spawn ASV > Amsterdam
+1920-09-19 spawn Amstelodamum > Amsterdam
+1920-09-19 spawn Die Haghe > Den Haag
+1920-09-19 spawn Holver > Amsterdam
+1920-09-19 spawn SDO (A) > Amsterdam
+1920-09-19 spawn SVO > Amsterdam
+1920-09-19 spawn TOGO (A) > Amsterdam
+1920-09-19 spawn Victoria (A) > Amsterdam
+1920-09-19 spawn ZKV (Za) > Zaandam
+1920-09-26 spawn AJC > Amsterdam
+1920-10-03 spawn Amstel > Amsterdam
+1920-10-10 merge Steeds Voorwaarts,Juliana (G) > MEVO > Goes
+1920-10-10 spawn WKC (We) > Wemeldingen
+1920-10-17 spawn HBS (H) > Den Haag
+1920-10-24 spawn Be Quick (EC) > Emmer-Compascum
+1920-10-24 spawn DOSO (NA) > Nieuw Amsterdam
+1920-10-24 spawn DOV > Weerdinge
+1920-10-24 spawn GESH > Valthermond
+1920-10-24 spawn STA > Ter Apel
+1920-10-24 spawn TOG (ND) > Nieuw Dordrecht
+1920-10-24 spawn VIOS (Oo) > Oosterhesselen
+1920-10-24 spawn VOMOS (S) > Sleen
+1920-10-24 spawn WIK (K) > Klazinaveen
+1920-10-25 end WIK (K)
+1920-10-31 spawn Incasso Bank > Amsterdam
+1920-10-31 spawn KDC > Amsterdam
+1920-10-31 spawn Vitesse (A) > Amsterdam
+1920-11-01 end TOV (H)
+1920-11-07 replace Delft > DKC (De)
+1920-11-07 spawn Aldy > Amsterdam
+1920-11-07 spawn Emma > Den Haag
+1920-11-07 spawn KVR > Den Haag
+1920-11-07 spawn Ons Huis > Amsterdam
+1920-11-07 spawn Robaver > Amsterdam
+1920-11-07 spawn Taseno > Amsterdam
+1920-11-08 end Taseno
+1921-01-31 end Robaver
+1921-02-28 end Incasso Bank
+1921-03-13 spawn OKC (Ob) > Oostburg
+1921-03-14 end Doelen
+1921-03-20 spawn Wit Zwart > Meeden
+1921-03-21 end Rap
+1921-03-27 spawn OKV² > Oudeschans
+1921-03-27 spawn Sparta (F) > Finsterwolde
+1921-03-27 spawn VIOS (Ki) > Kielwindeweer
+1921-03-27 spawn VKC (Vr) > Vriescheloo
+1921-03-27 spawn Velocitas (S) > Schoonoord
+1921-04-03 spawn Blauw Wit (D) > Dordrecht
+1921-04-03 spawn Blauw Wit (D) > Dordrecht
+1921-04-03 spawn Fluks (Z) > Zevenbergen
+1921-04-03 spawn Olympia (F) > Franeker
+1921-04-03 spawn Ons Huis (M) > Middelburg
+1921-04-04 end Blauw Wit (D)
+1921-04-10 spawn DOS (Ho) > Hoogkerk
+1921-04-10 spawn OKC (Oo) > Oostwold
+1921-04-10 spawn OKK (Z) > Zevenhuizen Gr
+1921-04-10 spawn ZKC '19 > Zuidwolde
+1921-04-11 end Jong Holland
+1921-04-17 spawn Alcides > Meppel
+1921-04-17 spawn DOL > Nieuw Amsterdam
+1921-04-17 spawn DOS (Ni) > Nijeveen
+1921-04-17 spawn GIOS > Meppel
+1921-04-17 spawn Hercules (A) > Assen
+1921-04-17 spawn TOGIDO > Roden
+1921-04-24 spawn HE > Soest
+1921-04-24 spawn Nic > Groningen
+1921-04-24 spawn Quick (M) > Meppel
+1921-04-24 spawn Vitesse (E) > Ees
+1921-04-24 spawn Vogel² > Amersfoort
+1921-04-25 end Vogel²
+1921-05-08 spawn Hermes (B) > Beets
+1921-05-08 spawn KIOS (R) > Ruinerwold
+1921-05-08 spawn MKC (Ma) > Marum
+1921-05-08 spawn VIOS (Dre) > (Drenthe)
+1921-05-08 spawn WWMD > Hemrik
+1921-05-09 end Be Quick (EC)
+1921-05-16 end TOGIDO
+1921-05-22 spawn Bato > Winschoten
+1921-05-22 spawn Concordia > Sneek
+1921-05-22 spawn DGV > Dalen
+1921-05-22 spawn SSS (S) > Schoondijke
+1921-05-22 spawn WSS (ND) > Nieuw Dordrecht
+1921-05-22 spawn ZAC > Zwartemeer
+1921-05-29 spawn Forward > Steggerda
+1921-05-29 spawn TOG (N) > Nijehorne
+1921-05-30 end OKC (Oo)
+1921-06-05 spawn AFLM > Leeuwarden
+1921-06-05 spawn Leonidas > Noordwolde
+1921-06-05 spawn OKC (Ol) > Oldeberkoop
+1921-06-05 spawn SCS > Drouwen
+1921-06-05 spawn SH > Huizum
+1921-06-06 end SCS
+1921-06-06 end VOP (M)
+1921-06-06 end WSS (ND)
+1921-06-12 spawn HDT > Donkerbroek
+1921-06-12 spawn SIM > Nieuwe Brug
+1921-06-12 spawn UDI (S) > Sexbierum
+1921-06-13 end AKC (As)
+1921-06-19 spawn Excelsior (V) > Vlissingen
+1921-06-19 spawn VDB > 's-Gravenpolder
+1921-06-20 end Olympia (F)
+1921-06-20 end UDI (Te)
+1921-06-20 end VOMOS
+1921-06-20 end ZAC
+1921-06-27 end Hercules (A)
+1921-07-04 end Velocitas (S)
+1921-07-04 end Vitesse (E)
+1921-07-10 spawn VOC > Ierseke
+1921-07-17 spawn KW > Ureterp
+1921-07-17 spawn TOGIDO (D) > Drachten
+1921-07-18 end SH
+1921-07-24 spawn ODA (B) > Boornbergum
+1921-07-31 spawn IJKC > IJzendijke
+1921-08-01 end DOSO (NA)
+1921-08-01 end TOG (N)
+1921-08-01 end VIOS (Dre)
+1921-08-01 end VOC
+1921-08-08 end DGV
+1921-08-08 end DOL
+1921-08-14 spawn Vitesse (V) > Veenhuizen
+1921-08-15 end OKK (R)
+1921-08-15 end TOG (ND)
+1921-09-11 spawn DIO (B) > Biervliet
+1921-09-11 spawn ELTO > Kloetinge
+1921-09-12 end Sparta (F)
+1921-09-18 replace DHBSC > HBS (D)
+1921-09-18 spawn BKC (E) > Enkhuizen
+1921-09-18 spawn NHM (R) > Rotterdam
+1921-09-18 spawn Utrecht > Utrecht
+1921-09-25 spawn HBS (A) > Amsterdam
+1921-09-25 spawn HSC (Hi) > Hilversum
+1921-09-25 spawn SLF > Leiden
+1921-10-02 spawn Achilles (N) > Nijmegen
+1921-10-02 spawn Excelsior (A) > Amsterdam
+1921-10-02 spawn Madjoe (A) > Amsterdam
+1921-10-02 spawn NHM (A) > Amsterdam
+1921-10-02 spawn Ozos > Amsterdam
+1921-10-02 spawn Rapiditas > Zutphen
+1921-10-03 end BKC (E)
+1921-10-08 spawn Achilles (A) > Almelo
+1921-10-08 spawn NKC (Nij) > Nijverdal²
+1921-10-09 spawn DSK > Amsterdam
+1921-10-09 spawn VKC (A) > Amsterdam
+1921-10-23 spawn Blauw Wit (Z) > Zutphen
+1921-10-23 spawn DOK > Enschede
+1921-10-23 spawn Unitas (D) > Deventer
+1921-10-23 spawn WIK (E) > Enschede
+1921-10-30 replace DDM > Brinio
+1921-10-30 spawn SCH > Amsterdam
+1921-11-11 spawn WKC (Wij) > Wijhe
+1921-11-12 end WKC (Wij)
+1921-11-13 spawn Gorkum > Gorinchem
+1921-11-14 end DOSO
+1921-11-20 spawn Metallicus > Amsterdam
+1921-11-20 spawn Ontwikkeling > Nijmegen
+1921-11-20 spawn SVGT > Amsterdam
+1921-11-20 spawn Swift (W) > Wageningen²
+1921-11-21 end Metallicus
+1921-11-21 end Ontwikkeling
+1921-11-21 end SVGT
+1921-11-21 end Utrecht
+1921-11-27 spawn Graaf Willem 2 > Den Haag
+1921-11-27 spawn Ons Eibernest > Den Haag
+1921-11-28 end Ozos
+1921-12-11 spawn Ambakor > Den Haag
+1921-12-11 spawn DVO (H) > Den Haag
+1921-12-12 end Aldy
+1921-12-12 end Madjoe (A)
+1922-01-09 end Ons Huis (M)
+1922-03-05 spawn Groen Zwart > Borne
+1922-03-19 spawn Adundo > Baflo
+1922-03-19 spawn GKC (Gr) > Grijpskerk
+1922-03-19 spawn Kinea (H) > Haren
+1922-03-19 spawn Kinea (S) > Siddeburen
+1922-03-26 spawn DES (Z) > Zuidbroek
+1922-03-26 spawn Oranje > Den Haag
+1922-04-02 replace SLF > SDO (L)
+1922-04-09 spawn RKC DOS > Ansen-Ruinen
+1922-04-10 end RKC DOS
+1922-04-17 spawn HSC > Hoogeveen
+1922-04-23 spawn DOS (B) > Boyl
+1922-04-23 spawn Moedig Voorwaarts (B) > Blesse
+1922-04-23 spawn WVV > Winschoten
+1922-04-30 spawn Akkrum > Akkrum
+1922-04-30 spawn Foarut > Beetgumermolen
+1922-04-30 spawn HKC (Hrd) > Hardegarijp
+1922-04-30 spawn Inter Nos (SJ) > Sint Jacobiparochie
+1922-04-30 spawn KCH > Huizum
+1922-04-30 spawn TOGO (W) > Wolvega
+1922-04-30 spawn UDI (O) > Oosterwolde
+1922-05-01 end DOS (Ho)
+1922-05-07 spawn Advendo (TI) > Ter Idzard
+1922-05-07 spawn Jonge Spartaan > Oranjewoud
+1922-05-07 spawn KCK > Kloosterveen
+1922-05-07 spawn UDO > Westervelde
+1922-05-08 end KCK
+1922-05-08 end UDO
+1922-05-14 spawn OLIK > Heerenveen
+1922-05-14 spawn Rohda (B) > Berlikum
+1922-05-14 spawn VEMO > Hallum
+1922-05-15 end OLIK
+1922-05-15 end WVV
+1922-05-22 end Alcides
+1922-05-22 end DIO (B)
+1922-05-22 end IJKC
+1922-05-22 end WKC (DW)
+1922-05-28 spawn BKC (Bu) > Buitenpost
+1922-05-28 spawn ODIS (M) > Menaldum
+1922-05-28 spawn SSS (W) > Warren
+1922-05-28 spawn TOP (B) > Berlikum
+1922-07-09 spawn AW (DC) > Drachtstercompagnie
+1922-07-09 spawn Quick '21 > Oudega
+1922-07-16 spawn Lyts Begjin > Jubbega
+1922-07-16 spawn Tijnje > Tijnje
+1922-07-23 spawn Ons Doel > 's-Heer Arendskerke
+1922-07-24 end AFLM
+1922-07-24 end Rohda (B)
+1922-07-24 end SSS (S)
+1922-07-29 spawn ONA > Tilburg
+1922-07-30 spawn Pope > Venlo
+1922-08-20 replace Vitesse (V) > Rood Zwart
+1922-09-10 spawn KVKV > Alkmaar
+1922-09-11 end VOMOS (S)
+1922-09-17 spawn Voorwaarts (L) > Leerdam
+1922-09-17 spawn Zwaluwen (H) > Hilversum
+1922-09-24 spawn Boekhuis > Amsterdam
+1922-09-24 spawn DES² > Amsterdam
+1922-09-24 spawn Nieuwendammerham > Amsterdam
+1922-09-24 spawn Olympia (A) > Amsterdam²
+1922-09-24 spawn Velox (A) > Amsterdam
+1922-09-25 end Boekhuis
+1922-10-01 spawn KDO > Amsterdam
+1922-10-01 spawn SSS (A) > Amsterdam
+1922-10-07 spawn Zwart Wit > Delden
+1922-10-08 spawn DEDO > Helmond
+1922-10-08 spawn GHBSC > Gorinchem
+1922-10-08 spawn GKV > Den Haag
+1922-10-08 spawn HBS (DB) > Den Bosch
+1922-10-09 end OKC (Ob)
+1922-10-09 end SSS (W)
+1922-10-15 spawn Hollandia > Den Haag
+1922-10-15 spawn Trekvogels (A) > Amsterdam
+1922-10-15 spawn Zwaluwen (A) > Amsterdam
+1922-10-22 replace TOG (L) > 't Overschotje
+1922-10-22 spawn DES (D) > Deventer
+1922-10-22 spawn Gorssel > Gorssel
+1922-10-22 spawn HBS (De) > Deventer
+1922-10-22 spawn Phoenix (Z) > Zoetermeer
+1922-10-22 spawn Rohda (A) > Amsterdam
+1922-10-22 spawn Sloten > Amsterdam
+1922-10-28 spawn TOP (V)² > Vroomshoop²
+1922-10-29 replace AJC > Quick (A)
+1922-10-29 spawn NIVO > Deventer
+1922-11-05 spawn Blauw Wit (O) > Oldenzaal
+1922-11-05 spawn DIO (O) > Oldenzaal
+1922-11-13 end Avanti
+1922-11-19 spawn Judea > Amsterdam
+1922-11-20 end Bijenkorf
+1922-11-20 end Judea
+1922-12-31 spawn LEKC > Loenen
+1923-01-14 replace Swift (W) > Rapid (W)
+1923-01-21 replace DES (D) > UNI (De)
+1923-01-22 end UNI (De)
+1923-01-29 end DEDO
+1923-01-29 end Pope
+1923-02-04 spawn DDM (O) > Oostvoorne
+1923-02-04 spawn MKV > Medemblik
+1923-02-05 end MKV
+1923-03-04 replace HBS (A) > Vierde Vijf
+1923-03-05 end Ons Huis
+1923-03-12 end Blauw Wit (O)
+1923-03-19 end Olympia (A)
+1923-03-19 end Trekvogels (A)
+1923-03-26 end DDM (O)
+1923-03-26 end ODIS²
+1923-04-08 replace UDI (S) > Felicitas
+1923-04-08 spawn DDB > Hoornsterzwaag
+1923-04-09 end Achilles (N)
+1923-04-16 end OHS
+1923-04-22 spawn Blauw Geel > Bergum
+1923-04-22 spawn SCS² > Schiedam
+1923-04-22 spawn SKC (Sc) > Schalsum
+1923-04-23 end LEKC
+1923-05-07 end KCH
+1923-05-28 end TOGO (W)
+1923-06-24 spawn DOS (L) > Lemmer
+1923-06-24 spawn Doel > Sneek
+1923-06-25 end BKC (Bu)
+1923-06-25 end Doel
+1923-07-02 end SKC (Sc)
+1923-07-23 end Quick (S)
+1923-07-30 end Ons Doel
+1923-08-06 end Kinea (S)
+1923-08-12 spawn DKC (DZ) > Delfzijl
+1923-08-12 spawn NKC (?) > onbekend
+1923-08-13 end DES (Z)
+1923-08-20 end STA
+1923-08-20 end VKC (Vr)
+1923-08-26 merge KW,TOGIDO (D) > KW > Ureterp
+1923-08-27 end NKC (?)
+1923-09-03 end DKC (DZ)
+1923-09-03 end Quick (M)
+1923-09-09 replace Wilhelmina > Naas²
+1923-09-09 spawn HJWDO > Joure
+1923-09-09 spawn Helder > Den Helder
+1923-09-09 spawn Kraaien > Hillegom
+1923-09-09 spawn SEV (E) > Echten
+1923-09-09 spawn TOV (M) > Munnikeburen
+1923-09-09 spawn Trekvogels (R) > Rotterdam
+1923-09-09 spawn Voorwaarts (O) > Oosterzee
+1923-09-09 spawn WIK (O) > Oudehaske
+1923-09-10 end Bato
+1923-09-10 end HJWDO
+1923-09-10 end OKV²
+1923-09-10 end SEV (E)
+1923-09-10 end Voorwaarts (O)
+1923-09-16 merge Vlug en Lenig,HBS (D) > HVC > Dordrecht
+1923-09-16 replace SVO > Oosterpark
+1923-09-16 spawn DWS > Dordrecht
+1923-09-16 spawn Zuiden (R) > Rotterdam
+1923-09-17 end SDO (A)
+1923-09-30 spawn Go Ahead > Amsterdam?
+1923-09-30 spawn KDO (Ap) > Apeldoorn
+1923-09-30 spawn Laren > Laren Gld
+1923-09-30 spawn Nieuwe Turnkring > Apeldoorn
+1923-09-30 spawn VZOD (L) > Lochem
+1923-10-08 end TOP (B)
+1923-10-08 end Wit Zwart
+1923-10-22 end VKC (A)
+1923-10-28 spawn DKC (Do) > Doetinchem²
+1923-10-28 spawn NOAD > Arnhem
+1923-10-28 spawn ODI (H) > Den Haag
+1923-10-28 spawn Oliveo > Wolfheze
+1923-10-28 spawn WASV > Arnhem
+1923-10-29 end Gorssel
+1923-11-04 replace Nieuwendammerham > KCN
+1923-11-04 spawn Achilles (H) > Den Haag
+1923-11-04 spawn Naaldwijk > Naaldwijk
+1923-11-18 replace HVC > Dordrecht
+1923-11-19 end Go Ahead
+1923-11-19 end TOP (V)²
+1923-11-25 spawn Donar > Amsterdam
+1923-11-25 spawn VIOS (Bo) > Boxmeer
+1923-11-25 spawn Vooruitgang > Deventer
+1923-11-25 spawn Wilhelmina² > Deventer
+1923-11-25 spawn Zwaluw > Lobith
+1923-11-26 end Laren
+1923-11-26 end Nieuwe Turnkring
+1923-12-10 end Noorden
+1923-12-16 spawn Keppel > Laag Keppel
+1923-12-16 spawn SIL > Den Haag
+1923-12-17 end NOAD
+1923-12-17 end SIL
+1923-12-17 end WASV
+1924-01-27 spawn Achilles (Am) > Amsterdam
+1924-02-04 end Donar
+1924-02-18 end Macbi
+1924-02-18 end Vooruitgang
+1924-02-18 end Zwaluw
+1924-03-24 end Kraaien
+1924-04-07 end KDO (Ap)
+1924-04-07 end Voorwaarts (L)
+1924-04-14 end HSC (Hi)
+1924-04-27 spawn UDI (W) > Westerwolde
+1924-04-27 spawn Volharding (H) > Haulerwijk
+1924-05-04 spawn VZK > Haule
+1924-05-05 end VIJW
+1924-05-19 end Vierde Vijf
+1924-05-25 spawn Friso (A) > Appelscha
+1924-06-01 spawn GKC (Go) > Goes
+1924-06-02 end Excelsior (V)
+1924-06-02 end GKC (Go)
+1924-06-02 end Gorkum
+1924-06-16 end DOVA
+1924-06-16 end MEVO
+1924-06-23 end Inter Nos (SJ)
+1924-06-23 end Lyts Begjin
+1924-06-30 end Blauw Geel
+1924-09-14 spawn Ready (R) > Rilland
+1924-09-21 replace DKC (Do) > Groen Wit
+1924-09-21 spawn Fazanten > Bakkum
+1924-09-21 spawn Hinde > Laren NH
+1924-09-21 spawn VIOS (Bu) > Bussum
+1924-09-28 replace DES² > Eendracht
+1924-09-28 replace Zwaluwen (A) > Swallows
+1924-10-04 merge KDO,KDC > KDC > Amsterdam
+1924-10-05 replace Velox (A) > Velocitas (A)
+1924-10-05 replace Zuiden > Zuiderkwartier
+1924-10-05 spawn Bilthoven > Bilthoven
+1924-10-05 spawn DIO > Baarn
+1924-10-05 spawn Quick (U) > Utrecht
+1924-10-06 end UDI (W)
+1924-10-12 replace TOGO (H) > Duno
+1924-10-12 spawn De Tovers > Zeist
+1924-10-12 spawn Gelre > Dieren
+1924-10-12 spawn ODO > Ellecom
+1924-10-12 spawn RAP > Utrecht
+1924-10-12 spawn TOP (R) > Rhenen
+1924-10-13 end VEMO
+1924-10-19 spawn Actief > Hilversum
+1924-10-19 spawn EBKC > Bussum
+1924-10-19 spawn RCU > Utrecht
+1924-10-19 spawn SAMOS > Utrecht
+1924-10-26 replace Zuiderkwartier > Sportief
+1924-10-26 spawn MAAS² > Maassluis
+1924-11-02 spawn TDW > Amsterdam
+1924-11-16 spawn EKC > Eerbeek
+1924-11-16 spawn OKC > Olst
+1924-11-17 end ODO
+1924-11-24 end Vitesse (A)
+1924-12-07 spawn DES (V) > Varsseveld
+1924-12-07 spawn DOTO > Ruurlo
+1924-12-07 spawn SGOC > Winterswijk
+1924-12-07 spawn WKC > Winterswijk
+1924-12-22 end AKV
+1925-01-04 spawn HERO > Rotterdam
+1925-01-04 spawn Progress > Rotterdam
+1925-01-12 end Animo
+1925-01-12 end VZOD (L)
+1925-01-18 spawn Phoenix > Rotterdam
+1925-01-19 end Quick (U)
+1925-01-25 spawn Ons Buiten > Amsterdam
+1925-01-25 spawn Zwaluwen (R) > Rotterdam
+1925-02-01 spawn Ready (W) > Wageningen
+1925-02-02 end Quick (Arn)
+1925-02-09 end Rapid (W)
+1925-02-23 end Sloten
+1925-03-22 spawn Advendo (He) > Heerlen
+1925-03-22 spawn Juliana² > Maastricht
+1925-03-22 spawn TOG (V) > Vlaardingen
+1925-03-23 end Advendo (He)
+1925-03-23 end Hollandia
+1925-03-23 end Oranje
+1925-03-23 end TOG (V)
+1925-03-29 spawn Wit Zwart² > Maastricht
+1925-03-30 end DOK
+1925-03-30 end Juliana²
+1925-04-05 spawn Ready (M) > Maastricht
+1925-04-05 spawn Teutonia > Maastricht
+1925-04-06 end Teutonia
+1925-04-20 end Ready (M)
+1925-04-20 end Wit Zwart²
+1925-04-27 end Leonidas
+1925-05-10 merge ODIS (M),Foarut > Foarut > Beetgumermolen
+1925-05-17 spawn BLEI > Geertruidenberg
+1925-05-17 spawn Juliana (S) > Sprang-Capelle
+1925-05-17 spawn ODI > Den Bosch
+1925-05-17 spawn Zwaluwen (BoZ) > Bergen op Zoom
+1925-05-17 spawn Zwaluwen (LZ) > Lage Zwaluwe
+1925-05-18 end EKC
+1925-05-18 end Helder
+1925-05-31 spawn Zwanenberg > Zwanenberg
+1925-06-14 spawn Leeuwarden > Leeuwarden
+1925-06-14 spawn Nieuwe Kracht > Wolvega
+1925-06-15 end Oliveo
+1925-06-21 spawn Kinea (K) > De Knipe
+1925-06-22 end TOP (R)
+1925-06-28 spawn VIOS (Ni) > Nijeholtpade
+1925-07-06 end BLEI
+1925-07-06 end Blauw Wit (Z)
+1925-07-06 end DDB
+1925-07-06 end Fluks (Z)
+1925-07-06 end Gelre
+1925-07-06 end HBS (DB)
+1925-07-06 end Juliana (S)
+1925-07-06 end ODI
+1925-07-06 end Zwaluwen (BoZ)
+1925-07-06 end Zwaluwen (LZ)
+1925-07-06 end Zwanenberg
+1925-08-06 replace OKK (Z) > Sparta (Ze)
+1925-08-30 replace GKC (Gr) > Blauw Wit (G)
+1925-08-31 end Blauw Wit (G)
+1925-09-13 spawn Dubbel Zes² > Smilde
+1925-09-19 ack Concordia
+1925-09-20 end Concordia
+1925-09-20 replace DSK > Deska
+1925-09-20 replace SCH > Concordia²
+1925-09-27 replace EBKC > Olympia (B)
+1925-09-27 spawn Nieuwendam > Amsterdam
+1925-09-28 end Nieuwendam
+1925-10-04 replace HBS (De) > Korf
+1925-10-04 replace KDC > Oranje Nassau
+1925-10-04 replace SCS² > Schiedam
+1925-10-04 spawn Quick (D) > Dordrecht
+1925-10-05 end Groen Wit
+1925-10-05 end MAAS²
+1925-10-05 end OKC (Ol)
+1925-10-11 replace Kattenburg > SVK
+1925-10-12 end Foarut
+1925-10-25 replace Excelsior (A) > Excelsa
+1925-10-25 spawn Robur > Groningen
+1925-10-25 spawn Zwaluw² > Doorn
+1925-10-26 end Robur
+1925-11-01 spawn ODO² > Dordrecht
+1925-11-02 end Ready (W)
+1925-11-22 spawn DVG > Amsterdam
+1925-11-22 spawn Olympiaan > Den Haag
+1925-11-22 spawn Osno > Hilversum
+1925-11-22 spawn Rozenkwartier > Amsterdam
+1925-11-23 end Keppel
+1926-01-04 end RAP
+1926-01-10 replace GHBSC > Paars Wit
+1926-01-11 end DIO
+1926-01-31 spawn Kadimah > Amsterdam
+1926-01-31 spawn Rapid (Ap) > Apeldoorn
+1926-01-31 spawn Zuiderkwartier² > Amsterdam
+1926-02-01 end Rozenkwartier
+1926-03-01 end Amstel
+1926-03-08 end DOTO
+1926-03-22 end Thor (Zu)
+1926-03-29 end Fazanten
+1926-04-25 spawn Bakkeveen > Bakkeveen
+1926-04-25 spawn SVN > Amsterdam
+1926-04-26 end Bakkeveen
+1926-05-03 end DIO (O)
+1926-05-10 end DVO (H)
+1926-06-06 spawn KKC > Kruiningen
+1926-06-07 end Nieuwe Kracht
+1926-06-14 end KW
+1926-07-19 end Ready (R)
+1926-07-25 spawn Voltas > Goes
+1926-08-01 spawn Wez Handich > Rottevalle
+1926-08-01 spawn Wit Zwart (L) > Langezwaag
+1926-08-16 end UDI (O)
+1926-08-22 spawn LOV > Middelburg
+1926-08-22 spawn VIOS (M) > Middelburg
+1926-09-06 end WIK (O)
+1926-09-19 replace SSS (A) > Sport
+1926-09-26 spawn Baerne > Baarn
+1926-09-26 spawn Rood Wit > Dwingeloo
+1926-09-26 spawn SDL > Deventer
+1926-09-26 spawn Spangen > Rotterdam
+1926-09-26 spawn Sparta (B) > Brummen
+1926-10-03 spawn Samen Een > Giethoorn
+1926-10-03 spawn Sparta (A)² > Amsterdam²
+1926-10-17 spawn KVTO > Amsterdam
+1926-10-17 spawn Korfeam > Amsterdam
+1926-10-24 spawn Eskavee > Amsterdam
+1926-10-25 end GIOS
+1926-10-31 merge Ready (A),Tekca > ReadyTekca > Amsterdam
+1926-12-05 replace Zuiderkwartier² > Avanti²
+1926-12-05 spawn SSS (T) > Terborg
+1926-12-12 replace Zwaluwen (R) > Ons Zwaluwennest
+1926-12-12 spawn Amsterdam Zuid > Amsterdam
+1926-12-12 spawn Stormvogels > Driebergen
+1926-12-12 spawn Wilskracht > Arnhem
+1926-12-13 end Korfeam
+1926-12-19 spawn SVB > Amsterdam
+1926-12-20 end VIOS (Bu)
+1927-01-10 end SVN
+1927-01-23 spawn Fortuna > Hilversum
+1927-01-30 spawn Fraternitas > De Bilt
+1927-02-06 spawn Rohda (R) > Rotterdam
+1927-02-06 spawn Smos > Maarn
+1927-02-07 end Rohda (R)
+1927-02-13 spawn District V > Amsterdam
+1927-02-14 end Swallows
+1927-02-28 end Phoenix
+1927-03-07 end Velocitas
+1927-03-13 spawn Sport Vereent > Bloemendaal-Santpoort
+1927-03-13 spawn Ulyssus > Haarlem
+1927-03-13 spawn Zilvermeeuwen > IJmuiden
+1927-04-11 end Smos
+1927-04-24 replace Jonge Spartaan > Geel Zwart
+1927-05-01 spawn Wez Fluch > Hempens
+1927-05-16 end Dordrecht
+1927-05-22 spawn Olympia (K) > Kapelle
+1927-05-30 end Wit Zwart (L)
+1927-07-17 spawn TOP (Vl) > Vlissingen
+1927-07-31 spawn Seolto (T) > Terneuzen
+1927-07-31 spawn TSC > Terneuzen
+1927-08-01 end DOS (L)
+1927-08-21 spawn Laaresch > Enschede
+1927-08-21 spawn MKC (Markelo) > Markelo
+1927-08-21 spawn Ons Clubje > Glanerbrug
+1927-09-05 end HKC (Hrd)
+1927-09-18 replace ASV > ASVA
+1927-09-18 replace TDW > Volharding (A)
+1927-09-18 spawn Excelsior (K) > Kampen
+1927-09-18 spawn VOP > Zwolle
+1927-09-25 merge Unitas (D),Korf > Hellas > Deventer
+1927-09-25 spawn Kweekschool > Rotterdam
+1927-10-02 spawn Spodato > Utrecht
+1927-10-02 spawn Zwanenberg² > Oss
+1927-10-03 end KKC
+1927-10-31 end SSS (Z)
+1927-11-13 spawn Wees Kwiek > Niebert
+1927-11-20 spawn SDO (K)² > Kampen
+1927-11-21 end SSS (T)
+1927-11-28 end Zwaluw²
+1927-12-04 spawn SMN > Amsterdam
+1927-12-11 spawn Sperwers > Rotterdam
+1927-12-11 spawn Ter Gouw > Gouda
+1928-01-15 spawn EMM > Elst
+1928-01-15 spawn Olympia '22 > Borculo
+1928-01-16 end SMN
+1928-01-22 spawn BKC² > Breda²
+1928-01-30 end Wilhelmina²
+1928-02-13 end Fraternitas
+1928-02-27 end Zwanenberg²
+1928-03-04 spawn Meeuwen > Amsterdam
+1928-03-05 end EMM
+1928-03-05 end Meeuwen
+1928-03-19 end Nausikaa
+1928-03-19 end Spodato
+1928-03-19 end Stormvogels
+1928-04-08 replace Voltas > VVC
+1928-04-08 spawn Rust Roest (Z) > Zierikzee
+1928-04-16 end OKC
+1928-04-22 spawn Rigtersbleek > Enschede
+1928-04-29 spawn Ona (R) > Rotterdam
+1928-05-07 end VIOS (Bo)
+1928-05-21 end Sparta (B)
+1928-05-31 end Kweekschool
+1928-06-04 end NHM (R)
+1928-06-04 end Ona (R)
+1928-06-04 end Ulyssus
+1928-06-11 end Geel Zwart
+1928-06-14 end HERO
+1928-06-18 end Olympia (K)
+1928-06-18 end WKC (We)
+1928-06-24 spawn HDS (O) > Ouderkerk
+1928-06-24 spawn Moedig Voorwaarts > Wapserveen
+1928-06-24 spawn VIOS (D) > Diever
+1928-06-24 spawn VIOS (Gi) > Giethoorn
+1928-06-25 end VIOS (Gi)
+1928-08-26 spawn BKC (Be) > Beilen
+1928-08-26 spawn DDK (A) > Ansen-Ruinen
+1928-08-26 spawn Driemaal Vier > Meppel
+1928-08-26 spawn KIA > Koekange
+1928-08-26 spawn ODI (W) > Westerbork
+1928-08-26 spawn Sparta (H) > Hoogeveen
+1928-08-27 end ODI (W)
+1928-09-03 end Kinea (A)
+1928-09-09 replace Quick (A) > Kwiek
+1928-09-09 spawn Oosten > Amsterdam
+1928-09-09 spawn Rapid (A) > Amsterdam
+1928-09-09 spawn Vesta > Amsterdam
+1928-09-16 spawn Wester > Amsterdam
+1928-09-17 end TOP (Vl)
+1928-09-23 replace KVR > Ready (H)
+1928-09-23 spawn De Kweek > Den Haag
+1928-09-30 spawn GKC > Goor
+1928-09-30 spawn Oranje Zwart > Zwolle
+1928-09-30 spawn Sprotje > Holten
+1928-09-30 spawn Swift (W)² > Wageningen
+1928-09-30 spawn WKC (Wi) > Wierden
+1928-10-14 spawn EGC > Gorssel
+1928-10-14 spawn Princes Juliana > Terborg
+1928-10-14 spawn Wilskracht (B) > Baarn
+1928-10-21 spawn Korf² > Doetinchem
+1928-11-04 spawn Algemeene > Amsterdam
+1928-11-11 spawn TCNH > Amsterdam
+1928-11-12 end EGC
+1928-11-19 end NIVO
+1928-12-09 spawn Blauw Wit (K)² > Kampen
+1928-12-10 end Princes Juliana
+1928-12-16 spawn Moordrecht > Moordrecht
+1928-12-16 spawn UDI (NK) > Nieuwerkerk aan den IJssel
+1929-03-18 end Graaf Willem 2
+1929-03-21 end SDL
+1929-04-08 end SDO (L)
+1929-04-29 end DVG
+1929-04-29 end Paars Wit
+1929-04-30 end Achilles (Am)
+1929-04-30 end NHM (A)
+1929-05-05 spawn Excelsior (Z) > Zierikzee
+1929-05-05 spawn Volt > Tilburg
+1929-05-12 spawn KDO (W) > Wirdum
+1929-05-12 spawn Olympia (Z) > Zierikzee
+1929-05-12 spawn SSS (H) > Haamstede
+1929-05-12 spawn Sparta (W) > Warten
+1929-05-12 spawn TDK > Deinum
+1929-05-13 end KDO (W)
+1929-06-02 spawn NSF > Hilversum
+1929-06-09 spawn Mei Elkoar > Warga
+1929-06-09 spawn Tekace > Tilburg
+1929-06-23 spawn NEO > Sprang-Capelle
+1929-06-23 spawn Quick (T) > Tilburg
+1929-07-21 spawn Roda (B) > Brouwershaven
+1929-07-21 spawn Zwaluwen (E) > Elkerzee
+1929-07-22 end VVC
+1929-08-12 end Mei Elkoar
+1929-09-22 spawn TOP (Hg) > Den Haag
+1929-09-29 replace Gooiers > Nardinclant
+1929-10-06 spawn Animo² > Haarlem
+1929-10-13 replace Swift (W)² > Rapid (W)²
+1929-10-13 spawn Fortuna (A) > Amsterdam
+1929-10-13 spawn ODIO > Hengelo Ov
+1929-10-14 end UDI (NK)
+1929-10-20 spawn OJD > Jutphaas
+1929-10-20 spawn Voordaan > Groenekan
+1929-10-28 end Akkrum
+1929-11-03 replace DOS (Ni) > WIK (N)
+1929-11-03 spawn DSV > Amstelveen
+1929-11-03 spawn KIOL > Niekerk
+1929-11-03 spawn Olympia (A)² > Amsterdam
+1929-11-03 spawn Te Werve > Den Haag
+1929-11-10 spawn Kraaien² > Dordrecht
+1929-11-10 spawn Regenboog > Dordrecht
+1929-11-10 spawn Thor (M) > Maarssen
+1929-11-17 spawn KIOL (Z) > Zwolle
+1929-12-27 end NKC (Nij)
+1930-01-05 spawn Zwaluwen (He) > Hellevoetsluis
+1930-01-13 end Korf²
+1930-01-19 replace LOV > DETO (M)
+1930-01-19 spawn LUTO (U) > Uithoorn
+1930-01-19 spawn Nieuwe Tonge > Nieuw Tonge
+1930-01-19 spawn OGKV > Goedereede
+1930-01-20 end Duno
+1930-01-20 end Nieuwe Tonge
+1930-01-20 end OGKV
+1930-01-26 spawn SDL (E) > Epse
+1930-02-23 spawn Insulinde > Amsterdam
+1930-02-23 spawn Quick (Z) > Zwolle
+1930-02-23 spawn Sloterdijk > Amsterdam
+1930-03-03 end Ambakor
+1930-03-03 end Olympia (A)²
+1930-03-09 spawn DOS (N) > Nunspeet
+1930-03-10 end Vitesse (Haag)
+1930-03-23 spawn Hermes (G) > Groningen
+1930-03-23 spawn UNI (S) > Sappemeer
+1930-03-23 spawn Wartburgia > Amsterdam
+1930-03-24 end KVO
+1930-03-24 end LUTO (U)
+1930-03-30 replace Ons Zwaluwennest > Vreewijk
+1930-03-30 spawn Noordster > Oude Pekela
+1930-04-13 spawn EMO > Eindhoven
+1930-04-14 end SDL (E)
+1930-04-20 spawn DOS (D) > Dreischor
+1930-04-20 spawn Renesse Vooruit > Renesse
+1930-05-04 spawn Annen > Annen
+1930-05-04 spawn Dowocs > De Wijk
+1930-05-04 spawn Swastika > Smilde
+1930-05-04 spawn TOP (As) > Assen
+1930-05-18 spawn KLM > Rotterdam
+1930-05-25 spawn Dio > Oosterwolde
+1930-06-01 spawn Oosten (R) > Rotterdam
+1930-06-08 spawn Quick (V) > Vlissingen
+1930-06-09 end DETO (M)
+1930-06-09 end Quick (V)
+1930-06-16 end DOS (N)
+1930-06-16 end VOP
+1930-07-05 spawn Advendo (O) > Oudenhoorn
+1930-07-05 spawn Korva > Waddinxveen
+1930-07-05 spawn Kweek > Schoonhoven
+1930-07-05 spawn OKC (Ou) > Ouderkerk aan den IJssel
+1930-07-05 spawn VIOS (H) > Heenvliet
+1930-07-05 spawn Weest Kwiek > Middelharnis
+1930-07-06 spawn BKC (Br) > Breskens
+1930-07-07 end TSC
+1930-07-08 spawn Zuidland > Zuidland
+1930-07-09 end Advendo (O)
+1930-07-13 spawn Frisia (Dr) > Drachten
+1930-07-28 end DDK (A)
+1930-08-24 merge DTV,DEV > DTV > Amsterdam
+1930-08-25 end Volharding (H)
+1930-09-04 spawn DIOS² > Harmelen
+1930-09-05 end DIOS²
+1930-09-07 spawn BVK > Beerta
+1930-09-11 spawn Ados² > Hoorn
+1930-09-12 end DSV
+1930-09-12 end Korva
+1930-09-12 end Kweek
+1930-09-12 end OKC (Ou)
+1930-09-14 replace Rapid (W)² > VADA
+1930-09-14 replace WKC > Pechvogels
+1930-09-14 spawn Krachtsport > Gouda
+1930-09-15 end Hercules (NP)
+1930-09-19 end Brinio
+1930-09-21 spawn Roda (H) > Hoek van Holland
+1930-09-21 spawn VDL > Maassluis
+1930-09-28 spawn SOS (A) > Amsterdam
+1930-10-05 merge Nardinclant,Hinde > Hinde > Laren NH
+1930-10-12 spawn Fortuna (R) > Rotterdam
+1930-10-12 spawn HDS > Leersum
+1930-10-12 spawn Vogel > Utrecht
+1930-10-13 end Krachtsport
+1930-10-19 merge Actief,Osno > OTO > Hilversum
+1930-10-19 replace Blauw Wit (K)² > Wit Blauw
+1930-10-19 spawn CKWO > Vlissingen
+1930-10-19 spawn Desto > Utrecht
+1930-10-19 spawn Odis (A) > Amsterdam
+1930-10-19 spawn Zeevaartschool > Vlissingen
+1930-10-26 spawn KEV > Kampen
+1930-12-01 end Moordrecht
+1930-12-08 end DES (V)
+1930-12-08 end VDL
+1931-01-12 end Roda (H)
+1931-01-26 end Eskavee
+1931-01-26 end Sloterdijk
+1931-02-16 end ASVA
+1931-03-16 end Velocitas (A)
+1931-03-29 spawn Ervea > Amsterdam
+1931-04-07 end Excelsa
+1931-04-12 spawn Blauw Wit (B) > Breda
+1931-04-13 end SOS (A)
+1931-04-20 end Blauw Wit (B)
+1931-04-20 end NEO
+1931-04-20 end Te Werve
+1931-04-27 end Kadimah
+1931-04-27 end Pechvogels
+1931-05-03 spawn Blauw Wit (H) > Heerenveen
+1931-05-04 end RCU
+1931-05-10 spawn Advendo (P) > Pieterburen
+1931-05-10 spawn DOS (U) > Ulrum
+1931-05-10 spawn De Musschen > Vlissingen
+1931-05-10 spawn FSC² > Frederiksoord
+1931-05-10 spawn HMS (D) > Dinteloord
+1931-05-10 spawn Rasch > Onderdendam
+1931-05-11 end Fortuna
+1931-05-11 end NSF
+1931-05-18 end SDO (K)²
+1931-05-31 spawn VKC (S) > Siegerswoude
+1931-06-07 spawn Be Quick (O) > Oud Vossemeer
+1931-06-08 end Be Quick (O)
+1931-06-15 end CKWO
+1931-06-15 end De Musschen
+1931-06-15 end HBS (G)
+1931-06-15 end VIOS (M)
+1931-07-06 end VIOS (Ki)
+1931-07-26 spawn Rapide (B) > Burgh
+1931-08-10 end Driemaal Vier
+1931-08-17 end TOP (As)
+1931-09-07 end Noordster
+1931-09-13 replace Hinde > Gooiers²
+1931-09-20 spawn Quick (E) > Enschede
+1931-09-27 spawn Groen Geel > Wormer
+1931-09-28 end ELTO
+1931-10-04 replace Laaresch > Vooruit
+1931-10-11 merge DWS,Kraaien² > Merwede (D) > Dordrecht
+1931-10-11 spawn UVO > Den Haag
+1931-10-18 spawn Palvu (H) > Den Haag
+1931-10-25 replace MKC (Markelo) > Markelo²
+1931-11-01 spawn 's Gravenhage > Den Haag
+1931-11-09 end WKC (Wi)
+1931-12-21 end Vitesse (Leiden)
+1932-01-18 end Vooruit
+1932-02-21 spawn Kennemers > Driehuis
+1932-03-14 end Kennemers
+1932-03-21 end Rapid (Ap)
+1932-03-27 spawn VIOD (G) > Germerwolde
+1932-04-17 replace UDI (N) > Groen Wit (N)
+1932-04-17 spawn GESH (A) > Alteveer
+1932-06-05 spawn DSS > Nieuwerkerk
+1932-06-05 spawn OKC (Oost) > Oosterland
+1932-06-05 spawn UDI (Se) > Serooskerke
+1932-06-06 end UDI (Se)
+1932-06-19 spawn JMM > Biervliet
+1932-06-19 spawn ZKV (Zz) > Zuidzande
+1932-07-10 spawn Advendo (N) > Noordgouwe
+1932-07-10 spawn Bildtkers > Oudebildtzijl
+1932-07-10 spawn TDK (B) > Bergum
+1932-08-21 spawn ADO (A) > Arkel
+1932-09-18 replace Quick (T) > Oranje Wit (T)
+1932-09-18 spawn DOT (O) > Oss
+1932-09-18 spawn VIVA > Rhoon
+1932-09-19 end Fortuna (R)
+1932-09-25 merge BKC (Be),Vitesse (Be) > Vitesse (Be) > Beilen
+1932-09-25 spawn Advendo (V) > Veenendaal
+1932-09-25 spawn Breda > Breda
+1932-09-25 spawn Ons Huis (R) > RotterdamF
+1932-09-25 spawn Oosterkwartier (H) > Haarlem
+1932-09-25 spawn Rapid (B) > Den Bosch
+1932-09-25 spawn TOP (U) > Utrecht
+1932-09-25 spawn Zwart Wit (IJ) > IJsselstein
+1932-10-02 spawn ADO (B) > Bolnes
+1932-10-02 spawn Bolnes > Bolnes
+1932-10-02 spawn Sportlust (U) > Utrecht
+1932-10-02 spawn Stormers > Soest
+1932-10-16 spawn NASB > Eindhoven
+1932-10-23 replace Insulinde > Groen Wit²
+1932-10-23 spawn EKV > Eindhoven
+1932-10-23 spawn Helmond² > Helmond
+1932-10-23 spawn Marum > Marum
+1932-10-23 spawn Rust Roest (E) > Eindhoven
+1932-10-30 replace Oosten > Oosterkwartier (A)
+1932-10-30 spawn Ons Ploegje > Amsterdam
+1932-10-30 spawn Oriento > Amsterdam
+1932-11-06 spawn Amicitia (B) > Boskoop
+1932-11-06 spawn ECJC > Eindhoven
+1932-11-20 spawn Algemene (H) > Den Haag
+1932-11-20 spawn Klimop > Leiden
+1932-11-21 end Marum
+1932-11-28 end Groen Wit²
+1932-12-04 spawn VVGA > Amsterdam
+1932-12-05 end SVB
+1932-12-26 spawn ADO (M) > Melissant
+1932-12-26 spawn GSV > Goedereede
+1933-01-09 end Rapid (A)
+1933-01-15 spawn PM > Arnhem
+1933-01-15 spawn Steeds Hooger > Apeldoorn
+1933-02-13 end EKV
+1933-02-26 spawn Bredania > Breda
+1933-02-27 end Helmond²
+1933-03-05 spawn Oosten² > Amsterdam
+1933-03-13 end Palvu (H)
+1933-03-26 spawn Rohda (H) > Hoogezand
+1933-03-26 spawn VIOS (Kr) > Kropswolde
+1933-03-27 end Zilvermeeuwen
+1933-04-02 spawn MVU > Midwolda
+1933-04-02 spawn Rivas > Ruischerbrug
+1933-04-02 spawn SDW > Zeyen
+1933-04-02 spawn SSS (E) > Enumatil
+1933-04-03 end Advendo
+1933-04-09 spawn Madjoe (V) > Vlissingen
+1933-04-09 spawn Sportief (M) > Middelburg
+1933-04-09 spawn VEMO (T) > Tijnje
+1933-04-16 spawn Velox (D) > Dinteloord
+1933-04-23 replace Sparta (H) > Vitesse (H)
+1933-04-23 spawn Excelsior (O) > Oude Tonge
+1933-04-23 spawn GKC² > Grijpskerk
+1933-04-23 spawn OKO > Opende
+1933-04-23 spawn Steeds Hooger (S) > Spijkenisse
+1933-04-23 spawn Thor (D) > Dirksland
+1933-04-30 spawn DDK > Wapse
+1933-04-30 spawn DWS² > Blokzijl
+1933-04-30 spawn Germanicus > Coevorden
+1933-04-30 spawn Vidar > Oudenhoorn
+1933-04-30 spawn WIK '34 > Damwoude
+1933-05-01 end DWS²
+1933-05-01 end TOP (U)
+1933-05-14 spawn DVV² > Zeist
+1933-05-21 spawn DES (P) > Poortugaal
+1933-05-21 spawn Sintpier > Nieuwvlieten
+1933-05-22 end Sintpier
+1933-05-28 spawn Spido > Zwartewaal
+1933-05-29 end Naaldwijk
+1933-06-04 spawn EWW > Vlissingen
+1933-06-18 spawn Volharding (B) > Bruinisse
+1933-06-25 spawn Altius > Hilversum
+1933-06-26 end JMM
+1933-07-10 end DOS (U)
+1933-07-10 end DVV²
+1933-07-10 end Zwart Wit (IJ)
+1933-07-16 spawn SSS (C) > Colijnsplaat
+1933-07-17 end Steeds Hooger (S)
+1933-07-24 end Bildtkers
+1933-07-24 end Gooiers²
+1933-07-24 end Rasch
+1933-07-30 spawn VIOS (Wo) > Woensel
+1933-08-14 end FSC²
+1933-08-14 end Volharding (B)
+1933-08-21 end Velox (D)
+1933-09-03 spawn OKC (A) > Arnhem
+1933-09-03 spawn Zuiderkwartier³ > Amsterdam
+1933-09-10 spawn Indo > Amsterdam
+1933-09-10 spawn Treffers > Amsterdam
+1933-09-11 end WIK (N)
+1933-09-24 replace Progress > Unilever
+1933-09-24 spawn Vitesse (D) > Doornenburg
+1933-10-01 spawn DVS (U) > Utrecht
+1933-10-01 spawn Dalto² > Driebergen²
+1933-10-01 spawn Hillegersberg > Hillegersberg
+1933-10-01 spawn Oost Arnhem > Arnhem
+1933-10-01 spawn Redichem > Renkum
+1933-10-01 spawn TOP (D) > Doetinchem
+1933-10-01 spawn Union > Nieuwleusen
+1933-10-01 spawn VDS > Rotterdam
+1933-10-02 end Tekace
+1933-10-08 spawn Dedemsvaart > Dedemsvaart
+1933-10-08 spawn PZEM > Middelburg
+1933-10-08 spawn SIOS (A) > Aalten
+1933-10-15 replace Quick (E) > Oranje Nassau (E)
+1933-10-15 spawn Swift (E) > Eibergen
+1933-10-15 spawn VOG > Veenendaal
+1933-10-22 replace KVTO > Groen Zwart (A)
+1933-10-22 spawn DKAV > Diemen
+1933-10-22 spawn HBS (M) > Middelburg
+1933-10-29 spawn Kameraadschap > Amsterdam
+1933-10-29 spawn Rijssen Vooruit > Rijssen
+1933-11-05 spawn Be Fair > Oldenzaal
+1933-11-05 spawn DION > Oldenzaal
+1933-11-06 end Vitesse (D)
+1933-11-19 spawn ENCK > Vlaardingen
+1933-11-26 spawn Maccabi > Den Haag
+1933-12-03 spawn Grasshoppers > Amsterdam
+1933-12-04 end Grasshoppers
+1933-12-31 spawn NASB (B) > Breda
+1933-12-31 spawn Rood Wit (T) > Tilburg
+1934-01-21 spawn Avance > Nederhorst den Berg
+1934-01-21 spawn OEC > Helmond
+1934-01-21 spawn SVA > Eindhoven
+1934-01-21 spawn Sport Vereent (W) > Weesp
+1934-01-22 end ECJC
+1934-02-18 spawn KKK > Amsterdam
+1934-02-19 end KKK
+1934-02-19 end Odis (A)
+1934-03-05 end Algemene (H)
+1934-03-05 end BKC²
+1934-03-05 end UVO
+1934-03-05 end Wilskracht (B)
+1934-03-12 end Dalto²
+1934-03-12 end Deska
+1934-03-12 end Ons Buiten
+1934-03-12 end Rijssen Vooruit
+1934-03-12 end Sprotje
+1934-04-08 replace MKC (Ma) > NKC (No)
+1934-04-08 spawn Quick (Ad) > Aduard
+1934-04-09 end KEV
+1934-04-09 end VOG
+1934-04-15 spawn TOGO (J) > Jubbega
+1934-04-22 replace AW (DC) > TFS
+1934-04-22 spawn SBO (K) > Kolham
+1934-04-22 spawn Wez Dapper > Houtigehage
+1934-04-23 end ADO (B)
+1934-04-23 end Advendo (V)
+1934-04-23 end TOP (D)
+1934-05-06 spawn Surhuisterveen > Surhuisterveen
+1934-05-13 spawn SSS (O) > Ooltgensplaat
+1934-05-28 end ENCK
+1934-05-28 end TOGO (J)
+1934-06-17 spawn TOP (P) > Pesse
+1934-06-18 end TDK (B)
+1934-06-24 spawn TOGO (G) > Goes
+1934-07-01 spawn Emos > Kortgene
+1934-07-16 end Zuidland
+1934-08-05 spawn DOS (Ka) > Kamperland
+1934-08-06 end Zeevaartschool
+1934-08-19 spawn VIOS (G) > Gasselte
+1934-08-20 end Spido
+1934-08-20 end Vidar
+1934-08-26 spawn 't Overschotje (Z) > Zuidbroek
+1934-08-27 end 't Overschotje (Z)
+1934-08-27 end Veendam
+1934-09-03 end Advendo (P)
+1934-09-10 end Groen Wit (N)
+1934-09-16 merge Eendracht,OSCA > OSCA > Amsterdam
+1934-09-16 replace District V > Ajax
+1934-09-16 spawn Club Brothers > Groningen
+1934-09-16 spawn District V² > Amsterdam²
+1934-09-23 spawn DKC (Do)² > Doetinchem
+1934-09-23 spawn SKC > Silvolde
+1934-09-23 spawn VIOS (Oss) > Oss
+1934-09-30 spawn Genemuiden > Genemuiden
+1934-09-30 spawn Hekkensluiters > Vollenhove
+1934-10-07 spawn Vlug en Lenig² > Schiedam
+1934-10-08 end VIOS (Kr)
+1934-10-14 merge PZEM,Sportief (M) > Swift (M) > Middelburg
+1934-10-14 spawn Lenig en Flink > Kampen
+1934-10-15 end Oranje Nassau (E)
+1934-10-21 spawn Algemene > Leiden
+1934-10-21 spawn Odilo > Eindhoven
+1934-10-21 spawn Vicus Orientis > Leiden
+1934-10-21 spawn Vreeland > Vreeland
+1934-10-22 end Avance
+1934-10-22 end Vreeland
+1934-11-04 spawn OBZB > Amsterdam
+1934-11-11 spawn Leusderkwartier > Amersfoort
+1934-11-11 spawn Noorderkwartier > Leiden
+1934-11-18 spawn Stormers (HvH) > Hoek van Holland
+1934-11-19 end 's Gravenhage
+1934-11-19 end TOP (Hg)
+1934-12-10 end Bredania
+1934-12-16 spawn SKV (U) > Utrecht
+1934-12-30 spawn Linnaeus > Amsterdam
+1934-12-30 spawn RSV > Ransdorp
+1934-12-30 spawn SDO (D) > Durgerdam
+1934-12-30 spawn Watersnippen > Aalsmeer
+1934-12-31 end SDO (D)
+1934-12-31 end Sport Vereent (W)
+1935-01-21 end KLM
+1935-02-04 end OTO
+1935-02-04 end Voordaan
+1935-02-18 end OJD
+1935-02-18 end Thor (M)
+1935-03-10 spawn Voorwaarts (B) > Den Bosch
+1935-03-18 end DOS (M)
+1935-03-25 end ADO (A)
+1935-03-25 end Sport
+1935-04-08 end Watersnippen
+1935-04-14 spawn SDO (S) > Schoonoord
+1935-04-14 spawn SOS (U) > Ureterp
+1935-04-14 spawn VOG (G) > Groningen
+1935-04-15 end Wez Dapper
+1935-04-28 spawn HMS > Bakkeveen
+1935-04-29 end MVU
+1935-05-05 spawn HKC (Hrb) > Herbaijum
+1935-05-05 spawn Kwiek (A) > Assen
+1935-05-12 merge DOS (D),Advendo (N) > Die Gouwe > Noordgouwe
+1935-06-02 spawn CDT > Groningen
+1935-06-02 spawn Noord Oosten > Groningen
+1935-06-02 spawn Steeds Voorwaarts² > Eesergroen
+1935-06-02 spawn TOP (ND) > Nieuw Dordrecht
+1935-06-03 end Steeds Voorwaarts²
+1935-06-09 spawn Gruno > Groningen
+1935-06-10 end CDT
+1935-06-17 end Adundo
+1935-06-17 end SSS (V)
+1935-06-17 end TOP (ND)
+1935-06-24 end ZKV (Zz)
+1935-07-29 end VIOS (Wo)
+1935-08-05 end Emos
+1935-08-26 end Weest Kwiek
+1935-09-02 end VIOS (D)
+1935-09-15 merge OSCA,KCN > KCN > Amsterdam
+1935-09-22 spawn Watervliet > Beverwijk
+1935-10-13 spawn Deto > Eindhoven
+1935-10-13 spawn Nationale > Rotterdam
+1935-10-20 spawn Soesterkwartier > Amersfoort
+1935-10-20 spawn WION > Rotterdam
+1935-10-21 end Genemuiden
+1935-10-28 end Ervea
+1935-11-03 replace VIOS (Oss) > DVC
+1935-11-03 spawn SOS > Nijmegen
+1935-11-10 spawn BCSV > Borne
+1935-11-10 spawn BKC (Bru) > Brummen
+1935-11-10 spawn Blauw Zwart > Wierden
+1935-11-11 end Amicitia (B)
+1935-11-11 end Union
+1936-01-05 spawn Hou Stand (H) > Hengelo Ov
+1936-01-05 spawn Swift (Gl) > Glanerbrug
+1936-01-05 spawn Wilhelmina³ > Oss
+1936-01-12 spawn CWP > Voorburg
+1936-01-12 spawn Ornas > Den Haag
+1936-01-26 spawn Hou Stand > Den Haag
+1936-01-27 end Stormers (HvH)
+1936-02-17 end DKC (Do)²
+1936-02-17 end Kwiek
+1936-02-23 spawn Morskwartier > Leiden
+1936-02-23 spawn Zuiderkwartier (L) > Leiden
+1936-03-09 end BKC (Bru)
+1936-03-09 end Lenig en Flink
+1936-03-09 end Oosten (R)
+1936-03-16 end HE
+1936-03-22 spawn SIOL > Scharmer-Harkstede
+1936-03-23 end Maccabi
+1936-03-30 end Ons Ploegje
+1936-03-30 end VDS
+1936-04-20 end EMO
+1936-04-20 end Stormers
+1936-04-20 end VIVA
+1936-04-26 spawn Gees > Gees
+1936-04-27 end RSV
+1936-05-04 end Sportlust (U)
+1936-05-11 end Concordia²
+1936-05-11 end SOS (U)
+1936-05-11 end TOP (Ap)
+1936-05-24 spawn HKC (Ho) > Hoogeveen
+1936-06-15 end HKC (Ho)
+1936-07-06 end Excelsior (O)
+1936-07-06 end GSV
+1936-07-06 end SSS (O)
+1936-07-20 end BVK
+1936-09-13 spawn Elto > Den Helder
+1936-09-14 end Treffers
+1936-09-20 replace SGOC > ODS (W)
+1936-09-20 spawn Nieuw Flora > Haarlem
+1936-09-27 spawn JPS > Tilburg
+1936-10-04 spawn Barendrecht > Barendrecht
+1936-10-04 spawn Rapid (G) > Groenlo
+1936-10-18 spawn Blauwwitters > Winterswijk
+1936-10-18 spawn Rhenen > Rhenen
+1936-10-19 end Wilhelmina³
+1936-11-08 spawn Mulo > Helmond
+1936-11-08 spawn TOP (W) > Weert
+1936-11-15 spawn Oosterkwartier (S) > Schiedam
+1936-11-15 spawn Palvu > Vlaardingen
+1936-11-16 end Oosterkwartier (S)
+1936-11-16 end Palvu
+1936-11-22 spawn KVK (E) > Eindhoven
+1936-11-29 spawn Blauw Rood > Wageningen
+1936-11-29 spawn DVO (M) > Maurik
+1937-01-04 end BCSV
+1937-01-04 end Rapid (G)
+1937-01-04 end Voorwaarts (B)
+1937-01-11 end KVK (E)
+1937-01-18 end DVO (M)
+1937-01-24 spawn Concordia (Zkb) > Zeeland
+1937-02-22 end CWP
+1937-02-22 end Ornas
+1937-03-01 end PM
+1937-03-15 end DVC
+1937-03-22 end Klimop
+1937-03-22 end Swift (Gl)
+1937-03-22 end Vreewijk
+1937-04-04 spawn Blauw Wit (OP) > Oude Pekela
+1937-04-05 end DKAV
+1937-04-05 end Kameraadschap
+1937-04-05 end ODS (W)
+1937-04-05 end Oriento
+1937-04-05 end VVGA
+1937-04-25 spawn Oosterstreek > Noordwolde
+1937-04-25 spawn Sportclub > Makkinga
+1937-04-26 end Leusderkwartier
+1937-04-26 end VIOD (G)
+1937-05-02 spawn NASB (D) > Dordrecht
+1937-05-03 end Concordia (Zkb)
+1937-05-23 spawn Gronitas > Groningen
+1937-05-24 end VIOS (H)
+1937-05-30 spawn Zaandam Zuid > Zaandam
+1937-06-07 end MIA (M)
+1937-06-14 end HMS
+1937-06-21 end Blauw Wit (OP)
+1937-06-28 end GKC²
+1937-07-05 end Gronitas
+1937-07-05 end NASB (D)
+1937-07-12 end Oosterstreek
+1937-08-30 end Excelsior (Z)
+1937-09-06 end Gees
+1937-09-12 spawn Zwervers > Dordrecht
+1937-09-19 spawn Excelsior (W) > Westwoud
+1937-09-19 spawn SKV > Schermerhorn
+1937-09-26 spawn DOS Kampen > Kampen
+1937-10-03 spawn OKC (O) > Oostvoorne
+1937-10-03 spawn Shell > Amsterdam
+1937-10-03 spawn Succes > Schiedam
+1937-10-04 end Annen
+1937-10-10 spawn KCO > Amsterdam
+1937-10-10 spawn Landlust > Amsterdam
+1937-10-17 spawn De Meervogels (A) > Amsterdam
+1937-10-24 spawn HKC (DH) > Den Helder
+1937-10-31 spawn KVDH > Den Helder
+1937-10-31 spawn Lodek > Oisterwijk
+1937-10-31 spawn OKV > Oostzaan
+1937-11-15 end Be Fair
+1937-12-20 end Rapid (B)
+1938-01-09 spawn Domburg > Domburg
+1938-01-09 spawn Edo > Serooskerke
+1938-01-23 spawn Red Star > Amsterdam
+1938-01-23 spawn VIOS (A) > Amsterdam
+1938-02-07 end NASB (B)
+1938-02-14 end Blauw Rood
+1938-02-21 end TOP (W)
+1938-03-21 end DES (P)
+1938-03-27 spawn VVO > Amsterdam
+1938-03-28 end EWW
+1938-04-03 spawn VKV (Ve) > Veere
+1938-04-10 spawn Aurora > Haarlem
+1938-04-10 spawn Oosterpoort > Groningen
+1938-04-11 end Algemeene
+1938-04-24 spawn LDO > Terwispel
+1938-04-25 end Oosten²
+1938-04-25 end VEMO (T)
+1938-05-02 end Groen Zwart (A)
+1938-05-08 spawn Duiven > Den Dolder
+1938-05-08 spawn Rading > Hollandsche Rading
+1938-05-09 end Duiven
+1938-05-09 end Rading
+1938-05-15 spawn Meeuwen (L) > Lekkum
+1938-05-15 spawn Wardy > Wieuwerd
+1938-05-16 end Avanti²
+1938-05-22 spawn Nocht en Wille > Hallum
+1938-05-23 end Unilever
+1938-05-29 spawn Westhoek > Scherpenzeel
+1938-05-30 end Westhoek
+1938-06-05 spawn Animo (S) > Souburg
+1938-06-20 end ODIO
+1938-06-26 spawn Beatrix > Willemstad
+1938-06-26 spawn Blauw Wit (R) > Roosendaal
+1938-06-26 spawn FSV > Zeeland
+1938-06-26 spawn TKV (Th) > Tholen
+1938-06-27 end TKV (Th)
+1938-06-27 end Vitesse (H)
+1938-07-03 spawn Makkum > Makkum
+1938-07-03 spawn Roda (K) > Kortgene
+1938-07-11 end OKC (Oost)
+1938-07-18 end Nocht en Wille
+1938-07-24 spawn KIK > Steenbergen
+1938-07-25 end DOV
+1938-08-01 end HKC (Hrb)
+1938-09-18 replace Volharding (A) > Archipel
+1938-10-02 spawn Amsterdam Noord > Amsterdam
+1938-10-03 end FSV
+1938-10-10 end Beatrix
+1938-10-31 end Excelsior (K)
+1938-11-13 spawn Starveld > Geesteren Gld
+1938-11-21 end Excelsior (W)
+1938-11-27 spawn Holland > Enschede
+1938-11-27 spawn NKC > Nijverdal
+1938-11-28 end Hekkensluiters
+1938-11-28 end KIOL (Z)
+1938-11-28 end Quick (Z)
+1939-02-27 end Mulo
+1939-02-27 end Red Star
+1939-02-27 end VIOS (A)
+1939-03-06 end VVO
+1939-03-19 spawn Pechvogels² > Amsterdam
+1939-04-02 spawn Dubbel Zes (V) > Veelerveen
+1939-04-09 spawn AKV (OP) > Oude Pekela
+1939-04-09 spawn BKC (Bo) > Boerakker
+1939-04-09 spawn DES (S) > Sirjansland
+1939-04-24 end District V²
+1939-04-24 end Vesta
+1939-05-01 end Linnaeus
+1939-05-15 end Breda
+1939-05-21 spawn VZOD (W) > Wissekerke
+1939-05-22 end KVKV
+1939-05-29 end Roda (K)
+1939-06-05 end HMS (D)
+1939-06-19 end Seolto (T)
+1939-06-19 end Wester
+1939-06-26 end Domburg
+1939-07-03 end Quick (Ad)
+1939-07-17 end Kwiek (A)
+1939-08-28 end VIOS (Oo)
+1939-09-04 end GESH
+1939-09-04 end Oring
+1939-10-01 spawn KVW > Wemeldinge
+1939-10-01 spawn Palthe > Almelo
+1939-10-01 spawn Smilde > Smilde
+1939-10-08 merge HKC (DH),Elto > Elto > Den Helder
+1939-11-13 end Shell
+1939-12-04 end Be Quick
+1939-12-04 end SVA
+1940-03-04 end DION
+1940-03-04 end Elto
+1940-03-04 end KVDH
+1940-04-08 end Zuiderkwartier³
+1940-04-22 end GESH (A)
+1940-05-05 spawn ODK (W) > Wijnjeterp
+1940-05-06 end HBS (H)
+1940-06-03 end SIOL
+1940-07-14 spawn Blauw Wit (Bu) > Burdaard
+1940-07-22 end HBS (M)
+1940-08-18 spawn VIOS (K) > Krabbendijke
+1940-09-02 end Smilde
+1940-09-29 replace NASB > Sportlust
+1940-09-29 spawn MEO > Amsterdam
+1940-09-29 spawn OKK² > Nijverdal
+1940-10-06 spawn Dowocs (H) > Holten
+1940-10-20 spawn KCV > Venlo
+1940-12-08 spawn TOP (V) > Vroomshoop
+1941-03-31 end Baerne
+1941-04-06 spawn Seolto (H) > 's-Heer Arendskerke
+1941-04-13 spawn Achilles (B) > Bergen op Zoom
+1941-04-13 spawn Oosterpark (G) > Groningen
+1941-04-13 spawn Vitesse (W) > Wolfaartsdijk
+1941-04-14 end Oosterpark (G)
+1941-04-27 replace Wartburgia > DWV
+1941-04-27 spawn De Hoeve > De Hoeve
+1941-04-28 end Dowocs (H)
+1941-05-11 spawn ADO (H) > Haulerwijk
+1941-05-11 spawn Lyts Bigjin > Langezwaag
+1941-05-12 end Hercules
+1941-05-12 end Sparta (A)²
+1941-05-25 spawn DSV (R) > Rilland
+1941-05-25 spawn Jong Leven (L) > Leeuwarden
+1941-05-25 spawn Olympus > Amsterdam
+1941-05-25 spawn SVW > Waarde
+1941-06-08 replace Renesse Vooruit > Strandvogels
+1941-06-08 spawn Velocitas (Se) > Serooskerke
+1941-06-22 spawn Luctor > Terneuzen
+1941-06-23 end Oosterkwartier (A)
+1941-06-29 spawn Korulos > Scheemda
+1941-06-29 spawn VSV > Vlagtwedde
+1941-06-29 spawn ZKC (Zh) > Zuidhorn
+1941-07-06 replace SSS (H) > Dindoa (H)
+1941-07-20 spawn Vitesse (Z) > Zierikzee
+1941-08-17 spawn Unitas (K) > Kloeninge
+1941-08-31 spawn SDO (Ka) > Kapelle
+1941-09-08 end Olympia (Z)
+1941-09-14 spawn Kameo > Groenekan
+1941-09-14 spawn Levu > Utrecht
+1941-09-14 spawn RDZ > Zeist
+1941-09-14 spawn Terre Neuve > Utrecht
+1941-09-15 end ODI (H)
+1941-10-05 spawn ADE > Weesp
+1941-10-05 spawn DVO (V) > Varsseveld
+1941-10-05 spawn Jong Leven > Hilversum
+1941-10-05 spawn Micrometers > Arnhem
+1941-10-05 spawn Stormvogels (H) > Hillegom
+1941-10-05 spawn Zwaluwen (Ze) > Zevenaar
+1941-10-19 replace Animo² > Animo Ready
+1941-10-19 spawn Kievit > Amerongen
+1941-11-10 end HDS
+1941-11-10 end Kievit
+1941-11-30 spawn TOP (A) > Arnemuiden
+1941-11-30 spawn WZM > Middelburg
+1941-12-01 end WZM
+1941-12-14 spawn Oldenzaal > Oldenzaal
+1941-12-22 end ReadyTekca
+1942-03-29 spawn De Zeeuwen > Middelburg
+1942-03-30 end De Kweek
+1942-04-05 spawn DKC (Di)² > Diever
+1942-04-05 spawn West End > Groningen
+1942-04-12 spawn GVS > Tilburg
+1942-04-13 end GVS
+1942-04-20 end Jong Leven
+1942-04-26 spawn Be Quick (K) > Kortgene
+1942-04-26 spawn ONDA > Kats
+1942-04-26 spawn Olympia (W) > Wilhelminadorp
+1942-05-03 spawn BKC (Ba) > Balkbrug
+1942-05-03 spawn Blauw Geel (J) > Joure
+1942-05-03 spawn EKC (Fri) > Elsloo
+1942-05-03 spawn OKC (Fri) > Oostrum
+1942-05-03 spawn Samenspel > Steggerda
+1942-05-03 spawn Tjoba > 's-Heerhendrikskinderen
+1942-05-10 spawn MKC (Man) > Mantgum
+1942-05-17 spawn WKC (Wlp) > Wilp
+1942-05-18 end DVO (V)
+1942-05-24 spawn KVC > Cadzand
+1942-05-24 spawn Zuidzande > Zuidzande
+1942-05-31 spawn Actief² > Amsterdam
+1942-06-15 end Blauw Geel (J)
+1942-07-05 spawn POLO > ?
+1942-07-12 spawn WIK (K)² > Kerkwerve
+1942-07-12 spawn ZEVA > Zierikzee
+1942-07-20 end POLO
+1942-08-23 spawn Eendracht (WB) > Tholen
+1942-08-23 spawn Willemstad > Willemstad
+1942-08-30 spawn ZKC (Zkb) > West Brabant
+1942-09-06 spawn DOSKO (N) > Noordwelle
+1942-09-06 spawn Stormvogels (E) > Ellemeet
+1942-09-06 spawn WHS > Sint Annaland
+1942-09-13 spawn Oosthoek > Haarlem
+1942-09-14 end De Meervogels (A)
+1942-09-20 spawn Amicitia (V) > Vriezenveen
+1942-09-20 spawn KVH > Den Helder
+1942-09-20 spawn LEB > Tilburg
+1942-09-20 spawn Picus > Eindhoven
+1942-09-20 spawn RSV² > Tilburg
+1942-09-20 spawn SVO² > Stavenisse
+1942-09-20 spawn Stanfries (A) > Appelscha
+1942-09-20 spawn Tiel Utrecht > Tiel
+1942-09-21 end Tiel Utrecht
+1942-09-27 spawn Hillesluis > Rotterdam
+1942-09-27 spawn KCT > Den Bosch
+1942-09-27 spawn SVC > Hoogezand
+1942-09-28 end Levu
+1942-10-05 end Amsterdam Noord
+1942-10-12 end KVC
+1942-11-15 spawn HKV (Gro) > Helpman
+1942-11-15 spawn OWB > Breda
+1942-11-15 spawn TKV > Haren
+1942-11-16 end Vlug en Lenig²
+1943-03-07 spawn DSV (B) > Bussum
+1943-03-08 end Redichem
+1943-03-15 end Stormvogels (H)
+1943-03-21 spawn SVS (Zkb) > Scherpenisse
+1943-04-04 spawn DIOS (Dr) > Driewegen
+1943-04-04 spawn DWS³ > Blankenham
+1943-04-04 spawn De Poel > 's-Heer Abtskerke
+1943-04-04 spawn SIW > Nieuwland
+1943-04-04 spawn SVH > Oudelande
+1943-04-04 spawn SVK (Ka) > Kattendijke
+1943-04-05 end Achilles (B)
+1943-04-11 spawn Animo (W) > Westerlee
+1943-04-11 spawn DOS (N)² > Nieuwdorp
+1943-04-11 spawn Dio (H) > Hooghalen
+1943-04-11 spawn Rawi > Winschoten
+1943-04-12 end Olympus
+1943-04-12 end RSV²
+1943-04-12 end Willemstad
+1943-04-25 spawn Thos > Vlissingen
+1943-05-24 end KCV
+1943-05-30 spawn HDW > Buitenpost
+1943-05-30 spawn Leonidas² > Noordwolde
+1943-05-30 spawn Vitesse (O) > Oudega
+1943-05-30 spawn Wez Wis > Wierum
+1943-05-30 spawn Wirdum > Wirdum
+1943-06-13 spawn JVO > Leeuwarden
+1943-06-13 spawn Westen (L) > Leeuwarden
+1943-06-21 end Stanfries (A)
+1943-06-27 spawn IVO > Poortvliet
+1943-07-05 end ZKC (Zh)
+1943-07-11 replace HDS (O) > OWK (O)
+1943-07-12 end ODK (W)
+1943-08-16 end Rawi
+1943-08-23 end HBS (B)
+1943-08-23 end Lyts Bigjin
+1943-09-05 spawn Smerdiek > Sint-Maartensdijk
+1943-09-05 spawn USV > Rotterdam
+1943-09-06 end SVH
+1943-09-19 spawn DSKV > Schiedam
+1943-09-19 spawn Golva > Oisterwijk
+1943-09-26 spawn SVD > Den Bosch
+1943-10-03 spawn Actief (R) > Rotterdam
+1943-10-03 spawn DOT (B) > Den Bosch
+1943-10-17 spawn CSP > Puttershoek
+1943-10-17 spawn Slikkerveer > Slikkerveer
+1943-10-18 end ADE
+1943-10-18 end Slikkerveer
+1943-10-25 end Pechvogels²
+1943-11-01 end Palthe
+1943-11-15 end Markelo²
+1943-11-22 end TKV
+1943-12-13 end Lodek
+1943-12-13 end OWB
+1944-01-10 end SVD
+1944-01-31 end OKC (O)
+1944-02-28 end DWV
+1944-02-28 end Golva
+1944-02-28 end LEB
+1944-04-02 spawn Excelsior (N) > Nisse
+1944-04-02 spawn VOPO > Borssele
+1944-04-09 spawn DEO > Groningen
+1944-04-09 spawn KVO (Gr) > Groningen
+1944-04-23 spawn Vlugheid & Kracht > Harlingen
+1944-04-24 end BKC (Ba)
+1944-04-24 end DKC (Di)²
+1944-04-24 end Dio (H)
+1944-04-24 end Swastika
+1944-04-30 spawn Olympia (T) > Twijzel
+1944-04-30 spawn Rengerspark > Leeuwarden
+1944-04-30 spawn Victorie > Groningen
+1944-05-01 end Felicitas
+1944-05-01 end Gruno
+1944-05-01 end Rengerspark
+1944-05-01 end Rivas
+1944-05-01 end VOG (G)
+1944-05-01 end Victorie
+1944-05-01 end WKC (Wlp)
+1944-05-07 spawn DTS (S) > Surhuizum
+1944-05-07 spawn Dow > Eastermar
+1944-05-07 spawn NKC (Ni) > Nieuwehorne
+1944-05-07 spawn Steeds Vooruit > (Friesland)
+1944-05-07 spawn TFS (H) > Haulerwijk
+1944-05-08 end Wirdum
+1944-05-15 end Edo
+1944-05-15 end ZKC (Zkb)
+1944-06-04 spawn HVW > Hem
+1944-06-05 end HVW
+1944-06-05 end JVO
+1944-06-05 end Vlugheid & Kracht
+1944-06-12 end AKV (OP)
+1944-06-12 end DEO
+1944-06-12 end Frisia (Dr)
+1944-06-12 end KVO (Gr)
+1944-08-28 end De Zeeuwen
+1945-05-27 spawn ELTO (B) > Biezelinge
+1945-06-03 spawn Sinoto > Heinkenszand
+1945-07-02 end SVK (Ka)
+1945-07-23 end DOS (Ka)
+1945-08-13 end Be Quick (K)
+1945-08-13 end VDB
+1945-11-11 spawn Actief (V) > Vroomshoop
+1945-11-11 spawn Be Quick² > Rotterdam?
+1945-11-11 spawn Den Ham > Den Ham
+1945-11-11 spawn Fluks (R) > Rotterdam?
+1945-11-11 spawn KIOS '45 > Sibculo
+1945-11-11 spawn Kwiek² > Rotterdam
+1945-11-11 spawn OSV² > Rotterdam?
+1945-11-11 spawn Quick (O) > Oldenzaal
+1945-11-11 spawn Sportief (Z) > Zwolle
+1945-11-12 end Be Quick²
+1945-11-12 end Fluks (R)
+1945-11-12 end Kwiek²
+1945-12-02 spawn ZKC '31 > Zaandam
+1945-12-03 end CSP
+1945-12-03 end OSV²
+1945-12-30 spawn Maasvogels > Maastricht
+1945-12-30 spawn RKVVL > Maastricht
+1945-12-31 end Maasvogels
+1945-12-31 end RKVVL
+1946-01-14 end Holland
+1946-03-17 merge Actief²,Sportief > ASC² > Amsterdam
+1946-04-01 end Thos
+1946-04-07 spawn Veroda > Smilde
+1946-04-08 end SDW
+1946-04-28 merge VIOS (K),SVW > VIOS (K) > Krabbendijke
+1946-05-06 end Dubbel Zes²
+1946-05-12 spawn SCO > Oldeholtpade
+1946-05-12 spawn SIOS (W) > Wolvega
+1946-05-19 spawn Trynwalden > Oentsjerk
+1946-06-02 spawn De Pein > Opeinde
+1946-06-02 spawn Fortuna (Zkb) > Oostburg
+1946-06-02 spawn Groede > Groede
+1946-06-02 spawn TOS (B) > Blija
+1946-06-02 spawn TOS (U) > Ureterp
+1946-06-03 end Steeds Vooruit
+1946-06-23 spawn Bliuw Warber > Brantgum
+1946-06-23 spawn Paesens > Paesens
+1946-06-23 spawn TDK (M) > Morra-Lioessens
+1946-06-30 spawn SSS (Si) > Sirjansland
+1946-06-30 spawn Scampolo > Zaamslag
+1946-07-22 end SDO (Ka)
+1946-08-18 spawn CSC > Joure
+1946-08-18 spawn MSV > Marrum
+1946-08-18 spawn UTIJ > Akmarijp
+1946-08-19 end Excelsior (N)
+1946-09-15 spawn Centrum > De Krim
+1946-09-15 spawn DSG > Gramsbergen
+1946-09-15 spawn Gramsbergen > Gramsbergen
+1946-09-15 spawn HSV (H) > Heemse
+1946-09-15 spawn SDO (W) > Westerhaar-Vriezenveensewijk
+1946-09-15 spawn UNI (K) > Kloosterhaar
+1946-09-16 end Oldenzaal
+1946-09-23 end ZEVA
+1946-10-06 spawn Giraffes > Baarn
+1946-10-06 spawn Tovos > Sint Laurens
+1946-10-13 spawn ODS (Zkb) > Zeeland
+1946-10-13 spawn VIOD (H) > Den Haag
+1946-10-13 spawn Zwaluwen (Hg) > Den Haag
+1946-10-14 end VIOD (H)
+1946-10-20 spawn Volharding (G) > Groesbeek
+1946-10-20 spawn Wapendragers > Apeldoorn
+1946-10-21 end OKK²
+1946-10-28 end Den Ham
+1946-11-04 end DSG
+1946-11-04 end Gramsbergen
+1946-11-25 end ODS (Zkb)
+1946-11-25 end Volharding (G)
+1946-12-01 spawn CKC > Corle
+1946-12-01 spawn Rohda (Gkb) > Gelderland
+1946-12-16 end Micrometers
+1947-04-20 spawn Tjerk Hiddes > Sexbierum
+1947-04-21 end Oosterpoort
+1947-04-27 spawn DKC (Dr) > Driesum
+1947-04-27 spawn DOS (H) > Harkema
+1947-04-27 spawn DTD > Schingen
+1947-04-27 spawn Kollum > Kollum
+1947-04-27 spawn MI > Gersloot
+1947-05-05 end Bilthoven
+1947-05-12 end ASC²
+1947-05-12 end THB
+1947-05-19 end Hou Stand (H)
+1947-05-26 end ONA
+1947-06-01 spawn SSV > Sloten
+1947-06-01 spawn Vitesse (F) > Franeker
+1947-06-01 spawn WWIJD > Hommerts
+1947-06-09 end Sportief (Z)
+1947-06-15 spawn Set Troch > Wier
+1947-06-16 end Moedig Voorwaarts (B)
+1947-07-06 spawn Altijd Kwiek > De Veenhoop
+1947-07-06 spawn Hercules² > Aldeboarn
+1947-07-07 end Paesens
+1947-07-14 end DOS (H)
+1947-07-14 end Rapide
+1947-07-20 spawn OKK (H) > Houtigehage
+1947-07-21 end Kollum
+1947-09-08 end Smerdiek
+1947-09-15 end SVO²
+1947-09-21 spawn Eindhoven > Eindhoven
+1947-09-22 end DSV (R)
+1947-09-28 replace DSKV > Avanti³
+1947-10-06 end CKC
+1947-10-06 end Rohda (Gkb)
+1947-10-19 spawn MKC² > Marum
+1947-10-19 spawn ODA > Roderwolde
+1947-10-19 spawn OWK > Oostwold
+1947-10-19 spawn SVV > Vaassen
+1947-10-27 end SVC
+1948-01-05 end SVV
+1948-02-02 end Ados²
+1948-03-01 end Rood Wit (T)
+1948-03-15 end Wapendragers
+1948-04-04 spawn Overkanters > Rotterdam
+1948-04-05 end SIOS (A)
+1948-04-11 spawn KWB > Biervliet
+1948-04-11 spawn Raven > Den Haag
+1948-04-12 end Tovos
+1948-04-18 spawn Portugaal > Poortugaal
+1948-04-18 spawn SSS (Ol) > Oldemarkt
+1948-04-18 spawn Stanfries² > Reduzum
+1948-04-18 spawn Wez Warber (T) > Tjerkgaast
+1948-04-25 spawn DTG > Wijckel
+1948-04-25 spawn KCJ > St Nicolaasga
+1948-04-25 spawn WSV > Woudsend
+1948-05-02 spawn Roidy > Zwaagswesteinde
+1948-05-03 end HDW
+1948-05-03 end SSS (Ol)
+1948-05-10 end IVO
+1948-05-10 end NKC
+1948-05-31 end TOV (M)
+1948-06-27 spawn Folgeren > Drachten
+1948-06-27 spawn VCJB > Gerkesklooster
+1948-06-28 end Unitas (K)
+1948-07-05 end CSC
+1948-07-12 end SIW
+1948-08-09 end MSV
+1948-08-09 end SSV
+1948-08-29 spawn Luxia > Luxwoude
+1948-09-12 spawn Oisterwijk > Oisterwijk
+1948-09-19 spawn Unicum > Rotterdam
+1948-09-20 end SSS (Si)
+1948-09-27 end WHS
+1948-10-18 end Picus
+1948-11-29 end Swift (E)
+1949-03-13 spawn Stormvogels (W) > Westkapelle
+1949-03-27 replace Dindoa (H) > Zeemeeuwen
+1949-03-27 spawn Zonnemaire > Zonnemaire
+1949-04-10 spawn AKC (Ak) > Akkrum
+1949-04-10 spawn DOS '46 > Nijeveen
+1949-04-24 spawn Augustinusga > Augustinusga
+1949-04-24 spawn NSL > Veenwouden
+1949-04-25 end Blauwwitters
+1949-04-25 end SKC
+1949-05-15 spawn MN en W > Hijum
+1949-05-15 spawn Ny Libben > Rinsumageest
+1949-05-15 spawn SYF > Sint Johannesga
+1949-05-15 spawn WIK (SJ) > Sint Jacobiparochie
+1949-05-22 spawn Coevorden > Coevorden
+1949-05-22 spawn Elim > Elim
+1949-05-23 end Vitesse (O)
+1949-05-29 spawn Animo (Dkb) > Gieten
+1949-05-29 spawn Halen > Hooghalen
+1949-05-29 spawn Volharding (Dkb) > Nieuwe Krim
+1949-06-12 spawn Wilskracht (Eng) > Engwierum
+1949-06-13 end MKC (Man)
+1949-08-08 end Wez Warber (T)
+1949-08-08 end Wilskracht (Eng)
+1949-08-14 spawn VKV > Vinkega
+1949-08-22 end Coevorden
+1949-08-22 end HSC
+1949-08-28 spawn FDE > (Friesland)
+1949-08-29 end KCJ
+1949-09-18 spawn Nevelo > Oisterwijk
+1949-09-18 spawn Vrijheid > Geeuwenburg
+1949-09-26 end FDE
+1949-09-26 end KWB
+1949-09-26 end WSV
+1949-10-10 end Sinoto
+1949-10-30 spawn Epe > Epe
+1949-10-31 end Epe
+1950-01-08 spawn Maurik > Maurik
+1950-03-26 spawn Atlas > Ritthem
+1950-04-02 replace NKC (Ni) > Udiros
+1950-04-02 replace Rapide (B) > Burgh
+1950-04-02 spawn WTEF > Mantgum
+1950-04-16 spawn ODK > Gorredijk
+1950-04-23 spawn Danaiden > Leiden
+1950-04-23 spawn Us Fortier > Drachten
+1950-04-24 end Avanti³
+1950-04-24 end Barendrecht
+1950-04-30 replace Dowocs > Wacker
+1950-04-30 replace TOS (U) > Oerterp
+1950-05-07 spawn Animo (T) > Tzum
+1950-05-07 spawn Hoogersmilde > Hoogersmilde
+1950-05-14 replace Dedemsvaart > Avereest
+1950-05-14 spawn DSG (L) > Lutten
+1950-05-15 end DSG (L)
+1950-06-05 end Maurik
+1950-06-12 end Makkum
+1950-06-12 end Surhuisterveen
+1950-06-19 end Veroda
+1950-06-19 end Wacker
+1950-07-03 end SBO (K)
+1950-07-10 end Dubbel Zes (V)
+1950-08-07 end Zonnemaire
+1950-08-20 spawn Britsum > Britsum
+1950-08-21 end Britsum
+1950-09-10 spawn Organon > Oss
+1950-09-11 end DKC (Dr)
+1950-09-18 end Augustinusga
+1950-10-08 spawn De Demping > Leiden
+1950-10-15 spawn Crescendo > Leiden
+1950-10-15 spawn NSA > Alphen aan den Rijn
+1950-10-29 spawn Roko > Roden
+1950-11-05 spawn KNS > Leiden
+1951-03-04 spawn KVL > Lammerenburg
+1951-03-12 end NSA
+1951-04-01 spawn ODS (B) > Baarland
+1951-04-08 replace EKC (Fri) > Odis (E)
+1951-04-22 replace Roda (B) > Brouwershaven
+1951-05-20 spawn Rood Wit (Fkb) > (Friesland)
+1951-05-27 replace Rust Roest (Z) > Unitas (Z)
+1951-05-27 spawn Postale (L) > Leeuwarden
+1951-05-27 spawn Tietjerk > Tytsjerk
+1951-06-10 spawn WKC (Wi)² > Winsum
+1951-06-18 end Rood Wit (Fkb)
+1951-06-25 end West End
+1951-07-01 spawn Hallum > Hallum
+1951-08-27 end Hallum
+1951-09-03 end Westen (L)
+1951-09-16 spawn Alliance > Roosendaal
+1952-03-17 end OKC (A)
+1952-03-24 end DOT (B)
+1952-04-06 replace ONDA > Kats
+1952-04-20 replace KVW > WKV
+1952-04-20 spawn Blauw Wit (J) > Jispingshuizen
+1952-04-20 spawn WSS > Oude Pekela
+1952-04-27 spawn Emmen > Emmen
+1952-04-27 spawn Zuidwesters > Souburg
+1952-05-04 spawn Odival > Diever
+1952-05-11 spawn NOAD (D) > Dreischor
+1952-05-11 spawn SOTOZ > Oudemolen
+1952-05-11 spawn VDW > Assen
+1952-05-12 end SOTOZ
+1952-05-18 spawn Olympia (Bo) > Bourtange
+1952-05-19 end VIOS (G)
+1952-05-25 replace VCJB > DVS (G)
+1952-05-26 end Olympia (Bo)
+1952-06-08 spawn Harkieten > Harkema
+1952-06-30 end Fortuna (Zkb)
+1952-07-06 spawn K en V > Norg
+1952-07-07 end K en V
+1952-07-21 end Vrijheid
+1952-08-25 end DWS³
+1952-09-01 end TOS (B)
+1952-09-14 spawn Blauw Wit '51 > Dordrecht
+1952-09-14 spawn Charlois > Rotterdam
+1952-09-14 spawn Drogeham > Drogeham
+1952-09-14 spawn Eureka > Rotterdam
+1952-09-21 spawn Austerlitz > Austerlitz
+1952-09-21 spawn DOSC > Den Dolder
+1952-09-21 spawn Doorn > Doorn
+1952-09-21 spawn Huizen > Huizen
+1952-09-21 spawn Kwiek (H) > Den Haag
+1952-09-21 spawn SVMM > Maarn
+1952-09-21 spawn Sparta (N) > Nijkerk
+1952-09-28 spawn Be Quick (Z) > Zwolle
+1952-09-28 spawn Emmeloord > Emmeloord
+1952-09-28 spawn Sparta (Zw) > Zwolle
+1952-09-28 spawn Thob > Vreeswijk
+1952-09-28 spawn WWNA > Apeldoorn
+1952-10-06 end Rhenen
+1952-11-09 spawn Ens > Ens
+1952-11-09 spawn HJA > GUKB?
+1952-11-09 spawn Marknesse > Marknesse
+1953-01-25 spawn SSVU > GUKB?
+1953-01-26 end HJA
+1953-02-22 spawn Pams > Den Haag
+1953-02-23 end Giraffes
+1953-03-08 spawn 't Harde > 't Harde
+1953-04-13 end Ens
+1953-04-27 end HKV (Gro)
+1953-05-03 spawn KVS (So) > Soest
+1953-05-17 spawn Aldega > Oudega
+1953-06-07 spawn Klimop (Gr) > Ezinge
+1953-06-07 spawn Volo > Groningen
+1953-06-08 end MKC²
+1953-06-08 end Volo
+1953-06-08 end Voorwaarts (M)
+1953-06-15 end SSS (E)
+1953-07-13 end TFS (H)
+1953-07-19 spawn Philips > Drachten
+1953-07-20 end Philips
+1953-07-20 end Us Fortier
+1953-08-31 end VKV (Ve)
+1953-09-07 end Samenspel
+1953-09-14 end ODS (B)
+1953-09-20 spawn Hespa > Amsterdam
+1953-09-20 spawn KCR (Ro) > Roermond
+1953-09-20 spawn NKC '51 > Nijverdal
+1953-09-20 spawn PKC (Po) > De Pollen
+1953-10-25 spawn Wittenburg > Amsterdam
+1953-10-26 end Seolto (H)
+1953-11-08 spawn BIKO > Bilthoven
+1953-11-08 spawn DVV (H) > Den Haag
+1953-11-08 spawn Filos > ?GUKB?
+1953-11-30 end TOGO (A)
+1953-12-06 spawn Gibraltar > Amsterdam
+1954-03-29 end PKC (Po)
+1954-04-18 spawn Blauw Wit (K) > Kloetinge
+1954-04-19 end De Demping
+1954-04-26 end Indo
+1954-05-02 replace Strandvogels > Renesse
+1954-05-31 end Set Troch
+1954-06-14 end Roidy
+1954-06-27 spawn Spannum > Spannum
+1954-07-05 end WKC (Wi)²
+1954-07-12 end DVS (G)
+1954-09-12 replace Jong Leven (L) > ODS (L)
+1954-09-19 replace HSV (H) > Oostloorn
+1954-09-26 spawn Be Fair (K) > Kraggenburg
+1954-09-26 spawn TONEGO > Luttelgeest
+1954-10-03 spawn Bant > Bant
+1954-10-03 spawn Olympia '47 > Halsteren
+1954-10-11 end TONEGO
+1954-10-17 spawn Ahoy > Rotterdam
+1954-10-17 spawn KIOD > Den Haag
+1954-10-17 spawn KVO (S) > Soest
+1955-03-27 spawn Sportlust (N) > Nieuwleusen
+1955-04-17 spawn UNI (U) > ?GUKB?
+1955-04-18 end UNI (U)
+1955-06-12 replace Madjoe (V) > VEDO
+1955-10-23 spawn OKC (Old) > Oldenzaal
+1955-10-30 spawn Sirios > Rutten
+1955-11-07 end 't Harde
+1955-11-13 spawn SKF > Veenendaal
+1955-11-14 end GKC
+1956-03-12 end SSVU
+1956-03-19 end Zwaluwen (Hg)
+1956-04-15 spawn AKC '54 > Anderen
+1956-04-22 spawn Blauw Wit '55 > De Wijk
+1956-04-29 replace Vitesse (Z) > MEVO (Z)
+1956-04-29 spawn ONDO (M) > Middelburg
+1956-05-06 spawn Groen Wit (Dre) > Erica
+1956-05-06 spawn WIK (S) > Schoonloo
+1956-05-20 spawn VOTO > Hoek
+1956-06-11 end WIK (SJ)
+1956-06-17 spawn Ald Gilles > Oosterwierum
+1956-06-18 end Wez Wis
+1956-06-25 end TDK (M)
+1956-07-23 end Ald Gilles
+1956-10-07 spawn DHJ > Bergen op Zoom
+1956-10-14 spawn ODI (G) > Geleen
+1956-10-14 spawn SVZ > Zuidbroek
+1956-10-14 spawn Stormvogels (G) > Geleen
+1956-10-28 spawn Houtsnippen > Den Haag
+1956-10-28 spawn KVR² > Rijswijk
+1957-03-04 end Terre Neuve
+1957-04-01 end Holver
+1957-04-14 spawn KCS (Sl) > Sluiskil
+1957-04-28 replace Folgeren > Drachten
+1957-04-29 end KCR (Ro)
+1957-05-05 spawn Asko > Assen
+1957-05-05 spawn Fortuna (D) > Delft
+1957-05-12 spawn Wez Warber > Goutum
+1957-05-13 end OKK (H)
+1957-05-13 end SVZ
+1957-05-19 spawn DES '53 > Nijeberkoop
+1957-05-20 end SKV
+1957-05-27 end Harkieten
+1957-06-17 end KCS (Sl)
+1957-09-02 end OKC (Fri)
+1957-09-09 end Animo (T)
+1957-09-09 end DIOS (Dr)
+1957-09-09 end SVS (Zkb)
+1957-09-22 spawn WBC > Blijham
+1957-10-06 spawn ASV (Aa) > Aadorp
+1957-10-06 spawn Lutten > Lutten
+1957-10-20 spawn DOP > Rotterdam
+1957-10-20 spawn DVS (R) > Rotterdam
+1957-10-20 spawn HPV > Rotterdam
+1957-10-20 spawn Hoven > Deventer
+1957-10-20 spawn Tuindorp > Deventer
+1957-10-27 spawn DSE > Nieuwland
+1957-10-27 spawn ONI (A) > Arnhem
+1957-10-27 spawn RIO > Ruurlo
+1957-11-03 spawn BKC³ > Breda
+1957-11-18 end DOSC
+1957-12-02 end Thob
+1957-12-22 spawn Oranje Wit (D) > Dordrecht
+1958-02-24 end Austerlitz
+1958-03-23 spawn Shell (DH) > Den Hulst
+1958-03-31 end Filos
+1958-04-14 end Rood Wit (H)
+1958-05-04 spawn Itens > Itens
+1958-05-19 end WBC
+1958-06-02 end JPS
+1958-06-08 spawn EMOS > Vledder
+1958-06-09 end Hoogersmilde
+1958-06-15 spawn Spes (E) > Eexterveen
+1958-06-16 end UTIJ
+1958-06-23 end Bliuw Warber
+1958-06-30 end DTD
+1958-06-30 end Postale (L)
+1958-07-07 end Tjerk Hiddes
+1958-07-28 end Die Gouwe
+1958-09-14 spawn SBO > Peize
+1958-09-14 spawn Zunobri² > Zuidhorn
+1958-09-15 end VOTO
+1958-09-21 spawn KVA (Al) > Alteveer
+1958-10-13 end Eendracht (WB)
+1958-11-02 spawn Swift (Gr) > Veendam
+1959-02-23 end RIO
+1959-03-23 end ASV (Aa)
+1959-04-13 end DVS (R)
+1959-04-13 end KVH
+1959-04-13 end Nevelo
+1959-04-13 end Sportlust (N)
+1959-04-26 spawn It Fean > Surhuisterveen
+1959-05-10 spawn Marfugels > Grou
+1959-05-31 spawn Driehoek > Katlijk
+1959-06-01 end SYF
+1959-06-07 spawn SVS > Scharnegoutum
+1959-06-14 spawn Zorgvlied > Zorgvlied
+1959-07-05 spawn AVVLO > Appelscha
+1959-07-05 spawn Joure > Joure
+1959-07-06 end SSS (C)
+1959-08-17 end Kats
+1959-08-31 end KIK
+1959-09-13 spawn DES (N) > Norg
+1959-09-13 spawn DKV (Du) > Dubbeldam
+1959-09-20 spawn Eldos > Hoensbroek
+1959-09-20 spawn Tuindorp (H) > Hoensbroek
+1959-09-27 spawn Flamingo's (R) > Rotterdam
+1959-09-27 spawn Zuiderkwartier (A) > Apeldoorn
+1959-10-19 end Kinea (H)
+1959-11-02 end KVA (Al)
+1959-11-02 end Swift (Gr)
+1959-11-30 end Klimop (Gr)
+1960-03-07 end Gibraltar
+1960-04-04 end Elim
+1960-04-24 spawn Maasglorie > Rotterdam
+1960-05-02 end Blauw Wit '55
+1960-05-09 end Flamingo's (R)
+1960-06-13 end Scampolo
+1960-06-19 spawn Harich > Harich
+1960-06-19 spawn Lauwers > Warfstermolen
+1960-06-20 end Aldega
+1960-08-22 end Vitesse (F)
+1960-09-25 spawn Asenco > (Friesland)
+1960-09-25 spawn SOS '60 > Muntendam
+1960-09-25 spawn Vitesse '59 > Voorschoten
+1960-09-25 spawn Zijlkwartier > Leiden
+1960-10-02 replace KCT > RWB
+1960-10-02 spawn Sportief (N) > Nieuw-Roden
+1960-10-03 end BKC (Bo)
+1960-10-09 spawn Treffers² > Wezep
+1960-10-17 end Hoven
+1960-12-26 end Nationale
+1961-01-15 replace DSS > SKNWK
+1961-01-16 end Zijlkwartier
+1961-01-29 spawn ROG > Groningen
+1961-03-20 end Volharding (Dkb)
+1961-03-20 end Zuidzande
+1961-04-17 end Eldos
+1961-04-23 spawn Zwaagwesteinde > Zwaagwesteinde
+1961-05-01 end Blauw Wit (J)
+1961-05-01 end Lutten
+1961-05-15 end Tuindorp (H)
+1961-06-04 spawn Balkbrug > Balkbrug
+1961-06-04 spawn Ruinen > Ruinen
+1961-06-05 end Shell (DH)
+1961-06-26 end MEVO (Z)
+1961-07-02 spawn Sneek > Sneek
+1961-09-10 merge DVV (H),KIOD > Morgenstond > Den Haag
+1961-09-10 spawn Koru > Uffelte
+1961-09-17 spawn Flitsers > Kamperveen
+1961-09-17 spawn Ready '60 > Roermond
+1961-09-18 end Maasglorie
+1961-10-01 spawn Hoogvliet > Hoogvliet
+1961-10-16 end Flitsers
+1961-11-06 end Rood Wit
+1961-11-12 spawn NKV (Na) > Nagele
+1961-11-27 end DHJ
+1962-04-16 end Morskwartier
+1962-04-29 replace DDK > Wapse
+1962-04-29 spawn Harkema > Harkema
+1962-04-29 spawn Vefo > Veeningen-Fort
+1962-05-21 end Sport Vereent
+1962-05-27 spawn Lege Geaen > Sijbrandaburen
+1962-06-24 spawn Noveas > Steenwijk
+1962-07-02 end Blauw Wit (R)
+1962-07-02 end Olympia '47
+1962-07-02 end WKV
+1962-09-08 replace Fortuna (A) > BFC
+1962-09-09 end Wittenburg
+1962-09-16 spawn Ajax (R) > Rotterdam
+1962-09-16 spawn Westen > Rotterdam
+1962-09-17 end Starveld
+1962-10-07 replace Groede > Noad
+1962-10-14 spawn Hoogkerk > Hoogkerk
+1962-10-29 end Zunobri²
+1963-01-14 end Zwaluwen (He)
+1963-02-24 merge Stormvogels (E),Zwaluwen (E) > ZSC > Scharendijke
+1963-03-04 end Hillesluis
+1963-03-11 end VOPO
+1963-03-24 spawn Schiebroek > Schiebroek
+1963-04-21 spawn De Rietvogels (G) > Gasteren
+1963-04-22 end Noad
+1963-05-06 end Treffers²
+1963-05-12 spawn Flamingo's (B) > Buitenpost
+1963-05-19 spawn Invicta > Kollum
+1963-05-27 end AKC (Aa)
+1963-05-27 end Zorgvlied
+1963-06-09 spawn DTD² > Britsum
+1963-06-10 end Morgenstond
+1963-06-17 end DTD²
+1963-06-24 end Sneek
+1963-09-21 spawn SDO (V) > Veldhoven
+1963-09-30 end VIOS (K)
+1963-10-13 spawn DKD > Krimpen aan den IJssel
+1963-10-14 end Westen
+1963-10-20 spawn KVN > Nieuweschans
+1963-10-21 end KVN
+1963-10-27 spawn Ten Donck > Ridderkerk
+1963-10-27 spawn Vlaardingen > Vlaardingen
+1963-10-28 end Hillegersberg
+1963-11-11 end Animo (Dkb)
+1963-11-11 end Groen Wit (Dre)
+1963-11-11 end NKV (Na)
+1963-11-25 end Bant
+1963-11-25 end Be Fair (K)
+1963-11-25 end Vitesse '59
+1963-12-02 end Sirios
+1964-01-06 end Zeelandia
+1964-02-02 merge VZOD (W),Vitesse (W) > CVV > Wolfaartsdijk
+1964-04-12 spawn Lintjo > Oldeberkoop
+1964-04-12 spawn WBY > IJhorst
+1964-04-20 end WWIJD
+1964-04-26 spawn Colwidum > Koudum
+1964-04-27 end CVV
+1964-05-04 end DSE
+1964-06-22 end Friso (A)
+1964-08-31 end NSL
+1964-09-12 spawn Neptunus > IJmuiden
+1964-09-13 spawn Excelsior '54 > Sittard
+1964-09-14 end VKV
+1964-09-20 spawn Dosko > Bergen op Zoom
+1964-09-27 spawn Klimop (A) > Asten
+1964-11-01 spawn Valkenisse > Biggekerke
+1965-03-15 end Valkenisse
+1965-04-25 spawn Delta > Ooltgensplaat
+1965-05-02 spawn WTOC > Oudwoude
+1965-05-09 replace Hercules² > Oldeboorn
+1965-05-24 end Rood Zwart
+1965-05-24 end Wilskracht
+1965-06-27 spawn SVK (K) > Koosterstille
+1965-09-12 merge DED,DVD² > DEVD > Amstelveen
+1965-09-12 spawn DBGC > Oude Tonge
+1965-09-12 spawn Terheijden > Terheijden
+1965-09-19 merge DKD > De Bermen > Capelle aan den IJssel
+1965-09-19 spawn Blauwe Treffers > Spijkenisse
+1965-10-18 end EMOS
+1965-10-18 end WBY
+1965-10-31 spawn KCS > Slotermeer
+1966-01-16 merge Burgh,Zeemeeuwen > DFS > Burgh Haamstede
+1966-01-16 spawn Good Luck > Middelharnis
+1966-01-16 spawn SDO (SAJ) > Sint Philipsland
+1966-02-21 end Renesse
+1966-02-28 end Noord Oosten
+1966-03-06 spawn Eurotop > Rotterdam
+1966-03-27 spawn Bergum > Burgum
+1966-04-24 spawn NOK > Nije- en Oudemirdum
+1966-05-01 replace ADO (M) > ADO '64
+1966-05-08 spawn NIKO > Nieuwe Tonge
+1966-05-09 end Oisterwijk
+1966-05-09 end Stormvogels (G)
+1966-05-22 spawn Fit '65 > Waddinxveen
+1966-05-22 spawn Vriendenschaar (B) > Bodegraven
+1966-05-23 end De Poel
+1966-05-30 end Dosko
+1966-06-12 spawn Lemmer > Lemmer
+1966-06-20 end Asenco
+1966-06-27 end WTOC
+1966-09-11 replace Blauwe Treffers > Olympia (S)
+1966-09-11 replace Schiebroek > Hesco
+1966-09-11 spawn Hoger Op > Krommenie
+1966-09-11 spawn Madjoe > Rijnsburg
+1966-09-11 spawn Racing Amsterdam > Amsterdam
+1966-09-11 spawn WWSV > Wijdewormer
+1966-09-11 spawn Waterland > Landsmeer
+1966-09-11 spawn Welgelegen > Utrecht
+1966-09-18 spawn Diderna > Dieren
+1966-09-18 spawn Eerbeek > Eerbeek
+1966-09-19 end Fit '65
+1966-09-25 spawn Olympus '58 > Doetinchem
+1966-11-13 spawn Paasberg > Terborg
+1966-11-13 spawn Swift '66 > Eibergen
+1966-11-28 end Wapse
+1966-12-27 spawn Thor (R) > Rotterdam
+1967-02-13 end DOS (N)²
+1967-03-13 end Ajax (R)
+1967-03-19 spawn Boelenslaan > Boelenslaan
+1967-04-02 spawn Brummen > Brummen
+1967-04-02 spawn Terwolde > Terwolde
+1967-04-09 spawn Pax > Gelderland
+1967-04-10 end Pax
+1967-04-23 spawn Wiko > Winterswijk
+1967-05-14 spawn Rapid (D) > Delfzijl
+1967-08-21 end Itens
+1967-08-27 replace Unitas (Z) > All-Ready
+1967-09-03 spawn Ando > Aalten
+1967-09-03 spawn Celeritas (A) > Alkmaar
+1967-09-03 spawn Dubbel Zes '66 > Den Haag
+1967-09-03 spawn ELKV > Etten-Leur
+1967-09-03 spawn Rivalen > Doesburg
+1967-09-10 spawn ASVD > Dronten
+1967-09-17 spawn Keizer Karel > Nijmegen
+1967-10-02 end ADO '64
+1967-10-08 spawn Rijssen > Rijssen
+1967-11-08 spawn MIK > Amsterdam
+1967-11-16 spawn Badhoevedorp > Badhoevedorp
+1967-11-16 spawn Wordt Kwiek > Amsterdam
+1967-12-10 spawn KSW > Warten
+1967-12-10 spawn Vlug en Vaardig (G) > Garyp
+1968-01-29 end Velocitas (Se)
+1968-03-24 spawn VIOS (N) > Numansdorp
+1968-04-01 end DOP
+1968-05-06 end Racing Amsterdam
+1968-07-01 end NIKO
+1968-09-01 merge Actief (V),TOP (V) > TOP (V) > Vroomshoop
+1968-09-01 merge UNI (S),Rohda (H) > Goorecht > Hoogezand
+1968-09-01 replace Merwede (D) > Merwic
+1968-09-01 spawn Juliana > Oud Gastel
+1968-09-01 spawn Oranje Nassau (V) > Vlaardingen
+1968-09-08 replace MKC (Me) > Alcides²
+1968-09-29 spawn Donia > Huisterheide
+1968-09-29 spawn SPO > De Pollen
+1968-11-03 spawn VIOS (W) > Willemstad
+1968-11-04 end Colwidum
+1968-11-11 end ELTO (B)
+1968-12-01 spawn DTL > Hantum
+1968-12-01 spawn Frigro > Gerkesklooster/Stroobos
+1968-12-01 spawn MKF > Wanswerd
+1968-12-08 spawn CSL > Britsum
+1968-12-08 spawn L en F > Hilaard
+1968-12-08 spawn Quick (B) > Burdaard
+1968-12-08 spawn Rapiditas (L) > Leeuwarden
+1969-02-10 end Ando
+1969-02-10 end ODS (L)
+1969-02-17 end MKF
+1969-03-17 end Paasberg
+1969-03-17 end Thor (D)
+1969-04-20 spawn Wesselerbrink > Enschede
+1969-08-31 replace WWNA > Apollo '69
+1969-08-31 spawn Markelo³ > Markelo³
+1969-08-31 spawn Midlandia > Bunnik
+1969-09-07 merge UDI (T),UNA (L) > Rodenburg > Leek/Tolbert
+1969-09-07 spawn FIT > Amsterdam
+1969-09-28 spawn DOAC > Rotterdam
+1969-09-29 end DOAC
+1969-10-12 spawn Ritola > Zuidlaren
+1969-11-23 spawn DIO (R Fri) > (Friesland)
+1969-11-30 spawn DTG (O) > Oude Bildtzijl
+1969-11-30 spawn Diemen > Diemen
+1969-11-30 spawn OSDO > Ouderkerk aan den Amstel
+1969-12-07 spawn SIOS '61 > Velp
+1969-12-07 spawn Wez Fluch (R) > Reitsum
+1969-12-14 merge OKC (Old),Quick (O) > Quick (O) > Oldenzaal
+1969-12-14 spawn De Zwerfsteen > Roden
+1969-12-14 spawn Postiljons > Ten Post
+1969-12-21 spawn Woldjeprikken > Grootegast
+1970-01-04 spawn DKC (Fri) > (Friesland)
+1970-02-08 spawn Amstel² > Amstelveen
+1970-02-16 end DIO (R Fri)
+1970-02-23 end Drogeham
+1970-03-01 spawn DKOD > Heelsum
+1970-03-01 spawn Pernix > Leiden
+1970-03-01 spawn Zaamslag > Zaamslag
+1970-03-02 end Quick (O)
+1970-03-02 end Rijssen
+1970-03-09 end DKC (Fri)
+1970-03-16 end Animo (W)
+1970-03-16 end Bergum
+1970-03-16 end Tijnje
+1970-04-27 end Ahoy
+1970-04-27 end OBZB
+1970-05-25 end SVS
+1970-05-31 spawn PKC > Papendrecht
+1970-08-03 end SDO (SAJ)
+1970-08-30 merge Wardy,WTEF > WWC > Mantgum-Wieuwerd
+1970-08-30 replace TOP (P) > Niek
+1970-08-30 spawn ADO > 's-Gravendeel
+1970-08-30 spawn Albatros > Zwijndrecht
+1970-08-30 spawn Albino's > Ezinge
+1970-08-30 spawn Avanti (P) > Pijnacker
+1970-08-30 spawn Blauw Wit (Rot) > Delfshaven
+1970-08-30 spawn DES (De) > Delft
+1970-08-30 spawn DKV (IJ) > IJmuiden
+1970-08-30 spawn DWA > Winsum
+1970-08-30 spawn Dalto > Driebergen
+1970-08-30 spawn Excelsior (D) > Delft
+1970-08-30 spawn Fiks > Oegstgeest
+1970-08-30 spawn Fluks (N) > Noordwijk
+1970-08-30 spawn GKV (G) > Gorinchem
+1970-08-30 spawn Griffioen > Smilde
+1970-08-30 spawn HHV > Hollandscheveld
+1970-08-30 spawn HKC (Ha) > Hardinxveld-Giessendam
+1970-08-30 spawn HKC (U) > Utrecht
+1970-08-30 spawn IJsvogels > Den Haag
+1970-08-30 spawn Jodan Boys > Gouda
+1970-08-30 spawn KIOS (N) > Nieuw Vennep
+1970-08-30 spawn KOAG > Krimpen aan den IJssel
+1970-08-30 spawn KVS (Noord) > Smilde
+1970-08-30 spawn KVS > Scheveningen
+1970-08-30 spawn Kinderdijk > Alblasserdam
+1970-08-30 spawn Kwiek (O) > Overschie
+1970-08-30 spawn MIA > Amersfoort
+1970-08-30 spawn Maassluis > Maassluis
+1970-08-30 spawn Merwede > Sliedrecht
+1970-08-30 spawn NIO > Rotterdam
+1970-08-30 spawn ODI (S) > Schiedam
+1970-08-30 spawn ODIK > Barneveld
+1970-08-30 spawn ODS > Rijswijk
+1970-08-30 spawn ONDO (G) > 's-Gravenzande
+1970-08-30 spawn OVVO > Maarssen
+1970-08-30 spawn Ons Eiland > Leiden
+1970-08-30 spawn Rotterdam Zuid > Rotterdam
+1970-08-30 spawn SGV > Culemborg
+1970-08-30 spawn SMS > Utrecht
+1970-08-30 spawn SSS > Wageningen
+1970-08-30 spawn Sagitta > Ridderkerk
+1970-08-30 spawn Snel > Dordrecht
+1970-08-30 spawn Spirit (Vl) > Vlaardingen
+1970-08-30 spawn TOP (Ro) > Rotterdam
+1970-08-30 spawn TOP (S) > Sassenheim
+1970-08-30 spawn Thor (H) > Harmelen
+1970-08-30 spawn Thrianta > Hoogeveen
+1970-08-30 spawn VEO > Voorburg
+1970-08-30 spawn Valto > De Lier
+1970-08-30 spawn Velocitas (L) > Leiderdorp
+1970-08-30 spawn Ves > Den Haag
+1970-08-30 spawn Vitesse (Ba) > Barendrecht
+1970-08-30 spawn Vlug en Vaardig (A) > Amsterdam
+1970-08-30 spawn Vriendenschaar (H) > Hardinxveld-Giessendam
+1970-08-30 spawn Waterschip > Hoogvliet
+1970-08-31 end KVS (Noord)
+1970-09-06 replace Rapid (D) > Roda '70
+1970-09-06 spawn DIO (R) > Rotterdam
+1970-09-06 spawn DVO > Bennekom
+1970-09-06 spawn De Kapellen > Capelle aan den IJssel
+1970-09-06 spawn Elko > Elim
+1970-09-06 spawn Luno > Linschoten
+1970-09-06 spawn Meeuwen (P Fri) > (Friesland)
+1970-09-06 spawn Nieuwerkerk > Niewerkerk aan den IJssel
+1970-09-06 spawn ODI (A) > Aalsmeer
+1970-09-06 spawn ODO (M) > Maasland
+1970-09-06 spawn RWR > Rhoon
+1970-09-06 spawn Rapid (H) > Haarlem
+1970-09-06 spawn Rheko > Rheden
+1970-09-06 spawn VIOD > Tienhoven
+1970-09-06 spawn Warmond > Warmond
+1970-09-06 spawn Weidevogels > Bleiswijk
+1970-09-13 merge KVL,VEDO > Seolto > Vlissingen
+1970-09-13 spawn Argo > Bedum
+1970-09-13 spawn DOS (K) > Kerkenveld
+1970-09-13 spawn IJsselvogels > Moordrecht
+1970-09-13 spawn Reeuwijk > Reeuwijk
+1970-09-13 spawn SDO (Fri) > (Friesland)
+1970-09-13 spawn SKV (W) > Wageningen
+1970-09-13 spawn Sportief (Rot) > Krimpen aan den IJssel
+1970-09-20 spawn SEV (L) > Leidschendam
+1970-09-20 spawn Swift (Ede) > Ede
+1970-09-27 spawn DTS (D) > Dorwerth
+1970-09-28 end Meeuwen (P Fri)
+1970-09-28 end SDO (Fri)
+1970-10-11 spawn ZKV (Zu) > Zuidland
+1970-10-18 spawn De Meervogels > Zoetermeer
+1970-10-18 spawn SVN² > Naaldwijk
+1970-10-25 spawn Ventura Sport > Strijen
+1970-11-15 spawn Animo (G) > Geldermalsen
+1970-11-29 spawn Dijkvogels > Maasdijk
+1970-11-29 spawn Fluks (OB) > Oud Beijerland
+1970-11-29 spawn Hoekse > Hoek van Holland
+1970-11-29 spawn Sportlust (L) > Leidschendam
+1970-11-29 spawn Tempo > Alphen aan den Rijn
+1970-12-06 spawn De Vinken > Vinkeveen
+1971-02-22 end IJsvogels
+1971-03-01 end Fluks (OB)
+1971-03-29 end Wez Fluch (R)
+1971-04-26 end Animo Ready
+1971-05-03 end Hermes (G)
+1971-05-17 end Wordt Kwiek
+1971-06-21 end DES (S)
+1971-08-29 merge DTS (D),DKOD > DKOD > Heelsum
+1971-08-29 replace Amstelodamum > HDK
+1971-08-29 spawn Arena > Rhenen
+1971-09-05 spawn Oude Gracht > Eindhoven
+1971-09-05 spawn SEV (Z) > Zelhem
+1971-09-05 spawn Stormvogels (U) > Uitgeest
+1971-09-05 spawn VIOS (Nrd) > Noord
+1971-09-12 spawn KIDO '68 > Roermond
+1971-09-12 spawn Orion > Afd Zuid
+1971-09-19 spawn RKC > Rotterdam
+1971-09-26 spawn Mariarade > Hoensbroek
+1971-10-03 spawn Exakwa > Lelystad
+1971-10-04 end SPO
+1971-10-17 spawn Ede > Ede
+1971-10-17 spawn Trega > Maastricht
+1971-11-07 spawn De Issel > Ulft
+1971-11-08 end Postiljons
+1971-11-28 spawn Jong Brabant > Berkel-Enschot
+1971-11-28 spawn Juko > Nieuwegein
+1971-11-28 spawn Kanaries > Best
+1971-11-28 spawn NKV > Nuenen
+1971-11-28 spawn SSS '70 > Marsum
+1971-11-28 spawn Sirene > Uden
+1971-11-28 spawn Wandelbos > Tilburg
+1971-11-29 end Orion
+1971-12-12 spawn Oranje Zwart (M) > Mijnsheerenland
+1971-12-19 spawn De Waterpoort > Sneek
+1972-01-16 replace SVK (K) > Tilstars
+1972-03-13 end WIK (K)²
+1972-04-10 end NOK
+1972-04-10 end SVN²
+1972-04-17 end Swift '66
+1972-05-22 end TOP (Ro)
+1972-09-02 merge Rust Roest (E),Odilo > Rust Roest (E) > Eindhoven
+1972-09-02 spawn Antilopen > Leusden
+1972-09-02 spawn DTS (E) > Enkhuizen
+1972-09-03 spawn Phenix '72 > Goor
+1972-09-10 spawn Animo (Wo) > Wolfheze
+1972-09-10 spawn De Granaet > Dokkum
+1972-09-10 spawn Mid Fryslân (W) > Wijtgaard
+1972-09-10 spawn Veenwouden > Veenwouden
+1972-09-17 spawn SCOZ '71 > Noord
+1972-10-09 end SOS '60
+1972-10-23 end Tuindorp
+1972-10-29 spawn KVTO² > Amsterdam
+1972-10-30 end HDK
+1972-10-30 end KVTO²
+1972-11-06 end Terwolde
+1972-11-26 spawn Hilversum > Hilversum
+1973-02-26 end Delta
+1973-04-30 end Be Quick (Z)
+1973-05-21 end Rotterdam Zuid
+1973-06-17 spawn Geldrop > Geldrop
+1973-09-02 spawn De Meeuwen > Putten
+1973-09-09 merge Fluks,Vicus Orientis > Fides Pacta > Leiden
+1973-09-09 merge KVO (S),KVS (So) > KVO (S) > Soest
+1973-10-07 spawn 't Capproen > Hellevoetsluis
+1973-10-14 spawn Brielle > Brielle
+1973-11-26 end Sportlust (L)
+1973-12-02 spawn Heemskerk > Heemskerk
+1973-12-09 spawn Argus > Weesp
+1974-01-14 end SCOZ '71
+1974-01-14 end VIOS (Nrd)
+1974-02-04 end Houtsnippen
+1974-02-18 end Balkbrug
+1974-03-31 replace Swift (Ede) > Reehorst '45
+1974-05-06 end Oosthoek
+1974-05-12 spawn Elko '70 > Elst
+1974-05-12 spawn Velp > Velp
+1974-05-13 end KSW
+1974-05-26 spawn VZOD > Kudelstaart
+1974-05-27 end DDV
+1974-09-01 merge Schiedam,Spangen > Harga > Schiedam
+1974-09-01 spawn Ados > Hoorn
+1974-09-01 spawn DVS '69 > Hendrik Ido Ambacht
+1974-09-01 spawn Vitesse '74 > Franeker
+1974-09-08 spawn Stadskanaal '74 > Stadskanaal
+1974-10-07 end Ajax
+1974-11-24 spawn SVD (Da) > Dalfsen
+1974-12-16 end Markelo³
+1975-02-10 end Blauw Wit (Rot)
+1975-02-17 end SVD (Da)
+1975-03-03 end VIOD
+1975-03-24 end Oldeboorn
+1975-05-04 spawn Regio '72 > Vaassen
+1975-05-05 end DIO (R)
+1975-05-19 end Animo (Wo)
+1975-05-26 end Oostloorn
+1975-08-31 spawn Woudenberg > Woudenberg
+1975-09-07 replace Alcides² > Meko '74
+1975-11-23 spawn Apollo > Heerhugowaard
+1975-11-23 spawn Unitas > Harderwijk
+1975-11-30 spawn Westergo > Bolsward
+1976-03-01 end ADO (H)
+1976-03-01 end DOSKO (N)
+1976-04-05 end ONI (A)
+1976-04-19 end DOS (B)
+1976-09-12 merge De Zwerfsteen,Roko > Noordenveld > Roden
+1976-09-12 spawn OKC² > Onstwedde
+1976-11-21 spawn SDO (K) > Kamerik
+1977-03-07 end DFS
+1977-05-01 spawn Wesko > Westerbork
+1977-08-28 spawn Helios > Castricum
+1977-08-28 spawn Revival > Terschuur
+1977-09-04 spawn Spirit (Vo) > Voorthuizen
+1977-09-18 spawn Emergo > Sint Maartensdijk
+1977-09-19 end Brielle
+1977-09-19 end Hesco
+1977-10-09 spawn Djempol > Zuid?
+1977-10-16 spawn De Kieviten > Fijnaart
+1977-10-16 spawn Eymerick > Erymerick
+1977-10-17 end Djempol
+1977-11-13 spawn Fortis '75 > Montfoort
+1977-12-18 spawn Breda Noord > Breda
+1978-05-08 end Welgelegen
+1978-09-03 spawn DSO (A) > Alkmaar
+1978-09-03 spawn Korwi > Winschoten
+1978-09-03 spawn Roreko > De Wijk
+1978-09-24 spawn Korbatjo > Oud Beijerland
+1978-10-23 end RKC
+1978-11-19 spawn Schatzenburg > Menaldum
+1978-11-19 spawn TOV (Fri) > Veenpolder
+1979-03-11 replace Alliance > Keep Fit '70
+1979-04-09 end De Kieviten
+1979-04-23 end Eurotop
+1979-09-02 replace Germanicus > Korvesta
+1979-09-02 replace UDI (K) > Udik
+1979-09-02 spawn De Keien > Noord
+1979-09-09 spawn Kieviten > Wormerveer
+1979-10-21 spawn Heerlen > Heerlen
+1979-10-21 spawn Minor > Nuth
+1979-11-18 spawn Boemerang > Schijndel
+1980-01-27 spawn Old Hickery > Zuid?
+1980-03-03 end Brouwershaven
+1980-03-03 end OWK (O)
+1980-03-03 end Tilstars
+1980-03-03 end ZSC
+1980-04-21 end Old Hickery
+1980-08-31 replace ODA (B) > Boornbergum
+1980-08-31 spawn DFS (B) > Burgum
+1980-09-07 spawn Vanonta > Rozenburg
+1980-09-07 spawn Veendam² > Veendam
+1980-10-12 spawn Wertha > Weert
+1980-11-09 spawn OSK > Oldetrijne
+1980-11-23 spawn Deurne > Deurne
+1980-11-30 spawn KVK > Kapelle
+1980-11-30 spawn SDO (H) > Hillegom
+1980-12-07 spawn Oldensaele > Oldenzaal
+1980-12-08 end Oldensaele
+1981-02-02 end DTG (O)
+1981-03-02 end Frisia
+1981-03-29 spawn Venlo > Venlo
+1981-05-04 end Minor
+1981-09-06 spawn Dindoa > Ermelo
+1981-09-06 spawn Telstar > De Hoevelaken
+1981-09-20 replace Trynwalden > DFD
+1981-09-28 end FIT
+1981-10-04 spawn Fortuna '68 > Knegsel
+1981-11-29 spawn Sport² > Hoorn
+1981-12-06 spawn Mares > Maarheze
+1982-09-05 spawn Argento > Schoonhoven
+1982-09-05 spawn Voltreffers (O) > Oosterhout
+1982-09-12 spawn Atlantis > Mijdrecht
+1982-09-12 spawn Fiducia > Vleuten
+1982-11-28 spawn Wieen > Venray
+1983-03-07 end Noorderkwartier
+1983-04-25 end HPV
+1983-04-25 end Mid Fryslân (W)
+1983-05-09 end ODI (G)
+1983-05-16 end De Keien
+1983-05-29 spawn Zwijndrecht > Zwijndrecht
+1983-09-04 spawn Fortissimo > IJsselstein
+1983-09-04 spawn Iduna > Heerlen
+1983-09-04 spawn Tweemaal Zes > Maartensdijk
+1983-09-11 spawn Mickels > Haren
+1983-09-18 replace Brummen > Turbulas
+1983-09-25 spawn De Eibers > Eibergen
+1983-10-02 spawn Centaurea > Wijchen
+1983-10-02 spawn DVS (Gld) > Arnhem
+1983-10-02 spawn De Hazenkamp > Nijmegen
+1983-10-09 spawn Aladna > Aalten
+1983-10-09 spawn Quick '81 > Hengelo
+1983-10-16 spawn Blanckenburgh > Beuningen
+1983-10-16 spawn Druiden > Druten
+1983-11-20 spawn De Parabool > Groningen
+1983-11-20 spawn Débaldérin > Wageningen
+1983-11-20 spawn Excelsior (U) > Uithuizermeeden
+1983-11-20 spawn Thuve '73 > Duiven
+1983-11-27 replace Sport² > Blauwe Berg
+1984-02-06 end Wieen
+1984-02-27 end Emma
+1984-03-05 end Warmond
+1984-04-09 end Blanckenburgh
+1984-04-09 end Druiden
+1984-05-07 end Quick '81
+1984-05-14 end KCS
+1984-05-21 end Centaurea
+1984-05-21 end Mercedes
+1984-05-21 end Velp
+1984-05-28 end DVS (Gld)
+1984-05-28 end Elko '70
+1984-09-02 spawn Nowegro > Leens
+1984-09-02 spawn VIKO > Vianen
+1984-09-16 spawn Raak > Noord
+1984-09-23 spawn Korbis > Waddinxveen
+1985-01-21 end Iduna
+1985-02-25 end Schatzenburg
+1985-03-04 end Boornbergum
+1985-03-04 end Donia
+1985-04-22 end Venlo
+1985-05-20 end Blauw Wit (Bu)
+1985-05-20 end OSK
+1985-05-20 end Raak
+1985-11-17 spawn Zunobri > Zuidhorn
+1985-11-24 spawn Den Bosch > Den Bosch
+1985-11-24 spawn Riko > Rilland
+1985-12-15 spawn Amesia > Termunten
+1986-02-17 end Amesia
+1986-03-03 end Riko
+1986-05-26 end MEO
+1986-08-31 spawn Wilskracht (E) > Enschede
+1986-09-07 merge Olympia (B),DSV (B) > DOC > Bussum
+1986-09-07 spawn ACKC > Almkerk
+1986-09-07 spawn DWS (K) > Kootwijkerbroek
+1986-09-07 spawn EKVA > Almere
+1986-11-10 end Zwaagwesteinde
+1986-11-17 end AKC (Ak)
+1986-11-17 end TOV (Fri)
+1986-11-23 spawn DOS (W) > Westbroek
+1986-11-23 spawn Kesteren > Kesteren
+1986-12-08 end DES '53
+1986-12-08 end L en F
+1986-12-08 end Luxia
+1986-12-08 end MI
+1986-12-08 end SSS '70
+1987-03-02 end Blauwe Berg
+1987-03-02 end Excelsior (U)
+1987-03-02 end UDI (H)
+1987-05-18 end Charlois
+1987-09-05 spawn Juventa > Hardenberg
+1988-04-24 end Sportief (Rot)
+1988-09-03 merge Volt,Wandelbos > Tilburg > Tilburg
+1988-09-10 merge Wesselerbrink,DOS (E) > DOS-WK > Enschede
+1989-03-06 end Neptunus
+1989-05-08 end AVVLO
+1989-05-21 end SOS
+1989-05-28 spawn Scheldevogels > Bergen op Zoom
+1989-09-03 merge KVD,Oosterpark > Diamco > Diemen
+1989-09-03 merge Kwiek (O),WION > WION > Rotterdam
+1989-09-03 merge OSCR,Ons Huis (R) > KC Rotterdam > Rotterdam
+1989-09-03 merge Wilskracht (E),Naas² > EKC Naas > Enschede
+1989-09-10 merge Westerkwartier,Landlust > Sporting West > Amsterdam
+1990-02-19 end RWB
+1990-02-19 end Veendam²
+1990-02-26 end OKC²
+1990-05-21 end Meeuwen (L)
+1990-09-09 merge BIKO,Kameo > Nova > Bilthoven
+1990-09-09 merge Pams,Ves > Futura > Den Haag
+1990-09-09 replace DBGC > Korvo
+1990-11-18 replace Organon > TOP (O)
+1990-12-09 spawn Elsene > Elsene
+1990-12-09 spawn Scharn > Maastricht
+1991-02-25 end KIOL
+1991-02-25 end WIK (S)
+1991-02-25 end Woldjeprikken
+1991-03-04 end Elsene
+1991-03-04 end Oude Gracht
+1991-03-04 end Scharn
+1991-03-24 spawn Springfield > De Hoeven
+1991-03-31 spawn SKV (S) > Sleeuwijk
+1991-05-27 end Hou Stand
+1991-05-27 end SMS
+1991-09-08 merge Diamco,Diemen > Diamco > Diemen
+1991-09-08 merge HSV,GKV > GKV > Den Haag
+1991-09-08 spawn Barriere > Emmen
+1991-09-15 merge Zuiderkwartier (A),Apollo '69 > Atalante > Apeldoorn
+1992-03-16 end NOAD (D)
+1992-04-05 spawn Triade > Langerak
+1992-06-01 end KNS
+1992-09-06 merge Excelsior,Zwaluwen (H) > De Corvers > Hilversum
+1992-09-06 merge HKV,Ons Eibernest > HKV / Ons Eibernest > Den Haag
+1992-09-06 merge Zuiderkwartier (L),Ons Eiland > KZ Leiden > Leiden
+1992-09-13 merge Spartaan,KC Rotterdam > KC Rotterdam > Rotterdam
+1992-09-13 spawn DSO (K) > Klundert
+1992-11-22 spawn ESDO > Kockengen
+1992-12-20 spawn Elburg > Elburg
+1993-01-24 spawn Attila > Eindhoven
+1993-01-24 spawn Melmac > Tilburg
+1993-05-24 end Succes
+1993-09-05 merge Olympiaan,Kwiek (H) > Olympiek > Den Haag
+1993-09-05 merge RWR,Portugaal > RWA > Poortugaal
+1993-11-13 spawn De Eemvogels > Soest
+1993-11-13 spawn Minerva > Nieuwegein
+1993-11-13 spawn Reflex > Woerden
+1993-11-20 spawn Hemur Enge > Amerongen
+1993-11-20 spawn Het Bosch > Lexmond
+1993-11-20 spawn Ter Leede > Leerdam
+1993-11-27 spawn Hellas '63 > Nunspeet
+1993-11-27 spawn Victum > Houten
+1993-12-04 spawn Hebbes > Utrecht
+1993-12-04 spawn Viking > Wijk bij Duurstede
+1993-12-11 spawn Ermelo > Ermelo
+1993-12-18 spawn Wolderwijd > Zeewolde
+1994-01-15 spawn Tiel '72 > Tiel
+1994-02-27 end Geldrop
+1994-03-06 end Deurne
+1994-03-06 end SBO
+1994-05-09 end Mickels
+1994-09-03 merge Olympiek,Raven > Olympiek > Den Haag
+1994-09-11 end Udik
+1994-10-30 end Vitesse '74
+1994-11-26 spawn Erasmus > Rotterdam
+1994-11-27 end Sportief (N)
+1994-12-18 end DOS (K)
+1994-12-18 end Griffioen
+1994-12-18 end Nowegro
+1994-12-18 end Odival
+1994-12-18 end VSV
+1994-12-18 end Wesko
+1995-01-22 end Albino's
+1995-03-11 spawn Vakgericht > Enschede
+1995-03-12 end Excelsior '54
+1995-09-02 merge Algemene,Fides Pacta > Sporting Trigon > Leiden
+1995-09-02 merge DEVD,Amstel² > KVA > Amstelveen
+1995-09-02 merge ODS,KVR² > Refleks > Rijswijk
+1995-09-02 merge Ter Gouw,Jodan Boys > Gemini > Gouda
+1995-09-16 spawn Korfoes > Deventer
+1995-10-29 end Desto
+1996-05-19 end Korvo
+1996-08-31 merge AW,DTV > AW.DTV > Amsterdam
+1996-08-31 merge SAMOS,DVS (U) > Synergo > Utrecht
+1996-08-31 merge Waterschip,Hoogvliet > Nikantes > Hoogvliet
+1996-09-07 merge LDO,ODK > LDODK > Terwispel/Gorredijk
+1996-09-28 spawn Activitas > Maurik
+1997-06-01 end USV
+1997-06-05 merge MIA,Amersfoort > MIA > Amersfoort
+1997-09-06 merge Overkanters,Zuiden (R) > OZC > Rotterdam
+1997-09-06 merge Rozenburg,KC Rotterdam > RKC² > Rotterdam
+1998-02-08 end DFS (B)
+1998-09-05 merge Jong Brabant,Oranje Wit (T) > OJC '98 > Tilburg
+1998-09-05 merge Terheijden,Breda Noord,BKC³ > Terda > Breda
+1998-09-05 merge VDW,OLS > VDW-OLS > Assen
+1998-09-05 replace Thuve '73 > Duko
+1998-09-12 merge Animo (S),Zuidwesters > Fortis > Oost-Souburg
+1998-09-12 replace Trega > Maastricht
+1999-05-16 end Eindhoven
+1999-05-16 end Hermes (B)
+1999-05-16 end ODI (A)
+1999-05-30 end VIOS (N)
+1999-09-04 merge Archipel,OKV > OKV > Oostzaan
+1999-09-04 merge DKV (Du),Quick (D),TOV (D) > Sporting Delta > Dordrecht
+1999-09-04 merge De Bermen,De Kapellen > KCC > Capelle aan den IJssel
+1999-09-04 merge Diamco,Victoria (A) > DKV Victoria > Diemen
+1999-09-04 merge Sportlust,Deto > DSC > Eindhoven
+1999-11-20 merge Amsterdam Zuid,KCO,SVK > SVK / Groen Wit > Amsterdam
+2000-03-12 end Fortis '75
+2000-03-12 end Olympia (W)
+2000-09-02 merge TOP (O),DOT (O) > DOT (O) > Oss
+2000-09-09 merge Advendo (TI),SCO > SCO > Oldeholtpade
+2000-09-09 merge Barriere,Emmen > EKC 2000 > Emmen
+2000-09-09 merge ZKC (Zu),Rapiditas > KVZ > Zutphen
+2000-11-18 spawn Rood Wit (W) > Wezep
+2000-11-18 spawn SkunK > Nijmegen
+2000-11-19 spawn DLKV > Didam
+2000-12-16 spawn Maaskanters > Well
+2001-05-13 spawn Wesstar > Westervoort
+2001-09-01 spawn d'Ommerdieck > Nieuwleusen
+2001-09-09 merge LUTO,SVK / Groen Wit,BFC > Triaz > Amsterdam
+2001-11-18 merge Zwervers,ODO²,Blauw Wit '51 > Movado > Dordrecht
+2002-09-01 merge Hespa,Sporting West > Sporting West > Amsterdam
+2003-05-26 end Ede
+2003-11-22 spawn Zevenbergen > Zevenbergen
+2004-09-04 merge Hellas,Korfoes > Devinco > Deventer
+2004-09-04 replace Doorn > KCD
+2005-05-23 end SKV (U)
+2005-09-03 merge Juko,Minerva > Koveni > Nieuwegein
+2005-09-03 spawn Asonia > Andijk
+2005-09-03 spawn SVAP '74 > Anna Paulowna
+2005-09-04 merge KIDO '68,Ready '60 > Ready '60 > Roermond
+2005-09-04 replace Den Bosch > Rodebo
+2005-09-04 replace Kanaries > DKB
+2005-09-04 replace Zwijndrecht > Conventus
+2005-09-04 spawn Amsterdam > Amsterdam
+2005-09-04 spawn BMC > Berlicum
+2005-09-10 replace OSDO > Ouderkerk
+2005-09-10 spawn Paal Centraal > Delft
+2005-09-11 merge Marfugels,Stanfries² > Mid Fryslân > Grou / Reduzum
+2005-09-11 spawn Purmer > Purmerend
+2006-09-03 merge Merwic,Regenboog > Dordrecht² > Dordrecht
+2006-09-09 merge Lege Geaen,De Waterpoort > De Waterpoort > Sneek
+2006-09-10 spawn ZSV > Zeelberg
+2006-09-13 merge TCNH,Sporting West > Sporting West > Amsterdam
+2007-02-12 end DDK (Z)
+2007-09-08 merge VZK,HDT > VZK / Donkerbroek > Haule
+2007-09-09 merge Snel,Deetos > DeetosSnel > Dordrecht
+2007-10-14 end KVO (S)
+2007-11-17 spawn Hoogerop > Hoogerheide
+2008-01-20 end Hoogerop
+2008-01-20 end SKNWK
+2008-03-30 end Lauwers
+2008-06-09 end Actief (R)
+2008-06-09 end RKC²
+2008-09-06 merge DWA,Argo > DWA / Argo > Winsum/Bedum
+2008-09-06 merge Rapiditas (L),Friso (L) > Pallas '08 > Leeuwarden
+2008-09-07 merge Nieuw Flora,Haarlem > Haarlem > Haarlem
+2008-10-06 end Mares
+2009-03-22 end SVMM
+2009-03-30 end ZSV
+2009-06-06 merge Sparta (W),Mid Fryslân > Mid Fryslân > Grou / Reduzum
+2009-06-07 end Ouderkerk
+2009-06-08 end Waterland
+2009-09-05 merge Driehoek,Blauw Wit (H) > Heerenveen > Heerenveen
+2009-09-06 merge Eerbeek,Turbulas > Melynas > Eerbeek/Brummen
+2009-09-06 merge Hoger Op,Kieviten > Furore > Krommenie
+2009-09-06 merge KZ Leiden,Danaiden > KZ Danaiden > Leiden
+2009-09-06 merge Watervliet,Heemskerk > HBC (Be) > Beverwijk
+2009-09-06 merge Wez Warber,Wez Fluch > Wez Warber en Fluch > Hempens
+2009-09-07 end Ruinen
+2010-02-14 end Argento
+2010-02-14 end Vanonta
+2010-03-01 end Sirene
+2010-06-07 end Heerlen
+2010-09-25 merge Emmeloord,Marknesse > Emmeloord > Emmeloord
+2011-05-23 end Korulos
+2011-06-06 end Hoekse
+2011-06-06 end Olympiek
+2011-09-03 merge Sagitta,Bolnes > KCR > Ridderkerk
+2011-09-10 merge Quick (B),Ny Libben > NQL > Rinsumageest/Burdaard
+2011-09-25 replace Halen > HHCombi
+2011-11-12 merge Vlug en Vaardig (A),KCN > Vlug en Vaardig (A) > Amsterdam
+2011-12-19 end De Rietvogels (G)
+2012-01-16 end Wertha
+2012-02-26 end Altius
+2012-06-03 end WIK (E)
+2012-09-01 merge VADA,SSS,SKV (W) > Wageningen > Wageningen
+2012-12-09 merge Aladna,De Issel > Aladna / De Issel > Aalten
+2013-01-21 end De Eibers
+2013-03-18 end Onder Ons
+2013-04-27 spawn Zetten > Zetten
+2013-06-01 end VIOS (Ni)
+2013-06-02 end Sportclub
+2013-06-03 end ODA
+2013-09-01 merge Asko,VDW-OLS > AVO > AssenR
+2013-09-01 merge Dow,Wez Handich > Wez Handich > Rottevalle
+2013-09-07 merge Harga,ODI (S) > Nexus > Schiedam
+2014-08-30 merge DFD,Tietjerk > De Wâlden > Oentsjerk
+2014-08-30 replace SVAP '74 > Kleine Sluis
+2014-08-30 replace TDK > SF Deinum
+2014-09-06 merge Oranje Nassau (V),Spirit (Vl) > Twist > Vlaardingen
+2014-09-06 replace Asonia > Sporting Andijk
+2014-12-15 end WWMD
+2015-03-07 merge Volharding,Emergo > Volharding > Ierseke
+2015-03-29 end MIK
+2015-05-31 end Ermelo
+2015-08-29 merge Ready (H),Achilles (H) > Achilles (H) > Den Haag
+2015-08-29 merge VKC (S),Oerterp > Oerterp > Ureterp
+2016-05-29 end Altijd Kwiek
+2016-05-30 end Unicum
+2016-05-30 end Velox
+2016-09-03 merge Invicta,Frigro > IFC '25 > Kollum
+2016-09-03 merge It Fean,Boelenslaan > It Fean > Surhuisterveen
+2016-09-03 merge Vlaardingen,Twist > Twist > Vlaardingen
+2017-05-21 end SEV (L)
+2017-05-27 replace All-Ready > Zierikzee
+2017-05-28 end Soesterkwartier
+2017-06-04 end Zierikzee
+2017-09-02 merge DKC (De),Excelsior (D) > Excelsior (D) > Delft
+2017-09-03 merge Steeds Hooger,Atalante > Apeldoorn > Apeldoorn
+2017-09-03 replace Boemerang > KVS '17
+2017-09-10 merge Zevenbergen,ELKV > Focus > Etten-Leur
+2017-10-08 end Sporting Andijk
+2018-01-28 end Activitas
+2018-01-28 end UNI (K)
+2018-02-11 end Reflex
+2018-06-03 end Ter Leede
+2018-06-04 end 't Overschotje
+2018-06-04 end De Tovers
+2018-09-22 merge Dordrecht²,DeetosSnel > DeetosSnel > Dordrecht
+2019-05-18 merge Rodebo,Maaskanters > Stip > Rosmalen
+2019-06-16 end Crescendo
+2019-09-07 merge Futura,Dubbel Zes '66 > Dubbel Zes '66  / Futura > Den Haag
+2019-09-07 merge Quick '21,Vlug en Vaardig (G) > Quick '21 / Vlug en Vaardig (G) > Oudega/Garyp
+2019-09-15 replace Fortuna '68 > FSC
+2019-10-13 merge Odis (E),VZK / Donkerbroek > VZK / Donkerbroek > Haule
+2019-10-20 end VIOS (W)
+2020-02-17 end BMC
+2020-03-01 end Phenix '72
+2020-09-05 replace Dubbel Zes '66  / Futura > Dunas
+2020-10-05 end DES (N)
+2020-10-05 end Spes (E)
+2021-09-11 merge Dio,VZK / Donkerbroek > VDDO > Haule
+2021-09-15 merge TFS,Wez Handich > Wez Handich > Rottevalle
+2021-11-01 end AKC '54
+2022-06-19 end Midlandia
+2022-09-10 merge EKC Naas,Rigtersbleek > NRC '22 > Enschede
+2022-09-10 merge OWK,Rodenburg > KVW '22 > Leek/Tolbert
+2023-02-09 end Roda '70
+2023-03-13 end Klimop (A)
+2023-04-02 end Olympus '58
+2023-06-12 end HHCombi
+2023-06-18 end Wez Warber en Fluch
+2023-06-23 end Amsterdam
+2023-09-09 merge Kinea (K),Udiros > Kinea / Udiros > Knipe/Nieuwehorne
+2023-09-09 merge SIOS (W),Leonidas² > SIOS / Leonidas > Wolvega/Noordwolde
+2023-09-09 merge ZKV (Za),ZKC '31 > KVZ '23 > Zaandam
+2024-03-17 end Veenwouden
+2024-09-07 merge Achilles (A),AKC (Al) > Achilles (A) / AKC > Almelo
+2024-09-07 merge Aurora,DKV (IJ) > Aurora / DKV (IJ) > Haarlem
+2024-09-14 merge Oranje Nassau,Triaz > Oranje Nassau / Triaz > Amsterdam
+2024-09-29 end Argus
+2024-12-01 merge Wees Kwiek,NKC (No) > NKC (N)/Wees Kwiek > Marum
+2025-05-25 end Niek
+2025-06-01 end Melmac
+2025-06-15 end Zaandam Zuid
+2025-09-01 merge DTS (S),Harkema > DTS (S) / Harkema > Surhuisterveen / Harkema
+2025-09-01 merge Thor (R),Sperwers > Zuid '27 > Rotterdam
+2025-09-01 xalias Sperwers > Zuid '27
+2025-09-01 xack Zuid '27
+2025-09-01 xack DTS (S) / Harkema

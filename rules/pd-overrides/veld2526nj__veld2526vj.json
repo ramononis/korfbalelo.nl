@@ -1,0 +1,33 @@
+{
+  "actions": [
+    {
+      "type": "declinePromotion",
+      "team": "GKV",
+      "targetTier": "2k"
+    },
+    {
+      "type": "withdraw",
+      "team": "SGV"
+    },
+    {
+      "type": "appear",
+      "team": "DKOD",
+      "targetTier": "4k"
+    },
+    {
+      "type": "appear",
+      "team": "Hemur Enge",
+      "targetTier": "4k"
+    },
+    {
+      "type": "withdraw",
+      "team": "Ready '60",
+      "reason": "Teruggetrokken, plek overgenomen door Viking"
+    },
+    {
+      "type": "appear",
+      "team": "Viking",
+      "targetTier": "2k"
+    }
+  ]
+}

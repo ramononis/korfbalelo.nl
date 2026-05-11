@@ -1,0 +1,857 @@
+2025-09-06,ADO,Twist,8,15
+2025-09-06,ALO,Excelsior (D),13,15
+2025-09-06,ASVD,DOS Kampen,15,17
+2025-09-06,AW.DTV,KVA,17,14
+2025-09-06,Achilles (A) / AKC,Oranje Zwart,26,20
+2025-09-06,Achilles (H),Fortuna (D),18,20
+2025-09-06,Apeldoorn,AVO,25,20
+2025-09-06,Apollo,KZ Danaiden,8,19
+2025-09-06,Arena,KCD,15,13
+2025-09-06,Atlantis,Phoenix (Z),18,18
+2025-09-06,Atlas,ONDO (M),12,20
+2025-09-06,Avanti (P),Korbis,20,20
+2025-09-06,Blauw Wit,KVS,14,12
+2025-09-06,CSL,IFC '25,23,19
+2025-09-06,DES (De),Dunas,22,8
+2025-09-06,DLKV,Wiko,19,8
+2025-09-06,DOT (O),Antilopen,25,14
+2025-09-06,DTL,De Granaet,14,22
+2025-09-06,DTS (E),Badhoevedorp,13,14
+2025-09-06,DTS (S) / Harkema,WIK '34,20,10
+2025-09-06,DVS '69,ACKC,16,17
+2025-09-06,DWA / Argo,It Fean,14,14
+2025-09-06,DWS (K),Wolderwijd,9,11
+2025-09-06,De Corvers,Lemmer,22,9
+2025-09-06,De Hoeve,DTG,18,24
+2025-09-06,De Meervogels,VEO,10,12
+2025-09-06,De Meeuwen,SKF,13,14
+2025-09-06,De Parabool,Wez Handich,15,15
+2025-09-06,De Vinken,Trekvogels (R),11,8
+2025-09-06,De Waterpoort,WK,15,6
+2025-09-06,De Wâlden,Quick '21 / Vlug en Vaardig (G),14,11
+2025-09-06,EKCA,NKV,17,14
+2025-09-06,EKVA,DKV Victoria,12,17
+2025-09-06,Elko,WSS,27,15
+2025-09-06,Erasmus,Nexus,11,10
+2025-09-06,Exakwa,Amicitia (V),15,17
+2025-09-06,Fiks,Die Haghe,16,15
+2025-09-06,Flamingo's (B),KVW '22,25,14
+2025-09-06,Focus,Terda,14,8
+2025-09-06,Fortissimo,Elburg,13,16
+2025-09-06,Gemini,VZOD,12,12
+2025-09-06,Good Luck,Ventura Sport,22,17
+2025-09-06,Groen Geel,TOP (S),8,18
+2025-09-06,HBC (Be),Furore,17,13
+2025-09-06,HHV,Blauw Zwart,19,9
+2025-09-06,HKC (He),Devinco,16,17
+2025-09-06,HKC (U),Sparta (N),10,10
+2025-09-06,Hebbes,Revival,14,10
+2025-09-06,Heerenveen,MIA,15,10
+2025-09-06,IJsselvogels,Reeuwijk,10,9
+2025-09-06,Joure,Emmeloord,9,10
+2025-09-06,Juventa,NRC '22,14,20
+2025-09-06,KCC,Nieuwerkerk,15,13
+2025-09-06,KCR,Vriendenschaar (B),20,17
+2025-09-06,KIOS (N),HKV / Ons Eibernest,15,18
+2025-09-06,KOAG,Swift (M),14,16
+2025-09-06,KVK,DSO (K),13,18
+2025-09-06,KVZ '23,KZ,14,20
+2025-09-06,KVZ,DOS-WK,22,13
+2025-09-06,Keizer Karel,Zwart Wit,17,16
+2025-09-06,Kesteren,SDO (V),10,20
+2025-09-06,Kinderdijk,Albatros,12,18
+2025-09-06,Kinea / Udiros,Harich,17,12
+2025-09-06,Korbatjo,NIO,15,18
+2025-09-06,Leeuwarden,WWC,11,15
+2025-09-06,Lintjo,Spannum,14,14
+2025-09-06,Luctor,Zaamslag,12,23
+2025-09-06,Luno,GKV,12,13
+2025-09-06,Maassluis,GKV (G),13,19
+2025-09-06,Madjoe,ESDO,14,9
+2025-09-06,Merwede,Movado,22,9
+2025-09-06,NKC '51,Dindoa,17,19
+2025-09-06,Nikantes,Triade,8,20
+2025-09-06,Noveas,DOS (W),22,13
+2025-09-06,ODO (M),RWA,14,24
+2025-09-06,OEC,KVS '17,17,11
+2025-09-06,OKO,VDDO,22,18
+2025-09-06,OKV,Helios,10,12
+2025-09-06,OZC,WION,11,14
+2025-09-06,Olympia (S),Dijkvogels,7,24
+2025-09-06,Olympia (T),Oerterp,13,11
+2025-09-06,Oosterkwartier (H),Aurora / DKV (IJ),11,13
+2025-09-06,Oranje Wit (D),Tilburg,15,10
+2025-09-06,Oranje Zwart (M),'t Capproen,12,12
+2025-09-06,PKC,Sporting Delta,27,11
+2025-09-06,PSV,Attila,14,12
+2025-09-06,Pallas '08,ROG,17,11
+2025-09-06,Pernix,ONDO (G),16,17
+2025-09-06,RDZ,Hellas '63,7,11
+2025-09-06,RODA (W),Swift,18,15
+2025-09-06,Rapid (H),Fluks (N),15,13
+2025-09-06,Ready '60,OJC '98,8,14
+2025-09-06,Reehorst '45,Zwaluwen (Ze),15,10
+2025-09-06,Regio '72,EKC 2000,12,7
+2025-09-06,Rheko,SDO (W),21,10
+2025-09-06,Ritola,Noordenveld,18,20
+2025-09-06,Rood Wit (W),Nova,10,18
+2025-09-06,Roreko,Sparta (Ze),20,19
+2025-09-06,Rust Roest (E),Vitesse (Ba),6,17
+2025-09-06,SDO (K),Rohda (A),8,12
+2025-09-06,SEV (Z),SkunK,11,14
+2025-09-06,SGV,VIKO,14,18
+2025-09-06,SKV (S),DKB,7,15
+2025-09-06,Scheldevogels,Keep Fit '70,14,12
+2025-09-06,Sparta (Zw),KIOS (R),14,17
+2025-09-06,Spirit (Vo),Oost Arnhem,19,11
+2025-09-06,Sporting Trigon,Fiducia,13,16
+2025-09-06,Sporting West,Ados,18,9
+2025-09-06,Springfield,Conventus,13,12
+2025-09-06,Stadskanaal '74,Hoogkerk,20,18
+2025-09-06,Stormvogels (U),DSO (A),16,8
+2025-09-06,Synergo,Victum,17,16
+2025-09-06,TOGO (G),Blauw Wit (K),12,16
+2025-09-06,TOP (A),DeetosSnel,9,15
+2025-09-06,TOP (V),SIOS / Leonidas,1,12
+2025-09-06,Telstar,Woudenberg,18,14
+2025-09-06,Tempo,Valto,14,23
+2025-09-06,Thrianta,De Pein,19,20
+2025-09-06,Tiel '72,Noviomagum,12,17
+2025-09-06,Tjoba,Juliana,12,13
+2025-09-06,Tweemaal Zes,ODIK,21,6
+2025-09-06,Unitas,Dalto,19,17
+2025-09-06,Velocitas (L),Haarlem,9,15
+2025-09-06,Viking,Animo (G),10,15
+2025-09-06,Voltreffers (O),Seolto,11,15
+2025-09-06,Vriendenschaar (H),Fortis,12,17
+2025-09-06,Wageningen,HKC (Ha),14,17
+2025-09-06,Weidevogels,Refleks,13,17
+2025-09-06,Wesstar,Duko,14,11
+2025-09-06,Wit Blauw,DOS '46,11,24
+2025-09-06,ZKC '19,Drachten,20,16
+2025-09-06,Zuid '27,Paal Centraal,22,9
+2025-09-07,LDODK,Nic,21,8
+2025-09-07,Mariarade,Eymerick,6,4
+2025-09-07,Mid Fryslân,SCO,22,12
+2025-09-07,Vefo,Koru,11,10
+2025-09-13,ACKC,Merwede,9,14
+2025-09-13,AVO,Sparta (Zw),17,15
+2025-09-13,Ados,OKV,14,14
+2025-09-13,Albatros,Maassluis,10,14
+2025-09-13,Amicitia (V),ASVD,15,16
+2025-09-13,Animo (G),Tiel '72,22,21
+2025-09-13,Antilopen,Synergo,15,15
+2025-09-13,Attila,EKCA,13,15
+2025-09-13,Aurora / DKV (IJ),Stormvogels (U),11,10
+2025-09-13,BEP,Tempo,11,15
+2025-09-13,Badhoevedorp,HBC (Be),9,10
+2025-09-13,Blauw Wit (K),KVK,18,16
+2025-09-13,Blauw Zwart,Rheko,13,13
+2025-09-13,Conventus,Good Luck,7,22
+2025-09-13,DKB,OEC,15,12
+2025-09-13,DKV Victoria,RODA (W),12,14
+2025-09-13,DOS '46,Spirit (Vo),19,13
+2025-09-13,DOS (W),De Corvers,11,22
+2025-09-13,DOS Kampen,Exakwa,12,16
+2025-09-13,DOS-WK,Juventa,15,18
+2025-09-13,DSC,Wageningen,10,15
+2025-09-13,DSO (A),Oosterkwartier (H),7,13
+2025-09-13,DSO (K),TOGO (G),11,15
+2025-09-13,DTG,Lintjo,16,17
+2025-09-13,Dalto,AW.DTV,15,5
+2025-09-13,De Granaet,De Wâlden,14,20
+2025-09-13,De Pein,Elko,14,9
+2025-09-13,Devinco,Reehorst '45,13,16
+2025-09-13,Die Haghe,Blauw Wit,13,18
+2025-09-13,Dijkvogels,Zuid '27,10,14
+2025-09-13,Dindoa,De Meeuwen,12,18
+2025-09-13,Drachten,Heerenveen,15,18
+2025-09-13,Duko,Arena,14,13
+2025-09-13,Dunas,Apollo,15,12
+2025-09-13,EKC 2000,TOP (V),13,11
+2025-09-13,ESDO,Huizen,9,4
+2025-09-13,Elburg,Rood Wit (W),14,9
+2025-09-13,Emmeloord,Leeuwarden,13,11
+2025-09-13,Excelsior (D),Sporting Trigon,15,13
+2025-09-13,Fiducia,ALO,20,11
+2025-09-13,Fluks (N),Luno,10,6
+2025-09-13,Fortis,Rust Roest (E),14,12
+2025-09-13,Fortuna (D),KCC,21,9
+2025-09-13,Furore,DTS (E),15,8
+2025-09-13,GKV (G),Kinderdijk,11,18
+2025-09-13,GKV,Rapid (H),17,10
+2025-09-13,HKC (Ha),DVO,16,22
+2025-09-13,HKV / Ons Eibernest,SDO (K),19,13
+2025-09-13,Haarlem,Atlantis,14,7
+2025-09-13,Harich,Pallas '08,15,20
+2025-09-13,Helios,Sporting West,7,15
+2025-09-13,Hellas '63,HKC (U),16,15
+2025-09-13,Hoogkerk,OKO,9,13
+2025-09-13,IFC '25,Ritola,11,16
+2025-09-13,Juliana,Atlas,17,10
+2025-09-13,KCD,Wesstar,11,15
+2025-09-13,KIOS (R),Apeldoorn,18,16
+2025-09-13,KVA,Unitas,16,27
+2025-09-13,KVS '17,SKV (S),10,9
+2025-09-13,KVS,Fiks,21,13
+2025-09-13,KVW '22,De Parabool,13,12
+2025-09-13,KZ Danaiden,DES (De),12,18
+2025-09-13,KZ,Groen Geel,12,14
+2025-09-13,Keep Fit '70,Luctor,15,16
+2025-09-13,Korbis,Pernix,11,17
+2025-09-13,Koveni,Madjoe,10,12
+2025-09-13,Lemmer,Noveas,12,10
+2025-09-13,MIA,ZKC '19,12,15
+2025-09-13,Movado,DVS '69,17,22
+2025-09-13,NIO,Erasmus,19,12
+2025-09-13,NKV,PSV,18,18
+2025-09-13,NRC '22,KVZ,28,18
+2025-09-13,Nexus,Korbatjo,12,16
+2025-09-13,Nieuwerkerk,Achilles (H),17,13
+2025-09-13,Noordenveld,CSL,14,18
+2025-09-13,Nova,Fortissimo,19,12
+2025-09-13,Noviomagum,Viking,19,12
+2025-09-13,ODIK,Telstar,5,15
+2025-09-13,OJC '98,Kesteren,14,8
+2025-09-13,ONDO (G),Avanti (P),14,18
+2025-09-13,ONDO (M),Tjoba,12,11
+2025-09-13,Oerterp,DWA / Argo,5,14
+2025-09-13,Paal Centraal,Olympia (S),19,9
+2025-09-13,Phoenix (Z),Velocitas (L),10,15
+2025-09-13,Quick '21 / Vlug en Vaardig (G),DTL,11,18
+2025-09-13,ROG,Kinea / Udiros,15,23
+2025-09-13,RWA,Weidevogels,18,13
+2025-09-13,Reeuwijk,KCR,15,10
+2025-09-13,Refleks,ODO (M),13,8
+2025-09-13,Revival,DWS (K),14,12
+2025-09-13,Rivalen,SEV (Z),17,10
+2025-09-13,Rohda (A),KIOS (N),17,14
+2025-09-13,SCO,LDODK,15,32
+2025-09-13,SDO (V),Ready '60,17,12
+2025-09-13,SDO (W),HHV,6,20
+2025-09-13,SIOS / Leonidas,Regio '72,16,7
+2025-09-13,SKF,NKC '51,15,16
+2025-09-13,Seolto,Focus,17,12
+2025-09-13,SkunK,Olympia '22,22,14
+2025-09-13,Spannum,De Hoeve,14,15
+2025-09-13,Sparta (N),RDZ,16,7
+2025-09-13,Sparta (Ze),SDO (S),14,13
+2025-09-13,Sporting Delta,TOP (A),18,13
+2025-09-13,Swift (M),Oranje Wit (D),12,12
+2025-09-13,Swift,EKVA,17,16
+2025-09-13,TOP (S),KVZ '23,19,7
+2025-09-13,Terda,Voltreffers (O),6,19
+2025-09-13,Trekvogels (R),De Meervogels,15,14
+2025-09-13,Twist,OZC,12,16
+2025-09-13,VDDO,Stadskanaal '74,19,9
+2025-09-13,VEO,De Vinken,23,19
+2025-09-13,VIKO,Gemini,9,13
+2025-09-13,VZOD,SGV,19,6
+2025-09-13,Valto,OVVO,21,14
+2025-09-13,Victum,DOT (O),20,16
+2025-09-13,Vitesse (Ba),Vriendenschaar (H),10,6
+2025-09-13,Vitesse (Be),Roreko,11,11
+2025-09-13,Vriendenschaar (B),IJsselvogels,9,14
+2025-09-13,WIK '34,MN en W,5,17
+2025-09-13,WION,ADO,13,13
+2025-09-13,WK,SF Deinum,9,12
+2025-09-13,WSS,Thrianta,13,16
+2025-09-13,WWC,Joure,15,9
+2025-09-13,Westergo,De Waterpoort,9,14
+2025-09-13,Wez Handich,Flamingo's (B),14,13
+2025-09-13,Wolderwijd,Hebbes,14,7
+2025-09-13,Woudenberg,Tweemaal Zes,14,22
+2025-09-13,Zaamslag,Scheldevogels,25,8
+2025-09-13,Zunobri,DTS (S) / Harkema,3,29
+2025-09-13,Zwaluwen (Ze),HKC (He),12,14
+2025-09-13,Zwart Wit,Achilles (A) / AKC,27,16
+2025-09-14,Club Brothers,Goorecht,23,7
+2025-09-14,Eymerick,Maastricht,11,14
+2025-09-14,Nic,Mid Fryslân,20,22
+2025-09-16,DVO,DSC,21,14
+2025-09-16,MN en W,Zunobri,12,14
+2025-09-16,OVVO,BEP,14,8
+2025-09-16,Olympia '22,Rivalen,9,18
+2025-09-16,Oosterkwartier (H),Stormvogels (U),11,6
+2025-09-16,SIOS / Leonidas,EKC 2000,11,7
+2025-09-18,'t Capproen,Nikantes,17,6
+2025-09-18,Mid Fryslân,LDODK,8,10
+2025-09-18,SF Deinum,Westergo,8,12
+2025-09-19,Roreko,SDO (S),12,14
+2025-09-20,ASVD,Exakwa,15,14
+2025-09-20,Achilles (A) / AKC,Keizer Karel,15,17
+2025-09-20,Ados,Helios,8,16
+2025-09-20,Albatros,GKV (G),21,21
+2025-09-20,Animo (G),Noviomagum,21,25
+2025-09-20,Antilopen,Victum,18,25
+2025-09-20,Apollo,DES (De),7,13
+2025-09-20,Atlantis,Velocitas (L),13,20
+2025-09-20,Aurora / DKV (IJ),DSO (A),23,9
+2025-09-20,Badhoevedorp,Furore,19,17
+2025-09-20,Blauw Wit (K),DSO (K),13,15
+2025-09-20,Blauw Zwart,SDO (W),11,11
+2025-09-20,CSL,Ritola,25,20
+2025-09-20,DKV Victoria,Swift,12,18
+2025-09-20,DOS '46,Oost Arnhem,22,14
+2025-09-20,DOS (W),Lemmer,8,8
+2025-09-20,DOS Kampen,Amicitia (V),21,18
+2025-09-20,DOT (O),Synergo,19,24
+2025-09-20,DTG,Spannum,19,21
+2025-09-20,DTL,De Wâlden,16,10
+2025-09-20,DTS (E),HBC (Be),10,10
+2025-09-20,DWA / Argo,Olympia (T),18,21
+2025-09-20,DWS (K),Hebbes,12,11
+2025-09-20,Dalto,KVA,23,13
+2025-09-20,De Granaet,Quick '21 / Vlug en Vaardig (G),22,16
+2025-09-20,De Hoeve,Lintjo,5,18
+2025-09-20,De Meervogels,De Vinken,14,14
+2025-09-20,De Pein,WSS,24,16
+2025-09-20,De Waterpoort,SF Deinum,19,9
+2025-09-20,Die Haghe,KVS,27,11
+2025-09-20,Dindoa,SKF,17,19
+2025-09-20,Drachten,MIA,18,13
+2025-09-20,Duko,KCD,16,12
+2025-09-20,EKCA,PSV,24,16
+2025-09-20,EKVA,RODA (W),20,16
+2025-09-20,ESDO,Koveni,17,13
+2025-09-20,Erasmus,Korbatjo,15,11
+2025-09-20,Fiducia,Excelsior (D),13,12
+2025-09-20,Fiks,Blauw Wit,15,23
+2025-09-20,Flamingo's (B),De Parabool,9,13
+2025-09-20,Focus,Voltreffers (O),10,10
+2025-09-20,Fortis,Vitesse (Ba),16,13
+2025-09-20,GKV,Fluks (N),16,12
+2025-09-20,Good Luck,Springfield,20,6
+2025-09-20,HHV,Rheko,16,10
+2025-09-20,HKC (Ha),DSC,17,17
+2025-09-20,HKC (U),RDZ,17,12
+2025-09-20,Hoogkerk,VDDO,18,15
+2025-09-20,IFC '25,Noordenveld,16,20
+2025-09-20,IJsselvogels,KCR,9,17
+2025-09-20,It Fean,Oerterp,30,14
+2025-09-20,Juliana,ONDO (M),16,15
+2025-09-20,Juventa,KVZ,21,12
+2025-09-20,KCC,Achilles (H),17,12
+2025-09-20,KIOS (R),AVO,17,17
+2025-09-20,KOAG,Oranje Wit (D),15,15
+2025-09-20,KVS '17,DKB,13,14
+2025-09-20,KVW '22,Wez Handich,17,25
+2025-09-20,KVZ '23,Groen Geel,19,20
+2025-09-20,KZ Danaiden,Dunas,15,11
+2025-09-20,KZ,TOP (S),11,11
+2025-09-20,Keep Fit '70,Zaamslag,17,18
+2025-09-20,Kesteren,Ready '60,7,12
+2025-09-20,Kinderdijk,Maassluis,16,12
+2025-09-20,Leeuwarden,Joure,15,10
+2025-09-20,Luno,Rapid (H),12,10
+2025-09-20,MN en W,DTS (S) / Harkema,12,10
+2025-09-20,Madjoe,Huizen,21,13
+2025-09-20,Merwede,DVS '69,19,19
+2025-09-20,Movado,ACKC,15,13
+2025-09-20,NKC '51,De Meeuwen,18,15
+2025-09-20,NKV,Attila,17,6
+2025-09-20,NRC '22,DOS-WK,21,13
+2025-09-20,Nexus,NIO,7,13
+2025-09-20,Nieuwerkerk,Fortuna (D),9,19
+2025-09-20,Nikantes,Oranje Zwart (M),14,18
+2025-09-20,Nova,Elburg,12,8
+2025-09-20,Noveas,De Corvers,21,9
+2025-09-20,ODIK,Woudenberg,8,18
+2025-09-20,ODO (M),Weidevogels,8,21
+2025-09-20,OEC,SKV (S),17,8
+2025-09-20,ONDO (G),Korbis,21,19
+2025-09-20,OZC,ADO,14,14
+2025-09-20,Oranje Zwart,Zwart Wit,13,13
+2025-09-20,PKC,TOP (A),22,15
+2025-09-20,Paal Centraal,Dijkvogels,15,15
+2025-09-20,Pallas '08,Kinea / Udiros,15,16
+2025-09-20,Pernix,Avanti (P),17,16
+2025-09-20,Phoenix (Z),Haarlem,13,11
+2025-09-20,ROG,Harich,8,10
+2025-09-20,RWA,Refleks,12,18
+2025-09-20,Reehorst '45,HKC (He),22,17
+2025-09-20,Reeuwijk,Vriendenschaar (B),13,14
+2025-09-20,Rivalen,SkunK,7,11
+2025-09-20,Rohda (A),HKV / Ons Eibernest,19,9
+2025-09-20,Rood Wit (W),Fortissimo,14,12
+2025-09-20,SCO,Nic,11,14
+2025-09-20,SDO (K),KIOS (N),21,11
+2025-09-20,SDO (V),OJC '98,29,11
+2025-09-20,SGV,Gemini,4,22
+2025-09-20,Scheldevogels,Luctor,16,15
+2025-09-20,Sparta (Ze),Vitesse (Be),21,10
+2025-09-20,Sparta (Zw),Apeldoorn,16,15
+2025-09-20,Sporting Delta,DeetosSnel,12,20
+2025-09-20,Sporting Trigon,ALO,12,13
+2025-09-20,Sporting West,OKV,17,13
+2025-09-20,Stadskanaal '74,OKO,6,21
+2025-09-20,Swift (M),Tilburg,15,14
+2025-09-20,TOGO (G),KVK,15,15
+2025-09-20,TOP (V),Regio '72,13,14
+2025-09-20,Tempo,OVVO,19,10
+2025-09-20,Terda,Seolto,7,15
+2025-09-20,Thrianta,Elko,19,18
+2025-09-20,Tjoba,Atlas,24,7
+2025-09-20,Triade,'t Capproen,14,12
+2025-09-20,Tweemaal Zes,Telstar,21,23
+2025-09-20,Unitas,AW.DTV,25,17
+2025-09-20,VEO,Trekvogels (R),10,10
+2025-09-20,VIKO,VZOD,13,19
+2025-09-20,Valto,BEP,26,12
+2025-09-20,Ventura Sport,Conventus,14,12
+2025-09-20,Viking,Tiel '72,12,12
+2025-09-20,Vriendenschaar (H),Rust Roest (E),17,12
+2025-09-20,WION,Twist,14,14
+2025-09-20,WK,Westergo,15,13
+2025-09-20,WWC,Emmeloord,14,7
+2025-09-20,Wageningen,DVO,16,14
+2025-09-20,Wesstar,Arena,16,8
+2025-09-20,Wit Blauw,Spirit (Vo),16,17
+2025-09-20,Wolderwijd,Revival,10,9
+2025-09-20,ZKC '19,Heerenveen,18,18
+2025-09-20,Zuid '27,Olympia (S),24,8
+2025-09-20,Zunobri,WIK '34,13,18
+2025-09-20,Zwaluwen (Ze),Devinco,17,16
+2025-09-21,FSC,Eymerick,12,10
+2025-09-21,Maastricht,Mariarade,18,6
+2025-09-21,Samen Een,Forward,14,10
+2025-09-22,It Fean,Olympia (T),24,10
+2025-09-23,DeetosSnel,PKC,17,16
+2025-09-23,Huizen,Koveni,10,6
+2025-09-23,Tilburg,KOAG,19,16
+2025-09-24,Maastricht,FSC,11,18
+2025-09-24,Oost Arnhem,Wit Blauw,17,19
+2025-09-24,Triade,Oranje Zwart (M),7,11
+2025-09-24,Ventura Sport,Springfield,10,9
+2025-09-25,Aurora / DKV (IJ),Oosterkwartier (H),12,14
+2025-09-25,KZ,KVZ '23,24,15
+2025-09-27,'t Capproen,Oranje Zwart (M),13,10
+2025-09-27,ACKC,DVS '69,14,17
+2025-09-27,AVO,Apeldoorn,19,13
+2025-09-27,Ados,Sporting West,10,18
+2025-09-27,Albatros,Kinderdijk,16,10
+2025-09-27,Amicitia (V),Exakwa,18,16
+2025-09-27,Animo (G),Viking,21,20
+2025-09-27,Antilopen,DOT (O),17,18
+2025-09-27,Attila,PSV,10,17
+2025-09-27,BEP,OVVO,12,13
+2025-09-27,Badhoevedorp,DTS (E),18,10
+2025-09-27,Blauw Wit (K),TOGO (G),11,16
+2025-09-27,Blauw Zwart,HHV,9,23
+2025-09-27,Conventus,Springfield,9,12
+2025-09-27,DKB,SKV (S),18,7
+2025-09-27,DKV Victoria,EKVA,20,22
+2025-09-27,DOS '46,Wit Blauw,29,12
+2025-09-27,DOS (W),Noveas,10,16
+2025-09-27,DOS Kampen,ASVD,16,18
+2025-09-27,DOS-WK,KVZ,19,14
+2025-09-27,DSC,DVO,18,19
+2025-09-27,DSO (A),Stormvogels (U),9,15
+2025-09-27,DSO (K),KVK,14,16
+2025-09-27,DTG,De Hoeve,18,13
+2025-09-27,Dalto,Unitas,21,22
+2025-09-27,De Granaet,DTL,16,10
+2025-09-27,De Pein,Thrianta,26,13
+2025-09-27,DeetosSnel,TOP (A),24,18
+2025-09-27,Devinco,HKC (He),16,21
+2025-09-27,Die Haghe,Fiks,26,25
+2025-09-27,Dijkvogels,Olympia (S),26,10
+2025-09-27,Dindoa,NKC '51,26,15
+2025-09-27,Drachten,ZKC '19,19,11
+2025-09-27,Duko,Wesstar,8,12
+2025-09-27,Dunas,DES (De),7,23
+2025-09-27,EKC 2000,Regio '72,6,19
+2025-09-27,ESDO,Madjoe,11,17
+2025-09-27,Elburg,Fortissimo,17,16
+2025-09-27,Emmeloord,Joure,12,12
+2025-09-27,Excelsior (D),ALO,12,15
+2025-09-27,Fiducia,Sporting Trigon,15,16
+2025-09-27,Fluks (N),Rapid (H),12,7
+2025-09-27,Fortis,Vriendenschaar (H),13,14
+2025-09-27,Fortuna (D),Achilles (H),27,14
+2025-09-27,Furore,HBC (Be),13,12
+2025-09-27,GKV (G),Maassluis,17,16
+2025-09-27,GKV,Luno,16,13
+2025-09-27,HKC (Ha),Wageningen,19,17
+2025-09-27,HKV / Ons Eibernest,KIOS (N),22,20
+2025-09-27,Haarlem,Velocitas (L),12,12
+2025-09-27,Harich,Kinea / Udiros,8,16
+2025-09-27,Helios,OKV,12,19
+2025-09-27,Hellas '63,RDZ,22,9
+2025-09-27,Hoogkerk,Stadskanaal '74,19,17
+2025-09-27,IFC '25,CSL,19,27
+2025-09-27,It Fean,DWA / Argo,24,14
+2025-09-27,Juliana,Tjoba,17,16
+2025-09-27,KCD,Arena,8,16
+2025-09-27,KIOS (R),Sparta (Zw),21,14
+2025-09-27,KVA,AW.DTV,19,15
+2025-09-27,KVS '17,OEC,7,15
+2025-09-27,KVS,Blauw Wit,12,23
+2025-09-27,KVW '22,Flamingo's (B),16,24
+2025-09-27,KZ Danaiden,Apollo,18,7
+2025-09-27,Keep Fit '70,Scheldevogels,20,10
+2025-09-27,Korbis,Avanti (P),17,20
+2025-09-27,Koveni,Huizen,12,25
+2025-09-27,Lemmer,De Corvers,8,17
+2025-09-27,MIA,Heerenveen,9,16
+2025-09-27,Movado,Merwede,15,26
+2025-09-27,NIO,Korbatjo,12,11
+2025-09-27,NKV,EKCA,13,6
+2025-09-27,NRC '22,Juventa,12,19
+2025-09-27,Nexus,Erasmus,17,11
+2025-09-27,Nieuwerkerk,KCC,13,17
+2025-09-27,Noordenveld,Ritola,13,17
+2025-09-27,Nova,Rood Wit (W),19,14
+2025-09-27,Noviomagum,Tiel '72,15,25
+2025-09-27,ODIK,Tweemaal Zes,7,24
+2025-09-27,OJC '98,Ready '60,11,10
+2025-09-27,ONDO (G),Pernix,18,14
+2025-09-27,ONDO (M),Atlas,12,8
+2025-09-27,Oerterp,Olympia (T),16,11
+2025-09-27,Oost Arnhem,Spirit (Vo),16,31
+2025-09-27,Oranje Zwart,Achilles (A) / AKC,17,13
+2025-09-27,Paal Centraal,Zuid '27,15,19
+2025-09-27,Phoenix (Z),Atlantis,15,14
+2025-09-27,Quick '21 / Vlug en Vaardig (G),De Wâlden,19,18
+2025-09-27,ROG,Pallas '08,13,25
+2025-09-27,RWA,ODO (M),19,12
+2025-09-27,Reeuwijk,IJsselvogels,13,19
+2025-09-27,Refleks,Weidevogels,18,14
+2025-09-27,Revival,Hebbes,13,7
+2025-09-27,Rivalen,Olympia '22,18,13
+2025-09-27,Rohda (A),SDO (K),15,11
+2025-09-27,SDO (V),Kesteren,15,7
+2025-09-27,SDO (W),Rheko,11,18
+2025-09-27,SKF,De Meeuwen,16,13
+2025-09-27,SkunK,SEV (Z),7,10
+2025-09-27,Spannum,Lintjo,18,11
+2025-09-27,Sparta (N),HKC (U),16,17
+2025-09-27,Sparta (Ze),Roreko,20,12
+2025-09-27,Sporting Delta,PKC,12,21
+2025-09-27,Swift (M),KOAG,13,13
+2025-09-27,Swift,RODA (W),12,12
+2025-09-27,TOP (S),Groen Geel,20,14
+2025-09-27,Terda,Focus,8,12
+2025-09-27,Tilburg,Oranje Wit (D),19,16
+2025-09-27,Trekvogels (R),De Vinken,21,19
+2025-09-27,Triade,Nikantes,15,9
+2025-09-27,Twist,ADO,13,20
+2025-09-27,VDDO,OKO,9,20
+2025-09-27,VEO,De Meervogels,16,14
+2025-09-27,VIKO,SGV,11,6
+2025-09-27,VZOD,Gemini,14,15
+2025-09-27,Valto,Tempo,18,16
+2025-09-27,Ventura Sport,Good Luck,16,16
+2025-09-27,Victum,Synergo,21,13
+2025-09-27,Vitesse (Ba),Rust Roest (E),19,15
+2025-09-27,Vitesse (Be),SDO (S),17,14
+2025-09-27,Vriendenschaar (B),KCR,14,14
+2025-09-27,WIK '34,DTS (S) / Harkema,6,21
+2025-09-27,WION,OZC,16,13
+2025-09-27,WK,De Waterpoort,13,17
+2025-09-27,WSS,Elko,17,16
+2025-09-27,WWC,Leeuwarden,18,14
+2025-09-27,Westergo,SF Deinum,13,11
+2025-09-27,Wez Handich,De Parabool,19,18
+2025-09-27,Wolderwijd,DWS (K),8,7
+2025-09-27,Woudenberg,Telstar,15,18
+2025-09-27,Zaamslag,Luctor,26,16
+2025-09-27,Zunobri,MN en W,16,24
+2025-09-27,Zwaluwen (Ze),Reehorst '45,10,15
+2025-09-27,Zwart Wit,Keizer Karel,10,18
+2025-09-28,FSC,Maastricht,14,11
+2025-09-28,Koru,Vefo,11,12
+2025-09-28,Nic,LDODK,18,43
+2025-09-30,DSC,HKC (Ha),22,17
+2025-09-30,Groen Geel,KVZ '23,18,13
+2025-09-30,LDODK,Mid Fryslân,23,18
+2025-09-30,Seolto,Voltreffers (O),16,9
+2025-09-30,TOP (S),KZ,15,20
+2025-10-01,SDO (S),Vitesse (Be),23,9
+2025-10-02,Sparta (N),Hellas '63,17,16
+2025-10-02,Wiko,DLKV,7,11
+2025-10-04,ADO,WION,13,10
+2025-10-04,ALO,Fiducia,6,9
+2025-10-04,ASVD,Amicitia (V),13,13
+2025-10-04,AW.DTV,Dalto,10,13
+2025-10-04,Achilles (A) / AKC,Zwart Wit,12,9
+2025-10-04,Achilles (H),Nieuwerkerk,7,7
+2025-10-04,Apeldoorn,KIOS (R),16,14
+2025-10-04,Apollo,Dunas,7,13
+2025-10-04,Arena,Duko,13,15
+2025-10-04,Atlantis,Haarlem,16,20
+2025-10-04,Atlas,Juliana,13,10
+2025-10-04,Avanti (P),ONDO (G),14,9
+2025-10-04,CSL,Noordenveld,17,8
+2025-10-04,DES (De),KZ Danaiden,13,12
+2025-10-04,DOT (O),Victum,25,12
+2025-10-04,DTL,Quick '21 / Vlug en Vaardig (G),18,12
+2025-10-04,DTS (E),Furore,14,17
+2025-10-04,DTS (S) / Harkema,Zunobri,31,10
+2025-10-04,DVO,HKC (Ha),12,12
+2025-10-04,DVS '69,Movado,11,12
+2025-10-04,DWA / Argo,Oerterp,14,13
+2025-10-04,DWS (K),Revival,13,12
+2025-10-04,De Corvers,DOS (W),11,7
+2025-10-04,De Meervogels,Trekvogels (R),14,11
+2025-10-04,De Meeuwen,Dindoa,11,10
+2025-10-04,De Parabool,KVW '22,19,10
+2025-10-04,De Vinken,VEO,14,13
+2025-10-04,De Waterpoort,Westergo,13,7
+2025-10-04,De Wâlden,De Granaet,8,17
+2025-10-04,EKCA,Attila,11,8
+2025-10-04,EKVA,Swift,10,16
+2025-10-04,Elko,De Pein,12,12
+2025-10-04,Erasmus,NIO,11,14
+2025-10-04,Exakwa,DOS Kampen,12,16
+2025-10-04,Fiks,KVS,18,11
+2025-10-04,Flamingo's (B),Wez Handich,23,15
+2025-10-04,Focus,Seolto,10,11
+2025-10-04,Fortissimo,Nova,12,10
+2025-10-04,Gemini,VIKO,14,8
+2025-10-04,Good Luck,Conventus,20,4
+2025-10-04,Groen Geel,KZ,2,9
+2025-10-04,HBC (Be),Badhoevedorp,6,3
+2025-10-04,HHV,SDO (W),27,3
+2025-10-04,HKC (He),Zwaluwen (Ze),18,14
+2025-10-04,HKC (U),Hellas '63,12,16
+2025-10-04,Hebbes,Wolderwijd,13,13
+2025-10-04,Heerenveen,Drachten,16,16
+2025-10-04,Huizen,ESDO,14,5
+2025-10-04,IJsselvogels,Vriendenschaar (B),10,10
+2025-10-04,Joure,WWC,9,19
+2025-10-04,Juventa,DOS-WK,17,11
+2025-10-04,KCC,Fortuna (D),9,13
+2025-10-04,KCR,Reeuwijk,12,10
+2025-10-04,KIOS (N),Rohda (A),10,10
+2025-10-04,KOAG,Tilburg,15,11
+2025-10-04,KVK,Blauw Wit (K),11,10
+2025-10-04,KVZ '23,TOP (S),12,15
+2025-10-04,KVZ,NRC '22,11,11
+2025-10-04,Keizer Karel,Oranje Zwart,9,12
+2025-10-04,Kesteren,OJC '98,10,3
+2025-10-04,Kinderdijk,GKV (G),3,7
+2025-10-04,Kinea / Udiros,ROG,12,9
+2025-10-04,Korbatjo,Nexus,17,16
+2025-10-04,LDODK,SCO,20,8
+2025-10-04,Leeuwarden,Emmeloord,14,10
+2025-10-04,Lintjo,DTG,11,11
+2025-10-04,Luctor,Keep Fit '70,10,13
+2025-10-04,Luno,Fluks (N),7,12
+2025-10-04,MN en W,WIK '34,9,5
+2025-10-04,Maassluis,Albatros,7,13
+2025-10-04,Merwede,ACKC,15,7
+2025-10-04,NKC '51,SKF,10,14
+2025-10-04,Nikantes,'t Capproen,8,16
+2025-10-04,Noveas,Lemmer,20,11
+2025-10-04,ODO (M),Refleks,9,17
+2025-10-04,OEC,DKB,10,14
+2025-10-04,OKO,Hoogkerk,16,12
+2025-10-04,OKV,Ados,15,9
+2025-10-04,OVVO,Valto,8,12
+2025-10-04,OZC,Twist,10,13
+2025-10-04,Olympia '22,SkunK,13,20
+2025-10-04,Olympia (S),Paal Centraal,5,22
+2025-10-04,Olympia (T),It Fean,8,10
+2025-10-04,Oosterkwartier (H),DSO (A),13,6
+2025-10-04,Oranje Wit (D),Swift (M),12,12
+2025-10-04,Oranje Zwart (M),Triade,14,6
+2025-10-04,PKC,DeetosSnel,18,16
+2025-10-04,PSV,NKV,9,14
+2025-10-04,Pallas '08,Harich,13,15
+2025-10-04,Pernix,Korbis,14,7
+2025-10-04,RDZ,Sparta (N),5,22
+2025-10-04,RODA (W),DKV Victoria,14,8
+2025-10-04,Rapid (H),GKV,8,14
+2025-10-04,Ready '60,SDO (V),10,20
+2025-10-04,Reehorst '45,Devinco,17,12
+2025-10-04,Regio '72,SIOS / Leonidas,12,18
+2025-10-04,Rheko,Blauw Zwart,5,7
+2025-10-04,Ritola,IFC '25,18,14
+2025-10-04,Rood Wit (W),Elburg,8,14
+2025-10-04,Roreko,Vitesse (Be),11,10
+2025-10-04,Rust Roest (E),Fortis,11,13
+2025-10-04,SDO (K),HKV / Ons Eibernest,19,11
+2025-10-04,SDO (S),Sparta (Ze),16,15
+2025-10-04,SEV (Z),Rivalen,6,4
+2025-10-04,SF Deinum,WK,7,8
+2025-10-04,SGV,VZOD,3,20
+2025-10-04,SKV (S),KVS '17,8,6
+2025-10-04,Scheldevogels,Zaamslag,8,22
+2025-10-04,Sparta (Zw),AVO,9,13
+2025-10-04,Spirit (Vo),DOS '46,21,19
+2025-10-04,Sporting Trigon,Excelsior (D),15,7
+2025-10-04,Sporting West,Helios,12,7
+2025-10-04,Springfield,Ventura Sport,3,9
+2025-10-04,Stadskanaal '74,VDDO,15,17
+2025-10-04,Synergo,Antilopen,13,9
+2025-10-04,TOGO (G),DSO (K),13,12
+2025-10-04,TOP (A),Sporting Delta,15,13
+2025-10-04,TOP (V),EKC 2000,21,8
+2025-10-04,Telstar,ODIK,16,8
+2025-10-04,Tempo,BEP,14,12
+2025-10-04,Thrianta,WSS,15,11
+2025-10-04,Tiel '72,Animo (G),15,15
+2025-10-04,Tjoba,ONDO (M),14,9
+2025-10-04,Tweemaal Zes,Woudenberg,14,10
+2025-10-04,Unitas,KVA,19,16
+2025-10-04,Velocitas (L),Phoenix (Z),15,14
+2025-10-04,Viking,Noviomagum,8,16
+2025-10-04,Voltreffers (O),Terda,23,14
+2025-10-04,Vriendenschaar (H),Vitesse (Ba),7,7
+2025-10-04,Wageningen,DSC,12,11
+2025-10-04,Weidevogels,RWA,8,15
+2025-10-04,Wesstar,KCD,10,9
+2025-10-04,Wit Blauw,Oost Arnhem,19,18
+2025-10-04,ZKC '19,MIA,16,10
+2025-10-04,Zuid '27,Dijkvogels,12,7
+2025-10-05,Blauw Wit,Die Haghe,17,16
+2025-10-05,Goorecht,Club Brothers,7,25
+2025-10-05,Maastricht,Eymerick,10,14
+2025-10-05,Mariarade,FSC,3,16
+2025-10-05,Mid Fryslân,Nic,19,15
+2025-10-06,Kinea / Udiros,Pallas '08,14,9
+2025-10-07,Conventus,Ventura Sport,14,15
+2025-10-07,Olympia '22,SEV (Z),11,16
+2025-10-07,Oranje Zwart,Keizer Karel,12,11
+2025-10-07,SCO,Mid Fryslân,14,19
+2025-10-07,Stormvogels (U),Aurora / DKV (IJ),8,7
+2025-10-08,SIOS / Leonidas,TOP (V),11,10
+2025-10-09,DVO,Wageningen,23,23
+2025-10-09,De Hoeve,Spannum,10,15
+2025-10-09,Madjoe,Koveni,14,3
+2025-10-11,'t Capproen,Triade,12,14
+2025-10-11,ACKC,Movado,17,8
+2025-10-11,ADO,OZC,9,13
+2025-10-11,ALO,Sporting Trigon,12,14
+2025-10-11,AVO,KIOS (R),21,21
+2025-10-11,AW.DTV,Unitas,13,11
+2025-10-11,Achilles (H),KCC,10,10
+2025-10-11,Amicitia (V),DOS Kampen,18,15
+2025-10-11,Apeldoorn,Sparta (Zw),23,12
+2025-10-11,Arena,Wesstar,16,17
+2025-10-11,Atlas,Tjoba,18,18
+2025-10-11,Attila,NKV,12,24
+2025-10-11,Avanti (P),Pernix,24,15
+2025-10-11,BEP,Valto,7,21
+2025-10-11,Blauw Wit,Fiks,32,17
+2025-10-11,DES (De),Apollo,16,8
+2025-10-11,DKB,KVS '17,18,9
+2025-10-11,DOS-WK,NRC '22,15,21
+2025-10-11,DSO (A),Aurora / DKV (IJ),10,17
+2025-10-11,DSO (K),Blauw Wit (K),16,10
+2025-10-11,DTS (S) / Harkema,MN en W,26,11
+2025-10-11,DVS '69,Merwede,14,26
+2025-10-11,De Corvers,Noveas,17,22
+2025-10-11,De Meeuwen,NKC '51,20,14
+2025-10-11,De Parabool,Flamingo's (B),21,24
+2025-10-11,De Vinken,De Meervogels,24,24
+2025-10-11,De Wâlden,DTL,12,10
+2025-10-11,DeetosSnel,Sporting Delta,21,6
+2025-10-11,Devinco,Zwaluwen (Ze),12,17
+2025-10-11,Dijkvogels,Paal Centraal,18,8
+2025-10-11,Dunas,KZ Danaiden,17,21
+2025-10-11,EKC 2000,SIOS / Leonidas,14,23
+2025-10-11,Elburg,Nova,12,12
+2025-10-11,Elko,Thrianta,22,17
+2025-10-11,Emmeloord,WWC,22,19
+2025-10-11,Exakwa,ASVD,14,17
+2025-10-11,Excelsior (D),Fiducia,19,16
+2025-10-11,Fluks (N),GKV,13,14
+2025-10-11,Fortissimo,Rood Wit (W),19,13
+2025-10-11,Fortuna (D),Nieuwerkerk,19,15
+2025-10-11,Furore,Badhoevedorp,18,16
+2025-10-11,GKV (G),Albatros,10,9
+2025-10-11,Gemini,SGV,23,8
+2025-10-11,HBC (Be),DTS (E),9,5
+2025-10-11,HKC (He),Reehorst '45,16,17
+2025-10-11,HKV / Ons Eibernest,Rohda (A),21,26
+2025-10-11,Haarlem,Phoenix (Z),19,14
+2025-10-11,Harich,ROG,17,15
+2025-10-11,Hebbes,DWS (K),12,15
+2025-10-11,Heerenveen,ZKC '19,18,13
+2025-10-11,Helios,Ados,13,13
+2025-10-11,Hellas '63,Sparta (N),16,16
+2025-10-11,Huizen,Madjoe,13,15
+2025-10-11,Joure,Leeuwarden,22,17
+2025-10-11,KCD,Duko,15,12
+2025-10-11,KCR,IJsselvogels,14,13
+2025-10-11,KIOS (N),SDO (K),17,18
+2025-10-11,KVA,Dalto,15,27
+2025-10-11,KVK,TOGO (G),15,21
+2025-10-11,KVS,Die Haghe,11,16
+2025-10-11,KVZ,Juventa,17,12
+2025-10-11,Keizer Karel,Achilles (A) / AKC,25,20
+2025-10-11,Korbatjo,Erasmus,27,20
+2025-10-11,Korbis,ONDO (G),18,15
+2025-10-11,Koveni,ESDO,13,18
+2025-10-11,Lemmer,DOS (W),8,5
+2025-10-11,Lintjo,De Hoeve,21,17
+2025-10-11,Luctor,Scheldevogels,17,10
+2025-10-11,MIA,Drachten,15,23
+2025-10-11,Maassluis,Kinderdijk,20,19
+2025-10-11,NIO,Nexus,17,19
+2025-10-11,Noordenveld,IFC '25,17,19
+2025-10-11,Noviomagum,Animo (G),14,15
+2025-10-11,OJC '98,SDO (V),15,18
+2025-10-11,OKO,Stadskanaal '74,28,13
+2025-10-11,OKV,Sporting West,8,18
+2025-10-11,ONDO (M),Juliana,16,16
+2025-10-11,OVVO,Tempo,10,21
+2025-10-11,Oerterp,It Fean,13,17
+2025-10-11,Olympia (S),Zuid '27,10,28
+2025-10-11,Olympia (T),DWA / Argo,12,12
+2025-10-11,Oost Arnhem,DOS '46,13,31
+2025-10-11,Oranje Wit (D),KOAG,22,21
+2025-10-11,Oranje Zwart (M),Nikantes,16,6
+2025-10-11,PSV,EKCA,18,17
+2025-10-11,Quick '21 / Vlug en Vaardig (G),De Granaet,20,26
+2025-10-11,RDZ,HKC (U),14,21
+2025-10-11,RODA (W),EKVA,24,20
+2025-10-11,Rapid (H),Luno,14,15
+2025-10-11,Ready '60,Kesteren,9,9
+2025-10-11,Refleks,RWA,17,14
+2025-10-11,Regio '72,TOP (V),26,12
+2025-10-11,Revival,Wolderwijd,19,12
+2025-10-11,Rheko,HHV,15,18
+2025-10-11,Ritola,CSL,13,16
+2025-10-11,Rust Roest (E),Vriendenschaar (H),18,15
+2025-10-11,SDO (S),Roreko,18,19
+2025-10-11,SDO (W),Blauw Zwart,14,18
+2025-10-11,SEV (Z),Olympia '22,20,8
+2025-10-11,SF Deinum,De Waterpoort,15,13
+2025-10-11,SKF,Dindoa,17,19
+2025-10-11,SKV (S),OEC,13,18
+2025-10-11,Seolto,Terda,24,9
+2025-10-11,SkunK,Rivalen,14,16
+2025-10-11,Spannum,DTG,14,11
+2025-10-11,Spirit (Vo),Wit Blauw,22,20
+2025-10-11,Springfield,Good Luck,9,18
+2025-10-11,Stormvogels (U),Oosterkwartier (H),9,11
+2025-10-11,Swift,DKV Victoria,18,9
+2025-10-11,Synergo,DOT (O),21,15
+2025-10-11,TOP (A),PKC,11,15
+2025-10-11,Telstar,Tweemaal Zes,13,16
+2025-10-11,Tiel '72,Viking,25,11
+2025-10-11,Tilburg,Swift (M),15,16
+2025-10-11,Trekvogels (R),VEO,14,12
+2025-10-11,Twist,WION,21,15
+2025-10-11,VDDO,Hoogkerk,18,19
+2025-10-11,VZOD,VIKO,20,11
+2025-10-11,Velocitas (L),Atlantis,18,16
+2025-10-11,Victum,Antilopen,20,21
+2025-10-11,Vitesse (Ba),Fortis,13,17
+2025-10-11,Vitesse (Be),Sparta (Ze),15,21
+2025-10-11,Voltreffers (O),Focus,16,10
+2025-10-11,Vriendenschaar (B),Reeuwijk,10,13
+2025-10-11,WIK '34,Zunobri,17,10
+2025-10-11,WSS,De Pein,16,25
+2025-10-11,Weidevogels,ODO (M),22,13
+2025-10-11,Westergo,WK,16,11
+2025-10-11,Wez Handich,KVW '22,19,16
+2025-10-11,Woudenberg,ODIK,21,18
+2025-10-11,Zaamslag,Keep Fit '70,22,16
+2025-10-11,Zwart Wit,Oranje Zwart,14,19
+2025-10-12,Eymerick,FSC,13,9
+2025-10-12,Forward,Samen Een,19,19
+2025-10-12,Nic,SCO,18,19

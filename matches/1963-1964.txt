@@ -1,0 +1,1980 @@
+1963-08-31	Blauw Wit	AW	8	5
+1963-09-07	NKC (No)	KIOS (R)	5	2
+1963-09-07	RDZ	TCNH	3	1
+1963-09-07	Deetos	WK	4	1
+1963-09-07	DKC (De)	Rozenburg	4	4
+1963-09-07	Haarlem	KZ	3	9
+1963-09-07	Regenboog	Stanfries²	8	4
+1963-09-07	Eureka	ODO²	5	3
+1963-09-07	DDV	DTV	4	8
+1963-09-07	DES (N)	Quick '21	4	6
+1963-09-07	Excelsior	BFC	6	6
+1963-09-07	Sparta (W)	Vitesse (Be)	7	4
+1963-09-07	Swift	Watervliet	10	5
+1963-09-07	OKV	Oosterkwartier (H)	5	4
+1963-09-07	Rohda (A)	Ons Eibernest	13	5
+1963-09-07	KCN	De Tovers	6	4
+1963-09-07	Amsterdam Zuid	BIKO	2	4
+1963-09-07	Asko	Hermes (G)	3	2
+1963-09-07	Swift (M)	Danaiden	5	5
+1963-09-07	Aurora	KVD	5	4
+1963-09-07	MEO	Animo Ready	7	3
+1963-09-07	OEC	Rust Roest (E)	5	5
+1963-09-07	Fluks	Quick (D)	3	4
+1963-09-07	Altijd Kwiek	MKC (Me)	2	2
+1963-09-07	AKC (Al)	Rapiditas	6	5
+1963-09-07	GKV	Tjoba	6	6
+1963-09-07	Odis (E)	SOS '60	4	8
+1963-09-07	Blauw Zwart	Achilles (A)	2	4
+1963-09-07	Leeuwarden	Moedig Voorwaarts	7	9
+1963-09-07	Dio	ZKC '19	3	1
+1963-09-07	HKC (He)	VADA	6	3
+1963-09-07	UNI (S)	OWK	4	5
+1963-09-07	DOS '46	SIOS (W)	6	9
+1963-09-07	AKC (Ak)	Drachten	4	2
+1963-09-07	Volt	Oranje Wit (T)	2	6
+1963-09-07	VKC (S)	SCO	4	6
+1963-09-07	Wez Fluch	Kinea (K)	3	6
+1963-09-07	Archipel	Rigtersbleek	12	8
+1963-09-07	Deto	Spangen	7	3
+1963-09-07	Zuiden (R)	Blauw Wit	3	4
+1963-09-07	Noviomagum	't Overschotje	3	3
+1963-09-07	Die Haghe	ZKC (Zu)	5	7
+1963-09-07	Oosterpark	Kameo	3	7
+1963-09-07	Blauw Wit (H)	Emmen	3	3
+1963-09-07	Dow	Noord Oosten	10	0
+1963-09-07	Rohda (H)	UDI (T)	6	2
+1963-09-07	WWMD	OKO	4	4
+1963-09-07	KNS	Ready (H)	4	2
+1963-09-07	VIOS (Ni)	HDT	3	3
+1963-09-07	Hellas	ONI (A)	2	3
+1963-09-07	Algemene	OSCR	5	4
+1963-09-07	AW	SAMOS	5	5
+1963-09-07	DOS (E)	LUTO	4	0
+1963-09-07	UNA (L)	Club Brothers	1	2
+1963-09-07	Leonidas²	Samen Een	4	3
+1963-09-07	Forward	Nic	2	8
+1963-09-07	Friso (L)	De Pein	7	5
+1963-09-07	Amersfoort	SKV (U)	4	3
+1963-09-07	Sperwers	Zuiderkwartier (L)	8	4
+1963-09-07	KCO	Olympia (B)	6	4
+1963-09-07	Odival	Halen	6	6
+1963-09-07	HKV	Westerkwartier	4	6
+1963-09-07	BEP	DVD²	6	3
+1963-09-07	SKF	Vogel	5	9
+1963-09-14	MKC (Me)	SVS	2	4
+1963-09-14	HSV	Achilles (H)	2	2
+1963-09-14	Nieuw Flora	KCN	7	10
+1963-09-14	DTV	Haarlem	9	4
+1963-09-14	De Pein	Sparta (W)	3	7
+1963-09-14	Deto	Archipel	8	7
+1963-09-14	Ons Eibernest	DOS (E)	11	3
+1963-09-14	Oost Arnhem	AKC (Al)	1	11
+1963-09-14	WK	Spangen	2	7
+1963-09-14	DED	DDV	8	3
+1963-09-14	RODA (W)	HKV	7	6
+1963-09-14	KIOS (R)	Forward	1	13
+1963-09-14	KZ	Swift	6	3
+1963-09-14	VKC (S)	Asko	5	12
+1963-09-14	Animo Ready	Aurora	2	2
+1963-09-14	Drachten	Dio	7	6
+1963-09-14	Organon	Sportlust	4	7
+1963-09-14	De Hoeve	OKO	7	4
+1963-09-14	Moedig Voorwaarts	WWMD	2	4
+1963-09-14	Victoria (A)	SVK	5	8
+1963-09-14	BEP	Olympia (B)	6	4
+1963-09-14	Naas²	HKC (He)	3	7
+1963-09-14	DKC (De)	Ons Huis (R)	8	3
+1963-09-14	SIM	Altijd Kwiek	1	2
+1963-09-14	ODI (G)	Odilo	5	9
+1963-09-14	Oosterpark	Amsterdam Zuid	6	4
+1963-09-14	Oerterp	Odis (E)	12	3
+1963-09-14	OEC	Oranje Wit (T)	4	3
+1963-09-14	Swift (M)	Sperwers	4	0
+1963-09-14	Ready (H)	Olympiaan	5	2
+1963-09-14	Vogel	Kameo	1	2
+1963-09-14	Hespa	OKV	3	6
+1963-09-14	Groen Geel	Rohda (A)	2	9
+1963-09-14	Quick '21	Dow	2	1
+1963-09-14	't Overschotje	EKCA	4	3
+1963-09-14	Club Brothers	Meeuwen (L)	12	6
+1963-09-14	Landlust	KCO	3	8
+1963-09-14	SAMOS	Die Haghe	9	9
+1963-09-14	Noord Oosten	UDI (T)	2	5
+1963-09-14	Zuiderkwartier (L)	Fluks	4	4
+1963-09-14	Advendo (TI)	VIOS (Ni)	8	3
+1963-09-14	Vitesse (Be)	Hermes (G)	8	6
+1963-09-14	Watervliet	ZKC '31	4	5
+1963-09-14	DTS (S)	DES (N)	13	5
+1963-09-14	Wez Fluch	ZKC '19	7	7
+1963-09-14	BFC	Amersfoort	5	3
+1963-09-14	SOS	Steeds Hooger	5	4
+1963-09-14	Zwaluwen (H)	SKF	5	5
+1963-09-14	LDO	Friso (L)	6	7
+1963-09-14	AKC (Ak)	Kinea (K)	6	5
+1963-09-14	TCNH	Excelsior	2	6
+1963-09-14	SOS '60	Korulos	4	4
+1963-09-14	ONI (A)	Noviomagum	9	1
+1963-09-14	Amicitia (V)	Blauw Zwart	5	0
+1963-09-14	Emmen	UNA (L)	8	2
+1963-09-14	Volt	Eindhoven	3	6
+1963-09-14	OSCR	Danaiden	5	1
+1963-09-14	Oosterkwartier (H)	Altius	5	8
+1963-09-14	Nic	NKC (No)	10	3
+1963-09-14	Leeuwarden	Blauw Wit (H)	1	6
+1963-09-14	LUTO	Deetos	14	5
+1963-09-14	Zaandam Zuid	RDZ	4	12
+1963-09-14	HDT	Odival	5	5
+1963-09-14	Stanfries²	Zuiden (R)	5	6
+1963-09-14	ODO²	GKV	3	4
+1963-09-14	Regenboog	Westerkwartier	5	7
+1963-09-21	AKC (Al)	VADA	8	4
+1963-09-21	OKO	UNA (L)	6	3
+1963-09-21	SVS	SIM	5	4
+1963-09-21	UDI (T)	Quick '21	3	11
+1963-09-21	DDV	ZKV (Za)	4	5
+1963-09-21	ZKC (Zu)	SAMOS	8	9
+1963-09-21	Aurora	DVD²	3	2
+1963-09-21	Die Haghe	Blauw Wit	7	11
+1963-09-21	Groen Geel	DOS (E)	6	5
+1963-09-21	Haarlem	DED	5	6
+1963-09-21	Algemene	Vicus Orientis	3	8
+1963-09-21	HKC (He)	SOS	6	4
+1963-09-21	Amersfoort	TCNH	4	0
+1963-09-21	Deetos	Ons Eibernest	3	6
+1963-09-21	Swift	DTV	9	6
+1963-09-21	Odival	SOS '60	7	4
+1963-09-21	Charlois	HSV	3	9
+1963-09-21	Sportlust	Rust Roest (E)	2	4
+1963-09-21	ZKC '19	KIOS (R)	12	3
+1963-09-21	Tjoba	ODO²	9	5
+1963-09-21	Noviomagum	Wilskracht	3	2
+1963-09-21	Fluks	Swift (M)	2	5
+1963-09-21	AW	Stanfries²	7	6
+1963-09-21	Spangen	LUTO	4	5
+1963-09-21	BEP	Landlust	9	3
+1963-09-21	Quick (D)	Zuiderkwartier (L)	9	4
+1963-09-21	Altius	Hespa	3	2
+1963-09-21	WWMD	Blauw Wit (H)	7	4
+1963-09-21	RWB	SDO (V)	0	0
+1963-09-21	MEO	Olympia (B)	4	3
+1963-09-21	Nic	Drachten	6	5
+1963-09-21	KVD	Animo Ready	4	7
+1963-09-21	Club Brothers	Emmen	2	6
+1963-09-21	Oranje Wit (T)	Organon	2	12
+1963-09-21	Zwaluwen (H)	Kameo	4	4
+1963-09-21	KCN	Oosterkwartier (H)	7	3
+1963-09-21	NKC (No)	AKC (Ak)	2	8
+1963-09-21	Odis (E)	Advendo (TI)	2	9
+1963-09-21	BIKO	Oosterpark	5	6
+1963-09-21	Vitesse (Be)	LDO	3	6
+1963-09-21	De Tovers	Nieuw Flora	5	2
+1963-09-21	DKC (De)	Ready (H)	7	7
+1963-09-21	Westerkwartier	Zuiden (R)	4	3
+1963-09-21	De Pein	VKC (S)	6	4
+1963-09-21	SIOS (W)	Altijd Kwiek	8	3
+1963-09-21	Archipel	WK	8	7
+1963-09-21	SKV (U)	BFC	7	7
+1963-09-21	Rigtersbleek	Deto	7	8
+1963-09-21	DES (N)	UNI (S)	6	4
+1963-09-21	Sparta (W)	SCO	4	8
+1963-09-21	ODI (G)	Ready '60	2	3
+1963-09-21	Rapiditas	Oost Arnhem	12	2
+1963-09-21	Amsterdam Zuid	Vogel	4	13
+1963-09-21	OWK	Noord Oosten	8	5
+1963-09-21	Wez Fluch	Dio	7	4
+1963-09-21	Samen Een	Luxia	5	5
+1963-09-21	Leeuwarden	De Hoeve	9	5
+1963-09-21	Meeuwen (L)	Moedig Voorwaarts	4	5
+1963-09-21	Sperwers	OSCR	8	3
+1963-09-21	Leonidas²	MKC (Me)	2	6
+1963-09-21	EKCA	ONI (A)	3	8
+1963-09-21	HDT	Korulos	8	6
+1963-09-21	Rozenburg	Zwervers	16	7
+1963-09-21	OEC	Volt	5	1
+1963-09-21	OKV	Victoria (A)	6	1
+1963-09-21	DTS (S)	Rohda (H)	8	4
+1963-09-21	Groen Zwart	Achilles (A)	4	5
+1963-09-21	Excelsior	Zaandam Zuid	14	7
+1963-09-21	Hermes (G)	Friso (L)	3	2
+1963-09-28	Landlust	MEO	5	5
+1963-09-28	KNS	Olympiaan	5	4
+1963-09-28	Vicus Orientis	Danaiden	6	1
+1963-09-28	Olympia (B)	Aurora	7	3
+1963-09-28	Nic	Wez Fluch	2	2
+1963-09-28	AKC (Ak)	Forward	3	2
+1963-09-28	Achilles (H)	Charlois	9	4
+1963-09-28	Drachten	KIOS (R)	7	2
+1963-09-28	SCO	De Pein	5	5
+1963-09-28	Ons Eibernest	Spangen	4	5
+1963-09-28	Groen Geel	Deetos	1	2
+1963-09-28	Swift (M)	Quick (D)	4	2
+1963-09-28	Victoria (A)	Altius	4	6
+1963-09-28	Oosterkwartier (H)	De Tovers	5	3
+1963-09-28	Dow	DTS (S)	1	6
+1963-09-28	Westerkwartier	AW	5	2
+1963-09-28	Hespa	KCN	5	6
+1963-09-28	DED	Swift	3	4
+1963-09-28	Hellas	Onder Ons	2	2
+1963-09-28	Hermes (G)	VKC (S)	4	5
+1963-09-28	DVD²	KVD	4	5
+1963-09-28	Rust Roest (E)	Oranje Wit (T)	7	2
+1963-09-28	Zaandam Zuid	Amersfoort	3	8
+1963-09-28	Ons Huis (R)	Zwervers	4	3
+1963-09-28	Zuiden (R)	RODA (W)	4	3
+1963-09-28	Stanfries²	Die Haghe	5	5
+1963-09-28	Zwaluwen (H)	Amsterdam Zuid	6	2
+1963-09-28	RDZ	Excelsior	7	6
+1963-09-28	OSCR	Fluks	4	2
+1963-09-28	HSV	Eureka	5	4
+1963-09-28	SVK	OKV	7	2
+1963-09-28	ZKV (Za)	Haarlem	1	8
+1963-09-28	MKC (Me)	DOS '46	3	6
+1963-09-28	OKO	Blauw Wit (H)	2	3
+1963-09-28	LUTO	Archipel	3	2
+1963-09-28	Regenboog	HKV	2	4
+1963-09-28	Volt	Sportlust	2	5
+1963-09-28	Blauw Wit	ZKC (Zu)	5	7
+1963-09-28	SIOS (W)	SVS	7	2
+1963-09-28	Dio	Kinea (K)	5	2
+1963-09-28	TCNH	SKV (U)	2	3
+1963-09-28	SKF	Kameo	4	2
+1963-09-28	Steeds Hooger	HKC (He)	2	7
+1963-10-05	Blauw Wit (H)	Moedig Voorwaarts	11	5
+1963-10-05	Oerterp	VIOS (Ni)	3	2
+1963-10-05	KVD	Olympia (B)	5	2
+1963-10-05	SVS	Leonidas²	4	4
+1963-10-05	Swift	ZKV (Za)	7	4
+1963-10-05	Noviomagum	Onder Ons	3	6
+1963-10-05	KCN	Victoria (A)	8	6
+1963-10-12	Joure	SIOS (W)	2	7
+1963-10-12	Hellas	Noviomagum	7	2
+1963-10-05	Korulos	Odis (E)	11	3
+1963-10-12	LUTO	Deto	7	3
+1963-10-05	OEC	Organon	7	4
+1963-10-05	Spangen	Groen Geel	3	2
+1963-10-05	Deto	WK	7	4
+1963-10-12	DDV	Swift	3	7
+1963-10-05	Rapiditas	Naas²	6	5
+1963-10-05	Deetos	Rohda (A)	2	5
+1963-10-05	Oosterpark	Vogel	3	4
+1963-10-12	Vitesse (Be)	De Pein	4	3
+1963-10-05	Die Haghe	Westerkwartier	4	10
+1963-10-05	Archipel	Ons Eibernest	8	7
+1963-10-05	Halen	Advendo (TI)	4	5
+1963-10-05	VKC (S)	LDO	5	5
+1963-10-05	Rigtersbleek	LUTO	3	7
+1963-10-05	Watervliet	DTV	1	8
+1963-10-05	ZKC '19	Kinea (K)	1	6
+1963-10-05	ZKC '31	DED	6	8
+1963-10-05	BIKO	Zwaluwen (H)	5	6
+1963-10-05	Zuiderkwartier (L)	Swift (M)	7	5
+1963-10-05	AW	RODA (W)	4	4
+1963-10-05	't Overschotje	ONI (A)	2	10
+1963-10-05	Aurora	Landlust	4	4
+1963-10-05	Dow	UDI (T)	6	0
+1963-10-05	Asko	Vitesse (Be)	5	1
+1963-10-05	Amsterdam Zuid	SKF	7	5
+1963-10-05	DKC (De)	KNS	5	2
+1963-10-05	MEO	KCO	5	8
+1963-10-05	SAMOS	Blauw Wit	4	8
+1963-10-05	GKV	HSV	5	4
+1963-10-05	BFC	TCNH	7	5
+1963-10-05	SCO	Hermes (G)	2	2
+1963-10-05	WWMD	De Hoeve	3	4
+1963-10-05	Sperwers	Vicus Orientis	3	7
+1963-10-05	OWK	DTS (S)	2	4
+1963-10-05	De Tovers	Hespa	5	5
+1963-10-05	KIOS (R)	Nic	3	7
+1963-10-05	PSV	Rust Roest (E)	6	3
+1963-10-05	Noord Oosten	Quick '21	1	15
+1963-10-05	SOS '60	HDT	8	10
+1963-10-05	AKC (Ak)	Dio	2	2
+1963-10-05	Altius	SVK	1	5
+1963-10-05	Zuiden (R)	HKV	1	3
+1963-10-05	SIM	MKC (Me)	7	2
+1963-10-05	Amersfoort	RDZ	3	4
+1963-10-12	Zwaluwen (H)	Oosterpark	5	3
+1963-10-12	OKO	Leeuwarden	2	0
+1963-10-12	Vicus Orientis	Fluks	3	3
+1963-10-12	DOS (E)	Deetos	7	2
+1963-10-12	Groen Geel	Archipel	2	4
+1963-10-12	Moedig Voorwaarts	Emmen	3	0
+1963-10-12	UDI (T)	OWK	2	7
+1963-10-12	Olympia (B)	Animo Ready	3	4
+1963-10-12	Oerterp	HDT	4	3
+1963-10-12	ZKC '19	Nic	2	4
+1963-10-12	Regenboog	Zuiden (R)	3	8
+1963-10-12	Odis (E)	Halen	3	6
+1963-10-12	Friso (L)	VKC (S)	4	4
+1963-10-12	SOS	Rapiditas	2	6
+1963-10-12	DOS '46	SVS	7	7
+1963-10-12	WWMD	Meeuwen (L)	9	1
+1963-10-12	Zaandam Zuid	BFC	2	11
+1963-10-12	Landlust	KVD	1	4
+1963-10-12	Amicitia (V)	Zwart Wit	8	1
+1963-10-12	Forward	NKC (No)	4	4
+1963-10-12	ZKV (Za)	ZKC '31	1	4
+1963-10-12	Eindhoven	Rust Roest (E)	3	7
+1963-10-12	BEP	MEO	7	3
+1963-10-12	RODA (W)	Die Haghe	3	1
+1963-10-12	Algemene	Danaiden	4	6
+1963-10-12	OSCR	Zuiderkwartier (L)	8	3
+1963-10-12	KCO	Aurora	9	4
+1963-10-12	KIOS (R)	Dio	3	6
+1963-10-12	SKV (U)	RDZ	5	4
+1963-10-12	Olympiaan	DKC (De)	0	0
+1963-10-12	Luxia	MKC (Me)	5	5
+1963-10-12	Victoria (A)	De Tovers	2	2
+1963-10-12	DTV	KZ	3	5
+1963-10-12	HSV	Tjoba	5	5
+1963-10-12	Steeds Hooger	AKC (Al)	4	7
+1963-10-12	De Hoeve	Club Brothers	5	1
+1963-10-12	SKF	BIKO	6	4
+1963-10-12	UNA (L)	Blauw Wit (H)	6	4
+1963-10-12	Stanfries²	SAMOS	2	2
+1963-10-12	Ons Eibernest	Rigtersbleek	4	1
+1963-10-12	Hespa	Nieuw Flora	8	1
+1963-10-12	Charlois	Eureka	3	6
+1963-10-12	Achilles (H)	GKV	2	3
+1963-10-12	Asko	Sparta (W)	3	2
+1963-10-12	OKV	Altius	5	4
+1963-10-12	Naas²	Oost Arnhem	8	5
+1963-10-12	Kameo	Amsterdam Zuid	2	3
+1963-10-12	Sportlust	OEC	8	4
+1963-10-12	Altijd Kwiek	Leonidas²	2	2
+1963-10-12	Excelsior	Amersfoort	7	5
+1963-10-12	Samen Een	SIM	2	2
+1963-10-12	Kinea (K)	Drachten	6	3
+1963-10-12	HKV	AW	7	5
+1963-10-12	Wilskracht	't Overschotje	6	3
+1963-10-12	Stormvogels (G)	ODI (G)	4	4
+1963-10-12	Odival	Korulos	3	0
+1963-10-12	SVK	KCN	3	2
+1963-10-12	Ready (H)	Rozenburg	4	5
+1963-10-12	DED	Watervliet	8	4
+1963-10-12	SCO	LDO	7	5
+1963-10-12	SOS '60	VIOS (Ni)	3	4
+1963-10-12	Spangen	Rohda (A)	5	6
+1963-10-12	Quick '21	UNI (S)	5	0
+1963-10-12	Westerkwartier	ZKC (Zu)	4	3
+1963-10-12	Onder Ons	EKCA	6	2
+1963-10-19	Zwervers	KNS	7	7
+1963-10-19	SKV (U)	Excelsior	5	5
+1963-10-19	Sparta (W)	Hermes (G)	8	6
+1963-10-19	Altijd Kwiek	DOS '46	2	7
+1963-10-19	Meeuwen (L)	Leeuwarden	2	4
+1963-10-19	Tjoba	Achilles (H)	4	7
+1963-10-19	BIKO	Kameo	3	6
+1963-10-19	Leonidas²	SIOS (W)	2	6
+1963-10-19	Odival	Advendo (TI)	6	5
+1963-10-19	Watervliet	ZKV (Za)	4	4
+1963-10-19	SVS	Luxia	3	4
+1963-10-19	Archipel	Rohda (A)	5	8
+1963-10-19	Oosterkwartier (H)	Hespa	4	2
+1963-10-19	GKV	Charlois	8	0
+1963-10-19	SIM	Joure	3	4
+1963-10-19	ZKC '19	AKC (Ak)	5	6
+1963-10-19	OWK	Dow	2	5
+1963-10-19	Animo Ready	Landlust	4	2
+1963-10-19	VIOS (Ni)	Odis (E)	7	3
+1963-10-19	Aurora	BEP	5	10
+1963-10-19	Deto	Ons Eibernest	4	8
+1963-10-19	KCN	OKV	8	3
+1963-10-19	ODO²	HSV	6	8
+1963-10-19	Oosterpark	SKF	3	6
+1963-10-19	LDO	De Pein	4	4
+1963-10-19	AW	Regenboog	4	1
+1963-10-19	SCO	Asko	4	3
+1963-10-19	Zwart Wit	Blauw Zwart	4	7
+1963-10-19	Moedig Voorwaarts	OKO	2	4
+1963-10-19	Sperwers	Algemene	5	4
+1963-10-19	Oost Arnhem	SOS	1	14
+1963-10-19	ZKC (Zu)	RODA (W)	8	6
+1963-10-19	Spangen	DOS (E)	5	4
+1963-10-19	UNI (S)	DTS (S)	4	5
+1963-10-19	Vogel	Zwaluwen (H)	6	5
+1963-10-19	SAMOS	Westerkwartier	5	9
+1963-10-19	ONI (A)	Wilskracht	6	4
+1963-10-19	Blauw Wit (H)	Club Brothers	5	4
+1963-10-19	ZKC '31	DDV	9	6
+1963-10-19	Die Haghe	HKV	7	13
+1963-10-19	WK	LUTO	4	5
+1963-10-19	Swift (M)	OSCR	3	7
+1963-10-19	Swift	Haarlem	13	3
+1963-10-19	KVD	KCO	3	10
+1963-10-19	Dio	Forward	3	5
+1963-10-19	Ons Huis (R)	Ready (H)	3	9
+1963-10-19	Nieuw Flora	Victoria (A)	6	6
+1963-10-19	DES (N)	UDI (T)	9	3
+1963-10-19	SOS '60	Halen	5	2
+1963-10-19	KZ	DED	7	5
+1963-10-19	De Hoeve	Emmen	2	4
+1963-10-19	Blauw Wit	Stanfries²	9	3
+1963-10-19	BFC	RDZ	7	1
+1963-10-19	VADA	Naas²	4	5
+1963-10-19	Rapiditas	Steeds Hooger	9	4
+1963-10-19	Rust Roest (E)	Organon	4	4
+1963-10-19	De Tovers	SVK	5	5
+1963-10-19	NKC (No)	Drachten	4	7
+1963-10-19	EKCA	Hellas	2	7
+1963-10-19	AKC (Al)	HKC (He)	4	3
+1963-10-19	KIOS (R)	Wez Fluch	3	6
+1963-10-19	Rigtersbleek	Groen Geel	7	4
+1963-10-19	TCNH	Zaandam Zuid	3	1
+1963-10-19	Quick (D)	Vicus Orientis	9	10
+1963-10-19	Vitesse (Be)	Friso (L)	4	5
+1963-10-19	UNA (L)	WWMD	3	6
+1963-10-19	Stormvogels (G)	Odilo	4	5
+1963-10-19	DVD²	Olympia (B)	7	7
+1963-10-19	Sportlust	Oranje Wit (T)	7	1
+1963-10-19	Nic	Kinea (K)	5	5
+1963-10-26	Korulos	VIOS (Ni)	4	3
+1963-10-26	DOS '46	Leonidas²	7	4
+1963-10-26	Algemene	Fluks	3	5
+1963-10-26	SVK	Nieuw Flora	9	3
+1963-10-26	OEC	PSV	3	3
+1963-10-26	Steeds Hooger	Oost Arnhem	5	1
+1963-10-26	Danaiden	Sperwers	2	10
+1963-10-26	Olympiaan	Zwervers	6	3
+1963-10-26	DTS (S)	Quick '21	3	4
+1963-10-26	Odis (E)	Odival	2	7
+1963-10-26	Eureka	GKV	3	4
+1963-10-26	Landlust	DVD²	3	5
+1963-10-26	ZKC (Zu)	AW	16	6
+1963-10-26	UDI (T)	UNI (S)	0	3
+1963-10-26	KCO	Animo Ready	12	7
+1963-10-26	Joure	MKC (Me)	6	5
+1963-10-26	Altius	KCN	6	7
+1963-10-26	DOS (E)	Archipel	4	4
+1963-10-26	TCNH	RDZ	0	3
+1963-10-26	AKC (Ak)	Nic	2	3
+1963-10-26	Moedig Voorwaarts	UNA (L)	7	3
+1963-10-26	Halen	HDT	5	5
+1963-10-26	Drachten	Wez Fluch	5	7
+1963-10-26	BEP	KVD	6	6
+1963-10-26	Kameo	Oosterpark	6	4
+1963-10-26	DED	DTV	7	11
+1963-10-26	Altijd Kwiek	Luxia	2	2
+1963-10-26	HKV	Stanfries²	4	7
+1963-10-26	MEO	Aurora	8	3
+1963-10-26	BFC	Excelsior	5	5
+1963-10-26	KNS	Rozenburg	1	4
+1963-10-26	Dio	NKC (No)	4	2
+1963-10-26	Meeuwen (L)	OKO	3	2
+1963-10-26	Blauw Wit (H)	De Hoeve	4	2
+1963-10-26	Rohda (A)	Rigtersbleek	11	2
+1963-10-26	Vicus Orientis	Zuiderkwartier (L)	3	2
+1963-10-26	Victoria (A)	Oosterkwartier (H)	3	6
+1963-10-26	Haarlem	ZKC '31	8	4
+1963-10-26	Hermes (G)	LDO	4	2
+1963-10-26	SOS	VADA	5	6
+1963-10-26	Deetos	Spangen	4	5
+1963-10-26	DDV	Watervliet	6	6
+1963-10-26	SKV (U)	Amersfoort	5	3
+1963-10-26	Westerkwartier	RODA (W)	13	8
+1963-10-26	Organon	Volt	6	5
+1963-10-26	OWK	DES (N)	8	2
+1963-10-26	Achilles (H)	ODO²	4	3
+1963-10-26	Eindhoven	Sportlust	1	5
+1963-10-26	HKC (He)	Rapiditas	2	7
+1963-10-26	De Pein	Asko	3	7
+1963-10-26	Advendo (TI)	Oerterp	5	5
+1963-10-26	VKC (S)	Vitesse (Be)	2	6
+1963-10-26	Blauw Wit	Regenboog	9	4
+1963-10-26	Noviomagum	EKCA	2	6
+1963-10-26	Forward	ZKC '19	3	1
+1963-10-26	Kinea (K)	KIOS (R)	4	0
+1963-10-26	Club Brothers	WWMD	4	4
+1963-10-26	OKV	De Tovers	7	4
+1963-10-26	BIKO	Amsterdam Zuid	7	3
+1963-10-26	Vogel	SKF	8	4
+1963-10-26	Friso (L)	SCO	8	9
+1963-10-26	Groen Geel	Deto	9	6
+1963-10-26	Zuiden (R)	SAMOS	7	3
+1963-10-26	Charlois	Tjoba	5	7
+1963-10-26	ZKV (Za)	KZ	5	2
+1963-10-26	SIOS (W)	SIM	4	6
+1963-10-26	Oranje Wit (T)	Rust Roest (E)	1	9
+1963-10-26	Emmen	Leeuwarden	2	3
+1963-10-26	Rohda (H)	Noord Oosten	12	1
+1963-10-26	Ons Eibernest	WK	14	3
+1963-11-02	Spangen	Archipel	7	5
+1963-11-02	Hermes (G)	SCO	7	3
+1963-11-02	Rohda (A)	WK	13	1
+1963-11-02	MKC (Me)	SIOS (W)	4	6
+1963-11-02	ZKV (Za)	DED	7	5
+1963-11-02	KVD	Aurora	16	4
+1963-11-02	Vicus Orientis	Swift (M)	5	4
+1963-11-02	SVK	Hespa	6	1
+1963-11-02	Animo Ready	DVD²	4	1
+1963-11-02	Deetos	Rigtersbleek	6	10
+1963-11-02	Vogel	BIKO	10	2
+1963-11-02	SVS	Joure	3	1
+1963-11-02	Meeuwen (L)	Blauw Wit (H)	1	6
+1963-11-02	ZKC (Zu)	Zuiden (R)	7	7
+1963-11-02	WWMD	UNA (L)	3	7
+1963-11-02	Advendo (TI)	SOS '60	7	5
+1963-11-02	PSV	Eindhoven	5	5
+1963-11-02	Samen Een	Altijd Kwiek	4	2
+1963-11-02	Forward	Wez Fluch	5	0
+1963-11-02	Tjoba	Eureka	5	2
+1963-11-02	LDO	Asko	3	5
+1963-11-02	Rohda (H)	DTS (S)	1	4
+1963-11-02	SKV (U)	Zaandam Zuid	5	3
+1963-11-02	Zwart Wit	Achilles (A)	4	7
+1963-11-02	Fluks	Danaiden	12	6
+1963-11-02	SKF	Zwaluwen (H)	6	7
+1963-11-02	Dio	Nic	3	4
+1963-11-02	NKC (No)	ZKC '19	1	5
+1963-11-02	De Hoeve	Moedig Voorwaarts	4	4
+1963-11-02	Rozenburg	Olympiaan	1	3
+1963-11-02	Excelsior	TCNH	5	1
+1963-11-02	Olympia (B)	Landlust	5	3
+1963-11-02	Luxia	Leonidas²	10	7
+1963-11-02	Club Brothers	Leeuwarden	15	7
+1963-11-02	ZKC '31	KZ	7	10
+1963-11-02	Amsterdam Zuid	Oosterpark	4	8
+1963-11-02	De Pein	Friso (L)	5	5
+1963-11-02	Altius	Nieuw Flora	10	3
+1963-11-02	RODA (W)	Stanfries²	6	4
+1963-11-02	Quick '21	OWK	10	8
+1963-11-02	SAMOS	Regenboog	5	4
+1963-11-02	Emmen	OKO	4	3
+1963-11-02	DOS (E)	Deto	6	6
+1963-11-02	Amersfoort	BFC	2	4
+1963-11-02	AW	Die Haghe	6	5
+1963-11-02	Groen Zwart	Blauw Zwart	4	3
+1963-11-02	HKV	Blauw Wit	11	8
+1963-11-02	KIOS (R)	AKC (Ak)	4	6
+1963-11-02	Ons Huis (R)	KNS	4	1
+1963-11-02	Zwervers	DKC (De)	8	10
+1963-11-02	KCO	BEP	6	5
+1963-11-02	Oost Arnhem	VADA	4	16
+1963-11-02	Onder Ons	ONI (A)	6	4
+1963-11-02	AKC (Al)	Naas²	6	3
+1963-11-02	Quick (D)	Algemene	5	7
+1963-11-02	DES (N)	Dow	4	7
+1963-11-02	Sparta (W)	VKC (S)	7	5
+1963-11-02	Groen Geel	LUTO	3	9
+1963-11-02	De Tovers	KCN	4	7
+1963-11-02	't Overschotje	Hellas	6	2
+1963-11-02	Volt	Rust Roest (E)	3	5
+1963-11-02	Korulos	Halen	9	4
+1963-11-02	ODO²	Charlois	12	8
+1963-11-02	Haarlem	DDV	7	4
+1963-11-02	HDT	Odis (E)	6	3
+1963-11-02	Oosterkwartier (H)	OKV	7	5
+1963-11-09	OWK	Rohda (H)	5	3
+1963-11-09	Blauw Wit (H)	OKO	3	6
+1963-11-09	Hermes (G)	Vitesse (Be)	3	2
+1963-11-09	Deto	Rohda (A)	5	10
+1963-11-09	Joure	Luxia	3	2
+1963-11-09	Achilles (A)	Blauw Zwart	6	5
+1963-11-09	Eindhoven	Oranje Wit (T)	11	4
+1963-11-09	WK	Groen Geel	8	6
+1963-11-09	ZKC '19	Wez Fluch	2	4
+1963-11-09	EKCA	Wilskracht	4	4
+1963-11-09	Advendo (TI)	HDT	0	1
+1963-11-09	Quick '21	UDI (T)	5	1
+1963-11-09	RDZ	Zaandam Zuid	7	1
+1963-11-09	Naas²	Steeds Hooger	6	1
+1963-11-09	ZKC '31	Swift	6	11
+1963-11-09	Asko	De Pein	10	0
+1963-11-09	LUTO	Ons Eibernest	4	4
+1963-11-09	Oerterp	Halen	1	2
+1963-11-09	De Tovers	Altius	4	5
+1963-11-09	SCO	VKC (S)	1	1
+1963-11-09	DOS (E)	Rigtersbleek	3	3
+1963-11-09	Sperwers	Fluks	3	4
+1963-11-09	Regenboog	ZKC (Zu)	1	3
+1963-11-09	Drachten	Forward	6	3
+1963-11-09	Achilles (A)	Amicitia (V)	9	0
+1963-11-09	't Overschotje	Noviomagum	5	4
+1963-11-09	WWMD	Leeuwarden	3	2
+1963-11-09	Emmen	Meeuwen (L)	4	4
+1963-11-09	Wilskracht	Onder Ons	2	5
+1963-11-09	UNA (L)	De Hoeve	5	5
+1963-11-09	Dio	AKC (Ak)	5	5
+1963-11-09	SIOS (W)	Samen Een	7	2
+1963-11-09	DOS '46	Altijd Kwiek	7	4
+1963-11-09	VIOS (Ni)	Odival	3	5
+1963-11-09	Korulos	SOS '60	6	4
+1963-11-16	WWMD	Moedig Voorwaarts	6	3
+1963-11-16	VADA	Steeds Hooger	4	5
+1963-11-16	Stormvogels (G)	Ready '60	10	3
+1963-11-16	Eindhoven	Volt	4	4
+1963-11-16	Swift (M)	Algemene	4	6
+1963-11-16	RDZ	Amersfoort	2	2
+1963-11-16	De Pein	Hermes (G)	7	5
+1963-11-16	Ons Eibernest	Groen Geel	8	4
+1963-11-16	Rohda (H)	UNI (S)	1	7
+1963-11-16	Westerkwartier	Blauw Wit	8	8
+1963-11-16	LUTO	Rohda (A)	3	3
+1963-11-16	Kinea (K)	Wez Fluch	4	4
+1963-11-16	Deto	Deetos	4	6
+1963-11-16	Drachten	ZKC '19	3	2
+1963-11-16	LDO	Sparta (W)	3	5
+1963-11-16	Watervliet	Haarlem	10	3
+1963-11-16	PSV	Organon	3	1
+1963-11-16	Dio	KIOS (R)	5	3
+1963-11-16	SOS '60	Oerterp	2	6
+1963-11-16	OKO	Club Brothers	6	2
+1963-11-16	Zuiderkwartier (L)	Danaiden	5	4
+1963-11-16	Dow	Quick '21	3	5
+1963-11-16	SVS	DOS '46	5	4
+1963-11-23	GKV	ODO²	2	4
+1963-11-23	Rust Roest (E)	OEC	1	2
+1963-11-23	Moedig Voorwaarts	De Hoeve	6	4
+1963-11-23	Ons Huis (R)	DKC (De)	4	5
+1963-11-23	LDO	SCO	10	4
+1963-11-23	KZ	Haarlem	7	3
+1963-11-23	Spangen	Deto	4	3
+1963-11-23	KCN	Nieuw Flora	5	3
+1963-11-23	WK	Rigtersbleek	3	5
+1963-11-23	SIOS (W)	Luxia	7	3
+1963-11-23	VADA	AKC (Al)	3	4
+1963-11-23	Oost Arnhem	Rapiditas	4	12
+1963-11-23	Hellas	Wilskracht	11	1
+1963-11-23	Amersfoort	Zaandam Zuid	4	4
+1963-11-23	Korulos	Oerterp	3	5
+1963-11-23	Blauw Wit	Zuiden (R)	2	1
+1963-11-23	OSCR	Algemene	4	2
+1963-11-23	Noviomagum	ONI (A)	3	3
+1963-11-23	Amsterdam Zuid	Zwaluwen (H)	3	4
+1963-11-23	Quick (D)	Fluks	4	4
+1963-11-23	Olympia (B)	BEP	2	7
+1963-11-23	KCO	Landlust	8	2
+1963-11-23	Zuiderkwartier (L)	Sperwers	4	2
+1963-11-23	Forward	KIOS (R)	7	1
+1963-11-23	EKCA	't Overschotje	4	3
+1963-11-23	Volt	PSV	3	9
+1963-11-23	DTS (S)	OWK	3	1
+1963-11-23	Watervliet	Swift	4	6
+1963-11-23	Excelsior	RDZ	6	6
+1963-11-23	SIM	Samen Een	3	3
+1963-11-23	Die Haghe	SAMOS	5	5
+1963-11-23	Rohda (A)	DOS (E)	13	4
+1963-11-23	SOS	HKC (He)	2	6
+1963-11-23	Deetos	LUTO	7	4
+1963-11-23	Olympiaan	Ready (H)	6	1
+1963-11-23	Stanfries²	ZKC (Zu)	5	7
+1963-11-23	De Pein	Vitesse (Be)	7	6
+1963-11-23	SVK	Victoria (A)	4	1
+1963-11-23	Achilles (H)	HSV	5	7
+1963-11-23	HKV	RODA (W)	13	2
+1963-11-23	DTV	DDV	1	6
+1963-11-23	Danaiden	Swift (M)	4	4
+1963-11-30	Rapiditas	VADA	7	3
+1963-11-30	UNI (S)	Quick '21	4	4
+1963-11-30	Zuiderkwartier (L)	Quick (D)	7	5
+1963-11-30	UNA (L)	Moedig Voorwaarts	6	8
+1963-11-30	ONI (A)	EKCA	2	3
+1963-11-30	Excelsior	SKV (U)	8	4
+1963-11-30	Odival	Oerterp	8	1
+1963-11-30	ODO²	Tjoba	11	9
+1963-11-30	Meeuwen (L)	Club Brothers	6	6
+1963-11-30	Zwaluwen (H)	BIKO	6	7
+1963-11-30	Dio	Wez Fluch	5	2
+1963-11-30	Animo Ready	BEP	3	4
+1963-11-30	DDV	DED	7	10
+1963-11-30	OSCR	Sperwers	3	3
+1963-11-30	OKV	Hespa	5	5
+1963-11-30	SVS	Altijd Kwiek	2	2
+1963-11-30	Victoria (A)	KCN	9	7
+1963-11-30	Aurora	Olympia (B)	3	3
+1963-11-30	ZKC '19	Drachten	7	4
+1963-11-30	SIM	SIOS (W)	3	4
+1963-11-30	SAMOS	AW	8	4
+1963-11-30	VIOS (Ni)	SOS '60	6	5
+1963-11-30	OKO	WWMD	7	1
+1963-11-30	Samen Een	MKC (Me)	6	5
+1963-11-30	DOS '46	Luxia	5	3
+1963-11-30	Rigtersbleek	Archipel	5	9
+1963-11-30	AKC (Al)	Oost Arnhem	12	7
+1963-11-30	Blauw Wit	RODA (W)	9	3
+1963-11-30	UDI (T)	Noord Oosten	6	2
+1963-11-30	AKC (Ak)	KIOS (R)	6	1
+1963-11-30	Zwervers	Rozenburg	4	1
+1963-11-30	Rohda (H)	Dow	5	2
+1963-11-30	LDO	Vitesse (Be)	5	2
+1963-11-30	Vicus Orientis	Algemene	9	2
+1963-11-30	VKC (S)	Friso (L)	6	2
+1963-11-30	Emmen	Blauw Wit (H)	7	4
+1963-11-30	Forward	Kinea (K)	6	3
+1963-11-30	De Hoeve	Leeuwarden	7	4
+1963-11-30	MEO	DVD²	4	3
+1963-11-30	ZKC (Zu)	Die Haghe	13	5
+1963-11-30	Sparta (W)	De Pein	3	5
+1963-11-30	Wilskracht	Noviomagum	5	4
+1963-11-30	Hermes (G)	Asko	4	2
+1963-11-30	Odis (E)	Korulos	3	2
+1963-11-30	Oranje Wit (T)	PSV	3	9
+1963-11-30	Westerkwartier	HKV	8	6
+1963-11-30	Advendo (TI)	Halen	4	1
+1963-11-30	LUTO	DOS (E)	9	5
+1963-11-30	KZ	Watervliet	3	3
+1963-11-30	DES (N)	OWK	3	4
+1963-11-30	WK	Deetos	5	6
+1963-11-30	HSV	Charlois	6	0
+1963-11-30	DTV	ZKV (Za)	8	8
+1963-11-30	Blauw Zwart	Amicitia (V)	3	5
+1963-11-30	HKC (He)	Naas²	7	2
+1963-11-30	Stanfries²	Regenboog	5	3
+1963-11-30	Ons Eibernest	Rohda (A)	10	5
+1963-11-30	Nieuw Flora	De Tovers	6	7
+1963-11-30	Ready (H)	DKC (De)	5	3
+1963-11-30	Vogel	Oosterpark	3	2
+1963-12-07	Friso (L)	Hermes (G)	2	7
+1963-12-07	Nieuw Flora	Altius	2	5
+1963-12-07	HKC (He)	Steeds Hooger	7	4
+1963-12-07	DTV	Swift	3	6
+1963-12-07	Victoria (A)	OKV	9	5
+1963-12-07	Algemene	Zuiderkwartier (L)	2	8
+1963-12-07	OKO	De Hoeve	4	0
+1963-12-07	DOS (E)	Groen Geel	4	6
+1963-12-07	Blauw Wit	Die Haghe	7	4
+1963-12-07	MKC (Me)	Luxia	1	2
+1963-12-07	WK	Archipel	3	5
+1963-12-07	Oosterkwartier (H)	KCN	6	3
+1963-12-07	Leonidas²	SVS	5	7
+1963-12-07	ZKV (Za)	DDV	6	5
+1963-12-07	DTS (S)	Dow	3	2
+1963-12-07	TCNH	Amersfoort	5	1
+1963-12-07	Samen Een	DOS '46	1	3
+1963-12-07	WWMD	Emmen	6	5
+1963-12-07	Nic	ZKC '19	3	2
+1963-12-07	RDZ	SKV (U)	3	6
+1963-12-07	Hespa	De Tovers	4	2
+1963-12-07	DVD²	KCO	3	5
+1963-12-07	ZKC '31	Haarlem	8	4
+1963-12-07	Rust Roest (E)	Sportlust	5	6
+1963-12-07	Oosterpark	BIKO	1	5
+1963-12-07	SAMOS	ZKC (Zu)	5	2
+1963-12-07	Animo Ready	KVD	5	3
+1963-12-07	HDT	Halen	7	0
+1963-12-07	Stanfries²	AW	8	3
+1963-12-07	Moedig Voorwaarts	Meeuwen (L)	5	3
+1963-12-07	LUTO	Spangen	10	2
+1963-12-07	Olympia (B)	MEO	6	6
+1963-12-07	Quick '21	DES (N)	9	2
+1964-01-04	Archipel	LUTO	7	13
+1964-01-04	Hespa	Victoria (A)	5	4
+1964-02-01	DOS (E)	Spangen	4	4
+1964-02-01	Ready (H)	Zwervers	8	3
+1964-02-01	Organon	Eindhoven	2	4
+1964-02-01	Rohda (A)	Archipel	6	9
+1964-02-01	RODA (W)	ZKC (Zu)	3	5
+1964-02-01	OKV	SVK	3	6
+1964-02-01	Charlois	Achilles (H)	3	2
+1964-02-01	Vicus Orientis	OSCR	2	2
+1964-02-01	HKV	Die Haghe	6	5
+1964-02-01	Zaandam Zuid	SKV (U)	4	9
+1964-02-01	KVD	Landlust	6	4
+1964-02-01	DVD²	BEP	5	5
+1964-02-01	Rapiditas	AKC (Al)	4	5
+1964-02-01	Eureka	HSV	2	10
+1964-02-01	DED	ZKV (Za)	3	5
+1964-02-01	Ons Eibernest	Deto	7	4
+1964-02-01	Oosterpark	Zwaluwen (H)	4	8
+1964-02-01	Olympia (B)	KCO	7	8
+1964-02-01	Stanfries²	Blauw Wit	2	7
+1964-02-01	Regenboog	AW	10	4
+1964-02-01	LUTO	WK	12	5
+1964-02-01	Amersfoort	TCNH	4	0
+1964-02-08	SOS	Oost Arnhem	6	2
+1964-02-08	Westerkwartier	SAMOS	6	4
+1964-02-08	Amersfoort	Excelsior	0	3
+1964-02-08	Aurora	KCO	4	9
+1964-02-08	ZKC (Zu)	Stanfries²	11	3
+1964-02-08	Rigtersbleek	WK	7	1
+1964-02-08	Olympia (B)	KVD	5	3
+1964-02-08	Vogel	Zwaluwen (H)	5	4
+1964-02-08	Organon	PSV	2	11
+1964-02-08	Animo Ready	MEO	6	2
+1964-02-08	DVD²	Landlust	6	1
+1964-02-08	Kameo	BIKO	7	4
+1964-02-08	EKCA	Onder Ons	2	7
+1964-02-08	AKC (Al)	Steeds Hooger	8	3
+1964-02-08	KCN	Altius	6	5
+1964-02-08	RDZ	BFC	6	5
+1964-02-08	Oosterkwartier (H)	SVK	3	4
+1964-02-08	De Tovers	Victoria (A)	5	3
+1964-02-08	DTV	Watervliet	5	2
+1964-02-08	KNS	DKC (De)	2	4
+1964-02-08	Sportlust	Eindhoven	6	3
+1964-02-08	SKV (U)	TCNH	5	1
+1964-02-08	Tjoba	GKV	8	4
+1964-02-08	Charlois	ODO²	4	2
+1964-02-15	Sportlust	Volt	6	3
+1964-02-15	Watervliet	KZ	2	6
+1964-02-15	Zaandam Zuid	Excelsior	1	5
+1964-02-15	RDZ	SKV (U)	2	7
+1964-02-15	HSV	GKV	11	0
+1964-02-15	't Overschotje	Onder Ons	4	4
+1964-02-15	DKC (De)	Zwervers	8	4
+1964-02-15	Rozenburg	Ons Huis (R)	5	2
+1964-02-15	SDO (V)	RWB	3	1
+1964-02-15	Noord Oosten	Rohda (H)	0	9
+1964-02-15	Eindhoven	OEC	8	3
+1964-02-15	BIKO	SKF	5	4
+1964-02-15	DED	ZKC '31	4	5
+1964-02-29	Tjoba	HSV	7	8
+1964-02-29	Rigtersbleek	Ons Eibernest	6	7
+1964-02-29	Rohda (A)	Spangen	6	5
+1964-02-29	VADA	Oost Arnhem	10	2
+1964-02-29	Halen	Korulos	7	5
+1964-02-29	Forward	Drachten	2	3
+1964-02-29	Blauw Wit (H)	Meeuwen (L)	6	3
+1964-02-29	Archipel	Deetos	7	17
+1964-02-29	Leonidas²	DOS '46	1	3
+1964-02-29	De Pein	SCO	3	3
+1964-02-29	Zaandam Zuid	TCNH	1	6
+1964-02-29	Onder Ons	Hellas	8	4
+1964-02-29	HDT	VIOS (Ni)	4	2
+1964-02-29	DES (N)	Rohda (H)	5	3
+1964-02-29	Ons Huis (R)	Olympiaan	4	8
+1964-02-29	SKF	Oosterpark	6	5
+1964-02-29	Hespa	Altius	5	4
+1964-02-29	Noord Oosten	UNI (S)	1	21
+1964-02-29	Eureka	Charlois	9	5
+1964-02-29	RODA (W)	SAMOS	6	3
+1964-02-29	Wilskracht	ONI (A)	3	4
+1964-02-29	OWK	UDI (T)	7	3
+1964-02-29	Sperwers	Swift (M)	7	3
+1964-02-29	BFC	SKV (U)	5	7
+1964-02-29	Vitesse (Be)	VKC (S)	1	6
+1964-02-29	KZ	ZKV (Za)	8	1
+1964-02-29	Club Brothers	OKO	3	3
+1964-02-29	Danaiden	Quick (D)	4	4
+1964-02-29	KVD	MEO	6	5
+1964-02-29	Odilo	ODI (G)	6	5
+1964-02-29	DED	Haarlem	6	4
+1964-02-29	Zuiden (R)	Westerkwartier	2	5
+1964-02-29	De Tovers	Oosterkwartier (H)	6	7
+1964-02-29	WK	DOS (E)	2	5
+1964-02-29	Zuiderkwartier (L)	Algemene	5	4
+1964-02-29	Odival	Odis (E)	7	3
+1964-02-29	Samen Een	SIOS (W)	1	3
+1964-02-29	Asko	LDO	10	2
+1964-02-29	ZKC (Zu)	HKV	5	9
+1964-02-29	Rust Roest (E)	Eindhoven	4	6
+1964-02-29	Amsterdam Zuid	Kameo	4	4
+1964-02-29	Altijd Kwiek	SVS	3	1
+1964-02-29	SOS	AKC (Al)	5	5
+1964-02-29	Volt	Organon	3	7
+1964-02-29	Oerterp	SOS '60	6	2
+1964-02-29	Naas²	Rapiditas	4	7
+1964-02-29	Friso (L)	Sparta (W)	4	6
+1964-02-29	ZKC '31	DTV	8	4
+1964-02-29	Zwaluwen (H)	Vogel	5	7
+1964-02-29	Ready (H)	KNS	5	7
+1964-02-29	GKV	Achilles (H)	14	3
+1964-02-29	SIM	Luxia	6	2
+1964-02-29	Victoria (A)	Nieuw Flora	4	4
+1964-02-29	Wez Fluch	KIOS (R)	7	2
+1964-02-29	Regenboog	Die Haghe	4	8
+1964-02-29	Animo Ready	KCO	8	4
+1964-02-29	NKC (No)	Dio	3	3
+1964-02-29	Blauw Zwart	Groen Zwart	10	7
+1964-02-29	Rozenburg	DKC (De)	6	4
+1964-02-29	Amicitia (V)	Achilles (A)	4	1
+1964-02-29	LUTO	Groen Geel	8	2
+1964-02-29	MKC (Me)	Joure	4	4
+1964-03-07	Ons Eibernest	Deetos	4	2
+1964-03-07	Hespa	SVK	2	2
+1964-03-07	Leonidas²	Altijd Kwiek	1	0
+1964-03-07	ODO²	Eureka	7	6
+1964-03-07	Deto	LUTO	5	5
+1964-03-07	Westerkwartier	Regenboog	6	2
+1964-03-07	PSV	Sportlust	6	2
+1964-03-07	Emmen	De Hoeve	6	2
+1964-03-07	Haarlem	DTV	2	3
+1964-03-07	Meeuwen (L)	WWMD	4	9
+1964-03-07	AW	Blauw Wit	5	8
+1964-03-07	SAMOS	HKV	2	5
+1964-03-07	Danaiden	Vicus Orientis	2	3
+1964-03-07	Halen	Oerterp	4	6
+1964-03-07	SKV (U)	Amersfoort	5	1
+1964-03-07	TCNH	BFC	3	5
+1964-03-07	Animo Ready	Olympia (B)	5	3
+1964-03-07	ZKC '19	NKC (No)	2	0
+1964-03-07	SCO	Friso (L)	4	4
+1964-03-07	Swift	DED	6	5
+1964-03-07	Quick '21	Noord Oosten	14	1
+1964-03-07	Fluks	Zuiderkwartier (L)	3	5
+1964-03-07	Nieuw Flora	Oosterkwartier (H)	3	4
+1964-03-07	Nic	Dio	7	4
+1964-03-07	Die Haghe	RODA (W)	6	5
+1964-03-07	Wilskracht	EKCA	3	3
+1964-03-07	ONI (A)	't Overschotje	6	2
+1964-03-07	DOS (E)	Rohda (A)	2	5
+1964-03-14	Landlust	Olympia (B)	3	0
+1964-03-14	Vitesse (Be)	Sparta (W)	3	4
+1964-03-14	BFC	Amersfoort	6	0
+1964-03-14	Blauw Wit (H)	WWMD	4	3
+1964-03-14	Westerkwartier	Die Haghe	10	0
+1964-03-14	Eindhoven	Organon	1	2
+1964-03-14	NKC (No)	Forward	1	5
+1964-03-14	KCN	Hespa	2	2
+1964-03-14	Zuiden (R)	Regenboog	6	2
+1964-03-14	Deto	Rigtersbleek	5	6
+1964-03-14	Groen Geel	WK	4	2
+1964-03-14	Altius	Oosterkwartier (H)	3	3
+1964-03-14	Aurora	Animo Ready	1	1
+1964-03-14	't Overschotje	Wilskracht	5	2
+1964-03-14	Nieuw Flora	OKV	2	7
+1964-03-14	UNA (L)	Meeuwen (L)	2	2
+1964-03-14	Rapiditas	SOS	2	3
+1964-03-14	SKF	Amsterdam Zuid	3	2
+1964-03-14	Friso (L)	LDO	1	1
+1964-03-14	SIOS (W)	MKC (Me)	1	0
+1964-03-14	RODA (W)	AW	4	2
+1964-03-14	DES (N)	DTS (S)	4	5
+1964-03-14	Steeds Hooger	Naas²	4	3
+1964-03-14	Halen	Odival	1	7
+1964-03-14	Asko	SCO	7	3
+1964-03-14	SVK	De Tovers	9	3
+1964-03-14	Achilles (H)	Eureka	3	5
+1964-03-14	Joure	Altijd Kwiek	2	3
+1964-03-14	Zwaluwen (H)	Oosterpark	0	2
+1964-03-14	DED	KZ	5	3
+1964-03-14	Swift	ZKC '31	4	2
+1964-03-14	BIKO	Kameo	5	1
+1964-03-14	Onder Ons	Noviomagum	9	2
+1964-03-14	SIM	DOS '46	0	1
+1964-03-14	HDT	SOS '60	5	4
+1964-03-14	KNS	Zwervers	3	2
+1964-03-14	VIOS (Ni)	Oerterp	3	6
+1964-03-14	KIOS (R)	Drachten	2	1
+1964-03-14	Excelsior	SKV (U)	3	4
+1964-03-14	Groen Zwart	Zwart Wit	4	2
+1964-03-14	KCO	KVD	4	6
+1964-03-14	SAMOS	Stanfries²	2	2
+1964-03-14	Club Brothers	De Hoeve	2	3
+1964-03-14	Deetos	DOS (E)	4	4
+1964-03-14	Rust Roest (E)	PSV	1	9
+1964-03-14	Quick (D)	Swift (M)	3	2
+1964-03-14	Ready (H)	Ons Huis (R)	2	7
+1964-03-14	Ready '60	ODI (G)	1	8
+1964-03-21	Sperwers	Danaiden	7	3
+1964-03-21	AKC (Ak)	ZKC '19	3	3
+1964-03-21	Watervliet	DED	6	5
+1964-03-21	Landlust	Animo Ready	6	2
+1964-03-21	Ons Huis (R)	Rozenburg	7	6
+1964-03-21	Oerterp	Odival	3	6
+1964-03-21	Sportlust	Organon	7	9
+1964-03-21	DKC (De)	Olympiaan	8	5
+1964-03-21	Luxia	SIOS (W)	1	3
+1964-03-21	Regenboog	RODA (W)	4	4
+1964-03-21	Oosterpark	BIKO	7	5
+1964-03-21	Quick '21	DTS (S)	3	2
+1964-03-21	Die Haghe	Zuiden (R)	6	3
+1964-03-21	TCNH	Zaandam Zuid	7	2
+1964-03-21	Oosterkwartier (H)	Victoria (A)	6	6
+1964-03-21	Eureka	Achilles (H)	5	7
+1964-03-21	PSV	OEC	10	1
+1964-03-21	ONI (A)	Onder Ons	4	2
+1964-03-21	Rigtersbleek	Deetos	6	9
+1964-03-21	DOS '46	Joure	5	5
+1964-03-21	AW	HKV	5	11
+1964-03-21	HSV	ODO²	6	3
+1964-03-21	Archipel	Deto	10	6
+1964-03-21	DDV	KZ	8	8
+1964-03-21	BEP	Aurora	7	2
+1964-03-21	Oost Arnhem	Steeds Hooger	1	10
+1964-03-21	De Hoeve	WWMD	3	7
+1964-03-21	Spangen	Ons Eibernest	4	5
+1964-03-21	MKC (Me)	Leonidas²	4	3
+1964-03-21	ZKV (Za)	DTV	4	4
+1964-03-21	Oranje Wit (T)	Volt	6	4
+1964-03-21	SIM	SVS	4	5
+1964-03-21	Kinea (K)	Dio	10	3
+1964-03-21	OSCR	Quick (D)	2	3
+1964-03-21	Charlois	GKV	1	3
+1964-03-21	Korulos	HDT	2	8
+1964-03-21	HKC (He)	AKC (Al)	10	7
+1964-03-21	OKO	Meeuwen (L)	4	4
+1964-03-21	EKCA	Noviomagum	9	5
+1964-03-21	Ready '60	Stormvogels (G)	3	5
+1964-03-21	SOS '60	Odis (E)	5	4
+1964-03-21	Dow	OWK	5	3
+1964-03-21	Blauw Zwart	Zwart Wit	7	5
+1964-03-21	De Tovers	OKV	8	10
+1964-03-21	Rohda (A)	Groen Geel	12	3
+1964-03-21	Amersfoort	Excelsior	3	4
+1964-03-21	ZKC (Zu)	Blauw Wit	4	9
+1964-03-21	Altijd Kwiek	Samen Een	5	3
+1964-03-21	Stanfries²	Westerkwartier	3	7
+1964-03-21	KCO	DVD²	9	5
+1964-03-21	Nieuw Flora	SVK	2	7
+1964-03-21	Fluks	Algemene	5	3
+1964-03-21	Zwervers	Ready (H)	6	5
+1964-03-21	NKC (No)	Nic	2	9
+1964-03-21	De Pein	LDO	7	8
+1964-03-28	Swift (M)	Vicus Orientis	2	9
+1964-04-04	Amersfoort	Zaandam Zuid	4	1
+1964-04-04	TCNH	RDZ	3	2
+1964-04-04	Blauw Wit (H)	Leeuwarden	5	2
+1964-04-04	OKV	KCN	7	6
+1964-04-04	Oost Arnhem	HKC (He)	0	6
+1964-04-04	DOS '46	MKC (Me)	1	2
+1964-04-04	KVD	DVD²	4	4
+1964-04-04	Quick (D)	Sperwers	2	7
+1964-04-04	BFC	Excelsior	3	2
+1964-04-04	Hermes (G)	Sparta (W)	4	3
+1964-04-04	WK	Rohda (A)	2	8
+1964-04-04	ZKV (Za)	Swift	2	8
+1964-04-04	Zwaluwen (H)	BIKO	2	0
+1964-04-04	Moedig Voorwaarts	Club Brothers	3	3
+1964-04-04	Blauw Wit	HKV	9	2
+1964-04-04	SOS	Naas²	7	1
+1964-04-04	Deetos	Groen Geel	8	1
+1964-04-04	Haarlem	Watervliet	2	5
+1964-04-04	Rust Roest (E)	Volt	5	5
+1964-04-04	Dow	DES (N)	7	6
+1964-04-04	Hellas	't Overschotje	6	2
+1964-04-04	VADA	Rapiditas	2	5
+1964-04-04	RODA (W)	Zuiden (R)	7	3
+1964-04-04	Asko	Friso (L)	4	4
+1964-04-04	Ons Eibernest	Archipel	4	5
+1964-04-04	Forward	Dio	4	1
+1964-04-04	MEO	Landlust	7	8
+1964-04-04	Danaiden	Fluks	4	5
+1964-04-04	SCO	Vitesse (Be)	6	4
+1964-04-04	DDV	ZKC '31	9	7
+1964-04-04	Amsterdam Zuid	Vogel	3	4
+1964-04-04	Drachten	Nic	0	6
+1964-04-04	SVK	Oosterkwartier (H)	4	4
+1964-04-04	Ready '60	Odilo	4	3
+1964-04-04	Altijd Kwiek	SIM	4	6
+1964-04-04	Olympiaan	Rozenburg	1	2
+1964-04-04	AW	ZKC (Zu)	2	8
+1964-04-04	DTV	DED	5	5
+1964-04-04	Rigtersbleek	Spangen	11	7
+1964-04-04	OSCR	Vicus Orientis	0	6
+1964-04-04	Leonidas²	Joure	3	0
+1964-04-04	KIOS (R)	ZKC '19	2	2
+1964-04-04	Amicitia (V)	Groen Zwart	4	3
+1964-04-04	DTS (S)	UNI (S)	3	2
+1964-04-04	BEP	Animo Ready	7	6
+1964-04-04	Regenboog	SAMOS	4	5
+1964-04-04	Luxia	Samen Een	4	4
+1964-04-04	VIOS (Ni)	Halen	6	1
+1964-04-04	Oranje Wit (T)	OEC	4	4
+1964-04-04	Quick '21	Rohda (H)	6	4
+1964-04-04	Nieuw Flora	Hespa	3	5
+1964-04-04	De Hoeve	UNA (L)	7	3
+1964-04-04	Deto	DOS (E)	3	6
+1964-04-11	KCN	SVK	0	1
+1964-04-11	DVD²	Aurora	8	3
+1964-04-11	Rohda (A)	Deetos	5	3
+1964-04-11	Landlust	BEP	1	2
+1964-04-11	Rozenburg	KNS	4	1
+1964-04-11	UNI (S)	Rohda (H)	3	0
+1964-04-11	Victoria (A)	Hespa	6	2
+1964-04-11	Swift (M)	Fluks	6	5
+1964-04-11	Excelsior	TCNH	3	0
+1964-04-11	Odival	VIOS (Ni)	5	3
+1964-04-11	DOS (E)	Ons Eibernest	2	5
+1964-04-11	Stanfries²	RODA (W)	5	6
+1964-04-11	VKC (S)	De Pein	3	4
+1964-04-11	OKO	Moedig Voorwaarts	5	0
+1964-04-11	KCO	MEO	10	2
+1964-04-11	SKV (U)	Zaandam Zuid	7	2
+1964-04-11	Dio	Drachten	6	4
+1964-04-11	Emmen	Club Brothers	4	3
+1964-04-11	Forward	AKC (Ak)	2	4
+1964-04-11	RDZ	BFC	2	8
+1964-04-11	Luxia	SIM	4	5
+1964-04-11	Die Haghe	AW	7	2
+1964-04-11	Swift	DDV	7	3
+1964-04-11	Odilo	Ready '60	7	2
+1964-04-11	SKF	Zwaluwen (H)	4	9
+1964-04-11	UDI (T)	DES (N)	2	2
+1964-04-11	Joure	DOS '46	4	2
+1964-04-11	Achilles (A)	Groen Zwart	10	3
+1964-04-11	HKV	SAMOS	3	4
+1964-04-11	Zuiden (R)	ZKC (Zu)	2	7
+1964-04-11	Organon	Rust Roest (E)	1	4
+1964-04-11	Steeds Hooger	VADA	5	4
+1964-04-11	SVS	MKC (Me)	1	4
+1964-04-11	Blauw Wit	Westerkwartier	5	2
+1964-04-11	WK	Deto	5	2
+1964-04-11	LUTO	Rigtersbleek	9	3
+1964-04-11	Meeuwen (L)	De Hoeve	6	3
+1964-04-11	Quick (D)	Danaiden	2	4
+1964-04-11	Advendo (TI)	Korulos	6	1
+1964-04-11	ZKV (Za)	Watervliet	2	7
+1964-04-11	Eureka	Tjoba	4	3
+1964-04-11	SIOS (W)	Leonidas²	3	0
+1964-04-11	Vitesse (Be)	Asko	1	7
+1964-04-11	Zuiderkwartier (L)	OSCR	3	4
+1964-04-11	Nic	KIOS (R)	8	0
+1964-04-11	HDT	Oerterp	7	1
+1964-04-11	Wez Fluch	NKC (No)	3	0
+1964-04-11	Hellas	EKCA	2	2
+1964-04-11	PSV	Volt	14	1
+1964-04-11	Noord Oosten	Dow	0	22
+1964-04-11	Kinea (K)	ZKC '19	5	3
+1964-04-11	Oosterkwartier (H)	Nieuw Flora	8	2
+1964-04-11	Kameo	Amsterdam Zuid	11	4
+1964-04-11	Altius	OKV	5	4
+1964-04-11	OWK	Quick '21	2	6
+1964-04-11	Sparta (W)	LDO	1	3
+1964-04-11	Groen Geel	Spangen	1	5
+1964-04-11	ODO²	Achilles (H)	3	1
+1964-04-11	UNA (L)	Leeuwarden	5	1
+1964-04-11	Oosterpark	Vogel	4	4
+1964-04-11	Naas²	AKC (Al)	7	10
+1964-04-18	MKC (Me)	Altijd Kwiek	5	1
+1964-04-18	Aurora	MEO	3	3
+1964-04-18	AKC (Ak)	NKC (No)	6	6
+1964-04-18	Rozenburg	Ready (H)	8	3
+1964-04-18	Oerterp	Korulos	8	3
+1964-04-18	Excelsior	RDZ	8	4
+1964-04-18	DVD²	Animo Ready	6	5
+1964-04-18	KIOS (R)	Kinea (K)	3	7
+1964-04-18	Zuiden (R)	Stanfries²	12	9
+1964-04-18	Watervliet	DDV	8	5
+1964-04-18	Danaiden	OSCR	5	5
+1964-04-18	Achilles (A)	Zwart Wit	5	4
+1964-04-18	Fluks	Vicus Orientis	6	2
+1964-04-18	Algemene	Sperwers	8	3
+1964-04-18	OKV	Nieuw Flora	8	1
+1964-04-18	Nic	Forward	9	6
+1964-04-18	Deetos	Deto	6	1
+1964-04-18	Emmen	Moedig Voorwaarts	8	4
+1964-04-18	VIOS (Ni)	Advendo (TI)	4	2
+1964-04-18	De Hoeve	Blauw Wit (H)	3	5
+1964-04-18	Sparta (W)	Friso (L)	4	4
+1964-04-18	SVK	Altius	2	7
+1964-04-18	Oranje Wit (T)	Sportlust	5	6
+1964-04-18	Luxia	DOS '46	2	7
+1964-04-18	Noord Oosten	OWK	5	9
+1964-04-18	UNI (S)	DES (N)	4	4
+1964-04-18	Odival	HDT	3	2
+1964-04-18	Leeuwarden	OKO	4	2
+1964-04-18	Tjoba	Charlois	10	4
+1964-04-18	Oosterpark	Kameo	3	5
+1964-04-18	Amsterdam Zuid	SKF	5	7
+1964-04-18	Dow	Rohda (H)	2	2
+1964-04-18	Meeuwen (L)	UNA (L)	1	2
+1964-04-18	Zwervers	Olympiaan	4	5
+1964-04-18	Wez Fluch	Drachten	4	4
+1964-04-18	LDO	VKC (S)	9	6
+1964-04-18	Haarlem	Swift	3	8
+1964-04-18	Groen Zwart	Amicitia (V)	3	3
+1964-04-18	TCNH	SKV (U)	2	5
+1964-04-18	Swift (M)	Zuiderkwartier (L)	4	7
+1964-04-18	KZ	ZKC '31	12	2
+1964-04-18	WWMD	Club Brothers	6	7
+1964-04-18	Hermes (G)	De Pein	2	4
+1964-04-18	Spangen	WK	9	2
+1964-04-18	Zaandam Zuid	BFC	3	6
+1964-04-18	Joure	Samen Een	8	1
+1964-04-18	KVD	BEP	2	6
+1964-04-18	SIM	Leonidas²	2	3
+1964-04-25	Noviomagum	Hellas	5	6
+1964-04-25	HKV	Regenboog	10	2
+1964-04-25	MKC (Me)	Samen Een	2	6
+1964-04-25	SIOS (W)	DOS '46	5	4
+1964-04-25	Danaiden	Zuiderkwartier (L)	10	8
+1964-04-25	Hespa	Oosterkwartier (H)	5	5
+1964-04-25	Zaandam Zuid	Excelsior	3	9
+1964-04-25	Rigtersbleek	Rohda (A)	2	7
+1964-04-25	SKF	BIKO	11	2
+1964-04-25	UDI (T)	Dow	2	6
+1964-04-25	Leonidas²	Luxia	6	5
+1964-04-25	OWK	UNI (S)	4	8
+1964-04-25	DES (N)	Noord Oosten	18	1
+1964-04-25	MEO	BEP	8	8
+1964-04-25	ZKC (Zu)	Westerkwartier	8	7
+1964-04-25	Blauw Wit	SAMOS	7	4
+1964-04-25	Zuiden (R)	AW	15	2
+1964-04-25	Asko	VKC (S)	6	3
+1964-04-25	Vicus Orientis	Sperwers	11	3
+1964-04-25	Algemene	Quick (D)	6	5
+1964-04-25	Kinea (K)	Nic	5	3
+1964-04-25	KIOS (R)	NKC (No)	4	5
+1964-04-25	Die Haghe	Stanfries²	10	6
+1964-04-25	Wez Fluch	Forward	4	4
+1964-04-25	Rapiditas	HKC (He)	4	4
+1964-04-25	LDO	Hermes (G)	4	7
+1964-04-25	VIOS (Ni)	Korulos	6	8
+1964-04-25	Moedig Voorwaarts	Leeuwarden	7	6
+1964-04-25	SOS '60	Odival	2	3
+1964-04-25	Halen	Odis (E)	2	6
+1964-04-25	Vogel	Kameo	5	6
+1964-04-25	Landlust	Aurora	7	3
+1964-04-25	Deto	Groen Geel	8	5
+1964-04-25	Altius	De Tovers	7	6
+1964-04-25	VADA	SOS	5	2
+1964-04-25	Club Brothers	Blauw Wit (H)	8	6
+1964-04-25	Zwaluwen (H)	Amsterdam Zuid	6	5
+1964-04-25	HDT	Advendo (TI)	5	2
+1964-04-25	KNS	Ons Huis (R)	4	3
+1964-04-25	Ons Eibernest	LUTO	7	5
+1964-04-25	UNA (L)	Emmen	3	5
+1964-04-25	Archipel	Spangen	9	6
+1964-04-25	SCO	Sparta (W)	5	6
+1964-04-25	KZ	DDV	4	0
+1964-04-25	Drachten	AKC (Ak)	4	6
+1964-04-25	Olympia (B)	DVD²	4	6
+1964-04-25	ZKC '31	ZKV (Za)	6	4
+1964-04-25	BFC	TCNH	10	2
+1964-04-30	Groen Geel	Rigtersbleek	6	4
+1964-04-30	Vogel	BIKO	8	1
+1964-04-30	Joure	SVS	6	7
+1964-05-02	Odilo	Stormvogels (G)	6	2
+1964-05-02	Advendo (TI)	Odis (E)	6	2
+1964-05-02	Drachten	Kinea (K)	2	7
+1964-05-02	Kameo	Vogel	4	5
+1964-05-02	Dow	UNI (S)	3	2
+1964-05-02	Joure	Leonidas²	10	4
+1964-05-02	UDI (T)	DTS (S)	2	10
+1964-05-02	ZKC '19	Forward	9	5
+1964-05-02	Club Brothers	UNA (L)	9	6
+1964-05-02	AW	Westerkwartier	0	11
+1964-05-02	Noord Oosten	DES (N)	0	18
+1964-05-02	Zwart Wit	Amicitia (V)	1	8
+1964-05-02	ZKC '31	Watervliet	5	4
+1964-05-02	SKF	Oosterpark	3	3
+1964-05-02	Algemene	Swift (M)	2	5
+1964-05-02	Rohda (H)	OWK	4	1
+1964-05-02	RDZ	Amersfoort	2	2
+1964-05-02	Altius	Victoria (A)	6	3
+1964-05-06	Kameo	Zwaluwen (H)	6	5
+1964-05-06	Vogel	SKF	11	5
+1964-05-06	BFC	Zaandam Zuid	7	3
+1964-05-07	SAMOS	Zuiden (R)	4	6
+1964-05-07	Spangen	Deetos	6	4
+1964-05-07	Rohda (A)	LUTO	6	5
+1964-05-07	Regenboog	Blauw Wit	2	6
+1964-05-07	RODA (W)	Westerkwartier	6	8
+1964-05-07	KZ	DTV	6	5
+1964-05-07	Stanfries²	HKV	4	7
+1964-05-09	Kameo	SKF	12	1
+1964-05-09	Club Brothers	Moedig Voorwaarts	4	4
+1964-05-09	Leeuwarden	WWMD	3	2
+1964-05-09	WK	Ons Eibernest	3	14
+1964-05-09	Zuiden (R)	Die Haghe	9	4
+1964-05-09	VADA	HKC (He)	4	9
+1964-05-09	Steeds Hooger	Rapiditas	4	7
+1964-05-09	UDI (T)	Rohda (H)	0	3
+1964-05-09	Friso (L)	Asko	3	5
+1964-05-09	Swift	KZ	13	5
+1964-05-09	Advendo (TI)	Odival	3	4
+1964-05-09	Naas²	SOS	4	4
+1964-05-09	Blauw Wit (H)	UNA (L)	6	1
+1964-05-09	VKC (S)	Hermes (G)	7	2
+1964-05-09	De Hoeve	Meeuwen (L)	4	6
+1964-05-09	ZKC (Zu)	Regenboog	4	5
+1964-05-09	OKO	Emmen	2	2
+1964-05-09	Organon	OEC	2	3
+1964-05-09	ODI (G)	Stormvogels (G)	6	3
+1964-05-09	Danaiden	Algemene	11	2
+1964-05-09	Westerkwartier	Stanfries²	13	7
+1964-05-09	Zaandam Zuid	RDZ	6	12
+1964-05-09	Odis (E)	Oerterp	7	5
+1964-05-09	Rigtersbleek	DOS (E)	4	4
+1964-05-09	Rohda (A)	Deto	8	4
+1964-05-09	Amsterdam Zuid	Oosterpark	4	10
+1964-05-09	Archipel	Groen Geel	9	2
+1964-05-09	RODA (W)	Blauw Wit	1	5
+1964-05-09	ZKC '19	Dio	4	4
+1964-05-09	Fluks	Sperwers	2	4
+1964-05-09	SVS	SIOS (W)	3	5
+1964-05-09	Kinea (K)	AKC (Ak)	1	3
+1964-05-09	Luxia	Joure	4	8
+1964-05-09	Wez Fluch	Nic	4	6
+1964-05-09	ONI (A)	Hellas	6	1
+1964-05-09	DTS (S)	Noord Oosten	11	2
+1964-05-09	Vitesse (Be)	SCO	2	7
+1964-05-09	Vicus Orientis	Quick (D)	4	2
+1964-05-16	OSCR	Swift (M)	5	10
+1964-05-23	VKC (S)	Sparta (W)	4	9
+1964-05-23	Samen Een	Joure	3	1
+1964-05-23	Odis (E)	HDT	10	7
+1964-05-23	BIKO	Amsterdam Zuid	7	1
+1964-05-23	Friso (L)	Vitesse (Be)	8	5
+1964-05-23	HKC (He)	Oost Arnhem	13	2
+1964-05-23	UNI (S)	Dow	4	3
+1964-05-23	Wilskracht	Hellas	5	6
+1964-05-23	Zuiderkwartier (L)	Vicus Orientis	2	7
+1964-05-23	Nic	AKC (Ak)	5	3
+1964-05-23	Kameo	SKF	9	5
+1964-05-23	Meeuwen (L)	Emmen	5	8
+1964-05-23	UNA (L)	OKO	4	8
+1964-05-23	MEO	KVD	10	7
+1964-05-23	Leonidas²	SIM	9	5
+1964-05-23	DDV	Haarlem	8	4
+1964-05-23	Archipel	DOS (E)	5	5
+1964-05-23	BEP	KCO	5	3
+1964-05-23	Achilles (H)	Tjoba	12	4
+1964-05-23	Rohda (H)	Quick '21	2	2
+1964-05-23	Luxia	SVS	8	7
+1964-05-23	Olympia (B)	Aurora	6	4
+1964-05-23	HKV	Zuiden (R)	4	3
+1964-05-23	Olympiaan	Ons Huis (R)	5	4
+1964-05-23	NKC (No)	Wez Fluch	6	4
+1964-05-23	Sperwers	Quick (D)	4	6
+1964-05-23	Die Haghe	Regenboog	6	3
+1964-05-23	Leeuwarden	Club Brothers	3	8
+1964-05-23	OEC	Sportlust	1	4
+1964-05-23	SKV (U)	BFC	5	6
+1964-05-23	Quick (D)	OSCR	10	6
+1964-05-30	Vogel	Amsterdam Zuid	5	1
+1964-05-30	Emmen	WWMD	6	7
+1964-05-30	OEC	Eindhoven	3	4
+1964-05-30	Luxia	Altijd Kwiek	3	2
+1964-05-30	Moedig Voorwaarts	Blauw Wit (H)	3	8
+1964-05-30	Zwart Wit	Groen Zwart	4	6
+1964-05-30	Organon	Oranje Wit (T)	7	6
+1964-05-30	SAMOS	RODA (W)	6	4
+1964-05-30	Leeuwarden	UNA (L)	1	1
+1964-05-30	Wez Fluch	AKC (Ak)	4	6
+1964-05-30	Halen	SOS '60	4	7
+1964-05-30	Westerkwartier	Blauw Wit	2	5
+1964-05-30	Kinea (K)	NKC (No)	4	4
+1964-05-30	NKC (No)	Kinea (K)	6	6
+1964-05-30	UNI (S)	UDI (T)	10	0
+1964-05-30	AW	Zuiden (R)	2	8
+1964-05-30	Groen Geel	Ons Eibernest	1	6
+1964-05-30	Odis (E)	VIOS (Ni)	2	3
+1964-05-30	SIOS (W)	Joure	7	6
+1964-05-30	Deetos	Archipel	4	3
+1964-05-30	Oerterp	Advendo (TI)	1	2
+1964-05-30	HKV	ZKC (Zu)	7	6
+1964-05-30	DOS (E)	WK	10	2
+1964-05-30	Spangen	Rigtersbleek	5	3
+1964-05-30	Fluks	OSCR	7	7
+1964-05-30	Kameo	Zwaluwen (H)	3	5
+1964-05-30	Leeuwarden	Meeuwen (L)	7	3
+1964-05-30	DTS (S)	UDI (T)	15	5
+1964-06-06	Samen Een	Leonidas²	4	0
+1964-06-06	Sparta (W)	Asko	7	3
+1964-06-06	Leeuwarden	Emmen	4	5
+1964-06-10	Joure	SIM	9	7
+1964-06-11	Rohda (A)	Blauw Wit	5	5
+1964-06-13	MKC (Me)	SIM	5	8
+1964-06-13	SVS	Samen Een	9	5
+1964-06-13	Drachten	NKC (No)	5	1
+1964-06-13	Blauw Wit (H)	Emmen	8	3
+1964-06-13	Blauw Wit	Rohda (A)	7	6
+1964-06-13	Altijd Kwiek	Joure	2	7
+1964-06-13	Halen	VIOS (Ni)	2	1
+1964-06-13	Halen	VIOS (Ni)	2	1
+1963-08-31	OWK	Samen Een	5	2
+	Samen Een	Kinea (K)	1	8
+	Kinea (K)	OWK	6	0
+1963-09-08	ALO	Crescendo	5	5
+	Merwede (D)	Ahoy	7	3
+	Schiebroek	Phoenix (Z)	6	5
+	Hoogvliet	Fortuna (D)	2	5
+	TOGO (G)	TOV (D)	8	4
+	Trekvogels (R)	Hou Stand	6	2
+1963-09-15	Actief (R)	Ahoy	2	3
+	ALO	Phoenix (Z)	2	2
+	Merwede (D)	Unicum	3	2
+	BKC³	Crescendo	2	4
+	WION	Kwiek (H)	7	5
+	Spartaan	HPV	3	4
+	Animo (S)	Hoogvliet	6	8
+	Blauw Wit '51	Fortuna (D)	8	5
+	Pams	Raven	8	5
+	Velox	Trekvogels (R)	2	7
+	Hou Stand	Succes	7	3
+	DKV (Du)	TOGO (G)	3	3
+1963-09-22	Unicum	Schiebroek	4	4
+	Phoenix (Z)	Merwede (D)	3	5
+	Ahoy	ALO	4	2
+	Crescendo	Actief (R)	4	1
+	Schiedam	Fortuna (D)	3	6
+	Blauw Wit '51	Animo (S)	4	6
+	Hoogvliet	Spartaan	10	1
+	HPV	WION	4	2
+	TOV (D)	DKV (Du)	5	5
+	TOGO (G)	Hou Stand	6	5
+	Succes	Velox	10	5
+	Trekvogels (R)	Pams	7	4
+1963-09-29	Schiebroek	Merwede (D)	3	3
+	Phoenix (Z)	Actief (R)	6	5
+	Ahoy	BKC³	3	2
+	Kwiek (H)	HPV	5	3
+	WION	Hoogvliet	1	3
+	Spartaan	Blauw Wit '51	2	3
+	Animo (S)	Schiedam	5	3
+	Raven	Trekvogels (R)	3	4
+	Hou Stand	TOV (D)	4	2
+	Ajax (R)	Hillegersberg	2	5
+1963-10-06	Crescendo	Ahoy	11	0
+	BKC³	Phoenix (Z)	2	6
+	ALO	Schiebroek	4	2
+	Schiedam	Spartaan	6	4
+	Hoogvliet	Kwiek (H)	6	1
+	DKV (Du)	Hou Stand	5	7
+	Velox	TOV (D)	2	6
+	Succes	Raven	2	8
+1963-10-13	Merwede (D)	ALO	3	0
+	Schiebroek	Actief (R)	9	3
+	Unicum	BKC³	2	3
+	Phoenix (Z)	Crescendo	3	3
+	HPV	Hoogvliet	3	9
+	Kwiek (H)	Blauw Wit '51	4	1
+	Spartaan	Fortuna (D)	8	4
+	WION	Schiedam	5	0
+	Trekvogels (R)	Succes	5	0
+	Raven	TOGO (G)	7	7
+	TOV (D)	Pams	3	3
+	DKV (Du)	Velox	7	3
+	Overkanters	USV	7	3
+	DKD	Westen	4	4
+1963-10-20	Ahoy	Phoenix (Z)	1	5
+	Crescendo	Unicum	9	0
+	BKC³	Schiebroek	2	4
+	Actief (R)	Merwede (D)	3	11
+	Animo (S)	Spartaan	6	3
+	Fortuna (D)	WION	8	2
+	Schiedam	Kwiek (H)	3	3
+	HPV	Blauw Wit '51	2	3
+	Hou Stand	Velox	6	5
+	DKV (Du)	Pams	2	5
+	TOV (D)	Raven	2	3
+	TOGO (G)	Trekvogels (R)	7	10
+1963-10-27	ALO	Actief (R)	9	1
+	Merwede (D)	BKC³	7	4
+	Schiebroek	Crescendo	3	4
+	Unicum	Ahoy	3	3
+	Hoogvliet	Blauw Wit '51	8	3
+	HPV	Schiedam	2	6
+	Kwiek (H)	Fortuna (D)	7	4
+	Animo (S)	WION	7	4
+	TOGO (G)	Succes	6	1
+	Trekvogels (R)	TOV (D)	5	4
+	Raven	DKV (Du)	9	2
+	Pams	Hou Stand	6	6
+	Ter Gouw	DOP	7	0
+	Ten Donck	Vlaardingen	3	7
+	Hillegersberg	Ajax (R)	6	0
+1963-11-03	Phoenix (Z)	Unicum	4	4
+	Ahoy	Schiebroek	0	4
+	Crescendo	Merwede (D)	5	5
+	BKC³	ALO	6	8
+	Spartaan	WION	3	10
+	Kwiek (H)	Animo (S)	6	2
+	Fortuna (D)	HPV	6	4
+	Schiedam	Hoogvliet	5	10
+	Velox	Pams	6	6
+	Hou Stand	Raven	10	3
+	DKV (Du)	Trekvogels (R)	6	9
+	Succes	TOV (D)	2	7
+1963-11-10	Fortuna (D)	Animo (S)	4	3
+1963-11-17	Fortuna (D)	Hoogvliet	2	2
+1963-11-24	Crescendo	BKC³	4	4
+	Ahoy	Actief (R)	2	8
+	Phoenix (Z)	ALO	3	2
+	Unicum	Merwede (D)	2	7
+	Kwiek (H)	WION	5	5
+	HPV	Spartaan	6	5
+	Fortuna (D)	Blauw Wit '51	8	3
+	Hou Stand	Trekvogels (R)	5	5
+	Velox	Raven	6	2
+	USV	Overkanters	0	3
+1963-12-01	Schiebroek	Unicum	7	4
+	Merwede (D)	Phoenix (Z)	5	3
+	ALO	Ahoy	8	4
+	Actief (R)	Crescendo	6	14
+	HPV	Kwiek (H)	4	10
+	Hoogvliet	WION	6	1
+	Blauw Wit '51	Spartaan	9	5
+	Schiedam	Animo (S)	4	6
+	Succes	DKV (Du)	3	10
+	Hou Stand	TOGO (G)	9	5
+	Raven	TOV (D)	4	6
+	Pams	Trekvogels (R)	6	6
+1963-12-08	Fortuna (D)	Schiedam	3	1
+1964-02-02	Merwede (D)	Schiebroek	7	3
+	ALO	Unicum	7	3
+	BKC³	Actief (R)	2	5
+	Spartaan	Hoogvliet	1	13
+	Schiedam	Blauw Wit '51	14	3
+	Fortuna (D)	Kwiek (H)	7	3
+	Pams	Velox	9	3
+1964-02-09	ALO	BKC³	4	3
+1964-02-16	Ahoy	Crescendo	3	2
+	Phoenix (Z)	BKC³	8	6
+	Hoogvliet	Schiedam	4	4
+	WION	Blauw Wit '51	5	13
+	Kwiek (H)	Spartaan	4	7
+	Hou Stand	DKV (Du)	6	3
+	Trekvogels (R)	Raven	2	2
+1964-02-23	Pams	Schiedam	1	1
+	WION	DKC (De)	4	2
+	DKC (De)	Pams	1	2
+	Blauw Wit '51	WION	1	2
+	ALO	Spartaan	1	3
+	USV	TOV (D)	1	3
+	TOV (D)	ALO	3	3
+	Zwervers	Trekvogels (R)	3	3
+	Ons Huis (R)	HSV	4	2
+	Velox	Eureka	1	2
+	HSV	Velox	1	1
+	Eureka	Trekvogels (R)	2	3
+	Zwervers	Ons Huis (R)	2	3
+	Rozenburg	Oranje Wit (D)	2	2
+	Phoenix (Z)	Rozenburg	1	5
+	Quick (D)	OSCR	2	4
+	Danaiden	Quick (D)	4	6
+	Spangen	Ons Eibernest	1	4
+	Deetos	HKV	3	3
+	Zuiden (R)	Regenboog	3	2
+	Spangen	Deetos	2	1
+	Ons Eibernest	Zuiden (R)	4	1
+	HKV	Regenboog	7	2
+1964-03-01	ALO	Merwede (D)	6	7
+	Actief (R)	Schiebroek	4	4
+	BKC³	Unicum	3	1
+	Crescendo	Phoenix (Z)	3	7
+	Hoogvliet	HPV	9	2
+	Schiedam	WION	3	3
+1964-03-08	BKC³	Ahoy	1	1
+	Crescendo	Schiebroek	5	1
+	Blauw Wit '51	Kwiek (H)	4	5
+	Fortuna (D)	Spartaan	9	0
+	TOGO (G)	Velox	6	2
+	Raven	Hou Stand	4	5
+1964-03-15	Phoenix (Z)	Schiebroek	4	1
+	Spartaan	Animo (S)	0	4
+	WION	Fortuna (D)	7	7
+	Kwiek (H)	Schiedam	7	2
+	Velox	Hou Stand	2	5
+	TOV (D)	TOGO (G)	6	4
+1964-03-22	Unicum	Crescendo	4	3
+	Schiebroek	BKC³	2	4
+	Merwede (D)	Actief (R)	13	2
+	Phoenix (Z)	Ahoy	6	4
+	Blauw Wit '51	Hoogvliet	5	5
+	Schiedam	HPV	9	1
+	WION	Spartaan	5	2
+	Velox	Pams	4	6
+	Trekvogels (R)	DKV (Du)	6	1
+	Succes	Hou Stand	3	5
+1964-04-05	Actief (R)	Unicum	2	6
+	Ahoy	Merwede (D)	1	4
+	Crescendo	ALO	6	2
+	Animo (S)	Blauw Wit '51	5	3
+	Kwiek (H)	Hoogvliet	2	5
+	Spartaan	Schiedam	3	5
+	WION	HPV	8	6
+	Succes	Pams	4	5
+	Raven	Velox	4	4
+	TOV (D)	Trekvogels (R)	2	6
+1964-04-12	Actief (R)	Phoenix (Z)	2	12
+	Ahoy	Unicum	1	3
+	Schiebroek	ALO	4	2
+	Hoogvliet	Animo (S)	5	2
+	Blauw Wit '51	Schiedam	4	4
+	HPV	Fortuna (D)	3	4
+	Velox	Succes	5	0
+	Pams	DKV (Du)	3	3
+	Trekvogels (R)	TOGO (G)	6	2
+1964-04-19	Actief (R)	ALO	4	3
+	Unicum	Phoenix (Z)	4	3
+	Schiebroek	Ahoy	6	0
+	Merwede (D)	Crescendo	2	1
+	WION	Animo (S)	6	5
+	Blauw Wit '51	HPV	11	7
+	Succes	Trekvogels (R)	2	9
+	Pams	TOV (D)	4	4
+	Velox	DKV (Du)	1	4
+1964-05-03	Animo (S)	Fortuna (D)	5	3
+1964-05-10	DKV (Du)	TOGO (G)	6	9
+	Pams	Succes	9	4
+1964-05-17	Onder Ons	Amicitia (V)	8	3
+1964-05-31	Succes	TOGO (G)	2	4
+1964-03-22	It Fean	ADO (H)	9	5
+	Sportclub	DTG	7	3
+	Frisia	Blauw Wit (Bu)	2	3
+1964-04-05	ODA (B)	TFS	3	7
+	DTG	Hermes (B)	5	1
+	Udiros	Sportclub	2	4
+	WIK '34	Frisia	7	5
+	Blauw Wit (Bu)	Trynwalden	2	1
+	Asenco	Friso (A)	4	3
+1964-04-12	Wez Handich	ADO (H)	1	3
+	It Fean	Wez Warber	3	4
+	Hermes (B)	Udiros	7	3
+	DES '53	Sportclub	2	4
+	Trynwalden	WIK '34	7	3
+	Harkema	Tietjerk	2	2
+	Flamingo's (B)	Invicta	7	2
+	Olympia (T)	MI	1	6
+	Spannum	Marfugels	1	2
+	Lintjo	VKV	4	0
+1964-04-19	Udiros	DTG	4	2
+	MN en W	Trynwalden	4	6
+	Flamingo's (B)	Harkema	5	4
+	WTEF	Spannum	6	4
+	Lauwers	Zwaagwesteinde	2	3
+	Itens	WWIJD	7	0
+1964-04-26	ODA (B)	Wez Handich	4	9
+	Hermes (B)	Sportclub	2	6
+	WIK '34	MN en W	3	3
+	Harkema	Invicta	5	3
+	ODK	MI	4	4
+	Harich	Spannum	9	4
+	Driehoek	Lintjo	4	4
+	Lege Geaen	Colwidum	3	0
+	Asenco	AVVLO	0	2
+1964-05-03	TFS	Wez Warber	9	0
+	DES '53	Hermes (B)	3	3
+1964-05-10	Wez Handich	It Fean	2	3
+	ADO (H)	TFS	3	4
+	Wez Warber	ODA (B)	1	7
+	DTG	DES '53	2	1
+	Sportclub	Udiros	2	1
+	Frisia	MN en W	2	6
+	Blauw Wit (Bu)	WIK '34	1	2
+	VKV	Driehoek	6	1
+1964-05-24	ODA (B)	It Fean	7	3
+	DES '53	Udiros	2	6
+	MN en W	WIK '34	5	5
+	Flamingo's (B)	Tietjerk	6	6
+	Lege Geaen	Itens	3	5
+1964-05-31	TFS	It Fean	9	2
+	Wez Handich	TFS	4	7
+	ODA (B)	ADO (H)	6	1
+	ADO (H)	ODA (B)	6	3
+	Sportclub	DES '53	8	1
+	WIK '34	Trynwalden	0	4
+	Blauw Wit (Bu)	MN en W	2	3
+	Invicta	Tietjerk	1	4
+	AVVLO	Friso (A)	9	2
+1964-06-07	Hermes (B)	DTG	6	4
+	Udiros	Hermes (B)	7	3
+	ODK	Olympia (T)	10	3
+	Marfugels	Harich	7	4
+	AVVLO	Friso (A)	9	2
+1964-06-14	ADO (H)	Wez Handich	2	4
+	Wez Warber	It Fean	7	3
+	DTG	Sportclub	3	4
+	Frisia	WIK '34	1	6
+	Trynwalden	Blauw Wit (Bu)	3	5
+	NSL	Tietjerk	2	5
+	Harkema	Flamingo's (B)	5	7
+	MI	Olympia (T)	4	4
+	VKV	Lintjo	2	5
+	Zwaagwesteinde	Lauwers	5	3
+1964-06-21	Wez Handich	ODA (B)	2	3
+	DTG	Udiros	4	7
+	Blauw Wit (Bu)	Frisia	8	1
+	NSL	Harkema	1	7
+	Lintjo	Driehoek	4	4
+	Friso (A)	Asenco	5	16
+1964-06-28	It Fean	ODA (B)	3	9
+	Wez Handich	Wez Warber	8	4
+	Trynwalden	MN en W	11	3
+	NSL	Invicta	3	3
+	Tietjerk	Harkema	3	1
+	MI	ODK	4	4
+	Marfugels	Spannum	9	1
+1964-08-30	It Fean	TFS	4	8
+	ODA (B)	Wez Warber	10	1
+	DES '53	DTG	2	2
+	Sportclub	Hermes (B)	5	3
+	MN en W	Blauw Wit (Bu)	4	5
+	Frisia	Trynwalden	3	3
+	Flamingo's (B)	NSL	5	2
+	Itens	Colwidum	4	1
+	ADO (H)	It Fean	5	3
+1964-09-06	ADO (H)	Wez Warber	9	1
+	Tietjerk	Flamingo's (B)	2	5
+1964-09-13	Wez Handich	Wez Warber	5	3
+	Spannum	Harich	4	2
+	Driehoek	VKV	1	5
+	VZK	DOS (B)	4	2
+	Itens	Lege Geaen	2	4
+1963-09-22	OLS	Spes (E)	10	3
+	KIA	UDI (H)	6	3
+1963-10-06	Rood Zwart	OLS	4	6
+	AKC '54	SDO (S)	7	4
+	UDI (H)	Noveas	2	2
+1963-10-13	Spes (E)	VDW	1	4
+	De Rietvogels (G)	UDI (K)	2	7
+	KIA	TOP (P)	2	1
+	WIK (S)	Ruinen	3	3
+	Vefo	EMOS	3	6
+1963-10-20	De Rietvogels (G)	AKC '54	3	7
+	Noveas	TOP (P)	6	1
+	Balkbrug	Wapse	0	0
+1963-11-10	KIA	Noveas	2	2
+	UDI (H)	TOP (P)	2	2
+	Groen Wit (Dre)	Animo (Dkb)	5	2
+1964-03-22	De Rietvogels (G)	SDO (S)	4	9
+1964-04-12	VDW	Spes (E)	2	5
+	SDO (S)	De Rietvogels (G)	13	0
+	UDI (H)	KIA	1	3
+	Koru	WBY	3	0
+	Wapse	Balkbrug	4	0
+1964-04-19	AKC '54	UDI (K)	6	8
+	Noveas	KIA	1	1
+1964-05-03	OLS	Rood Zwart	4	5
+	VDW	OLS	3	4
+1964-05-24	OLS	VDW	11	4
+	Koru	Balkbrug	1	1
+1964-05-31	WBY	Wapse	0	15
+1963-09-08	WSS	Wees Kwiek	9	4
+	Roko	Animo (W)	5	5
+	KIOL	Hoogkerk	4	3
+1963-09-15	Roko	DDK (Z)	5	5
+	Animo (W)	WSS	3	10
+1963-09-22	WSS	Roko	6	1
+	DDK (Z)	ODA	5	6
+1963-10-06	DDK (Z)	Wees Kwiek	5	1
+	SBO	VSV	10	3
+1963-10-13	Animo (W)	DDK (Z)	3	1
+	ODA	Wees Kwiek	5	3
+1963-10-20	Animo (W)	Roko	9	1
+	KVN	Sparta (Ze)	1	9
+1963-10-27	Wees Kwiek	Animo (W)	3	0
+	Roko	ODA	2	5
+1963-11-03	ODA	Animo (W)	2	1
+1963-11-10	VSV	SBO	3	6
+1964-03-22	WSS	DDK (Z)	6	3
+1964-04-05	Sportief (N)	VSV	2	10
+1964-04-12	DDK (Z)	Animo (W)	2	5
+1964-04-19	ODA	WSS	3	5
+	Sportief (N)	SBO	1	4
+1964-04-26	Wees Kwiek	DDK (Z)	6	4
+	WSS	Animo (W)	7	2
+	VSV	Sportief (N)	4	1
+	Hoogkerk	KIOL	5	1
+1964-05-03	Animo (W)	ODA	3	1
+1964-05-10	SBO	Sportief (N)	6	1
+1964-05-24	DDK (Z)	WSS	5	9
+1964-05-31	Roko	WSS	3	9
+	ODA	DDK (Z)	10	3
+1964-06-07	Roko	ODA	3	3
+1964-06-21	Wees Kwiek	ODA	5	5
+1964-06-28	Wees Kwiek	ODA	5	5
+1963-11-10	Centrum	Wit Blauw	2	3
+1964-05-17	Wit Blauw	Centrum	6	6
+1963-09-15	TOP (V)	Actief (V)	9	4
+	UNI (K)	SDO (W)	12	0
+1963-09-22	TOP (V)	DSE	8	1
+	UNI (K)	Actief (V)	3	2
+	Oostloorn	SDO (W)	6	3
+	Be Quick (Z)	DOS Kampen	7	2
+	Sirios	NKV (Na)	4	0
+1963-09-29	NKC '51	Ons Clubje	8	2
+	Oostloorn	UNI (K)	2	1
+1963-10-06	KIOS '45	DSE	6	1
+	Be Quick (Z)	Sirios	11	3
+	Emmeloord	Marknesse	19	4
+1963-10-13	KIOS '45	Actief (V)	8	0
+	SDO (W)	DSE	9	4
+	Oranje Zwart	Sparta (Zw)	7	0
+	DOS Kampen	NKV (Na)	3	0
+1963-10-20	Oostloorn	Actief (V)	8	3
+	UNI (K)	DSE	5	2
+	DOS Kampen	Sirios	9	2
+1963-10-27	TOP (V)	SDO (W)	5	2
+	KIOS '45	UNI (K)	3	1
+	Oostloorn	DSE	10	3
+	Sparta (Zw)	Sirios	7	3
+1963-11-03	WIK (E)	OKC (Old)	4	2
+	DSE	Actief (V)	3	0
+	KIOS '45	TOP (V)	5	4
+	DOS Kampen	Sparta (Zw)	8	2
+1963-11-10	WIK (E)	Ons Clubje	9	1
+	TOP (V)	UNI (K)	9	9
+	KIOS '45	Oostloorn	4	1
+	SDO (W)	Actief (V)	3	1
+	Be Quick (Z)	Sparta (Zw)	5	4
+	NKV (Na)	DOS Kampen	0	11
+1963-11-17	Actief (V)	UNI (K)	2	4
+1963-11-24	Actief (V)	KIOS '45	0	4
+	Be Fair (K)	Bant	7	0
+1963-12-01	WIK (E)	NKC '51	6	1
+	DSE	KIOS '45	0	8
+	Actief (V)	TOP (V)	2	13
+	Sirios	Oranje Zwart	7	7
+1963-12-08	SDO (W)	UNI (K)	3	4
+1964-03-01	NKC '51	OKC (Old)	4	1
+	Actief (V)	Oostloorn	3	4
+	DSE	SDO (W)	4	6
+	Oranje Zwart	DOS Kampen	3	1
+1964-03-15	OKC (Old)	WIK (E)	5	5
+	KIOS '45	SDO (W)	3	0
+	UNI (K)	TOP (V)	1	4
+1964-03-22	Oostloorn	KIOS '45	3	7
+	Sparta (Zw)	Be Quick (Z)	3	5
+1964-04-05	NKC '51	WIK (E)	3	2
+	OKC (Old)	Ons Clubje	10	1
+	TOP (V)	Oostloorn	3	1
+	Be Quick (Z)	Oranje Zwart	8	3
+1964-04-12	UNI (K)	KIOS '45	2	7
+	Sparta (Zw)	DOS Kampen	4	6
+1964-04-26	UNI (K)	Oostloorn	5	3
+	SDO (W)	KIOS '45	3	5
+	Sparta (Zw)	Oranje Zwart	3	5
+1964-05-03	DSE	Oostloorn	4	9
+	SDO (W)	TOP (V)	4	4
+	TOP (V)	KIOS '45	6	1
+	SDO (W)	Oostloorn	4	3
+	DOS Kampen	Be Quick (Z)	3	5
+1964-05-10	Oranje Zwart	Be Quick (Z)	2	8
+1964-06-14	Ons Clubje	NKC '51	1	2
+1964-06-21	Ons Clubje	OKC (Old)	0	5
+1963-09-08	Vitesse '59	Noorderkwartier	0	4
+1963-11-24	Noorderkwartier	Vitesse '59	2	2
+1963-09-08	Volharding	Luctor	6	8
+	Blauw Wit (K)	VEDO	5	5
+	Atlas	TOP (A)	7	2
+	DOS (N)²	BKC (Br)	4	9
+1963-09-15	ONDO (M)	Luctor	7	11
+	KVL	Atlas	2	10
+	Zeelandia	Olympia (W)	4	1
+1963-09-29	ONDO (M)	Volharding	5	9
+	KVL	TOP (A)	6	5
+	Olympia (W)	VIOS (K)	4	1
+1963-10-06	Blauw Wit (K)	Atlas	10	5
+1963-10-13	Luctor	ELTO (B)	6	5
+	Atlas	VEDO	2	6
+1963-10-20	Blauw Wit (K)	TOP (A)	10	4
+	Stormvogels (W)	BKC (Br)	2	8
+1963-10-27	ONDO (M)	ELTO (B)	7	5
+	VEDO	TOP (A)	7	4
+1963-11-03	Volharding	Zuidwesters	5	8
+	Blauw Wit (K)	KVL	17	2
+1963-11-10	Volharding	ELTO (B)	7	5
+1963-11-24	Zuidwesters	ELTO (B)	4	2
+1963-12-01	Zuidwesters	Luctor	3	8
+	Atlas	KVL	2	1
+	Olympia (W)	Zeelandia	5	6
+	Stormvogels (W)	DOS (N)²	8	6
+1963-12-08	VEDO	KVL	11	3
+	BKC (Br)	DOS (N)²	10	4
+1964-01-05	Tjoba	TOGO (G)	2	2
+	Blauw Wit (K)	VEDO	2	1
+	Olympia (W)	Zeelandia	2	0
+	Olympia (W)	Swift (M)	0	2
+	Swift (M)	Zuidwesters	3	3
+	Animo (W)	Zuidwesters	3	1
+1964-01-19	Luctor	Tjoba	0	3
+	Luctor	TOGO (G)	1	0
+1964-02-02	BKC (Br)	CVV	1	0
+1964-02-09	Volharding	DOS (N)²	0	2
+	Swift (M)	ONDO (M)	7	1
+	ONDO (M)	Zuidwesters	4	7
+	Stormvogels (W)	BKC (Br)	1	6
+1964-02-16	Atlas	KVL	2	1
+	VEDO	KVL	4	2
+1964-03-01	Animo (S)	ONDO (M)	5	3
+1964-03-15	ELTO (B)	ONDO (M)	2	1
+	Atlas	Blauw Wit (K)	1	2
+	CVV	De Poel	3	4
+1964-03-22	ELTO (B)	Luctor	6	5
+	TOP (A)	Atlas	1	11
+1964-03-29	Luctor	ONDO (M)	8	1
+1964-04-05	Zuidwesters	ONDO (M)	4	4
+	BKC (Br)	Stormvogels (W)	9	1
+1964-04-12	KVL	VEDO	10	16
+	DOS (N)²	Stormvogels (W)	2	3
+1964-04-19	TOP (A)	KVL	4	1
+1964-04-26	Luctor	Volharding	7	4
+	ONDO (M)	Zuidwesters	11	12
+	TOP (A)	VEDO	3	9
+	De Poel	CVV	4	10
+1964-05-03	VEDO	Atlas	14	3
+1964-05-24	ELTO (B)	Volharding	4	4
+	TOP (A)	Blauw Wit (K)	4	3
+1964-06-07	KVL	Blauw Wit (K)	3	6
+1964-06-14	Zuidwesters	Volharding	7	4
+1964-06-21	Luctor	Zuidwesters	9	4
+1964-01-05	Burgh	WIK (K)²	5	2
+	SKNWK	ZSC	3	3
+	Brouwershaven	Unitas (Z)	4	2
+	WIK (K)²	SKNWK	1	2
+	ZSC	Brouwershaven	1	2
+1964-01-12	DES (S)	Renesse	5	3
+1964-01-19	WIK (K)²	Unitas (Z)	3	3
+	Burgh	Brouwershaven	3	7
+	SKNWK	Unitas (Z)	2	4
+	ZSC	Burgh	5	5
+	Brouwershaven	SKNWK	0	2
+1964-02-02	Unitas (Z)	Burgh	0	4
+	Burgh	SKNWK	6	2
+	Brouwershaven	WIK (K)²	3	2
+	WIK (K)²	ZSC	3	1
+	Unitas (Z)	ZSC	4	2
+1964-02-09	DES (S)	OWK (O)	1	1
+	Renesse	OWK (O)	7	5
+1964-02-16	NOAD (D)	DOSKO (N)	2	6
+	Renesse	DES (S)	12	1
+	OWK (O)	Renesse	5	0
+1964-03-01	Burgh	ZSC	3	1
+	SKNWK	Brouwershaven	3	5
+	Unitas (Z)	SKNWK	4	4
+	Brouwershaven	Burgh	1	8
+	Unitas (Z)	WIK (K)²	3	3
+1964-03-15	WIK (K)²	Brouwershaven	4	5
+	Unitas (Z)	ZSC	1	0
+	SKNWK	Burgh	2	4
+	ZSC	WIK (K)²	2	6
+	Burgh	Unitas (Z)	7	2
+1964-04-05	Brouwershaven	Burgh	1	6
+	SKNWK	Unitas (Z)	7	1
+1964-04-12	Burgh	SKNWK	5	4
+	ZSC	Zeemeeuwen	2	1
+	Unitas (Z)	WIK (K)²	3	5
+1964-04-19	Zeemeeuwen	Burgh	1	7
+	SKNWK	ZSC	2	6
+	Unitas (Z)	Brouwershaven	5	2
+	NOAD (D)	DES (S)	0	4
+1964-04-26	Burgh	ZSC	8	2
+	WIK (K)²	Zeemeeuwen	4	2
+	Brouwershaven	SKNWK	5	4
+	DOSKO (N)	NOAD (D)	3	1
+1964-05-03	Burgh	WIK (K)²	9	1
+	Zeemeeuwen	Unitas (Z)	7	3
+	ZSC	Brouwershaven	7	4
+1964-05-10	Brouwershaven	Atlas	2	1
+	Brouwershaven	Ter Gouw	2	1
+	Brouwershaven	Olympia (W)	4	0
+	Brouwershaven	Noorderkwartier	7	1
+	Brouwershaven	WIK (K)²	8	5
+	Unitas (Z)	Burgh	2	11
+	SKNWK	Zeemeeuwen	8	2
+1964-05-17	Renesse	Velocitas (Se)	9	4
+1964-05-24	WIK (K)²	SKNWK	3	0
+	ZSC	Unitas (Z)	5	1
+	Zeemeeuwen	Brouwershaven	5	5
+	DES (S)	DOSKO (N)	2	2
+1964-05-31	Burgh	Brouwershaven	4	5
+	ZSC	WIK (K)²	4	3
+	Unitas (Z)	SKNWK	3	3
+1964-06-07	SKNWK	Burgh	5	4
+	Zeemeeuwen	ZSC	2	3
+	WIK (K)²	Unitas (Z)	6	3
+1964-06-14	ZSC	SKNWK	7	4
+	Brouwershaven	Unitas (Z)	6	4
+	Burgh	Zeemeeuwen	5	0
+	DES (S)	NOAD (D)	2	2
+	Velocitas (Se)	Renesse	1	6
+1964-06-21	ZSC	Burgh	2	7
+	SKNWK	Brouwershaven	3	2
+	Zeemeeuwen	WIK (K)²	3	5
+	NOAD (D)	DOSKO (N)	2	3
+1964-06-28	WIK (K)²	Burgh	6	5
+	Unitas (Z)	Zeemeeuwen	2	6
+1964-07-05	DOSKO (N)	DES (S)	1	4
+	Zeemeeuwen	SKNWK	5	6
+	Burgh	Unitas (Z)	9	1
+	WIK (K)²	Brouwershaven	5	4
+1964-07-12	SKNWK	WIK (K)²	2	4
+	Unitas (Z)	ZSC	0	8
+	Brouwershaven	Zeemeeuwen	7	5
+	Brouwershaven	ZSC	7	1
+	WIK (K)²	ZSC	1	1

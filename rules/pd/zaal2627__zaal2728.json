@@ -1,0 +1,428 @@
+{
+  "id": "zaal2627__zaal2728",
+  "tierOrder": [
+    "kl",
+    "kl2",
+    "hk",
+    "ok",
+    "1k",
+    "2k",
+    "3k"
+  ],
+  "simpleVacancyChain": {
+    "targetTiers": [
+      "hk",
+      "ok",
+      "1k",
+      "2k",
+      "3k"
+    ],
+    "sameTierPositions": [
+      7,
+      8
+    ],
+    "lowerTierPositions": [
+      2,
+      3
+    ]
+  },
+  "groups": [
+    {
+      "id": "kl",
+      "poulePattern": "^KL$",
+      "expectedPoules": 1
+    },
+    {
+      "id": "kl2",
+      "poulePattern": "^KL2$",
+      "expectedPoules": 1
+    },
+    {
+      "id": "hk",
+      "poulePattern": "^HK.$",
+      "expectedPoules": 2
+    },
+    {
+      "id": "ok",
+      "poulePattern": "^OK.$",
+      "expectedPoules": 4
+    },
+    {
+      "id": "1k",
+      "poulePattern": "^1.$",
+      "expectedPoules": 8
+    },
+    {
+      "id": "2k",
+      "poulePattern": "^2.$",
+      "expectedPoules": 8
+    },
+    {
+      "id": "3k",
+      "poulePattern": "^3.$",
+      "expectedPoules": 10
+    }
+  ],
+  "rules": [
+    {
+      "id": "kl-1-8",
+      "type": "direct",
+      "groupId": "kl",
+      "positions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "tier": "kl"
+    },
+    {
+      "id": "kl-10",
+      "type": "direct",
+      "groupId": "kl",
+      "positions": [
+        10
+      ],
+      "tier": "kl2"
+    },
+    {
+      "id": "kl2-1",
+      "type": "direct",
+      "groupId": "kl2",
+      "positions": [
+        1
+      ],
+      "tier": "kl"
+    },
+    {
+      "id": "kl2-5-8",
+      "type": "direct",
+      "groupId": "kl2",
+      "positions": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "tier": "kl2"
+    },
+    {
+      "id": "kl2-9-10",
+      "type": "direct",
+      "groupId": "kl2",
+      "positions": [
+        9,
+        10
+      ],
+      "tier": "hk"
+    },
+    {
+      "id": "hk-1",
+      "type": "direct",
+      "groupId": "hk",
+      "positions": [
+        1
+      ],
+      "tier": "kl2"
+    },
+    {
+      "id": "hk-2-6",
+      "type": "direct",
+      "groupId": "hk",
+      "positions": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tier": "hk"
+    },
+    {
+      "id": "hk-7-8",
+      "type": "direct",
+      "groupId": "hk",
+      "positions": [
+        7,
+        8
+      ],
+      "tier": "ok"
+    },
+    {
+      "id": "ok-1",
+      "type": "direct",
+      "groupId": "ok",
+      "positions": [
+        1
+      ],
+      "tier": "hk"
+    },
+    {
+      "id": "ok-2-6",
+      "type": "direct",
+      "groupId": "ok",
+      "positions": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tier": "ok"
+    },
+    {
+      "id": "ok-7plus",
+      "type": "direct",
+      "groupId": "ok",
+      "fromPosition": 7,
+      "tier": "1k"
+    },
+    {
+      "id": "1k-1",
+      "type": "direct",
+      "groupId": "1k",
+      "positions": [
+        1
+      ],
+      "tier": "ok"
+    },
+    {
+      "id": "1k-2-6",
+      "type": "direct",
+      "groupId": "1k",
+      "positions": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tier": "1k"
+    },
+    {
+      "id": "1k-7plus",
+      "type": "direct",
+      "groupId": "1k",
+      "fromPosition": 7,
+      "tier": "2k"
+    },
+    {
+      "id": "2k-1-2",
+      "type": "direct",
+      "groupId": "2k",
+      "positions": [
+        1,
+        2
+      ],
+      "tier": "1k"
+    },
+    {
+      "id": "2k-3-6",
+      "type": "direct",
+      "groupId": "2k",
+      "positions": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "tier": "2k"
+    },
+    {
+      "id": "2k-7plus",
+      "type": "direct",
+      "groupId": "2k",
+      "fromPosition": 7,
+      "tier": "3k"
+    },
+    {
+      "id": "3k-1",
+      "type": "direct",
+      "groupId": "3k",
+      "positions": [
+        1
+      ],
+      "tier": "2k"
+    },
+    {
+      "id": "3k-2-best6",
+      "type": "ranked",
+      "groupId": "3k",
+      "position": 2,
+      "selection": "best",
+      "count": 6,
+      "tier": "2k"
+    },
+    {
+      "id": "3k-2-rest",
+      "type": "ranked",
+      "groupId": "3k",
+      "position": 2,
+      "selection": "rest",
+      "count": 6,
+      "onlyUnassigned": true,
+      "tier": "3k"
+    },
+    {
+      "id": "3k-3plus",
+      "type": "direct",
+      "groupId": "3k",
+      "fromPosition": 3,
+      "tier": "3k"
+    }
+  ],
+  "playoffs": [
+    {
+      "id": "kl-championship",
+      "stages": [
+        {
+          "id": "kl-1-vs-4",
+          "type": "best_of_3",
+          "teamA": {
+            "groupId": "kl",
+            "position": 1
+          },
+          "teamB": {
+            "groupId": "kl",
+            "position": 4
+          },
+          "dates": [
+            "2027-04-04",
+            "2027-04-11",
+            "2027-04-14"
+          ]
+        },
+        {
+          "id": "kl-2-vs-3",
+          "type": "best_of_3",
+          "teamA": {
+            "groupId": "kl",
+            "position": 2
+          },
+          "teamB": {
+            "groupId": "kl",
+            "position": 3
+          },
+          "dates": [
+            "2027-04-04",
+            "2027-04-11",
+            "2027-04-14"
+          ]
+        },
+        {
+          "id": "kl-final",
+          "type": "single",
+          "teamA": {
+            "winnerOf": "kl-1-vs-4"
+          },
+          "teamB": {
+            "winnerOf": "kl-2-vs-3"
+          },
+          "date": "2027-04-18",
+          "neutral": true
+        }
+      ],
+      "placements": [
+        {
+          "selector": {
+            "winnerOf": "kl-1-vs-4"
+          },
+          "event": "final"
+        },
+        {
+          "selector": {
+            "winnerOf": "kl-2-vs-3"
+          },
+          "event": "final"
+        },
+        {
+          "selector": {
+            "winnerOf": "kl-final"
+          },
+          "event": "champion"
+        }
+      ]
+    },
+    {
+      "id": "kl-promotion-route",
+      "stages": [
+        {
+          "id": "kl9-vs-kl2-4",
+          "type": "best_of_3",
+          "teamA": {
+            "groupId": "kl",
+            "position": 9
+          },
+          "teamB": {
+            "groupId": "kl2",
+            "position": 4
+          },
+          "dates": [
+            "2027-03-31",
+            "2027-04-04",
+            "2027-04-07"
+          ]
+        },
+        {
+          "id": "kl2-2-vs-kl2-3",
+          "type": "best_of_3",
+          "teamA": {
+            "groupId": "kl2",
+            "position": 2
+          },
+          "teamB": {
+            "groupId": "kl2",
+            "position": 3
+          },
+          "dates": [
+            "2027-03-31",
+            "2027-04-04",
+            "2027-04-07"
+          ]
+        },
+        {
+          "id": "promotion-final",
+          "type": "single",
+          "teamA": {
+            "winnerOf": "kl9-vs-kl2-4"
+          },
+          "teamB": {
+            "winnerOf": "kl2-2-vs-kl2-3"
+          },
+          "date": "2027-04-11",
+          "neutral": true
+        }
+      ],
+      "placements": [
+        {
+          "selector": {
+            "loserOf": "kl9-vs-kl2-4"
+          },
+          "tier": "kl2"
+        },
+        {
+          "selector": {
+            "loserOf": "kl2-2-vs-kl2-3"
+          },
+          "tier": "kl2"
+        },
+        {
+          "selector": {
+            "winnerOf": "promotion-final"
+          },
+          "tier": "kl"
+        },
+        {
+          "selector": {
+            "loserOf": "promotion-final"
+          },
+          "tier": "kl2"
+        }
+      ]
+    }
+  ]
+}

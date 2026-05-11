@@ -1,0 +1,71 @@
+name: Build and Test
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Restore Sportlink cache from latest daily run
+        uses: actions/cache/restore@v5
+        with:
+          path: cache
+          key: sportlink-cache-v1-${{ runner.os }}-daily-${{ github.run_id }}
+          restore-keys: |
+            sportlink-cache-v1-${{ runner.os }}-daily-
+
+      - name: Set up JDK
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: '25'
+
+      - name: Build with Gradle
+        run: ./gradlew build
+
+      - name: Determine generated-output guard base ref
+        id: guard_base
+        run: |
+          base_ref=""
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            base_ref="${{ github.event.pull_request.base.sha }}"
+          elif [[ "${{ github.event_name }}" == "push" ]]; then
+            base_ref="${{ github.event.before }}"
+          fi
+
+          if [[ -z "$base_ref" || "$base_ref" == "0000000000000000000000000000000000000000" ]]; then
+            base_ref="HEAD~1"
+          fi
+
+          echo "base_ref=$base_ref" >> "$GITHUB_OUTPUT"
+
+      - name: Generated CSV earliest-date guard
+        if: github.event_name != 'pull_request' || !contains(github.event.pull_request.labels.*.name, 'changes generated match output')
+        run: ./.ci/check_generated_csv_guard.py "${{ steps.guard_base.outputs.base_ref }}"
+
+      - name: Predict determinism contract
+        if: github.event_name != 'pull_request' || !contains(github.event.pull_request.labels.*.name, 'changes generated match output')
+        run: ./.ci/check_predict_determinism.sh
+
+      - name: Contract checks skipped by label
+        if: github.event_name == 'pull_request' && contains(github.event.pull_request.labels.*.name, 'changes generated match output')
+        run: |
+          echo "Skipping generated-output contract checks due to label: changes generated match output"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+
+      - name: Install npm dependencies and build
+        run: npm ci && npm run build
+        working-directory: ./web

@@ -1,0 +1,2669 @@
+1998-09-05	De Pein	Rodenburg	12	15
+1998-09-05	OKO	WK	19	13
+1998-09-05	SIOS (W)	Emmen	16	11
+1998-09-05	Amicitia (V)	ASVD	21	16
+1998-09-05	Joure	DFD	14	9
+1998-09-05	Ny Libben	NKC '51	21	13
+1998-09-05	Udiros	DWA	23	22
+1998-09-05	Asko	Rigtersbleek	18	15
+1998-09-05	EKCA	Atalante	13	12
+1998-09-05	Rapiditas	Steeds Hooger	18	16
+1998-09-05	Zwart Wit	Groen Zwart	16	15
+1998-09-05	AW.DTV	Futura	20	16
+1998-09-05	DKC (De)	BEP	11	15
+1998-09-05	ZKV (Za)	KVA	12	10
+1998-09-05	Dindoa	Fiducia	14	9
+1998-09-05	KIOS (N)	Oranje Zwart	13	19
+1998-09-05	Tweemaal Zes	Antilopen	10	18
+1998-09-05	Noviomagum	De Corvers	16	15
+1998-09-05	Juventa	Blauw Zwart	17	13
+1998-09-05	Rheko	DOS Kampen	12	9
+1998-09-05	Sparta (N)	TOP (V)	17	10
+1998-09-05	Danaiden	Hespa	17	8
+1998-09-05	RODA (W)	Phoenix (Z)	18	11
+1998-09-05	Victoria (A)	ALO	17	16
+1998-09-05	HKC (U)	Pernix	11	11
+1998-09-05	Woudenberg	De Vinken	14	8
+1998-09-05	Fiks	ODO (M)	13	20
+1998-09-05	Nieuwerkerk	TOP (S)	14	17
+1998-09-05	Vriendenschaar (H)	Excelsior (D)	15	17
+1998-09-05	GKV (G)	Albatros	15	16
+1998-09-05	Kinderdijk	HKC (Ha)	16	13
+1998-09-05	Klimop (A)	Deto	11	18
+1998-09-05	Harkema	OWK	11	11
+1998-09-05	Ritola	Korwi	22	14
+1998-09-05	Goorecht	Advendo (TI)	27	18
+1998-09-05	TFS	Kinea (K)	12	14
+1998-09-05	Driehoek	Flamingo's (B)	10	15
+1998-09-05	Lintjo	Sparta (Ze)	11	17
+1998-09-05	Noordenveld	Stadskanaal '74	20	15
+1998-09-05	Vlug en Vaardig (G)	De Hoeve	17	9
+1998-09-05	Nova	't Overschotje	15	13
+1998-09-05	OVVO	DKV (IJ)	8	12
+1998-09-05	Oranje Nassau	VEO	11	18
+1998-09-05	Maassluis	Ventura Sport	7	9
+1998-09-05	Merwede	ONDO (G)	8	7
+1998-09-05	Sagitta	Oranje Nassau (V)	13	8
+1998-09-05	TOP (A)	Bolnes	11	14
+1998-09-05	DOT (O)	OJC '98	9	15
+1998-09-05	ODO²	Keizer Karel	12	15
+1998-09-12	TDK	It Fean	11	17
+1998-09-12	De Granaet	De Waterpoort	14	6
+1998-09-12	Invicta	CSL	10	15
+1998-09-12	Lemmer	Harich	13	21
+1998-09-12	Tietjerk	SIM	16	20
+1998-09-12	Elburg	Achilles (A)	13	13
+1998-09-12	Elko	Sparta (Zw)	12	15
+1998-09-12	Korfoes	SDO (W)	17	14
+1998-09-12	Ventura Sport	Sagitta	12	11
+1998-09-12	Juliana	Rust Roest (E)	10	8
+1998-09-12	Keizer Karel	DOT (O)	9	6
+1998-09-12	OJC '98	Zwijndrecht	17	10
+1998-09-12	SDO (V)	ODO²	6	14
+1998-09-12	Hermes (B)	WWMD	6	18
+1998-09-12	Meko '74	Club Brothers	12	16
+1998-09-12	ODA	Dio	13	8
+1998-09-12	Sparta (W)	ZKC '19	10	8
+1998-09-12	Friso (L)	Wez Warber	18	15
+1998-09-12	Hoogkerk	Leonidas²	13	11
+1998-09-12	Quick '21	Roreko	11	8
+1998-09-12	Vefo	SDO (S)	8	9
+1998-09-12	De Parabool	Altijd Kwiek	11	10
+1998-09-12	DTS (S)	ROG	16	14
+1998-09-12	Frigro	Argo	10	3
+1998-09-05	Altijd Kwiek	DTS (S)	15	16
+1998-09-05	Argo	De Parabool	6	13
+1998-09-05	It Fean	Frigro	6	12
+1998-09-05	ROG	TDK	15	11
+1998-09-05	CSL	Tietjerk	18	4
+1998-09-05	De Waterpoort	Lemmer	12	9
+1998-09-05	Harich	Invicta	14	10
+1998-09-05	SIM	De Granaet	13	12
+1998-09-05	Club Brothers	Sparta (W)	19	13
+1998-09-05	Dio	Meko '74	18	12
+1998-09-05	WWMD	ODA	18	14
+1998-09-05	ZKC '19	Hermes (B)	16	4
+1998-09-05	Leonidas²	Friso (L)	8	13
+1998-09-05	Quick '21	SDO (S)	13	7
+1998-09-05	Roreko	Hoogkerk	12	13
+1998-09-05	Wez Warber	Vefo	10	10
+1998-09-05	Animo (G)	Exakwa	8	10
+1998-09-05	Kesteren	Revival	8	13
+1998-09-05	ODIK	DOS (W)	24	17
+1998-09-05	VIKO	SGV	12	14
+1998-09-05	DOC	Ermelo	14	11
+1998-09-05	Hebbes	Arena	17	15
+1998-09-05	Midlandia	KVO (S)	11	9
+1998-09-05	SKF	RDZ	17	9
+1998-09-05	Dubbel Zes '66	Dijkvogels	7	17
+1998-09-05	Oosterkwartier (H)	GKV	15	10
+1998-09-05	Waterland	Diamco	12	11
+1998-09-05	Rapid (H)	OKV	9	15
+1998-09-05	Apollo	Aurora	15	18
+1998-09-05	Archipel	Stormvogels (U)	12	10
+1998-09-05	Hoger Op	Ados	12	16
+1998-09-05	Huizen	Altius	10	11
+1998-09-12	Niek	HHV	13	16
+1998-09-12	HKC (He)	Hellas	9	14
+1998-09-12	Olympus '58	Duko	12	12
+1998-09-12	Zwaluwen (Ze)	ZKC (Zu)	12	11
+1998-09-12	DOS (W)	Animo (G)	18	16
+1998-09-12	Exakwa	Kesteren	16	11
+1998-09-12	SGV	ODIK	10	12
+1998-09-12	Arena	DOC	14	15
+1998-09-05	Achilles (A)	Elko	15	10
+1998-09-05	HHV	Korfoes	11	10
+1998-09-05	SDO (W)	Elburg	9	12
+1998-09-05	Sparta (Zw)	Niek	19	10
+1998-09-05	Duko	Phenix '72	8	8
+1998-09-05	Hellas	Olympus '58	10	15
+1998-09-05	SIOS '61	Zwaluwen (Ze)	14	21
+1998-09-05	ZKC (Zu)	HKC (He)	24	17
+1998-09-12	Hespa	RODA (W)	16	8
+1998-09-12	DKV (IJ)	Oranje Nassau	19	14
+1998-09-12	Pernix	OVVO	18	19
+1998-09-12	VEO	Telstar	23	14
+1998-09-12	ZKC '31	HKC (U)	8	14
+1998-09-12	Bolnes	Maassluis	15	16
+1998-09-12	ONDO (G)	TOP (A)	12	12
+1998-09-12	Oranje Nassau (V)	Merwede	9	19
+1998-09-12	Korbis	Vriendenschaar (B)	9	9
+1998-09-12	Olympia (S)	DVS '69	9	5
+1998-09-12	Oranje Zwart (M)	Weidevogels	13	13
+1998-09-12	TOGO (G)	Gemini	19	24
+1998-09-12	DSO (K)	ONDO (M)	7	10
+1998-09-12	Luctor	Voltreffers (O)	15	8
+1998-09-12	RWA	Stormvogels (W)	6	5
+1998-09-12	VIOS (W)	ACKC	21	14
+1998-09-12	DOS '46	De Meeuwen	18	12
+1998-09-12	Oost Arnhem	VADA	18	13
+1998-09-12	PKC	HKV / Ons Eibernest	10	9
+1998-09-12	Rohda (A)	Nic	10	20
+1998-09-12	Avanti (P)	Snel	22	18
+1998-09-12	De Meervogels	Fortis	13	14
+1998-09-12	Oranje Wit (D)	DVO	13	13
+1998-09-12	Swift (M)	Tjoba	9	15
+1998-09-05	Ede	Haarlem	20	8
+1998-09-05	Nieuw Flora	Juko	3	17
+1998-09-05	Watervliet	Soesterkwartier	10	21
+1998-09-05	Atlantis	Madjoe	16	11
+1998-09-05	DSO (A)	Fluks (N)	13	11
+1998-09-05	DTS (E)	VZOD	11	15
+1998-09-05	ODI (A)	ESDO	7	10
+1998-09-05	Harga	Ten Donck	13	5
+1998-09-05	Deetos	AKC (Al)	26	15
+1998-09-05	Die Haghe	Blauw Wit (H)	19	10
+1998-09-05	Groen Geel	KVS	24	19
+1998-09-05	HKV / Ons Eibernest	Oost Arnhem	15	21
+1998-09-05	De Meeuwen	PKC	17	16
+1998-09-05	Nic	DOS '46	19	19
+1998-09-05	VADA	Rohda (A)	19	18
+1998-09-05	DVO	Avanti (P)	26	11
+1998-09-05	Keep Fit '70	Terda	15	13
+1998-09-05	Sperwers	Good Luck	17	7
+1998-09-05	DVS '69	TOGO (G)	15	7
+1998-09-05	Weidevogels	Olympia (S)	13	14
+1998-09-05	ONDO (M)	Luctor	12	12
+1998-09-05	Stormvogels (W)	DSO (K)	15	9
+1998-09-05	Voltreffers (O)	VIOS (W)	8	10
+1998-09-05	OEC	Sportlust	13	9
+1998-09-12	't Overschotje	Fortissimo	19	13
+1998-09-12	De Corvers	De Tovers	14	13
+1998-09-12	Sporting West	Noviomagum	17	10
+1998-09-12	Blauw Zwart	Rheko	10	11
+1998-09-12	DOS Kampen	Sparta (N)	12	21
+1998-09-12	TOP (V)	Hellas '63	13	11
+1998-09-12	Unitas	Juventa	19	18
+1998-09-12	ALO	Trekvogels (R)	20	16
+1998-09-12	Boemerang	OEC	14	11
+1998-09-12	Zwervers	Mariarade	15	8
+1998-09-12	Maastricht	Eindhoven	16	14
+1998-09-12	Sportlust	Merwic	10	8
+1998-09-12	AKC (Al)	Die Haghe	18	22
+1998-09-12	Blauw Wit (H)	Blauw Wit	15	15
+1998-09-12	Dalto	Groen Geel	19	18
+1998-09-12	KVS	Deetos	15	17
+1998-09-16	All-Ready	VIOS (N)	10	3
+1998-09-16	Reeuwijk	Spirit (Vl)	7	10
+1998-09-16	KZ Leiden	Actief (R)	4	7
+1998-09-16	Springfield	ELKV	9	12
+1998-09-19	Emmen	OKO	16	16
+1998-09-19	Leeuwarden	Rodenburg	14	20
+1998-09-19	SIOS (W)	De Pein	14	12
+1998-09-19	WSS	WK	12	15
+1998-09-12	Soesterkwartier	Nieuw Flora	16	10
+1998-09-12	ESDO	DSO (A)	10	13
+1998-09-12	Fluks (N)	DTS (E)	12	11
+1998-09-12	Madjoe	ODI (A)	15	11
+1998-09-12	VZOD	Atlantis	10	11
+1998-09-12	Erasmus	Harga	13	20
+1998-09-12	Good Luck	Quick (D)	13	16
+1998-09-12	Terda	Sperwers	15	12
+1998-09-12	De Kapellen	DKOD	11	14
+1998-09-12	Lege Geaen	Wit Blauw	14	18
+1998-09-12	SCO	Refleks	11	13
+1998-09-12	Stanfries²	Vlaardingen	12	9
+1998-09-12	VDW-OLS	OZC	20	18
+1998-09-12	Fortuna (D)	LUTO	18	9
+1998-09-12	KZ	EKC Naas	19	14
+1998-09-12	Spirit (Vl)	All-Ready	10	11
+1998-09-12	Ermelo	Midlandia	17	15
+1998-09-12	KVO (S)	SKF	12	15
+1998-09-12	RDZ	Hebbes	12	5
+1998-09-12	Diamco	Dubbel Zes '66	14	13
+1998-09-12	Dijkvogels	De Bermen	18	8
+1998-09-12	Altius	Ede	14	9
+1998-09-12	Juko	Huizen	26	8
+1998-09-12	Haarlem	Watervliet	6	6
+1998-09-19	Amicitia (V)	NKC '51	27	18
+1998-09-19	ASVD	DWA	22	8
+1998-09-19	DFD	Udiros	14	15
+1998-09-19	Joure	Ny Libben	21	20
+1998-09-19	Groen Zwart	Asko	9	11
+1998-09-19	Rapiditas	Rigtersbleek	15	11
+1998-09-19	Steeds Hooger	Atalante	26	17
+1998-09-12	VIOS (N)	DES (De)	12	7
+1998-09-12	Valto	Velocitas (L)	16	14
+1998-09-12	ELKV	Unicum	9	9
+1998-09-12	KZ Leiden	Springfield	13	2
+1998-09-16	SDO (K)	Vitesse (Ba)	13	11
+1998-09-16	ADO	IJsselvogels	15	8
+1998-09-16	Tempo	KOAG	18	17
+1998-09-16	Fortis	Oranje Wit (D)	10	15
+1998-09-19	Tilburg	Klimop (A)	18	16
+1998-09-19	Harkema	Kinea (K)	21	11
+1998-09-19	Ritola	TFS	21	22
+1998-09-19	Korwi	Goorecht	9	24
+1998-09-19	OWK	Advendo (TI)	24	16
+1998-09-19	De Hoeve	Driehoek	16	16
+1998-09-19	Lintjo	Stadskanaal '74	21	23
+1998-09-19	Sparta (Ze)	Flamingo's (B)	13	12
+1998-09-12	Kinea (K)	Ritola	19	12
+1998-09-12	Korwi	Harkema	9	22
+1998-09-12	Advendo (TI)	TFS	13	23
+1998-09-12	OWK	Goorecht	8	16
+1998-09-12	Flamingo's (B)	Noordenveld	17	16
+1998-09-12	Sparta (Ze)	Driehoek	10	9
+1998-09-12	Stadskanaal '74	Vlug en Vaardig (G)	12	11
+1998-09-12	Swift	Nova	16	14
+1998-09-19	Vriendenschaar (H)	ODO (M)	15	18
+1998-09-19	Albatros	IJsselvogels	12	16
+1998-09-19	GKV (G)	HKC (Ha)	14	12
+1998-09-19	KOAG	ADO	20	12
+1998-09-19	Tempo	Kinderdijk	14	13
+1998-09-19	Synergo	DKV (Du)	14	16
+1998-09-19	Regenboog	DKV (Du)	9	13
+1998-09-19	NKV	Synergo	11	14
+1998-09-05	Tjoba	De Meervogels	11	12
+1998-09-05	DKOD	Lege Geaen	16	21
+1998-09-05	Marfugels	Thrianta	19	13
+1998-09-05	SSS	De Kapellen	17	17
+1998-09-05	Wit Blauw	Drachten	14	12
+1998-09-05	LDODK	VDW-OLS	18	24
+1998-09-05	Refleks	Achilles (H)	18	17
+1998-09-05	Vlaardingen	SCO	14	11
+1998-09-12	WSS	OKO	16	19
+1998-09-12	ASVD	Udiros	20	19
+1998-09-12	DFD	Amicitia (V)	13	15
+1998-09-12	DWA	Ny Libben	13	12
+1998-09-12	Atalante	Zwart Wit	15	13
+1998-09-12	Groen Zwart	Steeds Hooger	9	13
+1998-09-12	Rigtersbleek	EKCA	14	15
+1998-09-12	Asko	Rapiditas	10	17
+1998-09-12	BEP	ZKV (Za)	11	10
+1998-09-12	Celeritas (A)	DKC (De)	14	7
+1998-09-12	Antilopen	KIOS (N)	17	11
+1998-09-12	Fiducia	Woudenberg	16	15
+1998-09-12	Oranje Zwart	Dindoa	15	18
+1998-09-12	De Vinken	Tweemaal Zes	8	12
+1998-09-12	Excelsior (D)	SDO (K)	16	16
+1998-09-12	ODO (M)	Nieuwerkerk	15	13
+1998-09-12	TOP (S)	Vriendenschaar (H)	22	12
+1998-09-12	Vitesse (Ba)	Fiks	16	11
+1998-09-12	Albatros	ADO	16	18
+1998-09-12	HKC (Ha)	Tempo	12	13
+1998-09-12	KOAG	GKV (G)	15	12
+1998-09-12	Deto	Tilburg	18	17
+1998-09-12	DKV (Du)	Klimop (A)	18	14
+1998-09-12	NKV	PSV	17	16
+1998-09-05	LUTO	DOS-WK	13	12
+1998-09-05	Ready (H)	KZ	19	12
+1998-09-05	WION	Fortuna (D)	12	18
+1998-09-05	DES (De)	Valto	6	12
+1998-09-12	Emmen	Leeuwarden	17	12
+1998-09-12	SIOS (W)	Rodenburg	11	16
+1998-09-12	WK	De Pein	15	12
+1998-09-19	Zwart Wit	EKCA	20	15
+1998-09-19	BEP	KVA	14	15
+1998-09-19	Celeritas (A)	ZKV (Za)	15	19
+1998-09-19	Crescendo	AW.DTV	10	9
+1998-09-19	Antilopen	Oranje Zwart	13	14
+1998-09-19	Tweemaal Zes	Fiducia	15	15
+1998-09-19	De Vinken	KIOS (N)	10	11
+1998-09-19	Woudenberg	Dindoa	11	9
+1998-09-05	Leeuwarden	WSS	20	15
+1998-09-19	Vlug en Vaardig (G)	Noordenveld	24	10
+1998-09-19	De Corvers	Swift	16	15
+1998-09-19	Noviomagum	't Overschotje	30	13
+1998-09-19	Sporting West	De Tovers	21	18
+1998-09-19	Blauw Zwart	Sparta (N)	12	24
+1998-09-19	DOS Kampen	TOP (V)	5	7
+1998-09-19	Juventa	Hellas '63	23	15
+1998-09-19	Rheko	Unitas	9	12
+1998-09-19	ALO	RKC²	21	13
+1998-09-19	Phoenix (Z)	Trekvogels (R)	12	11
+1998-09-19	RODA (W)	Danaiden	12	14
+1998-09-19	Victoria (A)	Hespa	15	9
+1998-09-19	HKC (U)	VEO	12	16
+1998-09-19	Pernix	DKV (IJ)	12	14
+1998-09-19	Telstar	Oranje Nassau	13	18
+1998-09-19	ZKC '31	OVVO	14	16
+1998-09-19	Maassluis	TOP (A)	10	11
+1998-09-19	Sagitta	Bolnes	16	11
+1998-09-19	Ventura Sport	Merwede	9	18
+1998-09-19	Rust Roest (E)	SDO (V)	9	5
+1998-09-19	ODO²	Rust Roest (E)	16	3
+1998-09-19	DOT (O)	SDO (V)	14	15
+1998-09-19	Keizer Karel	Zwijndrecht	22	13
+1998-09-19	OJC '98	Juliana	19	8
+1998-09-19	WWMD	Hermes (B)	18	5
+1998-09-19	Dio	Hermes (B)	21	7
+1998-09-19	Meko '74	Sparta (W)	20	19
+1998-09-19	ODA	Club Brothers	13	13
+1998-09-19	WWMD	ZKC '19	12	11
+1998-09-19	Wez Warber	Friso (L)	13	6
+1998-09-19	Quick '21	Hoogkerk	18	4
+1998-09-19	SDO (S)	Friso (L)	13	9
+1998-09-19	Vefo	Roreko	10	10
+1998-09-19	Wez Warber	Leonidas²	19	14
+1998-09-19	It Fean	TDK	11	10
+1998-09-19	Altijd Kwiek	Argo	16	13
+1998-09-19	DTS (S)	It Fean	14	13
+1998-09-19	ROG	De Parabool	20	13
+1998-09-19	Frigro	TDK	21	5
+1998-09-19	De Granaet	Harich	8	17
+1998-09-19	Lemmer	Invicta	8	8
+1998-09-19	SIM	CSL	12	17
+1998-09-19	HHV	Elko	12	15
+1998-09-19	Korfoes	Elburg	21	22
+1998-09-19	Niek	SDO (W)	16	14
+1998-09-19	Sparta (Zw)	Achilles (A)	16	9
+1998-09-19	Duko	HKC (He)	12	10
+1998-09-19	Hellas	ZKC (Zu)	11	16
+1998-09-19	Olympus '58	SIOS '61	12	9
+1998-09-19	Phenix '72	Zwaluwen (Ze)	6	17
+1998-09-19	DOS (W)	Exakwa	13	11
+1998-09-19	SGV	Animo (G)	12	10
+1998-09-19	VIKO	Kesteren	16	7
+1998-09-19	Arena	Ermelo	17	19
+1998-09-19	Hebbes	KVO (S)	17	16
+1998-09-19	RDZ	DOC	11	9
+1998-09-19	SKF	Midlandia	15	7
+1998-09-19	Diamco	De Bermen	11	12
+1998-09-19	Dijkvogels	Olympiek	15	11
+1998-09-19	Dubbel Zes '66	GKV	11	12
+1998-09-19	Waterland	Oosterkwartier (H)	14	10
+1998-09-19	Rapid (H)	Hoger Op	14	18
+1998-09-19	Apollo	Ados	13	15
+1998-09-19	Aurora	Stormvogels (U)	22	15
+1998-09-19	OKV	Archipel	18	14
+1998-09-19	Altius	Watervliet	24	14
+1998-09-19	Huizen	Nieuw Flora	9	5
+1998-09-19	Ede	Juko	12	20
+1998-09-19	Haarlem	Soesterkwartier	17	13
+1998-09-19	DSO (A)	ODI (A)	14	7
+1998-09-19	DTS (E)	ESDO	11	12
+1998-09-19	Fluks (N)	Atlantis	14	12
+1998-09-19	VZOD	Madjoe	14	17
+1998-09-19	Good Luck	Erasmus	12	10
+1998-09-19	Keep Fit '70	Harga	12	11
+1998-09-19	Sperwers	Ten Donck	16	9
+1998-09-19	Terda	Quick (D)	13	11
+1998-09-19	Gemini	DVS '69	11	22
+1998-09-19	Korbis	Weidevogels	14	14
+1998-09-19	Vriendenschaar (B)	TOGO (G)	8	8
+1998-09-19	ACKC	Voltreffers (O)	11	14
+1998-09-19	DSO (K)	Luctor	13	13
+1998-09-19	Stormvogels (W)	VIOS (W)	6	14
+1998-09-19	Mariarade	Maastricht	13	8
+1998-09-19	Eindhoven	Boemerang	8	11
+1998-09-19	Boemerang	Sportlust	11	11
+1998-09-19	Eindhoven	Zwervers	11	9
+1998-09-19	Maastricht	OEC	10	16
+1998-09-19	Mariarade	Merwic	15	13
+1998-09-19	Dalto	Deetos	20	23
+1998-09-19	Die Haghe	Blauw Wit	19	18
+1998-09-19	Groen Geel	Blauw Wit (H)	24	15
+1998-09-19	KVS	AKC (Al)	17	14
+1998-09-19	HKV / Ons Eibernest	DOS '46	17	20
+1998-09-19	De Meeuwen	Nic	18	26
+1998-09-19	Oost Arnhem	Rohda (A)	22	15
+1998-09-19	PKC	VADA	23	13
+1998-09-19	Avanti (P)	Tjoba	13	18
+1998-09-19	DVO	Fortis	28	18
+1998-09-19	Snel	Oranje Wit (D)	8	22
+1998-09-19	Swift (M)	De Meervogels	13	13
+1998-09-19	De Kapellen	Lege Geaen	17	17
+1998-09-19	Marfugels	Wit Blauw	13	13
+1998-09-19	SSS	Drachten	14	9
+1998-09-19	Thrianta	DKOD	16	12
+1998-09-19	LDODK	Refleks	18	21
+1998-09-19	OZC	Achilles (H)	14	17
+1998-09-19	Stanfries²	SCO	21	16
+1998-09-19	VDW-OLS	Vlaardingen	18	11
+1998-09-19	DOS-WK	EKC Naas	21	14
+1998-09-19	KZ	Sporting Trigon	9	18
+1998-09-19	LUTO	WION	14	15
+1998-09-19	Ready (H)	Fortuna (D)	12	19
+1998-09-19	Reeuwijk	Valto	10	9
+1998-09-19	Spirit (Vl)	VIOS (N)	10	4
+1998-09-19	Velocitas (L)	DES (De)	12	10
+1998-09-19	Blauw Wit '51	ELKV	11	11
+1998-09-19	Eureka	KZ Leiden	4	9
+1998-09-19	TOV (D)	Actief (R)	14	13
+1998-09-19	Unicum	Springfield	12	12
+1998-09-26	AW.DTV	BEP	25	18
+1998-09-26	Futura	Celeritas (A)	21	11
+1998-09-26	KVA	Crescendo	21	11
+1998-09-26	ZKV (Za)	DKC (De)	12	10
+1998-09-26	Dindoa	Antilopen	11	9
+1998-09-26	Fiducia	De Vinken	16	15
+1998-09-26	KIOS (N)	Tweemaal Zes	8	19
+1998-09-26	Oranje Zwart	Woudenberg	17	8
+1998-09-26	Fiks	Excelsior (D)	21	16
+1998-09-26	ODO (M)	TOP (S)	21	20
+1998-09-26	SDO (K)	Vriendenschaar (H)	22	17
+1998-09-26	Vitesse (Ba)	Nieuwerkerk	14	18
+1998-09-26	ADO	GKV (G)	15	13
+1998-09-26	HKC (Ha)	KOAG	17	14
+1998-09-26	IJsselvogels	Tempo	14	9
+1998-09-26	Kinderdijk	Albatros	15	16
+1998-09-26	Danaiden	ALO	17	17
+1998-09-26	Hespa	Phoenix (Z)	8	7
+1998-09-26	RKC²	RODA (W)	12	15
+1998-09-26	Trekvogels (R)	Victoria (A)	17	15
+1998-09-26	DKV (IJ)	Telstar	28	15
+1998-09-26	OVVO	HKC (U)	15	12
+1998-09-26	Oranje Nassau	Pernix	11	13
+1998-09-26	VEO	ZKC '31	21	17
+1998-09-26	Bolnes	Ventura Sport	18	14
+1998-09-26	Merwede	Sagitta	23	16
+1998-09-26	ONDO (G)	Maassluis	14	7
+1998-09-26	TOP (A)	Oranje Nassau (V)	17	7
+1998-09-26	De Bermen	Dubbel Zes '66	17	13
+1998-09-26	GKV	Diamco	15	13
+1998-09-26	Olympiek	Waterland	16	14
+1998-09-26	Oosterkwartier (H)	Dijkvogels	13	20
+1998-09-26	Atlantis	DTS (E)	22	5
+1998-09-26	ESDO	Fluks (N)	8	7
+1998-09-19	Nieuwerkerk	Fiks	20	14
+1998-09-19	TOP (S)	SDO (K)	15	14
+1998-09-19	PSV	Deto	19	17
+1998-09-26	Madjoe	DSO (A)	13	9
+1998-09-26	ODI (A)	VZOD	10	15
+1998-09-26	Erasmus	Keep Fit '70	18	17
+1998-09-26	Harga	Good Luck	8	7
+1998-09-26	Quick (D)	Sperwers	13	17
+1998-09-26	Ten Donck	Terda	16	13
+1998-09-26	DVS '69	Oranje Zwart (M)	16	12
+1998-09-26	Olympia (S)	Gemini	20	19
+1998-09-26	TOGO (G)	Korbis	14	20
+1998-09-26	Weidevogels	Vriendenschaar (B)	12	5
+1998-09-26	Luctor	ACKC	22	19
+1998-09-26	ONDO (M)	Stormvogels (W)	9	11
+1998-09-26	VIOS (W)	RWA	14	14
+1998-09-26	Voltreffers (O)	DSO (K)	8	6
+1998-09-26	AKC (Al)	Blauw Wit	19	21
+1998-09-26	Blauw Wit (H)	Dalto	12	18
+1998-09-26	Deetos	Groen Geel	12	9
+1998-09-26	Die Haghe	KVS	17	14
+1998-09-26	DOS '46	PKC	24	21
+1998-09-26	Nic	Oost Arnhem	21	16
+1998-09-26	Rohda (A)	De Meeuwen	17	12
+1998-09-26	VADA	HKV / Ons Eibernest	13	15
+1998-09-26	Fortis	Swift (M)	16	10
+1998-09-26	De Meervogels	DVO	14	21
+1998-09-26	Oranje Wit (D)	Avanti (P)	21	9
+1998-09-26	Tjoba	Snel	20	15
+1998-09-26	DKOD	SSS	14	12
+1998-09-26	Drachten	Thrianta	13	14
+1998-09-26	Lege Geaen	Marfugels	11	12
+1998-09-26	Wit Blauw	De Kapellen	13	9
+1998-09-26	Achilles (H)	VDW-OLS	13	11
+1998-09-26	Refleks	Stanfries²	14	17
+1998-09-26	SCO	LDODK	17	17
+1998-09-26	Vlaardingen	OZC	17	15
+1998-09-26	Fortuna (D)	DOS-WK	15	13
+1998-09-26	EKC Naas	Ready (H)	13	19
+1998-09-26	Sporting Trigon	LUTO	26	16
+1998-09-26	WION	KZ	13	12
+1998-09-26	All-Ready	Reeuwijk	10	13
+1998-09-26	DES (De)	Spirit (Vl)	7	8
+1998-09-26	VIOS (N)	Velocitas (L)	7	13
+1998-09-26	Actief (R)	Blauw Wit '51	17	17
+1998-09-26	ELKV	TOV (D)	16	8
+1998-09-26	KZ Leiden	Unicum	12	10
+1998-09-26	Springfield	Eureka	15	13
+1998-09-30	Gemini	Korbis	16	20
+1998-10-03	AW.DTV	ZKV (Za)	13	11
+1998-10-03	Celeritas (A)	KVA	14	14
+1998-10-03	Crescendo	DKC (De)	14	10
+1998-10-03	Dindoa	KIOS (N)	20	8
+1998-10-03	Fiducia	Antilopen	8	22
+1998-10-03	De Vinken	Oranje Zwart	14	17
+1998-10-03	Woudenberg	Tweemaal Zes	14	18
+1998-10-03	Fiks	SDO (K)	19	22
+1998-10-03	Nieuwerkerk	Vriendenschaar (H)	13	15
+1998-10-03	ODO (M)	Excelsior (D)	10	10
+1998-10-03	TOP (S)	Vitesse (Ba)	22	13
+1998-10-03	HKC (Ha)	Albatros	19	14
+1998-10-03	KOAG	IJsselvogels	16	11
+1998-10-03	Kinderdijk	ADO	12	16
+1998-10-03	Tempo	GKV (G)	16	15
+1998-10-03	Danaiden	Trekvogels (R)	18	13
+1998-10-03	Hespa	ALO	12	16
+1998-10-03	Phoenix (Z)	RKC²	15	9
+1998-10-03	RODA (W)	Victoria (A)	13	13
+1998-10-03	Oranje Nassau	OVVO	15	19
+1998-10-03	Telstar	HKC (U)	16	17
+1998-10-03	ZKC '31	DKV (IJ)	10	13
+1998-10-03	Bolnes	Oranje Nassau (V)	13	8
+1998-10-03	TOP (A)	Merwede	17	17
+1998-10-03	Maassluis	Sagitta	18	12
+1998-10-03	Ventura Sport	ONDO (G)	13	10
+1998-10-03	Diamco	Olympiek	11	8
+1998-10-03	GKV	Dijkvogels	12	24
+1998-10-03	Oosterkwartier (H)	De Bermen	11	10
+1998-10-03	Waterland	Dubbel Zes '66	15	11
+1998-10-03	DSO (A)	DTS (E)	18	8
+1998-10-03	Fluks (N)	Madjoe	17	19
+1998-10-03	ESDO	VZOD	10	9
+1998-10-03	ODI (A)	Atlantis	9	21
+1998-10-03	Harga	Quick (D)	6	8
+1998-10-03	Ten Donck	Good Luck	18	10
+1998-10-03	DVS '69	Weidevogels	15	13
+1998-10-03	Gemini	Vriendenschaar (B)	1	0
+1998-10-03	Korbis	Olympia (S)	16	14
+1998-10-03	TOGO (G)	Oranje Zwart (M)	0	1
+1998-10-03	ACKC	Stormvogels (W)	13	10
+1998-10-03	RWA	Luctor	14	10
+1998-10-03	VIOS (W)	DSO (K)	23	13
+1998-10-03	Voltreffers (O)	ONDO (M)	15	10
+1998-10-03	Blauw Wit (H)	KVS	15	16
+1998-10-03	Blauw Wit	Groen Geel	26	18
+1998-10-03	Dalto	AKC (Al)	15	18
+1998-10-03	Die Haghe	Deetos	10	9
+1998-10-03	DOS '46	Oost Arnhem	15	19
+1998-10-03	De Meeuwen	HKV / Ons Eibernest	20	18
+1998-10-03	Nic	VADA	23	14
+1998-10-03	PKC	Rohda (A)	23	15
+1998-10-03	Avanti (P)	De Meervogels	20	15
+1998-10-03	DVO	Snel	22	14
+1998-10-03	Fortis	Tjoba	9	19
+1998-10-03	Oranje Wit (D)	Swift (M)	22	8
+1998-10-03	Drachten	De Kapellen	16	12
+1998-10-03	Marfugels	SSS	20	15
+1998-10-03	Thrianta	Lege Geaen	13	15
+1998-10-03	Wit Blauw	DKOD	12	11
+1998-10-03	Achilles (H)	Stanfries²	12	9
+1998-10-03	LDODK	OZC	18	15
+1998-10-03	Refleks	Vlaardingen	16	10
+1998-10-03	VDW-OLS	SCO	21	11
+1998-10-03	DOS-WK	Sporting Trigon	19	18
+1998-10-03	Fortuna (D)	KZ	23	11
+1998-10-03	LUTO	Ready (H)	12	19
+1998-10-03	WION	EKC Naas	18	10
+1998-10-03	DES (De)	All-Ready	10	12
+1998-10-03	Valto	Spirit (Vl)	14	10
+1998-10-03	Velocitas (L)	Reeuwijk	10	9
+1998-10-03	ELKV	Eureka	13	5
+1998-10-03	Springfield	Actief (R)	11	14
+1998-10-03	TOV (D)	KZ Leiden	8	11
+1998-10-03	Unicum	Blauw Wit '51	4	9
+1998-10-10	BEP	Celeritas (A)	14	9
+1998-10-10	DKC (De)	AW.DTV	9	12
+1998-10-10	Antilopen	De Vinken	26	14
+1998-10-10	KIOS (N)	Woudenberg	18	10
+1998-10-10	Oranje Zwart	Fiducia	15	14
+1998-10-10	Tweemaal Zes	Dindoa	11	16
+1998-10-10	Excelsior (D)	TOP (S)	10	9
+1998-10-10	SDO (K)	Nieuwerkerk	15	10
+1998-10-10	Vitesse (Ba)	ODO (M)	15	16
+1998-10-10	Vriendenschaar (H)	Fiks	25	17
+1998-10-10	ADO	Tempo	12	12
+1998-10-10	GKV (G)	Kinderdijk	16	15
+1998-10-10	ALO	Phoenix (Z)	18	8
+1998-10-10	Trekvogels (R)	RODA (W)	21	13
+1998-10-10	Victoria (A)	Danaiden	13	13
+1998-10-10	DKV (IJ)	VEO	13	8
+1998-10-10	HKC (U)	Oranje Nassau	15	12
+1998-10-10	Merwede	Maassluis	10	11
+1998-10-10	ONDO (G)	Bolnes	15	12
+1998-10-10	Oranje Nassau (V)	Ventura Sport	15	19
+1998-10-10	Dijkvogels	Diamco	12	5
+1998-10-10	Dubbel Zes '66	Oosterkwartier (H)	8	6
+1998-10-10	Olympiek	GKV	20	7
+1998-10-10	Atlantis	DSO (A)	19	15
+1998-10-10	DTS (E)	ODI (A)	7	12
+1998-10-10	VZOD	Fluks (N)	13	11
+1998-10-10	Good Luck	Terda	12	19
+1998-10-10	Quick (D)	Keep Fit '70	8	9
+1998-10-10	Sperwers	Harga	16	8
+1998-10-10	Olympia (S)	TOGO (G)	17	11
+1998-10-10	Oranje Zwart (M)	Korbis	8	11
+1998-10-10	Weidevogels	Gemini	0	1
+1998-10-10	DSO (K)	RWA	13	12
+1998-10-10	Luctor	VIOS (W)	11	8
+1998-10-10	ONDO (M)	ACKC	8	8
+1998-10-10	Stormvogels (W)	Voltreffers (O)	11	11
+1998-10-10	AKC (Al)	Blauw Wit (H)	23	20
+1998-10-10	Deetos	Blauw Wit	23	13
+1998-10-10	Groen Geel	Die Haghe	14	15
+1998-10-10	KVS	Dalto	19	11
+1998-10-10	Rohda (A)	DOS '46	13	23
+1998-10-10	VADA	De Meeuwen	22	21
+1998-10-10	De Meervogels	Oranje Wit (D)	17	16
+1998-10-10	Snel	Fortis	13	18
+1998-10-10	Swift (M)	Avanti (P)	18	15
+1998-10-10	Tjoba	DVO	12	14
+1998-10-10	DKOD	Marfugels	12	24
+1998-10-10	Vlaardingen	LDODK	11	11
+1998-10-10	KZ	DOS-WK	12	11
+1998-10-10	Ready (H)	WION	16	17
+1998-10-10	Sporting Trigon	Fortuna (D)	15	13
+1998-10-10	All-Ready	Velocitas (L)	9	11
+1998-10-10	Reeuwijk	DES (De)	14	13
+1998-10-10	VIOS (N)	Valto	7	16
+1998-10-10	Blauw Wit '51	Springfield	11	12
+1998-10-10	Eureka	TOV (D)	12	14
+1998-10-17	Crescendo	Celeritas (A)	21	15
+1998-10-17	Futura	BEP	14	13
+1998-10-17	KVA	AW.DTV	12	13
+1998-10-17	Antilopen	Woudenberg	14	7
+1998-10-17	Fiducia	KIOS (N)	18	4
+1998-10-17	Oranje Zwart	Tweemaal Zes	16	14
+1998-10-17	De Vinken	Dindoa	9	20
+1998-10-17	IJsselvogels	Kinderdijk	13	10
+1998-10-17	RKC²	Danaiden	7	8
+1998-10-17	Telstar	ZKC '31	1	12
+1998-10-17	ACKC	RWA	0	1
+1998-10-17	Blauw Wit	Dalto	11	10
+1998-10-17	Snel	Swift (M)	13	1
+1998-10-17	EKC Naas	LUTO	19	18
+1998-10-17	Blauw Wit '51	Eureka	16	11
+1998-10-17	KZ Leiden	ELKV	11	8
+1998-10-24	Celeritas (A)	AW.DTV	11	12
+1998-10-24	Futura	ZKV (Za)	12	11
+1998-10-24	KVA	DKC (De)	9	9
+1998-10-24	Excelsior (D)	Nieuwerkerk	15	6
+1998-10-24	ODO (M)	SDO (K)	9	7
+1998-10-24	TOP (S)	Fiks	21	16
+1998-10-24	Vitesse (Ba)	Vriendenschaar (H)	11	15
+1998-10-24	HKC (Ha)	ADO	9	8
+1998-10-24	KOAG	Kinderdijk	10	13
+1998-10-24	ALO	RODA (W)	19	17
+1998-10-24	Hespa	Trekvogels (R)	10	9
+1998-10-24	DKV (IJ)	HKC (U)	18	8
+1998-10-24	Pernix	Telstar	10	6
+1998-10-24	ZKC '31	Oranje Nassau	12	12
+1998-10-24	Bolnes	Merwede	10	7
+1998-10-24	ONDO (G)	Sagitta	11	8
+1998-10-24	Ventura Sport	TOP (A)	4	3
+1998-10-24	Fluks (N)	ODI (A)	9	9
+1998-10-24	Madjoe	DTS (E)	10	9
+1998-10-24	Good Luck	Keep Fit '70	13	8
+1998-10-24	Terda	Harga	14	14
+1998-10-24	Olympia (S)	Vriendenschaar (B)	1	0
+1998-10-24	Oranje Zwart (M)	Gemini	0	1
+1998-10-24	TOGO (G)	Weidevogels	9	1
+1998-10-24	DSO (K)	ACKC	7	11
+1998-10-24	Luctor	Stormvogels (W)	7	7
+1998-10-24	AKC (Al)	Groen Geel	12	12
+1998-10-24	Dalto	Die Haghe	15	17
+1998-10-24	KVS	Blauw Wit	15	16
+1998-10-24	DOS '46	VADA	9	7
+1998-10-24	Oost Arnhem	De Meeuwen	20	13
+1998-10-24	PKC	Nic	9	10
+1998-10-24	Rohda (A)	HKV / Ons Eibernest	12	14
+1998-10-24	Avanti (P)	Fortis	12	8
+1998-10-24	Oranje Wit (D)	Tjoba	10	10
+1998-10-24	Swift (M)	DVO	13	12
+1998-10-24	Drachten	DKOD	14	10
+1998-10-24	De Kapellen	Marfugels	9	14
+1998-10-24	VDW-OLS	Refleks	11	10
+1998-10-24	Spirit (Vl)	Velocitas (L)	11	11
+1998-10-24	Valto	All-Ready	11	11
+1998-10-24	ELKV	Actief (R)	8	12
+1998-10-24	KZ Leiden	Blauw Wit '51	10	6
+1998-10-24	TOV (D)	Springfield	4	5
+1998-10-31	OKO	WSS	14	13
+1998-10-31	Ny Libben	DWA	14	10
+1998-10-31	Udiros	ASVD	16	15
+1998-10-31	EKCA	Rigtersbleek	14	13
+1998-10-31	Steeds Hooger	Groen Zwart	16	13
+1998-10-31	DKC (De)	Celeritas (A)	7	14
+1998-10-31	ZKV (Za)	BEP	15	12
+1998-10-31	Dindoa	Oranje Zwart	18	18
+1998-10-31	KIOS (N)	Antilopen	14	18
+1998-10-31	Tweemaal Zes	De Vinken	16	10
+1998-10-31	Fiks	Vitesse (Ba)	14	17
+1998-10-31	Vriendenschaar (H)	TOP (S)	16	16
+1998-10-31	Kinderdijk	IJsselvogels	15	14
+1998-10-31	Tempo	HKC (Ha)	11	13
+1998-10-31	Synergo	Regenboog	15	11
+1998-10-31	Harkema	Korwi	25	6
+1998-10-31	Nova	Swift	19	17
+1998-10-31	Danaiden	RKC²	14	5
+1998-10-31	RODA (W)	Hespa	11	11
+1998-10-31	Victoria (A)	Phoenix (Z)	14	8
+1998-10-31	Oranje Nassau	DKV (IJ)	11	15
+1998-10-31	TOP (A)	ONDO (G)	13	13
+1998-10-31	DOT (O)	Keizer Karel	15	13
+1998-10-31	Achilles (A)	Elburg	10	11
+1998-10-31	Duko	Olympus '58	16	11
+1998-10-31	VIKO	Revival	14	9
+1998-10-31	DOC	Arena	18	13
+1998-10-31	SKF	KVO (S)	13	7
+1998-10-31	Dubbel Zes '66	Diamco	11	10
+1998-10-31	Waterland	GKV	10	7
+1998-10-31	Rapid (H)	Ados	12	14
+1998-10-31	Archipel	Aurora	11	17
+1998-10-31	Hoger Op	Stormvogels (U)	5	10
+1998-10-31	Ede	Altius	12	18
+1998-10-31	Nieuw Flora	Soesterkwartier	7	17
+1998-10-31	DSO (A)	ESDO	8	8
+1998-10-31	Sperwers	Terda	17	9
+1998-10-31	Gemini	TOGO (G)	20	15
+1998-10-31	ONDO (M)	DSO (K)	11	13
+1998-10-31	Stormvogels (W)	RWA	10	10
+1998-10-31	Fortis	De Meervogels	9	12
+1998-10-31	Tjoba	Swift (M)	17	17
+1998-10-31	LUTO	Fortuna (D)	12	16
+1998-10-31	Ready (H)	DOS-WK	16	17
+1998-10-31	All-Ready	Spirit (Vl)	13	7
+1998-10-31	DES (De)	VIOS (N)	10	9
+1998-10-31	Velocitas (L)	Valto	9	10
+1998-10-31	Springfield	KZ Leiden	10	12
+1998-11-21	ACKC	Oranje Zwart (M)	11	10
+1998-11-21	AKC (Al)	Sporting Trigon	17	24
+1998-11-21	ALO	GKV	22	22
+1998-11-21	AW.DTV	VADA	13	18
+1998-11-21	Ados	Badhoevedorp	22	16
+1998-11-21	Albatros	Voltreffers (O)	17	17
+1998-11-21	Antilopen	DOS-WK	25	12
+1998-11-21	Aurora	Gemini	23	18
+1998-11-21	Blauw Wit (H)	OZC	20	19
+1998-11-21	Bolnes	Vriendenschaar (H)	15	17
+1998-11-21	Crescendo	De Tovers	22	25
+1998-11-21	DKV (IJ)	Oranje Nassau	25	16
+1998-11-21	DOS '46	Fortuna (D)	30	26
+1998-11-21	DVO	Blauw Wit	19	28
+1998-11-21	Danaiden	OKV	20	13
+1998-11-21	Diamco	Stormvogels (U)	15	10
+1998-11-21	Die Haghe	HKV / Ons Eibernest	20	13
+1998-11-21	Dijkvogels	ZKC '31	17	15
+1998-11-21	Drachten	Amicitia (V)	15	22
+1998-11-21	Erasmus	Actief (R)	18	12
+1998-11-21	Excelsior (D)	Futura	18	15
+1998-11-21	Fiducia	Synergo	18	18
+1998-11-21	Fiks	Atlantis	20	12
+1998-11-21	Fortis	Maassluis	22	12
+1998-11-21	Good Luck	DVS '69	13	19
+1998-11-21	HKC (Ha)	Nieuwerkerk	14	16
+1998-11-21	Hespa	NIO	18	15
+1998-11-21	Juko	Swift	13	23
+1998-11-21	Juliana	SDO (V)	18	16
+1998-11-21	KOAG	Snel	17	16
+1998-11-21	KVA	IJsselvogels	10	12
+1998-11-21	KVS	TOP (S)	20	17
+1998-11-21	KZ	Achilles (H)	15	17
+1998-11-21	De Kapellen	BEP	19	16
+1998-11-21	Keep Fit '70	ODO²	18	21
+1998-11-21	Korbis	Nikantes	27	8
+1998-11-21	LUTO	Phoenix (Z)	31	15
+1998-11-21	Luctor	DSO (K)	16	11
+1998-11-21	MIK	Valto	8	18
+1998-11-21	Madjoe	Velocitas (L)	17	17
+1998-11-21	Marfugels	Lege Geaen	17	14
+1998-11-21	De Meeuwen	Thrianta	19	16
+1998-11-21	Merwede	TOP (A)	13	17
+1998-11-21	Nic	Oranje Wit (D)	20	14
+1998-11-21	Olympia (S)	RWA	11	14
+1998-11-21	Olympiek	Harga	15	14
+1998-11-21	Oost Arnhem	DKOD	32	14
+1998-11-21	Oranje Nassau (V)	ONDO (M)	14	12
+1998-11-21	PKC	Groen Geel	30	17
+1998-11-21	RKC²	OJC '98	9	9
+1998-11-21	Ready (H)	Refleks	14	12
+1998-11-21	Reeuwijk	Sperwers	20	15
+1998-11-21	Rohda (A)	Deetos	15	24
+1998-11-21	Rust Roest (E)	Ventura Sport	10	10
+1998-11-21	SCO	Rodenburg	19	22
+1998-11-21	Sagitta	BKC (Br)	20	13
+1998-11-21	Swift (M)	Tjoba	21	30
+1998-11-21	Tempo	Pernix	18	22
+1998-11-21	Ten Donck	De Bermen	18	17
+1998-11-21	Trekvogels (R)	Oosterkwartier (H)	11	18
+1998-11-21	VDW-OLS	Steeds Hooger	17	18
+1998-11-21	VIOS (W)	TOV (D)	12	12
+1998-11-21	VZOD	Rapid (H)	19	13
+1998-11-21	De Vinken	ONDO (G)	21	20
+1998-11-21	Vitesse (Ba)	Kinderdijk	17	23
+1998-11-21	Vlaardingen	Dalto	15	19
+1998-11-21	WION	WK	22	22
+1998-11-21	Weidevogels	KZ Leiden	16	9
+1998-11-21	Wit Blauw	NKC '51	22	10
+1998-11-28	Achilles (H)	SCO	20	17
+1998-11-28	Actief (R)	Merwic	12	21
+1998-11-28	Amicitia (V)	De Meeuwen	16	21
+1998-11-28	Atlantis	De Vinken	14	12
+1998-11-28	BEP	Fiducia	15	16
+1998-11-28	BKC (Br)	Olympia (S)	8	12
+1998-11-28	Badhoevedorp	Aurora	17	17
+1998-11-28	De Bermen	Weidevogels	11	14
+1998-11-28	Blauw Wit	Nic	18	21
+1998-11-28	DKOD	DOS '46	17	30
+1998-11-28	DOS-WK	De Meervogels	18	18
+1998-11-28	DSO (K)	ACKC	9	14
+1998-11-28	DVS '69	Sagitta	14	16
+1998-11-28	Dalto	AW.DTV	27	15
+1998-11-28	Deetos	DVO	23	26
+1998-11-28	Fortuna (D)	PKC	23	15
+1998-11-28	Futura	KVA	12	9
+1998-11-28	GKV	Danaiden	20	22
+1998-11-28	Gemini	Hespa	14	16
+1998-11-28	Groen Geel	AKC (Al)	29	26
+1998-11-28	HKV / Ons Eibernest	Rohda (A)	19	13
+1998-11-28	Harga	Ten Donck	10	13
+1998-11-28	IJsselvogels	LUTO	17	9
+1998-11-28	KZ Leiden	Reeuwijk	15	15
+1998-11-28	Kinderdijk	Fortis	16	14
+1998-11-28	LDODK	Blauw Wit (H)	16	17
+1998-11-28	Lege Geaen	Wit Blauw	21	8
+1998-11-28	Maassluis	KOAG	14	16
+1998-11-28	NIO	Diamco	16	16
+1998-11-28	NKC '51	Drachten	14	25
+1998-11-28	Nieuwerkerk	Vitesse (Ba)	18	15
+1998-11-28	Nikantes	Luctor	7	21
+1998-11-28	ODO²	ALO	16	19
+1998-11-28	ONDO (G)	DKV (IJ)	17	15
+1998-11-28	ONDO (M)	Good Luck	12	10
+1998-11-28	OZC	VDW-OLS	13	9
+1998-11-28	Oosterkwartier (H)	Keep Fit '70	13	21
+1998-11-28	Oranje Nassau	Tempo	15	22
+1998-11-28	Oranje Wit (D)	Die Haghe	14	15
+1998-11-28	Oranje Zwart (M)	Stormvogels (W)	16	16
+1998-11-28	Pernix	Fiks	17	17
+1998-11-28	Phoenix (Z)	Crescendo	9	16
+1998-11-28	Quick (D)	Blauw Wit '51	22	14
+1998-11-28	RWA	Oranje Nassau (V)	12	15
+1998-11-28	Rapid (H)	MIK	21	19
+1998-11-28	Refleks	Swift (M)	18	17
+1998-11-28	Rodenburg	KVS	10	17
+1998-11-28	Snel	HKC (Ha)	14	13
+1998-11-28	Sperwers	Olympiek	15	13
+1998-11-28	Sporting Trigon	Oost Arnhem	29	29
+1998-11-28	Steeds Hooger	Antilopen	16	28
+1998-11-28	Stormvogels (U)	Ados	16	15
+1998-11-28	Swift	De Kapellen	10	16
+1998-11-28	Synergo	ZKV (Za)	17	18
+1998-11-28	TOP (A)	Rust Roest (E)	20	13
+1998-11-28	TOP (S)	WION	16	21
+1998-11-28	TOV (D)	Erasmus	14	15
+1998-11-28	Thrianta	Marfugels	17	17
+1998-11-28	Tjoba	Vlaardingen	19	11
+1998-11-28	De Tovers	Excelsior (D)	16	24
+1998-11-28	VADA	Ready (H)	19	18
+1998-11-28	Valto	Madjoe	11	14
+1998-11-28	Velocitas (L)	Dijkvogels	8	22
+1998-11-28	Ventura Sport	Albatros	13	19
+1998-11-28	Voltreffers (O)	Bolnes	20	19
+1998-11-28	Vriendenschaar (H)	Merwede	24	21
+1998-11-28	WK	KZ	18	21
+1998-11-28	ZKC '31	VZOD	25	17
+1998-11-28	Zwervers	VIOS (W)	11	18
+1998-12-05	ACKC	Nikantes	19	10
+1998-12-05	AKC (Al)	Fortuna (D)	15	21
+1998-12-05	ALO	Keep Fit '70	16	10
+1998-12-05	AW.DTV	Tjoba	13	16
+1998-12-05	Ados	NIO	21	14
+1998-12-05	Amicitia (V)	NKC '51	24	16
+1998-12-05	Antilopen	OZC	18	10
+1998-12-05	Atlantis	Pernix	21	23
+1998-12-05	BKC (Br)	DVS '69	10	20
+1998-12-05	Badhoevedorp	Stormvogels (U)	16	15
+1998-12-05	Bolnes	Albatros	15	16
+1998-12-05	Crescendo	IJsselvogels	18	22
+1998-12-05	DKOD	Sporting Trigon	17	24
+1998-12-05	DKV (IJ)	De Vinken	17	12
+1998-12-05	Danaiden	ODO²	16	16
+1998-12-05	Deetos	HKV / Ons Eibernest	24	25
+1998-12-05	Diamco	Gemini	16	13
+1998-12-05	Die Haghe	Blauw Wit	18	24
+1998-12-05	Dijkvogels	Valto	23	16
+1998-12-05	Drachten	Lege Geaen	17	22
+1998-12-05	Excelsior (D)	Phoenix (Z)	24	18
+1998-12-05	Fiducia	Swift	19	16
+1998-12-05	Fiks	Oranje Nassau	24	14
+1998-12-05	Fortis	Nieuwerkerk	15	15
+1998-12-05	Futura	De Tovers	29	18
+1998-12-05	Good Luck	RWA	11	16
+1998-12-05	HKC (Ha)	KOAG	14	17
+1998-12-05	Harga	Sperwers	14	16
+1998-12-05	Hespa	Aurora	12	11
+1998-12-05	Juko	ZKV (Za)	10	20
+1998-12-05	Juliana	OEC	13	13
+1998-12-05	KVS	Achilles (H)	17	14
+1998-12-05	KZ	WION	19	18
+1998-12-05	De Kapellen	Celeritas (A)	18	13
+1998-12-05	LDODK	DOS-WK	23	19
+1998-12-05	LUTO	KVA	18	14
+1998-12-05	Luctor	Korbis	10	12
+1998-12-05	MIK	VZOD	17	23
+1998-12-05	Maassluis	Kinderdijk	15	14
+1998-12-05	Madjoe	Rapid (H)	28	10
+1998-12-05	Marfugels	De Meeuwen	15	17
+1998-12-05	De Meervogels	Steeds Hooger	23	22
+1998-12-05	Merwede	Voltreffers (O)	21	18
+1998-12-05	Merwic	Erasmus	15	20
+1998-12-05	Nic	DVO	23	17
+1998-12-05	Olympiek	KZ Leiden	12	10
+1998-12-05	Oost Arnhem	Groen Geel	29	20
+1998-12-05	Oosterkwartier (H)	OKV	21	23
+1998-12-05	Oranje Nassau (V)	Olympia (S)	9	13
+1998-12-05	PKC	DOS '46	25	16
+1998-12-05	Reeuwijk	De Bermen	12	16
+1998-12-05	Rohda (A)	Oranje Wit (D)	16	18
+1998-12-05	Rust Roest (E)	Vriendenschaar (H)	15	13
+1998-12-05	SCO	WK	22	18
+1998-12-05	Sagitta	ONDO (M)	19	12
+1998-12-05	Stormvogels (W)	DSO (K)	16	11
+1998-12-05	Swift (M)	Ready (H)	21	14
+1998-12-05	Synergo	BEP	25	17
+1998-12-05	TOP (S)	Rodenburg	19	17
+1998-12-05	TOV (D)	Zwervers	15	19
+1998-12-05	Tempo	ONDO (G)	25	19
+1998-12-05	Trekvogels (R)	GKV	16	15
+1998-12-05	VADA	Dalto	20	22
+1998-12-05	VDW-OLS	Blauw Wit (H)	17	20
+1998-12-05	Ventura Sport	TOP (A)	17	13
+1998-12-05	Vitesse (Ba)	Snel	14	17
+1998-12-05	Vlaardingen	Refleks	16	20
+1998-12-05	Weidevogels	Ten Donck	17	21
+1998-12-05	Wit Blauw	Thrianta	21	10
+1998-12-05	ZKC '31	Velocitas (L)	22	10
+1998-12-12	Achilles (H)	TOP (S)	17	17
+1998-12-12	Actief (R)	VIOS (W)	9	19
+1998-12-12	Albatros	Merwede	16	18
+1998-12-12	Amicitia (V)	Lege Geaen	22	19
+1998-12-12	Aurora	Diamco	14	15
+1998-12-12	BEP	Juko	24	12
+1998-12-12	De Bermen	Olympiek	8	7
+1998-12-12	Blauw Wit (H)	Antilopen	11	13
+1998-12-12	Blauw Wit	Rohda (A)	24	17
+1998-12-12	Celeritas (A)	Fiducia	18	17
+1998-12-12	DOS '46	AKC (Al)	26	22
+1998-12-12	DOS-WK	VDW-OLS	18	17
+1998-12-12	DVO	Die Haghe	24	26
+1998-12-12	DVS '69	Oranje Nassau (V)	16	15
+1998-12-12	Dalto	Swift (M)	27	16
+1998-12-12	Erasmus	Blauw Wit '51	14	10
+1998-12-12	Fortuna (D)	Oost Arnhem	19	15
+1998-12-12	GKV	Oosterkwartier (H)	14	17
+1998-12-12	Gemini	Ados	18	21
+1998-12-12	Groen Geel	DKOD	30	15
+1998-12-12	HKV / Ons Eibernest	Nic	14	20
+1998-12-12	IJsselvogels	Excelsior (D)	15	14
+1998-12-12	KOAG	Vitesse (Ba)	18	9
+1998-12-12	KVA	Crescendo	17	14
+1998-12-12	KZ Leiden	Harga	13	10
+1998-12-12	Keep Fit '70	OKV	15	13
+1998-12-12	Kinderdijk	HKC (Ha)	16	16
+1998-12-12	Korbis	ACKC	27	11
+1998-12-12	De Meeuwen	Wit Blauw	24	20
+1998-12-12	NIO	Badhoevedorp	17	14
+1998-12-12	NKC '51	Marfugels	13	24
+1998-12-12	Nieuwerkerk	Maassluis	18	14
+1998-12-12	Nikantes	Stormvogels (W)	7	21
+1998-12-12	ODO²	Trekvogels (R)	14	17
+1998-12-12	ONDO (G)	Fiks	13	18
+1998-12-12	ONDO (M)	BKC (Br)	19	11
+1998-12-12	OZC	De Meervogels	13	19
+1998-12-12	Olympia (S)	Good Luck	13	11
+1998-12-12	Oranje Nassau	Atlantis	15	12
+1998-12-12	Oranje Wit (D)	Deetos	16	17
+1998-12-12	Oranje Zwart (M)	Luctor	13	11
+1998-12-12	Pernix	DKV (IJ)	19	20
+1998-12-12	Phoenix (Z)	Futura	8	15
+1998-12-12	Quick (D)	TOV (D)	14	13
+1998-12-12	RWA	Sagitta	13	27
+1998-12-12	Rapid (H)	Dijkvogels	13	22
+1998-12-12	Ready (H)	Vlaardingen	16	11
+1998-12-12	Refleks	AW.DTV	13	17
+1998-12-12	Rodenburg	KZ	25	24
+1998-12-12	Snel	Fortis	9	13
+1998-12-12	Sperwers	Weidevogels	19	13
+1998-12-12	Sporting Trigon	PKC	17	29
+1998-12-12	Steeds Hooger	LDODK	15	28
+1998-12-12	Stormvogels (U)	Hespa	10	11
+1998-12-12	Swift	Synergo	17	23
+1998-12-12	TOP (A)	Bolnes	18	17
+1998-12-12	Ten Donck	Reeuwijk	12	12
+1998-12-12	Thrianta	Drachten	22	18
+1998-12-12	Tjoba	VADA	18	25
+1998-12-12	De Tovers	LUTO	16	19
+1998-12-12	VZOD	Madjoe	19	21
+1998-12-12	Valto	ZKC '31	16	16
+1998-12-12	Velocitas (L)	MIK	18	9
+1998-12-12	De Vinken	Tempo	17	16
+1998-12-12	Voltreffers (O)	Rust Roest (E)	10	21
+1998-12-12	Vriendenschaar (H)	Ventura Sport	21	18
+1998-12-12	WION	SCO	16	13
+1998-12-12	WK	KVS	18	25
+1998-12-12	ZKV (Za)	De Kapellen	20	20
+1998-12-19	AKC (Al)	PKC	20	28
+1998-12-19	AW.DTV	Ready (H)	20	20
+1998-12-19	Achilles (H)	Rodenburg	18	7
+1998-12-19	Ados	Aurora	14	14
+1998-12-19	Amicitia (V)	Thrianta	23	20
+1998-12-19	Antilopen	VDW-OLS	14	10
+1998-12-19	Atlantis	ONDO (G)	13	13
+1998-12-19	BKC (Br)	RWA	14	18
+1998-12-19	Badhoevedorp	Gemini	11	19
+1998-12-19	Crescendo	LUTO	10	16
+1998-12-19	DKOD	Fortuna (D)	15	22
+1998-12-19	DSO (K)	Oranje Zwart (M)	10	16
+1998-12-19	Danaiden	ALO	22	18
+1998-12-19	Deetos	Blauw Wit	25	22
+1998-12-19	Diamco	Hespa	15	14
+1998-12-19	Die Haghe	Nic	13	14
+1998-12-19	Dijkvogels	VZOD	22	12
+1998-12-19	Drachten	De Meeuwen	25	29
+1998-12-19	Excelsior (D)	KVA	16	17
+1998-12-19	Fiducia	ZKV (Za)	8	21
+1998-12-19	Fiks	De Vinken	23	13
+1998-12-19	Fortis	KOAG	12	12
+1998-12-19	Futura	IJsselvogels	24	22
+1998-12-19	GKV	OKV	18	16
+1998-12-19	Good Luck	Oranje Nassau (V)	11	14
+1998-12-19	Groen Geel	Sporting Trigon	29	17
+1998-12-19	Harga	De Bermen	20	16
+1998-12-19	KVS	WION	20	14
+1998-12-19	KZ Leiden	Sperwers	18	27
+1998-12-19	De Kapellen	Juko	20	18
+1998-12-19	LDODK	OZC	19	15
+1998-12-19	Lege Geaen	NKC '51	25	18
+1998-12-19	Luctor	ACKC	20	15
+1998-12-19	Maassluis	Snel	10	21
+1998-12-19	Madjoe	MIK	18	14
+1998-12-19	De Meervogels	Blauw Wit (H)	18	18
+1998-12-19	Merwede	Bolnes	20	14
+1998-12-19	NIO	Stormvogels (U)	17	18
+1998-12-19	Nieuwerkerk	Kinderdijk	18	16
+1998-12-19	ONDO (M)	DVS '69	8	9
+1998-12-19	Olympiek	Ten Donck	12	19
+1998-12-19	Oost Arnhem	DOS '46	23	24
+1998-12-19	Oosterkwartier (H)	ODO²	10	20
+1998-12-19	Oranje Nassau	Pernix	17	30
+1998-12-19	Oranje Wit (D)	HKV / Ons Eibernest	19	22
+1998-12-19	Phoenix (Z)	De Tovers	13	14
+1998-12-19	Reeuwijk	Weidevogels	21	16
+1998-12-19	Rohda (A)	DVO	15	15
+1998-12-19	Rust Roest (E)	Albatros	18	17
+1998-12-19	SCO	KZ	20	18
+1998-12-19	Sagitta	Olympia (S)	17	14
+1998-12-19	Steeds Hooger	DOS-WK	18	25
+1998-12-19	Stormvogels (W)	Korbis	10	17
+1998-12-19	Swift	BEP	18	23
+1998-12-19	Synergo	Celeritas (A)	20	19
+1998-12-19	TOP (S)	WK	24	10
+1998-12-19	Tempo	DKV (IJ)	17	15
+1998-12-19	Tjoba	Dalto	19	24
+1998-12-19	Trekvogels (R)	Keep Fit '70	18	15
+1998-12-19	VADA	Refleks	21	17
+1998-12-19	VIOS (W)	Erasmus	20	20
+1998-12-19	Valto	Velocitas (L)	15	12
+1998-12-19	Ventura Sport	Voltreffers (O)	10	9
+1998-12-19	Vitesse (Ba)	HKC (Ha)	18	14
+1998-12-19	Vlaardingen	Swift (M)	11	8
+1998-12-19	Vriendenschaar (H)	TOP (A)	21	21
+1998-12-19	Wit Blauw	Marfugels	17	17
+1998-12-19	ZKC '31	Rapid (H)	22	20
+1998-12-22	DKOD	PKC	13	18
+1998-12-27	De Bermen	Ten Donck	15	12
+1998-12-27	Keep Fit '70	ALO	22	28
+1998-12-27	OKV	Trekvogels (R)	22	20
+1999-01-02	AKC (Al)	DKOD	21	12
+1999-01-02	ALO	Trekvogels (R)	19	20
+1999-01-02	Albatros	TOP (A)	18	20
+1999-01-02	Antilopen	LDODK	18	16
+1999-01-02	De Bermen	KZ Leiden	11	9
+1999-01-02	Blauw Wit (H)	DOS-WK	20	15
+1999-01-02	Blauw Wit	Oranje Wit (D)	29	21
+1999-01-02	Bolnes	Rust Roest (E)	14	12
+1999-01-02	Celeritas (A)	Swift	22	23
+1999-01-02	Crescendo	Futura	10	12
+1999-01-02	DKV (IJ)	Fiks	17	16
+1999-01-02	DOS '46	Sporting Trigon	23	12
+1999-01-02	DVO	HKV / Ons Eibernest	25	18
+1999-01-02	Danaiden	Oosterkwartier (H)	14	12
+1999-01-02	Die Haghe	Deetos	19	17
+1999-01-02	Fortuna (D)	Groen Geel	22	24
+1999-01-02	Gemini	NIO	20	21
+1999-01-02	Good Luck	BKC (Br)	10	9
+1999-01-02	HKC (Ha)	Fortis	22	22
+1999-01-02	Hespa	Ados	16	13
+1999-01-02	IJsselvogels	Phoenix (Z)	16	13
+1999-01-02	Juko	Fiducia	18	19
+1999-01-02	KOAG	Kinderdijk	8	9
+1999-01-02	KVA	De Tovers	20	18
+1999-01-02	KZ	KVS	16	20
+1999-01-02	De Kapellen	Synergo	26	21
+1999-01-02	Korbis	Oranje Zwart (M)	16	12
+1999-01-02	Luctor	Stormvogels (W)	18	17
+1999-01-02	MIK	Dijkvogels	16	26
+1999-01-02	Madjoe	ZKC '31	20	16
+1999-01-02	Marfugels	Drachten	16	15
+1999-01-02	De Meeuwen	NKC '51	27	8
+1999-01-02	Merwede	Ventura Sport	20	16
+1999-01-02	Merwic	VIOS (W)	16	13
+1999-01-02	Nic	Rohda (A)	25	19
+1999-01-02	ODO²	GKV	25	19
+1999-01-02	ONDO (G)	Oranje Nassau	26	17
+1999-01-02	OZC	Steeds Hooger	20	22
+1999-01-02	Olympia (S)	DVS '69	11	13
+1999-01-02	Oranje Nassau (V)	Sagitta	14	16
+1999-01-02	PKC	Oost Arnhem	22	17
+1999-01-02	PSV	Juliana	18	22
+1999-01-02	RKC²	SDO (V)	13	17
+1999-01-02	RWA	ONDO (M)	16	12
+1999-01-02	Rapid (H)	Valto	11	20
+1999-01-02	Reeuwijk	Harga	10	19
+1999-01-02	Refleks	Tjoba	15	15
+1999-01-02	SCO	TOP (S)	24	24
+1999-01-02	Snel	Nieuwerkerk	8	23
+1999-01-02	Swift (M)	AW.DTV	14	14
+1999-01-02	Tempo	Atlantis	20	15
+1999-01-02	Ten Donck	Sperwers	14	15
+1999-01-02	Thrianta	Lege Geaen	21	21
+1999-01-02	VDW-OLS	De Meervogels	14	18
+1999-01-02	VZOD	Velocitas (L)	18	14
+1999-01-02	De Vinken	Pernix	14	21
+1999-01-02	Vitesse (Ba)	Maassluis	13	13
+1999-01-02	Vlaardingen	VADA	14	19
+1999-01-02	Voltreffers (O)	Vriendenschaar (H)	15	25
+1999-01-02	WION	Rodenburg	20	15
+1999-01-02	WK	Achilles (H)	19	20
+1999-01-02	Weidevogels	Olympiek	9	10
+1999-01-02	Wit Blauw	Amicitia (V)	21	14
+1999-01-02	ZKV (Za)	BEP	16	15
+1999-01-09	AW.DTV	Vlaardingen	15	19
+1999-01-09	Amicitia (V)	Marfugels	20	19
+1999-01-09	Atlantis	DKV (IJ)	11	16
+1999-01-09	BEP	Celeritas (A)	21	13
+1999-01-09	BKC (Br)	Oranje Nassau (V)	8	17
+1999-01-09	Badhoevedorp	Hespa	15	19
+1999-01-09	DOS-WK	OZC	23	15
+1999-01-09	DSO (K)	Korbis	8	17
+1999-01-09	DVS '69	RWA	17	15
+1999-01-09	Dalto	Refleks	23	17
+1999-01-09	Deetos	Nic	18	18
+1999-01-09	Dijkvogels	Madjoe	15	13
+1999-01-09	Drachten	Wit Blauw	20	16
+1999-01-09	Excelsior (D)	Crescendo	16	9
+1999-01-09	Fiducia	De Kapellen	8	18
+1999-01-09	Fiks	Tempo	18	19
+1999-01-09	Fortis	Vitesse (Ba)	16	16
+1999-01-09	Futura	LUTO	20	12
+1999-01-09	GKV	Keep Fit '70	18	12
+1999-01-09	Groen Geel	DOS '46	28	16
+1999-01-09	HKV / Ons Eibernest	Blauw Wit	17	13
+1999-01-09	Juliana	RKC²	15	15
+1999-01-09	KVS	SCO	24	21
+1999-01-09	Kinderdijk	Snel	18	16
+1999-01-09	LDODK	VDW-OLS	23	17
+1999-01-09	Maassluis	HKC (Ha)	12	12
+1999-01-09	De Meervogels	Antilopen	15	18
+1999-01-09	De Meeuwen	Lege Geaen	20	19
+1999-01-09	NIO	Aurora	10	17
+1999-01-09	NKC '51	Thrianta	17	25
+1999-01-09	Nieuwerkerk	KOAG	11	16
+1999-01-09	OKV	ODO²	20	15
+1999-01-09	ONDO (M)	Olympia (S)	16	14
+1999-01-09	Olympiek	Reeuwijk	12	13
+1999-01-09	Oost Arnhem	AKC (Al)	30	22
+1999-01-09	Oosterkwartier (H)	ALO	24	25
+1999-01-09	Oranje Nassau	De Vinken	10	8
+1999-01-09	Oranje Wit (D)	DVO	15	16
+1999-01-09	Oranje Zwart (M)	Nikantes	22	15
+1999-01-09	Pernix	ONDO (G)	19	17
+1999-01-09	Phoenix (Z)	KVA	9	14
+1999-01-09	Quick (D)	Erasmus	15	16
+1999-01-09	Rodenburg	WK	22	16
+1999-01-09	Rohda (A)	Die Haghe	9	21
+1999-01-09	Rust Roest (E)	Merwede	18	18
+1999-01-09	Sagitta	Good Luck	13	16
+1999-01-09	Sperwers	De Bermen	14	15
+1999-01-09	Sporting Trigon	Fortuna (D)	22	22
+1999-01-09	Steeds Hooger	Blauw Wit (H)	18	22
+1999-01-09	Stormvogels (U)	Gemini	12	16
+1999-01-09	Stormvogels (W)	ACKC	22	18
+1999-01-09	Swift	ZKV (Za)	15	17
+1999-01-09	Synergo	Juko	22	21
+1999-01-09	TOP (A)	Voltreffers (O)	15	11
+1999-01-09	TOP (S)	KZ	14	14
+1999-01-09	Tjoba	Ready (H)	16	17
+1999-01-09	De Tovers	IJsselvogels	18	18
+1999-01-09	Trekvogels (R)	Danaiden	14	15
+1999-01-09	VADA	Swift (M)	24	25
+1999-01-09	VIOS (W)	Blauw Wit '51	24	12
+1999-01-09	Valto	VZOD	16	17
+1999-01-09	Velocitas (L)	Rapid (H)	18	12
+1999-01-09	Ventura Sport	Bolnes	10	10
+1999-01-09	Vriendenschaar (H)	Albatros	24	22
+1999-01-09	ZKC '31	MIK	19	11
+1999-01-09	Zwervers	Actief (R)	15	15
+1999-01-16	Achilles (H)	KZ	13	22
+1999-01-16	Actief (R)	Erasmus	17	22
+1999-01-16	Amicitia (V)	Drachten	12	13
+1999-01-16	Atlantis	Fiks	18	29
+1999-01-16	BEP	De Kapellen	15	17
+1999-01-16	BKC (Br)	Sagitta	12	18
+1999-01-16	Badhoevedorp	Ados	17	20
+1999-01-16	Blauw Wit	DVO	19	21
+1999-01-16	DKOD	Oost Arnhem	11	28
+1999-01-16	DOS-WK	Antilopen	18	19
+1999-01-16	DSO (K)	Luctor	17	19
+1999-01-16	DVS '69	Good Luck	20	16
+1999-01-16	Dalto	Vlaardingen	18	10
+1999-01-16	Deetos	Rohda (A)	26	22
+1999-01-16	Fortuna (D)	DOS '46	17	22
+1999-01-16	Futura	Excelsior (D)	17	23
+1999-01-16	GKV	ALO	14	15
+1999-01-16	Gemini	Aurora	15	14
+1999-01-16	Groen Geel	PKC	19	20
+1999-01-16	HKV / Ons Eibernest	Die Haghe	18	22
+1999-01-16	KZ Leiden	Weidevogels	13	13
+1999-01-16	Kinderdijk	Vitesse (Ba)	18	17
+1999-01-16	LDODK	De Meervogels	22	17
+1999-01-16	Lege Geaen	Marfugels	16	16
+1999-01-16	Maassluis	Fortis	15	16
+1999-01-16	NIO	Hespa	11	18
+1999-01-16	NKC '51	Wit Blauw	11	20
+1999-01-16	Nieuwerkerk	HKC (Ha)	16	7
+1999-01-16	Nikantes	Korbis	5	20
+1999-01-16	ODO²	Keep Fit '70	22	21
+1999-01-16	OKV	Danaiden	16	16
+1999-01-16	ONDO (G)	De Vinken	18	10
+1999-01-16	ONDO (M)	Oranje Nassau (V)	16	14
+1999-01-16	OZC	Blauw Wit (H)	20	25
+1999-01-16	Oosterkwartier (H)	Trekvogels (R)	15	16
+1999-01-16	Oranje Nassau	DKV (IJ)	13	15
+1999-01-16	Oranje Wit (D)	Nic	17	24
+1999-01-16	OJC '98	RKC²	16	5
+1999-01-16	Oranje Zwart (M)	ACKC	13	9
+1999-01-16	Pernix	Tempo	18	17
+1999-01-16	Phoenix (Z)	LUTO	10	16
+1999-01-16	RWA	Olympia (S)	0	1
+1999-01-16	Rapid (H)	VZOD	14	13
+1999-01-16	Refleks	Ready (H)	20	17
+1999-01-16	Rodenburg	SCO	18	20
+1999-01-16	Snel	KOAG	14	15
+1999-01-16	Sporting Trigon	AKC (Al)	26	22
+1999-01-16	Steeds Hooger	VDW-OLS	21	23
+1999-01-16	Stormvogels (U)	Diamco	15	15
+1999-01-16	Swift	Juko	18	18
+1999-01-16	Synergo	Fiducia	19	12
+1999-01-16	TOP (A)	Merwede	18	21
+1999-01-16	TOP (S)	KVS	17	26
+1999-01-16	TOV (D)	VIOS (W)	15	20
+1999-01-16	Thrianta	De Meeuwen	19	20
+1999-01-16	De Tovers	Crescendo	19	19
+1999-01-16	VADA	AW.DTV	25	13
+1999-01-16	Valto	MIK	10	11
+1999-01-16	Velocitas (L)	Madjoe	17	15
+1999-01-16	Ventura Sport	Rust Roest (E)	18	18
+1999-01-16	Voltreffers (O)	Albatros	17	23
+1999-01-16	Vriendenschaar (H)	Bolnes	14	15
+1999-01-16	WK	WION	14	19
+1999-01-16	ZKC '31	Dijkvogels	14	16
+1999-01-23	ACKC	DSO (K)	14	22
+1999-01-23	AKC (Al)	Groen Geel	24	30
+1999-01-23	ALO	ODO²	14	15
+1999-01-23	AW.DTV	Dalto	22	22
+1999-01-23	Ados	Stormvogels (U)	18	14
+1999-01-23	Albatros	Ventura Sport	21	8
+1999-01-23	Antilopen	Steeds Hooger	21	15
+1999-01-23	Aurora	Badhoevedorp	15	13
+1999-01-23	Blauw Wit (H)	LDODK	17	17
+1999-01-23	Bolnes	Voltreffers (O)	14	14
+1999-01-23	Crescendo	Phoenix (Z)	17	15
+1999-01-23	DKV (IJ)	ONDO (G)	21	19
+1999-01-23	DOS '46	DKOD	26	5
+1999-01-23	DVO	Deetos	27	21
+1999-01-23	Danaiden	GKV	23	17
+1999-01-23	Diamco	NIO	15	12
+1999-01-23	Die Haghe	Oranje Wit (D)	20	18
+1999-01-23	Dijkvogels	Velocitas (L)	32	16
+1999-01-23	Drachten	NKC '51	29	10
+1999-01-23	Erasmus	TOV (D)	13	10
+1999-01-23	Excelsior (D)	De Tovers	19	16
+1999-01-23	Fiducia	BEP	23	21
+1999-01-23	Fiks	Pernix	24	30
+1999-01-23	Fortis	Kinderdijk	17	17
+1999-01-23	Good Luck	ONDO (M)	16	16
+1999-01-23	HKC (Ha)	Snel	23	17
+1999-01-23	Hespa	Gemini	15	12
+1999-01-23	Juko	Celeritas (A)	13	12
+1999-01-23	Juliana	OJC '98	15	15
+1999-01-23	KOAG	Maassluis	24	13
+1999-01-23	KVA	Futura	17	18
+1999-01-23	KVS	Rodenburg	25	14
+1999-01-23	KZ	WK	25	14
+1999-01-23	De Kapellen	Swift	29	25
+1999-01-23	Keep Fit '70	Oosterkwartier (H)	16	15
+1999-01-23	LUTO	IJsselvogels	11	16
+1999-01-23	Luctor	Nikantes	17	5
+1999-01-23	MIK	Rapid (H)	17	13
+1999-01-23	Madjoe	Valto	11	16
+1999-01-23	Marfugels	Thrianta	13	13
+1999-01-23	De Meervogels	DOS-WK	21	17
+1999-01-23	De Meeuwen	Amicitia (V)	22	15
+1999-01-23	Merwede	Vriendenschaar (H)	15	18
+1999-01-23	Nic	Blauw Wit	28	20
+1999-01-23	Olympia (S)	BKC (Br)	16	10
+1999-01-23	Olympiek	Sperwers	16	15
+1999-01-23	Oost Arnhem	Sporting Trigon	24	20
+1999-01-23	Oranje Nassau (V)	RWA	14	11
+1999-01-23	PKC	Fortuna (D)	16	15
+1999-01-23	RKC²	OEC	26	19
+1999-01-23	Ready (H)	VADA	13	17
+1999-01-23	Reeuwijk	KZ Leiden	12	11
+1999-01-23	Rohda (A)	HKV / Ons Eibernest	18	15
+1999-01-23	Rust Roest (E)	TOP (A)	13	17
+1999-01-23	SCO	Achilles (H)	15	14
+1999-01-23	Sagitta	DVS '69	18	10
+1999-01-23	Stormvogels (W)	Oranje Zwart (M)	13	12
+1999-01-23	Swift (M)	Refleks	16	15
+1999-01-23	Tempo	Oranje Nassau	13	17
+1999-01-23	Ten Donck	Harga	11	12
+1999-01-23	Trekvogels (R)	OKV	21	25
+1999-01-23	VDW-OLS	OZC	15	17
+1999-01-23	VIOS (W)	Zwervers	25	6
+1999-01-23	VZOD	ZKC '31	16	17
+1999-01-23	De Vinken	Atlantis	23	14
+1999-01-23	Vitesse (Ba)	Nieuwerkerk	8	25
+1999-01-23	Vlaardingen	Tjoba	16	17
+1999-01-23	WION	TOP (S)	15	17
+1999-01-23	Weidevogels	De Bermen	14	14
+1999-01-23	Wit Blauw	Lege Geaen	22	19
+1999-01-23	ZKV (Za)	Synergo	17	16
+1999-01-27	De Meervogels	LDODK	20	16
+1999-01-30	Achilles (H)	KVS	11	16
+1999-01-30	Albatros	Bolnes	18	17
+1999-01-30	BEP	Synergo	13	12
+1999-01-30	De Bermen	Reeuwijk	14	10
+1999-01-30	Blauw Wit (H)	VDW-OLS	23	12
+1999-01-30	Blauw Wit	Die Haghe	17	23
+1999-01-30	Celeritas (A)	De Kapellen	17	19
+1999-01-30	DOS '46	PKC	16	14
+1999-01-30	DOS-WK	LDODK	20	20
+1999-01-30	DSO (K)	Stormvogels (W)	12	12
+1999-01-30	DVO	Nic	22	24
+1999-01-30	DVS '69	BKC (Br)	18	9
+1999-01-30	Dalto	VADA	17	20
+1999-01-30	Erasmus	Merwic	13	10
+1999-01-30	Fortuna (D)	AKC (Al)	20	18
+1999-01-30	GKV	Trekvogels (R)	21	27
+1999-01-30	Gemini	Diamco	17	17
+1999-01-30	Groen Geel	Oost Arnhem	25	24
+1999-01-30	HKV / Ons Eibernest	Deetos	14	21
+1999-01-30	IJsselvogels	Crescendo	13	14
+1999-01-30	KOAG	HKC (Ha)	20	15
+1999-01-30	KVA	LUTO	20	21
+1999-01-30	KZ Leiden	Olympiek	13	15
+1999-01-30	Klimop (A)	RKC²	13	13
+1999-01-30	Korbis	Luctor	15	10
+1999-01-30	Lege Geaen	Drachten	21	25
+1999-01-30	De Meeuwen	Marfugels	27	18
+1999-01-30	NIO	Ados	17	13
+1999-01-30	NKC '51	Amicitia (V)	8	21
+1999-01-30	Nieuwerkerk	Fortis	15	17
+1999-01-30	Nikantes	ACKC	10	20
+1999-01-30	ODO²	Danaiden	18	11
+1999-01-30	OEC	Juliana	10	13
+1999-01-30	OKV	Oosterkwartier (H)	15	12
+1999-01-30	ONDO (G)	Tempo	14	14
+1999-01-30	ONDO (M)	Sagitta	17	16
+1999-01-30	OZC	Antilopen	15	18
+1999-01-30	Olympia (S)	Oranje Nassau (V)	16	13
+1999-01-30	Oranje Nassau	Fiks	11	20
+1999-01-30	Oranje Wit (D)	Rohda (A)	28	19
+1999-01-30	Pernix	Atlantis	21	17
+1999-01-30	Phoenix (Z)	Excelsior (D)	16	20
+1999-01-30	Quick (D)	VIOS (W)	13	24
+1999-01-30	RWA	Good Luck	18	11
+1999-01-30	Rapid (H)	Madjoe	11	23
+1999-01-30	Ready (H)	Swift (M)	17	9
+1999-01-30	Refleks	Vlaardingen	12	12
+1999-01-30	Rodenburg	TOP (S)	26	33
+1999-01-30	Snel	Vitesse (Ba)	21	20
+1999-01-30	Sperwers	Harga	21	14
+1999-01-30	Sporting Trigon	DKOD	24	12
+1999-01-30	Steeds Hooger	De Meervogels	7	16
+1999-01-30	Stormvogels (U)	Badhoevedorp	12	21
+1999-01-30	Swift	Fiducia	17	19
+1999-01-30	TOP (A)	Ventura Sport	12	9
+1999-01-30	Ten Donck	Weidevogels	15	16
+1999-01-30	Thrianta	Wit Blauw	18	16
+1999-01-30	Tjoba	AW.DTV	11	15
+1999-01-30	De Tovers	Futura	16	19
+1999-01-30	VZOD	MIK	14	17
+1999-01-30	Valto	Dijkvogels	15	22
+1999-01-30	Velocitas (L)	ZKC '31	17	17
+1999-01-30	De Vinken	DKV (IJ)	11	16
+1999-01-30	Voltreffers (O)	Merwede	17	24
+1999-01-30	Vriendenschaar (H)	Rust Roest (E)	21	18
+1999-01-30	WION	KZ	19	17
+1999-01-30	WK	SCO	16	20
+1999-01-30	ZKV (Za)	Juko	25	11
+1999-02-06	AW.DTV	Refleks	15	8
+1999-02-06	Achilles (H)	WION	11	11
+1999-02-06	Celeritas (A)	ZKV (Za)	12	18
+1999-02-06	Erasmus	Zwervers	12	11
+1999-02-06	Harga	Weidevogels	15	15
+1999-02-06	Hespa	Stormvogels (U)	18	12
+1999-02-06	IJsselvogels	KVA	12	13
+1999-02-06	KZ Leiden	Ten Donck	26	20
+1999-02-06	Keep Fit '70	Danaiden	16	21
+1999-02-06	Kinderdijk	Maassluis	23	16
+1999-02-06	MIK	Velocitas (L)	19	20
+1999-02-06	OKV	ALO	27	14
+1999-02-06	Ready (H)	Dalto	16	16
+1999-02-06	Rust Roest (E)	Voltreffers (O)	17	14
+1999-02-06	Sperwers	Reeuwijk	17	16
+1999-02-06	Stormvogels (W)	Luctor	15	10
+1999-02-06	Tjoba	Swift (M)	30	21
+1999-02-06	Trekvogels (R)	ODO²	19	19
+1999-02-13	ACKC	Korbis	14	15
+1999-02-13	AKC (Al)	DOS '46	25	35
+1999-02-13	ALO	OKV	22	18
+1999-02-13	Antilopen	Blauw Wit (H)	20	17
+1999-02-13	Atlantis	Oranje Nassau	16	17
+1999-02-13	BKC (Br)	ONDO (M)	7	20
+1999-02-13	Bolnes	TOP (A)	13	12
+1999-02-13	Crescendo	KVA	15	13
+1999-02-13	DKOD	Groen Geel	9	22
+1999-02-13	DKV (IJ)	Pernix	18	12
+1999-02-13	Danaiden	Keep Fit '70	26	9
+1999-02-13	Deetos	Oranje Wit (D)	18	17
+1999-02-13	Die Haghe	DVO	24	14
+1999-02-13	Dijkvogels	Rapid (H)	25	12
+1999-02-13	Drachten	Thrianta	18	15
+1999-02-13	Excelsior (D)	IJsselvogels	19	12
+1999-02-13	Fiducia	Celeritas (A)	19	17
+1999-02-13	Fiks	ONDO (G)	17	14
+1999-02-13	Fortis	Snel	20	10
+1999-02-13	Futura	Phoenix (Z)	13	10
+1999-02-13	Good Luck	Olympia (S)	15	22
+1999-02-13	HKC (Ha)	Kinderdijk	20	20
+1999-02-13	Harga	KZ Leiden	11	12
+1999-02-13	Juko	BEP	16	20
+1999-02-13	KVS	WK	19	13
+1999-02-13	KZ	Rodenburg	21	14
+1999-02-13	De Kapellen	ZKV (Za)	21	23
+1999-02-13	LDODK	Steeds Hooger	21	18
+1999-02-13	LUTO	De Tovers	19	21
+1999-02-13	Lege Geaen	Amicitia (V)	25	23
+1999-02-13	Luctor	Oranje Zwart (M)	12	13
+1999-02-13	Maassluis	Nieuwerkerk	16	16
+1999-02-13	Madjoe	VZOD	22	19
+1999-02-13	Marfugels	NKC '51	18	7
+1999-02-13	De Meervogels	OZC	9	10
+1999-02-13	Merwede	Albatros	15	16
+1999-02-13	Nic	HKV / Ons Eibernest	26	21
+1999-02-13	Olympiek	De Bermen	16	8
+1999-02-13	Oost Arnhem	Fortuna (D)	23	15
+1999-02-13	Oosterkwartier (H)	GKV	13	14
+1999-02-13	Oranje Nassau (V)	DVS '69	17	16
+1999-02-13	PKC	Sporting Trigon	25	17
+1999-02-13	Reeuwijk	Ten Donck	18	15
+1999-02-13	Rohda (A)	Blauw Wit	18	24
+1999-02-13	SCO	WION	24	14
+1999-02-13	Sagitta	RWA	16	12
+1999-02-13	Stormvogels (W)	Nikantes	26	3
+1999-02-13	Swift (M)	Dalto	16	19
+1999-02-13	Synergo	Swift	22	13
+1999-02-13	TOP (S)	Achilles (H)	18	16
+1999-02-13	Tempo	De Vinken	19	13
+1999-02-13	VADA	Tjoba	14	11
+1999-02-13	VDW-OLS	DOS-WK	16	20
+1999-02-13	Ventura Sport	Vriendenschaar (H)	18	14
+1999-02-13	Vitesse (Ba)	KOAG	10	11
+1999-02-13	Vlaardingen	Ready (H)	16	21
+1999-02-13	Weidevogels	Sperwers	14	9
+1999-02-13	Wit Blauw	De Meeuwen	15	20
+1999-02-13	ZKC '31	Valto	16	11
+1999-02-20	ACKC	Luctor	13	10
+1999-02-20	ALO	Danaiden	15	20
+1999-02-20	Albatros	Rust Roest (E)	19	15
+1999-02-20	Aurora	Ados	18	18
+1999-02-20	BEP	Swift	26	16
+1999-02-20	De Bermen	Harga	6	13
+1999-02-20	Blauw Wit (H)	De Meervogels	20	17
+1999-02-20	Blauw Wit	Deetos	19	18
+1999-02-20	Bolnes	Merwede	14	18
+1999-02-20	Celeritas (A)	Synergo	15	15
+1999-02-20	DKV (IJ)	Tempo	17	15
+1999-02-20	DOS '46	Oost Arnhem	21	19
+1999-02-20	DOS-WK	Steeds Hooger	19	16
+1999-02-20	DVO	Rohda (A)	29	17
+1999-02-20	DVS '69	ONDO (M)	19	12
+1999-02-20	Dalto	Tjoba	18	16
+1999-02-20	Fortuna (D)	DKOD	25	11
+1999-02-20	Gemini	Badhoevedorp	15	16
+1999-02-20	HKC (Ha)	Vitesse (Ba)	20	20
+1999-02-20	HKV / Ons Eibernest	Oranje Wit (D)	19	20
+1999-02-20	Hespa	Diamco	15	14
+1999-02-20	IJsselvogels	Futura	10	18
+1999-02-20	Juko	De Kapellen	21	21
+1999-02-20	KOAG	Fortis	14	15
+1999-02-20	KVA	Excelsior (D)	9	20
+1999-02-20	KZ	SCO	25	23
+1999-02-20	Keep Fit '70	Trekvogels (R)	16	19
+1999-02-20	Kinderdijk	Nieuwerkerk	15	16
+1999-02-20	Korbis	Stormvogels (W)	11	11
+1999-02-20	LUTO	Crescendo	19	18
+1999-02-20	MIK	Madjoe	28	26
+1999-02-20	Marfugels	Wit Blauw	15	12
+1999-02-20	De Meeuwen	Drachten	24	22
+1999-02-20	NKC '51	Lege Geaen	11	17
+1999-02-20	Nic	Die Haghe	21	19
+1999-02-20	ODO²	Oosterkwartier (H)	25	15
+1999-02-20	OKV	GKV	17	18
+1999-02-20	ONDO (G)	Atlantis	20	16
+1999-02-20	OZC	LDODK	15	16
+1999-02-20	Olympia (S)	Sagitta	14	12
+1999-02-20	Oranje Nassau (V)	Good Luck	19	9
+1999-02-20	Oranje Zwart (M)	DSO (K)	18	13
+1999-02-20	PKC	AKC (Al)	25	16
+1999-02-20	PSV	RKC²	23	15
+1999-02-20	Pernix	Oranje Nassau	21	10
+1999-02-20	RWA	BKC (Br)	9	9
+1999-02-20	Rapid (H)	ZKC '31	16	25
+1999-02-20	Ready (H)	AW.DTV	17	23
+1999-02-20	Refleks	VADA	19	17
+1999-02-20	Rodenburg	Achilles (H)	22	24
+1999-02-20	Snel	Maassluis	19	14
+1999-02-20	Sperwers	KZ Leiden	15	14
+1999-02-20	Sporting Trigon	Groen Geel	19	26
+1999-02-20	Sportlust	Juliana	12	21
+1999-02-20	Stormvogels (U)	NIO	14	13
+1999-02-20	Swift (M)	Vlaardingen	15	15
+1999-02-20	TOP (A)	Vriendenschaar (H)	14	20
+1999-02-20	Ten Donck	Olympiek	10	12
+1999-02-20	Thrianta	Amicitia (V)	15	15
+1999-02-20	De Tovers	Phoenix (Z)	16	15
+1999-02-20	VDW-OLS	Antilopen	13	19
+1999-02-20	VZOD	Dijkvogels	13	16
+1999-02-20	Velocitas (L)	Valto	20	16
+1999-02-20	De Vinken	Fiks	17	21
+1999-02-20	Voltreffers (O)	Ventura Sport	13	13
+1999-02-20	WION	KVS	12	13
+1999-02-20	WK	TOP (S)	22	24
+1999-02-20	Weidevogels	Reeuwijk	13	10
+1999-02-20	ZKV (Za)	Fiducia	20	13
+1999-02-20	Zwervers	Quick (D)	12	14
+1999-02-27	AW.DTV	Swift (M)	10	11
+1999-02-27	Achilles (H)	WK	32	20
+1999-02-27	Atlantis	Tempo	15	18
+1999-02-27	BKC (Br)	Good Luck	17	21
+1999-02-27	DKOD	AKC (Al)	13	17
+1999-02-27	DOS-WK	Blauw Wit (H)	13	22
+1999-02-27	DSO (K)	Nikantes	23	10
+1999-02-27	DVS '69	Olympia (S)	14	15
+1999-02-27	Dalto	Ready (H)	26	12
+1999-02-27	Deetos	Die Haghe	30	26
+1999-02-27	Dijkvogels	MIK	33	8
+1999-02-27	Excelsior (D)	LUTO	24	17
+1999-02-27	Fiks	DKV (IJ)	23	25
+1999-02-27	Fortis	HKC (Ha)	20	15
+1999-02-27	Futura	Crescendo	24	14
+1999-02-27	GKV	ODO²	13	25
+1999-02-27	Groen Geel	Fortuna (D)	26	19
+1999-02-27	HKV / Ons Eibernest	DVO	19	11
+1999-02-27	Harga	Reeuwijk	12	12
+1999-02-27	KVS	KZ	19	15
+1999-02-27	KZ Leiden	De Bermen	17	12
+1999-02-27	Kinderdijk	KOAG	15	18
+1999-02-27	LDODK	Antilopen	12	19
+1999-02-27	Maassluis	Vitesse (Ba)	13	14
+1999-02-27	De Meervogels	VDW-OLS	28	20
+1999-02-27	Nieuwerkerk	Snel	14	10
+1999-02-27	OKV	Keep Fit '70	22	13
+1999-02-27	ONDO (M)	RWA	12	13
+1999-02-27	Olympiek	Weidevogels	14	11
+1999-02-27	Oost Arnhem	PKC	17	19
+1999-02-27	Oosterkwartier (H)	Danaiden	12	19
+1999-02-27	Oranje Nassau	ONDO (G)	15	19
+1999-02-27	Oranje Wit (D)	Blauw Wit	18	23
+1999-02-27	Oranje Zwart (M)	Korbis	13	17
+1999-02-27	Pernix	De Vinken	15	14
+1999-02-27	Phoenix (Z)	IJsselvogels	17	25
+1999-02-27	Rodenburg	WION	15	17
+1999-02-27	Rohda (A)	Nic	21	20
+1999-02-27	Rust Roest (E)	Bolnes	17	17
+1999-02-27	Sagitta	Oranje Nassau (V)	18	11
+1999-02-27	Sperwers	Ten Donck	17	11
+1999-02-27	Sporting Trigon	DOS '46	16	24
+1999-02-27	Steeds Hooger	OZC	18	17
+1999-02-27	TOP (A)	Albatros	16	20
+1999-02-27	TOP (S)	SCO	29	17
+1999-02-27	Tjoba	Refleks	21	15
+1999-02-27	De Tovers	KVA	14	19
+1999-02-27	Trekvogels (R)	ALO	16	17
+1999-02-27	VADA	Vlaardingen	21	19
+1999-02-27	Valto	Rapid (H)	10	5
+1999-02-27	Velocitas (L)	VZOD	11	24
+1999-02-27	Ventura Sport	Merwede	15	18
+1999-02-27	Vriendenschaar (H)	Voltreffers (O)	25	21
+1999-02-27	ZKC '31	Madjoe	21	10
+1999-03-06	ACKC	Stormvogels (W)	16	13
+1999-03-06	AKC (Al)	Oost Arnhem	16	27
+1999-03-06	ALO	Oosterkwartier (H)	21	21
+1999-03-06	Albatros	Vriendenschaar (H)	18	16
+1999-03-06	Antilopen	De Meervogels	14	15
+1999-03-06	Aurora	NIO	16	12
+1999-03-06	De Bermen	Sperwers	8	11
+1999-03-06	Blauw Wit '51	VIOS (W)	11	17
+1999-03-06	Blauw Wit (H)	Steeds Hooger	20	18
+1999-03-06	Blauw Wit	HKV / Ons Eibernest	21	19
+1999-03-06	Bolnes	Ventura Sport	13	11
+1999-03-06	Celeritas (A)	BEP	11	20
+1999-03-06	Crescendo	Excelsior (D)	11	15
+1999-03-06	DKV (IJ)	Atlantis	23	18
+1999-03-06	DOS '46	Groen Geel	27	13
+1999-03-06	DVO	Oranje Wit (D)	19	11
+1999-03-06	Danaiden	Trekvogels (R)	19	18
+1999-03-06	Die Haghe	Rohda (A)	25	21
+1999-03-06	Erasmus	Quick (D)	17	11
+1999-03-06	Fortuna (D)	Sporting Trigon	16	24
+1999-03-06	Gemini	Stormvogels (U)	23	14
+1999-03-06	Good Luck	Sagitta	6	12
+1999-03-06	HKC (Ha)	Maassluis	14	13
+1999-03-06	Hespa	Badhoevedorp	18	23
+1999-03-06	IJsselvogels	De Tovers	26	15
+1999-03-06	KOAG	Nieuwerkerk	16	13
+1999-03-06	KVA	Phoenix (Z)	13	14
+1999-03-06	KZ	TOP (S)	17	19
+1999-03-06	De Kapellen	Fiducia	22	15
+1999-03-06	Keep Fit '70	GKV	17	18
+1999-03-06	Korbis	DSO (K)	22	10
+1999-03-06	LUTO	Futura	8	26
+1999-03-06	Lege Geaen	De Meeuwen	19	20
+1999-03-06	MIK	ZKC '31	15	35
+1999-03-06	Madjoe	Dijkvogels	21	17
+1999-03-06	Marfugels	Amicitia (V)	17	9
+1999-03-06	Merwede	Rust Roest (E)	24	13
+1999-03-06	Nic	Deetos	19	23
+1999-03-06	Nikantes	Oranje Zwart (M)	4	15
+1999-03-06	ODO²	OKV	18	17
+1999-03-06	ONDO (G)	Pernix	13	15
+1999-03-06	OZC	DOS-WK	20	21
+1999-03-06	Olympia (S)	ONDO (M)	17	13
+1999-03-06	Oranje Nassau (V)	BKC (Br)	17	8
+1999-03-06	PKC	DKOD	23	10
+1999-03-06	RKC²	Juliana	11	13
+1999-03-06	RWA	DVS '69	17	17
+1999-03-06	Rapid (H)	Velocitas (L)	16	19
+1999-03-06	Ready (H)	Tjoba	12	14
+1999-03-06	Reeuwijk	Olympiek	13	18
+1999-03-06	Refleks	Dalto	18	31
+1999-03-06	SCO	KVS	20	22
+1999-03-06	Snel	Kinderdijk	17	17
+1999-03-06	Swift (M)	VADA	18	22
+1999-03-06	Tempo	Fiks	17	19
+1999-03-06	Ten Donck	KZ Leiden	22	16
+1999-03-06	Thrianta	NKC '51	18	12
+1999-03-06	VDW-OLS	LDODK	16	19
+1999-03-06	VZOD	Valto	13	6
+1999-03-06	De Vinken	Oranje Nassau	17	17
+1999-03-06	Vitesse (Ba)	Fortis	14	15
+1999-03-06	Vlaardingen	AW.DTV	12	10
+1999-03-06	Voltreffers (O)	TOP (A)	19	19
+1999-03-06	WION	Achilles (H)	17	17
+1999-03-06	WK	Rodenburg	16	24
+1999-03-06	Weidevogels	Harga	14	12
+1999-03-06	Wit Blauw	Drachten	20	17
+1999-03-06	ZKV (Za)	Swift	25	19
+1999-03-11	PKC	DOS '46	15	11
+1999-03-13	Harga	Olympiek	11	15
+1999-03-13	LUTO	Excelsior (D)	14	15
+1999-03-13	Nikantes	DSO (K)	13	18
+1999-03-13	OZC	Steeds Hooger	14	15
+1999-03-13	Refleks	Swift (M)	19	18
+1999-03-13	Vriendenschaar (H)	Merwede	13	12
+1999-03-13	ZKV (Za)	Celeritas (A)	25	25
+1999-03-20	Futura	Excelsior (D)	20	18
+1999-03-20	Harga	KZ Leiden	13	11
+1999-03-20	PKC	Nic	25	14
+1999-03-20	Sperwers	Olympiek	17	17
+1999-03-27	Emmen	De Pein	18	14
+1999-03-27	Rodenburg	OKO	14	15
+1999-03-27	WK	Leeuwarden	15	17
+1999-03-27	WSS	SIOS (W)	16	13
+1999-03-27	DFD	Ny Libben	15	14
+1999-03-27	DWA	Amicitia (V)	12	15
+1999-03-27	NKC '51	Joure	7	12
+1999-03-27	Atalante	Asko	10	16
+1999-03-27	Groen Zwart	EKCA	14	13
+1999-03-27	KVA	Futura	13	18
+1999-03-27	ZKV (Za)	Crescendo	14	5
+1999-03-27	Nieuwerkerk	ODO (M)	12	10
+1999-03-27	IJsselvogels	HKC (Ha)	9	9
+1999-03-27	Regenboog	Tilburg	11	10
+1999-03-27	Klimop (A)	DKV (Du)	19	18
+1999-03-27	PSV	NKV	12	15
+1999-03-27	OWK	Ritola	14	13
+1999-03-27	Kinea (K)	Goorecht	15	11
+1999-03-27	Korwi	TFS	12	17
+1999-03-27	Driehoek	Sparta (Ze)	14	28
+1999-03-27	De Hoeve	Lintjo	21	16
+1999-03-27	Vlug en Vaardig (G)	Stadskanaal '74	15	8
+1999-03-27	De Tovers	De Corvers	17	15
+1999-03-27	Fortissimo	't Overschotje	17	20
+1999-03-27	Noviomagum	Sporting West	18	16
+1999-03-27	Hellas '63	TOP (V)	12	16
+1999-03-27	Juventa	Unitas	17	15
+1999-03-27	Sparta (N)	DOS Kampen	18	13
+1999-03-27	Phoenix (Z)	Victoria (A)	19	8
+1999-03-27	RKC²	Hespa	15	15
+1999-03-27	Trekvogels (R)	ALO	20	20
+1999-03-27	HKC (U)	ZKC '31	18	13
+1999-03-27	OVVO	Pernix	13	13
+1999-03-27	Telstar	VEO	14	13
+1999-03-27	Maassluis	Bolnes	13	12
+1999-03-27	Sagitta	Ventura Sport	12	12
+1999-03-27	Juliana	DOT (O)	8	7
+1999-03-27	OJC '98	ODO²	20	17
+1999-03-27	SDO (V)	Zwijndrecht	16	18
+1999-03-27	Hermes (B)	Club Brothers	14	15
+1999-03-27	Meko '74	WWMD	12	13
+1999-03-27	ODA	ZKC '19	15	14
+1999-03-27	Sparta (W)	Dio	16	17
+1999-03-27	Friso (L)	Roreko	10	11
+1999-03-27	Hoogkerk	SDO (S)	26	15
+1999-03-27	Quick '21	Wez Warber	13	7
+1999-03-27	Vefo	Leonidas²	14	12
+1999-03-27	Argo	Frigro	3	14
+1999-03-27	ROG	DTS (S)	10	8
+1999-03-27	CSL	Invicta	14	5
+1999-03-27	De Waterpoort	De Granaet	7	16
+1999-03-27	Elburg	HHV	19	10
+1999-03-27	Elko	SDO (W)	14	10
+1999-03-27	HKC (He)	SIOS '61	18	18
+1999-03-27	Olympus '58	ZKC (Zu)	16	18
+1999-03-27	Phenix '72	Hellas	9	13
+1999-03-27	Animo (G)	DOS (W)	12	9
+1999-03-27	Kesteren	Exakwa	9	19
+1999-03-27	ODIK	SGV	12	10
+1999-03-27	Midlandia	Ermelo	12	16
+1999-03-27	Ados	Archipel	18	16
+1999-03-27	OKV	Hoger Op	18	12
+1999-03-27	Huizen	Juko	10	21
+1999-03-27	Watervliet	Haarlem	10	15
+1999-03-27	ESDO	Atlantis	9	10
+1999-03-27	ODI (A)	Madjoe	4	14
+1999-03-27	VZOD	DSO (A)	12	10
+1999-03-27	Quick (D)	Good Luck	12	14
+1999-03-27	DVS '69	Olympia (S)	10	11
+1999-03-27	Weidevogels	Oranje Zwart (M)	11	12
+1999-03-27	ACKC	VIOS (W)	13	12
+1999-03-27	RWA	ONDO (M)	9	10
+1999-03-27	Voltreffers (O)	Luctor	14	7
+1999-03-27	Eindhoven	Maastricht	15	11
+1999-03-27	Mariarade	Zwervers	15	12
+1999-03-27	Merwic	Sportlust	14	15
+1999-03-27	OEC	Boemerang	10	8
+1999-03-27	Blauw Wit (H)	Deetos	15	19
+1999-03-27	De Meervogels	Snel	13	12
+1999-03-27	De Kapellen	Thrianta	16	16
+1999-03-27	Lege Geaen	Drachten	14	14
+1999-03-27	SSS	Wit Blauw	13	11
+1999-03-27	Achilles (H)	Vlaardingen	13	17
+1999-03-27	SCO	OZC	17	14
+1999-03-27	Stanfries²	VDW-OLS	17	12
+1999-03-27	DOS-WK	WION	16	15
+1999-03-27	Fortuna (D)	EKC Naas	14	7
+1999-03-27	KZ	LUTO	11	14
+1999-03-27	Sporting Trigon	Ready (H)	22	15
+1999-03-27	VIOS (N)	Reeuwijk	10	13
+1999-03-27	Actief (R)	Eureka	24	12
+1999-03-27	Blauw Wit '51	TOV (D)	12	6
+1999-03-27	Unicum	ELKV	13	9
+1999-03-31	HKV / Ons Eibernest	Nic	18	18
+1999-03-31	Oost Arnhem	PKC	25	11
+1999-04-03	BEP	Crescendo	13	12
+1999-04-03	DKC (De)	Futura	9	12
+1999-04-03	Woudenberg	Fiducia	14	15
+1999-04-03	Excelsior (D)	Vitesse (Ba)	13	7
+1999-04-03	Albatros	Tempo	14	15
+1999-04-03	Phoenix (Z)	Danaiden	10	11
+1999-04-03	RKC²	Victoria (A)	12	10
+1999-04-03	OVVO	Telstar	19	10
+1999-04-03	Pernix	ZKC '31	16	12
+1999-04-03	Oranje Nassau (V)	ONDO (G)	10	14
+1999-04-03	Sagitta	TOP (A)	14	14
+1999-04-03	Diamco	Oosterkwartier (H)	14	12
+1999-04-03	Atlantis	VZOD	17	8
+1999-04-03	DTS (E)	Fluks (N)	11	10
+1999-04-03	Madjoe	ESDO	11	11
+1999-04-03	Keep Fit '70	Sperwers	15	15
+1999-04-03	Quick (D)	Erasmus	11	17
+1999-04-03	Korbis	DVS '69	15	16
+1999-04-03	Oranje Zwart (M)	Vriendenschaar (B)	8	7
+1999-04-03	RWA	Voltreffers (O)	13	16
+1999-04-03	VIOS (W)	ONDO (M)	12	12
+1999-04-03	Blauw Wit	Blauw Wit (H)	22	13
+1999-04-03	Deetos	KVS	19	16
+1999-04-03	Die Haghe	AKC (Al)	24	14
+1999-04-03	Groen Geel	Dalto	20	21
+1999-04-03	HKV / Ons Eibernest	PKC	15	16
+1999-04-03	De Meeuwen	DOS '46	17	25
+1999-04-03	Nic	Rohda (A)	29	11
+1999-04-03	VADA	Oost Arnhem	15	29
+1999-04-03	DVO	Oranje Wit (D)	19	18
+1999-04-03	Snel	Avanti (P)	15	13
+1999-04-03	DKOD	De Kapellen	10	14
+1999-04-03	Thrianta	SSS	18	19
+1999-04-03	OZC	VDW-OLS	23	19
+1999-04-03	SCO	Achilles (H)	18	17
+1999-04-03	Vlaardingen	Stanfries²	13	11
+1999-04-03	DOS-WK	Ready (H)	17	15
+1999-04-03	EKC Naas	KZ	15	28
+1999-04-03	Sporting Trigon	WION	14	8
+1999-04-03	Eureka	Unicum	9	13
+1999-04-07	VEO	OVVO	16	11
+1999-04-07	TOV (D)	Blauw Wit '51	7	14
+1999-04-10	AW.DTV	Crescendo	18	12
+1999-04-10	Futura	DKC (De)	19	13
+1999-04-10	KVA	BEP	12	16
+1999-04-10	ZKV (Za)	Celeritas (A)	19	12
+1999-04-10	Dindoa	Woudenberg	24	17
+1999-04-10	Fiducia	Tweemaal Zes	12	15
+1999-04-10	KIOS (N)	De Vinken	15	15
+1999-04-10	Oranje Zwart	Antilopen	14	13
+1999-04-10	Fiks	Nieuwerkerk	13	21
+1999-04-10	ODO (M)	Vriendenschaar (H)	14	16
+1999-04-10	Vitesse (Ba)	Excelsior (D)	9	12
+1999-04-10	ADO	KOAG	9	15
+1999-04-10	HKC (Ha)	GKV (G)	11	16
+1999-04-10	IJsselvogels	Albatros	18	18
+1999-04-10	Kinderdijk	Tempo	12	8
+1999-04-10	Danaiden	RODA (W)	15	11
+1999-04-10	Hespa	Victoria (A)	14	16
+1999-04-10	RKC²	ALO	5	13
+1999-04-10	Trekvogels (R)	Phoenix (Z)	11	12
+1999-04-10	DKV (IJ)	Pernix	15	14
+1999-04-10	OVVO	ZKC '31	11	19
+1999-04-10	Oranje Nassau	Telstar	14	13
+1999-04-10	VEO	HKC (U)	19	20
+1999-04-10	Bolnes	Sagitta	11	10
+1999-04-10	Merwede	Ventura Sport	17	14
+1999-04-10	ONDO (G)	Oranje Nassau (V)	19	13
+1999-04-10	TOP (A)	Maassluis	13	8
+1999-04-10	De Bermen	Diamco	13	13
+1999-04-10	GKV	Dubbel Zes '66	16	14
+1999-04-10	Olympiek	Dijkvogels	7	13
+1999-04-10	Oosterkwartier (H)	Waterland	14	14
+1999-04-10	Atlantis	Fluks (N)	19	8
+1999-04-10	ESDO	DTS (E)	11	6
+1999-04-10	Madjoe	VZOD	15	9
+1999-04-10	ODI (A)	DSO (A)	6	7
+1999-04-10	Erasmus	Good Luck	13	13
+1999-04-10	Harga	Keep Fit '70	12	11
+1999-04-10	Quick (D)	Terda	12	17
+1999-04-10	Ten Donck	Sperwers	15	23
+1999-04-10	DVS '69	Gemini	9	8
+1999-04-10	Olympia (S)	Oranje Zwart (M)	10	9
+1999-04-10	TOGO (G)	Vriendenschaar (B)	12	10
+1999-04-10	Weidevogels	Korbis	8	8
+1999-04-10	Luctor	DSO (K)	12	14
+1999-04-10	VIOS (W)	Stormvogels (W)	17	11
+1999-04-10	Voltreffers (O)	ACKC	20	12
+1999-04-10	AKC (Al)	KVS	20	18
+1999-04-10	Blauw Wit (H)	Groen Geel	20	25
+1999-04-10	Blauw Wit	Die Haghe	12	14
+1999-04-10	Deetos	Dalto	16	15
+1999-04-10	DOS '46	HKV / Ons Eibernest	12	11
+1999-04-10	Nic	De Meeuwen	21	11
+1999-04-10	Rohda (A)	Oost Arnhem	12	22
+1999-04-10	VADA	PKC	10	16
+1999-04-10	Fortis	DVO	12	14
+1999-04-10	De Meervogels	Swift (M)	15	16
+1999-04-10	Oranje Wit (D)	Snel	17	6
+1999-04-10	Tjoba	Avanti (P)	18	16
+1999-04-10	DKOD	Thrianta	13	15
+1999-04-10	Drachten	SSS	16	8
+1999-04-10	Lege Geaen	De Kapellen	16	22
+1999-04-10	Wit Blauw	Marfugels	13	9
+1999-04-10	Achilles (H)	OZC	15	12
+1999-04-10	Refleks	LDODK	12	16
+1999-04-10	SCO	Stanfries²	21	20
+1999-04-10	Vlaardingen	VDW-OLS	18	14
+1999-04-10	Fortuna (D)	Ready (H)	11	14
+1999-04-10	EKC Naas	DOS-WK	14	15
+1999-04-10	Sporting Trigon	KZ	20	15
+1999-04-10	WION	LUTO	14	13
+1999-04-10	DES (De)	Velocitas (L)	11	14
+1999-04-10	VIOS (N)	Spirit (Vl)	11	11
+1999-04-10	Valto	Reeuwijk	8	8
+1999-04-10	Actief (R)	TOV (D)	12	13
+1999-04-10	ELKV	Blauw Wit '51	7	10
+1999-04-10	KZ Leiden	Eureka	15	7
+1999-04-10	Springfield	Unicum	10	12
+1999-04-14	Erasmus	Ten Donck	13	11
+1999-04-14	Snel	Tjoba	15	16
+1999-04-17	Emmen	Rodenburg	14	19
+1999-04-17	Leeuwarden	OKO	10	16
+1999-04-17	SIOS (W)	WK	7	7
+1999-04-17	WSS	De Pein	11	14
+1999-04-17	ASVD	Ny Libben	20	18
+1999-04-17	DFD	NKC '51	10	8
+1999-04-17	Joure	DWA	14	16
+1999-04-17	Amicitia (V)	Udiros	19	11
+1999-04-17	Groen Zwart	Atalante	20	16
+1999-04-17	Rapiditas	EKCA	11	15
+1999-04-17	Steeds Hooger	Asko	17	12
+1999-04-17	Zwart Wit	Rigtersbleek	16	14
+1999-04-17	BEP	AW.DTV	20	20
+1999-04-17	Celeritas (A)	Futura	16	15
+1999-04-17	Crescendo	KVA	10	6
+1999-04-17	DKC (De)	ZKV (Za)	7	14
+1999-04-17	Antilopen	Dindoa	20	15
+1999-04-17	Tweemaal Zes	KIOS (N)	14	14
+1999-04-17	De Vinken	Fiducia	1	1
+1999-04-17	Woudenberg	Oranje Zwart	11	12
+1999-04-17	Excelsior (D)	Fiks	18	10
+1999-04-17	Nieuwerkerk	Vitesse (Ba)	16	13
+1999-04-17	TOP (S)	ODO (M)	15	10
+1999-04-17	Vriendenschaar (H)	SDO (K)	14	15
+1999-04-17	Albatros	Kinderdijk	9	11
+1999-04-17	GKV (G)	ADO	21	19
+1999-04-17	KOAG	HKC (Ha)	8	9
+1999-04-17	Tempo	IJsselvogels	15	14
+1999-04-17	Regenboog	Klimop (A)	18	15
+1999-04-17	NKV	Deto	15	19
+1999-04-17	PSV	Synergo	14	21
+1999-04-17	Tilburg	DKV (Du)	8	10
+1999-04-17	Harkema	Goorecht	25	12
+1999-04-17	Ritola	Advendo (TI)	24	12
+1999-04-17	Korwi	Kinea (K)	12	14
+1999-04-17	OWK	TFS	11	10
+1999-04-17	De Hoeve	Stadskanaal '74	11	13
+1999-04-17	Lintjo	Driehoek	12	14
+1999-04-17	Sparta (Ze)	Noordenveld	15	6
+1999-04-17	Vlug en Vaardig (G)	Flamingo's (B)	24	13
+1999-04-17	De Corvers	Nova	9	3
+1999-04-17	Fortissimo	Swift	21	15
+1999-04-17	Noviomagum	De Tovers	16	17
+1999-04-17	Sporting West	't Overschotje	25	13
+1999-04-17	Blauw Zwart	Unitas	11	8
+1999-04-17	DOS Kampen	Hellas '63	11	10
+1999-04-17	Juventa	TOP (V)	8	7
+1999-04-17	Rheko	Sparta (N)	10	10
+1999-04-17	ALO	Danaiden	9	12
+1999-04-17	Phoenix (Z)	Hespa	10	10
+1999-04-17	RODA (W)	RKC²	11	9
+1999-04-17	Victoria (A)	Trekvogels (R)	14	14
+1999-04-17	HKC (U)	OVVO	12	12
+1999-04-17	Pernix	Oranje Nassau	18	8
+1999-04-17	Telstar	DKV (IJ)	16	17
+1999-04-17	ZKC '31	VEO	14	20
+1999-04-17	Maassluis	ONDO (G)	10	11
+1999-04-17	Oranje Nassau (V)	TOP (A)	10	8
+1999-04-17	Ventura Sport	Bolnes	8	9
+1999-04-17	OJC '98	Rust Roest (E)	13	12
+1999-04-17	DOT (O)	Zwijndrecht	16	12
+1999-04-17	Keizer Karel	SDO (V)	15	11
+1999-04-17	ODO²	Juliana	8	17
+1999-04-17	Meko '74	ZKC '19	12	12
+1999-04-17	ODA	Hermes (B)	14	5
+1999-04-17	WWMD	Sparta (W)	14	11
+1999-04-17	Quick '21	Leonidas²	21	10
+1999-04-17	SDO (S)	Roreko	5	14
+1999-04-17	Vefo	Friso (L)	14	16
+1999-04-17	Wez Warber	Hoogkerk	7	7
+1999-04-17	Altijd Kwiek	Frigro	7	10
+1999-04-17	DTS (S)	De Parabool	13	10
+1999-04-17	ROG	It Fean	10	10
+1999-04-17	TDK	Argo	14	5
+1999-04-17	De Granaet	Tietjerk	13	13
+1999-04-17	De Waterpoort	Harich	4	12
+1999-04-17	Lemmer	CSL	9	15
+1999-04-17	SIM	Invicta	9	16
+1999-04-17	HHV	SDO (W)	7	10
+1999-04-17	Korfoes	Achilles (A)	13	12
+1999-04-17	Sparta (Zw)	Elburg	10	12
+1999-04-17	Duko	SIOS '61	15	7
+1999-04-17	Hellas	Zwaluwen (Ze)	5	14
+1999-04-17	Olympus '58	HKC (He)	13	12
+1999-04-17	Phenix '72	ZKC (Zu)	7	12
+1999-04-17	Phenix '72	Olympus '58	8	16
+1999-04-17	DOS (W)	Kesteren	14	6
+1999-04-17	ODIK	Animo (G)	15	10
+1999-04-17	SGV	Revival	12	12
+1999-04-17	VIKO	Exakwa	11	15
+1999-04-17	Arena	Midlandia	14	12
+1999-04-17	Hebbes	DOC	3	3
+1999-04-17	RDZ	KVO (S)	14	11
+1999-04-17	SKF	Ermelo	21	12
+1999-04-17	Diamco	GKV	21	13
+1999-04-17	Dijkvogels	Oosterkwartier (H)	20	11
+1999-04-17	Dubbel Zes '66	De Bermen	9	13
+1999-04-17	Waterland	Olympiek	11	15
+1999-04-17	Rapid (H)	Stormvogels (U)	13	10
+1999-04-17	Apollo	Archipel	7	12
+1999-04-17	Aurora	Hoger Op	17	7
+1999-04-17	OKV	Ados	20	15
+1999-04-17	Altius	Juko	15	23
+1999-04-17	Huizen	Soesterkwartier	7	10
+1999-04-17	Ede	Watervliet	20	2
+1999-04-17	Haarlem	Nieuw Flora	11	7
+1999-04-17	DSO (A)	Madjoe	14	15
+1999-04-17	DTS (E)	Atlantis	8	13
+1999-04-17	Fluks (N)	ESDO	9	9
+1999-04-17	Good Luck	Harga	5	7
+1999-04-17	Keep Fit '70	Erasmus	13	12
+1999-04-17	Sperwers	Quick (D)	18	8
+1999-04-17	Terda	Ten Donck	13	11
+1999-04-17	Gemini	Olympia (S)	8	11
+1999-04-17	Korbis	TOGO (G)	13	9
+1999-04-17	Oranje Zwart (M)	DVS '69	18	18
+1999-04-17	Vriendenschaar (B)	Weidevogels	10	13
+1999-04-17	ACKC	Luctor	10	9
+1999-04-17	DSO (K)	Voltreffers (O)	13	10
+1999-04-17	RWA	VIOS (W)	14	16
+1999-04-17	Stormvogels (W)	ONDO (M)	10	6
+1999-04-17	Boemerang	Merwic	15	12
+1999-04-17	Eindhoven	OEC	9	15
+1999-04-17	Maastricht	Zwervers	14	5
+1999-04-17	Mariarade	Sportlust	16	18
+1999-04-17	Blauw Wit	AKC (Al)	19	17
+1999-04-17	Dalto	Blauw Wit (H)	18	14
+1999-04-17	Groen Geel	Deetos	16	26
+1999-04-17	KVS	Die Haghe	15	15
+1999-04-17	HKV / Ons Eibernest	VADA	17	16
+1999-04-17	De Meeuwen	Rohda (A)	17	16
+1999-04-17	Oost Arnhem	Nic	18	13
+1999-04-17	PKC	DOS '46	13	12
+1999-04-17	Avanti (P)	Oranje Wit (D)	19	18
+1999-04-17	DVO	De Meervogels	13	11
+1999-04-17	Swift (M)	Fortis	13	12
+1999-04-17	De Kapellen	Wit Blauw	17	19
+1999-04-17	Marfugels	Lege Geaen	21	18
+1999-04-17	SSS	DKOD	9	8
+1999-04-17	Thrianta	Drachten	10	14
+1999-04-17	LDODK	SCO	14	8
+1999-04-17	OZC	Vlaardingen	17	20
+1999-04-17	Stanfries²	Refleks	11	14
+1999-04-17	VDW-OLS	Achilles (H)	14	9
+1999-04-17	DOS-WK	Fortuna (D)	24	22
+1999-04-17	KZ	WION	12	15
+1999-04-17	LUTO	Sporting Trigon	11	25
+1999-04-17	Ready (H)	EKC Naas	14	6
+1999-04-17	Reeuwijk	All-Ready	11	11
+1999-04-17	Spirit (Vl)	DES (De)	15	14
+1999-04-17	Velocitas (L)	VIOS (N)	11	8
+1999-04-17	Blauw Wit '51	Actief (R)	17	12
+1999-04-17	Eureka	Springfield	8	6
+1999-04-17	TOV (D)	ELKV	13	14
+1999-04-17	Unicum	KZ Leiden	14	8
+1999-04-24	Emmen	SIOS (W)	17	17
+1999-04-24	Rodenburg	De Pein	18	10
+1999-04-24	WK	OKO	13	24
+1999-04-24	WSS	Leeuwarden	13	18
+1999-04-24	ASVD	Amicitia (V)	13	12
+1999-04-24	DFD	Joure	10	7
+1999-04-24	DWA	Udiros	12	12
+1999-04-24	NKC '51	Ny Libben	10	16
+1999-04-24	Atalante	EKCA	15	13
+1999-04-24	Groen Zwart	Zwart Wit	11	17
+1999-04-24	Rigtersbleek	Asko	15	17
+1999-04-24	Steeds Hooger	Rapiditas	12	18
+1999-04-24	BEP	DKC (De)	26	9
+1999-04-24	Celeritas (A)	Crescendo	16	16
+1999-04-24	Futura	AW.DTV	20	20
+1999-04-24	Antilopen	Tweemaal Zes	16	17
+1999-04-24	Fiducia	Dindoa	11	11
+1999-04-24	Oranje Zwart	KIOS (N)	15	9
+1999-04-24	De Vinken	Woudenberg	15	14
+1999-04-24	Excelsior (D)	Vriendenschaar (H)	22	13
+1999-04-24	ODO (M)	Fiks	22	15
+1999-04-24	TOP (S)	Nieuwerkerk	23	15
+1999-04-24	Albatros	GKV (G)	18	18
+1999-04-24	HKC (Ha)	Kinderdijk	13	13
+1999-04-24	IJsselvogels	ADO	14	10
+1999-04-24	KOAG	Tempo	21	9
+1999-04-24	Deto	Klimop (A)	26	11
+1999-04-24	DKV (Du)	Synergo	13	11
+1999-04-24	NKV	Tilburg	7	11
+1999-04-24	PSV	Regenboog	13	11
+1999-04-24	Korwi	Ritola	11	20
+1999-04-24	OWK	Harkema	7	22
+1999-04-24	Advendo (TI)	Goorecht	13	11
+1999-04-24	Kinea (K)	TFS	18	14
+1999-04-24	De Hoeve	Vlug en Vaardig (G)	11	10
+1999-04-24	Flamingo's (B)	Driehoek	15	10
+1999-04-24	Sparta (Ze)	Lintjo	18	14
+1999-04-24	Stadskanaal '74	Noordenveld	9	12
+1999-04-24	't Overschotje	Nova	9	14
+1999-04-24	De Corvers	Noviomagum	17	10
+1999-04-24	Sporting West	Fortissimo	24	17
+1999-04-24	Swift	De Tovers	12	16
+1999-04-24	TOP (V)	Sparta (N)	10	11
+1999-04-24	Blauw Zwart	Juventa	10	20
+1999-04-24	DOS Kampen	Rheko	15	14
+1999-04-24	Unitas	Hellas '63	20	19
+1999-04-24	ALO	Victoria (A)	15	16
+1999-04-24	Hespa	Danaiden	9	15
+1999-04-24	Phoenix (Z)	RODA (W)	12	12
+1999-04-24	RKC²	Trekvogels (R)	11	17
+1999-04-24	DKV (IJ)	OVVO	17	11
+1999-04-24	Pernix	HKC (U)	16	10
+1999-04-24	VEO	Oranje Nassau	15	9
+1999-04-24	ZKC '31	Telstar	13	17
+1999-04-24	Bolnes	TOP (A)	14	15
+1999-04-24	ONDO (G)	Merwede	17	12
+1999-04-24	Oranje Nassau (V)	Sagitta	15	11
+1999-04-24	Ventura Sport	Maassluis	8	10
+1999-04-24	SDO (V)	Rust Roest (E)	14	16
+1999-04-24	Juliana	Zwijndrecht	17	4
+1999-04-24	Keizer Karel	ODO²	20	17
+1999-04-24	OJC '98	DOT (O)	11	12
+1999-04-24	Hermes (B)	ZKC '19	11	20
+1999-04-24	Meko '74	Dio	17	14
+1999-04-24	ODA	WWMD	13	14
+1999-04-24	Sparta (W)	Club Brothers	9	14
+1999-04-24	Friso (L)	Leonidas²	17	8
+1999-04-24	Hoogkerk	Roreko	13	13
+1999-04-24	SDO (S)	Quick '21	13	14
+1999-04-24	Vefo	Wez Warber	10	16
+1999-04-24	De Parabool	Argo	23	13
+1999-04-24	DTS (S)	Altijd Kwiek	14	12
+1999-04-24	Frigro	It Fean	14	14
+1999-04-24	TDK	ROG	15	14
+1999-04-24	De Granaet	SIM	18	16
+1999-04-24	Invicta	Harich	12	17
+1999-04-24	Lemmer	De Waterpoort	13	7
+1999-04-24	Tietjerk	CSL	14	21
+1999-04-24	Elko	Achilles (A)	15	10
+1999-04-24	Korfoes	HHV	9	11
+1999-04-24	Niek	Sparta (Zw)	10	20
+1999-04-24	HKC (He)	ZKC (Zu)	13	20
+1999-04-24	Olympus '58	Hellas	12	11
+1999-04-24	Phenix '72	Duko	20	21
+1999-04-24	Zwaluwen (Ze)	SIOS '61	23	11
+1999-04-24	DOS (W)	ODIK	11	19
+1999-04-24	Exakwa	Animo (G)	15	9
+1999-04-24	SGV	VIKO	11	7
+1999-04-24	Ermelo	DOC	14	14
+1999-04-24	KVO (S)	Midlandia	9	13
+1999-04-24	RDZ	SKF	10	15
+1999-04-24	Diamco	Waterland	14	14
+1999-04-24	Dijkvogels	Dubbel Zes '66	14	13
+1999-04-24	GKV	Oosterkwartier (H)	12	21
+1999-04-24	Olympiek	De Bermen	11	9
+1999-04-24	OKV	Rapid (H)	26	13
+1999-04-24	Ados	Hoger Op	16	11
+1999-04-24	Aurora	Apollo	18	15
+1999-04-24	Stormvogels (U)	Archipel	10	15
+1999-04-24	Altius	Huizen	19	16
+1999-04-24	Haarlem	Ede	12	13
+1999-04-24	Juko	Nieuw Flora	22	6
+1999-04-24	Soesterkwartier	Watervliet	18	10
+1999-04-24	ESDO	ODI (A)	14	13
+1999-04-24	Fluks (N)	DSO (A)	11	16
+1999-04-24	Madjoe	Atlantis	15	13
+1999-04-24	VZOD	DTS (E)	16	9
+1999-04-24	Good Luck	Sperwers	4	13
+1999-04-24	Terda	Keep Fit '70	12	13
+1999-04-24	Korbis	Gemini	12	9
+1999-04-24	Olympia (S)	Weidevogels	11	10
+1999-04-24	TOGO (G)	DVS '69	12	14
+1999-04-24	Vriendenschaar (B)	Oranje Zwart (M)	13	15
+1999-04-24	DSO (K)	Stormvogels (W)	8	17
+1999-04-24	Luctor	ONDO (M)	14	11
+1999-04-24	RWA	ACKC	13	12
+1999-04-24	VIOS (W)	Voltreffers (O)	19	15
+1999-04-24	Boemerang	Eindhoven	17	18
+1999-04-24	Zwervers	Merwic	4	16
+1999-04-24	Sportlust	OEC	15	16
+1999-04-24	AKC (Al)	Deetos	14	20
+1999-04-24	Blauw Wit (H)	Die Haghe	13	21
+1999-04-24	Dalto	Blauw Wit	16	22
+1999-04-24	KVS	Groen Geel	21	18
+1999-04-24	DOS '46	Nic	19	25
+1999-04-24	Oost Arnhem	HKV / Ons Eibernest	23	17
+1999-04-24	PKC	De Meeuwen	29	18
+1999-04-24	Rohda (A)	VADA	16	17
+1999-04-24	Avanti (P)	DVO	13	16
+1999-04-24	De Meervogels	Tjoba	14	13
+1999-04-24	Oranje Wit (D)	Fortis	18	14
+1999-04-24	Swift (M)	Snel	20	9
+1999-04-24	Drachten	Wit Blauw	18	19
+1999-04-24	De Kapellen	SSS	16	14
+1999-04-24	Lege Geaen	DKOD	14	12
+1999-04-24	Thrianta	Marfugels	15	15
+1999-04-24	Achilles (H)	Refleks	21	14
+1999-04-24	SCO	Vlaardingen	20	16
+1999-04-24	Stanfries²	OZC	19	11
+1999-04-24	VDW-OLS	LDODK	14	17
+1999-04-24	DOS-WK	LUTO	24	14
+1999-04-24	Fortuna (D)	WION	14	10
+1999-04-24	KZ	Ready (H)	17	16
+1999-04-24	Sporting Trigon	EKC Naas	27	12
+1999-04-24	Spirit (Vl)	Reeuwijk	15	14
+1999-04-24	VIOS (N)	All-Ready	9	14
+1999-04-24	Valto	DES (De)	12	11
+1999-04-24	Actief (R)	KZ Leiden	14	16
+1999-04-24	ELKV	Springfield	8	6
+1999-04-24	Eureka	Blauw Wit '51	11	10
+1999-04-24	TOV (D)	Unicum	11	11
+1999-04-28	AW.DTV	KVA	14	10
+1999-04-28	Crescendo	Futura	11	15
+1999-04-28	Albatros	KOAG	13	16
+1999-04-28	Trekvogels (R)	RKC²	18	7
+1999-04-28	VEO	Pernix	13	20
+1999-04-28	WION	Sporting Trigon	11	16
+1999-04-29	Merwede	Oranje Nassau (V)	15	9
+1999-04-29	De Bermen	Olympiek	13	9
+1999-04-29	VZOD	ODI (A)	21	16
+1999-04-29	Vriendenschaar (B)	DVS '69	7	15
+1999-04-29	OZC	Refleks	17	18
+1999-05-01	AW.DTV	Celeritas (A)	16	12
+1999-05-01	Crescendo	BEP	17	19
+1999-05-01	DKC (De)	KVA	10	17
+1999-05-01	ZKV (Za)	Futura	13	13
+1999-05-01	Dindoa	De Vinken	25	14
+1999-05-01	KIOS (N)	Fiducia	15	15
+1999-05-01	Tweemaal Zes	Oranje Zwart	11	13
+1999-05-01	Woudenberg	Antilopen	9	15
+1999-05-01	Fiks	TOP (S)	20	22
+1999-05-01	Nieuwerkerk	Excelsior (D)	12	14
+1999-05-01	SDO (K)	ODO (M)	17	14
+1999-05-01	ADO	HKC (Ha)	16	15
+1999-05-01	GKV (G)	IJsselvogels	16	16
+1999-05-01	Kinderdijk	KOAG	11	14
+1999-05-01	Tempo	Albatros	17	15
+1999-05-01	Danaiden	Phoenix (Z)	15	10
+1999-05-01	RODA (W)	ALO	15	15
+1999-05-01	Trekvogels (R)	Hespa	16	17
+1999-05-01	Victoria (A)	RKC²	11	9
+1999-05-01	HKC (U)	DKV (IJ)	13	14
+1999-05-01	OVVO	VEO	19	10
+1999-05-01	Oranje Nassau	ZKC '31	13	13
+1999-05-01	Telstar	Pernix	14	16
+1999-05-01	Maassluis	Oranje Nassau (V)	15	11
+1999-05-01	Merwede	Bolnes	16	12
+1999-05-01	Sagitta	ONDO (G)	11	17
+1999-05-01	TOP (A)	Ventura Sport	17	16
+1999-05-01	De Bermen	GKV	13	13
+1999-05-01	Dubbel Zes '66	Olympiek	13	9
+1999-05-01	Oosterkwartier (H)	Diamco	14	17
+1999-05-01	Waterland	Dijkvogels	13	12
+1999-05-01	Atlantis	ESDO	10	14
+1999-05-01	DSO (A)	VZOD	13	12
+1999-05-01	DTS (E)	Madjoe	6	18
+1999-05-01	ODI (A)	Fluks (N)	9	10
+1999-05-01	Erasmus	Sperwers	10	17
+1999-05-01	Keep Fit '70	Good Luck	11	8
+1999-05-01	Ten Donck	Quick (D)	11	15
+1999-05-01	DVS '69	Korbis	12	12
+1999-05-01	Gemini	Oranje Zwart (M)	16	14
+1999-05-01	Vriendenschaar (B)	Olympia (S)	7	9
+1999-05-01	Weidevogels	TOGO (G)	23	10
+1999-05-01	ACKC	DSO (K)	18	13
+1999-05-01	ONDO (M)	VIOS (W)	11	9
+1999-05-01	Stormvogels (W)	Luctor	17	19
+1999-05-01	Voltreffers (O)	RWA	16	12
+1999-05-01	Blauw Wit	KVS	21	15
+1999-05-01	Deetos	Blauw Wit (H)	18	11
+1999-05-01	Die Haghe	Dalto	23	14
+1999-05-01	Groen Geel	AKC (Al)	24	17
+1999-05-01	HKV / Ons Eibernest	Rohda (A)	14	14
+1999-05-01	De Meeuwen	Oost Arnhem	14	21
+1999-05-01	Nic	PKC	20	16
+1999-05-01	VADA	DOS '46	13	19
+1999-05-01	DVO	Swift (M)	24	22
+1999-05-01	Fortis	Avanti (P)	11	14
+1999-05-01	Snel	De Meervogels	10	10
+1999-05-01	Tjoba	Oranje Wit (D)	13	16
+1999-05-01	DKOD	Drachten	10	19
+1999-05-01	Drachten	Marfugels	14	18
+1999-05-01	Marfugels	De Kapellen	20	16
+1999-05-01	SSS	Lege Geaen	14	16
+1999-05-01	Wit Blauw	Thrianta	17	16
+1999-05-01	OZC	SCO	22	18
+1999-05-01	Refleks	VDW-OLS	18	11
+1999-05-01	Stanfries²	LDODK	17	18
+1999-05-01	Vlaardingen	Achilles (H)	12	13
+1999-05-01	LUTO	KZ	14	16
+1999-05-01	EKC Naas	Fortuna (D)	16	26
+1999-05-01	Ready (H)	Sporting Trigon	11	17
+1999-05-01	WION	DOS-WK	18	14
+1999-05-01	All-Ready	Valto	11	9
+1999-05-01	Reeuwijk	VIOS (N)	17	6
+1999-05-01	Velocitas (L)	Spirit (Vl)	13	10
+1999-05-01	Actief (R)	ELKV	17	14
+1999-05-01	Blauw Wit '51	KZ Leiden	11	13
+1999-05-01	Springfield	TOV (D)	3	9
+1999-05-01	Unicum	Eureka	17	12
+1999-05-06	IJsselvogels	GKV (G)	13	14
+1999-05-06	Quick (D)	Ten Donck	10	13
+1999-05-06	ONDO (M)	RWA	14	15
+1999-05-08	Leeuwarden	SIOS (W)	22	14
+1999-05-08	OKO	De Pein	14	9
+1999-05-08	WK	Emmen	20	12
+1999-05-08	WSS	Rodenburg	15	16
+1999-05-08	ASVD	NKC '51	23	9
+1999-05-08	DWA	DFD	5	11
+1999-05-08	Amicitia (V)	Joure	17	11
+1999-05-08	Udiros	Ny Libben	19	15
+1999-05-08	Zwart Wit	Rapiditas	14	12
+1999-05-08	Asko	EKCA	12	18
+1999-05-08	Rapiditas	Atalante	16	18
+1999-05-08	Rigtersbleek	Groen Zwart	14	19
+1999-05-08	Steeds Hooger	Zwart Wit	12	12
+1999-05-08	BEP	Futura	17	17
+1999-05-08	DKC (De)	Crescendo	9	14
+1999-05-08	KVA	Celeritas (A)	15	9
+1999-05-08	ZKV (Za)	AW.DTV	11	11
+1999-05-08	Antilopen	Fiducia	22	6
+1999-05-08	KIOS (N)	Dindoa	7	11
+1999-05-08	Oranje Zwart	De Vinken	20	13
+1999-05-08	Tweemaal Zes	Woudenberg	16	13
+1999-05-08	Excelsior (D)	ODO (M)	13	13
+1999-05-08	SDO (K)	Fiks	13	10
+1999-05-08	Vitesse (Ba)	TOP (S)	7	16
+1999-05-08	Vriendenschaar (H)	Nieuwerkerk	20	20
+1999-05-08	ADO	Kinderdijk	13	12
+1999-05-08	Albatros	HKC (Ha)	15	16
+1999-05-08	GKV (G)	Tempo	14	13
+1999-05-08	IJsselvogels	KOAG	9	10
+1999-05-08	Regenboog	Deto	11	19
+1999-05-08	DKV (Du)	NKV	11	19
+1999-05-08	PSV	Tilburg	13	16
+1999-05-08	Synergo	Klimop (A)	11	11
+1999-05-08	Harkema	Advendo (TI)	22	9
+1999-05-08	Harkema	Ritola	14	10
+1999-05-08	Advendo (TI)	Korwi	14	10
+1999-05-08	Goorecht	TFS	21	18
+1999-05-08	OWK	Kinea (K)	9	24
+1999-05-08	Driehoek	Noordenveld	16	15
+1999-05-08	Flamingo's (B)	De Hoeve	12	11
+1999-05-08	Lintjo	Vlug en Vaardig (G)	14	13
+1999-05-08	Sparta (Ze)	Stadskanaal '74	17	15
+1999-05-08	De Tovers	Nova	15	14
+1999-05-08	De Corvers	't Overschotje	13	11
+1999-05-08	Noviomagum	Fortissimo	14	13
+1999-05-08	Swift	Sporting West	20	18
+1999-05-08	TOP (V)	Blauw Zwart	11	12
+1999-05-08	DOS Kampen	Unitas	11	14
+1999-05-08	Rheko	Juventa	15	16
+1999-05-08	Sparta (N)	Hellas '63	25	20
+1999-05-08	ALO	Hespa	18	11
+1999-05-08	RKC²	Phoenix (Z)	12	13
+1999-05-08	Trekvogels (R)	Danaiden	17	13
+1999-05-08	Victoria (A)	RODA (W)	14	16
+1999-05-08	DKV (IJ)	ZKC '31	15	14
+1999-05-08	HKC (U)	Telstar	12	14
+1999-05-08	OVVO	Oranje Nassau	7	7
+1999-05-08	Pernix	VEO	7	12
+1999-05-08	Merwede	TOP (A)	21	18
+1999-05-08	ONDO (G)	Ventura Sport	23	5
+1999-05-08	Oranje Nassau (V)	Bolnes	9	13
+1999-05-08	Sagitta	Maassluis	13	17
+1999-05-08	Zwijndrecht	Rust Roest (E)	10	15
+1999-05-08	DOT (O)	ODO²	19	18
+1999-05-08	Juliana	Keizer Karel	10	7
+1999-05-08	OJC '98	SDO (V)	12	12
+1999-05-08	Club Brothers	ZKC '19	8	12
+1999-05-08	Dio	WWMD	16	7
+1999-05-08	Meko '74	Hermes (B)	21	10
+1999-05-08	Sparta (W)	ODA	13	11
+1999-05-08	Hoogkerk	Vefo	11	11
+1999-05-08	Quick '21	Friso (L)	13	10
+1999-05-08	Roreko	Leonidas²	9	8
+1999-05-08	SDO (S)	Wez Warber	8	14
+1999-05-08	Frigro	DTS (S)	11	10
+1999-05-08	It Fean	Argo	20	6
+1999-05-08	ROG	Altijd Kwiek	17	14
+1999-05-08	TDK	De Parabool	15	13
+1999-05-08	De Waterpoort	SIM	11	8
+1999-05-08	Harich	CSL	16	22
+1999-05-08	Invicta	De Granaet	7	4
+1999-05-08	Lemmer	Tietjerk	12	7
+1999-05-08	Elburg	Niek	22	8
+1999-05-08	HHV	Sparta (Zw)	13	12
+1999-05-08	Korfoes	Elko	18	18
+1999-05-08	SDO (W)	Achilles (A)	13	12
+1999-05-08	Duko	Hellas	13	12
+1999-05-08	Phenix '72	HKC (He)	11	8
+1999-05-08	SIOS '61	ZKC (Zu)	10	26
+1999-05-08	Zwaluwen (Ze)	Olympus '58	16	10
+1999-05-08	Animo (G)	Kesteren	12	12
+1999-05-08	DOS (W)	Revival	7	10
+1999-05-08	Exakwa	SGV	8	8
+1999-05-08	ODIK	VIKO	12	11
+1999-05-08	Arena	KVO (S)	12	17
+1999-05-08	DOC	Midlandia	13	11
+1999-05-08	Ermelo	RDZ	18	15
+1999-05-08	Hebbes	SKF	9	16
+1999-05-08	De Bermen	Oosterkwartier (H)	10	20
+1999-05-08	Dijkvogels	GKV	15	8
+1999-05-08	Dubbel Zes '66	Waterland	13	16
+1999-05-08	Olympiek	Diamco	14	12
+1999-05-08	Rapid (H)	Apollo	19	12
+1999-05-08	Archipel	Hoger Op	17	11
+1999-05-08	Aurora	Ados	13	11
+1999-05-08	Stormvogels (U)	OKV	8	11
+1999-05-08	Ede	Huizen	8	8
+1999-05-08	Soesterkwartier	Altius	8	20
+1999-05-08	Haarlem	Juko	11	14
+1999-05-08	Watervliet	Nieuw Flora	12	13
+1999-05-08	Atlantis	ODI (A)	15	6
+1999-05-08	DTS (E)	DSO (A)	5	14
+1999-05-08	Madjoe	Fluks (N)	17	12
+1999-05-08	VZOD	ESDO	13	8
+1999-05-08	Erasmus	Terda	11	15
+1999-05-08	Good Luck	Ten Donck	18	7
+1999-05-08	Quick (D)	Harga	16	18
+1999-05-08	Sperwers	Keep Fit '70	13	7
+1999-05-08	Olympia (S)	Korbis	12	12
+1999-05-08	Oranje Zwart (M)	TOGO (G)	15	8
+1999-05-08	Vriendenschaar (B)	Gemini	16	13
+1999-05-08	Weidevogels	DVS '69	7	8
+1999-05-08	DSO (K)	VIOS (W)	9	13
+1999-05-08	Luctor	RWA	4	14
+1999-05-08	ONDO (M)	Voltreffers (O)	12	12
+1999-05-08	Stormvogels (W)	ACKC	16	10
+1999-05-08	Boemerang	Zwervers	13	16
+1999-05-08	Eindhoven	Mariarade	16	25
+1999-05-08	OEC	Merwic	13	11
+1999-05-08	Sportlust	Maastricht	14	10
+1999-05-08	AKC (Al)	Dalto	22	15
+1999-05-08	Deetos	Die Haghe	21	19
+1999-05-08	Groen Geel	Blauw Wit	17	15
+1999-05-08	KVS	Blauw Wit (H)	18	13
+1999-05-08	HKV / Ons Eibernest	De Meeuwen	15	6
+1999-05-08	Oost Arnhem	DOS '46	17	15
+1999-05-08	Rohda (A)	PKC	6	11
+1999-05-08	VADA	Nic	15	20
+1999-05-08	De Meervogels	Avanti (P)	20	20
+1999-05-08	Snel	DVO	14	18
+1999-05-08	Swift (M)	Oranje Wit (D)	10	18
+1999-05-08	Tjoba	Fortis	9	14
+1999-05-08	DKOD	Wit Blauw	13	12
+1999-05-08	De Kapellen	Drachten	17	11
+1999-05-08	Lege Geaen	Thrianta	16	9
+1999-05-08	SSS	Marfugels	13	18
+1999-05-08	OZC	LDODK	12	11
+1999-05-08	SCO	VDW-OLS	18	20
+1999-05-08	Stanfries²	Achilles (H)	15	17
+1999-05-08	Vlaardingen	Refleks	19	14
+1999-05-08	KZ	Fortuna (D)	14	14
+1999-05-08	EKC Naas	WION	15	12
+1999-05-08	Ready (H)	LUTO	18	8
+1999-05-08	Sporting Trigon	DOS-WK	22	12
+1999-05-08	All-Ready	DES (De)	8	7
+1999-05-08	Reeuwijk	Velocitas (L)	10	9
+1999-05-08	Spirit (Vl)	Valto	14	18
+1999-05-08	Actief (R)	Springfield	14	9
+1999-05-08	Blauw Wit '51	Unicum	6	10
+1999-05-08	KZ Leiden	TOV (D)	13	13
+1999-05-12	Futura	Crescendo	17	17
+1999-05-12	KVA	ZKV (Za)	13	15
+1999-05-12	SDO (K)	TOP (S)	15	21
+1999-05-12	ADO	Albatros	19	16
+1999-05-12	GKV (G)	KOAG	13	11
+1999-05-12	Oranje Nassau (V)	Maassluis	9	13
+1999-05-12	Sagitta	Merwede	11	12
+1999-05-12	Ten Donck	Harga	13	10
+1999-05-12	Lege Geaen	SSS	17	11
+1999-05-12	Thrianta	Wit Blauw	12	12
+1999-05-12	Achilles (H)	LDODK	18	15
+1999-05-12	OZC	Stanfries²	19	21
+1999-05-12	EKC Naas	Sporting Trigon	14	13
+1999-05-12	Eureka	ELKV	1	0
+1999-05-15	De Pein	Leeuwarden	13	13
+1999-05-15	Rodenburg	WK	19	8
+1999-05-15	SIOS (W)	OKO	19	13
+1999-05-15	Joure	NKC '51	20	21
+1999-05-15	Joure	Udiros	19	17
+1999-05-15	Ny Libben	Amicitia (V)	9	8
+1999-05-15	NKC '51	DWA	14	18
+1999-05-15	Asko	Zwart Wit	17	15
+1999-05-15	Atalante	Rigtersbleek	17	13
+1999-05-15	EKCA	Steeds Hooger	16	17
+1999-05-15	Groen Zwart	Rapiditas	21	22
+1999-05-15	Zwart Wit	Asko	17	9
+1999-05-15	AW.DTV	DKC (De)	21	11
+1999-05-15	Celeritas (A)	BEP	20	20
+1999-05-15	Crescendo	ZKV (Za)	15	19
+1999-05-15	Futura	KVA	17	12
+1999-05-15	Dindoa	Tweemaal Zes	16	13
+1999-05-15	Fiducia	Oranje Zwart	6	11
+1999-05-15	De Vinken	Antilopen	10	17
+1999-05-15	Woudenberg	KIOS (N)	13	16
+1999-05-15	Fiks	Vriendenschaar (H)	13	10
+1999-05-15	Nieuwerkerk	SDO (K)	13	16
+1999-05-15	ODO (M)	Vitesse (Ba)	23	9
+1999-05-15	TOP (S)	Excelsior (D)	13	12
+1999-05-15	HKC (Ha)	IJsselvogels	15	11
+1999-05-15	KOAG	Albatros	13	10
+1999-05-15	Kinderdijk	GKV (G)	17	12
+1999-05-15	Tempo	ADO	15	14
+1999-05-15	Deto	DKV (Du)	13	14
+1999-05-15	Klimop (A)	PSV	17	17
+1999-05-15	NKV	Regenboog	17	18
+1999-05-15	Tilburg	Synergo	17	13
+1999-05-15	Ritola	Goorecht	17	15
+1999-05-15	TFS	Harkema	11	18
+1999-05-15	Kinea (K)	Advendo (TI)	22	10
+1999-05-15	Korwi	OWK	10	13
+1999-05-15	De Hoeve	Sparta (Ze)	11	17
+1999-05-15	Noordenveld	Lintjo	16	16
+1999-05-15	Stadskanaal '74	Flamingo's (B)	11	8
+1999-05-15	Vlug en Vaardig (G)	Driehoek	13	12
+1999-05-15	Nova	Noviomagum	10	13
+1999-05-15	't Overschotje	Swift	22	19
+1999-05-15	Fortissimo	De Tovers	14	24
+1999-05-15	Sporting West	De Corvers	25	14
+1999-05-15	Juventa	DOS Kampen	24	14
+1999-05-15	Rheko	TOP (V)	6	9
+1999-05-15	Blauw Zwart	DOS Kampen	12	13
+1999-05-15	Hellas '63	Rheko	19	12
+1999-05-15	Juventa	Sparta (N)	16	15
+1999-05-15	Unitas	TOP (V)	10	11
+1999-05-15	Danaiden	Victoria (A)	17	12
+1999-05-15	Hespa	RKC²	16	14
+1999-05-15	Phoenix (Z)	ALO	16	15
+1999-05-15	RODA (W)	Trekvogels (R)	11	18
+1999-05-15	Oranje Nassau	HKC (U)	19	17
+1999-05-15	Telstar	OVVO	14	16
+1999-05-15	VEO	DKV (IJ)	12	13
+1999-05-15	ZKC '31	Pernix	9	14
+1999-05-15	Bolnes	ONDO (G)	16	18
+1999-05-15	Maassluis	Merwede	10	13
+1999-05-15	TOP (A)	Sagitta	27	6
+1999-05-15	Ventura Sport	Oranje Nassau (V)	15	15
+1999-05-15	Zwijndrecht	ODO²	13	18
+1999-05-15	Rust Roest (E)	DOT (O)	19	13
+1999-05-15	Keizer Karel	OJC '98	18	12
+1999-05-15	ODO²	Zwijndrecht	19	16
+1999-05-15	SDO (V)	Juliana	10	15
+1999-05-15	Sparta (W)	Hermes (B)	18	7
+1999-05-15	ODA	Meko '74	10	16
+1999-05-15	WWMD	Club Brothers	17	11
+1999-05-15	ZKC '19	Dio	14	13
+1999-05-15	Friso (L)	Hoogkerk	14	18
+1999-05-15	Leonidas²	SDO (S)	12	12
+1999-05-15	Vefo	Quick '21	18	19
+1999-05-15	Wez Warber	Roreko	14	6
+1999-05-15	Altijd Kwiek	It Fean	8	9
+1999-05-15	Argo	ROG	9	12
+1999-05-15	De Parabool	Frigro	8	8
+1999-05-15	DTS (S)	TDK	31	5
+1999-05-15	De Granaet	Lemmer	13	7
+1999-05-15	Invicta	Tietjerk	12	9
+1999-05-15	SIM	Harich	13	11
+1999-05-15	Achilles (A)	HHV	12	10
+1999-05-15	Elko	Elburg	12	12
+1999-05-15	Niek	Korfoes	9	13
+1999-05-15	Sparta (Zw)	SDO (W)	19	13
+1999-05-15	Zwaluwen (Ze)	HKC (He)	10	8
+1999-05-15	Hellas	SIOS '61	11	6
+1999-05-15	HKC (He)	Zwaluwen (Ze)	13	18
+1999-05-15	ZKC (Zu)	Duko	25	18
+1999-05-15	Kesteren	ODIK	9	14
+1999-05-15	Revival	Exakwa	12	13
+1999-05-15	SGV	DOS (W)	9	10
+1999-05-15	VIKO	Animo (G)	12	14
+1999-05-15	Hebbes	DOC	13	14
+1999-05-15	KVO (S)	Ermelo	13	9
+1999-05-15	Midlandia	Hebbes	8	9
+1999-05-15	RDZ	Arena	18	14
+1999-05-15	SKF	DOC	20	12
+1999-05-15	Oosterkwartier (H)	Olympiek	15	13
+1999-05-15	GKV	De Bermen	28	12
+1999-05-15	Diamco	Dijkvogels	19	17
+1999-05-15	GKV	Olympiek	17	14
+1999-05-15	Oosterkwartier (H)	Dubbel Zes '66	11	10
+1999-05-15	Waterland	De Bermen	18	13
+1999-05-15	Rapid (H)	Archipel	12	20
+1999-05-15	Ados	Stormvogels (U)	23	4
+1999-05-15	Hoger Op	Apollo	14	19
+1999-05-15	OKV	Aurora	15	11
+1999-05-15	Altius	Haarlem	15	15
+1999-05-15	Huizen	Watervliet	11	12
+1999-05-15	Juko	Soesterkwartier	13	5
+1999-05-15	Nieuw Flora	Ede	7	9
+1999-05-15	DSO (A)	Atlantis	14	12
+1999-05-15	ESDO	Madjoe	15	5
+1999-05-15	Fluks (N)	VZOD	20	19
+1999-05-15	ODI (A)	DTS (E)	12	9
+1999-05-15	Erasmus	Quick (D)	16	8
+1999-05-15	Harga	Sperwers	9	13
+1999-05-15	Keep Fit '70	Quick (D)	18	10
+1999-05-15	Ten Donck	Erasmus	16	12
+1999-05-15	Terda	Good Luck	3	9
+1999-05-15	Gemini	Weidevogels	16	25
+1999-05-15	Korbis	Oranje Zwart (M)	12	7
+1999-05-15	ACKC	ONDO (M)	9	9
+1999-05-15	RWA	DSO (K)	17	13
+1999-05-15	VIOS (W)	Luctor	14	13
+1999-05-15	Voltreffers (O)	Stormvogels (W)	14	11
+1999-05-15	Zwervers	Sportlust	18	18
+1999-05-15	Maastricht	Boemerang	13	9
+1999-05-15	Mariarade	OEC	11	11
+1999-05-15	Merwic	Eindhoven	23	11
+1999-05-15	Blauw Wit (H)	AKC (Al)	11	13
+1999-05-15	Blauw Wit	Deetos	8	14
+1999-05-15	Dalto	KVS	19	15
+1999-05-15	Die Haghe	Groen Geel	14	9
+1999-05-15	DOS '46	Rohda (A)	15	18
+1999-05-15	De Meeuwen	VADA	14	20
+1999-05-15	Nic	HKV / Ons Eibernest	20	18
+1999-05-15	PKC	Oost Arnhem	22	15
+1999-05-15	Avanti (P)	Swift (M)	16	10
+1999-05-15	DVO	Tjoba	27	14
+1999-05-15	Fortis	Snel	14	17
+1999-05-15	Oranje Wit (D)	De Meervogels	11	18
+1999-05-15	Drachten	Lege Geaen	17	17
+1999-05-15	Marfugels	DKOD	16	11
+1999-05-15	Thrianta	De Kapellen	11	11
+1999-05-15	Wit Blauw	SSS	15	14
+1999-05-15	Achilles (H)	SCO	14	7
+1999-05-15	LDODK	Vlaardingen	16	10
+1999-05-15	Refleks	OZC	12	8
+1999-05-15	VDW-OLS	Stanfries²	18	7
+1999-05-15	DOS-WK	KZ	21	19
+1999-05-15	Fortuna (D)	Sporting Trigon	20	17
+1999-05-15	LUTO	EKC Naas	20	19
+1999-05-15	WION	Ready (H)	13	19
+1999-05-15	DES (De)	Reeuwijk	13	12
+1999-05-15	Velocitas (L)	All-Ready	12	9
+1999-05-15	ELKV	KZ Leiden	6	11
+1999-05-15	Springfield	Blauw Wit '51	11	13
+1999-05-15	Unicum	Actief (R)	11	18
+1999-05-19	Vitesse (Ba)	SDO (K)	15	21
+1999-05-22	SDO (K)	Excelsior (D)	15	12
+1999-05-22	Oost Arnhem	Nic	18	16
+1999-05-22	Eureka	Actief (R)	16	14
+1999-05-22	Unicum	TOV (D)	14	9
+1999-05-29	DVS '69	Vriendenschaar (B)	15	7
+1999-05-29	TOGO (G)	Olympia (S)	8	9
+1999-05-29	Valto	VIOS (N)	21	9
+1999-05-29	Actief (R)	Unicum	13	10
+1999-05-29	TOV (D)	Eureka	6	8

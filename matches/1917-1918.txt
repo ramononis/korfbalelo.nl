@@ -1,0 +1,267 @@
+1917-09-09	DED	DVS	6	6
+	OSCR	Fluks	4	6
+	Velox	HSV	3	20
+	ALO	Vitesse (Haag)	9	3
+	Excelsior	Olympia	3	4
+	ODIS²	WKC (Wo)	5	2
+	HOC²	Amersfoort	3	5
+	EKCA	Onder Ons	2	7
+	Be Quick	ZKC (Zu)	4	4
+	UDI	Frisia	0	25
+1917-09-16	OSCA	DVD²	0	6
+	Vitesse (Leiden)	HSV	3	3
+	OSCR	Vitesse (Haag)	5	4
+	AW	Excelsior	4	1
+	Velocitas	Advendo	4	2
+	Merwestad	Dordt	1	4
+	PSV	Helmond	9	1
+	UDI	Friso (L)	1	21
+1917-09-23	Haarlem	DED	4	10
+	HSV	Fluks	3	3
+	ALO	Velox	6	4
+	Olympia	Amersfoort	1	0
+	DOSO	Velocitas	5	6
+	BEP	ODIS²	6	1
+	Quick (Arn)	Onder Ons	0	5
+1917-09-30	OSCA	DOS	1	6
+	Vitesse (Haag)	Vitesse (Leiden)	0	8
+	Fluks	Velox	10	0
+	Excelsior	Amersfoort	21	0
+	Olympia	AW	3	4
+	Rozenburg	Spartaan	1	2
+	Jong Holland	WKC (Wo)	0	1
+	Friso (L)	Frisia	3	5
+	Wilhelmina	DOS	3	2
+	HKC (He)	TOP (H)	4	5
+1917-10-07	Wilhelmina	TOP (H)	4	3
+	HKC (He)	DOS (E)	4	4
+	AKC (Al)	Naas	8	0
+	Delden	UD (Al)	5	2
+1917-10-14	DEV	DTV	3	5
+	EKCA	Quick (Arn)	3	2
+	Friso (H)	Stanfries	2	1
+	Sparta (A)	VOS	7	2
+1917-10-21	Haarlem	OSCA	6	3
+	DTV	DED	2	3
+	Velox	Vitesse (Leiden)	5	2
+	Vitesse (Haag)	HSV	1	3
+	ALO	OKK	4	2
+	Dordt	Merwestad	7	2
+	BEP	Jong Holland	5	3
+	TOGO (H)	Rood Wit (H)	1	22
+	ZKC (Zu)	HS	11	1
+	Frisia	Friso (L)	8	5
+	Ready (A)	VOS	4	3
+	Naas	Wilhelmina	3	9
+	DOS (E)	AKC (Al)	14	0
+1917-10-28	DOS	Haarlem	4	4
+	DVD²	DED	5	3
+	OSCR	Velox	3	4
+	ALO	Fluks	0	1
+	Olympia	Excelsior	5	6
+	Advendo	DOSO	7	2
+	BKC (DB)	Quick (Arn)	3	3
+	HS	Be Quick	3	1
+	Frisia	UDI	11	1
+	MKC (Me)	Friso (H)	2	3
+	Wilhelmina	HKC (He)	5	7
+1917-11-04	OSCA	DEV	1	9
+	DED	DOS	10	1
+	DVD²	Haarlem	16	4
+	Vitesse (Leiden)	OSCR	6	2
+	Velox	Fluks	0	1
+	HSV	ALO	7	0
+	RSGV	Merwestad	1	2
+	BEP	WKC (Wo)	6	1
+	Onder Ons	Quick (Arn)	1	1
+	Stanfries	MKC (Me)	3	1
+	Animo	DDV	5	1
+	DVS	HW	2	1
+	Naas	TOP (H)	1	7
+1917-11-11	DEV	DED	7	5
+	OKK	Fluks	2	2
+	HSV	OSCR	13	0
+	Velox	Vitesse (Haag)	5	4
+	Excelsior	AW	1	2
+	Jong Holland	ODIS²	4	0
+	Vitesse (Be)	MKC (Me)	5	3
+	Hercules	Avanti	10	1
+	VOS	Sparta (A)	3	12
+	HKC (He)	AKC (Al)	6	5
+	TOP (H)	DOS (E)	3	3
+1917-11-18	DTV	DVD²	8	1
+	DED	OSCA	16	1
+	DEV	DOS	11	3
+	OKK	OSCR	1	3
+	Vitesse (Leiden)	ALO	7	2
+	Vitesse (Haag)	Fluks	1	1
+	Amersfoort	AW	1	3
+	Avanti	DDV	5	7
+	AKC (Al)	Wilhelmina	3	8
+	DOS (E)	Naas	9	2
+1917-12-02	Haarlem	DOS	7	2
+	Victoria (V)	Dordt	2	1
+	AKC (Al)	TOP (H)	1	5
+1917-12-16	Rozenburg	Excelsior	0	5
+	AW	Hercules	3	3
+	HSV	Vitesse (Leiden)	2	1
+	OSCR	ALO	5	2
+	HS	Mercedes	1	1
+1918-01-06	OSCA	DED	1	12
+	ALO	HSV	0	5
+	Avanti	Animo	3	8
+	Hercules	DDV	6	5
+1918-01-13	DVD²	DTV	5	7
+	DOS	OSCA	3	5
+	DED	Haarlem	11	2
+	Fluks	HSV	3	0
+	Vitesse (Haag)	Velox	3	2
+	ALO	Vitesse (Leiden)	3	2
+1918-01-20	DTV	DOS	18	6
+	DED	DEV	7	5
+	Vitesse (Leiden)	OKK	13	0
+	Vitesse (Haag)	OSCR	8	2
+	Velox	ALO	3	2
+	Merwestad	Victoria (V)	6	3
+	Rozenburg	Amicitia	4	4
+	Mercedes	HS	2	4
+	PSV	Helmond	4	2
+1918-01-27	OSCA	Haarlem	12	0
+	DVD²	DEV	3	8
+	OSCR	Vitesse (Leiden)	0	4
+	HSV	Velox	8	2
+	Fluks	ALO	13	1
+	OKK	Vitesse (Haag)	3	3
+	Advendo	Velocitas	1	1
+	HKC (He)	Wilhelmina	2	2
+	Avanti	Hercules	4	6
+	VOS	Ready (A)	5	4
+1918-02-03	Haarlem	DTV	4	7
+	Vitesse (Haag)	ALO	5	1
+	Amicitia	Rozenburg	3	1
+	WKC (Wo)	ODIS²	0	0
+	Quick (Arn)	EKCA	0	4
+	Mercedes	ZKC (Zu)	1	3
+	UDI	Friso (L)	1	18
+	Animo	Avanti	8	5
+	DOS (E)	TOP (H)	1	7
+1918-02-10	Vitesse (Haag)	OKK	3	1
+	Velocitas	DOSO	1	1
+	Animo	Hercules	0	1
+1918-02-17	OSCA	DTV	0	10
+	DOS	DEV	4	13
+	Haarlem	DVD²	1	6
+	OKK	Vitesse (Leiden)	0	5
+	ALO	OSCR	2	1
+	Fluks	Vitesse (Haag)	5	0
+	Amersfoort	Excelsior	2	1
+	WKC (Wo)	BEP	3	2
+	Rood Wit (H)	TOGO (H)	4	1
+	HW	DVS	11	4
+	TOP (H)	Wilhelmina	4	2
+1918-02-24	DED	DTV	4	4
+	OKK	ALO	5	1
+	Fluks	Vitesse (Leiden)	1	0
+	HSV	Vitesse (Haag)	6	2
+	AW	Olympia	5	0
+	Spartaan	Amicitia	0	1
+	Jong Holland	BEP	3	4
+	Onder Ons	EKCA	9	1
+	Be Quick	HS	7	2
+	AKC (Al)	HKC (He)	2	4
+1918-03-03	DTV	Haarlem	6	2
+	DOSO	DVD²	2	2
+	DEV	OSCA	7	1
+	Fluks	OSCR	13	0
+	Velox	OKK	3	5
+	Amersfoort	Olympia	1	2
+	Victoria (V)	Merwestad	3	3
+	ZKC (Zu)	Be Quick	3	6
+	Frisia	Friso (L)	3	5
+	DDV	Avanti	8	4
+	DOS (E)	Wilhelmina	3	4
+	Naas	HKC (He)	1	17
+1918-03-10	Haarlem	DEV	4	16
+	DVD²	OSCA	8	1
+	Vitesse (Leiden)	Vitesse (Haag)	9	0
+	HSV	OKK	9	2
+	AW	Amersfoort	3	1
+	Spartaan	Rozenburg	0	7
+	ODIS²	BEP	0	4
+	Mercedes	Be Quick	3	4
+1918-03-17	DOSO	DED	1	4
+	DEV	DVD²	4	3
+	Vitesse (Leiden)	Fluks	1	8
+	OKK	HSV	0	4
+	Velox	OSCR	2	3
+	ODIS²	Jong Holland	3	1
+	ZKC (Zu)	Mercedes	7	3
+	UDI	Frisia	0	23
+	DDV	Animo	10	4
+	Wilhelmina	AKC (Al)	8	0
+	DOS (E)	HKC (He)	2	6
+1918-03-24	DTV	DEV	7	5
+	Fluks	OKK	10	1
+	OSCR	HSV	1	2
+	WKC (Wo)	Jong Holland	0	9
+	TOP (H)	HKC (He)	2	5
+	Sparta (A)	Ready (A)	4	2
+1918-03-31	DOSO	DTV	1	5
+1918-04-07	OSCR	OKK	9	1
+	Fluks	DTV	1	1
+	Hercules	Animo	11	4
+1918-04-14	DVD²	DOSO	6	4
+	OKK	Velox	3	1
+	Be Quick	Mercedes	6	2
+	Helmond	PSV	0	13
+	DTV	Fluks	2	0
+	DDV	Hercules	6	3
+1918-04-21	Onder Ons	DTV	1	6
+1918-04-28	Ready (A)	Sparta (A)	4	5
+1918-05-05	Friso (L)	Frisia	3	5
+1918-05-12	Onder Ons	Quick (Arn)	3	1
+	DOSO	EKCA	4	1
+	Quick (Arn)	DOSO	2	5
+	Quick (Arn)	EKCA	1	3
+	Onder Ons	EKCA	2	2
+	Onder Ons	DOSO	0	5
+	ZKC (Zu)	AW	0	2
+	Be Quick	Amersfoort	1	0
+	Be Quick	Mercedes	2	1
+	Mercedes	Amersfoort	1	4
+1918-05-19	HSV	Vitesse (Haag)	3	1
+	OSCR	ALO	1	1
+	OKK	Fluks	1	6
+	OSCR	HSV	3	2
+	Fluks	OSCR	4	1
+	Amicitia	Rood Wit (H)	3	2
+	RODA (W)	BKC (DB)	2	4
+	Jong Holland	BKC (DB)	3	0
+1918-05-26	DTV	Onder Ons	10	2
+1918-06-16	DED	DOSO	1	0
+	BEP	KZ	2	1
+	RODA (W)	Olympia	1	5
+1918-06-23	Excelsior	Haarlem	1	0
+	DED	Velocitas	3	0
+	Advendo	Animo	4	1
+	Ready (A)	Olympia	0	3
+1918-07-07	Excelsior	DED	0	8
+	Avanti	Advendo	1	2
+	Advendo	DDV	1	1
+1917-12-09	Steeds Voorwaarts	Zeelandia	2	1
+1917-12-23	HBS (G)	Steeds Voorwaarts	8	7
+1918-02-10	Steeds Voorwaarts	HBS (G)	2	1
+1918-04-28	Zeelandia	Steeds Voorwaarts	0	1
+1918-05-05	Steeds Voorwaarts	HHD	7	2
+1918-05-12	Zeelandia	Steeds Voorwaarts	3	5
+1918-05-19	Six Semper	HHD	2	3
+1918-05-26	HHD	Zeelandia	6	4
+1918-06-02	Steeds Voorwaarts	Six Semper	2	1
+1918-06-16	HHD	Steeds Voorwaarts	2	5
+1918-06-23	Steeds Voorwaarts	Zeelandia	10	4
+1918-06-30	HHD	Six Semper	8	1
+1918-07-07	HHD	Zeelandia	3	5
+	VTV	Sparta (V)	6	3
+1918-07-14	Six Semper	Steeds Voorwaarts	3	4
+1918-07-28	Six Semper	Zeelandia	1	4
+1918-07-28	Six Semper	VTV	7	2

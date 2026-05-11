@@ -1,0 +1,190 @@
+1912-09-22	MHS	DVD²	3	11
+	DTV	DOS	6	3
+	ALO	Vitesse (Leiden)	1	7
+	Quick (Arn)	Onder Ons	9	2
+	Noviomagum	EKCA	2	3
+1912-10-06	MHS	DEV	4	12
+	EDO	Noviomagum	10	1
+	Onder Ons	Victoria	10	1
+1912-10-13	OSCA	DVD²	2	18
+	DEV	DTV	6	7
+	KZ	DES	1	7
+	UD	AW	6	4
+	OSCR	Vitesse (Haag)	6	2
+	Swift (G)	OKK	2	4
+	Victoria	EDO	6	9
+	Noviomagum	Quick (Arn)	2	4
+	TOP (H)	ASC	10	4
+1912-10-20	DOS	DEV	2	10
+	DTV	MHS	10	3
+	SDO	DED	7	7
+	DES	UD	4	6
+	Velox	ALO	6	2
+	Vitesse (Haag)	Vitesse (Leiden)	2	2
+	EKCA	EDO	0	2
+	Quick (Arn)	Victoria	5	1
+1912-10-27	DOS	DVD²	3	6
+	UD	TOG	10	1
+	AW	DES	4	6
+	ALO	OSCR	5	6
+	Vitesse (Leiden)	Velox	15	3
+	Onder Ons	Noviomagum	12	2
+	Victoria	EKCA	2	6
+	DOS (E)	TOP (H)	1	2
+1912-11-03	HOC²	TOG	6	4
+	OSCR	Vitesse (Leiden)	0	5
+	HSV	Amicitia	3	2
+	EDO	Quick (Arn)	5	5
+1912-11-10	DVD²	OSCA	16	3
+	DEV	DOS	5	1
+	DES	TOG	9	5
+	KZ	UD	3	6
+	AW	HOC²	8	3
+	TOP (Sch)	ZOV	5	4
+	Velox	OSCR	4	3
+	Vitesse (Leiden)	Vitesse (Haag)	11	3
+	Delft	HSV	0	13
+	Noviomagum	Victoria	6	4
+	Quick (Arn)	EDO	3	5
+	Onder Ons	EKCA	3	4
+1912-11-17	DVD²	DEV	15	2
+	MHS	DTV	6	9
+	TOG	AW	1	9
+	UD	DES	2	7
+	ZOV	Excelsior	6	1
+	EDO	Onder Ons	3	0
+	Victoria	Quick (Arn)	1	9
+1912-11-24	DVD²	MHS	12	6
+	DTV	OSCA	10	5
+	HOC²	UD	1	8
+	ALO	Velox	5	3
+	EKCA	Noviomagum	2	1
+1912-12-01	DEV	OSCA	14	2
+	Vitesse (Haag)	Velox	6	6
+1912-12-08	DOS	OSCA	4	7
+	TOP (Sch)	Excelsior	8	3
+1912-12-15	HOC²	KZ	5	2
+	AW	TOG	10	6
+	ALO	Vitesse (Haag)	3	4
+1912-12-22	OSCA	DOS	7	7
+	DTV	DVD²	5	4
+	ZOV	TOP (Sch)	5	3
+	EKCA	Onder Ons	1	2
+1913-01-05	Velox	DEV	6	11
+	MHS	DVD²	3	7
+	ALO	DTV	3	6
+	DOS	OSCR	3	2
+	TOG	DES	1	11
+	AW	KZ	6	2
+	UD	HOC²	2	5
+	Excelsior	ZOV	2	1
+	EKCA	Quick (Arn)	0	1
+1913-01-19	DEV	MHS	4	2
+	DOS	DTV	5	7
+	TOG	UD	0	7
+	HOC²	AW	7	9
+	DES	KZ	14	5
+	Excelsior	TOP (Sch)	5	2
+	Velox	Vitesse (Leiden)	1	3
+	Victoria	Onder Ons	0	8
+1913-01-26	DTV	DEV	10	4
+	MHS	OSCA	4	1
+	DVD²	DOS	8	2
+	Vitesse (Haag)	OSCR	5	3
+	Amicitia	HSV	1	6
+	EKCA	Victoria	5	0
+	Noviomagum	EDO	0	13
+1913-02-02	DVD²	DTV	5	3
+	OSCA	DEV	4	4
+	AW	UD	2	1
+	OSCR	Velox	2	4
+	Vitesse (Leiden)	ALO	5	3
+	Quick (Arn)	EKCA	4	2
+	Noviomagum	Onder Ons	0	5
+1913-02-09	DEV	DOS	11	3
+	DVD²	DTV	6	3
+	TOG	KZ	2	4
+	DES	HOC²	10	4
+	Velox	Vitesse (Haag)	3	1
+	Delft	Amicitia	5	2
+	Onder Ons	Quick (Arn)	1	3
+	EDO	EKCA	1	2
+	DOS (E)	ASC	10	2
+1913-02-16	MHS	DOS	6	11
+	OSCA	DTV	3	2
+	DEV	DVD²	3	3
+	TOG	HOC²	3	2
+	UD	KZ	8	5
+	Vitesse (Haag)	ALO	5	3
+	Amicitia	Delft	6	2
+	Victoria	Noviomagum	4	5
+	Onder Ons	EDO	2	5
+	ASC	DOS (E)	4	8
+	Goor	Boekelo	1	8
+1913-02-23	DOS	MHS	9	3
+	HOC²	DES	10	1
+	OSCR	ALO	3	2
+	HSV	Delft	6	2
+	OKK	Swift (G)	10	3
+	DOS (E)	Noviomagum	5	3
+	EDO	Victoria	11	2
+1913-03-02	KZ	HOC²	8	4
+	TOP (H)	DOS (E)	5	2
+	KZ	TOG	2	6
+1913-03-09	DVD²	Vitesse (Leiden)	5	4
+	ALO	HSV	5	1
+1913-03-16	HSV	ALO	2	3
+	Fluks	OKK	2	0
+1913-03-30	Vitesse (Leiden)	DVD²	2	1
+	KZ	AW	4	6
+	OKK	Fluks	2	1
+1913-04-06	DEV	DVD²	0	2
+	DES	MHS	9	3
+	Fluks	Delft	3	0
+	ASC	TOP (H)	9	1
+1913-04-13	DVD²	Vitesse (Leiden)	4	5
+	Delft	Fluks	3	2
+	Naas	Deventer	2	4
+1913-04-21	DES	AW	3	4
+	AW	Vitesse (Haag)	5	4
+	AKC (Ap)	Naas	3	4
+1913-04-28	Deventer	AKC (Ap)	9	2
+	Boekelo	ASC	6	7
+1913-05-05	DEV	DES	2	0
+	DOS	DVD²	2	4
+	OSCA	DTV	1	2
+	DEV	DVD²	3	2
+	DEV	DTV	3	4
+	UD	AW	2	1
+	DED	UD	0	3
+	TOG	HOC²	1	1
+1913-05-18	AKC (Ap)	Deventer	0	1
+1913-05-19	Velox	DOS	0	1
+	ALO	DVD²	0	2
+	Velox	ALO	2	1
+	DVD²	DOS	1	0
+	Quick (Arn)	MHS	1	0
+	AW	EKCA	0	2
+	HSV	EDO	1	2
+	EKCA	EDO	1	6
+	EDO	Quick (Arn)	1	0
+	Victoria	Onder Ons	1	1
+	TOG	Noviomagum	4	3
+	TOG	Onder Ons	1	1
+	TOG	Fluks	1	0
+	Wilhelmina	DOS (E)	1	6
+	Wilhelmina	Fluks	1	3
+	DOS (E)	AKC (Ap)	4	0
+1913-05-25	Deventer	Naas	5	9
+1913-06-15	Naas	AKC (Ap)	11	2
+1913-06-29	BKC (DB)	Naas	12	3
+	BKC (DB)	TOP (H)	5	3
+1913-09-07	EDO	EKCA	1	3
+	Quick (Arn)	Noviomagum	5	1
+	Victoria	HS	6	2
+	EKCA	Quick (Arn)	0	6
+	EKCA	Onder Ons	4	5
+	Quick (Arn)	Onder Ons	2	1
+	Deventer	Victoria	2	7
+	Deventer	KIOS (Z)	1	12
+	Victoria	KIOS (Z)	2	1

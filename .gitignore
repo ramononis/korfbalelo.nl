@@ -1,0 +1,25 @@
+src/main/resources/matches/
+web/dist/
+web/node_modules/
+out/
+.idea/
+.gradle/
+standings
+build/
+.kotlin
+
+cache
+accuracy.csv
+accuracy_plot.png
+commands.txt
+opponents.txt
+./ranking.csv
+tiers.csv
+todo.txt
+
+# Local Netlify folder
+.netlify
+
+/ranking.csv
+
+archive

@@ -1,0 +1,95 @@
+{
+  "id": "veld2526vj__veld2627nj",
+  "tierOrder": ["ek", "ekd", "hk", "ok", "1k", "2k", "3k", "4k"],
+  "simpleVacancyChain": {
+    "targetTiers": ["hk", "ok", "1k", "2k", "3k", "4k"],
+    "sameTierPositions": [3, 4],
+    "lowerTierPositions": [2, 3, 4]
+  },
+  "groups": [
+    { "id": "ek", "poulePattern": "^EK-\\d+$", "expectedPoules": 4 },
+    { "id": "ekd", "poulePattern": "^EK-D-\\d+$", "expectedPoules": 4 },
+    { "id": "hk", "poulePattern": "^HK-.*$", "expectedPoules": 8 },
+    { "id": "ok", "poulePattern": "^OK-.*$", "expectedPoules": 8 },
+    { "id": "1k", "poulePattern": "^1-.*$", "expectedPoules": 12 },
+    { "id": "2k", "poulePattern": "^2-.*$", "expectedPoules": 11 },
+    { "id": "3k", "poulePattern": "^3-.*$", "expectedPoules": 12 },
+    { "id": "4k", "poulePattern": "^4-.*$", "expectedPoules": 8 }
+  ],
+  "draws": [
+    { "id": "ek-winners", "groupId": "ek", "position": 1, "shuffle": true }
+  ],
+  "rules": [
+    { "id": "ek-1-4", "type": "direct", "groupId": "ek", "positions": [1, 2, 3, 4], "tier": "ek" },
+
+    { "id": "ekd-1-2", "type": "direct", "groupId": "ekd", "positions": [1, 2], "tier": "ek" },
+    { "id": "ekd-3-4", "type": "direct", "groupId": "ekd", "positions": [3, 4], "tier": "hk" },
+
+    { "id": "hk-1", "type": "direct", "groupId": "hk", "positions": [1], "tier": "ek" },
+    { "id": "hk-2-3", "type": "direct", "groupId": "hk", "positions": [2, 3], "tier": "hk" },
+    { "id": "hk-4", "type": "direct", "groupId": "hk", "positions": [4], "tier": "ok" },
+
+    { "id": "ok-1", "type": "direct", "groupId": "ok", "positions": [1], "tier": "hk" },
+    { "id": "ok-2", "type": "direct", "groupId": "ok", "positions": [2], "tier": "ok" },
+    { "id": "ok-3-best4", "type": "ranked", "groupId": "ok", "position": 3, "selection": "best", "count": 4, "tier": "ok" },
+    { "id": "ok-3-rest", "type": "ranked", "groupId": "ok", "position": 3, "selection": "rest", "count": 4, "onlyUnassigned": true, "tier": "1k" },
+    { "id": "ok-4", "type": "direct", "groupId": "ok", "positions": [4], "tier": "1k" },
+
+    { "id": "1k-1", "type": "direct", "groupId": "1k", "positions": [1], "tier": "ok" },
+    { "id": "1k-2-3", "type": "direct", "groupId": "1k", "positions": [2, 3], "tier": "1k" },
+    { "id": "1k-4", "type": "direct", "groupId": "1k", "positions": [4], "tier": "2k" },
+
+    { "id": "2k-1-4team", "type": "direct", "groupId": "2k", "positions": [1], "allowedPouleSizes": [4], "tier": "1k" },
+    { "id": "2k-2-3-4team", "type": "direct", "groupId": "2k", "positions": [2, 3], "allowedPouleSizes": [4], "tier": "2k" },
+    { "id": "2k-4-4team", "type": "direct", "groupId": "2k", "positions": [4], "allowedPouleSizes": [4], "tier": "3k" },
+    { "id": "2k-1-2-7team", "type": "direct", "groupId": "2k", "positions": [1, 2], "allowedPouleSizes": [7], "tier": "1k" },
+    { "id": "2k-3-6-7team", "type": "direct", "groupId": "2k", "fromPosition": 3, "toPosition": 6, "allowedPouleSizes": [7], "tier": "2k" },
+    { "id": "2k-7-7team", "type": "direct", "groupId": "2k", "positions": [7], "allowedPouleSizes": [7], "tier": "3k" },
+
+    { "id": "3k-1", "type": "direct", "groupId": "3k", "positions": [1], "tier": "2k" },
+    { "id": "3k-2-3", "type": "direct", "groupId": "3k", "positions": [2, 3], "tier": "3k" },
+    { "id": "3k-4", "type": "direct", "groupId": "3k", "positions": [4], "tier": "4k" },
+
+    { "id": "4k-1", "type": "direct", "groupId": "4k", "positions": [1], "tier": "3k" },
+    { "id": "4k-2-7team", "type": "direct", "groupId": "4k", "positions": [2], "allowedPouleSizes": [7], "tier": "3k" },
+    { "id": "4k-2-best2", "type": "ranked", "groupId": "4k", "position": 2, "selection": "best", "count": 2, "onlyUnassigned": true, "tier": "3k" },
+    { "id": "4k-2-rest", "type": "direct", "groupId": "4k", "positions": [2], "onlyUnassigned": true, "tier": "4k" },
+    { "id": "4k-3plus", "type": "direct", "groupId": "4k", "fromPosition": 3, "tier": "4k" }
+  ],
+  "playoffs": [
+    {
+      "id": "outdoor-championship",
+      "stages": [
+        {
+          "id": "ek-semi-1",
+          "type": "single",
+          "teamA": { "drawId": "ek-winners", "slot": 1 },
+          "teamB": { "drawId": "ek-winners", "slot": 2 },
+          "date": "2026-06-14",
+          "neutral": true
+        },
+        {
+          "id": "ek-semi-2",
+          "type": "single",
+          "teamA": { "drawId": "ek-winners", "slot": 3 },
+          "teamB": { "drawId": "ek-winners", "slot": 4 },
+          "date": "2026-06-14",
+          "neutral": true
+        },
+        {
+          "id": "ek-final",
+          "type": "single",
+          "teamA": { "winnerOf": "ek-semi-1" },
+          "teamB": { "winnerOf": "ek-semi-2" },
+          "date": "2026-06-21",
+          "neutral": true
+        }
+      ],
+      "placements": [
+        { "selector": { "winnerOf": "ek-semi-1" }, "event": "final" },
+        { "selector": { "winnerOf": "ek-semi-2" }, "event": "final" },
+        { "selector": { "winnerOf": "ek-final" }, "event": "champion" }
+      ]
+    }
+  ]
+}

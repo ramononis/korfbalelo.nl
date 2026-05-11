@@ -1,0 +1,210 @@
+1914-10-04	OSCA	DOS	0	10
+	DEV	DED	9	8
+	UKC	Baarn	5	2
+	Vitesse (Haag)	Velox	10	3
+	Fluks	OSCR	9	0
+	Spartaan	Dordt	1	4
+	MAAS	Rozenburg	7	0
+1914-10-11	DTV	DVD²	6	7
+	Haarlem	HOC²	4	5
+	Excelsior	AW	6	1
+	LB	Bussum	12	0
+	HSV	Vitesse (Haag)	4	7
+	Vitesse (Leiden)	Fluks	6	2
+1914-10-18	DEV	DOS	6	8
+	OSCA	DED	2	3
+	UKC	LB	4	5
+	Bussum	Baarn	8	6
+	Vitesse (Haag)	OSCR	7	1
+	Spartaan	OKK	0	5
+	Residentie	Rozenburg	0	7
+1914-10-25	DVD²	OSCA	6	8
+	DED	DTV	7	8
+	Excelsior	KZ	3	9
+	AW	UD	4	8
+	HSV	Fluks	3	6
+	Vitesse (Leiden)	Vitesse (Haag)	7	3
+	WIK	Rozenburg	12	1
+	DOSO	UNI	1	2
+	DVS	Hercules	2	8
+	Deventer	Wilhelmina	5	10
+1914-11-01	Excelsior	UD	9	8
+	LB	Baarn	7	5
+	UKC	Bussum	8	3
+	OSCR	Velox	6	2
+	Fluks	Vitesse (Leiden)	3	1
+	Dordt	OKK	1	2
+	EKCA	Onder Ons	4	7
+	Victoria	Quick (Arn)	0	10
+	Naas	TOP (H)	1	6
+	Wilhelmina	DOS (E)	3	5
+1914-11-08	DVD²	DOS	5	3
+	OSCA	DEV	3	7
+	ODIS	Haarlem	0	8
+	AW	KZ	2	6
+	Velox	Vitesse (Haag)	3	7
+	Vitesse (Leiden)	HSV	6	2
+	Onder Ons	Quick (Arn)	3	3
+	HSV	EDO	6	6
+	DOS (E)	Deventer	4	3
+	TOP (H)	Naas	6	0
+1914-11-22	Quick (Arn)	EKCA	1	2
+	HSV	Onder Ons	0	15
+	Haarlem	Excelsior	2	6
+	AW	HOC²	1	5
+	Wilhelmina	Naas	1	4
+	Deventer	DOS (E)	4	2
+1914-11-29	DVD²	DEV	2	5
+	OSCA	DTV	1	4
+	LB	UKC	9	2
+	Baarn	Bussum	4	13
+	OSCR	Fluks	4	5
+	HSV	Vitesse (Leiden)	2	1
+	Dordt	RSGV	3	1
+	Victoria	Onder Ons	1	12
+	Quick (Arn)	EDO	6	1
+	Hercules	DVS	5	1
+	TOP (H)	Wilhelmina	12	3
+	Naas	Deventer	4	2
+1914-12-06	DOS	OSCA	7	4
+	DVD²	DED	8	5
+	KZ	Excelsior	5	5
+	Fluks	HSV	2	0
+	RSGV	OKK	3	2
+	HSV	EKCA	0	17
+	WIK	MAAS	3	1
+	DOS (E)	TOP (H)	2	5
+1914-12-13	DVD²	DTV	4	1
+	Baarn	LB	5	0
+	Bussum	UKC	11	2
+	Vitesse (Haag)	Fluks	8	0
+	RSGV	Spartaan	5	0
+	Victoria	EDO	1	4
+1914-12-20	DOS	DEV	8	4
+	DED	OSCA	3	3
+	Fluks	Velox	9	2
+	Vitesse (Haag)	HSV	5	2
+	Victoria	HSV	4	3
+	EKCA	EDO	1	3
+	UNI	TOP (Sch)	2	8
+1914-12-27	EKCA	Victoria	10	1
+1915-01-03	DTV	DOS	6	2
+	DED	DVD²	2	7
+	Baarn	UKC	4	2
+	HSV	Velox	10	1
+	Rozenburg	Residentie	12	0
+1915-01-10	DED	DOS	5	10
+	DEV	DTV	2	4
+	UD	AW	4	3
+	Velox	HSV	3	4
+	EDO	Victoria	5	2
+1915-01-17	DOS	DTV	3	4
+	DED	DEV	4	4
+	UD	Excelsior	6	9
+	Velox	OSCR	2	2
+	RSGV	Dordt	0	5
+	Quick (Arn)	Victoria	4	3
+	Wilhelmina	TOP (H)	3	11
+1915-01-24	DOS	DVD²	2	8
+	DTV	OSCA	7	0
+	HOC²	Haarlem	12	4
+	UD	KZ	8	5
+	AW	Excelsior	2	9
+	OSCR	HSV	3	3
+	OKK	Spartaan	7	3
+	Rozenburg	MAAS	2	0
+	Onder Ons	EKCA	2	3
+	EDO	Quick (Arn)	1	12
+1915-02-07	DOS	DED	4	4
+	DEV	DVD²	3	7
+	OSCR	Vitesse (Haag)	2	3
+	Vitesse (Leiden)	Velox	16	1
+	EDO	EKCA	0	5
+	HSV	Quick (Arn)	1	11
+1915-02-14	Velox	Fluks	1	6
+	Rozenburg	WIK	3	1
+	Quick (Arn)	HSV	26	1
+	Onder Ons	EDO	18	0
+	Deventer	TOP (H)	1	4
+1915-02-21	DTV	DED	5	6
+	DEV	OSCA	7	2
+	KZ	AW	17	2
+	HSV	OSCR	7	3
+	Fluks	Vitesse (Haag)	3	2
+	HSV	Victoria	3	3
+	EKCA	Quick (Arn)	3	1
+	Naas	DOS (E)	7	4
+	TOP (Sch)	DOSO	4	3
+1915-02-28	DTV	DEV	2	4
+	Vitesse (Haag)	Vitesse (Leiden)	3	2
+	UNI	DOSO	3	4
+	TOP (H)	Deventer	11	5
+	DOS (E)	Naas	4	1
+1915-03-07	TOP (Sch)	UNI	9	3
+1915-03-14	Wilhelmina	Deventer	3	4
+	HKC (He)	Ready	6	4
+	KZ	UD	4	4
+	Velox	Vitesse (Leiden)	1	13
+	Dordt	Spartaan	5	0
+	RSGV	Rozenburg	1	8
+	Victoria	EKCA	1	8
+	Quick (Arn)	Onder Ons	2	11
+	OSCA	DOS	5	5
+	DEV	DTV	1	8
+1915-03-21	Vitesse (Leiden)	OSCR	6	3
+	Spartaan	RSGV	6	4
+	OKK	Dordt	1	2
+	Onder Ons	Victoria	19	0
+	DVD²	Vitesse (Haag)	5	2
+	Wilhelmina	TOP (H)	5	4
+1915-03-28	OKK	RSGV	5	0
+	EDO	HSV	4	2
+	DVD²	Onder Ons	12	1
+	Velox	ALO	3	2
+1915-04-04	Vitesse (Haag)	Onder Ons	11	4
+	DVD²	ALO	5	1
+	DED	DOS	2	13
+	Ready	HKC (He)	2	7
+1915-04-11	Onder Ons	Vitesse (Haag)	2	6
+	DVD²	DTV	8	6
+	DOS (E)	Wilhelmina	3	10
+1915-04-18	Onder Ons	DVD²	1	7
+	Bussum	Animo	3	1
+	ALO	Velox	4	3
+1915-04-25	Vitesse (Haag)	DVD²	7	5
+	Naas	Wilhelmina	5	11
+	TOP (H)	DOS (E)	14	0
+1915-05-02	ALO	Velox	2	2
+1915-05-09	DVD²	Vitesse (Haag)	4	1
+1915-05-23	UNI	Hercules	7	2
+1915-05-24	EKCA	TOP (H)	4	1
+	TOP (H)	EKCA	6	1
+	DOS (E)	Deventer	1	0
+	Naas	AKV	4	1
+1915-05-30	Hercules	UNI	1	0
+1915-05-06	UNI	Hercules	0	0
+1915-08-29	Vitesse (Haag)	DTV	0	4
+	DOS	DEV	0	7
+	DTV	DEV	2	0
+	HOC²	Haarlem	1	6
+	Advendo	ODIS	1	3
+	Haarlem	ODIS	9	1
+1915-09-05	DVD²	Vitesse (Leiden)	3	2
+	Baarn	Bussum	0	4
+	Bussum	UKC	2	0
+1914-10-11	VKC (Ve)	SSS (Z)	3	5
+1915-05-02	VOMOS	UNA (S)	2	3
+1915-05-09	UNA (S)	DDK (Z)	15	0
+1915-05-16	TOP (Ap)	LKC	2	5
+1915-05-23	DDK (Z)	Quick (OP)	3	0
+1915-06-06	VOMOS	DDK (Z)	2	2
+1915-06-13	VOMOS	LKC	7	1
+	TOP (Ap)	UNA (S)	1	10
+1915-06-20	UNA (S)	NKC (Nw)	15	2
+	DDK (Z)	TOP (Ap)	4	2
+1915-07-25	LKC	DDK (Z)	8	3
+1915-09-26	UNA (S)	VOMOS	6	5
+1915-10-17	NKC (Nw)	DDK (Z)	0	20
+	TOP (Ap)	LKC	6	2
+1915-10-24	VOMOS	TOP (Ap)	6	1
+	TOP (Ap)	VOMOS	1	6

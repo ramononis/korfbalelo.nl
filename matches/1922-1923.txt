@@ -1,0 +1,650 @@
+1922-08-27	Wit Zwart	MIA (M)	0	4
+	UDI (T)	Concordia	3	2
+	WK	Hermes (B)	3	0
+	Vitesse (Be)	Rood Zwart	3	1
+	VOMOS (S)	MKC (Me)	4	3
+	Kinea (A)	OLS	4	7
+1922-08-30	Hermes (B)	WK	1	4
+1922-09-03	Voorwaarts (M)	Wit Zwart	8	1
+	MIA (M)	SSS (Z)	2	0
+	Vitesse (Be)	OLS	3	1
+	VOMOS (S)	Rood Zwart	1	1
+	ZKC (Zu)	Mercedes	3	0
+	Achilles (N)	ZKC (Zu)	3	3
+	Quick (Arn)	EKCA	3	1
+1922-09-10	HKV	Excelsior	2	1
+	Swift	Haarlem	6	4
+	KZ	DVD²	11	4
+	KVKV	Westerkwartier	3	2
+	Emma	HBS (H)	4	2
+	Noviomagum	EKCA	0	5
+	Wit Zwart	Quick (S)	5	2
+	Friso (L)	Frisia	5	0
+	WK	MKC (Ma)	9	1
+	Kinea (A)	Rood Zwart	0	0
+	OLS	MKC (Me)	8	1
+	VOMOS (S)	Vitesse (Be)	3	1
+1922-09-17	Hercules	Fluks	4	6
+	KVO	DDV	5	7
+	AW	Animo	4	2
+	HSC (Hi)	LUTO	1	5
+	Amersfoort	Zwaluwen (H)	2	9
+	Gorkum	Voorwaarts (L)	8	0
+	PSV	Quick (Arn)	1	5
+	Wilhelmina	Rapiditas	4	6
+	AKC (Al)	DOS (E)	1	5
+	SSS (Z)	Voorwaarts (M)	4	5
+	Vitesse (Be)	Kinea (A)	6	1
+1922-09-24	Advendo	DTV	2	2
+	DDV	Haarlem	3	2
+	KZ	KVO	7	1
+	Vitesse (Haag)	ALO	4	1
+	KVD	KVKV	1	4
+	Quick (S)	Voorwaarts (M)	3	7
+	Friso (L)	UDI (T)	5	0
+	MKC (Ma)	WWMD	0	1
+	WWMD	MKC (Ma)	1	0
+	SVO	KDC	9	3
+	Ons Huis	DSK	0	4
+	Nieuwendammerham	Olympia (A)	6	3
+	Boekhuis	Velox (A)	0	29
+	DES²	NHM (A)	12	1
+1922-10-01	HKV	DTV	2	5
+	HSV	DEV	2	6
+	Ready (A)	Deetos	1	5
+	KZ	DED	14	3
+	DVD²	DDV	0	4
+	KVO	Swift	4	3
+	Haarlem	Tekca	2	2
+	Vitesse (Haag)	Vlug en Lenig	2	11
+	Velocitas	BEP	7	7
+	OHS	Westerkwartier	1	8
+	Rood Wit (H)	HBS (H)	5	7
+	Quick (Arn)	Be Quick	6	0
+	Wilhelmina	DOS (E)	0	7
+	HKC (He)	AKC (Al)	6	1
+	Swift (W)	ZKC (Zu)	7	0
+	Quick (S)	SSS (Z)	2	7
+	MKC (Me)	Kinea (A)	1	0
+	OSCA	Kattenburg	1	4
+	SDO (A)	Bijenkorf	4	2
+	Amstel	SSS (A)	4	4
+	VKC (A)	DSK	0	3
+	KDO	Noorden	3	4
+	Velox (A)	DES²	3	9
+1922-10-07	Zwart Wit	WIK (E)	9	1
+	Ons Huis	SCH	2	1
+	Velox (A)	NHM (A)	8	3
+1922-10-08	DEDO	HBS (DB)	7	4
+	Friso (L)	WK	1	3
+	DTV	Vitesse (Leiden)	12	2
+	Excelsior	Advendo	4	1
+	OSCR	HKV	1	2
+	DEV	Hercules	5	3
+	HSV	Deetos	0	2
+	Rozenburg	Ready (A)	1	11
+	KVO	DED	5	3
+	DVD²	Haarlem	6	4
+	KZ	Swift	5	1
+	ALO	TOV (D)	5	0
+	DKC (De)	HBS (DB)	1	3
+	Velox	Vitesse (Haag)	11	2
+	Avanti	Velocitas	0	9
+	KVD	OHS	7	2
+	HBS (H)	SDO (L)	6	3
+	Voorwaarts (L)	GHBSC	4	3
+	Be Quick	Noviomagum	5	1
+	DOS (E)	HKC (He)	6	1
+	DOVA	AKC (Al)	1	5
+	Achilles (N)	Swift (W)	0	3
+	MKC (Me)	Vitesse (Be)	4	12
+1922-10-14	NHM (A)	DES²	2	19
+1922-10-15	WK	Friso (L)	2	0
+	Nausikaa	Advendo	2	0
+	DTV	OSCR	5	3
+	Vitesse (Leiden)	Excelsior	3	6
+	Ready (A)	Hercules	1	3
+	Deetos	Rozenburg	2	2
+	HSV	Fluks	1	4
+	DED	Swift	2	2
+	Tekca	DDV	3	7
+	DVD²	KVO	5	3
+	Haarlem	KZ	5	2
+	Vlug en Lenig	Velox	1	4
+	Vitesse (Haag)	DKC (De)	7	2
+	TOV (D)	HBS (DB)	1	4
+	BEP	ODIS²	13	2
+	GHBSC	Gorkum	0	8
+	EKCA	PSV	2	7
+	Rapiditas	DOS (E)	1	8
+	HKC (He)	Wilhelmina	4	4
+	Swift (W)	Thor (Zu)	6	5
+	TOGO (A)	Zuiden	0	2
+	Zwaluwen (A)	SSS (A)	4	0
+	Trekvogels (A)	Nieuwendammerham	2	5
+1922-10-21	OSCR	Vitesse (Leiden)	3	4
+	Excelsior	Nausikaa	4	3
+	Advendo	HKV	3	3
+	Rozenburg	DEV	1	5
+	Fluks	Deetos	3	5
+	Hercules	HSV	5	0
+	KVO	Haarlem	2	6
+	DDV	DED	9	1
+	Swift	Tekca	2	4
+	Velox	ALO	9	1
+	DKC (De)	Vlug en Lenig	1	5
+	HBS (D)	Vitesse (Haag)	5	2
+	ODIS²	Avanti	7	4
+	OHS	KVKV	1	5
+	ZKV (Za)	RODA (W)	6	4
+	Emma	Rood Wit (H)	5	4
+	PSV	Be Quick	3	1
+	Quick (Arn)	EKCA	3	2
+	AKC (Al)	Rapiditas	4	0
+	Thor (Zu)	ZKC (Zu)	3	1
+	SCH	Ons Huis	2	4
+1922-10-22	Voorwaarts (M)	Vitesse (Be)	3	2
+	WK	Voorwaarts (M)	8	3
+	Vitesse (Be)	WK	2	5
+	DES (D)	HBS (De)	1	4
+	't Overschotje	Gorssel	12	0
+	Zuiden	TOGO (A)	5	5
+	Victoria (A)	SSS (A)	3	3
+	Sloten	Rohda (A)	0	11
+1922-10-28	Excelsior (A)	SVO	3	1
+	Ons Huis	VKC (A)	2	2
+	DSK	SCH	4	1
+	NHM (A)	Velox (A)	2	12
+	TOP (V)²	DOK	3	4
+1922-10-29	Nausikaa	DTV	0	0
+	Advendo	OSCR	3	5
+	HKV	Vitesse (Leiden)	1	2
+	HSV	Rozenburg	0	2
+	Fluks	Ready (A)	5	2
+	Deetos	Hercules	5	0
+	Tekca	KVO	1	2
+	DDV	Swift	2	2
+	DED	DVD²	1	0
+	KZ	Haarlem	3	0
+	ALO	HBS (D)	3	5
+	Vlug en Lenig	TOV (D)	5	0
+	Velox	DKC (De)	12	3
+	Velocitas	ODIS²	3	3
+	Westerkwartier	KVD	5	1
+	RODA (W)	DEV	2	6
+	HSC (Hi)	Amersfoort	1	7
+	Hercules	LUTO	3	3
+	SDO (L)	Emma	1	5
+	HBS (H)	HSV	3	1
+	Noviomagum	Quick (Arn)	1	7
+	DOVA	DOS (E)	2	8
+	Rapiditas	HKC (He)	0	2
+	HBS (De)	NIVO	1	3
+	OSCA	AW	4	1
+	Bijenkorf	SDO (A)	1	4
+	Vitesse (A)	Quick (A)	1	4
+	Zwaluwen (A)	Amstel	8	0
+	SSS (A)	Victoria (A)	0	3
+	Rohda (A)	Sloten	15	0
+1922-11-04	DOK	Zwart Wit	0	6
+1922-11-05	OSCR	Excelsior	7	2
+	Hercules	Rozenburg	5	1
+	Tekca	DVD²	5	1
+	ALO	DKC (De)	5	4
+	HBS (A)	BEP	3	3
+	Zuiden	Spartaan	2	3
+	Be Quick	EKCA	7	0
+	AKC (Al)	Wilhelmina	0	3
+	DOVA	HKC (He)	4	4
+	ZKC (Zu)	Achilles (N)	4	1
+	Blauw Wit (O)	DIO (O)	2	2
+	NIVO	DES (D)	3	1
+	Zuiden	Bijenkorf	8	3
+	Amstel	Zwaluwen (A)	3	11
+	Trekvogels (A)	Olympia (A)	0	3
+1922-11-11	SVO	Excelsior (A)	4	1
+	VKC (A)	Ons Huis	1	3
+	SCH	DSK	1	3
+	Noorden	KDO	2	0
+	DES²	Velox (A)	4	2
+1922-11-12	Nausikaa	OSCR	2	3
+	Excelsior	DTV	4	6
+	Vitesse (Leiden)	Advendo	7	2
+	Deetos	HSV	7	0
+	Rozenburg	Fluks	4	4
+	DDV	KZ	8	2
+	KVO	Tekca	5	5
+	DKC (De)	TOV (D)	3	6
+	Vlug en Lenig	ALO	5	1
+	Velocitas	HBS (A)	4	5
+	BEP	Avanti	14	1
+	Animo	Macbi	5	2
+	Noviomagum	PSV	2	3
+	Rapiditas	DOVA	3	2
+	Zuiden	SDO (A)	2	2
+	Zwaluwen (A)	Victoria (A)	4	0
+	Amstelodamum	Blauw Wit	2	3
+	Nieuwendammerham	Trekvogels (A)	5	1
+1922-11-18	WIK (E)	DOK	5	1
+	SCH	VKC (A)	1	0
+1922-11-19	Nausikaa	Vitesse (Leiden)	7	2
+	HKV	OSCR	4	2
+	Advendo	Excelsior	1	2
+	Rozenburg	Hercules	9	2
+	DEV	Deetos	1	5
+	Tekca	KZ	6	5
+	Haarlem	DDV	3	3
+	DVD²	DED	5	1
+	TOV (D)	Vitesse (Haag)	3	4
+	Velox	HBS (D)	4	4
+	HBS (A)	ODIS²	5	1
+	Zwaluwen (H)	HSC (Hi)	9	2
+	Amersfoort	LUTO	2	1
+	Rood Wit (H)	SDO (L)	7	6
+	Spartaan	VIJW	4	3
+	DOS (E)	AKC (Al)	9	1
+	NIVO	HBS (De)	3	2
+	Bijenkorf	Zuiden	1	5
+	TOGO (A)	SDO (A)	2	0
+	Amstel	Victoria (A)	2	7
+	Judea	Sloten	3	3
+	Olympia (A)	Nieuwendammerham	2	1
+1922-11-25	Zwart Wit	TOP (V)²	10	1
+	DSK	VKC (A)	3	0
+1922-12-03	Excelsior	Vitesse (Leiden)	12	5
+	HSV	Ready (A)	0	1
+	Vlug en Lenig	HBS (D)	3	1
+	HBS (H)	Rood Wit (H)	4	3
+	HKC (He)	DOS (E)	3	9
+	KDC	SVO	0	3
+1922-12-10	DTV	Excelsior	5	4
+	Ready (A)	DEV	4	6
+	Fluks	HSV	5	1
+	DED	DDV	4	7
+	Vitesse (Haag)	TOV (D)	6	4
+	AW	Macbi	2	4
+	Zwaluwen (H)	Amersfoort	0	2
+	SDO (L)	Rood Wit (H)	1	1
+	EKCA	Noviomagum	5	3
+	AKC (Al)	DOVA	2	4
+	Excelsior (A)	KDC	3	1
+1922-12-17	OSCR	DTV	5	7
+	Ready (A)	Fluks	6	5
+	Tekca	DED	1	4
+	Swift	KVO	2	4
+	HBS (D)	Velox	2	5
+	HBS (H)	Emma	3	3
+	Zuiden	VIJW	7	0
+	Achilles (N)	ZKC (Zu)	2	1
+1922-12-23	Zwart Wit	DOK	8	1
+1922-12-26	WIK (E)	TOP (V)²	2	3
+1922-12-30	DOK	WIK (E)	2	2
+1922-12-01	DOK	TOP (V)²	3	4
+1922-12-31	Hercules	DEV	1	5
+	Swift	DVD²	6	3
+	HBS (D)	TOV (D)	2	6
+	LEKC	't Overschotje	1	13
+1923-01-01	Blauw Wit (O)	Gorssel	7	3
+1923-01-07	Deetos	Fluks	6	4
+	HSV	Hercules	1	4
+	DEV	Ready (A)	4	3
+	DDV	DVD²	5	3
+	DED	KVO	5	6
+	ALO	Vlug en Lenig	2	4
+	TOV (D)	Velox	1	3
+	Westerkwartier	OHS	13	0
+	Voorwaarts (L)	Gorkum	2	15
+	Wilhelmina	HKC (He)	0	5
+	DEDO	Pope	1	8
+	't Overschotje	LEKC	7	4
+1923-01-13	WIK (E)	Zwart Wit	1	5
+1923-01-14	Victoria (A)	Amstel	7	0
+	Hercules	Deetos	1	2
+	DVD²	KZ	2	2
+	Swift	DED	6	1
+	Vitesse (Haag)	Velox	1	8
+	Be Quick	Quick (Arn)	0	6
+	PSV	Noviomagum	2	2
+	Rapiditas	AKC (Al)	3	4
+	ZKC (Zu)	Rapid (W)	2	14
+1923-01-21	OSCR	Nausikaa	2	2
+	Vitesse (Leiden)	HKV	1	4
+	Fluks	Rozenburg	6	2
+	DVD²	Tekca	3	3
+	DED	Haarlem	1	3
+	KVO	KZ	5	3
+	Velox	TOV (D)	11	0
+	Amersfoort	HSC (Hi)	4	1
+	Quick (Arn)	PSV	6	1
+	HKC (He)	DOVA	4	2
+	HBS (De)	UNI (De)	6	0
+	KVO	OSCA	0	4
+	SDO (A)	TOGO (A)	10	1
+1923-01-28	Vitesse (Leiden)	DTV	1	6
+	HKV	Nausikaa	1	2
+	Excelsior	OSCR	5	7
+	Rozenburg	Deetos	2	2
+	DEV	Fluks	3	8
+	DVD²	Swift	1	5
+	Haarlem	DED	6	2
+	KZ	Tekca	6	4
+	ALO	Velox	1	8
+	KVD	Westerkwartier	0	6
+	Emma	SDO (L)	5	0
+	PSV	EKCA	2	5
+	ZKC (Zu)	Thor (Zu)	4	2
+	Pope	DEDO	12	0
+	Kattenburg	OSCA	3	3
+	Quick (A)	Vitesse (A)	3	3
+	SSS (A)	Amstel	4	1
+1923-02-04	DTV	Advendo	12	4
+	Vitesse (Leiden)	OSCR	4	2
+	Nausikaa	Excelsior	5	2
+	Rozenburg	HSV	3	1
+	DDV	KVO	6	3
+	HSC (Hi)	Zwaluwen (H)	4	4
+	Rood Wit (H)	Emma	4	4
+	Gorkum	GHBSC	5	1
+	TOGO (A)	Animo	1	4
+	HBS (A)	AW	3	5
+	Gooiers	OSCA	11	2
+	Amersfoort	Westerkwartier	2	3
+	MKV	Velocitas	2	3
+	ZKV (Za)	BEP	3	4
+	VIJW	Spartaan	1	1
+1923-02-11	Advendo	Vitesse (Leiden)	3	6
+	Excelsior	HKV	5	4
+	DEV	Rozenburg	11	4
+	Fluks	Hercules	7	0
+	Ready (A)	HSV	6	3
+	Haarlem	Swift	1	0
+	DED	Tekca	2	7
+	Vlug en Lenig	DKC (De)	4	1
+	Zwaluwen (A)	LUTO	3	3
+	KVO	DTV	3	12
+	KDC	Excelsior (A)	0	4
+	Vitesse (A)	ASV	4	0
+	Excelsior (A)	DSK	1	2
+	Blauw Wit	Amstelodamum	7	3
+1923-02-25	Hercules	Ready (A)	3	4
+	KZ	DDV	9	5
+	TOV (D)	ALO	2	4
+	Westerkwartier	KVKV	12	3
+	Spartaan	Zuiden	2	3
+	Noviomagum	Be Quick	0	3
+	Achilles (N)	Thor (Zu)	2	2
+	Gorssel	't Overschotje	0	8
+1923-03-03	DOS (M)	MEVO	5	5
+1923-03-04	KVO	DDV	3	9
+	TOV (D)	DKC (De)	2	3
+	ODIS²	Vierde Vijf	3	5
+	GHBSC	Voorwaarts (L)	7	2
+	Quick (Arn)	Noviomagum	7	0
+	KZ	Nausikaa	3	4
+	BEP	Swift	1	5
+	Haarlem	Ready (A)	5	3
+	Excelsior	DEV	3	5
+	Tekca	Advendo	6	4
+	KVKV	Westerkwartier	2	7
+	Hercules	DDV	3	3
+	Rozenburg	Velox	0	2
+	OSCR	Vitesse (Leiden)	5	3
+	DSK	Ons Huis	2	1
+1923-03-10	MEVO	Volharding	3	3
+1923-03-11	Nausikaa	HKV	5	4
+	OSCR	Advendo	2	2
+	Swift	DDV	4	1
+	ALO	Vitesse (Haag)	2	3
+	HBS (D)	Vlug en Lenig	0	3
+	KVKV	OHS	9	3
+	EKCA	Be Quick	8	1
+	DOS (E)	Rapiditas	13	2
+	Swift	DDV	4	1
+	Blauw Wit (O)	DIO (O)	4	3
+	HBS (De)	NIVO	2	0
+1923-03-18	Nic	DES (Z)	7	1
+	Advendo	Nausikaa	2	5
+	DTV	HKV	13	1
+	Deetos	Ready (A)	9	1
+	DEV	HSV	9	1
+	Tekca	Haarlem	2	2
+	Swift	KZ	1	3
+	Vlug en Lenig	Vitesse (Haag)	7	0
+	DKC (De)	Velox	3	8
+	BEP	Vierde Vijf	2	7
+	ODIS²	Velocitas	2	0
+	KVKV	KVD	4	0
+	RODA (W)	ZKV (Za)	3	1
+	Animo	AW	1	3
+	VIJW	Zuiden	4	0
+	Be Quick	PSV	4	4
+	DOS (E)	DOVA	13	1
+	Olympia (A)	Trekvogels (A)	0	1
+1923-03-25	DTV	Nausikaa	4	9
+	HKV	Advendo	1	2
+	Fluks	DEV	6	4
+	Ready (A)	Rozenburg	7	5
+	DDV	Tekca	2	5
+	DED	KZ	5	8
+	Haarlem	DVD²	9	3
+	DKC (De)	Vitesse (Haag)	3	2
+	HBS (D)	ALO	3	2
+	TOV (D)	Vlug en Lenig	0	6
+	ODIS²	BEP	4	3
+	Macbi	Animo	3	3
+	LUTO	Amersfoort	1	5
+	EKCA	Quick (Arn)	8	1
+	MIA (M)	Nic	3	8
+	Friso (L)	Frisia	4	2
+	Gorssel	LEKC	4	3
+	Wit Zwart	Voorwaarts (M)	8	11
+	Quick (A)	ASV	6	3
+	VKC (A)	SCH	0	3
+1923-04-08	DTV	Deetos	2	2
+	Quick (Arn)	DOS (E)	3	1
+	Vlug en Lenig	DDV	1	1
+	Amersfoort	Vierde Vijf	1	2
+	Gorkum	Emma	0	4
+	DKC (De)	ALO	5	3
+	BEP	Velocitas	5	1
+	LUTO	HSC (Hi)	3	0
+	AKC (Al)	HKC (He)	3	1
+	DOVA	Rapiditas	0	1
+	Thor (Zu)	Achilles (N)	5	3
+	Nic	SSS (Z)	0	3
+	SIM	Friso (L)	2	6
+	Frisia	Felicitas	1	3
+	WWMD	Hermes (B)	2	3
+	UDI (O)	MKC (Ma)	2	4
+	ASV	Quick (A)	0	3
+	Victoria (A)	Zwaluwen (A)	2	1
+	DES²	Noorden	6	0
+	OSCA	Nieuwendammerham	2	3
+	TOP (B)	Inter Nos (SJ)	1	3
+	Moedig Voorwaarts (B)	TOGO (W)	7	1
+	DDB	ODA (B)	0	2
+	OKC (Ol)	Lyts Begjin	1	2
+1923-04-14	WWMD	WK	1	5
+1923-04-15	Deetos	DTV	3	4
+	DOS (E)	Quick (Arn)	7	2
+	Vlug en Lenig	Advendo	5	3
+	DEV	Westerkwartier	5	2
+	Vitesse (Leiden)	Nausikaa	2	4
+	Haarlem	KVO	5	6
+	OHS	KVD	2	4
+	HKC (He)	Rapiditas	3	2
+	Thor (Zu)	Rapid (W)	4	5
+	Voorwaarts (M)	MIA (M)	15	1
+	SSS (Z)	Wit Zwart	7	0
+	Concordia	SIM	2	5
+	Hermes (B)	UDI (O)	4	2
+	ASV	Vitesse (A)	1	2
+	VEMO	HKC (Hrd)	0	4
+	Quick '21	BKC (Bu)	1	2
+1923-04-22	DDV	Advendo	2	4
+	Rapiditas	Noviomagum	4	1
+	Tekca	Swift	1	1
+	HBS (D)	DKC (De)	3	2
+	LUTO	Zwaluwen (H)	3	1
+	MIA (M)	Voorwaarts (M)	3	8
+	Felicitas	Concordia	1	0
+	MKC (Ma)	Hermes (B)	2	2
+	LEKC	Gorssel	5	5
+	LEKC	Blauw Wit (Z)	1	5
+	Blauw Wit (Z)	't Overschotje	1	2
+	Blauw Wit (Z)	LEKC	15	1
+	SKC (Sc)	ODIS (M)	2	1
+	Quick '21	Blauw Geel	0	0
+	ODA (B)	Tijnje	3	0
+	DOS (B)	OKC (Ol)	1	2
+1923-04-29	Noviomagum	Rapiditas	2	1
+	Deetos	Tekca	4	3
+	Vitesse (Haag)	HBS (D)	1	1
+	Friso (L)	Felicitas	7	1
+	WWMD	MKC (Ma)	1	0
+	UDI (O)	WK	1	4
+	HKC (Hrd)	KCH	7	1
+	TOGO (W)	Forward	2	14
+	BKC (Bu)	Blauw Geel	7	0
+1923-05-05	DOVA	Achilles (A)	3	2
+1923-05-06	Westerkwartier	Vierde Vijf	6	2
+	Vlug en Lenig	HSV	4	3
+	TOV (D)	Emma	6	4
+	SSS (Z)	Voorwaarts (M)	4	1
+	MIA (M)	Wit Zwart	1	1
+	Frisia	Concordia	2	6
+	Felicitas	SIM	7	4
+	UDI (O)	WWMD	3	4
+	Kinea (A)	MKC (Me)	9	3
+	Haarlem	Swift	4	5
+	KCH	VEMO	2	1
+	SKC (Sc)	TOP (B)	6	3
+	ODA (B)	DDB	11	0
+1923-05-13	OLS	Quick (M)	3	1
+	WK	MKC (Ma)	8	1
+1923-05-27	Amersfoort	Westerkwartier	2	4
+	DVD²	DED	8	3
+	Emma	TOV (D)	3	1
+	Nic	MIA (M)	3	4
+	Wit Zwart	SSS (Z)	3	9
+	Concordia	Friso (L)	0	14
+	SIM	Felicitas	5	1
+	WK	Hermes (B)	6	0
+	MKC (Ma)	UDI (O)	4	4
+	MKC (Me)	Vitesse (Be)	2	9
+	Gorssel	Blauw Wit (Z)	5	1
+	Forward	Moedig Voorwaarts (B)	6	1
+	DDB	Tijnje	1	4
+	OKC (Ol)	TOGO (W)	3	1
+1923-06-02	Achilles (A)	DOVA	4	3
+	WK	WWMD	6	1
+1923-06-03	DOS (E)	DTV	8	3
+	DDV	HSV	2	4
+	Emma	TOV (D)	1	3
+	Rapiditas	Noviomagum	2	3
+	DVD²	Westerkwartier	4	4
+	SDO (L)	HBS (H)	3	4
+	Voorwaarts (M)	Wit Zwart	6	1
+	Hermes (B)	MKC (Ma)	1	1
+	OLS	MKC (Me)	4	2
+	Swift	Velox	4	6
+	ODIS (M)	Inter Nos (SJ)	3	1
+	HKC (Hrd)	VEMO	9	0
+	TOP (B)	ODIS (M)	0	2
+	BKC (Bu)	AW (DC)	7	1
+1923-06-10	DTV	DOS (E)	9	3
+	HSV	Advendo	1	0
+	DED	Westerkwartier	1	4
+	SSS (Z)	MIA (M)	11	1
+	Felicitas	Friso (L)	2	2
+	MKC (Me)	Quick (M)	1	4
+	Vitesse (Be)	OLS	3	1
+	Deetos	Velox	7	3
+	BEP	Ons Eibernest	7	4
+	BKC (Bu)	Quick '21	5	1
+	Blauw Geel	AW (DC)	2	0
+	Blauw Geel	Quick '21	1	1
+1923-06-17	DTV	DOS (E)	2	1
+	Nic	Wit Zwart	2	2
+	Friso (L)	Concordia	10	0
+	Quick (M)	Kinea (A)	1	1
+	Rood Zwart	MKC (Me)	5	1
+	OLS	Vitesse (Be)	0	7
+	ODIS (M)	SKC (Sc)	7	3
+	Moedig Voorwaarts (B)	Forward	3	3
+	Blauw Geel	BKC (Bu)	0	2
+	Tijnje	DDB	3	0
+1923-06-24	Felicitas	Frisia	3	1
+	Bato	VKC (Vr)	8	0
+	UDI (T)	OKV²	3	1
+	DES (Z)	Veendam	4	7
+	GKC (Gr)	UNA (L)	3	1
+	Kinea (S)	UDI (N)	0	7
+	Kinea (H)	TOP (Ap)	2	3
+	Doel	DOS (L)	0	5
+	AW (DC)	BKC (Bu)	2	3
+1923-07-01	Inter Nos (SJ)	SKC (Sc)	4	0
+	ODIS (M)	TOP (B)	7	0
+	Tijnje	ODA (B)	3	1
+1923-07-15	Foarut	Akkrum	2	4
+1923-07-29	ODIS (M)	HKC (Hrd)	2	6
+1923-08-19	HKC (Hrd)	DOS (L)	3	0
+	Lyts Begjin	OKC (Ol)	5	0
+1923-08-26	Forward	KW	3	2
+	Lyts Begjin	ODA (B)	1	1
+1923-09-09	WIK (O)	HJWDO	2	2
+	WIK (O)	Jonge Spartaan	1	1
+	HJWDO	Jonge Spartaan	1	2
+	WIK (O)	HJWDO	3	0
+	SEV (E)	Voorwaarts (O)	1	1
+	TOV (M)	Voorwaarts (O)	3	0
+1923-09-23	ODA (B)	Lyts Begjin	2	2
+1923-10-07	Felicitas	Foarut	1	0
+	ODIS (M)	TOP (B)	1	0
+1923-10-14	Lyts Begjin	HKC (Hrd)	3	0
+1922-10-08	GKV	Graaf Willem 2	2	0
+1922-10-15	KVR	Ons Eibernest	2	0
+	Hollandia	DVO (H)	1	4
+1922-10-22	Phoenix (Z)	Oranje	0	6
+1922-10-29	KVR	TOGO (H)	3	3
+	DVO (H)	Oranje	1	1
+1922-11-12	DVO (H)	Phoenix (Z)	4	1
+1922-11-19	TOGO (H)	Ons Eibernest	0	7
+1923-01-14	Ons Eibernest	KVR	7	0
+	Graaf Willem 2	GKV	3	1
+1923-01-21	Oranje	DVO (H)	4	1
+1923-01-28	TOGO (H)	KVR	0	3
+	DVO (H)	Hollandia	2	4
+1923-02-04	Phoenix (Z)	DVO (H)	3	1
+	Oranje	Hollandia	0	4
+1923-02-11	Phoenix (Z)	Hollandia	1	4
+1923-04-01	Ons Eibernest	TOGO (H)	4	0
+1923-04-15	KVR	Rood Wit (H)	0	0
+	HBS (H)	Ons Eibernest	1	1
+1923-04-22	KVR	Ons Eibernest	0	2
+	KVR	SDO (L)	3	0
+1923-02-04	Brinio	DDM (O)	8	0
+1923-03-04	DOS (M)	MEVO	5	5
+1923-03-11	MEVO	Volharding	3	3
+1923-03-25	Zeelandia	MEVO	8	0
+	DDM (O)	Brinio	0	11
+1923-04-01	Zeelandia	Volharding	4	5
+1923-04-08	MEVO	ELTO	4	1
+1923-04-15	DOS (M)	Zeelandia	0	10
+	ELTO	Ons Doel	3	4
+1923-04-22	SCS²	Brinio	6	0
+1923-04-29	Zeelandia	MEVO	2	0
+	Volharding	ELTO	4	0
+	Ons Doel	MEVO	1	1
+	VDB	Volharding	0	2
+	DOS (M)	Ons Doel	0	1
+	Volharding	Ons Doel	2	0
+	VDB	Ons Doel	3	0
+	Volharding	DOS (M)	1	2
+1923-05-20	Zeelandia	MEVO	11	2
+1923-05-20	Zeelandia	VDB	5	0
+1923-05-27	Zeelandia	DOS (M)	8	0
+1923-06-10	Zeelandia	Volharding	5	1
+1923-07-29	Zeelandia	Ons Doel	8	5
+1923-08-26	Brinio	Hollandia	0	4
+1923-09-02	Rapide	Zeelandia	0	4

@@ -1,0 +1,742 @@
+1939-09-24	Westerkwartier	Oosterkwartier (H)	8	1
+	DVD²	Swift	5	1
+	KZ	DED	2	6
+	Hercules	Olympia (B)	11	6
+	Bilthoven	LUTO	1	2
+	Zuiderkwartier³	Amsterdam Zuid	5	6
+	KCN	AW	2	4
+	Rohda (A)	DDV	10	5
+	BEP	TOGO (A)	4	3
+	Archipel	Groen Geel	5	2
+	SKV (U)	De Tovers	1	3
+	Baerne	Amersfoort	6	3
+	Ados²	KVD	5	2
+	Haarlem	Victoria (A)	3	5
+	Nieuw Flora	Amsterdam Noord	7	2
+	ReadyTekca	Aurora	5	6
+	Deetos	Ons Eibernest	9	4
+	Fluks	Achilles (H)	2	5
+	DKC (De)	HSV	7	1
+	Ready (H)	Spangen	1	6
+	Quick (D)	Rozenburg	7	4
+	De Kweek	GKV	2	4
+	Rood Wit (H)	ALO	0	4
+	Die Haghe	Ter Gouw	4	1
+	Hou Stand	Trekvogels (R)	1	3
+	Spartaan	Zwervers	1	4
+	TOV (D)	Ons Huis (R)	1	10
+	Hellas	Onder Ons	2	2
+	't Overschotje	ZKC (Zu)	2	4
+	VADA	EKCA	0	4
+	Swift (E)	Olympia '22	2	2
+	Mercedes	OKC (A)	4	2
+	Noviomagum	SOS	2	2
+	Redichem	Oost Arnhem	2	5
+	Naas²	Groen Zwart	3	2
+	Volt	Deto	4	5
+	Oosterkwartier (A)	Shell	10	0
+	Lodek	JPS	0	7
+1939-10-01	Sportief	KZ	4	5
+	Blauw Wit	DVD²	8	5
+	DED	SVK	7	4
+	Vogel	Bilthoven	3	2
+	Olympia (B)	DTV	1	6
+	Sport Vereent	Zuiderkwartier³	1	3
+	Amersfoort	Zwaluwen (H)	0	2
+	Zaandam Zuid	Ados²	7	5
+	De Meervogels (A)	Nieuw Flora	2	4
+	HKV	Deetos	0	1
+	Zuiden (R)	DKC (De)	6	4
+	Spangen	HBS (H)	4	1
+	Rozenburg	GKV	4	6
+	OSCR	Quick (D)	5	2
+	Algemene	Phoenix (Z)	1	4
+	Ter Gouw	Hou Stand	3	0
+	Olympiaan	Die Haghe	0	2
+	Merwede (D)	ODO²	5	1
+	Zwervers	Sperwers	3	4
+	Vlug en Lenig²	Ons Huis (R)	1	8
+	Steeds Hooger	Hellas	2	3
+	Onder Ons	Wilskracht	8	4
+	't Overschotje	VADA	8	3
+	Olympia '22	Rapiditas	2	8
+	DOT (O)	Be Quick	1	0
+	Noviomagum	Mercedes	1	1
+	Groen Zwart	Zwart Wit	0	3
+	Rigtersbleek	HKC (He)	6	0
+	AKC (Al)	DOS (E)	1	3
+	WIK (E)	GKC	0	2
+	Noord Oosten	Hermes (G)	4	2
+	Vitesse (Be)	WWMD	4	4
+	Advendo (TI)	Club Brothers	2	7
+	Deto	Rood Wit (T)	20	0
+	ONA	Oranje Wit (T)	3	1
+	Blauw Zwart	Palthe	5	5
+1939-10-08	Swift	Sportief	8	5
+	SVK	Westerkwartier	0	4
+	KZ	Blauw Wit	3	3
+	Bilthoven	Hercules	3	3
+	AW	Sport Vereent	3	5
+	Amsterdam Zuid	KCN	6	4
+	TOGO (A)	Rohda (A)	2	9
+	DDV	Archipel	5	6
+	BEP	Groen Geel	3	1
+	De Tovers	Amersfoort	1	0
+	Nieuw Flora	Indo	3	2
+	Deetos	DKC (De)	5	5
+	Fluks	HSV	0	12
+	Ons Eibernest	Achilles (H)	1	4
+	Trekvogels (R)	Die Haghe	1	5
+	Spartaan	Schiedam	0	2
+	Sperwers	ODO²	1	3
+	ZKC (Zu)	Steeds Hooger	2	2
+	EKCA	't Overschotje	6	1
+	SOS	OKC (A)	4	3
+	Noviomagum	Be Quick	4	0
+	Zwart Wit	Naas²	0	2
+	Ons Clubje	DION	3	6
+	Club Brothers	Noord Oosten	4	2
+	Rood Zwart	Vitesse (Be)	2	13
+	WWMD	Moedig Voorwaarts	3	3
+	PSV	ONA	5	3
+	Volt	Rood Wit (T)	4	2
+	Holland	Achilles (A)	4	2
+	Odilo	NASB	1	2
+	Elto	OKV	5	1
+	KVDH	OKV	3	5
+	Oosterkwartier (H)	DED	1	2
+1939-10-15	DVD²	Oosterkwartier (H)	8	5
+	Vogel	Olympia (B)	6	5
+	Zuiderkwartier³	ZKV (Za)	9	4
+	KVD	Zaandam Zuid	6	0
+	VADA	Onder Ons	2	3
+	Wilskracht	Hellas	1	3
+	DOS (E)	HKC (He)	3	2
+	Rigtersbleek	Groen Zwart	8	0
+	Naas²	AKC (Al)	4	1
+	Hermes (G)	Nic	5	1
+	Vitesse (Be)	WK	1	3
+	Advendo (TI)	WWMD	3	2
+	Oranje Wit (T)	Deto	0	22
+	NASB	Rust Roest (E)	3	7
+	SIOS (A)	SKC	3	1
+1939-10-22	Swift	DED	4	2
+	Sportief	Westerkwartier	5	6
+	Blauw Wit	SVK	10	5
+	Oosterkwartier (H)	KZ	4	4
+	Hercules	LUTO	4	5
+	SAMOS	Bilthoven	6	3
+	Amsterdam Zuid	AW	3	2
+	Rohda (A)	Archipel	2	2
+	TOGO (A)	DDV	3	5
+	Amersfoort	SKV (U)	4	0
+	Amsterdam Noord	De Meervogels (A)	3	4
+	Ons Eibernest	Fluks	7	1
+	Achilles (H)	HSV	8	5
+	Ready (H)	Regenboog	8	2
+	De Kweek	Quick (D)	5	0
+	Rood Wit (H)	Vicus Orientis	0	3
+	Hou Stand	Olympiaan	6	0
+	Ter Gouw	Trekvogels (R)	2	4
+	Sperwers	Spartaan	11	0
+	't Overschotje	Steeds Hooger	3	2
+	EKCA	ZKC (Zu)	3	1
+	DOT (O)	SOS	0	4
+	HKC (He)	Zwart Wit	2	1
+	Voorwaarts (M)	Club Brothers	5	6
+	Moedig Voorwaarts	Rood Zwart	6	5
+	PSV	Oranje Wit (T)	10	0
+	ONA	Rood Wit (T)	3	3
+1939-10-29	Sportief	SVK	6	7
+	Swift	KZ	3	9
+	Westerkwartier	DVD²	7	4
+	LUTO	Vogel	4	2
+	Bilthoven	DTV	2	2
+	AW	Zuiderkwartier³	3	5
+	Sport Vereent	Amsterdam Zuid	4	2
+	Archipel	BEP	5	1
+	Zwaluwen (H)	Baerne	1	8
+	De Meervogels (A)	Indo	0	3
+	Rozenburg	OSCR	4	3
+	ALO	Phoenix (Z)	1	3
+	Spartaan	Merwede (D)	0	7
+	Hellas	VADA	2	2
+	ZKC (Zu)	Wilskracht	1	1
+	Onder Ons	't Overschotje	4	1
+	OKC (A)	Noviomagum	2	4
+	AKC (Al)	Rigtersbleek	9	2
+	DOS (E)	Naas²	4	4
+	Groen Zwart	HKC (He)	4	3
+	Club Brothers	Nic	1	3
+	Deto	PSV	5	4
+	Volt	ONA	9	3
+	Achilles (A)	Hou Stand (H)	4	7
+	SIOS (A)	Starveld	4	1
+1939-11-05	DED	Blauw Wit	7	8
+	Sportief	Oosterkwartier (H)	6	4
+	Olympia (B)	SAMOS	3	4
+	Excelsior	Amersfoort	4	3
+	Baerne	De Tovers	2	1
+	Indo	Amsterdam Noord	9	1
+	HSV	Ons Eibernest	6	3
+	HKV	Achilles (H)	2	5
+	Regenboog	Spangen	2	1
+	Olympiaan	Trekvogels (R)	6	6
+	ODI (H)	Ter Gouw	4	3
+	Velox	Vlug en Lenig²	3	3
+	Steeds Hooger	EKCA	2	8
+	Mercedes	SOS	3	6
+	Zwart Wit	AKC (Al)	1	3
+	Oranje Zwart	DION	3	1
+	Voorwaarts (M)	Noord Oosten	4	0
+	WK	WWMD	5	4
+	PSV	Volt	3	1
+	Oranje Wit (T)	Rood Wit (T)	4	4
+	KCO	Landlust	1	3
+	Soesterkwartier	Altius	1	1
+	Rust Roest (E)	Odilo	4	1
+1939-11-12	KZ	Westerkwartier	2	4
+	SVK	DVD²	6	7
+	DTV	Vogel	12	0
+	Olympia (B)	Bilthoven	5	3
+	KCN	Sport Vereent	3	6
+	BEP	DDV	5	5
+	Groen Geel	Archipel	1	3
+	Sparta (A)²	Amstelodamum	4	2
+	HSV	HKV	3	4
+	Ready (H)	HBS (H)	4	1
+	OSCR	De Kweek	4	2
+	GKV	Quick (D)	6	2
+	Phoenix (Z)	Vicus Orientis	7	4
+	Hou Stand	Die Haghe	1	2
+	VADA	ZKC (Zu)	1	1
+	Wilskracht	Steeds Hooger	1	2
+	Hellas	't Overschotje	1	0
+	DOT (O)	OKC (A)	2	7
+	HKC (He)	Naas²	5	3
+	Rigtersbleek	DOS (E)	2	2
+	Nic	Voorwaarts (M)	0	4
+	Hermes (G)	Club Brothers	3	2
+	Moedig Voorwaarts	WK	0	4
+	Rood Zwart	WWMD	1	3
+	Deto	ONA	7	1
+	PSV	Rood Wit (T)	11	0
+	Shell	Oosterkwartier (A)	1	4
+	Holland	Hou Stand (H)	9	2
+	Rust Roest (E)	NASB	5	2
+1939-11-19	De Tovers	Excelsior	4	1
+1939-11-26	Odilo	Rust Roest (E)	2	5
+1939-12-03	SVK	Oosterkwartier (H)	5	2
+	Blauw Wit	Sportief	8	0
+	SAMOS	Vogel	1	3
+	ZKV (Za)	KCN	5	7
+	Excelsior	Zwaluwen (H)	3	2
+	Ados²	Zaandam Zuid	3	3
+	Achilles (H)	Deetos	1	3
+	Ons Eibernest	Zuiden (R)	5	7
+	De Kweek	Rozenburg	6	2
+	ALO	Vicus Orientis	5	5
+	ODI (H)	Die Haghe	5	2
+	Ter Gouw	Olympiaan	3	3
+	ODO²	Zwervers	3	0
+	Schiedam	Sperwers	4	0
+	EKCA	Onder Ons	4	1
+	't Overschotje	Wilskracht	2	4
+	Steeds Hooger	VADA	3	4
+	Noviomagum	DOT (O)	5	1
+	SOS	Be Quick	9	2
+	OKC (A)	Mercedes	4	1
+	AKC (Al)	Groen Zwart	3	1
+	DOS (E)	Zwart Wit	7	0
+	Noord Oosten	Nic	1	5
+	Voorwaarts (M)	Hermes (G)	3	1
+	Advendo (TI)	Rood Zwart	5	1
+	Volt	Oranje Wit (T)	7	2
+	ONA	PSV	5	4
+	SVA	OEC	1	4
+1939-12-10	Swift	Oosterkwartier (H)	4	0
+	Hellas	EKCA	3	4
+	Rapiditas	Swift (E)	11	1
+	NASB	Odilo	1	2
+	KVDH	Elto	0	7
+1939-12-17	DVD²	KZ	5	6
+	SVK	Swift	3	6
+	Oosterkwartier (H)	Blauw Wit	3	2
+	Sparta (A)²	OBZB	1	6
+1940-03-03	Westerkwartier	Swift	5	1
+	DVD²	DED	4	4
+	LUTO	DTV	1	3
+	Olympia (B)	Vogel	1	2
+	Bilthoven	SAMOS	2	3
+	Amsterdam Zuid	ZKV (Za)	3	2
+	Sport Vereent	KCN	1	1
+	TOGO (A)	BEP	4	2
+	DDV	Groen Geel	1	2
+	Excelsior	Baerne	0	2
+	Zwaluwen (H)	Amersfoort	1	1
+	De Tovers	SKV (U)	1	0
+	Amstelodamum	Sparta (A)²	4	3
+	Achilles (H)	Zuiden (R)	3	6
+	HSV	Deetos	1	6
+	HKV	Fluks	9	0
+	DKC (De)	Ons Eibernest	5	5
+	Algemene	Vicus Orientis	1	5
+	Rood Wit (H)	Phoenix (Z)	0	6
+	Trekvogels (R)	Hou Stand	2	3
+	Die Haghe	Olympiaan	10	2
+	VADA	Hellas	5	1
+	Onder Ons	Steeds Hooger	5	1
+	Steeds Hooger	Onder Ons	1	1
+	SOS	Noviomagum	7	0
+	DION	Oranje Zwart	5	5
+	Volt	PSV	2	3
+	Rood Wit (T)	Deto	0	12
+	Elto	KVDH	5	2
+1940-03-10	SVK	Blauw Wit	1	1
+	Oosterkwartier (H)	DVD²	3	2
+	Archipel	TOGO (A)	6	2
+	Rohda (A)	Groen Geel	4	3
+	Amersfoort	Excelsior	3	0
+	Zaandam Zuid	KVD	0	3
+	Aurora	Oosterpark	2	0
+	Hou Stand	ODI (H)	3	1
+	OSCR	Rozenburg	3	0
+	Spartaan	Zwervers	0	6
+	ZKC (Zu)	Onder Ons	3	1
+	Onder Ons	ZKC (Zu)	3	3
+	VADA	Wilskracht	2	0
+	Wilskracht	VADA	3	3
+	OKC (A)	SOS	3	1
+	Groen Zwart	Naas²	1	2
+	Oranje Wit (T)	ONA	1	7
+	Deto	Volt	5	0
+	NASB	Odilo	6	1
+1940-03-17	DVD²	SVK	7	2
+	DED	Oosterkwartier (H)	6	3
+	LUTO	Hercules	4	0
+	Sport Vereent	AW	2	7
+	Zwaluwen (H)	Excelsior	6	1
+	Victoria (A)	Haarlem	1	2
+	DKC (De)	HSV	4	5
+	Hellas	ZKC (Zu)	0	2
+	ZKC (Zu)	Hellas	3	0
+	Steeds Hooger	't Overschotje	5	0
+	Mercedes	DOT (O)	5	1
+	DOT (O)	Mercedes	0	5
+	Oost Arnhem	Redichem	4	0
+	Groen Zwart	AKC (Al)	5	4
+	ONA	Deto	1	1
+1940-03-24	Deetos	Fluks	2	0
+	HSV	Zuiden (R)	4	4
+	ZKC (Zu)	't Overschotje	4	2
+	Deto	Oranje Wit (T)	14	1
+1940-03-31	KZ	Sportief	3	3
+	Swift	Westerkwartier	6	6
+	Blauw Wit	DED	7	6
+	Oosterkwartier (H)	SVK	3	2
+	DTV	LUTO	2	3
+	Vogel	SAMOS	2	1
+	Bilthoven	Olympia (B)	4	0
+	AW	KCN	4	1
+	BEP	Archipel	0	7
+	Baerne	Excelsior	3	2
+	Amsterdam Noord	Nieuw Flora	2	3
+	Deetos	Zuiden (R)	4	2
+	Fluks	DKC (De)	0	8
+	Achilles (H)	HKV	5	1
+	GKV	De Kweek	6	2
+	Phoenix (Z)	Algemene	6	2
+	ODO²	Spartaan	3	1
+	Onder Ons	EKCA	6	3
+	Steeds Hooger	Wilskracht	3	4
+	VADA	't Overschotje	3	2
+	DOT (O)	Noviomagum	1	0
+	SOS	Mercedes	12	3
+	Naas²	Rigtersbleek	0	3
+	Rigtersbleek	Naas²	0	3
+	AKC (Al)	HKC (He)	2	2
+	HKC (He)	AKC (Al)	0	5
+	Noord Oosten	Voorwaarts (M)	4	2
+	WK	Vitesse (Be)	3	1
+	Oranje Wit (T)	PSV	0	8
+	Rood Wit (T)	Volt	3	11
+	NASB	Rust Roest (E)	1	3
+1940-04-07	Westerkwartier	KZ	11	3
+	Sportief	Swift	1	4
+	SVK	DED	6	6
+	DVD²	Blauw Wit	3	3
+	Hercules	DTV	1	6
+	Bilthoven	Vogel	0	1
+	Amsterdam Zuid	Zuiderkwartier³	2	0
+	TOGO (A)	Archipel	2	3
+	Groen Geel	DDV	1	2
+	Baerne	Zwaluwen (H)	1	2
+	Nieuw Flora	De Meervogels (A)	5	4
+	Oosterpark	Aurora	3	2
+	Ons Eibernest	Deetos	3	10
+	HKV	DKC (De)	3	6
+	Fluks	Zuiden (R)	2	8
+	Quick (D)	OSCR	1	8
+	Vicus Orientis	ALO	12	1
+	Olympiaan	Hou Stand	3	6
+	Vlug en Lenig²	Ons Huis (R)	2	8
+	EKCA	Wilskracht	4	2
+	Wilskracht	EKCA	0	5
+	't Overschotje	Onder Ons	1	8
+	ZKC (Zu)	VADA	7	4
+	Hellas	Steeds Hooger	1	1
+	Noviomagum	OKC (A)	3	1
+	SOS	DOT (O)	3	1
+	DOS (E)	Groen Zwart	3	1
+	Groen Zwart	DOS (E)	1	4
+	Zwart Wit	Rigtersbleek	1	3
+	Rigtersbleek	Zwart Wit	4	0
+	AKC (Al)	Naas²	2	3
+	Hermes (G)	Noord Oosten	1	2
+	Advendo (TI)	WK	2	12
+	Vitesse (Be)	Moedig Voorwaarts	0	1
+	Rood Wit (T)	PSV	2	11
+	Landlust	KCO	2	2
+	JPS	Lodek	9	2
+1940-04-14	Blauw Wit	Oosterkwartier (H)	2	0
+	DTV	Hercules	3	2
+	Groen Geel	Rohda (A)	1	4
+	Amersfoort	Baerne	2	2
+	Aurora	OBZB	4	0
+	Deetos	HKV	5	2
+	Zuiden (R)	Ons Eibernest	4	1
+	DKC (De)	Achilles (H)	7	7
+	Regenboog	HBS (H)	3	1
+	De Kweek	OSCR	3	4
+	ODI (H)	Trekvogels (R)	5	3
+	Sperwers	Spartaan	3	0
+	Zwervers	ODO²	1	6
+	EKCA	Hellas	6	2
+	Onder Ons	VADA	5	1
+	Steeds Hooger	ZKC (Zu)	2	5
+	Olympia '22	Swift (E)	4	4
+	Naas²	DOS (E)	5	5
+	Zwart Wit	Groen Zwart	2	4
+	Voorwaarts (M)	Vitesse (Be)	2	1
+	WWMD	Advendo (TI)	1	4
+	Oranje Wit (T)	Volt	0	6
+	Rood Wit (T)	ONA	0	4
+	PSV	Deto	4	2
+	Hou Stand (H)	Achilles (A)	4	2
+	Altius	Soesterkwartier	7	2
+1940-04-21	KZ	Swift	3	3
+	DED	DVD²	2	4
+	SAMOS	Olympia (B)	7	2
+	ZKV (Za)	Amsterdam Zuid	5	4
+	OBZB	Oosterpark	2	7
+	Fluks	HSV	0	4
+	Deetos	Achilles (H)	8	2
+	GKV	Rozenburg	4	2
+	Vicus Orientis	Phoenix (Z)	2	3
+	Die Haghe	Trekvogels (R)	7	4
+	ODO²	Merwede (D)	4	1
+	Sperwers	Zwervers	3	2
+	TOV (D)	Velox	3	4
+	Wilskracht	Onder Ons	0	4
+	Rigtersbleek	AKC (Al)	5	2
+	HKC (He)	Groen Zwart	7	1
+	Hermes (G)	Voorwaarts (M)	3	4
+	Rood Zwart	WK	0	5
+	WK	Rood Zwart	3	0
+	Moedig Voorwaarts	WWMD	0	6
+	Rood Wit (T)	Oranje Wit (T)	2	3
+	Succes	WION	1	5
+	Rust Roest (E)	Odilo	8	0
+	SDO (S)	SDW	7	2
+	Wez Fluch	Leeuwarden	1	4
+	VZK	HDT	0	3
+1940-04-28	Westerkwartier	Blauw Wit	6	5
+	DVD²	KZ	9	7
+	Olympia (B)	Hercules	3	7
+	DTV	Vogel	6	4
+	BEP	AW	3	5
+	De Meervogels (A)	Amsterdam Noord	0	3
+	OBZB	Aurora	8	2
+	HKV	HSV	1	5
+	DKC (De)	Deetos	1	6
+	Spangen	Ready (H)	3	6
+	Quick (D)	De Kweek	2	0
+	ALO	Rood Wit (H)	2	1
+	Olympiaan	ODI (H)	3	7
+	Die Haghe	Hou Stand	5	4
+	Merwede (D)	Sperwers	3	3
+	VADA	Steeds Hooger	5	3
+	Onder Ons	Hellas	3	0
+	't Overschotje	EKCA	1	11
+	Rapiditas	Olympia '22	23	1
+	OKC (A)	DOT (O)	3	4
+	DOS (E)	Rigtersbleek	1	3
+	AKC (Al)	Zwart Wit	8	3
+	Naas²	HKC (He)	5	2
+	Ons Clubje	Oranje Zwart	1	3
+	Nic	Hermes (G)	5	1
+	Noord Oosten	Club Brothers	1	7
+	WK	Advendo (TI)	4	0
+	ONA	Volt	4	4
+	Achilles (A)	Holland	7	2
+	MKC (Me)	Dowocs	4	1
+	MKC (Me)	Dowocs	4	1
+	Wez Fluch	Friso (L)	5	0
+	Kinea (K)	SIM	2	0
+1940-05-05	Blauw Wit	Westerkwartier	2	4
+	KZ	DVD²	8	6
+	Swift	DED	6	9
+	Hercules	Olympia (B)	6	4
+	Vogel	DTV	1	10
+	SAMOS	LUTO	6	6
+	Amsterdam Zuid	AW	0	2
+	DDV	Rohda (A)	2	7
+	SKV (U)	Excelsior	8	0
+	Oosterpark	OBZB	1	1
+	Fluks	Achilles (H)	1	7
+	Ons Eibernest	HSV	2	2
+	Regenboog	Ready (H)	2	2
+	HBS (H)	Spangen	2	3
+	Quick (D)	Rozenburg	1	1
+	Vicus Orientis	Rood Wit (H)	8	0
+	ODI (H)	Die Haghe	5	3
+	Zwervers	Merwede (D)	3	4
+	Ons Huis (R)	Velox	4	1
+	Vlug en Lenig²	TOV (D)	6	1
+	Wilskracht	ZKC (Zu)	1	5
+	EKCA	VADA	8	2
+	Swift (E)	Rapiditas	5	8
+	Mercedes	Noviomagum	3	4
+	DOS (E)	AKC (Al)	1	0
+	Groen Zwart	Rigtersbleek	2	5
+	Naas²	Zwart Wit	5	2
+	GKC	WIK (E)	2	0
+	Nic	Noord Oosten	4	0
+	Club Brothers	Voorwaarts (M)	2	2
+	WWMD	WK	2	7
+	Moedig Voorwaarts	Advendo (TI)	3	0
+	WION	Succes	2	4
+	ZKC '19	SDO (S)	2	7
+	SDW	KIOS (R)	0	2
+	Leeuwarden	Meeuwen (L)	14	4
+	Makkum	Friso (L)	0	10
+	VKC (S)	ODA (B)	1	2
+	Hermes (B)	Wez Handich	1	3
+	LDO	Sportclub	4	2
+	ODK (W)	Surhuisterveen	0	0
+1940-05-26	Westerkwartier	Blauw Wit	4	3
+	Blauw Wit	Westerkwartier	2	4
+	DVD²	KZ	9	7
+	KZ	DVD²	3	6
+	Swift	DED	6	9
+	DTV	Vogel	6	4
+	Vogel	DTV	1	10
+	SAMOS	LUTO	6	6
+	Hercules	Olympia (B)	6	4
+	Olympia (B)	Hercules	3	7
+	Amsterdam Zuid	AW	0	2
+	SKV (U)	Excelsior	3	2
+1940-06-02	EKCA	Steeds Hooger	9	0
+	Leeuwarden	Friso (L)	4	4
+1940-06-09	DED	Swift	4	2
+	Samen Een	Dowocs	4	1
+	Meeuwen (L)	Leeuwarden	1	7
+	VKC (S)	Hermes (B)	3	0
+	ODA (B)	Wez Handich	2	1
+	Dio	LDO	5	2
+1940-06-16	Archipel	Rohda (A)	7	3
+	Nic	Club Brothers	4	2
+	KIOS (R)	ZKC '19	3	4
+	Swastika	Dubbel Zes²	3	0
+	Friso (L)	Wez Fluch	2	3
+	Hermes (B)	ODA (B)	0	3
+	VKC (S)	Wez Handich	2	2
+	SIM	Dio	2	14
+	LDO	Kinea (K)	1	2
+	Surhuisterveen	ODK (W)	7	4
+1940-06-23	AW	Amsterdam Zuid	4	6
+	HKC (He)	DOS (E)	3	4
+	MKC (Me)	Samen Een	2	1
+	Leeuwarden	Wez Fluch	2	2
+	Wez Handich	Hermes (B)	6	1
+	Quick '21	Surhuisterveen	2	1
+1940-06-30	HKC (He)	Rigtersbleek	0	13
+	Rozenburg	Spangen	1	4
+	Spangen	OSCR	0	1
+	Rozenburg	OSCR	3	0
+	Velox	Vlug en Lenig²	2	1
+	Trekvogels (R)	Sperwers	3	0
+	Spartaan	Trekvogels (R)	0	2
+	Sperwers	Spartaan	2	0
+	NASB	Odilo	4	1
+	PSV	Deto	1	1
+	SDO (S)	KIOS (R)	11	0
+	Swastika	Smilde	9	0
+	Wez Fluch	Meeuwen (L)	6	2
+	Meeuwen (L)	Friso (L)	0	5
+1940-07-07	Nic	WK	5	12
+	Groen Geel	Zaandam Zuid	5	0
+	Groen Geel	ZKV (Za)	1	1
+	Zaandam Zuid	ZKV (Za)	0	0
+	Ados²	BEP	0	1
+	ZKV (Za)	BEP	3	0
+	Zaandam Zuid	Ados²	0	1
+	MKC (Me)	UDI (H)	6	3
+	Zwart Wit	DOS (E)	2	2
+	ODA (B)	VKC (S)	2	3
+	HDT	VZK	2	5
+1940-07-14	Club Brothers	Hermes (G)	4	2
+	Sport Vereent	ZKV (Za)	8	6
+	NASB	Rust Roest (E)	5	6
+	Oranje Wit (T)	JPS	5	2
+	ONA	Volt	5	3
+	Zwart Wit	HKC (He)	5	2
+	ZKV (Za)	Sport Vereent	6	8
+	Dio	Kinea (K)	4	1
+	Blauw Wit (Bu)	Wardy	2	0
+1940-07-21	Amersfoort	De Tovers	1	1
+	Excelsior	SKV (U)	1	1
+	KIOS (R)	SDW	2	4
+	ZKC '19	SDW	2	3
+	Smilde	Dubbel Zes²	1	4
+	UDI (H)	Samen Een	12	3
+	PSV	NASB	8	1
+	Deto	Rust Roest (E)	12	1
+	JPS	ONA	6	6
+	Volt	Rood Wit (T)	3	1
+	Meeuwen (L)	Wez Fluch	2	2
+	Surhuisterveen	Quick '21	2	3
+	Wez Handich	ODA (B)	1	1
+1940-07-28	Odilo	Deto	0	3
+	JPS	Rood Wit (T)	4	3
+	Oranje Wit (T)	Volt	2	0
+	ZKC '19	KIOS (R)	3	2
+	UDI (H)	Dowocs	9	1
+1940-08-04	Rohda (A)	Archipel	3	8
+	Dowocs	MKC (Me)	1	3
+	Deto	PSV	1	2
+	NASB	Odilo	2	6
+	Volt	ONA	3	1
+	Rood Wit (T)	Oranje Wit (T)	6	3
+	NASB	Deto	4	5
+	ODK (W)	Quick '21	3	8
+1940-08-11	Amstelodamum	Oosterpark	11	6
+	Dowocs	Samen Een	6	1
+1940-08-18	Friso (L)	Meeuwen (L)	5	2
+1940-08-25	SDW	ZKC '19	5	1
+	Dubbel Zes²	Swastika	4	4
+	UDI (H)	MKC (Me)	7	2
+	NASB	Deto	4	5
+	PSV	Rust Roest (E)	1	2
+	ONA	Rood Wit (T)	2	2
+	JPS	Volt	4	2
+	Quick '21	ODK (W)	1	3
+	VZK	HDT	2	1
+1940-09-01	PSV	Rust Roest (E)	7	2
+	Rust Roest (E)	Deto	3	2
+	Odilo	PSV	1	1
+	Rood Wit (T)	JPS	3	3
+	Smilde	Swastika	1	15
+	Rust Roest (E)	Odilo	2	1
+	Oranje Wit (T)	ONA	0	6
+	ONA	JPS	5	1
+	Oranje Wit (T)	Rood Wit (T)	1	3
+1940-09-08	SDW	SDO (S)	2	11
+1940-09-15	Dowocs	UDI (H)	1	2
+	SDO (S)	ZKC '19	5	1
+1940-09-22	KIOS (R)	SDO (S)	4	10
+	Samen Een	MKC (Me)	1	3
+	Blauw Wit (Bu)	Quick '21	3	4
+1940-10-06	Quick '21	VZK	1	2
+1940-10-27	Samen Een	UDI (H)	1	3
+1939-10-15	Oosterpoort	VOG (G)	4	9
+1940-03-31	Rivas	Rohda (H)	2	5
+	VOG (G)	UNA (L)	2	0
+1940-04-07	Rohda (H)	UNI (S)	12	0
+	UNA (L)	Wees Kwiek	2	1
+	Oosterpoort	BKC (Bo)	8	0
+1940-04-14	SBO (K)	UNI (S)	2	0
+	Wees Kwiek	VOG (G)	1	3
+	Oosterpoort	SSS (E)	7	1
+1940-04-21	Rivas	SBO (K)	8	3
+	GESH (A)	AKV (OP)	1	2
+	BKC (Bo)	SSS (E)	2	1
+1940-04-28	VOG (G)	Wees Kwiek	2	2
+	BKC (Bo)	Oosterpoort	1	7
+1940-05-05	Wees Kwiek	Sparta (Ze)	0	2
+	Dubbel Zes (V)	AKV (OP)	1	0
+	SSS (E)	Oosterpoort	1	4
+	SIOL	Gruno	0	0
+1940-06-02	UNI (S)	Rohda (H)	0	2
+	Sparta (Ze)	Wees Kwiek	2	2
+	UNA (L)	VOG (G)	5	0
+	Gruno	SIOL	3	9
+	AKV (OP)	HBS (B)	1	4
+1940-06-09	Rohda (H)	SBO (K)	10	2
+	SSS (E)	BKC (Bo)	3	1
+1940-06-16	Rohda (H)	Rivas	2	1
+	Sparta (Ze)	VOG (G)	1	2
+	Wees Kwiek	UNA (L)	2	2
+1940-06-23	Dubbel Zes (V)	HBS (B)	0	6
+1940-06-30	VOG (G)	Sparta (Ze)	7	3
+	HBS (B)	AKV (OP)	3	2
+1940-07-07	HBS (B)	Dubbel Zes (V)	5	0
+	UNI (S)	Rivas	2	3
+	SBO (K)	Rohda (H)	0	5
+	Sparta (Ze)	UNA (L)	2	6
+1940-07-14	AKV (OP)	Dubbel Zes (V)	1	1
+1940-08-04	UNA (L)	VOG (G)	5	4
+	AKV (OP)	HBS (B)	4	5
+1940-08-11	Dubbel Zes (V)	AKV (OP)	1	11
+1940-08-25	UNA (L)	Rohda (H)	1	1
+1940-09-08	HBS (B)	Dubbel Zes (V)	4	2
+1940-09-29	Rohda (H)	UNA (L)	11	4
+1940-10-20	HBS (B)	Oosterpoort	1	3
+1939-10-29	Zuiderkwartier (L)	Noorderkwartier	4	1
+1940-04-07	Madjoe (V)	Volharding	5	0
+	HBS (M)	Animo (S)	4	6
+1940-04-14	TOGO (G)	Animo (S)	6	4
+1940-04-21	SSS (C)	Swift (M)	3	9
+	TOGO (G)	HBS (M)	2	3
+	KVW	DOS (Ka)	3	1
+1940-05-05	Swift (M)	Madjoe (V)	0	1
+	DOS (Ka)	VKV (Ve)	0	9
+	SSS (C)	Volharding	1	2
+1940-06-16	TOGO (G)	KVW	4	0
+1940-06-23	TOGO (G)	Volharding	0	5
+	KVW	Zeelandia	1	11
+	SSS (C)	DOS (Ka)	22	2
+1940-06-30	HBS (M)	VKV (Ve)	5	2
+	Volharding	KVW	8	1
+1940-07-07	KVW	DOS (Ka)	0	0
+	KVW	SSS (C)	0	5
+	TOGO (G)	DOS (Ka)	2	0
+	TOGO (G)	SSS (C)	0	1
+1940-07-14	HBS (M)	Madjoe (V)	3	7
+	VKV (Ve)	Swift (M)	1	1
+	Zeelandia	Volharding	4	4
+	KVW	TOGO (G)	2	5
+1940-07-21	Madjoe (V)	Swift (M)	1	4
+	HBS (M)	Animo (S)	1	4
+	VKV (Ve)	Animo (S)	1	10
+1940-07-28	Volharding	TOGO (G)	6	0
+	Zeelandia	KVW	5	0
+1940-08-04	Animo (S)	Swift (M)	1	8
+	Edo	VKV (Ve)	0	3
+	VKV (Ve)	Madjoe (V)	2	5
+	Zeelandia	TOGO (G)	10	2
+	KVW	Volharding	0	5
+	DOS (Ka)	SSS (C)	0	6
+1940-08-18	Animo (S)	Madjoe (V)	2	2
+	KVW	VIOS (K)	2	2
+	Volharding	DOS (Ka)	5	0
+	Zeelandia	SSS (C)	3	0
+	DOS (Ka)	Zeelandia	0	3
+	SSS (C)	Volharding	0	2
+1940-08-25	TOGO (G)	KVW	3	1
+	Swift (M)	Animo (S)	10	2
+1940-12-22	VKV (Ve)	Swift (M)	3	3
+1940-06-30	Rapide (B)	Zwaluwen (E)	3	2
+	DSS	Rust Roest (Z)	4	5
+1940-07-14	Zwaluwen (E)	Roda (B)	2	0
+1940-07-21	Rust Roest (Z)	DSS	7	1

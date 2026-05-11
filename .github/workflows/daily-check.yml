@@ -1,0 +1,91 @@
+name: Daily Run and PR
+
+on:
+  schedule:
+    - cron: '0 5 * * *' # Runs every day at 05:00 UTC
+  workflow_dispatch: # Allows manual triggering of the workflow
+
+jobs:
+  daily-run:
+    runs-on: ubuntu-latest
+    env:
+      NEXT_ZAAL_PREDICTION_DATE: '2027-01-01'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Compute Sportlink cache key
+        id: sportlink_cache
+        run: |
+          echo "key=sportlink-cache-v1-${{ runner.os }}-daily-$(date -u +%Y%m%dT%H%M%SZ)-${GITHUB_RUN_ID}" >> "$GITHUB_OUTPUT"
+
+      - name: Set up JDK
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: '25'
+
+      - name: Scrape latest Sportlink data (force network)
+        run: ./gradlew -Delo.scraper.forceNetwork=true scrape
+
+      - name: Check for changes in matches/current.txt
+        run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add matches/current.txt
+          changes=$(git diff --stat --cached -- matches/current.txt | awk '/insertion/ {print $4}')
+          echo "CHANGES=$changes" >> $GITHUB_ENV
+
+      - name: Find earliest date from added lines in matches/current.txt
+        if: env.CHANGES > 0
+        id: find_date
+        run: |
+          # Get the earliest date from the added lines in matches/current.txt
+          earliest_date=$(git diff --cached -- matches/current.txt | grep '^+' | grep -P "\d{4}-\d{2}-\d{2}" -o | sort | head -n 1)
+          echo "EARLIEST_DATE=$earliest_date" >> $GITHUB_ENV
+
+      - name: Find outdoor season
+        if: env.CHANGES > 0
+        run: |
+          outdoor_season=$(awk -F"'" '
+            /export const OUTDOOR_SEASON/ { in_block=1; next }
+            in_block && /seasonName:/ { print $2; exit }
+          ' web/src/season.ts)
+          echo "OUTDOOR_SEASON=$outdoor_season" >> $GITHUB_ENV
+
+      - name: Remove lines from outdoor season CSVs on or after earliest date
+        if: env.CHANGES > 0
+        run: |
+          dir="web/public/csv/$OUTDOOR_SEASON"
+          if [ ! -d "$dir" ]; then
+            exit 0
+          fi
+          find "$dir" -maxdepth 1 -type f -name '*.csv' | while read -r file; do
+            tmp=$(mktemp)
+            awk -v date="$EARLIEST_DATE" 'NR == 1 || $1 < date' "$file" > "$tmp" && mv "$tmp" "$file"
+          done
+
+      - name: Commit and push changes if there are new changes in matches/current.txt
+        if: env.CHANGES > 0
+        run: |
+          # Run the Gradle command with the earliest date as an argument
+          #          ./gradlew predict --args="$EARLIEST_DATE"
+          ./gradlew predict --args="$EARLIEST_DATE veld"
+          ./gradlew -Delo.predict.forceInitialOutput=true -Delo.predict.clearSnapshots=true -Delo.predict.endDate="$NEXT_ZAAL_PREDICTION_DATE" predict --args="$NEXT_ZAAL_PREDICTION_DATE zaal"
+          git add -A
+
+          # Commit the changes
+          git commit -m "Automatic update of matches/current.txt and related data"
+
+          # Push to the master branch
+          git push origin master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Save Sportlink cache for other workflows
+        if: always()
+        uses: actions/cache/save@v5
+        with:
+          path: cache
+          key: ${{ steps.sportlink_cache.outputs.key }}

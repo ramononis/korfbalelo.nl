@@ -1,0 +1,802 @@
+1915-09-26	DED	OSCA	4	4
+	DVD²	DEV	12	2
+	Haarlem	AW	3	1
+	KZ	HOC²	7	2
+	Vitesse (Haag)	Fluks	3	1
+	Velox	ALO	3	9
+	Dordt	Rozenburg	6	5
+	Quick (Arn)	BKC (DB)	7	1
+	UNI	Animo	7	2
+	Wilhelmina	TOP (H)	1	6
+1915-10-03	DED	DOS	5	9
+	DEV	DTV	7	6
+	AW	KZ	5	4
+	HOC²	Haarlem	2	6
+	Bussum	UKC	3	4
+	Olympia	Baarn	3	2
+	Purmerend	Velocitas	4	5
+	HSV	OSCR	4	2
+	Vitesse (Haag)	Vitesse (Leiden)	3	1
+	BKC (DB)	EKCA	1	2
+	OKK	Dordt	4	4
+	Avanti	DVS	5	1
+	DOS	Wilhelmina	3	2
+1915-10-10	DOS	DVD²	3	12
+	DTV	DEV	7	5
+	KZ	Haarlem	7	6
+	HOC²	AW	7	4
+	HSV	ALO	8	3
+	OSCR	Fluks	3	6
+	EKCA	Onder Ons	2	5
+	Victoria	AKV	3	14
+	HKC (He)	DOS (E)	7	8
+1915-10-17	OSCA	DED	5	6
+	DTV	DOS	8	1
+	Haarlem	UD	3	1
+	UKC	Olympia	7	2
+	Baarn	Bussum	2	9
+	ODIS	Purmerend	0	2
+	ALO	Vitesse (Haag)	3	5
+	Velox	Vitesse (Leiden)	3	8
+	DOSO	UNI	1	6
+	DOS (E)	Naas	5	2
+1915-10-24	DOS	DTV	8	5
+	AW	UD	2	3
+	OSCR	Velox	1	3
+	HSV	Fluks	2	2
+	Vitesse (Leiden)	ALO	8	3
+	Noviomagum	EKCA	0	10
+	Onder Ons	BKC (DB)	7	2
+	Victoria	HS	4	1
+	UNI	Animo	3	1
+1915-10-31	DED	DEV	6	4
+	OSCA	DVD²	3	3
+	Baarn	UKC	3	14
+	ODIS	Advendo	1	2
+	Vitesse (Haag)	OSCR	8	3
+	ALO	Fluks	0	7
+	Rozenburg	Dordt	0	4
+	BKC (DB)	Noviomagum	6	1
+	Quick (Arn)	EKCA	2	6
+	Animo	DOSO	5	4
+	TOP (H)	DOS (E)	9	7
+	Naas	HKC (He)	2	5
+1915-11-07	DED	DTV	2	6
+	DOS	OSCA	8	2
+	Vitesse (Leiden)	HSV	2	2
+	Vitesse (Haag)	Velox	6	2
+	TOP (Sch)	Animo	3	7
+	Wilhelmina	HKC (He)	2	6
+1915-11-14	ALO	HSV	2	5
+	HKC (He)	TOP (H)	1	2
+1915-11-21	DVD²	DTV	5	3
+	HOC²	UD	3	5
+	ALO	OSCR	6	1
+	Vitesse (Haag)	HSV	5	3
+	Quick (Arn)	Onder Ons	2	4
+	Deventer	TOP (H)	0	6
+1915-11-28	EKCA	Noviomagum	10	0
+	Avanti	Hercules	1	3
+1915-12-05	DTV	DED	5	6
+	UD	Haarlem	2	15
+	Dordt	OKK	4	3
+	Rozenburg	RSGV	2	2
+	BKC (DB)	Quick (Arn)	0	3
+	Hercules	Avanti	9	4
+	Deventer	Naas	2	3
+1915-12-12	DEV	DOS	4	4
+	Bussum	Olympia	4	6
+	Velocitas	Purmerend	1	1
+1915-12-19	DED	DVD²	4	11
+	OSCA	DEV	2	11
+	Advendo	ODIS	3	3
+	Vitesse (Leiden)	Fluks	4	3
+	Noviomagum	Quick (Arn)	0	8
+	Onder Ons	EKCA	5	4
+	HS	AKV	1	14
+	OSCR	Vitesse (Haag)	2	6
+	HKC (He)	DEV	9	3
+1915-12-26	HSV	Vitesse (Haag)	0	1
+	EKCA	Quick (Arn)	2	1
+1916-01-02	OSCA	DOS	3	4
+	Vitesse (Leiden)	Vitesse (Haag)	5	2
+	UNI	TOP (Sch)	12	3
+1916-01-09	ODIS	Velocitas	0	1
+	HSV	Velox	7	0
+	Fluks	OSCR	3	3
+	BKC (DB)	Onder Ons	0	11
+	Advendo	Purmerend	1	4
+	DVS	Hercules	4	6
+1916-01-16	OSCA	DTV	3	6
+	Fluks	Vitesse (Haag)	3	0
+	Rozenburg	OKK	3	1
+	RSGV	Dordt	3	4
+	Naas	Wilhelmina	5	2
+1916-01-23	DTV	DVD²	3	5
+	Fluks	ALO	11	0
+	Velox	OSCR	4	1
+	TOP (H)	Deventer	10	2
+	EKCA	BKC (DB)	12	7
+1916-01-30	DEV	DED	7	4
+	UD	AW	6	2
+	Advendo	Velocitas	3	3
+	Vitesse (Haag)	ALO	7	0
+	Vitesse (Leiden)	Velox	0	11
+	Onder Ons	Quick (Arn)	8	1
+	Wilhelmina	DOS (E)	6	4
+	Naas	Deventer	1	0
+1916-02-06	DVD²	DOS	8	2
+	KZ	UD	8	0
+	Purmerend	Advendo	1	4
+	Velox	Fluks	1	8
+	UNI	DOSO	4	2
+	Hercules	DVS	3	5
+	TOP (H)	HKC (He)	10	4
+1916-02-13	OSCR	Vitesse (Leiden)	3	6
+	Naas	TOP (H)	4	5
+1916-02-20	DOS	DED	5	3
+	Fluks	HSV	1	3
+	ALO	Velox	3	5
+	RSGV	OKK	2	3
+	HKC (He)	Naas	3	3
+1916-03-05	DVD²	DED	10	3
+	Olympia	UKC	2	4
+	Fluks	Velox	11	0
+	OSCR	ALO	5	0
+	HSV	Vitesse (Leiden)	3	6
+	Dordt	RSGV	5	6
+	Velocitas	Advendo	6	2
+	DOS	DEV	4	4
+	DVS	Avanti	4	0
+	Deventer	DOS (E)	5	3
+	Wilhelmina	Naas	2	8
+1916-03-12	DVD²	OSCA	6	5
+	Velox	Vitesse (Haag)	0	6
+	Fluks	Vitesse (Leiden)	1	4
+	TOP (H)	Wilhelmina	8	0
+1916-03-19	DEV	DVD²	5	9
+	KZ	AW	10	4
+	Velox	HSV	1	2
+	ALO	Vitesse (Leiden)	4	8
+	OKK	OSCR	9	4
+	Noviomagum	BKC (DB)	0	15
+1916-04-02	Animo	UNI	2	6
+	Wilhelmina	Deventer	6	5
+	Haarlem	KZ	13	2
+	Onder Ons	DVD²	2	13
+1916-04-09	UD	KZ	5	0
+	DTV	OSCA	5	1
+	Onder Ons	Vitesse (Leiden)	2	8
+	DOS (E)	Deventer	7	0
+1916-04-16	DOSO	Animo	4	19
+	DOS (E)	HKC (He)	3	2
+1916-04-23	DVD²	Vitesse (Leiden)	3	2
+	ALO	OKK	4	3
+	Haarlem	Excelsior	2	7
+1916-04-24	Velocitas	DOS	2	15
+	ODIS	Olympia	4	3
+	DOS (E)	TOP (H)	9	9
+1916-04-30	Vitesse (Leiden)	DVD²	1	2
+	OKK	ALO	3	2
+	Excelsior	Haarlem	8	3
+	DEV	OSCA	6	6
+	Hercules	Haarlem	6	1
+	Deventer	HKC (He)	0	5
+1916-05-07	OKK	ALO	0	0
+	OSCA	Excelsior	1	1
+	Naas	DOS (E)	0	16
+	HKC (He)	Wilhelmina	6	4
+1916-05-14	Excelsior	OSCA	7	0
+1916-05-21	Velocitas	UNI	0	7
+	UNI	Velocitas	5	0
+	Noviomagum	TOP (Sch)	1	23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

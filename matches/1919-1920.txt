@@ -1,0 +1,382 @@
+1919-09-07	Advendo	DOSO	2	5
+	Excelsior	Hercules	2	10
+	Velocitas	BEP	7	1
+	RODA (W)	Avanti	4	3
+	KZ	Animo	4	1
+	Rap	Gooiers	3	6
+	PSV	Be Quick	6	1
+	DOS (E)	AKC (Al)	7	3
+	LUTO	Westerkwartier	4	3
+	Sparta (A)	Blauw Wit	5	4
+	Sparta (A)	LUTO	6	3
+	Blauw Wit	Westerkwartier	2	14
+1919-09-14	DED	Vitesse (Leiden)	5	5
+	Fluks	DTV	5	3
+	Deetos	OSCR	6	6
+	Velox	HSV	5	2
+	DOSO	Hercules	6	5
+	Haarlem	DDV	8	4
+	Avanti	KZ	6	2
+	Gooiers	Amersfoort	4	6
+	Spartaan	DHBSC	1	10
+	Be Quick	Onder Ons	2	5
+	EKCA	Quick (Arn)	6	9
+	Naas	Wilhelmina	1	8
+	AKC (Al)	Delden	3	3
+	Thor (Zu)	Noviomagum	1	5
+	Bijenkorf	Blauw Wit	1	1
+	LUTO	OSCA	1	1
+	KVD	OHS	0	18
+	Zuiden	Inter Nos (A)	3	2
+1919-09-21	Vitesse (Leiden)	DEV	6	1
+	DVD²	Fluks	4	4
+	OSCR	ALO	11	0
+	Deetos	Velox	7	4
+	DDV	Advendo	4	2
+	Haarlem	Hercules	11	0
+	Be Quick	ZKC (Zu)	3	5
+	EKCA	PSV	9	3
+	Delden	Naas	5	2
+	DOS (E)	Wilhelmina	3	3
+	BEP	Jong Holland	2	3
+	Animo	Avanti	1	5
+1919-09-28	DEV	DED	3	4
+	HSV	OSCR	4	5
+	ALO	Deetos	3	0
+	AW	Advendo	1	2
+	DOSO	DDV	6	3
+	PSV	Onder Ons	1	5
+	ZKC (Zu)	EKCA	3	1
+	Naas	DOS (E)	0	3
+	AKC (Al)	Wilhelmina	1	4
+	Rap	Ready (A)	4	16
+	Noviomagum	Thor (Zu)	4	0
+	Sparta (A)	OSCA	8	2
+	LUTO	Bijenkorf	13	0
+	Nausikaa	OHS	3	14
+1919-10-05	DEV	DVD²	9	6
+	ALO	HSV	3	7
+	Deetos	DDV	1	9
+	DOSO	AW	5	3
+	Onder Ons	ZKC (Zu)	5	1
+	Quick (Arn)	Be Quick	2	2
+	Delden	DOS (E)	1	3
+	Wilhelmina	HKC (He)	5	3
+	KZ	RODA (W)	6	4
+	Ready (A)	Amersfoort	7	4
+	LUTO	Blauw Wit	6	2
+	OSCA	Westerkwartier	1	5
+	KVD	Nausikaa	6	6
+	Zuiden	HW	6	3
+1919-10-12	OSCR	Velox	10	0
+	EKCA	Onder Ons	2	4
+	ZKC (Zu)	PSV	5	5
+	DOS (E)	HKC (He)	10	6
+	Naas	AKC (Al)	2	4
+	Gooiers	Ready (A)	3	10
+	Goor	Boekelo	3	4
+1919-10-19	DTV	Vitesse (Leiden)	4	3
+	Fluks	DED	4	5
+	HSV	Deetos	0	6
+	Velox	ALO	2	1
+	Haarlem	Advendo	3	1
+	AW	Hercules	2	4
+	Onder Ons	Quick (Arn)	5	3
+	AKC (Al)	DOS (E)	2	6
+	HKC (He)	Delden	5	2
+	RODA (W)	DDV	3	1
+	Amersfoort	Rap	3	2
+	Thor (Zu)	Venetas	4	0
+	Sparta (A)	Westerkwartier	2	2
+	LUTO	OSCA	4	2
+1919-10-26	DVD²	DTV	5	4
+	Vitesse (Leiden)	DED	3	2
+	ALO	Vitesse (Haag)	4	0
+	OSCR	HSV	3	2
+	Advendo	Hercules	3	1
+	DDV	AW	4	2
+	DHBSC	Rozenburg	4	2
+	Be Quick	EKCA	9	4
+	Wilhelmina	Delden	4	0
+	Venetas	Noviomagum	0	1
+	Westerkwartier	Blauw Wit	8	1
+1919-11-02	Fluks	Vitesse (Leiden)	4	0
+	Advendo	AW	1	0
+	BEP	Jong Holland	1	12
+	KZ	Avanti	18	2
+	DOSO	DDV	5	4
+	Haarlem	Ready (A)	8	3
+	DVD²	DEV	1	0
+	Velocitas	Hercules	3	3
+	Deetos	OSCR	5	1
+	Nausikaa	KVD	0	5
+	HW	Inter Nos (A)	6	1
+	Westerkwartier	Tekca	2	3
+	Noorden	Zuiden	2	5
+1919-11-09	KVO	Westerkwartier	2	5
+	Velox	Deetos	0	4
+	Vitesse (Haag)	OSCR	1	7
+	DDV	Haarlem	3	2
+	Hercules	DOSO	1	9
+	Zuiden	HW	4	3
+1919-11-23	DED	DEV	7	5
+	Vitesse (Haag)	ALO	4	1
+	AW	Haarlem	3	1
+	Be Quick	PSV	8	4
+	Delden	Wilhelmina	1	3
+	Excelsior	Amersfoort	9	0
+	Spartaan	Voorwaarts (M)	6	1
+	Blauw Wit	Tekca	2	1
+	LUTO	Sparta (A)	2	1
+	Noorden	HW	3	2
+1919-11-30	DTV	DEV	2	7
+	DED	DVD²	1	3
+	HSV	Velox	7	4
+	OSCR	Deetos	1	4
+	Hercules	Advendo	3	5
+	Onder Ons	EKCA	18	2
+	HKC (He)	DOS (E)	2	10
+	Animo	KZ	0	8
+	Amersfoort	Ready (A)	1	1
+	Gooiers	Excelsior	0	14
+	Rozenburg	DHBSC	1	2
+	Venetas	Thor (Zu)	2	3
+	Blauw Wit	LUTO	3	5
+	Westerkwartier	Sparta (A)	5	3
+	Noorden	Inter Nos (A)	5	0
+1919-12-07	DEV	Fluks	4	2
+	DED	DTV	1	2
+	Vitesse (Haag)	HSV	2	2
+	Haarlem	DOSO	4	3
+	AW	DDV	1	8
+	PSV	Quick (Arn)	4	2
+	HKC (He)	Wilhelmina	3	1
+	Gooiers	Tekca	3	5
+	Avanti	Velocitas	6	0
+1919-12-14	DTV	DED	7	4
+	HSV	ALO	8	0
+	Velox	OSCR	1	7
+	Hercules	Haarlem	2	8
+	AW	DOSO	0	4
+	PSV	ZKC (Zu)	3	4
+	HKC (He)	AKC (Al)	2	4
+	Excelsior	Rap	11	0
+	Spartaan	Rozenburg	2	3
+	TOP (H)	Markelo	0	15
+	TOV (H)	DKC (Di)	0	0
+	Blauw Wit	Sparta (A)	1	1
+1919-12-21	AKC (Al)	Naas	2	1
+1919-12-28	DEV	Vitesse (Leiden)	9	5
+	DED	Fluks	2	4
+	ALO	OSCR	4	9
+	TOG (L)	Thor (Zu)	5	3
+	Jong Holland	RODA (W)	4	7
+	Westerkwartier	LUTO	6	1
+	Blauw Wit	OSCA	11	0
+	Tekca	Sparta (A)	9	3
+	Inter Nos (A)	Noorden	1	2
+1920-01-04	DTV	DVD²	4	2
+	Fluks	DEV	1	2
+	Velox	Vitesse (Haag)	0	3
+	DDV	Hercules	3	2
+	Be Quick	Quick (Arn)	2	1
+	EKCA	ZKC (Zu)	2	6
+	Avanti	RODA (W)	4	2
+	Tekca	Westerkwartier	2	3
+1920-01-18	DED	DTV	5	6
+	Deetos	OSCR	5	3
+	DVD²	Vitesse (Leiden)	2	5
+	HSV	Vitesse (Haag)	4	0
+	Advendo	DDV	2	6
+	Quick (Arn)	PSV	6	4
+	Amersfoort	Excelsior	1	3
+	Markelo	DOVA	3	2
+	DKC (Di)	TOV (H)	1	1
+	HW	Noorden	3	3
+1920-01-25	DVD²	DED	3	2
+	Vitesse (Leiden)	DTV	3	3
+	OSCR	Vitesse (Haag)	7	1
+	Deetos	ALO	6	0
+	Haarlem	AW	5	3
+	DOSO	Advendo	4	2
+	EKCA	Be Quick	2	5
+	Wilhelmina	AKC (Al)	3	1
+	Velocitas	Jong Holland	3	3
+	Gooiers	Rap	4	4
+	Tekca	LUTO	3	5
+1920-02-01	DVD²	DEV	2	7
+	Vitesse (Haag)	Velox	6	3
+	Haarlem	Hercules	4	1
+	Onder Ons	PSV	5	0
+	Quick (Arn)	ZKC (Zu)	1	4
+	Ready (A)	Excelsior	1	1
+	Sparta (A)	Tekca	2	5
+	OSCA	LUTO	1	5
+1920-02-08	Deetos	Haarlem	6	3
+	Hercules	DTV	2	8
+	PSV	DOSO	3	5
+	ZKC (Zu)	Onder Ons	2	3
+	Quick (Arn)	EKCA	23	1
+	DOS (E)	Delden	16	1
+	Rozenburg	Spartaan	4	0
+	LUTO	Tekca	5	3
+1920-02-15	Fluks	DVD²	3	1
+	DEV	DTV	7	6
+	Vitesse (Haag)	Deetos	1	2
+	DOSO	Haarlem	4	5
+	Hercules	AW	2	0
+	Onder Ons	Be Quick	6	0
+	Delden	HKC (He)	2	12
+	Animo	RODA (W)	3	9
+	Thor (Zu)	TOG (L)	6	2
+1920-02-22	Thor (Zu)	DVD²	6	2
+	Deetos	HSV	4	5
+	Advendo	Haarlem	0	2
+	ZKC (Zu)	Be Quick	5	0
+	Wilhelmina	DOS (E)	2	3
+	Jong Holland	BEP	2	3
+1920-02-29	DEV	OSCR	11	6
+	DDV	DOSO	4	1
+	Quick (Arn)	Onder Ons	1	5
+	HKC (He)	Naas	6	1
+	Amersfoort	Gooiers	7	0
+	Nausikaa	OHS	0	7
+1920-03-07	DDV	DEV	14	11
+	Vitesse (Leiden)	Fluks	3	7
+	Rap	Amersfoort	2	4
+	Rozenburg	Voorwaarts (M)	20	0
+1920-03-14	OSCR	DDV	5	2
+	EKCA	Noviomagum	3	4
+	DVD²	DTV	4	6
+	Jong Holland	Velocitas	0	1
+	Ready (A)	RODA (W)	3	1
+	Avanti	Westerkwartier	4	2
+1920-03-21	OSCR	DEV	5	8
+	Onder Ons	DOS (E)	4	6
+	Noviomagum	EKCA	0	3
+	AKC (Al)	HKC (He)	1	5
+	BEP	Velocitas	5	3
+	RODA (W)	KZ	2	10
+	Excelsior	Ready (A)	2	4
+1920-03-28	Deetos	DOSO	8	0
+	DOS (E)	Onder Ons	4	3
+	RODA (W)	Animo	10	1
+1920-04-04	DOS (E)	DEV	3	7
+	DTV	Fluks	5	8
+1920-04-11	Delden	AKC (Al)	5	2
+1920-04-18	EKCA	Noviomagum	6	2
+1920-04-25	DEV	DDV	2	1
+	Ready (A)	DOSO	9	2
+1920-05-02	Onder Ons	Quick (Arn)	0	1
+	Onder Ons	PSV	2	3
+	Quick (Arn)	PSV	2	4
+	Be Quick	Noviomagum	0	2
+	Be Quick	EKCA	0	0
+	Noviomagum	EKCA	2	0
+	Excelsior	Ready (A)	3	2
+	Rap	DOSO	1	2
+1920-05-09	DEV	DOS (E)	7	0
+	Voorwaarts (M)	DHBSC	1	14
+1920-05-16	Rap	Excelsior	1	4
+	DOSO	Excelsior	2	6
+	DHBSC	Spartaan	8	2
+1920-05-30	Ready (A)	Rozenburg	4	4
+	DDV	Haarlem	3	1
+1920-06-20	NKC (Ne)	DKC (Di)	7	1
+	Pro Patria	Jong Holland	2	7
+	AKC (As)	Vitesse (Be)	3	5
+	HBS (As)	Kinea (A)	2	4
+	Hercules (NP)	VOMOS	2	14
+1920-06-27	VOMOS	Voorwaarts (M)	4	5
+	DDK (S)	MKC (Me)	4	3
+	HBS (B)	Veendam	10	0
+	DDK (S)	MKC (Me)	4	3
+1920-07-04	HBS (B)	Veendam	10	0
+1920-07-11	WKC (Gro)	HBS (B)	0	6
+	Kinea (A)	AKC (As)	2	4
+1920-07-18	Vitesse (Be)	WK	3	0
+	MKC (Me)	DOS (E)	2	0
+	Vitesse (Be)	DOS (E)	0	1
+	Vitesse (Be)	Wilhelmina	0	2
+	Wilhelmina	DOS (E)	0	0
+1920-07-25	VOMOS	Hercules (NP)	11	0
+	Quick (S)	SSS (Z)	3	8
+1920-08-01	UNA (L)	UDI (T)	4	1
+1920-08-08	DDK (S)	WKC (DW)	7	3
+	Quick (S)	Hercules (NP)	5	4
+	WKC (DW)	UDI (H)	9	1
+1920-08-15	Kinea (A)	DDV	6	10
+	Hercules (NP)	Quick (S)	2	7
+1920-08-22	SSS (Z)	VOMOS	2	0
+1920-08-29	UDI (T)	HBS (B)	3	4
+	Vitesse (Be)	AKC (As)	5	2
+	DDK (S)	OLS	5	4
+1920-09-05	MIA (M)	HBS (B)	3	0
+	OKK (R)	SSS (V)	1	0
+	OKK (R)	VOP (M)	0	0
+	SSS (V)	VOP (M)	1	0
+1920-09-12	HBS (B)	UDI (N)	4	2
+	VOMOS	Voorwaarts (M)	5	2
+1920-09-26	HBS (B)	MIA (M)	2	3
+	Vitesse (Be)	Oring	0	1
+1920-10-24	DOV	GESH	4	0
+	WIK (K)	OKK (R)	1	1
+	STA	Be Quick (EC)	3	1
+	DOV	VIOS (Oo)	3	1
+	VOMOS (S)	DOSO (NA)	1	0
+	DOV	VOMOS (S)	0	1
+	TOG (ND)	VOMOS (S)	2	1
+1920-10-31	SSS (V)	VOP (M)	0	0
+	DOV	OKK (R)	2	1
+	SSS (V)	STA	2	0
+	OKK (R)	VOP (M)	2	1
+	DOV	SSS (V)	2	0
+1919-09-21	TIA	Vlug en Lenig	2	7
+1919-09-28	TOV (D)	TIA	15	2
+	TIA	VIOD (D)	4	2
+1919-10-05	Vlug en Lenig	TOV (D)	0	5
+1919-10-19	TIA	Vlug en Lenig	0	13
+1919-11-30	Vlug en Lenig	TIA	7	1
+1919-12-14	DHBSC	TOV (D)	0	6
+1920-01-18	TIA	TOV (D)	1	1
+1920-02-29	TOV (D)	Vlug en Lenig	3	4
+1920-03-14	TOV (D)	Vlug en Lenig	2	1
+1919-10-19	HKV	TOGO (H)	7	1
+1919-10-26	TOGO (H)	Dubbel Zes	1	1
+1920-03-14	TOGO (H)	HKV	2	2
+1919-08-03	Juliana (G)	Luctor et Emergo	1	5
+1919-08-10	Juliana (G)	VTV	2	20
+1919-08-24	VTV	AKC (Aa)	1	10
+1919-08-31	AKC (Aa)	VTV	11	2
+1919-09-07	Volharding	Juliana (G)	7	4
+1919-09-14	DDM	VIJW	3	2
+	Steeds Voorwaarts	DOS (M)	8	3
+1919-10-26	Juliana (G)	Zeelandia	3	3
+1920-03-28	Juliana (G)	Volharding	5	2
+1920-04-18	Zeelandia	Volharding	6	1
+1920-04-25	Juliana (G)	Steeds Voorwaarts	6	2
+1920-05-02	Zeelandia	Steeds Voorwaarts	5	4
+	Juliana (G)	Volharding	0	2
+1920-05-09	Juliana (G)	Zeelandia	4	4
+	Steeds Voorwaarts	Volharding	6	0
+1920-05-16	AKC (Aa)	DOS (M)	14	2
+1920-05-23	DDM	VIJW	4	3
+1920-05-30	Zeelandia	Juliana (G)	8	2
+1920-06-06	Steeds Voorwaarts	DOS (M)	11	1
+1920-06-13	DOS (M)	AKC (Aa)	3	7
+	Steeds Voorwaarts	Juliana (G)	5	9
+1920-06-20	Volharding	Juliana (G)	3	8
+1920-06-27	Juliana (G)	DOS (M)	12	3
+1920-07-11	Volharding	Steeds Voorwaarts	9	4
+	DOS (M)	Zeelandia	1	16
+1920-07-25	Steeds Voorwaarts	Zeelandia	3	8
+1920-05-30	Macbi	DSV (H)	3	5
+1920-06-13	AJC (H)	DSV (H)	1	5
+1920-06-20	AJC (H)	THB	5	3
+	Macbi	AJC (H)	6	0
+1920-06-27	THB	Macbi	3	3
+1920-07-04	AJC (H)	Macbi	1	3
+1920-07-11	Haarlem	Advendo	2	1
+1920-07-25	THB	AJC (H)	4	1
+	Advendo	DSV (H)	5	1
+1920-09-12	DSV (H)	AJC (H)	2	3

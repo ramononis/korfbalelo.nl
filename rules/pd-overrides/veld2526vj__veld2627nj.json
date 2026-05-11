@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "withdraw",
+      "team": "Keizer Karel",
+      "reason": "Gaat fuseren met Noviomagum, (promotie-)plek wordt opgevuld volgens PD-regeling KNKV"
+    },
+    {
+      "type": "withdraw",
+      "team": "SIOS / Leonidas",
+      "reason": "Gaat samen met De Hoeve en SCO verder als WKS, (promotie-)plek wordt opgevuld volgens PD-regeling KNKV"
+    },
+    {
+      "type": "withdraw",
+      "team": "De Hoeve",
+      "reason": "Gaat samen met SIOS / Leonidas en SCO verder als WKS, (promotie-)plek wordt opgevuld volgens PD-regeling KNKV"
+    },
+    {
+      "type": "withdraw",
+      "team": "Wesstar",
+      "reason": "Gaat samen met Duko verder als Duko, (promotie-)plek wordt opgevuld volgens PD-regeling KNKV"
+    }
+  ]
+}
