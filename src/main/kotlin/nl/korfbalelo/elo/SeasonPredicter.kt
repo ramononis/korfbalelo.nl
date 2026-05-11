@@ -347,6 +347,11 @@ object SeasonPredicter {
                 predicters.addAll(it)
             }
 
+        private fun filterIndoorGroup(groupId: String): List<PoulePredicter> {
+            val group = indoorTransitionSimulator.group(groupId)
+            return filterIndoorPoules(Regex(group.poulePattern), group.expectedPoules)
+        }
+
         override val name = SeasonContext.indoor.seasonName
         private val klChampionshipPoules = findSpecialIndoorPoules(*klChampionshipPoolPatterns.toTypedArray())
         private val klPromotionPoules = findSpecialIndoorPoules(*klPromotionPoolPatterns.toTypedArray())
@@ -375,6 +380,10 @@ object SeasonPredicter {
             klPromotionPoules,
             kl2RelatedSpecialMatches,
         ).first()
+
+        init {
+            listOf("hk", "ok", "1k", "2k", "3k").forEach(::filterIndoorGroup)
+        }
 
         context(_: RandomGenerator)
         override fun seasonSpecificStuff(date: LocalDate?) {

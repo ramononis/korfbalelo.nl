@@ -182,7 +182,6 @@ object Scraper {
             val indoorSeasonName = SeasonContext.indoor.seasonName
             indoorPoules.putAll(StaticPoules.loadIndoorPoules(indoorSeasonName))
             activeTeams.addAll(indoorPoules.values.flatMap { it.first.keys })
-            StaticPoules.writeFrontendArtifacts(indoorSeasonName)
         }
         applyTemporaryOutdoorPouleFixes()
         File("web/public/specials${SeasonContext.indoor.seasonName}.json").writeText(gson.toJson(specialMatches))

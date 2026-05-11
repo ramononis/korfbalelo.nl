@@ -11,6 +11,7 @@ import nl.korfbalelo.elo.startratings.StartRatingFinder.off
 import nl.korfbalelo.mijnkorfbal.Scraper
 import nl.korfbalelo.mijnkorfbal.Scraper.indoorPoules
 import nl.korfbalelo.mijnkorfbal.Scraper.outdoorPoules
+import nl.korfbalelo.mijnkorfbal.StaticPoules
 import java.io.File
 import java.text.DecimalFormat
 import java.time.LocalDate
@@ -93,6 +94,9 @@ object ApplicationNew {
             ranking.values.minByOrNull { requireNotNull(it.lastDate, it::toString) }.let(::printlnn)
             ranking.values.maxByOrNull { it.rating }.let(::printlnn)
             outputFiles.writeWebRanking(ranking.values)
+            if (!doOutdoor && StaticPoules.hasIndoorPoules(SeasonContext.indoor.seasonName)) {
+                StaticPoules.writeFrontendArtifacts(SeasonContext.indoor.seasonName)
+            }
             outputFiles.writeDiscontinuedTeams(DiscontinuedTeams.all())
             ranking["Olympia '22"].let(::printlnn)
             outputFiles.writeOrigins(originMap)

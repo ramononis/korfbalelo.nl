@@ -56,6 +56,11 @@ class DeclarativeSeasonTransitionSimulator(
         "tierOrder missing for ${definition.id}"
     }
 
+    fun group(groupId: String): TransitionGroup =
+        requireNotNull(definition.groups.find { it.id == groupId }) {
+            "Group $groupId missing for ${definition.id}"
+        }
+
     fun seasonOutcomePromote(
         sourceGroupId: String,
         pouleName: String,

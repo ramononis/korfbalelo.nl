@@ -18,7 +18,7 @@ object StaticPoules {
         fileFor(seasonName).exists()
 
     fun loadIndoorPoules(seasonName: String): Map<String, PouleData> {
-        val tiers = loadRankedTiers(seasonName)
+        val tiers = loadTiers(seasonName)
 
         return tiers.values
             .flatMap { it.entries }
@@ -32,7 +32,7 @@ object StaticPoules {
         snapshotDate: LocalDate = defaultSnapshotDate,
     ) {
         val ratings = loadRatings()
-        val tiers = loadRankedTiers(seasonName, ratings)
+        val tiers = loadTiers(seasonName)
         File("web/public/$seasonName.json").writeText(prettyGson.toJson(tiers) + "\n")
 
         val snapshotDirectory = File("web/public/csv/$seasonName").also(File::mkdirs)
@@ -47,19 +47,6 @@ object StaticPoules {
         fileFor(seasonName)
             .reader()
             .use { gson.fromJson(it, type) }
-
-    private fun loadRankedTiers(
-        seasonName: String,
-        ratings: Map<String, RatingSnapshot> = loadRatings(),
-    ): Map<String, Map<String, List<String>>> =
-        loadTiers(seasonName).mapValues { (_, poules) ->
-            poules.mapValues { (_, teams) ->
-                teams.sortedWith(
-                    compareByDescending<String> { ratings[it]?.rating ?: 1500.0 }
-                        .thenBy { it }
-                )
-            }
-        }
 
     private fun writeSnapshotCsv(
         snapshotDirectory: File,
