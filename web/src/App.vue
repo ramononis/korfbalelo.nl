@@ -66,6 +66,19 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
         <router-link to="/grafiek" exact-active-class="active">Mega grafiek (pas op, zeer traag)</router-link>
         <router-link to="/data" exact-active-class="active">Data</router-link>
         <router-link to="/changelog" exact-active-class="active">Changelog</router-link>
+        <a
+          class="github-link"
+          href="https://github.com/ramononis/korfbalelo.nl"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Bekijk de broncode op GitHub"
+        >
+          <svg class="github-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path
+              d="M12 2C6.48 2 2 6.59 2 12.25c0 4.53 2.87 8.37 6.85 9.73.5.1.68-.22.68-.49 0-.24-.01-1.05-.01-1.9-2.79.62-3.38-1.22-3.38-1.22-.46-1.19-1.11-1.51-1.11-1.51-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.23-.26-4.57-1.14-4.57-5.08 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.91c.85 0 1.7.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.64 1.03 2.76 0 3.95-2.35 4.82-4.58 5.08.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.49A10.17 10.17 0 0 0 22 12.25C22 6.59 17.52 2 12 2Z"
+            />
+          </svg>
+        </a>
       </nav>
     </header>
 
@@ -145,10 +158,31 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
 .nav-tabs {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   overflow-x: auto;
   padding-bottom: 5px;
   position: relative;
   z-index: 10;
+}
+
+.nav-tabs .github-link {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 1;
+  margin-right: 0;
+  padding: 4px;
+}
+
+.nav-tabs .github-icon {
+  fill: currentColor;
+  height: 1.6em;
+  width: 1.6em;
+}
+
+.nav-tabs .github-link:hover {
+  background-color: var(--color-background-soft);
 }
 
 .dropdown {
