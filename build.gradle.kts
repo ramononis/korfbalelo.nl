@@ -26,7 +26,7 @@ repositories {
 dependencies {
     implementation("org.jgrapht:jgrapht-core:1.5.3")
     implementation("org.apache.commons:commons-math3:3.6.1")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0")
     testImplementation(kotlin("reflect"))
     implementation(kotlin("stdlib-jdk8"))
     implementation("com.github.kittinunf.fuel:fuel:2.3.1")
