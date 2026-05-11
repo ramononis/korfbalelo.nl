@@ -14,7 +14,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "axios": "^1.13.6",
+    "axios": "^1.16.0",
     "dygraphs": "^2.2.1",
     "lodash.debounce": "^4.0.8",
     "papaparse": "^5.5.3",
