@@ -14,13 +14,46 @@ const poulesStore = usePoulesStore()
 const orderByRating = ref<boolean>(false)
 
 function getAverageRating(teams: string[]) {
-  return teams.reduce((sum, team) => sum + teamsStore.teamsByName.get(team)!.rating, 0) / teams.length
+  const ratings = teams.map(getTeamRating).filter((rating): rating is number => rating !== null)
+  return ratings.length === 0
+    ? 0
+    : ratings.reduce((sum, rating) => sum + rating, 0) / ratings.length
 }
 
 const showRating = computed(() => ACTIVE_SEASONS.some((season) => season.seasonName === props.season))
+
+function getTeamRating(teamName: string): number | null {
+  return teamsStore.teamsByName.get(teamName)?.rating ?? null
+}
+
+function sortTeams(teams: string[]): string[] {
+  if (!showRating.value) {
+    return teams
+  }
+  return teams
+    .map((teamName, index) => ({
+      teamName,
+      index,
+      rating: getTeamRating(teamName),
+    }))
+    .sort((a, b) => {
+      if (a.rating !== null && b.rating !== null && a.rating !== b.rating) {
+        return b.rating - a.rating
+      }
+      if (a.rating === null && b.rating !== null) {
+        return 1
+      }
+      if (a.rating !== null && b.rating === null) {
+        return -1
+      }
+      return a.index - b.index
+    })
+    .map(({ teamName }) => teamName)
+}
+
 function sortPoules(poules: { [pouleName: string]: string[] }): [string[], string][] {
   return Object.entries(poules)
-    .map(([pouleName, teams], index) => [teams, pouleName, index] as [string[], string, number])
+    .map(([pouleName, teams], index) => [sortTeams(teams), pouleName, index] as [string[], string, number])
     .sort(([teamsA, , indexA], [teamsB, , indexB]) =>
       orderByRating.value
         ? getAverageRating(teamsB) - getAverageRating(teamsA)
@@ -40,6 +73,7 @@ watch(() => props.season, (newSeason, oldSeason) => {
   }
 })
 onMounted(() => {
+  teamsStore.fetchRankings()
   poulesStore.fetchTierData(props.season)
 })
 </script>

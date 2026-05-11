@@ -5,6 +5,7 @@ import nl.korfbalelo.mijnkorfbal.StaticPoules
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import java.time.LocalDate
+import kotlin.test.assertEquals
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
@@ -58,5 +59,21 @@ class SeasonPredicterDateFilterTest {
 
         SeasonPredicter.zeDate = unrelatedDate
         assertFalse(SeasonPredicter.hasSnapshotWork(unrelatedDate))
+    }
+
+    @Test
+    fun `no-match snapshots are ordered by current rating`() {
+        RankingNew.add(Team("Low", "test", 1200.0))
+        RankingNew.add(Team("High", "test", 1800.0))
+        RankingNew.add(Team("Mid", "test", 1500.0))
+
+        val snapshot = PoulePredicter(
+            "TEST",
+            linkedMapOf("Low" to 0, "High" to 0, "Mid" to 0),
+            emptyList(),
+            LocalDate.of(2027, 1, 1),
+        ).currentStanding()
+
+        assertEquals(listOf("High", "Mid", "Low"), snapshot.standing.map { it.team.name })
     }
 }

@@ -142,7 +142,7 @@ class PoulePredicter(
         executor.scored = startScored.copyOf()
         executor.useRatings = true
         val result = if (matches.isEmpty()) {
-            teamNames.indices.map {
+            teamNames.indices.sortedByDescending { teams[it].rating }.map {
                 teams[it] to Triple(
                     startPoints[it],
                     startBalance[it],

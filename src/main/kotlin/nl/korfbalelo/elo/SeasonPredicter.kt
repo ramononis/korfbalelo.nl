@@ -134,11 +134,14 @@ object SeasonPredicter {
             didRunPrediction = true
             run(it)
         }
-        if (!didRunPrediction && !startDate.isAfter(endDate)) {
-            forceOutput = shouldForceOutput
+        if (!didRunPrediction) {
+            forceOutput = shouldForceOutput || shouldForceFutureSnapshot(startDate, endDate)
             run(startDate)
         }
     }
+
+    internal fun shouldForceFutureSnapshot(startDate: LocalDate, endDate: LocalDate): Boolean =
+        startDate.isAfter(endDate)
 
     private fun clearSnapshotCsvs(seasonName: String, pouleNames: Set<String>) {
         if (!clearSnapshotCsvsOnStart) {
@@ -404,9 +407,6 @@ object SeasonPredicter {
 
         context(_: RandomGenerator)
         override fun seasonSpecificStuff(date: LocalDate?) {
-            korfbalLeague.executor.result.take(4).map { it.first }.forEach {
-                event(it, "promote")
-            }
             applyTransitionRules(indoorTransitionSimulator, predicters)
         }
     }
@@ -504,8 +504,13 @@ object SeasonPredicter {
                 val existingHeaderTeamOrder = existingHeader
                     ?.split("\t")
                     ?.let { compatibleSnapshotHeaderTeamOrder(it, predicter.teamNames) }
-                val outputTeamNames = existingHeaderTeamOrder ?: predicter.teamNames
-                val didHeader = existingHeaderTeamOrder != null
+                val preferredTeamOrder = preferredSnapshotTeamOrder(season, predicter)
+                val outputTeamNames = if (shouldUsePreferredSnapshotOrder(season, predicter)) {
+                    preferredTeamOrder
+                } else {
+                    existingHeaderTeamOrder ?: preferredTeamOrder
+                }
+                val didHeader = existingHeaderTeamOrder == outputTeamNames
                 val dateString = format.format(date)
                 existingLines
                     .takeIf { didHeader }
@@ -547,6 +552,16 @@ object SeasonPredicter {
             println(it.key.first + "\t" + (it.value.toDouble() / count.get()))
         }
     }
+
+    private fun shouldUsePreferredSnapshotOrder(season: Season, predicter: PoulePredicter): Boolean =
+        !doOutdoor && StaticPoules.hasIndoorPoules(season.name) && predicter.matches.isEmpty()
+
+    private fun preferredSnapshotTeamOrder(season: Season, predicter: PoulePredicter): List<String> =
+        if (shouldUsePreferredSnapshotOrder(season, predicter)) {
+            predicter.teamNames.sortedByDescending { teamName -> ranking.getValue(teamName).rating }
+        } else {
+            predicter.teamNames
+        }
 
     private fun sortPouleSnapshotFile(file: File) {
         val lines = file.readLines().filter(String::isNotBlank)
