@@ -1,4 +1,4 @@
-# korfbalelo.nl
+# [korfbalelo.nl](https://korfbalelo.nl)
 
 First, a disclaimer:
  - This is a hobby project that started somewhere in 2018 and has escalated quite a bit over the years
@@ -6,6 +6,8 @@ First, a disclaimer:
  - From 2026 onwards, most changes are AI generated and possibly even more incoherent and overly complicated than I could've ever done
  - PRs are welcome and will be looked at. They will also be frowned upon, because who in their sane mind would go through the effort trying to understand this mess?
  - Complaints about the state of the codebase will be met with maniacal laughter.
+
+For a nice explanation of what this all about anyway, see [korfbalelo.nl](https://korfbalelo.nl).
 
 The following is AI generated (because I'm lazy) and could be partly or totally wrong:
 
