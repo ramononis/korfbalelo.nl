@@ -37,13 +37,13 @@ class PoulePredicterSpecialMatchCurrentDateTest {
             date = matchDate,
         )
 
-        val snapshot = predicter.currentStanding() as Map<*, *>
-        val results = snapshot["results"] as List<*>
-        val fixtures = snapshot["fixtures"] as List<*>
+        val snapshot = predicter.currentStanding()
+        val results = snapshot.results
+        val fixtures = snapshot.fixtures
 
         assertEquals(1, results.size)
         assertEquals(1, fixtures.size)
-        val fixture = fixtures.single() as Match
+        val fixture = fixtures.single()
         assertTrue(fixture.special)
         assertEquals(matchDate, fixture.date)
     }

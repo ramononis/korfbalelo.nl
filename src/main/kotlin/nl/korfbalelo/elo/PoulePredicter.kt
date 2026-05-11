@@ -22,6 +22,12 @@ import kotlin.math.sign
 import kotlin.math.sqrt
 import kotlin.time.Duration.Companion.days
 
+data class PouleSnapshot(
+    val results: List<Match>,
+    val fixtures: List<Match>,
+    val standing: List<Standing>,
+)
+
 class PoulePredicter(
     val pouleName: String,
     val teamsToPenalty: Map<String, Int>,
@@ -128,7 +134,7 @@ class PoulePredicter(
         executor.run()
     }
 
-    fun currentStanding(): Any {
+    fun currentStanding(): PouleSnapshot {
         val snapshotDate = date
         val executor = Executor()
         executor.points = startPoints.copyOf()
@@ -137,7 +143,7 @@ class PoulePredicter(
         executor.useRatings = true
         val result = if (matches.isEmpty()) {
             teamNames.indices.map {
-                ranking[teamNames[it]]!! to Triple(
+                teams[it] to Triple(
                     startPoints[it],
                     startBalance[it],
                     startScored[it]
@@ -147,7 +153,7 @@ class PoulePredicter(
             executor.rank((0 until n).toList(), startPoints) { duplicates ->
                 executor.resolvePointsTie(duplicates)
             }.map {
-                ranking[teamNames[it]]!! to Triple(
+                teams[it] to Triple(
                     startPoints[it],
                     startBalance[it],
                     startScored[it]
@@ -162,8 +168,8 @@ class PoulePredicter(
                     )
         }
         fixtures.forEach { m ->
-            val home = ranking[m.home]!!
-            val away = ranking[m.away]!!
+            val home = ranking[m.home] ?: error("missing ranking for fixture home team '${m.home}'")
+            val away = ranking[m.away] ?: error("missing ranking for fixture away team '${m.away}'")
             val diffDistro = diffDistroBetween(home, away)
             val distro = distroBetween(home, away)
             m.pHome = 1.0 - diffDistro.cdf(0.5)
@@ -192,10 +198,10 @@ class PoulePredicter(
                 m.actualAway = snapshot.actualAway
             }
         }
-        return mapOf(
-            "results" to results,
-            "fixtures" to fixtures,
-            "standing" to result.mapIndexed { index, (t, stats) ->
+        return PouleSnapshot(
+            results = results,
+            fixtures = fixtures,
+            standing = result.mapIndexed { index, (t, stats) ->
                 val ownMatches = results.filter { (it.home == t.name || it.away == t.name) && !it.special }
                 Standing(
                     nl.korfbalelo.mijnkorfbal.Team(t.name),
@@ -209,7 +215,7 @@ class PoulePredicter(
                         ownMatches.count { it.loser() == t.name }
                     )
                 )
-            }
+            },
         )
     }
 

@@ -16,6 +16,7 @@ export default class PoulePredicter {
   public startBalance: Int16Array
   public startScored: Int16Array
   public singleRoundRobin: boolean
+  private teamIndexByName: Map<string, number>
 
   constructor(
     public season: string,
@@ -33,6 +34,7 @@ export default class PoulePredicter {
       }
       return toRaw(team) as Team
     })
+    this.teamIndexByName = new Map(this.teamNames.map((teamName, index) => [teamName, index]))
     this.n = this.teamNames.length
     this.startPoints = new Int16Array(this.n)
     this.startBalance = new Int16Array(this.n)
@@ -41,16 +43,16 @@ export default class PoulePredicter {
     this.baseMatches = new Array(this.n * this.n)
     for (const fixture of fixtures) {
       if (fixture.special) continue
-      const h = this.teamNames.indexOf(fixture.home)
-      const a = this.teamNames.indexOf(fixture.away)
-      if (h === -1 || a === -1) continue
+      const h = this.teamIndexByName.get(fixture.home)
+      const a = this.teamIndexByName.get(fixture.away)
+      if (h === undefined || a === undefined) continue
       this.baseMatches[h * this.n + a] = [-1, -1, new Date(fixture.date)]
     }
     for (const result of results) {
       if (result.special) continue
-      const h = this.teamNames.indexOf(result.home)
-      const a = this.teamNames.indexOf(result.away)
-      if (h === -1 || a === -1) continue
+      const h = this.teamIndexByName.get(result.home)
+      const a = this.teamIndexByName.get(result.away)
+      if (h === undefined || a === undefined) continue
       this.baseMatches[h * this.n + a] = [result.homeScore, result.awayScore, new Date(result.date)]
       const balance = result.homeScore - result.awayScore
       const homePoints = Math.sign(balance) + 1
@@ -92,6 +94,7 @@ export default class PoulePredicter {
   public executor(): Executor {
     const n = this.n
     const singleRoundRobin = this.singleRoundRobin
+    const teamNames = this.teamNames
     const matches: Array<[number, number, Date] | undefined> = this.baseMatches
       .map((match) => (match ? [...match] as [number, number, Date] : undefined))
     const teamsCopy: Team[] = new Array(n)
@@ -111,7 +114,7 @@ export default class PoulePredicter {
       a.sampleRating(date)
       const distro = distroBetween(h, a, singleRoundRobin)
       const [sh, sa] = sampleMatch(distro)
-      matches[m] = [sh, sa, new Date()]
+      matches[m] = [sh, sa, date]
       const bal = sh - sa
       const homePoints = Math.sign(bal) + 1
       addStat(points, hI, homePoints)
@@ -176,7 +179,9 @@ export default class PoulePredicter {
           if (only !== undefined) {
             ranking.push(only)
           }
-        } else throw Error("WTF")
+        } else {
+          throw Error(`Could not rank remaining teams ${teams.join(',')} with scores ${Array.from(scores).join(',')}`)
+        }
         nRanked += duplicates.length
         duplicates = []
         prevHighest = highest
@@ -249,7 +254,9 @@ export default class PoulePredicter {
           index++
         }
       }
-      return rank(ints, scores, () => { throw Error("WTF") })
+      return rank(ints, scores, (tiedByRandomScore) =>
+        [...tiedByRandomScore].sort((a, b) => teamNames[a]!.localeCompare(teamNames[b]!)),
+      )
     }
   }
 }

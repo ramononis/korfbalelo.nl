@@ -37,9 +37,9 @@ class PoulePredicterKnownResultTest {
         assertEquals(25, resolved.homeScore)
         assertEquals(21, resolved.awayScore)
 
-        val snapshot = predicter.currentStanding() as Map<*, *>
-        assertEquals(1, (snapshot["results"] as List<*>).size)
-        assertEquals(0, (snapshot["fixtures"] as List<*>).size)
+        val snapshot = predicter.currentStanding()
+        assertEquals(1, snapshot.results.size)
+        assertEquals(0, snapshot.fixtures.size)
     }
 
     @Test
@@ -55,9 +55,9 @@ class PoulePredicterKnownResultTest {
             date = null,
         )
 
-        val snapshot = predicter.currentStanding() as Map<*, *>
-        assertEquals(1, (snapshot["results"] as List<*>).size)
-        assertEquals(0, (snapshot["fixtures"] as List<*>).size)
+        val snapshot = predicter.currentStanding()
+        assertEquals(1, snapshot.results.size)
+        assertEquals(0, snapshot.fixtures.size)
     }
 
     @Test
@@ -73,8 +73,7 @@ class PoulePredicterKnownResultTest {
             date = matchDate,
         )
 
-        val snapshot = predicter.currentStanding() as Map<*, *>
-        val standing = snapshot["standing"] as List<*>
-        assertEquals(2, standing.size)
+        val snapshot = predicter.currentStanding()
+        assertEquals(2, snapshot.standing.size)
     }
 }
