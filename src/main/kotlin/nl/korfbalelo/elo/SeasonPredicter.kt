@@ -81,7 +81,8 @@ object SeasonPredicter {
     val path = "web/public/csv/"
 
     internal fun requestedStartDate(args: Array<String>): LocalDate? =
-        args.firstOrNull()?.let(LocalDate::parse)
+        args.firstOrNull { arg -> runCatching { LocalDate.parse(arg) }.isSuccess }
+            ?.let(LocalDate::parse)
 
     @JvmStatic
     fun main(args: Array<String>) {
@@ -400,6 +401,13 @@ object SeasonPredicter {
 
     class OutdoorSeason : Season() {
         override val name = SeasonContext.outdoor.seasonName
+
+        init {
+            outdoorTransitionSimulator.tierOrder().forEach { groupId ->
+                val group = outdoorTransitionSimulator.group(groupId)
+                predicters.addAll(filterPoules(outdoorPoules, Regex(group.poulePattern), group.expectedPoules))
+            }
+        }
 
         context(_: RandomGenerator)
         override fun seasonSpecificStuff(date: LocalDate?) {
