@@ -1,30 +1,28 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
-import { useRoute } from 'vue-router';
-import Ranking from '@/components/Ranking.vue';
+import { computed, onMounted, onUnmounted, ref } from 'vue'
+import { useRoute } from 'vue-router'
+import Ranking from '@/components/Ranking.vue'
 import { ACTIVE_SEASONS, type SeasonConfig } from '@/season'
 
-const route = useRoute();
+const route = useRoute()
 const isGrafiekRoute = computed(() => {
-  return route.name === 'grafiek';
-});
-const showArchief = ref(false);
-// Close dropdown when clicking outside
-const handleClickOutside = (event: MouseEvent) => {
-  const dropdownBtn = event.target as HTMLElement;
-  if (!dropdownBtn.closest('.dropdown')) {
-    showArchief.value = false;
-  }
-};
+  return route.name === 'grafiek'
+})
+const showArchief = ref(false)
 
-// Add and remove event listener
-import { onMounted, onUnmounted } from 'vue';
+const handleClickOutside = (event: MouseEvent) => {
+  const target = event.target
+  if (!(target instanceof Element) || !target.closest('.dropdown')) {
+    showArchief.value = false
+  }
+}
+
 onMounted(() => {
-  document.addEventListener('click', handleClickOutside);
-});
+  document.addEventListener('click', handleClickOutside)
+})
 onUnmounted(() => {
-  document.removeEventListener('click', handleClickOutside);
-});
+  document.removeEventListener('click', handleClickOutside)
+})
 
 const formatSeasonLabel = (season: SeasonConfig): string => {
   return `20${season.seasonCode.slice(0, 2)}/20${season.seasonCode.slice(2, 4)} ${season.mode}`
@@ -37,7 +35,6 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
     <router-view/>
   </template>
   <div v-else class="app-container">
-    <!-- Header -->
     <header class="app-header">
       <h1>Korfbal Elo</h1>
       <nav class="nav-tabs">
@@ -51,8 +48,8 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
         >
           {{ formatSeasonLabel(season) }}
         </router-link>
-        <a class="dropdown">
-          <button class="dropdown-btn" @click="showArchief = !showArchief">
+        <div class="dropdown">
+          <button type="button" class="dropdown-btn" @click="showArchief = !showArchief">
             Archief ▼
           </button>
           <div class="dropdown-content" v-show="showArchief" @click="showArchief = false">
@@ -62,7 +59,7 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
             <router-link to="/competitie/zaal2425" exact-active-class="active">2024/2025 zaal</router-link>
             <router-link to="/competitie/veld2425nj" exact-active-class="active">2024 veld najaar </router-link>
           </div>
-        </a>
+        </div>
         <router-link to="/grafiek" exact-active-class="active">Mega grafiek (pas op, zeer traag)</router-link>
         <router-link to="/data" exact-active-class="active">Data</router-link>
         <router-link to="/changelog" exact-active-class="active">Changelog</router-link>
@@ -83,12 +80,10 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
     </header>
 
     <div class="content-wrapper">
-      <!-- Sidebar -->
       <aside class="sidebar" :class="{ 'hides-sidebar': route.meta.hidesSidebar }">
         <ranking />
       </aside>
 
-      <!-- Main Content -->
       <main class="main-content">
         <router-view />
       </main>
@@ -111,8 +106,8 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  position: relative; /* Add this */
-  z-index: 100; /* High z-index to ensure it's above other content */
+  position: relative;
+  z-index: 100;
 }
 
 .app-header h1 {
@@ -138,15 +133,15 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
 .sidebar {
   width: 250px;
   background-color: var(--color-background-mute);
-  overflow-y: auto; /* Enable vertical scrolling */
-  max-height: calc(100vh - 2rem); /* Subtract header height + padding */
-  position: sticky; /* Keep sidebar in place while scrolling */
+  overflow-y: auto;
+  max-height: calc(100vh - 2rem);
+  position: sticky;
   top: 0;
 }
 
 @media (max-width: 1280px) {
   .sidebar {
-    max-height: calc(100vh); /* Subtract header height + padding */
+    max-height: 100vh;
   }
 }
 
@@ -160,7 +155,7 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  overflow-x: auto;
+  overflow-x: visible;
   padding-bottom: 5px;
   position: relative;
   z-index: 10;
@@ -206,7 +201,7 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
   background-color: var(--color-background);
   min-width: 160px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-  z-index: 200; /* Very high z-index */
+  z-index: 200;
   display: flex;
   flex-direction: column;
   padding: 0.5rem 0;
@@ -227,11 +222,6 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
 
 .dropdown-content a.active {
   text-decoration: underline;
-}
-
-/* Prevent horizontal scrolling */
-.nav-tabs {
-  overflow-x: visible;
 }
 
 </style>

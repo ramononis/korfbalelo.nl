@@ -97,7 +97,7 @@ object ApplicationNew {
             ranking["Olympia '22"].let(::printlnn)
             outputFiles.writeOrigins(originMap)
             printlnn(ranking.size)
-            printlnn(ranking.filterValues { it.lastDate!!.isAfter(LocalDate.of(2020, 9, 1)) }.size)
+            printlnn(ranking.count { (_, team) -> team.lastDate?.isAfter(LocalDate.of(2020, 9, 1)) == true })
             outputFiles.writeGraph(RankingNew.graph)
         }
 

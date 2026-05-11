@@ -15,12 +15,10 @@ object RankingNew {
 
         if (match.homeScore < 0) return
         if (homeString == awayString) error(match)
-        val home = ranking[homeString] ?:
-        error("${match.date} spawn ${homeString} > ")
+        val home = ranking[homeString] ?: error("${match.date} spawn $homeString > ")
         val homeScore = match.homeScore
         if (home.lastDate == null && home.created != match.date) error("Wrong create $home : ${match.date}")
-        val away = ranking[awayString] ?:
-        error("${match.date} spawn ${awayString} > ")
+        val away = ranking[awayString] ?: error("${match.date} spawn $awayString > ")
         val awayScore = match.awayScore
         if (away.lastDate == null && away.created != match.date) error("Wrong create $away : ${match.date}")
 
@@ -240,7 +238,7 @@ object RankingNew {
     )
 
     fun map(teamName: String): String {
-        val clubName = regex.matchEntire(teamName)!!.groupValues[1]
+        val clubName = regex.matchEntire(teamName)?.groupValues?.get(1) ?: teamName
         return mapper.getOrDefault(clubName, clubName)
     }
 }

@@ -35,8 +35,7 @@ class PoulePredicter(
         .filter { (it.home in teamNames && it.away in teamNames) || it.special }
 
     val teams = teamNames.map {
-        ranking[it] ?:
-    error("WTF" + it)
+        ranking[it] ?: error("missing ranking for team '$it' in poule '$pouleName'")
     }.toTypedArray()
 
     val n = teamNames.size
@@ -130,6 +129,7 @@ class PoulePredicter(
     }
 
     fun currentStanding(): Any {
+        val snapshotDate = date
         val executor = Executor()
         executor.points = startPoints.copyOf()
         executor.balance = startBalance.copyOf()
@@ -156,8 +156,10 @@ class PoulePredicter(
         }
         val fixtures = matches.filter { match ->
             match.homeScore == -1
-                || match.date.isAfter(this.date!!)
-                || (match.special && match.date == this.date)
+                || (
+                    snapshotDate != null &&
+                        (match.date.isAfter(snapshotDate) || (match.special && match.date == snapshotDate))
+                    )
         }
         fixtures.forEach { m ->
             val home = ranking[m.home]!!
@@ -172,7 +174,7 @@ class PoulePredicter(
             m.homeRating = home.rating
             m.awayRating = away.rating
         }
-        val results = matches.filter { it.homeScore != -1 && !it.date.isAfter(this.date!!) }
+        val results = matches.filter { it.homeScore != -1 && (snapshotDate == null || !it.date.isAfter(snapshotDate)) }
         results.forEach { m ->
             ApplicationNew.matches[Triple(m.date, m.home, m.away)]?.let { snapshot ->
                 m.pHome = snapshot.pHome
@@ -225,8 +227,9 @@ class PoulePredicter(
             val h = m / n
             val a = m % n
             val (sh, sa) = distroBetween(teamsCopy[h].also{it.sampleRating(date)}, teamsCopy[a].also{it.sampleRating(date)}, oneway).sample()
-            matches[m] = sh to sa ot LocalDate.now()
-            val r = matches[m]!!.pts()
+            val result = sh to sa ot date
+            matches[m] = result
+            val r = result.pts()
             points[h] += r
             points[a] += 2 - r
             balance[h] += sh - sa
@@ -293,7 +296,9 @@ class PoulePredicter(
                     ranking.addAll(resolver(duplicates))
                 } else if (duplicates.size == 1) {
                     ranking.add(duplicates.first())
-                } else error("WTF")
+                } else {
+                    error("could not rank remaining teams $teams with scores ${scores.toList()}")
+                }
                 nRanked += duplicates.size
                 duplicates.clear()
                 prevHighest = highest
@@ -366,7 +371,11 @@ class PoulePredicter(
 
         context(random: RandomGenerator)
         private fun resolveScoredTie(ints: List<Int>): List<Int> {
-            if (useRatings) return rank(ints, teamsCopy.map { (it.rating * 10000).toInt() }.toIntArray()) { _ -> TODO() }
+            if (useRatings) {
+                return rank(ints, teamsCopy.map { (it.rating * 10000).toInt() }.toIntArray()) { tiedByRating ->
+                    tiedByRating.sortedBy { teamNames[it] }
+                }
+            }
             val scores = IntArray(n)
             val currDuplicates = ints.toMutableList()
             var score = n
@@ -387,7 +396,9 @@ class PoulePredicter(
                     index++
                 }
             }
-            return rank(ints, scores) { _ -> TODO() }
+            return rank(ints, scores) { tiedByRandomScore ->
+                tiedByRandomScore.sortedBy { teamNames[it] }
+            }
         }
     }
 
@@ -410,7 +421,7 @@ class PoulePredicter(
         }
     }
 }
-fun Double.shouldBe(other: Double) = (this - other).absoluteValue < 1e-3 || error("WTF")
+fun Double.shouldBe(other: Double) = (this - other).absoluteValue < 1e-3 || error("expected $other but was $this")
 
 infix fun <A,B,C> Pair<A, B>.ot(third: C) = Triple(first, second, third)
 typealias R = Triple<Int, Int, LocalDate?>

@@ -92,10 +92,12 @@ class FileRatingOutputs(
                 groupedEvents.filterIsInstance<Match>().sortedBy { it.format() }
                     .joinToString("\n") { match ->
                         with(match) {
+                            val actualHomeTeam = actualHome ?: error("missing actual home team for aggregate match ${format()}")
+                            val actualAwayTeam = actualAway ?: error("missing actual away team for aggregate match ${format()}")
                             listOf(
                                 date,
-                                actualHome!!.name,
-                                actualAway!!.name,
+                                actualHomeTeam.name,
+                                actualAwayTeam.name,
                                 homeScore,
                                 awayScore,
                                 homeRating.roundToInt(),

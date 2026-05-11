@@ -23,39 +23,47 @@ fun parseEvent(str: String): RankingEvent {
     if (str.startsWith("//")) return NoopEvent(LocalDate.ofEpochDay(0))
     val (_, dateStr, cmd, args) = commandRegex.matchEntire(str)?.groupValues ?: error(str)
     val date = LocalDate.parse(dateStr)
-    return try {
-        when (cmd) {
-            "spawn" -> {
-                val (_, name, place) = arrowRegex.matchEntire(args)!!.groupValues
-                SpawnEvent(date, name, place)
-            }
-
-            "ack" -> AckEvent(date, args)
-            "xack" -> AckEvent(date, args)
-            "end" -> EndEvent(date, args)
-            "replace" -> {
-                val (_, old, new) = arrowRegex.matchEntire(args)!!.groupValues
-                MergeEvent(date, new, null, setOf(old))
-            }
-
-            "xalias" -> {
-                val (_, old, new) = arrowRegex.matchEntire(args)!!.groupValues
-                AliasEvent(date, old, new)
-            }
-
-            "endalias" -> EndAliasEvent(date, args)
-            "merge" -> {
-                val (_, olds, new, place) = doubleArrowRegex.matchEntire(args)!!.groupValues
-                val oldNames = olds.split(",")
-                MergeEvent(date, new, place, oldNames)
-            }
-
-            else -> error("unknown command: $cmd")
+    return when (cmd) {
+        "spawn" -> {
+            val (name, place) = parseArrow(args, str)
+            SpawnEvent(date, name, place)
         }
-    } catch (npe: NullPointerException) {
-        error(str)
+
+        "ack" -> AckEvent(date, args)
+        "xack" -> AckEvent(date, args)
+        "end" -> EndEvent(date, args)
+        "replace" -> {
+            val (old, new) = parseArrow(args, str)
+            MergeEvent(date, new, null, setOf(old))
+        }
+
+        "xalias" -> {
+            val (old, new) = parseArrow(args, str)
+            AliasEvent(date, old, new)
+        }
+
+        "endalias" -> EndAliasEvent(date, args)
+        "merge" -> {
+            val (olds, new, place) = parseDoubleArrow(args, str)
+            val oldNames = olds.split(",").map(String::trim).filter(String::isNotEmpty)
+            MergeEvent(date, new, place, oldNames)
+        }
+
+        else -> error("unknown command '$cmd' in event: $str")
     }
 }
+
+private fun parseArrow(args: String, event: String): Pair<String, String> =
+    arrowRegex.matchEntire(args)
+        ?.destructured
+        ?.let { (left, right) -> left to right }
+        ?: error("invalid arrow syntax in event: $event")
+
+private fun parseDoubleArrow(args: String, event: String): Triple<String, String, String> =
+    doubleArrowRegex.matchEntire(args)
+        ?.destructured
+        ?.let { (left, middle, right) -> Triple(left, middle, right) }
+        ?: error("invalid double-arrow syntax in event: $event")
 
 const val LOWEST_ELO = 0
 const val CONSTANT = 1
@@ -76,7 +84,7 @@ data class SpawnEvent(override val date: LocalDate, val name: String, val place:
             it.startOffset = eloOrOffset
             it.created = date
             if (log) {
-                if (it.graphName in originMap) error("WTF $this")
+                if (it.graphName in originMap) error("graph origin already exists for ${it.graphName} while running $this")
                 originMap[it.graphName] = mutableSetOf(it.graphName)
             }
         })
@@ -89,8 +97,9 @@ data class NoopEvent(override val date: LocalDate) : RankingEvent() {
 data class EndEvent(override val date: LocalDate, val name: String) : RankingEvent() {
     override fun run() {
         if (name !in ranking) error("$name doesn't exist")
-        val team = ranking[name]!!
-        if (team.lastDate!!.plusDays(1) != date) error("wrong end $name : ${ranking[name]}")
+        val team = ranking.getValue(name)
+        val lastDate = team.lastDate ?: error("cannot end $name before its first rating date")
+        if (lastDate.plusDays(1) != date) error("wrong end $name : $team")
         DiscontinuedTeams.registerEnd(team, date)
         RankingNew.remove(name)
     }
@@ -130,7 +139,7 @@ data class MergeEvent(
 //                lol
 //            }
         val oldGraphNames = oldTeams.map(Team::graphName)
-        val pl = place ?: ranking[oldNames.first()]!!.place
+        val pl = place ?: oldTeams.first().place
         val keepStats = name in oldNames
         oldNameList.forEach { oldName ->
             val oldTeam = ranking.getValue(oldName)
@@ -178,8 +187,12 @@ data class MergeEvent(
 //                maxOrigins = it.origins
 //            }
             if (log) {
-                if (it.graphName in originMap && it.name !in oldNames) error("WTF $this")
-                val mergedOrigins = oldGraphNames.map { originMap[it]!! }
+                if (it.graphName in originMap && it.name !in oldNames) {
+                    error("graph origin already exists for ${it.graphName} while running $this")
+                }
+                val mergedOrigins = oldGraphNames.map { oldGraphName ->
+                    originMap[oldGraphName] ?: error("missing graph origins for $oldGraphName")
+                }
                     .fold(mutableSetOf(it.graphName)) { acc, source ->
                         acc.addAll(source)
                         acc
@@ -205,6 +218,6 @@ data class AliasEvent(override val date: LocalDate, val fromName: String, val to
 data class AckEvent(override val date: LocalDate, val name: String) : RankingEvent() {
     override fun run() {
         if (name !in ranking) error("$name doesn't exist")
-        ranking[name]!!.setNewRD(date)
+        ranking.getValue(name).setNewRD(date)
     }
 }

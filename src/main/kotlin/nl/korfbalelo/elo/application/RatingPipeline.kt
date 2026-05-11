@@ -95,7 +95,8 @@ class RatingPipeline(
         val oneYearAgo = LocalDate.now().minusYears(1)
         activeTeams.forEach { teamName ->
             val team = RankingNew.ranking.getValue(teamName)
-            if (team.lastDate!!.isBefore(oneYearAgo)) {
+            val lastDate = team.lastDate
+            if (lastDate == null || lastDate.isBefore(oneYearAgo)) {
                 team.lastDate = LocalDate.now()
             }
         }

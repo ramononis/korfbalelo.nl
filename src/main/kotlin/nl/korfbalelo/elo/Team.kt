@@ -16,6 +16,16 @@ import kotlin.math.roundToInt
 import kotlin.math.sign
 import kotlin.math.sqrt
 
+data class RatingUpdate(
+    val rating: Double,
+    val rd: Double,
+    val rv: Double,
+    val averageScore: Double,
+) {
+    fun withRatingDelta(delta: Double): RatingUpdate =
+        if (delta == 0.0) this else copy(rating = rating + delta)
+}
+
 class Team {
 
     @JvmField
@@ -30,7 +40,7 @@ class Team {
     var rating: Double = Double.NaN
         set(value) {
             if (value.isNaN()) {
-                error("WTF")
+                error("team rating for $name became NaN")
             }
             field = value
             if (value != MAGIC_1500) {
@@ -85,7 +95,7 @@ class Team {
         atHome: Boolean,
         match: Match,
         diffDistro: ND
-    ): List<Double> {
+    ): RatingUpdate {
         val diff = _for - against
         val sumAve = (averageScore + opponent.averageScore) / 2
         val s = 1.0 - diffDistro.cdf(diffDistro.first - diff.toDouble())
@@ -140,7 +150,7 @@ class Team {
         val phiPrime = min(RD_MAX / D, 1.0 / sqrt(1.0 / phi1 / phi1 + 1.0 / v))
         val muD = phiPrime * phiPrime * (g * (s - bigE))
         if (muD.isNaN()) {
-            error("WTF")
+            error("rating delta for ${name} became NaN against ${opponent.name} on ${match.date}")
         }
         PredictionBenchmark.recordRatingDelta(muD.absoluteValue)
         val muPrime = mu1 + muD
@@ -179,14 +189,19 @@ class Team {
         games++
 
         check(rPrime != MAGIC_1500)
-        return listOf(rPrime, rdPrime, sigPrime, newAverageScore)
+        return RatingUpdate(
+            rating = rPrime,
+            rd = rdPrime,
+            rv = sigPrime,
+            averageScore = newAverageScore,
+        )
     }
 
-    fun setNewRating(newRating: List<Double>) {
-        rating = newRating[0]
-        rd = newRating[1]
-        rv = newRating[2]
-        averageScore = max(0.5, newRating[3])
+    fun setNewRating(update: RatingUpdate) {
+        rating = update.rating
+        rd = update.rd
+        rv = update.rv
+        averageScore = max(0.5, update.averageScore)
     }
 
     override fun toString(): String {

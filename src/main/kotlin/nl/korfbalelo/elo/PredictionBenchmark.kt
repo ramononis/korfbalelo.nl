@@ -207,6 +207,7 @@ private class OnlineCorrelation {
         if (n < 2) return Double.NaN
         val numerator = n * sumXY - sumX * sumY
         val denominator = sqrt((n * sumXX - sumX * sumX) * (n * sumYY - sumY * sumY))
+        if (denominator == 0.0) return Double.NaN
         return numerator / denominator
     }
 }

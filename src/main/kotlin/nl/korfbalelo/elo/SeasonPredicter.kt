@@ -184,7 +184,9 @@ object SeasonPredicter {
 
             removedTeams.forEach { t ->
                 events.keys().toList().forEach { (t2, e) ->
-                    if (t == t2 && e != "champion" && "rank" !in e) error("WTF $t $t2 $e")
+                    if (t == t2 && e != "champion" && "rank" !in e) {
+                        error("removed team $t received unexpected event $e")
+                    }
                 }
             }
 //            checkCount("ek", 4 * 4)
@@ -569,7 +571,7 @@ object SeasonPredicter {
                                 in Regex("2.*") -> "2e Klasse"
                                 in Regex("3.*") -> "3e Klasse"
                                 in Regex("4.*") -> "4e Klasse"
-                                else -> error("WTF")
+                                else -> error("unknown poule group for ${it.first}")
                             }
                         }.mapValues { it.value.toMap() }
                 )

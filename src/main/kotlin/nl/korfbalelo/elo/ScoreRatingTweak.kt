@@ -48,9 +48,9 @@ object ScoreRatingTweak {
         match: Match,
         home: Team,
         away: Team,
-        homeUpdate: List<Double>,
-        awayUpdate: List<Double>,
-    ): Pair<List<Double>, List<Double>> {
+        homeUpdate: RatingUpdate,
+        awayUpdate: RatingUpdate,
+    ): Pair<RatingUpdate, RatingUpdate> {
         if (config.mode == ScoreRatingTweakMode.OFF || preparedDate != match.date || !regression.available) {
             return homeUpdate to awayUpdate
         }
@@ -70,8 +70,8 @@ object ScoreRatingTweak {
                 match.homeScore - expectedHomeScore to match.awayScore - expectedAwayScore
 
             ScoreRatingTweakMode.NEW_AVERAGE_SCORE ->
-                homeUpdate[3] - regression.expectedScore(homeUpdate[0]) to
-                    awayUpdate[3] - regression.expectedScore(awayUpdate[0])
+                homeUpdate.averageScore - regression.expectedScore(homeUpdate.rating) to
+                    awayUpdate.averageScore - regression.expectedScore(awayUpdate.rating)
 
             ScoreRatingTweakMode.HYBRID -> {
                 val homeTeamResidual = match.homeScore - expectedHomeScore
@@ -116,8 +116,6 @@ object ScoreRatingTweak {
         return clamped
     }
 
-    private fun List<Double>.withRatingDelta(delta: Double): List<Double> =
-        if (delta == 0.0) this else toMutableList().also { it[0] += delta }
 }
 
 data class ScoreRatingTweakConfig(
@@ -258,6 +256,7 @@ private class RegressionStats {
 
     fun slope(): Double {
         val denominator = n * sumXX - sumX * sumX
+        if (denominator == 0.0) return Double.NaN
         return (n * sumXY - sumX * sumY) / denominator
     }
 
