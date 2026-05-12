@@ -78,8 +78,8 @@ jobs:
           # Commit the changes
           git commit -m "Automatic update of matches/current.txt and related data"
 
-          # Push to the master branch
-          git push origin master
+          # Push to the main branch
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
