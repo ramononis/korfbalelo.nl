@@ -419,3 +419,4 @@
 2026-05-09,Zwaluwen (Ze),ODIK,13,17
 2026-05-09,Zwart Wit,Rheko,26,15
 2026-05-10,Moedig Voorwaarts,Koru,14,10
+2026-05-11,SF Deinum,Lemmer,3,3
