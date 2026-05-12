@@ -20,15 +20,15 @@
     "papaparse": "^5.5.3",
     "pinia": "^3.0.4",
     "pinia-plugin-persistedstate": "^4.7.1",
-    "vue": "^3.5.31",
+    "vue": "^3.5.34",
     "vue-mathjax-next": "^0.0.6",
-    "vue-router": "^5.0.4"
+    "vue-router": "^5.0.6"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.9",
     "@types/dygraphs": "^2.1.11",
     "@types/lodash.debounce": "^4.0.9",
-    "@types/node": "^25.6.0",
+    "@types/node": "^25.7.0",
     "@types/papaparse": "^5.5.2",
     "@vitejs/plugin-vue": "^6.0.6",
     "@vue/eslint-config-prettier": "^10.2.0",
@@ -40,8 +40,8 @@
     "prettier": "^3.8.3",
     "typescript": "~6.0.3",
     "vite": "^8.0.12",
-    "vite-plugin-vue-devtools": "^8.1.1",
-    "vitest": "^4.1.2",
+    "vite-plugin-vue-devtools": "^8.1.2",
+    "vitest": "^4.1.6",
     "vue-tsc": "^3.2.8"
   }
 }
