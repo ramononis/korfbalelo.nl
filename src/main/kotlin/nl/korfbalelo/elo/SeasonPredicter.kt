@@ -95,6 +95,10 @@ object SeasonPredicter {
                 "elo.predict.forceFullOutdoorOutput",
                 LocalDate.now().isBefore(LocalDate.of(2026, 3, 27)).toString(),
             ).toBoolean()
+            val shouldForceOutdoorOutput = System.getProperty(
+                "elo.predict.forceOutdoorOutput",
+                shouldForceFullOutdoorOutput.toString(),
+            ).toBoolean()
             if (shouldForceFullOutdoorOutput) {
                 File("$path/${SeasonContext.outdoor.seasonName}").let {
                     if (it.exists()) {
@@ -107,11 +111,11 @@ object SeasonPredicter {
             clearSnapshotCsvs(SeasonContext.outdoor.seasonName, outdoorPoules.keys)
 
             requestedStartDate?.let {
-                forceOutput = shouldForceFullOutdoorOutput
+                forceOutput = shouldForceOutdoorOutput
                 runApplicationWithPredictionFallback(it, predictionEndDate)
             } ?: run {
                 ApplicationNew.main(arrayOf())
-                forceOutput = shouldForceFullOutdoorOutput
+                forceOutput = shouldForceOutdoorOutput
                 run(predictionEndDate)
             }
             return

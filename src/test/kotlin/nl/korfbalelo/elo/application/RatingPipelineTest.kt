@@ -21,6 +21,7 @@ class RatingPipelineTest {
             RankingNew.add(
                 Team(teamName, place, 1500.0).also {
                     it.created = date
+                    it.lastDate = date
                 },
             )
         }
@@ -68,5 +69,30 @@ class RatingPipelineTest {
             ApplicationNew.log = previousLog
         }
     }
-}
 
+    @Test
+    fun `snapshot callback fires before first event after requested date`() {
+        val seedDate = LocalDate.of(2026, 1, 1)
+        val snapshotDate = LocalDate.of(2026, 1, 5)
+        val matchDate = LocalDate.of(2026, 1, 10)
+        val events = setOf<RankingEvent>(
+            SeedTeamEvent(seedDate, "Team A", "A"),
+            SeedTeamEvent(seedDate, "Team B", "B"),
+            PlayMatchEvent(matchDate, "Team A", "Team B", 12, 10),
+        )
+        val callbackSnapshots = mutableListOf<Pair<LocalDate, Int>>()
+
+        RatingPipeline().run(
+            events = events,
+            window = RatingRunWindow(snapshotDate, snapshotDate),
+            activeTeams = emptySet(),
+            logEnabled = true,
+            onDate = { date ->
+                callbackSnapshots += date to RankingNew.ranking.getValue("Team A").games
+            },
+        )
+
+        assertEquals(listOf(snapshotDate to 0), callbackSnapshots)
+        assertTrue(RankingNew.ranking.getValue("Team A").games >= 1)
+    }
+}

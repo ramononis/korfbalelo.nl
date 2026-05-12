@@ -42,10 +42,11 @@ class RatingPipeline(
         val new = events.filter { !it.date.isBefore(splitDate) }
 
         var started = false
+        val hasDateWindow = !window.from.isAfter(window.to)
 
         fun eachDate(date: LocalDate, dateEvents: List<RankingEvent>) {
             if (logEnabled) {
-                if (date in window.from..window.to && !started) {
+                if (hasDateWindow && !started && !date.isBefore(window.from)) {
                     onDate(window.from)
                     started = true
                 }
