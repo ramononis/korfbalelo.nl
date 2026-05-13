@@ -2,7 +2,7 @@ name: Daily Run and PR
 
 on:
   schedule:
-    - cron: '0 5 * * *' # Runs every day at 05:00 UTC
+    - cron: '14 23 * * *' # Runs every day at 23:14 UTC
   workflow_dispatch: # Allows manual triggering of the workflow
 
 permissions:
