@@ -189,7 +189,7 @@
 2026-04-11,Oost Arnhem,NRC '22,21,18
 2026-04-11,Oranje Zwart (M),OZC,5,17
 2026-04-11,Oranje Zwart,DOS-WK,9,15
-2026-04-11,PSV,DKB,15,11
+2026-04-11,PSV,DKB,15,12
 2026-04-11,Paal Centraal,Gemini,16,9
 2026-04-11,Pernix,KVA,15,15
 2026-04-11,Quick '21 / Vlug en Vaardig (G),Leeuwarden,13,14
@@ -420,3 +420,5 @@
 2026-05-09,Zwart Wit,Rheko,26,15
 2026-05-10,Moedig Voorwaarts,Koru,14,10
 2026-05-11,SF Deinum,Lemmer,3,3
+2026-05-12,Conventus,Olympia (S),8,10
+2026-05-12,Korbatjo,Movado,15,16
