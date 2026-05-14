@@ -74,8 +74,8 @@ jobs:
         run: |
           # Run the Gradle command with the earliest date as an argument
           #          ./gradlew predict --args="$EARLIEST_DATE"
-          ./gradlew predict --args="$EARLIEST_DATE veld"
-          ./gradlew -Delo.predict.forceInitialOutput=true -Delo.predict.clearSnapshots=true -Delo.predict.endDate="$NEXT_ZAAL_PREDICTION_DATE" predict --args="$NEXT_ZAAL_PREDICTION_DATE zaal"
+          ./gradlew -Delo.scraper.writeCurrentMatches=false predict --args="$EARLIEST_DATE veld"
+          ./gradlew -Delo.scraper.writeCurrentMatches=false -Delo.predict.forceInitialOutput=true -Delo.predict.clearSnapshots=true -Delo.predict.endDate="$NEXT_ZAAL_PREDICTION_DATE" predict --args="$NEXT_ZAAL_PREDICTION_DATE zaal"
           git add -A
 
           # Commit the changes

@@ -3,11 +3,16 @@ package nl.korfbalelo.mijnkorfbal
 import nl.korfbalelo.elo.RankingNew
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.io.TempDir
+import java.io.File
 import kotlin.test.assertEquals
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
 class StaticPoulesTest {
+    @TempDir
+    lateinit var tempDir: File
+
     @BeforeEach
     fun resetRanking() {
         RankingNew.ranking.clear()
@@ -44,5 +49,20 @@ class StaticPoulesTest {
             listOf("Noviomagum", "Woudenberg", "Rust Roest (E)", "Victum", "Tiel '72", "Animo (G)", "Viking", "SDO (V)"),
             poules.getValue("1D").first.keys.toList(),
         )
+    }
+
+    @Test
+    fun `does not overwrite existing static snapshot csvs by default`() {
+        val publicDirectory = File(tempDir, "public")
+        val snapshotDirectory = File(publicDirectory, "csv/zaal2627").also(File::mkdirs)
+        val existingSnapshot = File(snapshotDirectory, "KL.csv").also {
+            it.writeText("existing simulated probabilities\n")
+        }
+
+        StaticPoules.writeFrontendArtifacts("zaal2627", publicDirectory = publicDirectory)
+
+        assertEquals("existing simulated probabilities\n", existingSnapshot.readText())
+        assertTrue(File(publicDirectory, "zaal2627.json").exists())
+        assertTrue(File(snapshotDirectory, "1A.csv").exists())
     }
 }

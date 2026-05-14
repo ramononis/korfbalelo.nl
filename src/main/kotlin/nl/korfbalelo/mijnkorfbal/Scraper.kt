@@ -21,6 +21,7 @@ typealias PouleData = Pair<Map<String, Int>, List<Match>>
 
 object Scraper {
     var forceNetwork = System.getProperty("elo.scraper.forceNetwork", "false").toBoolean()
+    private val writeCurrentMatches = System.getProperty("elo.scraper.writeCurrentMatches", "true").toBoolean()
     val outdoorPoules = ConcurrentHashMap<String, PouleData>()
     val indoorPoules = ConcurrentHashMap<String, PouleData>()
     val specialMatches = ConcurrentHashMap<String, Match>()
@@ -185,12 +186,14 @@ object Scraper {
         }
         applyTemporaryOutdoorPouleFixes()
         File("web/public/specials${SeasonContext.indoor.seasonName}.json").writeText(gson.toJson(specialMatches))
-        File("matches/current.txt")
-            .writeText(
-                matches.sortedBy { it.format() }
-                    .joinToString("\n") { (h, a, hS, aS, d) ->
-                        listOf(d, h, a, hS, aS).joinToString(",")
-                    } + "\n")
+        if (writeCurrentMatches) {
+            File("matches/current.txt")
+                .writeText(
+                    matches.sortedBy { it.format() }
+                        .joinToString("\n") { (h, a, hS, aS, d) ->
+                            listOf(d, h, a, hS, aS).joinToString(",")
+                        } + "\n")
+        }
         return matches
     }
 }

@@ -14,6 +14,7 @@ COMMON_PROPS=(
   -Delo.predict.concurrent=1
   -Delo.predict.iterations=10000
   -Delo.predict.seed=20260101
+  -Delo.scraper.writeCurrentMatches=false
 )
 
 # Use the most recent match date to avoid replaying a large historical date window.

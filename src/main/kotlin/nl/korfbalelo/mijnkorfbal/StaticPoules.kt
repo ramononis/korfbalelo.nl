@@ -30,16 +30,22 @@ object StaticPoules {
     fun writeFrontendArtifacts(
         seasonName: String,
         snapshotDate: LocalDate = defaultSnapshotDate,
+        publicDirectory: File = File("web/public"),
+        overwriteSnapshotCsvs: Boolean = false,
     ) {
-        val ratings = loadRatings()
+        val ratings = loadRatings(publicDirectory)
         val tiers = loadTiers(seasonName)
-        File("web/public/$seasonName.json").writeText(prettyGson.toJson(tiers) + "\n")
+        publicDirectory.mkdirs()
+        File(publicDirectory, "$seasonName.json").writeText(prettyGson.toJson(tiers) + "\n")
 
-        val snapshotDirectory = File("web/public/csv/$seasonName").also(File::mkdirs)
+        val snapshotDirectory = File(publicDirectory, "csv/$seasonName").also(File::mkdirs)
         tiers.values
             .flatMap { it.entries }
             .forEach { (pouleName, teams) ->
-                writeSnapshotCsv(snapshotDirectory, pouleName, teams, ratings, snapshotDate)
+                val snapshotFile = File(snapshotDirectory, "$pouleName.csv")
+                if (overwriteSnapshotCsvs || !snapshotFile.exists()) {
+                    writeSnapshotCsv(snapshotFile, teams, ratings, snapshotDate)
+                }
             }
     }
 
@@ -49,8 +55,7 @@ object StaticPoules {
             .use { gson.fromJson(it, type) }
 
     private fun writeSnapshotCsv(
-        snapshotDirectory: File,
-        pouleName: String,
+        snapshotFile: File,
         teams: List<String>,
         ratings: Map<String, RatingSnapshot>,
         snapshotDate: LocalDate,
@@ -79,18 +84,17 @@ object StaticPoules {
             val rating = ratings[teamName] ?: RatingSnapshot(rating = 1500.0, rd = 350.0)
             listOf("0.0", "0.0", "0.0", rating.rating.toString(), rating.rd.toString())
         }
-        File(snapshotDirectory, "$pouleName.csv")
-            .writeText(header.joinToString("\t") + "\n" + row.joinToString("\t") + "\n")
+        snapshotFile.writeText(header.joinToString("\t") + "\n" + row.joinToString("\t") + "\n")
     }
 
-    private fun loadRatings(): Map<String, RatingSnapshot> =
+    private fun loadRatings(publicDirectory: File): Map<String, RatingSnapshot> =
         RankingNew.ranking
             .takeIf { it.isNotEmpty() }
             ?.mapValues { (_, team) -> RatingSnapshot(team.rating, team.rd) }
-            ?: loadRatingsFromPublicCsv()
+            ?: loadRatingsFromPublicCsv(publicDirectory)
 
-    private fun loadRatingsFromPublicCsv(): Map<String, RatingSnapshot> =
-        File("web/public/ranking.csv")
+    private fun loadRatingsFromPublicCsv(publicDirectory: File): Map<String, RatingSnapshot> =
+        File(publicDirectory, "ranking.csv")
             .takeIf(File::exists)
             ?.readLines()
             .orEmpty()
