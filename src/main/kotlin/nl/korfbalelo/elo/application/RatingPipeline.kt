@@ -85,9 +85,9 @@ class RatingPipeline(
         }
 
         val preSplitRanking = if (logEnabled) {
-            RankingNew.ranking.values.sortedByDescending { it.rating }.map {
-                RatingSnapshotRow(it.name, it.rating, it.rd, it.lastDate)
-            }
+            RankingNew.ranking.values
+                .sortedWith(compareByDescending<Team> { it.rating }.thenBy { it.name })
+                .map { RatingSnapshotRow(it.name, it.rating, it.rd, it.lastDate) }
         } else {
             emptyList()
         }

@@ -5,6 +5,7 @@ import nl.korfbalelo.elo.MatchFileReader
 import nl.korfbalelo.elo.RankingEvent
 import nl.korfbalelo.elo.parseEvent
 import java.io.File
+import java.util.LinkedHashSet
 
 class FileEventCatalog(
     private val matchesDirectory: File = File("matches"),
@@ -18,8 +19,10 @@ class FileEventCatalog(
     fun loadAllEvents(currentMatches: Collection<RankingEvent> = loadCurrentMatches()): Set<RankingEvent> {
         val commands = commandsFile.readLines().filter(String::isNotBlank).map(::parseEvent)
         val historicalMatches =
-            matchesDirectory.listFiles()?.flatMap(MatchFileReader::readFile) ?: error("Error reading matches")
-        return (currentMatches + commands + historicalMatches).toSet()
+            matchesDirectory.listFiles()
+                ?.sortedBy { it.name }
+                ?.flatMap(MatchFileReader::readFile)
+                ?: error("Error reading matches")
+        return (currentMatches + commands + historicalMatches).toCollection(LinkedHashSet())
     }
 }
-

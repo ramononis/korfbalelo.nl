@@ -7,7 +7,6 @@ import java.time.temporal.TemporalAdjusters
 import java.time.DayOfWeek
 import java.io.FileWriter
 import java.time.format.DateTimeFormatter
-import java.util.stream.Collectors
 import java.io.IOException
 import java.util.*
 import kotlin.math.max
@@ -33,15 +32,14 @@ class DyGraph {
         if (!ApplicationNew.log) return
         try {
             FileWriter(file, false).use { fw ->
-                val sortedTeams: List<String> = LinkedList(teams)
+                val sortedTeams = teams.sorted()
                 fw.write("Date,")
                 fw.write(java.lang.String.join(",", sortedTeams))
                 fw.write("\n")
                 entries.forEach { (e: LocalDate, k: GraphEntry) ->
                     try {
                         fw.write(e.format(DateTimeFormatter.ofPattern("yyyy/MM/dd")) + ",")
-                        fw.write(sortedTeams.parallelStream().map { t: String -> k.rating[t]?.toString() ?: "" }
-                            .collect(Collectors.joining(",")))
+                        fw.write(sortedTeams.joinToString(",") { t: String -> k.rating[t]?.toString() ?: "" })
                         fw.write("\n")
                     } catch (ex: IOException) {
                         ex.printStackTrace()
