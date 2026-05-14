@@ -61,7 +61,7 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
             <router-link to="/competitie/veld2425nj" exact-active-class="active">2024 veld najaar </router-link>
           </div>
         </div>
-        <router-link to="/grafiek" exact-active-class="active">Mega grafiek (pas op, zeer traag)</router-link>
+        <router-link to="/grafiek" exact-active-class="active">Mega grafiek (zeer traag)</router-link>
         <router-link to="/statistieken" exact-active-class="active">Statistieken</router-link>
         <router-link to="/data" exact-active-class="active">Data</router-link>
         <router-link to="/changelog" exact-active-class="active">Changelog</router-link>

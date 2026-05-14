@@ -17,7 +17,7 @@
 
     <about-item>
       <template #header>Ja, maar hoe kom je dan aan die getalletjes?</template>
-      Door een enorme lading wedstrijden (±300.000) in een slim computerprogrammatje te zetten en deze allerlei
+      Door een enorme lading wedstrijden (meer dan 300.000) in een slim computerprogrammatje te zetten en deze allerlei
       ingewikkelde berekeningen te laten doen. Het resultaat hiervan zijn de ratings van elk Nederlands korfbalteam, door
       de tijd heen beginnend bij het jaar 1903. Klik maar op een teamnaam, dan zie je de sterkte van dat team door de jaren heen.
     </about-item>
@@ -48,10 +48,10 @@
       <ul>
         <li><b>Home</b>: korte introductie.</li>
         <li><b>Uitleg</b>: deze pagina vol droge humor en net iets te veel tekst.</li>
-        <li><b>Huidig seizoen + Archief</b>: per seizoen de competities, poules, standen, kansen, uitslagen en programma.</li>
+        <li><b>Seizoenen + Archief</b>: per seizoen de competities, poules, standen, kansen, uitslagen en programma.</li>
         <li><b>Mega grafiek</b>: één grote grafiek waarin je teams kunt filteren op naam, plaats of klasse (met/zonder voorgangers).</li>
-        <li><b>Statistieken</b>: records uit alle wedstrijden, zoals hoogste scores, grootste marges en de meest nutteloze hoge verliezende scores.</li>
-        <li><b>Data</b>: export van alle wedstrijden als CSV, inclusief kolomuitleg.</li>
+        <li><b>Statistieken</b>: records uit alle wedstrijden, standaard voor dit seizoen, maar ook voor elke zelfgekozen periode of gewoon de hele geschiedenis.</li>
+        <li><b>Data</b>: export van alle wedstrijden als CSV, inclusief kolomuitleg. Ideaal als je graag Excel pijn doet.</li>
         <li><b>Changelog</b>: wat er recent aan de site veranderd is.</li>
       </ul>
       En verder kun je vanuit team- en poulepagina's doorklikken naar extra's zoals teamstatistieken, onderlinge geschiedenis en de simulator.
@@ -176,7 +176,8 @@
         maar bij voetbal is het bijvoorbeeld andersom.<br>
         Hoe komt dit? Zeg het maar...<br>
         Maar, om dus antwoord op de vraag te geven: nee, rating en scorend vermogen zijn niet vergelijkbaar, maar er is wel een relatie tussen de twee.<br>
-        Belangrijk: mogelijk is een hoog scorend vermogen dus een lichte voorspeller voor rating, maar dit wordt op dit moment niet als zodanig gebruikt.<br>
+        Inmiddels wordt die relatie voorzichtig gebruikt: als een team structureel meer of minder scoort dan je op basis van de rating zou verwachten,
+        krijgt de rating een hele kleine extra correctie. Geen wilde magie, meer een statistisch duwtje in de rug.<br>
       </about-item>
 
       <about-item>
@@ -215,13 +216,13 @@
         Deze kan natuurlijk afwijken van de voorspelling, maar hoe groter de afwijking, hoe kleiner de kans hierop<br>
         Doe je dit vervolgens met alle wedstrijden in de competitie, dan kun je kansen op kampioenschap/promotie/degradatie geven!<br>
         Dit wordt gedaan met <a href="https://nl.wikipedia.org/wiki/Monte-Carlosimulatie" target="_blank">Monte-Carlo</a>-simulatie.<br>
-        In simpele woorden: de hele competitie wordt een miljoen keer gesimuleerd, rekening houdend met rating(-deviation) en scorend vermogen.<br>
+        In simpele woorden: de hele competitie wordt 100.000 keer gesimuleerd, rekening houdend met rating(-deviation) en scorend vermogen.<br>
         Per team wordt bijgehouden hoe vaak dit team aan het einde van een simulatie kampioen wordt, promoveert of degradeert.
-        Komt het in die miljoen keren 400.000 keer voor dat een team degradeert, dan is de kans op degradatie voor dat team 40%.
+        Komt het in die 100.000 keren 40.000 keer voor dat een team degradeert, dan is de kans op degradatie voor dat team 40%.
         <br>
         De simulatie is ook op de hoogte van al gespeelde wedstrijden in de competitie:<br>
-        elke ochtend rond 05:00 UTC (06:00/07:00 Nederlandse tijd), als jij nog ligt te pitten, halen kaboutertjes de nieuwste uitslagen uit Sportlink, waarbij
-        ze vervolgens opnieuw een miljoen keer de competitie simuleren, gegeven de al gespeelde wedstrijden.<br>
+        elke nacht, als jij nog ligt te pitten, halen kaboutertjes de nieuwste uitslagen uit Sportlink, waarbij
+        ze vervolgens opnieuw 100.000 keer de competitie simuleren, gegeven de al gespeelde wedstrijden.<br>
       </about-item>
       </div>
     </template>
@@ -278,7 +279,7 @@
     <about-item>
       <template #header>Poh, kan ik die hele lading wedstrijden ook downloaden?</template>
       Ja dat kan zeker! Zowel de hele set, of de wedstrijden per vereniging.<br>
-      Voor de gehele zooi: ga naar <router-link to="/data">Data</router-link>.<br>
+      Voor de gehele zooi: ga naar <router-link to="/data">Data</router-link>. De eerste keer kan even duren; daarna bewaart je browser de wedstrijddata lokaal zolang de dataset niet verandert.<br>
       Voor de wedstrijden per vereniging: ga naar een willekeurig team, druk op de knop <i>Statistieken</i> en druk op
       <i>Download wedstrijden als CSV</i>
     </about-item>
@@ -353,8 +354,7 @@
       Kun je het je inbeelden?<br>
       Nou, dan zit ik, samen met de broncode van Korfbal Elo (en die van de Belastingdienst), te creperen in de diepste krochten van de software-hel.<br>
       Met andere woorden: die broncode is nou niet iets wat ik trots aan de buitenwereld laat zien...<br>
-      Maar vrees niet: samen met de kracht van <a href="https://chatgpt.com/codex" target="_blank">AI</a> is het mogelijk om zelfs
-      de meest chaotische spaghetti-code mooi te maken. Wellicht wordt die broncode in de toekomst alsnog openbaar...
+      Maar voor wie dan toch heel graag wil zien hoe dit ding in elkaar is gezet, zoek het GitHub knopje...
     </about-item>
 
     <about-item>
