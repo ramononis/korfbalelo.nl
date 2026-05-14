@@ -260,7 +260,7 @@ class FileRatingOutputs(
                 window,
                 matches.filter { it.homeScore == it.awayScore },
                 section = "highest-draws",
-                sectionLabel = "Hoogste gelijke spelen",
+                sectionLabel = "Hoogste gelijkspel",
                 value = { it.homeScore + it.awayScore },
                 focusTeam = { null },
                 text = { match, _ ->

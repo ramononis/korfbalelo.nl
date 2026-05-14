@@ -135,7 +135,7 @@ function createEmptySections(): StatSection[] {
     { id: 'highest-team-score', title: 'Hoogste score door een team', rows: [] },
     { id: 'highest-win-margin', title: 'Hoogste winstmarge', rows: [] },
     { id: 'highest-total-goals', title: 'Hoogste totaalscore', rows: [] },
-    { id: 'highest-draws', title: 'Hoogste gelijke spelen', rows: [] },
+    { id: 'highest-draws', title: 'Hoogste gelijkspel', rows: [] },
     { id: 'highest-losing-score', title: 'Hoogste score voor een verliezend team', rows: [] },
   ]
 }
