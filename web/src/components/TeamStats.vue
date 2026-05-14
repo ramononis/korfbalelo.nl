@@ -160,7 +160,7 @@ const matchLists = computed(() => {
     }
   ]
   return result.map(({ name, calc }) => ({
-    name, msr: [...matches.value].sort((a, b) => calc(b) - calc(a)).slice(0, 10).reverse(),
+    name, msr: [...matches.value].sort((a, b) => calc(b) - calc(a)).slice(0, 10),
   }))
 })
 
