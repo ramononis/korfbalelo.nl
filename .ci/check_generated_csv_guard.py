@@ -28,6 +28,26 @@ def changed_csv_files(base_ref: str) -> list[str]:
     return [line.strip() for line in out.splitlines() if line.strip().endswith(".csv")]
 
 
+def changed_files(base_ref: str) -> list[str]:
+    out = sh("diff", "--name-only", f"{base_ref}..HEAD")
+    return [line.strip() for line in out.splitlines() if line.strip()]
+
+
+def generator_input_changed(base_ref: str) -> bool:
+    prefixes = (
+        "src/main/",
+        "gradle/",
+    )
+    exact_paths = {
+        "build.gradle.kts",
+        "settings.gradle.kts",
+        "gradle.properties",
+        "club_events.txt",
+        "tiers.csv",
+    }
+    return any(path in exact_paths or path.startswith(prefixes) for path in changed_files(base_ref))
+
+
 def changed_dates_for_file(base_ref: str, file_path: str) -> list[dt.date]:
     diff = sh("diff", "-U0", f"{base_ref}..HEAD", "--", file_path)
     changed: list[dt.date] = []
@@ -48,6 +68,10 @@ def main() -> int:
     base_ref = sys.argv[1]
     d = earliest_match_mutation(base_ref)
     files = changed_csv_files(base_ref)
+
+    if files and generator_input_changed(base_ref):
+        print("Generated CSV files changed with generator/rating inputs; skipping match-date guard.")
+        return 0
 
     if d is None:
         if files:

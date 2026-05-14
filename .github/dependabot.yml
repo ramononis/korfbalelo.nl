@@ -11,6 +11,8 @@ updates:
       interval: daily
       time: "02:00"
       timezone: Europe/Amsterdam
+    cooldown:
+      default-days: 7
 
   - package-ecosystem: gradle
     directory: "/"
@@ -18,9 +20,14 @@ updates:
       interval: daily
       time: "02:00"
       timezone: Europe/Amsterdam
+    cooldown:
+      default-days: 7
+
   - package-ecosystem: npm
     directory: "/web"
     schedule:
       interval: daily
       time: "02:00"
       timezone: Europe/Amsterdam
+    cooldown:
+      default-days: 7
