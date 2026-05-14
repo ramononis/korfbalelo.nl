@@ -1,10 +1,12 @@
 <template>
   <div v-if="teamStore.loaded">
     <h1>Statistieken</h1>
-    <div>
-      <span>Vanaf datum: </span> <input type="date" v-model="fromDate"/>
-    </div>
-    <br>
+    <StatsDateRangeControls
+      v-model:from-date="fromDate"
+      v-model:to-date="toDate"
+      :earliest-date="earliestMatchDate"
+      :latest-date="latestMatchDate"
+    />
     <template v-if="loaded">
       <button @click="downloadMatchesAsCsv" :disabled="matches.length === 0">
         Download wedstrijden als CSV
@@ -54,7 +56,13 @@
 
       <div v-for="msr in matchLists" :key="msr.name">
         <h2>{{ msr.name }}</h2>
-        <MatchTable :matches="msr.msr" with-results :sort-by-date="false"/>
+        <MatchTable
+          :matches="msr.msr"
+          with-results
+          :sort-by-date="false"
+          :group-by-date="false"
+          show-date-per-match
+        />
       </div>
     </template>
     <div v-else>
@@ -65,49 +73,38 @@
 
 <script setup lang="ts">
 import { loser, type MatchFixture, type Team, winner } from '@/types'
-import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
+import { computed, onMounted, onUnmounted, ref } from 'vue'
 import useTeamsStore from '@/stores/teams.ts'
 import useMatchesStore from '@/stores/matches.ts'
 import Papa from 'papaparse'
 import { fetchMetaData, metaData } from '@/simulator/SeasonSimulator.ts'
 import MatchTable from '@/components/MatchTable.vue'
+import StatsDateRangeControls from '@/components/StatsDateRangeControls.vue'
 
 const props = defineProps<{
   team: Team,
 }>()
 
-type MatchCsvRow = [
-  string,
-  string,
-  string,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number
-]
-
-const allMatches = ref<MatchFixture[]>([])
-const matches = computed(() => {
-  return allMatches.value.filter((m) => m.date >= fromDate.value)
-})
-const nMatches = computed(() => matches.value.length)
-const wonMatches = computed(() => matches.value.filter(m => winner(m) === props.team.name).length)
-const lostMatches = computed(() => matches.value.filter(m => loser(m) === props.team.name).length)
-const drawnMatches = computed(() => matches.value.filter(m => winner(m) === null).length)
 const teamStore = useTeamsStore()
 const matchesStore = useMatchesStore()
 const loaded = ref(false)
 const fromDate = ref("1900-08-01")
-let loadVersion = 0
+const toDate = ref("")
+const allTeamMatches = computed(() => matchesStore.matchesForTeam(props.team.name))
+const latestMatchDate = computed(() =>
+  allTeamMatches.value[allTeamMatches.value.length - 1]?.date ?? '',
+)
+const earliestMatchDate = computed(() =>
+  allTeamMatches.value[0]?.date ?? '',
+)
+const effectiveToDate = computed(() => toDate.value || latestMatchDate.value)
+const matches = computed(() =>
+  matchesStore.teamMatchesInRange(props.team.name, fromDate.value, effectiveToDate.value),
+)
+const nMatches = computed(() => matches.value.length)
+const wonMatches = computed(() => matches.value.filter(m => winner(m) === props.team.name).length)
+const lostMatches = computed(() => matches.value.filter(m => loser(m) === props.team.name).length)
+const drawnMatches = computed(() => matches.value.filter(m => winner(m) === null).length)
 let disposed = false
 const opponentSortedByCountShowAll = ref(false)
 const opponentSortedByCount = computed(() => {
@@ -163,7 +160,7 @@ const matchLists = computed(() => {
     }
   ]
   return result.map(({ name, calc }) => ({
-    name, msr: matches.value.sort((a, b) => calc(b) - calc(a)).slice(0, 10).reverse(),
+    name, msr: [...matches.value].sort((a, b) => calc(b) - calc(a)).slice(0, 10).reverse(),
   }))
 })
 
@@ -280,78 +277,13 @@ function downloadMatchesAsCsv() {
   URL.revokeObjectURL(url)
 }
 
-async function loadMatches(version: number) {
-  for (const data of matchesStore.matches.values()) {
-    if (disposed || version !== loadVersion) {
-      return
-    }
-    await new Promise<void>((resolve) => Papa.parse(data, {
-        dynamicTyping: true,
-        delimiter: ',',
-        skipEmptyLines: true,
-        complete: (results) => {
-          if (disposed || version !== loadVersion) {
-            resolve()
-            return
-          }
-          const rows = results.data as MatchCsvRow[]
-          rows.forEach(([date, home, away, homeScore, awayScore, homeRating, awayRating, pHome, pDraw, pAway, guessHome, guessAway, homeDiff, awayDiff, homeRd, awayRd]) => {
-              if (home === props.team.name || away === props.team.name)
-                allMatches.value.push({
-                  date: date,
-                  home: home,
-                  away: away,
-                  homeScore: homeScore,
-                  awayScore: awayScore,
-                  homeRating: homeRating,
-                  awayRating: awayRating,
-                  pHome: pHome,
-                  pDraw: pDraw,
-                  pAway: pAway,
-                  guessHome: guessHome,
-                  guessAway: guessAway,
-                  homeDiff: homeDiff,
-                  awayDiff: awayDiff,
-                  homeRd: homeRd,
-                  awayRd: awayRd
-                })
-            }
-          )
-          resolve()
-        }
-      }
-    ))
-  }
-}
-
-
-watch(() => props.team, async () => {
-  const version = ++loadVersion
-  allMatches.value = [] // Clear current matches
-  loaded.value = false // Reset the loaded state
-  await loadMatches(version) // Rerun the loadMatches function
-  if (disposed || version !== loadVersion) {
-    return
-  }
-  loaded.value = true // Mark as loaded again
-})
-
 onMounted(async () => {
-  const version = ++loadVersion
   await fetchMetaData()
-  if (disposed || version !== loadVersion) {
+  if (disposed) {
     return
   }
-  await Promise.all(new Array(metaData.MAX_ID + 1).fill(0)
-    .map((_, id) => {
-      return matchesStore.fetchMatches(id)
-    })
-  )
-  if (disposed || version !== loadVersion) {
-    return
-  }
-  await loadMatches(version)
-  if (disposed || version !== loadVersion) {
+  await matchesStore.ensureAllMatchesLoaded(metaData.MAX_ID, metaData.MATCHES_VERSION)
+  if (disposed) {
     return
   }
   loaded.value = true
@@ -359,10 +291,7 @@ onMounted(async () => {
 
 onUnmounted(() => {
   disposed = true
-  loadVersion++
-  allMatches.value = []
   loaded.value = false
-  matchesStore.clearCache()
 })
 </script>
 

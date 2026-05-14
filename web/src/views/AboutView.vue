@@ -50,6 +50,7 @@
         <li><b>Uitleg</b>: deze pagina vol droge humor en net iets te veel tekst.</li>
         <li><b>Huidig seizoen + Archief</b>: per seizoen de competities, poules, standen, kansen, uitslagen en programma.</li>
         <li><b>Mega grafiek</b>: één grote grafiek waarin je teams kunt filteren op naam, plaats of klasse (met/zonder voorgangers).</li>
+        <li><b>Statistieken</b>: records uit alle wedstrijden, zoals hoogste scores, grootste marges en de meest nutteloze hoge verliezende scores.</li>
         <li><b>Data</b>: export van alle wedstrijden als CSV, inclusief kolomuitleg.</li>
         <li><b>Changelog</b>: wat er recent aan de site veranderd is.</li>
       </ul>

@@ -13,11 +13,17 @@ const props = withDefaults(defineProps<{
   withResults?: boolean,
   withSimulation?: boolean,
   sortByDate?: boolean,
+  groupByDate?: boolean,
+  showDatePerMatch?: boolean,
 }>(), {
   withResults: false,
   withSimulation: false,
   sortByDate: true,
+  groupByDate: true,
+  showDatePerMatch: false,
 })
+
+const showDateColumn = computed(() => props.showDatePerMatch && !props.groupByDate)
 
 const groupedMatchesByDate = computed(() => {
   if (!props.matches) return [];
@@ -50,6 +56,7 @@ const groupedMatchesByDate = computed(() => {
   <table>
     <thead>
     <tr>
+      <th v-if="showDateColumn">Datum</th>
       <th>Thuis</th>
       <th v-if="props.withResults">±</th>
       <th>Uit</th>
@@ -63,14 +70,28 @@ const groupedMatchesByDate = computed(() => {
     </tr>
     </thead>
     <tbody>
-    <template v-for="[date, matches] in groupedMatchesByDate" :key="date">
-      <td>{{ date }}
-      </td>
-      <MatchRow v-for="(match, mIndex) in matches" :key="mIndex"
-                :match="match"
-                :with-result="withResults"
-                :with-simulation="withSimulation"
-                @simulate="emit('simulate', match)"
+    <template v-if="groupByDate">
+      <template v-for="[date, matches] in groupedMatchesByDate" :key="date">
+        <td>{{ date }}
+        </td>
+        <MatchRow v-for="(match, mIndex) in matches" :key="mIndex"
+                  :match="match"
+                  :with-result="withResults"
+                  :with-simulation="withSimulation"
+                  :show-date="showDateColumn"
+                  @simulate="emit('simulate', match)"
+        />
+      </template>
+    </template>
+    <template v-else>
+      <MatchRow
+        v-for="(match, mIndex) in matches"
+        :key="mIndex"
+        :match="match"
+        :with-result="withResults"
+        :with-simulation="withSimulation"
+        :show-date="showDateColumn"
+        @simulate="emit('simulate', match)"
       />
     </template>
     </tbody>

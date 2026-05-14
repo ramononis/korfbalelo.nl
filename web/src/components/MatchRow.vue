@@ -11,9 +11,11 @@ const props = withDefaults(defineProps<{
   match: MatchFixture,
   withResult?: boolean,
   withSimulation?: boolean,
+  showDate?: boolean,
 }>(), {
   withResult: true,
   withSimulation: true,
+  showDate: false,
 })
 
 const emit = defineEmits<Emits>()
@@ -25,6 +27,7 @@ const draw = computed(() => props.withResult && props.match.homeScore === props.
 </script>
 <template>
   <tr>
+    <td v-if="showDate" class="match-date">{{ match.date }}</td>
     <td class="no-pad-right" :class="{ winner: homeWinner, draw: draw, loser: awayWinner }">
       <TeamComponent :team-name="match.home" :rating="match.homeRating.toFixed(0)"/>
     </td>
@@ -63,5 +66,10 @@ const draw = computed(() => props.withResult && props.match.homeScore === props.
 }
 .loser, .loser + * {
   background-color: var(--color-background-loser);
+}
+
+.match-date {
+  font-weight: 700;
+  white-space: nowrap;
 }
 </style>

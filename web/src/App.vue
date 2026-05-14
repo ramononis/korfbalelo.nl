@@ -2,6 +2,7 @@
 import { computed, onMounted, onUnmounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import Ranking from '@/components/Ranking.vue'
+import GlobalStatsTicker from '@/components/GlobalStatsTicker.vue'
 import { ACTIVE_SEASONS, type SeasonConfig } from '@/season'
 
 const route = useRoute()
@@ -61,6 +62,7 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
           </div>
         </div>
         <router-link to="/grafiek" exact-active-class="active">Mega grafiek (pas op, zeer traag)</router-link>
+        <router-link to="/statistieken" exact-active-class="active">Statistieken</router-link>
         <router-link to="/data" exact-active-class="active">Data</router-link>
         <router-link to="/changelog" exact-active-class="active">Changelog</router-link>
         <a
@@ -77,6 +79,7 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
           </svg>
         </a>
       </nav>
+      <GlobalStatsTicker />
     </header>
 
     <div class="content-wrapper">

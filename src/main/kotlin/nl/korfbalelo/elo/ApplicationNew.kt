@@ -103,7 +103,8 @@ object ApplicationNew {
 
         printlnn("Prediction benchmark: ${PredictionBenchmark.accuracy.summary().compactLine()}")
         if (log) {
-            val maxId = outputFiles.writeAggregates(events)
+            val aggregateSummary = outputFiles.writeAggregates(events)
+            outputFiles.writeGlobalStatsTicker(events)
             val hasScrapedPoules = indoorPoules.isNotEmpty() || outdoorPoules.isNotEmpty()
             if (hasScrapedPoules) {
                 if (doOutdoor) {
@@ -138,7 +139,11 @@ object ApplicationNew {
                 "SCORE_SEASONALITY_MAX_ADJUSTMENT" to ScoreSeasonality.config.maxAdjustment,
                 "SCORE_SEASONALITY_HALF_LIFE_DAYS" to ScoreSeasonality.config.halfLifeDays,
                 "SCORE_SEASONALITY_MONTH_OFFSETS" to seasonalitySummary.monthOffsets,
-                "MAX_ID" to maxId,
+                "MAX_ID" to aggregateSummary.maxId,
+                "MATCHES_VERSION" to aggregateSummary.matchesVersion,
+                "MATCH_COUNT" to aggregateSummary.matchCount,
+                "MATCH_EARLIEST_DATE" to aggregateSummary.earliestMatchDate,
+                "MATCH_LATEST_DATE" to aggregateSummary.latestMatchDate,
                 "ACTIVE_SEASON" to primaryActiveSeason.seasonName,
                 "ACTIVE_MODE" to primaryActiveSeason.mode.name.lowercase(),
                 "ACTIVE_SEASONS" to activeSeasonNames,

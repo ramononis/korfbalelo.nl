@@ -7,7 +7,10 @@ declare module 'vue-router' {
 }
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  scrollBehavior() {
+  scrollBehavior(to) {
+    if (to.hash) {
+      return { el: to.hash }
+    }
     return { top: 0 }
   },
   routes: [
@@ -69,6 +72,18 @@ const router = createRouter({
       path: '/data',
       name: 'data',
       component: () => import('../views/DataView.vue')
+    },
+    {
+      path: '/statistieken',
+      name: 'global-stats',
+      component: () => import('../views/GlobalStatsView.vue'),
+      meta: { hidesSidebar: true },
+    },
+    {
+      path: '/statistieken/:from/:to',
+      name: 'global-stats-range',
+      component: () => import('../views/GlobalStatsView.vue'),
+      meta: { hidesSidebar: true },
     },
     {
       path: '/opgeheven-teams',

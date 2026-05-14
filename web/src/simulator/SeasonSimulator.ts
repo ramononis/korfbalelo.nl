@@ -36,6 +36,10 @@ export type MetaData = {
   SCORE_SEASONALITY_MODE?: 'OFF' | 'MONTHLY_OFFSET',
   SCORE_SEASONALITY_MONTH_OFFSETS?: number[],
   MAX_ID: number,
+  MATCHES_VERSION?: string,
+  MATCH_COUNT?: number,
+  MATCH_EARLIEST_DATE?: string,
+  MATCH_LATEST_DATE?: string,
 }
 export let metaData: MetaData
 

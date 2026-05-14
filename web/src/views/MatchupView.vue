@@ -3,9 +3,8 @@ import { computed, onMounted, ref } from 'vue'
 import useTeamsStore from '@/stores/teams'
 import useMatchesStore from '@/stores/matches'
 import { fetchMetaData, metaData } from '@/simulator/SeasonSimulator.ts'
-import type { MatchFixture } from '@/types'
-import Papa from 'papaparse'
 import MatchTable from '@/components/MatchTable.vue'
+import type { MatchFixture } from '@/types'
 
 const teamStore = useTeamsStore()
 const matchesStore = useMatchesStore()
@@ -16,67 +15,10 @@ const props = defineProps<{
   name2: string,
 }>()
 
-type MatchCsvRow = [
-  string,
-  string,
-  string,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number,
-  number
-]
-
-
 // const team1 = computed(() => teamStore.teamsByName.get(props.name1)!)
 // const team2 = computed(() => teamStore.teamsByName.get(props.name2)!)
 
-const relevantMatches = ref<MatchFixture[]>([])
-
-async function loadMatches() {
-  for (const data of matchesStore.matches.values()) {
-    await new Promise<void>((resolve) => Papa.parse(data, {
-        dynamicTyping: true,
-        delimiter: ',',
-        skipEmptyLines: true,
-        complete: (results) => {
-          const rows = results.data as MatchCsvRow[]
-          rows.forEach(([date, home, away, homeScore, awayScore, homeRating, awayRating, pHome, pDraw, pAway, guessHome, guessAway, homeDiff, awayDiff, homeRd, awayRd]) => {
-              if ((home === props.name1 && away === props.name2) || (away === props.name1 && home === props.name2))
-                relevantMatches.value.push({
-                  date: date,
-                  home: home,
-                  away: away,
-                  homeScore: homeScore,
-                  awayScore: awayScore,
-                  homeRating: homeRating,
-                  awayRating: awayRating,
-                  pHome: pHome,
-                  pDraw: pDraw,
-                  pAway: pAway,
-                  guessHome: guessHome,
-                  guessAway: guessAway,
-                  homeDiff: homeDiff,
-                  awayDiff: awayDiff,
-                  homeRd: homeRd,
-                  awayRd: awayRd
-                })
-            }
-          )
-          resolve()
-        }
-      }
-    ))
-  }
-}
+const relevantMatches = computed(() => matchesStore.matchupMatches(props.name1, props.name2))
 
 function winner(match: MatchFixture): string | null {
   switch(Math.sign(match.homeScore - match.awayScore)) {
@@ -92,12 +34,7 @@ const draws = computed(() => relevantMatches.value.filter(m => winner(m) === nul
 
 onMounted(async () => {
   await fetchMetaData()
-  await Promise.all(new Array(metaData.MAX_ID + 1).fill(0)
-    .map((_, id) => {
-      return matchesStore.fetchMatches(id)
-    })
-  )
-  await loadMatches()
+  await matchesStore.ensureAllMatchesLoaded(metaData.MAX_ID, metaData.MATCHES_VERSION)
   loaded.value = true
 
 })
