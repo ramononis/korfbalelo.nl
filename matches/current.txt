@@ -421,4 +421,5 @@
 2026-05-10,Moedig Voorwaarts,Koru,14,10
 2026-05-11,SF Deinum,Lemmer,3,3
 2026-05-12,Conventus,Olympia (S),8,10
+2026-05-12,DLKV,Aladna / De Issel,11,11
 2026-05-12,Korbatjo,Movado,15,16
