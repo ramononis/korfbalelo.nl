@@ -451,6 +451,7 @@
 2026-05-16,De Wâlden,WWC,19,9
 2026-05-16,DeetosSnel,Die Haghe,21,15
 2026-05-16,Diderna,Wiko,17,11
+2026-05-16,Duko,Rivalen,18,14
 2026-05-16,Dunas,KZ Danaiden,12,12
 2026-05-16,EKC 2000,WK,15,8
 2026-05-16,EKCA,Arena,8,11
@@ -523,6 +524,7 @@
 2026-05-16,SIOS '61,Melynas,11,17
 2026-05-16,Spannum,Harich,6,14
 2026-05-16,Sparta (N),Devinco,16,15
+2026-05-16,Sparta (Zw),ZKC '19,12,12
 2026-05-16,Stormvogels (U),Aurora / DKV (IJ),18,16
 2026-05-16,Synergo,SKF,15,17
 2026-05-16,TOP (A),KOAG,15,14
@@ -542,6 +544,7 @@
 2026-05-16,Vriendenschaar (B),WION,27,19
 2026-05-16,WIK '34,Westergo,9,14
 2026-05-16,WSS,SDO (S),13,20
+2026-05-16,Wageningen,Dalto,14,25
 2026-05-16,Weidevogels,DES (De),14,22
 2026-05-16,Wesstar,HKC (U),14,16
 2026-05-16,Wit Blauw,KIOS (R),17,28
