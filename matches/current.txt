@@ -551,3 +551,5 @@
 2026-05-16,Wolderwijd,Achilles (A) / AKC,13,12
 2026-05-16,Zaamslag,DSO (K),19,15
 2026-05-16,Zunobri,Vitesse (Be),13,19
+2026-05-17,Blauw Wit,KZ,14,20
+2026-05-17,Koru,Moedig Voorwaarts,14,14
