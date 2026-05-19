@@ -509,6 +509,7 @@
 2026-05-16,Pernix,Rohda (A),12,12
 2026-05-16,RDZ,DWS (K),10,16
 2026-05-16,RODA (W),Haarlem,10,19
+2026-05-16,ROG,DWA / Argo,14,11
 2026-05-16,RWA,NIO,14,12
 2026-05-16,Rapid (H),VZOD,9,13
 2026-05-16,Reehorst '45,Telstar,20,18
@@ -553,3 +554,4 @@
 2026-05-16,Zunobri,Vitesse (Be),13,19
 2026-05-17,Blauw Wit,KZ,14,20
 2026-05-17,Koru,Moedig Voorwaarts,14,14
+2026-05-18,SkunK,Attila,16,10
