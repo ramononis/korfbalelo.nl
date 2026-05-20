@@ -555,3 +555,4 @@
 2026-05-17,Blauw Wit,KZ,14,20
 2026-05-17,Koru,Moedig Voorwaarts,14,14
 2026-05-18,SkunK,Attila,16,10
+2026-05-19,KZ,TOP (S),18,21
