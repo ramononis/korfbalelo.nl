@@ -27,12 +27,10 @@
 2026-04-04,Devinco,HKC (U),15,13
 2026-04-04,Drachten,ZKC '19,22,17
 2026-04-04,Duko,EKCA,29,10
-2026-04-04,Dunas,GKV,15,13
 2026-04-04,EKC 2000,Zunobri,19,17
 2026-04-04,ESDO,VZOD,21,12
 2026-04-04,Emmeloord,Harich,14,19
 2026-04-04,Erasmus,Paal Centraal,22,13
-2026-04-04,Exakwa,Achilles (A) / AKC,19,4
 2026-04-04,Excelsior (D),Korbis,16,17
 2026-04-04,Fiducia,DSC,8,16
 2026-04-04,Fortis,TOP (A),11,21
@@ -51,7 +49,6 @@
 2026-04-04,KVW '22,Hoogkerk,18,15
 2026-04-04,KVZ '23,Pernix,17,14
 2026-04-04,KVZ,ODIK,23,18
-2026-04-04,KZ Danaiden,ODO (M),17,12
 2026-04-04,Kesteren,PSV,16,20
 2026-04-04,Kinderdijk,KOAG,20,13
 2026-04-04,Kinea / Udiros,DTL,22,10
@@ -82,7 +79,6 @@
 2026-04-04,Reehorst '45,Juventa,20,14
 2026-04-04,Ritola,SCO,14,22
 2026-04-04,Rivalen,Arena,11,11
-2026-04-04,Rood Wit (W),Wolderwijd,17,9
 2026-04-04,SDO (K),Animo (G),17,15
 2026-04-04,SDO (W),DKOD,26,7
 2026-04-04,SKV (S),Attila,6,10
@@ -118,7 +114,6 @@
 2026-04-11,ACKC,NIO,15,15
 2026-04-11,ADO,Movado,9,9
 2026-04-11,AVO,Ritola,15,16
-2026-04-11,Achilles (A) / AKC,Rood Wit (W),14,15
 2026-04-11,Achilles (H),Trekvogels (R),19,13
 2026-04-11,Amicitia (V),HKC (He),13,12
 2026-04-11,Animo (G),Antilopen,13,19
@@ -146,7 +141,6 @@
 2026-04-11,Elko,HHV,20,15
 2026-04-11,Flamingo's (B),IFC '25,14,13
 2026-04-11,Fluks (N),HBC (Be),12,9
-2026-04-11,GKV,KZ Danaiden,10,16
 2026-04-11,Good Luck,Korbatjo,12,15
 2026-04-11,HKC (U),Sparta (N),16,14
 2026-04-11,HKV / Ons Eibernest,VEO,8,14
@@ -181,7 +175,6 @@
 2026-04-11,Nova,SDO (K),9,13
 2026-04-11,Noveas,DTG,16,19
 2026-04-11,ODIK,Woudenberg,13,16
-2026-04-11,ODO (M),Dunas,9,10
 2026-04-11,OEC,Kesteren,13,12
 2026-04-11,ONDO (G),Albatros,16,9
 2026-04-11,Oerterp,MN en W,7,17
@@ -227,7 +220,6 @@
 2026-04-11,WSS,DWA / Argo,10,12
 2026-04-11,Weidevogels,Phoenix (Z),17,13
 2026-04-11,Wesstar,Devinco,12,23
-2026-04-11,Wolderwijd,Exakwa,8,15
 2026-04-11,ZKC '19,ASVD,19,13
 2026-04-11,ZKV (Zu),Eureka,13,11
 2026-04-11,Zuid '27,Vriendenschaar (B),16,11
@@ -286,7 +278,6 @@
 2026-05-09,ALO,Twist,17,10
 2026-05-09,AVO,SCO,24,13
 2026-05-09,AW.DTV,Groen Geel,27,19
-2026-05-09,Achilles (A) / AKC,Wolderwijd,18,22
 2026-05-09,Achilles (H),ONDO (G),16,21
 2026-05-09,Ados,DSO (A),11,7
 2026-05-09,Albatros,Trekvogels (R),23,11
@@ -319,7 +310,6 @@
 2026-05-09,EKVA,MIA,15,15
 2026-05-09,ESDO,Oosterkwartier (H),15,6
 2026-05-09,Emmeloord,Pallas '08,15,21
-2026-05-09,Exakwa,Rood Wit (W),18,12
 2026-05-09,Excelsior (D),KCR,18,17
 2026-05-09,Fiks,Valto,17,15
 2026-05-09,Flamingo's (B),De Granaet,15,15
@@ -342,7 +332,6 @@
 2026-05-09,KOAG,TOP (A),12,15
 2026-05-09,KVA,KVZ '23,14,16
 2026-05-09,KVW '22,Kinea / Udiros,17,20
-2026-05-09,KZ Danaiden,Dunas,12,11
 2026-05-09,KZ,Blauw Wit,29,22
 2026-05-09,Kesteren,DKB,6,7
 2026-05-09,Kinderdijk,Fortis,17,17
@@ -360,7 +349,6 @@
 2026-05-09,Nic,CSL,20,14
 2026-05-09,Nieuwerkerk,Avanti (P),19,17
 2026-05-09,Nova,Animo (G),11,13
-2026-05-09,ODO (M),GKV,17,8
 2026-05-09,OJC '98,Viking,12,26
 2026-05-09,OKO,IFC '25,19,13
 2026-05-09,OKV,Apollo,8,7
@@ -452,7 +440,6 @@
 2026-05-16,DeetosSnel,Die Haghe,21,15
 2026-05-16,Diderna,Wiko,17,11
 2026-05-16,Duko,Rivalen,18,14
-2026-05-16,Dunas,KZ Danaiden,12,12
 2026-05-16,EKC 2000,WK,15,8
 2026-05-16,EKCA,Arena,8,11
 2026-05-16,Elko,Stadskanaal '74,28,12
@@ -463,7 +450,6 @@
 2026-05-16,Fortissimo,Swift,19,24
 2026-05-16,Furore,Madjoe,12,9
 2026-05-16,GKV (G),Swift (M),11,12
-2026-05-16,GKV,ODO (M),13,17
 2026-05-16,Groen Geel,AW.DTV,18,12
 2026-05-16,HBC (Be),Velocitas (L),4,16
 2026-05-16,HKC (Ha),Sporting Delta,24,13
@@ -518,7 +504,6 @@
 2026-05-16,Revival,Huizen,17,10
 2026-05-16,Rheko,Zwart Wit,13,18
 2026-05-16,Ritola,Wez Handich,19,15
-2026-05-16,Rood Wit (W),Exakwa,10,10
 2026-05-16,Rust Roest (E),SDO (V),13,12
 2026-05-16,SCO,AVO,12,16
 2026-05-16,SDO (K),Antilopen,18,18
@@ -549,7 +534,6 @@
 2026-05-16,Weidevogels,DES (De),14,22
 2026-05-16,Wesstar,HKC (U),14,16
 2026-05-16,Wit Blauw,KIOS (R),17,28
-2026-05-16,Wolderwijd,Achilles (A) / AKC,13,12
 2026-05-16,Zaamslag,DSO (K),19,15
 2026-05-16,Zunobri,Vitesse (Be),13,19
 2026-05-17,Blauw Wit,KZ,14,20
@@ -558,3 +542,8 @@
 2026-05-18,SkunK,Attila,16,10
 2026-05-19,KZ,TOP (S),18,21
 2026-05-20,Sporting West,Atlantis,20,11
+2026-05-21,Aurora / DKV (IJ),DSO (A),21,11
+2026-05-21,DTS (S) / Harkema,Olympia (T),12,10
+2026-05-21,KCC,Blauw Wit,18,15
+2026-05-21,KCD,DKOD,22,8
+2026-05-21,Nikantes,'t Capproen,12,16
