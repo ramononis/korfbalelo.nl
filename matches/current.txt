@@ -563,3 +563,19 @@
 2026-05-21,KCC,Blauw Wit,18,15
 2026-05-21,KCD,DKOD,22,8
 2026-05-21,Nikantes,'t Capproen,12,16
+2026-05-23,Avanti (P),Fiks,15,14
+2026-05-23,Dalto,DVO,20,22
+2026-05-23,DeetosSnel,Fortuna (D),10,20
+2026-05-23,Die Haghe,PKC,15,22
+2026-05-23,Elburg,Hellas '63,12,14
+2026-05-23,GKV (G),Sporting Delta,19,18
+2026-05-23,Joure,Olympia (T),10,14
+2026-05-23,KIOS (R),CSL,16,15
+2026-05-23,LDODK,Unitas,22,14
+2026-05-23,Nieuwerkerk,Valto,16,15
+2026-05-23,SKF,Groen Geel,18,23
+2026-05-23,Spirit (Vo),Mid Fryslân,16,10
+2026-05-23,Swift (M),HKC (Ha),12,16
+2026-05-23,Synergo,AW.DTV,5,17
+2026-05-23,Wageningen,DOS '46,17,25
+2026-05-23,Wit Blauw,Nic,12,22
