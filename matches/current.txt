@@ -579,3 +579,4 @@
 2026-05-23,Synergo,AW.DTV,5,17
 2026-05-23,Wageningen,DOS '46,17,25
 2026-05-23,Wit Blauw,Nic,12,22
+2026-05-24,Maastricht,Mariarade,23,2
