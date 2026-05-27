@@ -580,3 +580,5 @@
 2026-05-23,Wageningen,DOS '46,17,25
 2026-05-23,Wit Blauw,Nic,12,22
 2026-05-24,Maastricht,Mariarade,23,2
+2026-05-26,IJsselvogels,Reeuwijk,12,12
+2026-05-26,Wiko,Diderna,13,20
