@@ -655,6 +655,7 @@
 2026-05-30,Nieuwerkerk,Fiks,15,15
 2026-05-30,Noordenveld,Heerenveen,13,17
 2026-05-30,Nova,Antilopen,11,18
+2026-05-30,Noveas,Lintjo,12,16
 2026-05-30,ODIK,KVZ,12,26
 2026-05-30,ODO (M),KZ Danaiden,8,15
 2026-05-30,OEC,DKB,15,18
@@ -665,7 +666,7 @@
 2026-05-30,Oost Arnhem,De Meeuwen,11,18
 2026-05-30,Oranje Zwart (M),Ventura Sport,13,13
 2026-05-30,Oranje Zwart,HKC (He),13,18
-2026-05-30,PSV,Kesteren,15,8
+2026-05-30,PSV,Kesteren,14,9
 2026-05-30,Paal Centraal,Erasmus,15,17
 2026-05-30,Pernix,KVZ '23,17,20
 2026-05-30,Quick '21 / Vlug en Vaardig (G),Sparta (Ze),17,20
