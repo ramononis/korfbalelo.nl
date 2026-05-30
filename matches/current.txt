@@ -611,6 +611,7 @@
 2026-05-30,De Parabool,De Wâlden,17,18
 2026-05-30,De Pein,WWC,22,12
 2026-05-30,De Waterpoort,Olympia (T),9,14
+2026-05-30,DeetosSnel,PKC,15,17
 2026-05-30,Die Haghe,Fortuna (D),15,21
 2026-05-30,Dijkvogels,Gemini,15,13
 2026-05-30,Dindoa,Victum,14,9
