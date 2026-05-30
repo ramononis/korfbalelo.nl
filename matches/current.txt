@@ -584,3 +584,48 @@
 2026-05-26,IJsselvogels,Reeuwijk,12,12
 2026-05-26,Wiko,Diderna,13,20
 2026-05-27,Springfield,Oranje Zwart (M),11,12
+2026-05-30,Amicitia (V),DOS-WK,17,12
+2026-05-30,Animo (G),SDO (K),17,16
+2026-05-30,Arena,Rivalen,17,15
+2026-05-30,Atlantis,Furore,21,11
+2026-05-30,Attila,Hemur Enge,26,7
+2026-05-30,DOT (O),Oranje Wit (D),18,18
+2026-05-30,DTL,Kinea / Udiros,12,24
+2026-05-30,DTS (E),OKV,9,15
+2026-05-30,De Pein,WWC,22,12
+2026-05-30,De Waterpoort,Olympia (T),9,14
+2026-05-30,Die Haghe,Fortuna (D),15,21
+2026-05-30,Elburg,DOS Kampen,17,27
+2026-05-30,Elko,Thrianta,13,16
+2026-05-30,Fluks (N),Velocitas (L),10,8
+2026-05-30,GKV (G),HKC (Ha),14,21
+2026-05-30,HKC (U),Devinco,16,15
+2026-05-30,Hebbes,Koveni,18,11
+2026-05-30,Hellas '63,VDDO,23,12
+2026-05-30,Juventa,Reehorst '45,14,17
+2026-05-30,KIOS (N),HBC (Be),20,10
+2026-05-30,Keizer Karel,Viking,16,21
+2026-05-30,Luctor,Seolto,16,15
+2026-05-30,Madjoe,Badhoevedorp,11,9
+2026-05-30,Mariarade,Maastricht,3,19
+2026-05-30,Nexus,Vriendenschaar (B),12,16
+2026-05-30,Noordenveld,Heerenveen,13,17
+2026-05-30,Nova,Antilopen,11,18
+2026-05-30,OEC,DKB,15,18
+2026-05-30,PSV,Kesteren,15,8
+2026-05-30,Paal Centraal,Erasmus,15,17
+2026-05-30,RODA (W),BEP,12,18
+2026-05-30,Rapid (H),Oosterkwartier (H),18,12
+2026-05-30,Refleks,VEO,12,19
+2026-05-30,Regio '72,KCD,12,17
+2026-05-30,Rheko,Roreko,11,10
+2026-05-30,SDO (S),DWA / Argo,15,10
+2026-05-30,SKF,AW.DTV,13,18
+2026-05-30,SkunK,Triade,13,16
+2026-05-30,Springfield,OZC,8,16
+2026-05-30,Stormvogels (U),DSO (A),11,4
+2026-05-30,Terda,Focus,9,26
+2026-05-30,Vriendenschaar (H),NIO,12,10
+2026-05-30,Weidevogels,De Meervogels,17,21
+2026-05-30,Westergo,De Hoeve,9,13
+2026-05-30,Wolderwijd,Rood Wit (W),11,13
