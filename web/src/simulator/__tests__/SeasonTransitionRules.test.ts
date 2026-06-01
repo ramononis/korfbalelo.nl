@@ -42,6 +42,30 @@ describe('SeasonTransitionRules', () => {
     expect(scope?.relevantPoules.sort()).toEqual(['2A', '2B', '3A', '3B'])
   })
 
+  it('includes the full outdoor vacancy-chain closure for OK simulations', () => {
+    const tiers = {
+      'Hoofdklasse': { 'HK-01': ['HK Team'] },
+      'Overgangsklasse': { 'OK-02': ['ASVD'] },
+      '1e Klasse': { '1-01': ['1K Team'] },
+      '2e Klasse': { '2-04': ['Wesstar'], '2-12': ['Keizer Karel'] },
+      '3e Klasse': { '3-03': ['SIOS / Leonidas'] },
+      '4e Klasse': { '4-01': ['De Hoeve'] },
+    }
+
+    const scope = relevantTeamsScopeForTeam('veld2526vj', tiers, 'ASVD')
+
+    expect(scope).not.toBeNull()
+    expect(scope?.relevantPoules.sort()).toEqual([
+      '1-01',
+      '2-04',
+      '2-12',
+      '3-03',
+      '4-01',
+      'HK-01',
+      'OK-02',
+    ])
+  })
+
   it('uses six promoted 3k runners-up for the 10-poule zaal 2627 third class', () => {
     const indoor = getSeasonTransition('zaal2627').definition
     const thirdClassRunnerUpRule = indoor.rules.find((rule) => rule.id === '3k-2-best6')

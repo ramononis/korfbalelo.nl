@@ -266,13 +266,21 @@ function collectRelevantGroupIds(
     }
   }
 
-  for (const chain of resolveVacancyChains(definition)) {
-    if (!possibleTargetTiers.has(chain.targetTier)) {
-      continue
-    }
-    groupIds.add(chain.targetTier)
-    for (const step of chain.steps) {
-      groupIds.add(step.groupId)
+  const vacancyChains = resolveVacancyChains(definition)
+  let changed = true
+  while (changed) {
+    changed = false
+    for (const chain of vacancyChains) {
+      if (!possibleTargetTiers.has(chain.targetTier) && !groupIds.has(chain.targetTier)) {
+        continue
+      }
+      const chainGroupIds = [chain.targetTier, ...chain.steps.map((step) => step.groupId)]
+      for (const groupId of chainGroupIds) {
+        if (!groupIds.has(groupId)) {
+          groupIds.add(groupId)
+          changed = true
+        }
+      }
     }
   }
 
