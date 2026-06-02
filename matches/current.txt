@@ -615,7 +615,7 @@
 2026-05-30,Die Haghe,Fortuna (D),15,21
 2026-05-30,Dijkvogels,Gemini,15,13
 2026-05-30,Dindoa,Victum,14,9
-2026-05-30,EKCA,Duko,16,18
+2026-05-30,EKCA,Duko,15,19
 2026-05-30,EKVA,Swift,14,19
 2026-05-30,Elburg,DOS Kampen,17,27
 2026-05-30,Elko,Thrianta,13,16
