@@ -723,4 +723,5 @@
 2026-05-31,LDODK,Mid Fryslân,23,12
 2026-05-31,Vefo,Moedig Voorwaarts,22,11
 2026-06-02,GKV,Dunas,15,15
+2026-06-02,MIA,Fortissimo,14,10
 2026-06-02,Roreko,Zwart Wit,16,16
