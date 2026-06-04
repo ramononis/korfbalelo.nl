@@ -727,3 +727,6 @@
 2026-06-02,Roreko,Zwart Wit,16,16
 2026-06-03,DTG,Noveas,14,11
 2026-06-03,SGV,Het Bosch,11,7
+2026-06-04,De Corvers,DOS (W),15,15
+2026-06-04,Roreko,Blauw Zwart,12,8
+2026-06-04,SEV (Z),Regio '72,9,13
