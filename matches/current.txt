@@ -725,3 +725,5 @@
 2026-06-02,GKV,Dunas,15,15
 2026-06-02,MIA,Fortissimo,14,10
 2026-06-02,Roreko,Zwart Wit,16,16
+2026-06-03,DTG,Noveas,14,11
+2026-06-03,SGV,Het Bosch,11,7
