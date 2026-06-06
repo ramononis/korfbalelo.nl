@@ -736,6 +736,7 @@
 2026-06-06,Ados,Stormvogels (U),14,10
 2026-06-06,Albatros,ONDO (G),16,21
 2026-06-06,Antilopen,Animo (G),24,15
+2026-06-06,Apollo,DTS (E),15,9
 2026-06-06,BEP,Haarlem,13,17
 2026-06-06,Badhoevedorp,Atlantis,9,14
 2026-06-06,Blauw Wit (K),Luctor,19,5
@@ -754,6 +755,7 @@
 2026-06-06,DWA / Argo,WSS,16,13
 2026-06-06,DWS (K),Revival,16,13
 2026-06-06,De Meervogels,DES (De),18,17
+2026-06-06,De Meeuwen,Apeldoorn,14,14
 2026-06-06,De Vinken,RODA (W),24,10
 2026-06-06,De Wâlden,De Pein,17,12
 2026-06-06,Devinco,Wesstar,26,16
@@ -780,6 +782,7 @@
 2026-06-06,HKC (Ha),Swift (M),21,18
 2026-06-06,HKC (He),Amicitia (V),14,21
 2026-06-06,Heerenveen,Dindoa,20,15
+2026-06-06,IFC '25,Flamingo's (B),13,15
 2026-06-06,Joure,De Waterpoort,17,19
 2026-06-06,KCR,Korbis,15,12
 2026-06-06,KVA,Pernix,21,14
@@ -800,6 +803,7 @@
 2026-06-06,Mid Fryslân,Spirit (Vo),24,15
 2026-06-06,Movado,ADO,17,11
 2026-06-06,NIO,ACKC,15,18
+2026-06-06,Nic,Wit Blauw,25,18
 2026-06-06,Nikantes,Olympia (S),10,13
 2026-06-06,Noviomagum,SDO (V),12,11
 2026-06-06,OJC '98,Keizer Karel,17,15
@@ -807,6 +811,7 @@
 2026-06-06,OKV,Helios,19,13
 2026-06-06,ONDO (M),Tjoba,17,10
 2026-06-06,OVVO,KVS,12,16
+2026-06-06,Olympia '22,Regio '72,15,20
 2026-06-06,Olympia (T),DTS (S) / Harkema,9,6
 2026-06-06,Oosterkwartier (H),VZOD,7,17
 2026-06-06,Oranje Wit (D),DSC,15,23
@@ -816,6 +821,7 @@
 2026-06-06,RDZ,Huizen,11,17
 2026-06-06,RWA,Vriendenschaar (H),12,14
 2026-06-06,Reehorst '45,NKC '51,13,21
+2026-06-06,Ritola,AVO,17,17
 2026-06-06,Rivalen,EKCA,11,13
 2026-06-06,Rood Wit (W),Achilles (A) / AKC,20,17
 2026-06-06,SDO (K),Nova,15,9
@@ -825,6 +831,7 @@
 2026-06-06,Seolto,Keep Fit '70,19,12
 2026-06-06,Sparta (N),HKC (U),26,15
 2026-06-06,Sparta (Ze),It Fean,21,16
+2026-06-06,Sporting Delta,GKV (G),10,17
 2026-06-06,Sporting Trigon,Refleks,17,19
 2026-06-06,Sporting West,DKV Victoria,10,17
 2026-06-06,Swift,MIA,20,12
@@ -834,8 +841,10 @@
 2026-06-06,Tilburg,Juliana,21,19
 2026-06-06,Trekvogels (R),Achilles (H),12,20
 2026-06-06,Triade,Hemur Enge,24,1
+2026-06-06,Tweemaal Zes,Tempo,13,15
 2026-06-06,Twist,IJsselvogels,10,13
 2026-06-06,Unitas,LDODK,22,27
+2026-06-06,VDDO,Elburg,10,16
 2026-06-06,VEO,HKV / Ons Eibernest,22,19
 2026-06-06,Valto,Nieuwerkerk,18,18
 2026-06-06,Velocitas (L),KIOS (N),21,24
