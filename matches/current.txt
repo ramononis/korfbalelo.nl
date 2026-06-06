@@ -730,3 +730,121 @@
 2026-06-04,De Corvers,DOS (W),15,15
 2026-06-04,Roreko,Blauw Zwart,12,8
 2026-06-04,SEV (Z),Regio '72,9,13
+2026-06-06,ALO,Reeuwijk,21,15
+2026-06-06,ASVD,ZKC '19,12,19
+2026-06-06,AW.DTV,Synergo,25,12
+2026-06-06,Ados,Stormvogels (U),14,10
+2026-06-06,Albatros,ONDO (G),16,21
+2026-06-06,Antilopen,Animo (G),24,15
+2026-06-06,BEP,Haarlem,13,17
+2026-06-06,Badhoevedorp,Atlantis,9,14
+2026-06-06,Blauw Wit (K),Luctor,19,5
+2026-06-06,Blauw Wit,KCC,14,12
+2026-06-06,Blauw Zwart,Rheko,21,12
+2026-06-06,CSL,KIOS (R),14,13
+2026-06-06,Celeritas (A),Kleine Sluis,8,8
+2026-06-06,DKB,PSV,16,11
+2026-06-06,DOS (W),Hebbes,12,20
+2026-06-06,DOS Kampen,Hellas '63,14,9
+2026-06-06,DOS-WK,Oranje Zwart,28,14
+2026-06-06,DSO (A),Aurora / DKV (IJ),9,15
+2026-06-06,DSO (K),KVK,18,11
+2026-06-06,DVO,Dalto,20,20
+2026-06-06,DVS '69,TOGO (G),17,12
+2026-06-06,DWA / Argo,WSS,16,13
+2026-06-06,DWS (K),Revival,16,13
+2026-06-06,De Meervogels,DES (De),18,17
+2026-06-06,De Vinken,RODA (W),24,10
+2026-06-06,De Wâlden,De Pein,17,12
+2026-06-06,Devinco,Wesstar,26,16
+2026-06-06,Drachten,Sparta (Zw),19,14
+2026-06-06,Duko,Arena,17,13
+2026-06-06,Dunas,ODO (M),20,9
+2026-06-06,EKC 2000,Vitesse (Be),6,16
+2026-06-06,ESDO,Rapid (H),9,16
+2026-06-06,Emmeloord,Spannum,19,13
+2026-06-06,Erasmus,Dijkvogels,14,12
+2026-06-06,Exakwa,Wolderwijd,20,10
+2026-06-06,Excelsior (D),Maassluis,12,11
+2026-06-06,Fiducia,DOT (O),19,14
+2026-06-06,Fiks,Avanti (P),19,20
+2026-06-06,Focus,Voltreffers (O),18,8
+2026-06-06,Fortis,KOAG,16,15
+2026-06-06,Fortissimo,EKVA,21,22
+2026-06-06,Fortuna (D),DeetosSnel,24,19
+2026-06-06,Furore,Luno,8,11
+2026-06-06,Gemini,Paal Centraal,11,12
+2026-06-06,Groen Geel,SKF,23,14
+2026-06-06,HBC (Be),Fluks (N),12,7
+2026-06-06,HHV,Elko,25,16
+2026-06-06,HKC (Ha),Swift (M),21,18
+2026-06-06,HKC (He),Amicitia (V),14,21
+2026-06-06,Heerenveen,Dindoa,20,15
+2026-06-06,Joure,De Waterpoort,17,19
+2026-06-06,KCR,Korbis,15,12
+2026-06-06,KVA,Pernix,21,14
+2026-06-06,KVS '17,Attila,8,13
+2026-06-06,KVW '22,DTL,18,17
+2026-06-06,KVZ '23,Rohda (A),20,12
+2026-06-06,KVZ,Zwaluwen (Ze),31,13
+2026-06-06,KZ Danaiden,GKV,15,8
+2026-06-06,Kesteren,OEC,17,16
+2026-06-06,Kinderdijk,TOP (A),19,14
+2026-06-06,Kinea / Udiros,Hoogkerk,14,13
+2026-06-06,Korbatjo,Good Luck,22,17
+2026-06-06,Koveni,De Corvers,19,14
+2026-06-06,Leeuwarden,Quick '21 / Vlug en Vaardig (G),8,11
+2026-06-06,Lemmer,Westergo,4,15
+2026-06-06,Lintjo,SIOS / Leonidas,18,9
+2026-06-06,Merwede,Vitesse (Ba),17,29
+2026-06-06,Mid Fryslân,Spirit (Vo),24,15
+2026-06-06,Movado,ADO,17,11
+2026-06-06,NIO,ACKC,15,18
+2026-06-06,Nikantes,Olympia (S),10,13
+2026-06-06,Noviomagum,SDO (V),12,11
+2026-06-06,OJC '98,Keizer Karel,17,15
+2026-06-06,OKO,De Granaet,14,17
+2026-06-06,OKV,Helios,19,13
+2026-06-06,ONDO (M),Tjoba,17,10
+2026-06-06,OVVO,KVS,12,16
+2026-06-06,Olympia (T),DTS (S) / Harkema,9,6
+2026-06-06,Oosterkwartier (H),VZOD,7,17
+2026-06-06,Oranje Wit (D),DSC,15,23
+2026-06-06,PKC,Die Haghe,20,18
+2026-06-06,Pallas '08,Harich,21,15
+2026-06-06,Phoenix (Z),Weidevogels,16,15
+2026-06-06,RDZ,Huizen,11,17
+2026-06-06,RWA,Vriendenschaar (H),12,14
+2026-06-06,Reehorst '45,NKC '51,13,21
+2026-06-06,Rivalen,EKCA,11,13
+2026-06-06,Rood Wit (W),Achilles (A) / AKC,20,17
+2026-06-06,SDO (K),Nova,15,9
+2026-06-06,SEV (Z),TOP (V),16,11
+2026-06-06,SKV (S),SkunK,8,14
+2026-06-06,Scheldevogels,Terda,19,9
+2026-06-06,Seolto,Keep Fit '70,19,12
+2026-06-06,Sparta (N),HKC (U),26,15
+2026-06-06,Sparta (Ze),It Fean,21,16
+2026-06-06,Sporting Trigon,Refleks,17,19
+2026-06-06,Sporting West,DKV Victoria,10,17
+2026-06-06,Swift,MIA,20,12
+2026-06-06,TOP (S),KZ,18,21
+2026-06-06,Telstar,Juventa,17,9
+2026-06-06,Thrianta,Stadskanaal '74,15,14
+2026-06-06,Tilburg,Juliana,21,19
+2026-06-06,Trekvogels (R),Achilles (H),12,20
+2026-06-06,Triade,Hemur Enge,24,1
+2026-06-06,Twist,IJsselvogels,10,13
+2026-06-06,Unitas,LDODK,22,27
+2026-06-06,VEO,HKV / Ons Eibernest,22,19
+2026-06-06,Valto,Nieuwerkerk,18,18
+2026-06-06,Velocitas (L),KIOS (N),21,24
+2026-06-06,Ventura Sport,Springfield,9,10
+2026-06-06,Viking,NKV,30,10
+2026-06-06,Vriendenschaar (B),Zuid '27,10,11
+2026-06-06,WIK '34,Oerterp,15,9
+2026-06-06,WION,Nexus,19,14
+2026-06-06,WK,Zunobri,18,12
+2026-06-06,WWC,De Parabool,13,13
+2026-06-06,Woudenberg,ODIK,22,14
+2026-06-06,Zaamslag,Atlas,15,23
