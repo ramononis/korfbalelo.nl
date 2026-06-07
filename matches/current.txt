@@ -34,7 +34,6 @@
 2026-04-04,Erasmus,Paal Centraal,22,13
 2026-04-04,Exakwa,Achilles (A) / AKC,19,4
 2026-04-04,Excelsior (D),Korbis,16,17
-2026-04-04,Fiducia,DSC,8,16
 2026-04-04,Fortis,TOP (A),11,21
 2026-04-04,Fortissimo,MIA,12,15
 2026-04-04,Furore,Sporting West,13,14
@@ -73,7 +72,6 @@
 2026-04-04,OVVO,Tempo,10,12
 2026-04-04,Olympia '22,TOP (V),16,14
 2026-04-04,Oosterkwartier (H),Rapid (H),11,18
-2026-04-04,Oranje Wit (D),DOT (O),17,17
 2026-04-04,Pallas '08,Spannum,19,15
 2026-04-04,Phoenix (Z),DES (De),12,18
 2026-04-04,RDZ,Revival,9,16
@@ -130,8 +128,6 @@
 2026-04-11,DES (De),De Meervogels,14,19
 2026-04-11,DKOD,Regio '72,9,16
 2026-04-11,DKV Victoria,Madjoe,19,16
-2026-04-11,DOT (O),Fiducia,19,15
-2026-04-11,DSC,Oranje Wit (D),24,8
 2026-04-11,DTL,KVW '22,6,11
 2026-04-11,DTS (E),Apollo,9,17
 2026-04-11,De Corvers,Koveni,11,14
@@ -300,7 +296,6 @@
 2026-05-09,DES (De),Weidevogels,19,11
 2026-05-09,DOS '46,DVO,23,19
 2026-05-09,DOS (W),Koveni,8,15
-2026-05-09,DOT (O),DSC,11,19
 2026-05-09,DSO (K),Zaamslag,18,14
 2026-05-09,DTG,Lintjo,17,13
 2026-05-09,DTS (E),Helios,11,15
@@ -370,7 +365,6 @@
 2026-05-09,Olympia (S),Conventus,10,16
 2026-05-09,Olympia (T),Joure,16,19
 2026-05-09,Oost Arnhem,Apeldoorn,19,15
-2026-05-09,Oranje Wit (D),Fiducia,21,20
 2026-05-09,Oranje Zwart (M),Springfield,9,8
 2026-05-09,Oranje Zwart,Amicitia (V),11,25
 2026-05-09,PSV,OEC,22,16
@@ -439,7 +433,6 @@
 2026-05-16,DKOD,Olympia '22,5,14
 2026-05-16,DOS Kampen,VDDO,24,19
 2026-05-16,DOS-WK,HKC (He),22,11
-2026-05-16,DSC,DOT (O),18,10
 2026-05-16,DSO (A),Ados,11,13
 2026-05-16,DTL,Hoogkerk,12,11
 2026-05-16,DTS (S) / Harkema,De Waterpoort,23,9
@@ -457,7 +450,6 @@
 2026-05-16,EKCA,Arena,8,11
 2026-05-16,Elko,Stadskanaal '74,28,12
 2026-05-16,Erasmus,Gemini,18,7
-2026-05-16,Fiducia,Oranje Wit (D),10,11
 2026-05-16,Focus,Scheldevogels,12,8
 2026-05-16,Fortis,Kinderdijk,14,13
 2026-05-16,Fortissimo,Swift,19,24
@@ -601,8 +593,6 @@
 2026-05-30,Conventus,Nikantes,21,10
 2026-05-30,DES (De),Phoenix (Z),22,11
 2026-05-30,DKV Victoria,Luno,15,10
-2026-05-30,DOT (O),Oranje Wit (D),18,18
-2026-05-30,DSC,Fiducia,23,9
 2026-05-30,DTL,Kinea / Udiros,12,24
 2026-05-30,DTS (E),OKV,9,15
 2026-05-30,DTS (S) / Harkema,Joure,9,10
@@ -745,6 +735,7 @@
 2026-06-06,CSL,KIOS (R),14,13
 2026-06-06,Celeritas (A),Kleine Sluis,8,8
 2026-06-06,DKB,PSV,16,11
+2026-06-06,DOS '46,Wageningen,23,17
 2026-06-06,DOS (W),Hebbes,12,20
 2026-06-06,DOS Kampen,Hellas '63,14,9
 2026-06-06,DOS-WK,Oranje Zwart,28,14
@@ -754,6 +745,7 @@
 2026-06-06,DVS '69,TOGO (G),17,12
 2026-06-06,DWA / Argo,WSS,16,13
 2026-06-06,DWS (K),Revival,16,13
+2026-06-06,De Hoeve,SF Deinum,19,6
 2026-06-06,De Meervogels,DES (De),18,17
 2026-06-06,De Meeuwen,Apeldoorn,14,14
 2026-06-06,De Vinken,RODA (W),24,10
@@ -768,7 +760,6 @@
 2026-06-06,Erasmus,Dijkvogels,14,12
 2026-06-06,Exakwa,Wolderwijd,20,10
 2026-06-06,Excelsior (D),Maassluis,12,11
-2026-06-06,Fiducia,DOT (O),19,14
 2026-06-06,Fiks,Avanti (P),19,20
 2026-06-06,Focus,Voltreffers (O),18,8
 2026-06-06,Fortis,KOAG,16,15
@@ -811,14 +802,15 @@
 2026-06-06,OKV,Helios,19,13
 2026-06-06,ONDO (M),Tjoba,17,10
 2026-06-06,OVVO,KVS,12,16
+2026-06-06,OZC,Oranje Zwart (M),19,13
 2026-06-06,Olympia '22,Regio '72,15,20
 2026-06-06,Olympia (T),DTS (S) / Harkema,9,6
 2026-06-06,Oosterkwartier (H),VZOD,7,17
-2026-06-06,Oranje Wit (D),DSC,15,23
 2026-06-06,PKC,Die Haghe,20,18
 2026-06-06,Pallas '08,Harich,21,15
 2026-06-06,Phoenix (Z),Weidevogels,16,15
 2026-06-06,RDZ,Huizen,11,17
+2026-06-06,ROG,SDO (S),10,16
 2026-06-06,RWA,Vriendenschaar (H),12,14
 2026-06-06,Reehorst '45,NKC '51,13,21
 2026-06-06,Ritola,AVO,17,17
@@ -838,6 +830,7 @@
 2026-06-06,TOP (S),KZ,18,21
 2026-06-06,Telstar,Juventa,17,9
 2026-06-06,Thrianta,Stadskanaal '74,15,14
+2026-06-06,Tiel '72,Rust Roest (E),19,17
 2026-06-06,Tilburg,Juliana,21,19
 2026-06-06,Trekvogels (R),Achilles (H),12,20
 2026-06-06,Triade,Hemur Enge,24,1
@@ -855,5 +848,6 @@
 2026-06-06,WION,Nexus,19,14
 2026-06-06,WK,Zunobri,18,12
 2026-06-06,WWC,De Parabool,13,13
+2026-06-06,Wez Handich,SCO,10,24
 2026-06-06,Woudenberg,ODIK,22,14
 2026-06-06,Zaamslag,Atlas,15,23
