@@ -11,6 +11,7 @@ import nl.korfbalelo.elo.application.DeclarativeSeasonTransitionSimulator
 import nl.korfbalelo.mijnkorfbal.PouleData
 import nl.korfbalelo.mijnkorfbal.Scraper.scrapePoules
 import nl.korfbalelo.mijnkorfbal.Scraper.indoorPoules
+import nl.korfbalelo.mijnkorfbal.Scraper.isPostSeasonPool
 import nl.korfbalelo.mijnkorfbal.Scraper.outdoorPoules
 import nl.korfbalelo.mijnkorfbal.Scraper.specialMatches
 import nl.korfbalelo.mijnkorfbal.StaticPoules
@@ -318,9 +319,12 @@ object SeasonPredicter {
         size: Int,
         specialPoules: Set<String> = emptySet(),
         extraSpecialMatches: List<Match> = emptyList(),
+        specialMatchFilter: (Set<String>, Match) -> Boolean = { _, _ -> true },
     ) =
         poules.filter { (k) -> regex.matchEntire(k.uppercase()) != null }.entries.sortedBy { it.key }.map {
+            val teamNames = it.value.first.keys
             val extraMatches = (specialPoules.flatMap { poules[it]?.second ?: emptyList() } + extraSpecialMatches)
+                .filter { specialMatch -> specialMatchFilter(teamNames, specialMatch) }
                 .distinctBy(Match::formatFixture)
             PoulePredicter(
                 it.key, it.value.first, (it.value.second + extraMatches).distinctBy(Match::formatFixture), zeDate
@@ -421,9 +425,20 @@ object SeasonPredicter {
         override val name = SeasonContext.outdoor.seasonName
 
         init {
+            val postSeasonPoules = outdoorPoules.keys.filter(::isPostSeasonPool).toSet()
             outdoorTransitionSimulator.tierOrder().forEach { groupId ->
                 val group = outdoorTransitionSimulator.group(groupId)
-                predicters.addAll(filterPoules(outdoorPoules, Regex(group.poulePattern), group.expectedPoules))
+                predicters.addAll(
+                    filterPoules(
+                        outdoorPoules,
+                        Regex(group.poulePattern),
+                        group.expectedPoules,
+                        specialPoules = postSeasonPoules,
+                        specialMatchFilter = { teamNames, match ->
+                            match.home in teamNames || match.away in teamNames
+                        },
+                    )
+                )
             }
         }
 
