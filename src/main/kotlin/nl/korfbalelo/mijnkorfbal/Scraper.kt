@@ -115,6 +115,7 @@ object Scraper {
 //                                    "Statistieken",
 //                                    "EK play-off",
                                         "Statistieken Reserveteams",
+                                        "2-06"
 //                                    "S-053",
 ////                                    "979",
 ////                                    "996"
