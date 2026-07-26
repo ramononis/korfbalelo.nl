@@ -82,10 +82,12 @@ class OutdoorSpringToAutumnTransitionSimulatorSmokeTest {
         }
 
         val result = simulator.simulate(poules, SplittableRandom(0))
-        listOf("Voltreffers (O)", "Koveni", "Ados", "EKC 2000", "Conventus", "EKCA").forEach { teamName ->
-            assertEquals("3k", result.tierByTeam[teamName])
+        // AI generated: align the vacancy-chain assertion with the published 2627nj assignment.
+        listOf("Voltreffers (O)", "Koveni", "Ados", "EKC 2000", "Kesteren").forEach { teamName ->
+            assertEquals("3k", result.tierByTeam[teamName], teamName)
         }
-        assertEquals("4k", result.tierByTeam["Kesteren"])
+        assertEquals("4k", result.tierByTeam["Conventus"])
+        assertEquals("4k", result.tierByTeam["EKCA"])
     }
 
     private fun loadPoules(directory: String, includeFixtures: Boolean = true): Map<String, nl.korfbalelo.mijnkorfbal.PouleData> =

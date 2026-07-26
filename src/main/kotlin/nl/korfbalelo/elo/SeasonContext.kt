@@ -17,8 +17,8 @@ object SeasonContext {
     }
 
     val indoor = Config(seasonName = "zaal2627", mode = Mode.ZAAL)
-    val outdoor = Config(seasonName = "veld2526vj", mode = Mode.VELD)
-    private val extraKnownSeasonNames = listOf("zaal2526")
+    val outdoor = Config(seasonName = "veld2627nj", mode = Mode.VELD)
+    private val extraKnownSeasonNames = listOf("zaal2526", "veld2526vj")
 
     val active: List<Config>
         get() = listOf(indoor, outdoor)

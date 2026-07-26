@@ -98,7 +98,9 @@ class RatingPipeline(
 
         val oneYearAgo = LocalDate.now().minusYears(1)
         activeTeams.forEach { teamName ->
-            val team = RankingNew.ranking.getValue(teamName)
+            // AI generated: active-team names can predate a merge processed by this run.
+            val activeTeamName = RankingNew.aliases[teamName] ?: teamName
+            val team = RankingNew.ranking.getValue(activeTeamName)
             val lastDate = team.lastDate
             if (lastDate == null || lastDate.isBefore(oneYearAgo)) {
                 team.lastDate = LocalDate.now()

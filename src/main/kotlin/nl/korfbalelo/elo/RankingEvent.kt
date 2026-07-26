@@ -84,6 +84,10 @@ data class SpawnEvent(override val date: LocalDate, val name: String, val place:
             it.startOffset = eloOrOffset
             it.created = date
             if (log) {
+                // AI generated: keep restarted clubs separate from their previous graph series.
+                if (it.fullName in originMap) {
+                    it.graphSeriesLabel = "${it.fullName} [r:$date]"
+                }
                 if (it.graphName in originMap) error("graph origin already exists for ${it.graphName} while running $this")
                 originMap[it.graphName] = mutableSetOf(it.graphName)
             }

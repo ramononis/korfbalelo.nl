@@ -57,7 +57,7 @@ object SeasonPredicter {
         DeclarativeSeasonTransitionSimulator.fromFile(File("rules/pd/zaal2627__zaal2728.json"))
     }
     private val outdoorTransitionSimulator by lazy {
-        DeclarativeSeasonTransitionSimulator.fromFile(File("rules/pd/veld2526vj__veld2627nj.json"))
+        DeclarativeSeasonTransitionSimulator.fromFile(File("rules/pd/veld2627nj__veld2627vj.json"))
     }
 
     val concurrency = configuredConcurrency?.toInt()
@@ -175,8 +175,7 @@ object SeasonPredicter {
         return headerTeamNames
     }
 
-    //    val outdoorTiers = listOf("ek", "ek2", "hk", "ok", "1k", "2k", "3k", "4k")
-    val outdoorTiers = listOf("ek", "ek", "hk", "ok", "1k", "2k", "3k", "4k")
+    val outdoorTiers = listOf("ek", "ekd", "hk", "ok", "1k", "2k", "3k", "4k")
     val indoorTiers = listOf("kl", "kl2", "hk", "ok", "1k", "2k", "3k")
     val removedTeams = if (doOutdoor) {
         setOf<String>(
@@ -212,15 +211,14 @@ object SeasonPredicter {
                     }
                 }
             }
-//            checkCount("ek", 4 * 4)
-//            checkCount("ek2", 4 * 4)
-            checkCount("ek", 8 * 4)
+            checkCount("ek", 8 * 2)
+            checkCount("ekd", 8 * 2)
             checkCount("hk", 8 * 4)
             checkCount("ok", 8 * 4)
             checkCount("1k", 12 * 4)
             checkCount("2k", 12 * 4)
-            checkCount("3k", 12 * 4)
-            checkCount("4k", 36)
+            checkCount("3k", 48)
+            checkCount("4k", 34)
             buildString {
                 ranking.values.sortedByDescending { it.rating }.forEach { t ->
                     append("\"${t.name}\",\"${t.rating}\",")
@@ -343,8 +341,8 @@ object SeasonPredicter {
                 it.simulate()
                 it.executor.result.first().let { (t) ->
                     if (it.pouleName != "KL"
-                        && !it.pouleName.startsWith("EK-0") // ONLY FOR VOORJAAR
-                        ) {
+                        && (!doOutdoor || outdoorTransitionSimulator.automaticChampionApplies(it.pouleName, 1))
+                    ) {
                         event(t, "champion")
                     }
                 }
@@ -426,8 +424,7 @@ object SeasonPredicter {
 
         init {
             val postSeasonPoules = outdoorPoules.keys.filter(::isPostSeasonPool).toSet()
-            outdoorTransitionSimulator.tierOrder().forEach { groupId ->
-                val group = outdoorTransitionSimulator.group(groupId)
+            outdoorTransitionSimulator.groups().forEach { group ->
                 predicters.addAll(
                     filterPoules(
                         outdoorPoules,
