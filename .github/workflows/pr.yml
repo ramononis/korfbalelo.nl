@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
 
       - name: Restore Sportlink cache from latest daily run
-        uses: actions/cache/restore@v5
+        uses: actions/cache/restore@v6
         with:
           path: cache
           key: sportlink-cache-v1-${{ runner.os }}-daily-${{ github.run_id }}
