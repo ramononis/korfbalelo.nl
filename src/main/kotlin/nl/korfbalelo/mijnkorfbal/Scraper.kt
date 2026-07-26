@@ -31,21 +31,6 @@ object Scraper {
             poolName.contains(marker, ignoreCase = true)
         }
 
-    private fun addMissingOutdoorTeam(pouleName: String, teamName: String) {
-        outdoorPoules[pouleName]?.let { (teams, matches) ->
-            if (teamName !in teams) {
-                // Temporary manual correction until Mijn Korfbal publishes the transfer.
-                outdoorPoules[pouleName] = (teams + (teamName to 0)) to matches
-                activeTeams.add(teamName)
-            }
-        }
-    }
-
-    private fun applyTemporaryOutdoorPouleFixes() {
-        addMissingOutdoorTeam("3-03", "DTG")
-        addMissingOutdoorTeam("4-01", "De Hoeve")
-    }
-
     inline fun <reified T : Any> Request.responseObject(forceNetwork: Boolean = false) =
         File("cache/${(this.url.hashCode() + parameters.hashCode()).absoluteValue}.txt").let { f ->
             if (f.exists() && !forceNetwork) {
@@ -58,7 +43,8 @@ object Scraper {
             }
         }
 
-    val activeTeams = mutableSetOf<String>()
+    // AI generated: pool scraping updates active teams concurrently.
+    val activeTeams: MutableSet<String> = ConcurrentHashMap.newKeySet()
     @JvmStatic
     fun main(args: Array<String>) {
         scrapePoules()
@@ -69,16 +55,10 @@ object Scraper {
         val sources = buildList {
             add(
                 outdoorPoules to listOf(
-                    listOf("KNKV-DISTRICT-LANDELIJK", "KORFBALL-VE-WK", "StV") to true,
-                    listOf("KNKV-DISTRICT-OOST", "KORFBALL-VE-WK", "RV") to false,
-                    listOf("KNKV-DISTRICT-LANDELIJK", "KORFBALL-VE-WK", "Beker") to false,
+                    listOf("KNKV-DISTRICT-LANDELIJK", "KORFBALL-VE-WK", "SN") to true,
+                    listOf("KNKV-DISTRICT-OOST", "KORFBALL-VE-WK", "RN") to false,
                 )
             )
-//        outdoorPoules to listOf(
-//            listOf("KNKV-DISTRICT-LANDELIJK", "KORFBALL-VE-WK", "SN") to true,
-//            listOf("KNKV-DISTRICT-OOST", "KORFBALL-VE-WK", "RN") to false,
-////            listOf("KNKV-DISTRICT-LANDELIJK", "KORFBALL-VE-WK", "Beker") to false
-//        ),
             if (!hasStaticIndoorPoules) {
                 //glanerb|vaassen|rivalen|vakge|westerh|borcu|vroomsh
                 add(
@@ -185,7 +165,6 @@ object Scraper {
             indoorPoules.putAll(StaticPoules.loadIndoorPoules(indoorSeasonName))
             activeTeams.addAll(indoorPoules.values.flatMap { it.first.keys })
         }
-        applyTemporaryOutdoorPouleFixes()
         File("web/public/specials${SeasonContext.indoor.seasonName}.json").writeText(gson.toJson(specialMatches))
         if (writeCurrentMatches) {
             File("matches/current.txt")

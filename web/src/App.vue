@@ -26,7 +26,16 @@ onUnmounted(() => {
 })
 
 const formatSeasonLabel = (season: SeasonConfig): string => {
-  return `20${season.seasonCode.slice(0, 2)}/20${season.seasonCode.slice(2, 4)} ${season.mode}`
+  // AI generated: zaal spans two calendar years; veld labels use the starting year.
+  const year = season.mode === 'zaal'
+    ? `20${season.seasonCode.slice(0, 2)}/20${season.seasonCode.slice(2, 4)}`
+    : `20${season.seasonCode.slice(0, 2)}`
+  const period = season.seasonName.endsWith('nj')
+    ? ' najaar'
+    : season.seasonName.endsWith('vj')
+      ? ' voorjaar'
+      : ''
+  return `${year} ${season.mode}${period}`
 }
 
 </script>
@@ -54,6 +63,7 @@ const formatSeasonLabel = (season: SeasonConfig): string => {
             Archief ▼
           </button>
           <div class="dropdown-content" v-show="showArchief" @click="showArchief = false">
+            <router-link to="/competitie/veld2526vj" exact-active-class="active">2026 veld voorjaar</router-link>
             <router-link to="/competitie/zaal2526" exact-active-class="active">2025/2026 zaal</router-link>
             <router-link to="/competitie/veld2526nj" exact-active-class="active">2025 veld najaar</router-link>
             <router-link to="/competitie/veld2425vj" exact-active-class="active">2025 veld voorjaar </router-link>

@@ -1,9 +1,12 @@
 package nl.korfbalelo.elo.application
 
 import nl.korfbalelo.elo.ApplicationNew
+import nl.korfbalelo.elo.AliasEvent
 import nl.korfbalelo.elo.Match
+import nl.korfbalelo.elo.MergeEvent
 import nl.korfbalelo.elo.RankingEvent
 import nl.korfbalelo.elo.RankingNew
+import nl.korfbalelo.elo.SpawnEvent
 import nl.korfbalelo.elo.Team
 import nl.korfbalelo.elo.domain.RatingRunWindow
 import org.junit.jupiter.api.Test
@@ -94,5 +97,29 @@ class RatingPipelineTest {
 
         assertEquals(listOf(snapshotDate to 0), callbackSnapshots)
         assertTrue(RankingNew.ranking.getValue("Team A").games >= 1)
+    }
+
+    @Test
+    fun `active team lookup follows a merge alias created during the run`() {
+        // AI generated regression test for successor names received from Sportlink.
+        val seedDate = LocalDate.now().minusYears(2)
+        val mergeDate = seedDate.plusDays(1)
+        val events = setOf<RankingEvent>(
+            SpawnEvent(seedDate, "Old A", "A"),
+            SpawnEvent(seedDate, "Old B", "B"),
+            MergeEvent(mergeDate, "A / B", "A/B", listOf("Old A", "Old B")),
+            AliasEvent(mergeDate, "Old A", "A / B"),
+        )
+
+        RatingPipeline().run(
+            events = events,
+            window = RatingRunWindow(mergeDate, mergeDate),
+            activeTeams = setOf("Old A"),
+            logEnabled = false,
+            onDate = {},
+        )
+
+        assertTrue(RankingNew.ranking.containsKey("A / B"))
+        assertEquals(LocalDate.now(), RankingNew.ranking.getValue("A / B").lastDate)
     }
 }

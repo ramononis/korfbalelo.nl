@@ -4,8 +4,10 @@ import indoor2526DefinitionJson from '@rules/pd/zaal2526__zaal2627.json'
 import indoor2526OverridesJson from '@rules/pd-overrides/zaal2526__zaal2627.json'
 import indoor2627DefinitionJson from '@rules/pd/zaal2627__zaal2728.json'
 import indoor2627OverridesJson from '@rules/pd-overrides/zaal2627__zaal2728.json'
-import outdoorDefinitionJson from '@rules/pd/veld2526vj__veld2627nj.json'
-import outdoorOverridesJson from '@rules/pd-overrides/veld2526vj__veld2627nj.json'
+import outdoor2526vjDefinitionJson from '@rules/pd/veld2526vj__veld2627nj.json'
+import outdoor2526vjOverridesJson from '@rules/pd-overrides/veld2526vj__veld2627nj.json'
+import outdoor2627njDefinitionJson from '@rules/pd/veld2627nj__veld2627vj.json'
+import outdoor2627njOverridesJson from '@rules/pd-overrides/veld2627nj__veld2627vj.json'
 
 export interface TransitionGroup {
   id: string
@@ -142,8 +144,12 @@ const transitionsBySeason: Record<KnownSeasonName, LoadedSeasonTransition> = {
     overrides: indoor2627OverridesJson as SeasonTransitionOverrides,
   },
   veld2526vj: {
-    definition: outdoorDefinitionJson as SeasonTransitionDefinition,
-    overrides: outdoorOverridesJson as SeasonTransitionOverrides,
+    definition: outdoor2526vjDefinitionJson as SeasonTransitionDefinition,
+    overrides: outdoor2526vjOverridesJson as SeasonTransitionOverrides,
+  },
+  veld2627nj: {
+    definition: outdoor2627njDefinitionJson as SeasonTransitionDefinition,
+    overrides: outdoor2627njOverridesJson as SeasonTransitionOverrides,
   },
 }
 

@@ -3147,15 +3147,12 @@
 2021-09-11 merge Dio,VZK / Donkerbroek > VDDO > Haule
 2021-09-15 merge TFS,Wez Handich > Wez Handich > Rottevalle
 2021-11-01 end AKC '54
-2022-06-19 end Midlandia
 2022-09-10 merge EKC Naas,Rigtersbleek > NRC '22 > Enschede
 2022-09-10 merge OWK,Rodenburg > KVW '22 > Leek/Tolbert
 2023-02-09 end Roda '70
 2023-03-13 end Klimop (A)
-2023-04-02 end Olympus '58
 2023-06-12 end HHCombi
 2023-06-18 end Wez Warber en Fluch
-2023-06-23 end Amsterdam
 2023-09-09 merge Kinea (K),Udiros > Kinea / Udiros > Knipe/Nieuwehorne
 2023-09-09 merge SIOS (W),Leonidas² > SIOS / Leonidas > Wolvega/Noordwolde
 2023-09-09 merge ZKV (Za),ZKC '31 > KVZ '23 > Zaandam
@@ -3167,9 +3164,11 @@
 2024-12-01 merge Wees Kwiek,NKC (No) > NKC (N)/Wees Kwiek > Marum
 2025-05-25 end Niek
 2025-06-01 end Melmac
+2025-06-13 end DOC
 2025-06-15 end Zaandam Zuid
-2025-09-01 merge DTS (S),Harkema > DTS (S) / Harkema > Surhuisterveen / Harkema
-2025-09-01 merge Thor (R),Sperwers > Zuid '27 > Rotterdam
-2025-09-01 xalias Sperwers > Zuid '27
-2025-09-01 xack Zuid '27
-2025-09-01 xack DTS (S) / Harkema
+2025-09-06 merge DTS (S),Harkema > DTS (S) / Harkema > Surhuisterveen / Harkema
+2025-09-06 merge Thor (R),Sperwers > Zuid '27 > Rotterdam
+2026-09-01 merge SIOS / Leonidas,De Hoeve,SCO,Forward > WKS > Wolvega/Noordwolde/Oldeberkoop/Oldeholtpade
+2026-09-01 merge Noviomagum,Keizer Karel > Nijmegen > Nijmegen
+2026-09-01 merge Duko,Wesstar > Duko / Wesstar > Duiven
+2026-09-01 replace Emmeloord > In Fundo

@@ -47,11 +47,11 @@ describe('PoulePredicter', () => {
     const sevenTeams = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
     const fourTeams = ['A', 'B', 'C', 'D']
 
-    expect(predicter('veld2526vj', '4-04', sevenTeams).singleRoundRobin).toBe(true)
-    expect(predicter('veld2627nj', '4-04', sevenTeams).singleRoundRobin).toBe(true)
+    expect(predicter('veld2526vj', '4-04', sevenTeams).nMatches).toBe(21)
+    expect(predicter('veld2627nj', '4-04', sevenTeams).nMatches).toBe(21)
     expect(predicter('veld2526vj', '2-07', sevenTeams).singleRoundRobin).toBe(true)
-    expect(predicter('zaal2526', '3D', sevenTeams).singleRoundRobin).toBe(false)
-    expect(predicter('veld2526vj', '4-05', fourTeams).singleRoundRobin).toBe(false)
+    expect(predicter('zaal2526', '3D', sevenTeams).nMatches).toBe(42)
+    expect(predicter('veld2526vj', '4-05', fourTeams).nMatches).toBe(12)
   })
 
   it('does not synthesize missing reverse fixtures when schedule data exists', () => {

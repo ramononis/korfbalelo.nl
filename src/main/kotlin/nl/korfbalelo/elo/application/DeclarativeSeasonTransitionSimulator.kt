@@ -56,6 +56,8 @@ class DeclarativeSeasonTransitionSimulator(
         "tierOrder missing for ${definition.id}"
     }
 
+    fun groups(): List<TransitionGroup> = definition.groups
+
     fun group(groupId: String): TransitionGroup =
         requireNotNull(definition.groups.find { it.id == groupId }) {
             "Group $groupId missing for ${definition.id}"
@@ -79,6 +81,13 @@ class DeclarativeSeasonTransitionSimulator(
         sourceGroupId: String,
         targetTier: String,
     ): Boolean = tierRank(targetTier) > tierRank(sourceGroupId)
+
+    fun automaticChampionApplies(pouleName: String, position: Int): Boolean {
+        val sourceGroupId = definition.groups.single { group ->
+            Regex(group.poulePattern).matchEntire(pouleName) != null
+        }.id
+        return position == 1 && !championshipPlayoffQualification(sourceGroupId, pouleName, position)
+    }
 
     private fun championshipPlayoffQualification(
         sourceGroupId: String,

@@ -1,6 +1,7 @@
 package nl.korfbalelo.elo
 
 import nl.korfbalelo.elo.RankingNew.ranking
+import nl.korfbalelo.elo.RankingNew.aliases
 import nl.korfbalelo.elo.SeasonPredicter.loser
 import nl.korfbalelo.elo.SeasonPredicter.winner
 import nl.korfbalelo.mijnkorfbal.GoalsStats
@@ -30,14 +31,19 @@ data class PouleSnapshot(
 
 class PoulePredicter(
     val pouleName: String,
-    val teamsToPenalty: Map<String, Int>,
+    teamsToPenalty: Map<String, Int>,
     matchesParam: List<Match>,
     val date: LocalDate?
 ) {
-    var oneway = SeasonPredicter.doOutdoor && teamsToPenalty.size == 7
-    val teamNames = teamsToPenalty.keys.toList()
+    // AI generated: published poules can retain a club's pre-merge name.
+    val teamsToPenalty = teamsToPenalty.entries.associate { (teamName, penalty) ->
+        resolveActiveTeamName(teamName) to penalty
+    }
+    var oneway = SeasonPredicter.doOutdoor && this.teamsToPenalty.size == 7
+    val teamNames = this.teamsToPenalty.keys.toList()
     val matches = matchesParam
         .map(::resolveKnownResult)
+        .map(::resolveActiveTeamNames)
         .filter { (it.home in teamNames && it.away in teamNames) || it.special }
 
     val teams = teamNames.map {
@@ -100,6 +106,19 @@ class PoulePredicter(
         }
     }
 
+    private fun resolveActiveTeamName(teamName: String): String = aliases[teamName] ?: teamName
+
+    private fun resolveActiveTeamNames(match: Match): Match {
+        val home = resolveActiveTeamName(match.home)
+        val away = resolveActiveTeamName(match.away)
+        if (home == match.home && away == match.away) {
+            return match
+        }
+        return match.copy(home = home, away = away).also {
+            it.special = match.special
+        }
+    }
+
     init {
         val l = baseMatches.size
         for (i in 0 until l) {
@@ -121,7 +140,7 @@ class PoulePredicter(
             }
         }
         teamNames.forEachIndexed { tI, tS ->
-            startPoints[tI] -= teamsToPenalty.getValue(tS)
+            startPoints[tI] -= this.teamsToPenalty.getValue(tS)
         }
     }
 
@@ -206,7 +225,7 @@ class PoulePredicter(
                 Standing(
                     nl.korfbalelo.mijnkorfbal.Team(t.name),
                     StandingStats(
-                        StandingPenalties(teamsToPenalty.getValue(t.name)),
+                        StandingPenalties(this@PoulePredicter.teamsToPenalty.getValue(t.name)),
                         index + 1,
                         stats.first,
                         GoalsStats(stats.third, stats.third - stats.second),

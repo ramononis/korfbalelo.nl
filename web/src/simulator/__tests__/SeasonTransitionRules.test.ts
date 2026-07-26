@@ -158,6 +158,17 @@ describe('SeasonTransitionRules', () => {
     expect(runnerUpRule?.onlyUnassigned).toBe(true)
   })
 
+  it('keeps veld 2627 4k at 34 teams through its mixed-size promotion rules', () => {
+    const outdoor = getSeasonTransition('veld2627nj').definition
+    const sevenTeamRunnerUpRule = outdoor.rules.find((rule) => rule.id === '4k-2-7team')
+    const fourTeamRunnerUpRule = outdoor.rules.find((rule) => rule.id === '4k-2-best3-4team')
+
+    expect(outdoor.groups.find((group) => group.id === '4k')?.expectedPoules).toBe(7)
+    expect(sevenTeamRunnerUpRule?.allowedPouleSizes).toEqual([7])
+    expect(fourTeamRunnerUpRule?.allowedPouleSizes).toEqual([4])
+    expect(fourTeamRunnerUpRule?.count).toBe(3)
+  })
+
   it('expands direct relegation when a vacancy chain can still save the team', () => {
     expect(teamNeedsExpandedEvaluation('veld2526vj', '3k', '3-05', 4, 4, 'EKCA')).toBe(true)
 

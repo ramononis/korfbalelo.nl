@@ -14,11 +14,10 @@ export default defineStore('poules', {
   }),
   actions: {
     async fetchTierData(name: string): Promise<void> {
-      if (!this.tiers.has(name)) {
-        await axios.get(`/${name}.json`).then((response) => {
-          this.tiers.set(name, response.data);
-        });
-      }
+      // AI generated: generated season data can change while the frontend stays open.
+      await axios.get(`/${name}.json`).then((response) => {
+        this.tiers.set(name, response.data);
+      });
     },
   },
 });

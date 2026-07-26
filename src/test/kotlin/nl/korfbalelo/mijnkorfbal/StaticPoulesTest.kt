@@ -29,12 +29,15 @@ class StaticPoulesTest {
 
         val allTeams = poules.values.flatMap { it.first.keys }
         assertEquals(allTeams.size, allTeams.toSet().size)
-        assertTrue("Noviomagum" in poules.getValue("1D").first)
-        assertTrue("SCO" in poules.getValue("OKA").first)
+        assertTrue("Nijmegen" in poules.getValue("1D").first)
+        assertTrue("WKS" in poules.getValue("OKA").first)
         assertTrue("'t Capproen" in poules.getValue("3I").first)
-        assertTrue("Duko" in poules.getValue("2D").first)
+        assertTrue("Duko / Wesstar" in poules.getValue("2D").first)
+        assertTrue("In Fundo" in allTeams)
+        assertFalse("Emmeloord" in allTeams)
         assertFalse("Keizer Karel" in allTeams)
-        assertFalse("WKS" in allTeams)
+        assertFalse("Noviomagum" in allTeams)
+        assertFalse("SCO" in allTeams)
     }
 
     @Test
@@ -46,7 +49,7 @@ class StaticPoulesTest {
             poules.getValue("KL").first.keys.toList(),
         )
         assertEquals(
-            listOf("Noviomagum", "Woudenberg", "Rust Roest (E)", "Victum", "Tiel '72", "Animo (G)", "Viking", "SDO (V)"),
+            listOf("Nijmegen", "Woudenberg", "Rust Roest (E)", "Victum", "Tiel '72", "Animo (G)", "Viking", "SDO (V)"),
             poules.getValue("1D").first.keys.toList(),
         )
     }

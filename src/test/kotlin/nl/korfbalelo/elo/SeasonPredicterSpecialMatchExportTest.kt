@@ -76,12 +76,12 @@ class SeasonPredicterSpecialMatchExportTest {
 
     @Test
     fun `outdoor post-season fixtures are shown in matching base poules`() {
-        val specialDate = LocalDate.of(2026, 6, 13)
+        val specialDate = LocalDate.of(2026, 9, 12)
         SeasonPredicter.doOutdoor = true
 
         val pouleType = object : TypeToken<Map<String, Map<String, List<String>>>>() {}.type
         val poulesByTier = Gson().fromJson<Map<String, Map<String, List<String>>>>(
-            File("web/public/veld2526vj.json").reader(),
+            File("web/public/veld2627nj.json").reader(),
             pouleType,
         )
         poulesByTier.values
@@ -103,7 +103,7 @@ class SeasonPredicterSpecialMatchExportTest {
                 )
             }
 
-        val specialMatch = Match("KZ", "LDODK", -1, -1, specialDate).also {
+        val specialMatch = Match("LDODK", "TOP (S)", -1, -1, specialDate).also {
             it.special = true
         }
         Scraper.outdoorPoules["EK play-off"] = emptyMap<String, Int>() to listOf(specialMatch)
