@@ -33,7 +33,7 @@ dependencies {
     implementation("com.github.kittinunf.fuel:fuel-gson:2.3.1")
     implementation("com.google.code.gson:gson:2.14.0")
 
-    testImplementation("org.junit.jupiter:junit-jupiter:6.1.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:6.1.3")
     testImplementation(kotlin("test"))
 
 }
