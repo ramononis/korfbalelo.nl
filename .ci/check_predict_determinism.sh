@@ -18,9 +18,9 @@ COMMON_PROPS=(
 )
 
 # AI generated: the active 2026/2027 poules use club names created by the
-# 2026-09-01 merge events, so the automatic CI run must start after those events.
+# 2026-08-28 merge events, so the automatic CI run must start after those events.
 LATEST_MATCH_DATE=$(awk -F, '/^[0-9]{4}-[0-9]{2}-[0-9]{2}/ {print $1}' matches/*.txt matches/*.csv | sort | tail -n 1)
-AUTOMATIC_PREDICT_DATE=$(printf '%s\n' "$LATEST_MATCH_DATE" "2026-09-02" | sort | tail -n 1)
+AUTOMATIC_PREDICT_DATE=$(printf '%s\n' "$LATEST_MATCH_DATE" "2026-08-29" | sort | tail -n 1)
 PREDICT_DATE=${ELO_PREDICT_DATE:-$AUTOMATIC_PREDICT_DATE}
 if [[ -z "$PREDICT_DATE" ]]; then
   echo "Unable to determine predict date from matches/, set ELO_PREDICT_DATE explicitly." >&2

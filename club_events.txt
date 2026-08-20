@@ -3168,7 +3168,7 @@
 2025-06-15 end Zaandam Zuid
 2025-09-06 merge DTS (S),Harkema > DTS (S) / Harkema > Surhuisterveen / Harkema
 2025-09-06 merge Thor (R),Sperwers > Zuid '27 > Rotterdam
-2026-09-01 merge SIOS / Leonidas,De Hoeve,SCO,Forward > WKS > Wolvega/Noordwolde/Oldeberkoop/Oldeholtpade
-2026-09-01 merge Noviomagum,Keizer Karel > Nijmegen > Nijmegen
-2026-09-01 merge Duko,Wesstar > Duko / Wesstar > Duiven
-2026-09-01 replace Emmeloord > In Fundo
+2026-08-28 merge SIOS / Leonidas,De Hoeve,SCO,Forward > WKS > Wolvega/Noordwolde/Oldeberkoop/Oldeholtpade
+2026-08-28 merge Noviomagum,Keizer Karel > Nijmegen > Nijmegen
+2026-08-28 merge Duko,Wesstar > Duko / Wesstar > Duiven
+2026-08-28 replace Emmeloord > In Fundo
