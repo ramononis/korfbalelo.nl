@@ -39,7 +39,7 @@ java -version
 
 ### Node.js
 
-Root and frontend both pin Node major version `20` via `.nvmrc`.
+Root and frontend both pin Node major version `26` via `.nvmrc`.
 
 ```bash
 nvm use

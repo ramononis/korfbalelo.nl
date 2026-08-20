@@ -12,7 +12,7 @@ Maintain and evolve a Kotlin rating/simulation engine plus a Vue frontend that r
    - `git status --short`
 2. Confirm toolchain assumptions:
    - Java 25 (sdkman-managed in this team)
-   - Node 20 (`.nvmrc` in root and `web/`)
+   - Node 26 (`.nvmrc` in root and `web/`)
 3. Run baseline checks if your change is non-trivial:
    - `./gradlew clean test`
    - `cd web && npm run build`
@@ -105,4 +105,3 @@ For frontend/store/simulator changes:
 - Read the closest Kotlin + TS counterpart before changing rules.
 - Preserve existing Dutch domain terminology in UI/routes/data names.
 - Report exactly which generated outputs changed and why.
-
