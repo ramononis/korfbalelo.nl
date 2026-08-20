@@ -28,7 +28,7 @@
     "@tsconfig/node20": "^20.1.9",
     "@types/dygraphs": "^2.1.11",
     "@types/lodash.debounce": "^4.0.9",
-    "@types/node": "^26.1.2",
+    "@types/node": "^26.2.0",
     "@types/papaparse": "^5.5.2",
     "@vitejs/plugin-vue": "^6.0.8",
     "@vue/eslint-config-prettier": "^10.2.0",
