@@ -31,3 +31,6 @@ updates:
       timezone: Europe/Amsterdam
     cooldown:
       default-days: 7
+    ignore:
+      - dependency-name: "typescript"
+        versions: ["^7"]
