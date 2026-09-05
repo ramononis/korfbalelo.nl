@@ -142,6 +142,7 @@ object RankingNew {
         "DWS" to "DWS (K)",
         "Dalto/Klaverblad Verzekeringen" to "Dalto",
         "DeetosSnel/QLS" to "DeetosSnel",
+        "Die Haghe/Rosario Kozijnen" to "Die Haghe",
         "Drachten/Van der Wiel" to "Drachten",
         "EKCA/CIBOD" to "EKCA",
         "Excelsior" to "Excelsior (D)",
