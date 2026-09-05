@@ -3172,3 +3172,8 @@
 2026-09-04 merge Noviomagum,Keizer Karel > Nijmegen > Nijmegen
 2026-09-04 merge Duko,Wesstar > Duko / Wesstar > Duiven
 2026-09-04 replace Emmeloord > In Fundo
+2026-09-04 ack In Fundo
+2026-09-04 ack WKS
+2026-09-04 ack Nijmegen
+2026-09-04 ack Duko / Wesstar
+
