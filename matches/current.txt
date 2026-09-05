@@ -1,4 +1,132 @@
+2026-09-05,'t Capproen,Nexus,14,8
+2026-09-05,ADO,DSO (K),18,18
+2026-09-05,AVO,Noordenveld,12,12
+2026-09-05,AW.DTV,Unitas,15,18
+2026-09-05,Achilles (A) / AKC,SDO (W),23,12
+2026-09-05,Achilles (H),VEO,18,11
+2026-09-05,Ados,Aurora / DKV (IJ),13,13
+2026-09-05,Amsterdam,Hilversum,7,12
+2026-09-05,Apollo,Helios,20,8
+2026-09-05,Atlas,Movado,15,14
 2026-09-05,Attila,Hemur Enge,10,4
+2026-09-05,Badhoevedorp,VZOD,10,10
+2026-09-05,Blauw Wit (K),TOGO (G),14,17
+2026-09-05,Conventus,Scheldevogels,13,10
+2026-09-05,DKB,OJC '98,17,8
+2026-09-05,DKOD,EKCA,7,20
 2026-09-05,DLKV,Diderna,9,10
+2026-09-05,DOS '46,Nic,25,12
+2026-09-05,DOS (W),SKV (S),12,7
+2026-09-05,DOS Kampen,Amicitia (V),12,8
+2026-09-05,DSC,DeetosSnel,19,14
+2026-09-05,DSO (A),Stormvogels (U),15,10
+2026-09-05,DTS (E),Kleine Sluis,18,2
+2026-09-05,DTS (S) / Harkema,MN en W,7,12
+2026-09-05,DVO,Nieuwerkerk,21,11
+2026-09-05,DVS '69,ACKC,9,10
+2026-09-05,DWA / Argo,Stadskanaal '74,16,18
+2026-09-05,De Corvers,RDZ,8,10
+2026-09-05,De Granaet,De Parabool,6,21
+2026-09-05,De Meeuwen,OVVO,14,17
+2026-09-05,De Wâlden,DTL,16,10
+2026-09-05,Die Haghe,Dalto,6,19
+2026-09-05,Drachten,CSL,16,15
+2026-09-05,EKC 2000,Vitesse (Be),13,17
+2026-09-05,EKVA,DKV Victoria,12,15
+2026-09-05,ESDO,GKV,13,13
+2026-09-05,Elburg,Sparta (Zw),15,12
+2026-09-05,Fiducia,BEP,8,12
+2026-09-05,Fiks,De Vinken,25,13
+2026-09-05,Flamingo's (B),KVW '22,15,12
+2026-09-05,Fluks (N),Atlantis,18,11
+2026-09-05,Fortuna (D),KCC,27,12
+2026-09-05,Gemini,Oosterkwartier (H),16,6
+2026-09-05,Groen Geel,Blauw Wit,16,13
+2026-09-05,HHV,Pallas '08,27,13
+2026-09-05,HKC (U),Devinco,7,9
+2026-09-05,HKV / Ons Eibernest,Refleks,22,15
+2026-09-05,Harich,ASVD,18,20
+2026-09-05,Hebbes,Koveni,12,8
+2026-09-05,Heerenveen,LDODK,12,29
+2026-09-05,Hellas '63,Exakwa,11,17
+2026-09-05,Hoogkerk,Quick '21 / Vlug en Vaardig (G),12,8
+2026-09-05,In Fundo,Joure,15,19
+2026-09-05,It Fean,De Pein,7,12
+2026-09-05,Juliana,ONDO (M),12,16
+2026-09-05,Juventa,DOS-WK,14,12
+2026-09-05,KCR,Albatros,20,17
+2026-09-05,KIOS (R),Apeldoorn,16,22
+2026-09-05,KOAG,Tjoba,21,8
+2026-09-05,KVS,TOP (S),10,21
+2026-09-05,KVZ '23,KZ,12,23
+2026-09-05,Kinderdijk,GKV (G),15,20
+2026-09-05,Korbatjo,KVK,18,10
+2026-09-05,Korbis,IJsselvogels,19,10
+2026-09-05,Leeuwarden,DTG,9,10
+2026-09-05,Lemmer,Westergo,6,8
+2026-09-05,Luctor,Keep Fit '70,9,11
+2026-09-05,MIA,Sparta (N),13,14
+2026-09-05,Maassluis,Excelsior (D),23,18
+2026-09-05,Madjoe,Dijkvogels,18,16
+2026-09-05,Mariarade,Maastricht,3,20
+2026-09-05,NIO,WION,20,10
+2026-09-05,NRC '22,KVZ,11,16
+2026-09-05,Nijmegen,Reehorst '45,18,23
+2026-09-05,ODIK,Nova,9,14
+2026-09-05,ODO (M),Dunas,12,13
+2026-09-05,OEC,NKV,11,15
+2026-09-05,OKO,Wit Blauw,18,22
+2026-09-05,OKV,Furore,12,13
+2026-09-05,Olympia (T),Lintjo,11,11
+2026-09-05,Oost Arnhem,Antilopen,18,12
+2026-09-05,Oranje Wit (D),Tilburg,16,11
+2026-09-05,PKC,HKC (Ha),22,16
+2026-09-05,Phoenix (Z),Fortissimo,12,4
+2026-09-05,RODA (W),KZ Danaiden,13,14
+2026-09-05,RWA,DES (De),15,17
+2026-09-05,Rapid (H),Luno,12,9
+2026-09-05,Ready '60,VIKO,8,14
+2026-09-05,Reeuwijk,ALO,7,8
+2026-09-05,Regio '72,Huizen,15,10
+2026-09-05,Revival,Kesteren,18,9
+2026-09-05,Rheko,Zwaluwen (Ze),14,10
+2026-09-05,Ritola,NKC '51,8,14
+2026-09-05,Rivalen,Arena,14,9
+2026-09-05,Rood Wit (W),Zwart Wit,21,8
+2026-09-05,Rust Roest (E),Duko / Wesstar,15,8
+2026-09-05,SDO (K),Sporting Trigon,14,19
 2026-09-05,SDO (S),Oranje Zwart,16,12
+2026-09-05,SKF,Dindoa,14,15
+2026-09-05,Samen Een,Korvesta,11,10
+2026-09-05,Seolto,Springfield,13,6
 2026-09-05,SkunK,PSV,13,11
+2026-09-05,Sparta (Ze),Elko,22,22
+2026-09-05,Sporting Delta,TOP (A),14,9
+2026-09-05,Sporting West,HBC (Be),10,12
+2026-09-05,Swift (M),Fortis,16,13
+2026-09-05,Swift,KIOS (N),9,11
+2026-09-05,Synergo,DOT (O),16,16
+2026-09-05,TOP (V),Centrum,6,6
+2026-09-05,Tempo,KVA,8,18
+2026-09-05,Thrianta,HKC (He),21,13
+2026-09-05,Tiel '72,Viking,15,13
+2026-09-05,Trekvogels (R),Vitesse (Ba),15,16
+2026-09-05,Triade,Oranje Zwart (M),12,8
+2026-09-05,Tweemaal Zes,Animo (G),15,16
+2026-09-05,Twist,Erasmus,11,8
+2026-09-05,VDDO,ROG,18,14
+2026-09-05,Valto,ONDO (G),12,13
+2026-09-05,Ventura Sport,Good Luck,10,13
+2026-09-05,Victum,Telstar,11,12
+2026-09-05,Vriendenschaar (B),OZC,14,12
+2026-09-05,Vriendenschaar (H),De Meervogels,13,11
+2026-09-05,WIK '34,WK,10,11
+2026-09-05,WSS,Oerterp,17,14
+2026-09-05,WWC,Spannum,13,12
+2026-09-05,Weidevogels,Velocitas (L),15,12
+2026-09-05,Wez Handich,IFC '25,15,13
+2026-09-05,Wolderwijd,DWS (K),7,15
+2026-09-05,Woudenberg,SDO (V),15,14
+2026-09-05,ZKC '19,Kinea / Udiros,14,18
+2026-09-05,Zaamslag,Focus,29,14
+2026-09-05,Zuid '27,Merwede,20,19
