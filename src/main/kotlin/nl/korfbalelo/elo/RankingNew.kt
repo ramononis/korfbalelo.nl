@@ -160,6 +160,7 @@ object RankingNew {
         "It Fean/Boelenslaan" to "It Fean",
         "KCC/CK Kozijnen" to "KCC",
         "KVS/Groeneveld Keukens" to "KVS",
+        "KVS/Remondis" to "KVS",
         "KZ Danaïden" to "KZ Danaiden",
         "KZ/Keukensale.com" to "KZ",
         "Kinea/Udiros" to "Kinea / Udiros",
