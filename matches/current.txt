@@ -45,6 +45,7 @@
 2026-09-05,HHV,Pallas '08,27,13
 2026-09-05,HKC (U),Devinco,7,9
 2026-09-05,HKV / Ons Eibernest,Refleks,22,15
+2026-09-05,Haarlem,Rohda (A),16,14
 2026-09-05,Harich,ASVD,18,20
 2026-09-05,Hebbes,Koveni,12,8
 2026-09-05,Heerenveen,LDODK,12,29
@@ -81,6 +82,7 @@
 2026-09-05,Oost Arnhem,Antilopen,18,12
 2026-09-05,Oranje Wit (D),Tilburg,16,11
 2026-09-05,PKC,HKC (Ha),22,16
+2026-09-05,Pernix,Avanti (P),15,23
 2026-09-05,Phoenix (Z),Fortissimo,12,4
 2026-09-05,RODA (W),KZ Danaiden,13,14
 2026-09-05,RWA,DES (De),15,17
