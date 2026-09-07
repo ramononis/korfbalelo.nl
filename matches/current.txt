@@ -125,6 +125,7 @@
 2026-09-05,WIK '34,WK,10,11
 2026-09-05,WSS,Oerterp,17,14
 2026-09-05,WWC,Spannum,13,12
+2026-09-05,Wageningen,Spirit (Vo),20,25
 2026-09-05,Weidevogels,Velocitas (L),15,12
 2026-09-05,Wez Handich,IFC '25,15,13
 2026-09-05,Wolderwijd,DWS (K),7,15
@@ -132,3 +133,5 @@
 2026-09-05,ZKC '19,Kinea / Udiros,14,18
 2026-09-05,Zaamslag,Focus,29,14
 2026-09-05,Zuid '27,Merwede,20,19
+2026-09-06,Mid Fryslân,WKS,20,12
+2026-09-06,Vefo,Koru,12,12
