@@ -135,3 +135,4 @@
 2026-09-05,Zuid '27,Merwede,20,19
 2026-09-06,Mid Fryslân,WKS,20,12
 2026-09-06,Vefo,Koru,12,12
+2026-09-08,LDODK,Mid Fryslân,21,13
