@@ -144,14 +144,14 @@ export default class PoulePredicter {
       for (const [date, mi] of this.order) {
         doMatch(mi, date)
       }
-      const matchesCount = this.nMatches || 1
+      // AI-assisted: return raw standings; cross-poule comparison applies the size factor.
       return rank(Array.from(Array(n).keys()), points, resolvePointsTie)
         .map((it) => [
-          teamsCopy[it]!,
-          [
-            (points[it] ?? 0) * n / matchesCount,
-            (balance[it] ?? 0) * n / matchesCount,
-            (scored[it] ?? 0) * n / matchesCount]
+            teamsCopy[it]!,
+            [
+            points[it] ?? 0,
+            balance[it] ?? 0,
+            scored[it] ?? 0]
           ]
         )
     }

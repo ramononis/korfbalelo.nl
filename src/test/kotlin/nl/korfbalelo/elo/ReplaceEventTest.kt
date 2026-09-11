@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test
 import java.time.LocalDate
 import kotlin.test.assertEquals
 import kotlin.test.assertFalse
-import kotlin.test.assertNull
 import kotlin.test.assertTrue
 
 class ReplaceEventTest {
@@ -21,7 +20,7 @@ class ReplaceEventTest {
     }
 
     @Test
-    fun `replace resets non-rating stats but keeps rating state`() {
+    fun `replace keeps historical and rating state`() {
         val replaceDate = LocalDate.of(2026, 1, 15)
         val oldTeam = Team("Old Team", "City", Team.MAGIC_1500).also {
             it.rating = 1623.0
@@ -52,14 +51,14 @@ class ReplaceEventTest {
         assertEquals(93.0, newTeam.rd)
         assertEquals(0.071, newTeam.rv)
 
-        assertEquals(0, newTeam.games)
-        assertEquals(5.0, newTeam.averageScore)
-        assertEquals(0.0, newTeam.currentDiff)
-        assertEquals(1, newTeam.origins)
-        assertEquals(0.0, newTeam.startOffset)
-        assertTrue(newTeam.opponents.isEmpty())
-        assertNull(newTeam.lastDate)
-        assertEquals(replaceDate, newTeam.created)
+        assertEquals(27, newTeam.games)
+        assertEquals(17.8, newTeam.averageScore)
+        assertEquals(42.0, newTeam.currentDiff)
+        assertEquals(6, newTeam.origins)
+        assertEquals(123.0, newTeam.startOffset)
+        assertEquals(4 to 9.0, newTeam.opponents["Some Rival"])
+        assertEquals(replaceDate, newTeam.lastDate)
+        assertEquals(LocalDate.of(2020, 1, 1), newTeam.created)
 
         val discontinued = DiscontinuedTeams.all()
         assertEquals(1, discontinued.size)
@@ -96,7 +95,7 @@ class ReplaceEventTest {
     }
 
     @Test
-    fun `merge to new name resets stats and does not rename old team object`() {
+    fun `merge to new name keeps useful stats and does not rename old team object`() {
         val mergeDate = LocalDate.of(2026, 3, 10)
         val oldTeam = Team("Old Team", "City", Team.MAGIC_1500).also {
             it.rating = 1540.0
@@ -119,10 +118,10 @@ class ReplaceEventTest {
 
         val newTeam = RankingNew.ranking.getValue("New Team")
         assertEquals("Old Team", oldTeam.name)
-        assertEquals(0, newTeam.games)
-        assertEquals(5.0, newTeam.averageScore)
-        assertEquals(1, newTeam.origins)
-        assertNull(newTeam.lastDate)
+        assertEquals(88, newTeam.games)
+        assertEquals(14.2, newTeam.averageScore)
+        assertEquals(4, newTeam.origins)
+        assertEquals(mergeDate, newTeam.lastDate)
     }
 
     @Test

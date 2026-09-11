@@ -8,7 +8,7 @@ import { fetchMetaData, metaData } from '@/simulator/SeasonSimulator'
 import useMatchesStore from '@/stores/matches'
 import type { MatchFixture } from '@/types'
 
-const CURRENT_SEASON_START = '2025-08-01'
+const CURRENT_SEASON_START = '2026-08-01'
 const TOP_LIST_SIZE = 10
 
 type StatRow = {

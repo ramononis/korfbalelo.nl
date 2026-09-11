@@ -42,6 +42,7 @@ const goToNextDate = () => {
 }
 
 let timeoutId: number | undefined = undefined
+let dataLoadId = 0
 
 const goToFirstDate = () => {
   if (dates.value.length > 0) {
@@ -64,6 +65,11 @@ const inTransition = ref(false)
 const activeTab = ref<'uitslagen' | 'programma'>('uitslagen')
 const currentDate = ref<string>('')
 watch(currentDate, () => {
+  if (!currentDate.value) {
+    inTransition.value = false
+    setProbabilities()
+    return
+  }
   inTransition.value = true
   timeoutId = window.setTimeout(() => {
     setProbabilities()
@@ -118,13 +124,28 @@ function withdrawalReason(teamName: string) {
   return getWithdrawalReason(props.season, teamName)
 }
 
-const fetchData = async () => {
+function clearPouleData() {
+  clearTimeout(timeoutId)
+  timeoutId = undefined
+  inTransition.value = false
+  pouleDataByDate.value = new Map()
+  propabilitiesByDate.value = new Map()
+  propabilities.value = new Map()
+  visibleProbabilities.value = []
+  currentDate.value = ''
+}
+
+function fetchData() {
+  // AI-assisted: Vue Router reuses this component when either route parameter changes.
+  const currentLoadId = ++dataLoadId
+  clearPouleData()
   Papa.parse(`/csv/${props.season}/${props.name}.csv`, {
     download: true,
     delimiter: '\t',
     skipEmptyLines: true,
     dynamicTyping: true,
     complete: (results) => {
+      if (currentLoadId !== dataLoadId) return
       const data = results.data as string[][]
       if (!data.length) {
         return
@@ -188,11 +209,14 @@ onMounted(() => {
   poulesStore.fetchTierData(props.season)
 })
 
-watch(() => props.season, () => {
+watch([() => props.season, () => props.name], () => {
   syncSelectedSeason()
+  fetchData()
+  poulesStore.fetchTierData(props.season)
 })
 
 onUnmounted(() => {
+  dataLoadId++
   clearTimeout(timeoutId)
 })
 </script>

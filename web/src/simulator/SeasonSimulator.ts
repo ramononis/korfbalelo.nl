@@ -150,7 +150,9 @@ export async function constructCalc(params: SimulatorParams): Promise<() => Simu
           t1.sampleRating(d)
           t2.sampleRating(d)
           const hPower = neutral ? 0.0 : 1.0
-          const e1 = 1.0 / (1.0 + Math.pow(10.0, t2.rating - t1.rating - metaData.H * hPower) / 400.0)
+          // AI-assisted: keep the browser Elo probability formula aligned with the backend.
+          const ratingDifference = (t2.rating - t1.rating - metaData.H * hPower) / 400.0
+          const e1 = 1.0 / (1.0 + Math.pow(10.0, ratingDifference))
           return (Math.random() < e1) ? [t1, t2] : [t2, t1]
         }
 
@@ -161,7 +163,8 @@ export async function constructCalc(params: SimulatorParams): Promise<() => Simu
           }
           const [w1, l1] = match(t1, t2, d1)
           const [w2] = match(t2, t1, d2)
-          return w1 === w2 ? [w1, l1] : match(t1, t2, d3, true)
+          // AI-assisted: the backend treats every scheduled series match as a home game.
+          return w1 === w2 ? [w1, l1] : match(t1, t2, d3)
         }
 
         function doOthers() {

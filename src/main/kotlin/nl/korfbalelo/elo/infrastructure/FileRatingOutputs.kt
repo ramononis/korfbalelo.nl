@@ -197,7 +197,7 @@ class FileRatingOutputs(
     // AI-assisted: exports compact global records for the frontend newsticker.
     fun writeGlobalStatsTicker(
         events: Set<RankingEvent>,
-        currentSeasonStart: LocalDate = LocalDate.of(2025, 8, 1),
+        currentSeasonStart: LocalDate = LocalDate.of(2026, 8, 1),
     ) {
         val matches = events
             .filterIsInstance<Match>()

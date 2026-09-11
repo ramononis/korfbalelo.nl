@@ -8,7 +8,7 @@ import java.time.temporal.TemporalAdjusters
 object AccuracyTracker {
     val splitDate = LocalDate.of(1946,9,1)
 //        val splitDate = LocalDate.of(2025, 8, 1)
-    val trackStartDate = LocalDate.of(2025, 8, 1)
+    val trackStartDate = LocalDate.of(2026, 8, 1)
 //    val trackStartDate = LocalDate.of(2024, 8, 1)
 
     var ignoreMatchesBelow = LocalDate.of(1900, 1, 1)

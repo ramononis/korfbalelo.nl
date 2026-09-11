@@ -24,6 +24,9 @@ const props = withDefaults(defineProps<{
 })
 
 const showDateColumn = computed(() => props.showDatePerMatch && !props.groupByDate)
+const columnCount = computed(() =>
+  7 + (props.withResults ? 3 : 0) + (showDateColumn.value ? 1 : 0),
+)
 
 const groupedMatchesByDate = computed(() => {
   if (!props.matches) return [];
@@ -72,9 +75,11 @@ const groupedMatchesByDate = computed(() => {
     <tbody>
     <template v-if="groupByDate">
       <template v-for="[date, matches] in groupedMatchesByDate" :key="date">
-        <td>{{ date }}
-        </td>
-        <MatchRow v-for="(match, mIndex) in matches" :key="mIndex"
+        <!-- AI-assisted: grouped dates need a valid table row and a full-width header. -->
+        <tr>
+          <th :colspan="columnCount" scope="rowgroup">{{ date }}</th>
+        </tr>
+        <MatchRow v-for="(match, mIndex) in matches" :key="`${date}-${mIndex}`"
                   :match="match"
                   :with-result="withResults"
                   :with-simulation="withSimulation"

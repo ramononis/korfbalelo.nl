@@ -170,16 +170,37 @@ data class MergeEvent(
             it.rd = rd
             it.rv = oldTeams.map { it.rv }.average()
             if (!keepStats) {
-                it.games = 0
-                it.averageScore = 5.0
-                it.currentDiff = 0.0
-                it.origins = 1
-                it.startOffset = 0.0
-                it.created = date
-                it.lastDate = null
-                it.firstMatchDate = null
-                it.lastMatchDate = null
+                // AI-assisted: renames/fusions must not inherit only a rating while losing useful team state.
+                val totalGames = oldTeams.sumOf { team -> team.games }
+                val validAverageScores = oldTeams.filter { team -> team.averageScore.isFinite() }
+                it.games = totalGames
+                it.averageScore = when {
+                    totalGames > 0 -> oldTeams.sumOf { team -> team.averageScore * team.games } / totalGames
+                    validAverageScores.isNotEmpty() -> validAverageScores.map(Team::averageScore).average()
+                    else -> it.averageScore
+                }
+                it.currentDiff = if (totalGames > 0) {
+                    oldTeams.sumOf { team -> team.currentDiff * team.games } / totalGames
+                } else {
+                    oldTeams.map(Team::currentDiff).average()
+                }
+                it.origins = oldTeams.sumOf(Team::origins).coerceAtLeast(1)
+                it.startOffset = oldTeams.singleOrNull()?.startOffset ?: 0.0
+                it.created = oldTeams.mapNotNull(Team::created).minOrNull() ?: date
+                it.lastDate = date
+                it.firstMatchDate = oldTeams.mapNotNull(Team::firstMatchDate).minOrNull()
+                it.lastMatchDate = oldTeams.mapNotNull(Team::lastMatchDate).maxOrNull()
+                it.topRating = (oldTeams.mapNotNull { team -> team.topRating.takeUnless(Double::isNaN) } + rating).maxOrNull()
+                    ?: rating
                 it.opponents.clear()
+                oldTeams.forEach { team ->
+                    team.opponents.forEach { (opponent, stats) ->
+                        val existing = it.opponents[opponent]
+                        if (existing == null || stats.first > existing.first) {
+                            it.opponents[opponent] = stats
+                        }
+                    }
+                }
                 it.graphSeriesLabel = if (RankingNew.graph.hasTeam(it.fullName)) {
                     "${it.fullName} [r:$date]"
                 } else {
