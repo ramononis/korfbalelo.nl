@@ -209,9 +209,11 @@
 2026-09-12,Lintjo,WWC,18,9
 2026-09-12,Luno,Phoenix (Z),8,16
 2026-09-12,Merwede,DVS '69,14,12
+2026-09-12,Movado,Juliana,18,14
 2026-09-12,NKC '51,OKO,19,17
 2026-09-12,Nieuwerkerk,DSC,16,20
 2026-09-12,Noordenveld,Drachten,22,20
+2026-09-12,Nova,MIA,16,15
 2026-09-12,Noveas,TOP (V),11,11
 2026-09-12,OJC '98,Rust Roest (E),9,11
 2026-09-12,ONDO (G),Fortuna (D),12,31
