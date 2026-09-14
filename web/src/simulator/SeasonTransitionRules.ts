@@ -35,6 +35,7 @@ export interface TransitionRule {
   allowedPouleSizes?: number[]
   onlyUnassigned?: boolean
   tier?: string
+  outcome?: 'promote' | 'same' | 'relegate'
 }
 
 export interface VacancyChainStep {
@@ -372,14 +373,30 @@ export function automaticChampionApplies(
   return position === 1 && !championshipPlayoffQualification(definition, sourceGroupId, pouleName, position)
 }
 
-function treatTransitionAsSameTierOutcome(
+// AI generated: explicit PD outcomes override structural tier ranking.
+function explicitSeasonOutcome(
   definition: SeasonTransitionDefinition,
   sourceGroupId: string,
+  position: number,
+  pouleSize: number,
   targetTier: string,
-): boolean {
-  return definition.id === 'veld2526vj__veld2627nj'
-    && sourceGroupId === 'ekd'
-    && targetTier === 'ek'
+): TransitionRule['outcome'] | null {
+  const matchingRules = definition.rules.filter((rule) =>
+    rule.type === 'direct'
+    && rule.groupId === sourceGroupId
+    && rule.tier === targetTier
+    && rule.outcome != null
+    && ruleMatchesPouleSize(rule, pouleSize)
+    && selectedIndices(rule, pouleSize).includes(position - 1),
+  )
+  const outcomes = [...new Set(matchingRules.map((rule) => rule.outcome).filter((outcome) => outcome != null))]
+  if (outcomes.length > 1) {
+    throw new Error(
+      `Conflicting explicit season outcomes for ${sourceGroupId} position ${position} -> ${targetTier}: `
+      + matchingRules.map((rule) => rule.id).join(', '),
+    )
+  }
+  return outcomes[0] ?? null
 }
 
 export function seasonOutcomePromotionApplies(
@@ -387,6 +404,7 @@ export function seasonOutcomePromotionApplies(
   sourceGroupId: string,
   pouleName: string,
   position: number,
+  pouleSize: number,
   targetTier: string | null,
 ): boolean {
   if (championshipPlayoffQualification(definition, sourceGroupId, pouleName, position)) {
@@ -395,18 +413,28 @@ export function seasonOutcomePromotionApplies(
   if (!targetTier) {
     return false
   }
+  const explicitOutcome = explicitSeasonOutcome(definition, sourceGroupId, position, pouleSize, targetTier)
+  if (explicitOutcome) {
+    return explicitOutcome === 'promote'
+  }
   const sourceRank = tierRank(definition, sourceGroupId)
   const targetRank = tierRank(definition, targetTier)
-  return targetRank < sourceRank && !treatTransitionAsSameTierOutcome(definition, sourceGroupId, targetTier)
+  return targetRank < sourceRank
 }
 
 export function seasonOutcomeRelegationApplies(
   definition: SeasonTransitionDefinition,
   sourceGroupId: string,
+  position: number,
+  pouleSize: number,
   targetTier: string | null,
 ): boolean {
   if (!targetTier) {
     return false
+  }
+  const explicitOutcome = explicitSeasonOutcome(definition, sourceGroupId, position, pouleSize, targetTier)
+  if (explicitOutcome) {
+    return explicitOutcome === 'relegate'
   }
   return tierRank(definition, targetTier) > tierRank(definition, sourceGroupId)
 }

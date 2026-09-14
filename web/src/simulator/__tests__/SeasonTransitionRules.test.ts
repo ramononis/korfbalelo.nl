@@ -91,11 +91,24 @@ describe('SeasonTransitionRules', () => {
   it('uses veld-specific season outcome promotion semantics for ereklasse bars', () => {
     const outdoor = getSeasonTransition('veld2526vj').definition
 
-    expect(seasonOutcomePromotionApplies(outdoor, 'ek', 'EK-01', 1, 'ek')).toBe(true)
-    expect(seasonOutcomePromotionApplies(outdoor, 'ek', 'EK-01', 2, 'ek')).toBe(false)
-    expect(seasonOutcomePromotionApplies(outdoor, 'ekd', 'EK-D-01', 1, 'ek')).toBe(false)
-    expect(seasonOutcomePromotionApplies(outdoor, 'ekd', 'EK-D-01', 2, 'ek')).toBe(false)
-    expect(seasonOutcomeRelegationApplies(outdoor, 'ekd', 'hk')).toBe(true)
+    expect(seasonOutcomePromotionApplies(outdoor, 'ek', 'EK-01', 1, 4, 'ek')).toBe(true)
+    expect(seasonOutcomePromotionApplies(outdoor, 'ek', 'EK-01', 2, 4, 'ek')).toBe(false)
+    expect(seasonOutcomePromotionApplies(outdoor, 'ekd', 'EK-D-01', 1, 4, 'ek')).toBe(false)
+    expect(seasonOutcomePromotionApplies(outdoor, 'ekd', 'EK-D-01', 2, 4, 'ek')).toBe(false)
+    expect(seasonOutcomeRelegationApplies(outdoor, 'ekd', 3, 4, 'hk')).toBe(true)
+  })
+
+  it('uses declarative promotion, same-tier and relegation outcomes for the active veld ereklasse', () => {
+    const outdoor = getSeasonTransition('veld2627nj').definition
+
+    expect(seasonOutcomePromotionApplies(outdoor, 'ek', 'EK-01', 1, 4, 'ek')).toBe(true)
+    expect(seasonOutcomeRelegationApplies(outdoor, 'ek', 1, 4, 'ek')).toBe(false)
+    expect(seasonOutcomePromotionApplies(outdoor, 'ek', 'EK-01', 2, 4, 'ek')).toBe(true)
+    expect(seasonOutcomeRelegationApplies(outdoor, 'ek', 2, 4, 'ek')).toBe(false)
+    expect(seasonOutcomePromotionApplies(outdoor, 'ek', 'EK-01', 3, 4, 'ekd')).toBe(false)
+    expect(seasonOutcomeRelegationApplies(outdoor, 'ek', 3, 4, 'ekd')).toBe(false)
+    expect(seasonOutcomePromotionApplies(outdoor, 'ek', 'EK-01', 4, 4, 'hk')).toBe(false)
+    expect(seasonOutcomeRelegationApplies(outdoor, 'ek', 4, 4, 'hk')).toBe(true)
   })
 
   it('treats a 7-team veld 2k poule as top-two up and last down', () => {

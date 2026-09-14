@@ -16,9 +16,9 @@
     { "id": "4k", "poulePattern": "^4-.*$", "expectedPoules": 7 }
   ],
   "rules": [
-    { "id": "ek-1-2", "type": "direct", "groupId": "ek", "positions": [1, 2], "tier": "ek" },
-    { "id": "ek-3", "type": "direct", "groupId": "ek", "positions": [3], "tier": "ekd" },
-    { "id": "ek-4", "type": "direct", "groupId": "ek", "positions": [4], "tier": "hk" },
+    { "id": "ek-1-2", "type": "direct", "groupId": "ek", "positions": [1, 2], "tier": "ek", "outcome": "promote" },
+    { "id": "ek-3", "type": "direct", "groupId": "ek", "positions": [3], "tier": "ekd", "outcome": "same" },
+    { "id": "ek-4", "type": "direct", "groupId": "ek", "positions": [4], "tier": "hk", "outcome": "relegate" },
 
     { "id": "hk-1", "type": "direct", "groupId": "hk", "positions": [1], "tier": "ekd" },
     { "id": "hk-2-3", "type": "direct", "groupId": "hk", "positions": [2, 3], "tier": "hk" },

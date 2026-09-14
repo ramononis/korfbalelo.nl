@@ -71,8 +71,8 @@ export function evaluateTransitionOutcome(
     const targetTier = resolveDirectTargetTier(definition.rules, sourceGroup, ownStanding.length, ownPositionOneBased)
     return {
       champion,
-      promote: seasonOutcomePromotionApplies(definition, sourceGroup, pouleName, ownPositionOneBased, targetTier),
-      relegate: seasonOutcomeRelegationApplies(definition, sourceGroup, targetTier),
+      promote: seasonOutcomePromotionApplies(definition, sourceGroup, pouleName, ownPositionOneBased, ownStanding.length, targetTier),
+      relegate: seasonOutcomeRelegationApplies(definition, sourceGroup, ownPositionOneBased, ownStanding.length, targetTier),
     }
   }
 
@@ -86,8 +86,8 @@ export function evaluateTransitionOutcome(
   const targetTier = result.tierByTeam.get(teamName) ?? sourceGroup
   return {
     champion: champion || (result.eventsByTeam.get(teamName)?.has('champion') ?? false),
-    promote: seasonOutcomePromotionApplies(definition, sourceGroup, pouleName, ownPositionOneBased, targetTier),
-    relegate: seasonOutcomeRelegationApplies(definition, sourceGroup, targetTier),
+    promote: seasonOutcomePromotionApplies(definition, sourceGroup, pouleName, ownPositionOneBased, ownStanding.length, targetTier),
+    relegate: seasonOutcomeRelegationApplies(definition, sourceGroup, ownPositionOneBased, ownStanding.length, targetTier),
   }
 }
 

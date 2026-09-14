@@ -22,7 +22,7 @@
   "rules": [
     { "id": "ek-1-4", "type": "direct", "groupId": "ek", "positions": [1, 2, 3, 4], "tier": "ek" },
 
-    { "id": "ekd-1-2", "type": "direct", "groupId": "ekd", "positions": [1, 2], "tier": "ek" },
+    { "id": "ekd-1-2", "type": "direct", "groupId": "ekd", "positions": [1, 2], "tier": "ek", "outcome": "same" },
     { "id": "ekd-3-4", "type": "direct", "groupId": "ekd", "positions": [3, 4], "tier": "hk" },
 
     { "id": "hk-1", "type": "direct", "groupId": "hk", "positions": [1], "tier": "ek" },

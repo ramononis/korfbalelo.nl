@@ -67,20 +67,37 @@ class DeclarativeSeasonTransitionSimulator(
         sourceGroupId: String,
         pouleName: String,
         position: Int,
+        pouleSize: Int,
         targetTier: String,
     ): Boolean {
         if (championshipPlayoffQualification(sourceGroupId, pouleName, position)) {
             return true
         }
+        when (explicitSeasonOutcome(sourceGroupId, position, pouleSize, targetTier)) {
+            "promote" -> return true
+            "same", "relegate" -> return false
+            null -> Unit
+            else -> error("Unsupported season outcome for $sourceGroupId -> $targetTier")
+        }
         val sourceRank = tierRank(sourceGroupId)
         val targetRank = tierRank(targetTier)
-        return targetRank < sourceRank && !treatTransitionAsSameTierOutcome(sourceGroupId, targetTier)
+        return targetRank < sourceRank
     }
 
     fun seasonOutcomeRelegate(
         sourceGroupId: String,
+        position: Int,
+        pouleSize: Int,
         targetTier: String,
-    ): Boolean = tierRank(targetTier) > tierRank(sourceGroupId)
+    ): Boolean {
+        when (explicitSeasonOutcome(sourceGroupId, position, pouleSize, targetTier)) {
+            "promote", "same" -> return false
+            "relegate" -> return true
+            null -> Unit
+            else -> error("Unsupported season outcome for $sourceGroupId -> $targetTier")
+        }
+        return tierRank(targetTier) > tierRank(sourceGroupId)
+    }
 
     fun automaticChampionApplies(pouleName: String, position: Int): Boolean {
         val sourceGroupId = definition.groups.single { group ->
@@ -124,13 +141,28 @@ class DeclarativeSeasonTransitionSimulator(
         }
     }
 
-    private fun treatTransitionAsSameTierOutcome(
+    // AI generated: explicit PD outcomes override structural tier ranking.
+    private fun explicitSeasonOutcome(
         sourceGroupId: String,
+        position: Int,
+        pouleSize: Int,
         targetTier: String,
-    ): Boolean =
-        definition.id == "veld2526vj__veld2627nj" &&
-            sourceGroupId == "ekd" &&
-            targetTier == "ek"
+    ): String? {
+        val matchingRules = definition.rules.filter { rule ->
+            rule.type == "direct" &&
+                rule.groupId == sourceGroupId &&
+                rule.tier == targetTier &&
+                rule.outcome != null &&
+                (rule.allowedPouleSizes == null || pouleSize in rule.allowedPouleSizes) &&
+                selectedIndices(rule, pouleSize).contains(position - 1)
+        }
+        val outcomes = matchingRules.mapNotNull { it.outcome }.distinct()
+        check(outcomes.size <= 1) {
+            "Conflicting explicit season outcomes for $sourceGroupId position $position -> $targetTier: " +
+                matchingRules.map { it.id }
+        }
+        return outcomes.singleOrNull()
+    }
 
     private fun simulateResolvedPredicters(
         predicters: Map<String, PoulePredicter>,
@@ -597,6 +629,7 @@ data class TransitionRule(
     val allowedPouleSizes: List<Int>? = null,
     val onlyUnassigned: Boolean = false,
     val tier: String? = null,
+    val outcome: String? = null,
 )
 
 data class VacancyChainDefinition(

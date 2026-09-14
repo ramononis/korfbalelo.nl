@@ -286,7 +286,7 @@ object SeasonPredicter {
         val sourceTierByTeam = simulator.sourceTierByTeam(predictersByName)
         val sourceStandingByTeam = predicters.flatMap { predicter ->
             predicter.executor.result.mapIndexed { index, (team) ->
-                team.name to (predicter.pouleName to index + 1)
+                team.name to Triple(predicter.pouleName, index + 1, predicter.executor.result.size)
             }
         }.toMap()
         val teamsByName = predicters.flatMap { it.teams.asIterable() }.associateBy(Team::name)
@@ -294,12 +294,12 @@ object SeasonPredicter {
         transitionResult.tierByTeam.forEach { (teamName, targetTier) ->
             val team = teamsByName.getValue(teamName)
             val sourceTier = sourceTierByTeam.getValue(teamName)
-            val (sourcePouleName, sourcePosition) = sourceStandingByTeam.getValue(teamName)
+            val (sourcePouleName, sourcePosition, sourcePouleSize) = sourceStandingByTeam.getValue(teamName)
             event(team, targetTier)
-            if (simulator.seasonOutcomePromote(sourceTier, sourcePouleName, sourcePosition, targetTier)) {
+            if (simulator.seasonOutcomePromote(sourceTier, sourcePouleName, sourcePosition, sourcePouleSize, targetTier)) {
                 event(team, "promote")
             }
-            if (simulator.seasonOutcomeRelegate(sourceTier, targetTier)) {
+            if (simulator.seasonOutcomeRelegate(sourceTier, sourcePosition, sourcePouleSize, targetTier)) {
                 event(team, "relegate")
             }
         }
