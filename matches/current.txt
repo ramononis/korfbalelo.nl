@@ -263,3 +263,6 @@
 2026-09-12,Wit Blauw,Ritola,17,19
 2026-09-12,Zwaluwen (Ze),Rivalen,13,9
 2026-09-12,Zwart Wit,SDO (S),17,13
+2026-09-13,Blauw Wit,KVZ '23,13,10
+2026-09-13,Koru,Moedig Voorwaarts,16,11
+2026-09-13,Nic,KIOS (R),19,14
