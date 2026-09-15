@@ -266,3 +266,4 @@
 2026-09-13,Blauw Wit,KVZ '23,13,10
 2026-09-13,Koru,Moedig Voorwaarts,16,11
 2026-09-13,Nic,KIOS (R),19,14
+2026-09-14,Olympia (S),Paal Centraal,9,13
