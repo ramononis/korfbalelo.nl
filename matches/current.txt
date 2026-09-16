@@ -267,3 +267,6 @@
 2026-09-13,Koru,Moedig Voorwaarts,16,11
 2026-09-13,Nic,KIOS (R),19,14
 2026-09-14,Olympia (S),Paal Centraal,9,13
+2026-09-15,De Waterpoort,SF Deinum,12,14
+2026-09-15,MN en W,Leeuwarden,11,19
+2026-09-15,Wageningen,Unitas,14,17
