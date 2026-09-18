@@ -270,3 +270,4 @@
 2026-09-15,De Waterpoort,SF Deinum,12,14
 2026-09-15,MN en W,Leeuwarden,11,19
 2026-09-15,Wageningen,Unitas,14,17
+2026-09-17,Spannum,Olympia (T),15,10
