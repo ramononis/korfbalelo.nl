@@ -284,6 +284,7 @@
 2026-09-19,Aurora / DKV (IJ),Helios,10,9
 2026-09-19,Avanti (P),VEO,15,9
 2026-09-19,BEP,Sporting Trigon,18,14
+2026-09-19,Badhoevedorp,ESDO,14,4
 2026-09-19,Blauw Wit (K),Korbatjo,10,18
 2026-09-19,Blauw Zwart,SDO (W),23,9
 2026-09-19,DKV Victoria,Atlantis,20,13
@@ -351,6 +352,7 @@
 2026-09-19,Noveas,Centrum,12,14
 2026-09-19,ODIK,MIA,10,16
 2026-09-19,OKO,Ritola,16,15
+2026-09-19,Olympia '22,TOP (V),11,17
 2026-09-19,Oranje Wit (D),Sporting Delta,10,12
 2026-09-19,Oranje Zwart (M),Good Luck,12,10
 2026-09-19,PKC,Swift (M),29,14
@@ -378,6 +380,7 @@
 2026-09-19,Synergo,Oost Arnhem,13,12
 2026-09-19,TOGO (G),KVK,16,3
 2026-09-19,TOP (S),Dalto,16,15
+2026-09-19,Telstar,Animo (G),11,11
 2026-09-19,Tempo,Fiks,12,14
 2026-09-19,Tilburg,TOP (A),15,13
 2026-09-19,Trekvogels (R),KOAG,7,16
@@ -400,3 +403,4 @@
 2026-09-19,ZKC '19,DOS Kampen,18,15
 2026-09-19,Zaamslag,Luctor,12,11
 2026-09-19,Zwart Wit,Oranje Zwart,9,13
+2026-09-20,Vefo,Moedig Voorwaarts,12,13
