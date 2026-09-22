@@ -356,7 +356,7 @@
 2026-09-19,Oranje Wit (D),Sporting Delta,10,12
 2026-09-19,Oranje Zwart (M),Good Luck,12,10
 2026-09-19,PKC,Swift (M),29,14
-2026-09-19,Pernix,Achilles (H),9,15
+2026-09-19,Pernix,Achilles (H),9,16
 2026-09-19,Phoenix (Z),Rapid (H),10,10
 2026-09-19,RODA (W),HKV / Ons Eibernest,16,18
 2026-09-19,ROG,Quick '21 / Vlug en Vaardig (G),17,12
@@ -404,3 +404,4 @@
 2026-09-19,Zaamslag,Luctor,12,11
 2026-09-19,Zwart Wit,Oranje Zwart,9,13
 2026-09-20,Vefo,Moedig Voorwaarts,12,13
+2026-09-21,OEC,SkunK,11,10
