@@ -410,3 +410,4 @@
 2026-09-22,MN en W,DTG,13,8
 2026-09-22,Mid Fryslân,LDODK,10,21
 2026-09-22,TOP (S),Die Haghe,17,19
+2026-09-24,Nexus,Olympia (S),19,9
