@@ -427,6 +427,7 @@
 2026-09-26,DES (De),Excelsior (D),17,15
 2026-09-26,DKB,Rust Roest (E),6,14
 2026-09-26,DKOD,Ready '60,9,12
+2026-09-26,DOS '46,KIOS (R),19,12
 2026-09-26,DOS (W),Gemini,5,16
 2026-09-26,DOS Kampen,ZKC '19,13,19
 2026-09-26,DSO (A),DTS (E),11,18
@@ -453,9 +454,11 @@
 2026-09-26,Furore,HBC (Be),12,6
 2026-09-26,GKV,VZOD,14,22
 2026-09-26,Good Luck,Oranje Zwart (M),19,14
+2026-09-26,Groen Geel,KVZ '23,20,14
 2026-09-26,HHV,Sparta (Ze),17,19
 2026-09-26,HKC (He),DOS-WK,10,24
 2026-09-26,HKC (U),Wolderwijd,22,17
+2026-09-26,HKV / Ons Eibernest,RODA (W),20,14
 2026-09-26,Helios,Aurora / DKV (IJ),13,10
 2026-09-26,Hellas '63,Elburg,12,12
 2026-09-26,Hoogkerk,VDDO,20,17
@@ -471,6 +474,7 @@
 2026-09-26,KVK,TOGO (G),14,22
 2026-09-26,KVW '22,DTL,14,13
 2026-09-26,KVZ,Reehorst '45,13,15
+2026-09-26,Keep Fit '70,Focus,14,9
 2026-09-26,Kesteren,Koveni,12,10
 2026-09-26,Korbatjo,Blauw Wit (K),16,16
 2026-09-26,Korbis,Vriendenschaar (H),17,15
@@ -493,6 +497,7 @@
 2026-09-26,Oerterp,WK,15,11
 2026-09-26,Olympia (S),'t Capproen,5,17
 2026-09-26,Ons Clubje,Groen Zwart,14,8
+2026-09-26,Oost Arnhem,Synergo,24,22
 2026-09-26,Oosterkwartier (H),De Corvers,12,10
 2026-09-26,Oranje Nassau / Triaz,Vlug en Vaardig (A),11,13
 2026-09-26,Oranje Zwart,Zwart Wit,7,8
@@ -512,6 +517,7 @@
 2026-09-26,SDO (W),Blauw Zwart,7,12
 2026-09-26,SF Deinum,Westergo,8,18
 2026-09-26,SKV (S),KCD,8,11
+2026-09-26,Seolto,Conventus,12,8
 2026-09-26,SkunK,OEC,20,11
 2026-09-26,Spannum,Lintjo,15,19
 2026-09-26,Sparta (N),Nova,16,17
@@ -519,6 +525,7 @@
 2026-09-26,Sporting Trigon,BEP,12,18
 2026-09-26,Stormvogels (U),Kleine Sluis,8,6
 2026-09-26,Swift (M),PKC,16,34
+2026-09-26,Swift,Haarlem,10,16
 2026-09-26,TOP (A),Tilburg,14,8
 2026-09-26,Thrianta,Juventa,18,13
 2026-09-26,Tiel '72,Woudenberg,12,8
@@ -533,6 +540,7 @@
 2026-09-26,Viking,SDO (V),10,10
 2026-09-26,Vitesse (Be),Stadskanaal '74,11,17
 2026-09-26,Vriendenschaar (B),ADO,20,18
+2026-09-26,WKS,LDODK,10,29
 2026-09-26,WSS,WIK '34,17,13
 2026-09-26,WWC,Olympia (T),10,16
 2026-09-26,Wez Handich,De Granaet,17,13
