@@ -441,7 +441,7 @@
 2026-09-26,Devinco,DWS (K),11,9
 2026-09-26,Die Haghe,KVS,10,15
 2026-09-26,Drachten,AVO,14,24
-2026-09-26,Dunas,Dijkvogels,12,14
+2026-09-26,Dunas,Dijkvogels,14,12
 2026-09-26,EKC 2000,DWA / Argo,6,18
 2026-09-26,EKCA,KVS '17,17,11
 2026-09-26,ESDO,Badhoevedorp,7,16
@@ -546,3 +546,6 @@
 2026-09-26,Wez Handich,De Granaet,17,13
 2026-09-26,Zuid '27,DVS '69,9,23
 2026-09-26,Zwaluwen (Ze),Arena,13,13
+2026-09-27,Blauw Wit,KZ,18,16
+2026-09-27,Moedig Voorwaarts,Vefo,8,9
+2026-09-27,Nic,Apeldoorn,16,13
