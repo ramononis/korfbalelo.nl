@@ -550,3 +550,5 @@
 2026-09-27,Moedig Voorwaarts,Vefo,8,9
 2026-09-27,Nic,Apeldoorn,16,13
 2026-09-28,Springfield,Scheldevogels,10,9
+2026-09-29,Olympia '22,Noveas,12,14
+2026-09-29,PKC,Fortis,33,8
