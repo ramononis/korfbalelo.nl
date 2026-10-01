@@ -560,3 +560,5 @@
 2026-09-29,PKC,Fortis,33,8
 2026-09-29,RWA,Excelsior (D),16,21
 2026-09-29,Swift,Rohda (A),8,11
+2026-09-30,Kesteren,Hebbes,7,6
+2026-09-30,SDO (W),Roreko,13,17
