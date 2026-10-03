@@ -562,5 +562,6 @@
 2026-09-29,Swift,Rohda (A),8,11
 2026-09-30,Kesteren,Hebbes,7,6
 2026-09-30,SDO (W),Roreko,13,17
+2026-10-01,Roreko,Blauw Zwart,13,18
 2026-10-01,SF Deinum,Lemmer,8,7
 2026-10-01,Velocitas (L),Weidevogels,12,21
