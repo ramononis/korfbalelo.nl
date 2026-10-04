@@ -681,7 +681,9 @@
 2026-10-03,TOGO (G),Blauw Wit (K),29,13
 2026-10-03,TOP (A),Sporting Delta,19,18
 2026-10-03,TOP (S),KVS,23,16
+2026-10-03,Telstar,Victum,17,11
 2026-10-03,Tilburg,Oranje Wit (D),17,10
+2026-10-03,Tjoba,KOAG,15,14
 2026-10-03,Unitas,AW.DTV,21,21
 2026-10-03,VEO,Achilles (H),14,18
 2026-10-03,VZOD,Badhoevedorp,11,11
@@ -695,3 +697,6 @@
 2026-10-03,Wit Blauw,OKO,25,13
 2026-10-03,Zwaluwen (Ze),Rheko,9,10
 2026-10-03,Zwart Wit,Rood Wit (W),18,20
+2026-10-04,Blauw Wit,Groen Geel,16,17
+2026-10-04,Koru,Vefo,9,10
+2026-10-04,Nic,DOS '46,16,22
