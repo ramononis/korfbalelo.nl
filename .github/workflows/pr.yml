@@ -15,13 +15,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Restore Sportlink cache from latest daily run
+      - name: Restore KNKV cache from latest daily run
         uses: actions/cache/restore@v6
         with:
           path: cache
-          key: sportlink-cache-v1-${{ runner.os }}-daily-${{ github.run_id }}
+          key: knkv-cache-v2-${{ runner.os }}-daily-${{ github.run_id }}
           restore-keys: |
-            sportlink-cache-v1-${{ runner.os }}-daily-
+            knkv-cache-v2-${{ runner.os }}-daily-
 
       - name: Set up JDK
         uses: actions/setup-java@v6.0.1

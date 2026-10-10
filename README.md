@@ -15,7 +15,7 @@ The following is AI generated (because I'm lazy) and could be partly or totally 
 
 It combines:
 - A Kotlin rating/simulation engine (`src/main/kotlin`)
-- Data ingestion (historical files + Sportlink API scraping with cache)
+- Data ingestion (historical files + KNKV portal API scraping with cache)
 - A Vue 3 frontend (`web/`) that serves and visualizes generated artifacts
 
 ## Stack
@@ -114,8 +114,8 @@ CI contract note: PR pipeline enforces earliest-date guard + predict determinism
 - Historical data: `matches/*.txt|csv`
 - Club lifecycle commands (spawn/merge/alias/end): `club_events.txt`
 - Current season scrape: `src/main/kotlin/nl/korfbalelo/mijnkorfbal/Scraper.kt`
-  - Uses cache files under `cache/`
-  - Writes `matches/current.txt` and `web/public/specialszaal2526.json`
+  - Uses validated raw-response cache files under `cache/knkv-v2-*.json`
+  - Writes `matches/current.txt` and `web/public/specials<indoor-season>.json`
 
 ### 2) Rating engine
 
@@ -147,7 +147,7 @@ Important: promotion/relegation logic exists in both Kotlin (`SeasonPredicter.kt
 ## Repo Layout
 
 - `src/main/kotlin/nl/korfbalelo/elo`: rating engine, event model, simulation, exports
-- `src/main/kotlin/nl/korfbalelo/mijnkorfbal`: Sportlink API models + scraper
+- `src/main/kotlin/nl/korfbalelo/mijnkorfbal`: KNKV portal API models + scraper
 - `src/test/kotlin`: minimal tests (some disabled)
 - `matches/`: historical + current match data files
 - `web/`: Vue frontend
@@ -165,11 +165,43 @@ Important: promotion/relegation logic exists in both Kotlin (`SeasonPredicter.kt
     - optional PR label override: `changes generated match output`
   - `web: npm ci && npm run build`
 - `.github/workflows/daily-check.yml`
-  - Runs `./gradlew run`
-  - If `matches/current.txt` changed, trims outdoor season CSV history from the earliest changed date and runs `./gradlew predict --args="$EARLIEST_DATE veld"`
+  - Runs `./gradlew -Delo.scraper.forceNetwork=true scrape`
+  - If `matches/current.txt` changed (including removed/corrected results), trims outdoor season CSV history from the earliest changed date and runs `./gradlew predict --args="$EARLIEST_DATE veld"`
   - Commits and pushes updated data artifacts
-  - Forces fresh Sportlink API reads (`-Delo.scraper.forceNetwork=true`) and saves cache snapshot key `sportlink-cache-v1-<os>-daily-*`
-  - Other workflows restore the latest daily snapshot (they do not overwrite it)
+  - Forces fresh KNKV portal API reads (`-Delo.scraper.forceNetwork=true`) and saves cache snapshot key `knkv-cache-v2-<os>-daily-*`
+  - Other workflows restore the latest successful daily scrape snapshot (they do not overwrite it)
+
+<!-- AI generated: KNKV portal migration and operational controls. -->
+## KNKV Scraper
+
+The official portal API base is `https://api-saas-site-prod-236.dotlab.net/general/api/competition`.
+The scraper validates the success envelope and endpoint payload before caching it. Results are
+flat matches; programme responses contain week groups. Match dates use the API's local `date`,
+and unplayed fixtures retain scores of `-1`. Requests are paced at five per second with bounded
+retries for rate limits and temporary gateway failures. Failed scrapes leave match output and
+published in-memory competition data untouched.
+
+The legacy `KNKV-DISTRICT-OOST` filter now labels nationwide **B-category** competitions.
+The outdoor SN and RN pool names/IDs match the previous cached source (67 and 156 pools,
+respectively, checked October 11, 2026). Both teams must still end in ` 1` to enter Elo input.
+The versioned `static-poules/zaal2627.json` remains the default indoor source. Upcoming live
+pools with no standings, results, or programme are skipped as unpublished; published matches
+without standings still cause a clear failure.
+
+A fresh live check can write both match and specials output outside the checkout:
+
+```bash
+./gradlew -Delo.scraper.forceNetwork=true -Delo.scraper.outputDirectory=/tmp/knkv-check scrape
+```
+
+Other scraper properties:
+
+- `elo.scraper.apiBase`: override the API base for a future endpoint move.
+- `elo.scraper.cacheDirectory`: override the cache directory (default `cache`).
+- `elo.scraper.useStaticIndoorPoules=false`: explicitly test all live indoor sources.
+- `elo.scraper.writeCurrentMatches=false`: suppress match-file writes.
+- `elo.scraper.writeSpecialMatches=false`: suppress specials-file writes as well.
+- `elo.scraper.requestIntervalMillis`: minimum interval between requests (default `200`).
 
 ## License
 

@@ -1,21 +1,14 @@
 package nl.korfbalelo.mijnkorfbal
 
-import com.github.kittinunf.fuel.core.Request
-import com.github.kittinunf.fuel.gson.responseObject as responseObjectOriginal
-import com.github.kittinunf.fuel.httpGet
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 import nl.korfbalelo.elo.Match
 import nl.korfbalelo.elo.RankingNew
 import nl.korfbalelo.elo.SeasonContext
 import nl.korfbalelo.elo.gson
-import nl.korfbalelo.elo.ot
 import nl.korfbalelo.elo.pmap
 import java.io.File
-import java.lang.NullPointerException
-import java.time.LocalDate
+import java.nio.file.Files
+import java.nio.file.StandardCopyOption
 import java.util.concurrent.ConcurrentHashMap
-import kotlin.math.absoluteValue
 
 typealias PouleData = Pair<Map<String, Int>, List<Match>>
 
@@ -31,38 +24,35 @@ object Scraper {
             poolName.contains(marker, ignoreCase = true)
         }
 
-    inline fun <reified T : Any> Request.responseObject(forceNetwork: Boolean = false) =
-        File("cache/${(this.url.hashCode() + parameters.hashCode()).absoluteValue}.txt").let { f ->
-            if (f.exists() && !forceNetwork) {
-                Gson().fromJson(f.reader(), object : TypeToken<T>() {}.type)
-            } else {
-                responseObjectOriginal<T>().also {
-                    f.parentFile?.mkdirs()
-                    f.writeText(Gson().toJson(it.third.get()))
-                }.third.get()
-            }
-        }
-
     // AI generated: pool scraping updates active teams concurrently.
     val activeTeams: MutableSet<String> = ConcurrentHashMap.newKeySet()
     @JvmStatic
     fun main(args: Array<String>) {
-        scrapePoules()
+        val matches = scrapePoules()
+        println("Scraped ${matches.size} first-team results; latest date: ${matches.maxOfOrNull { it.date }}")
     }
 
     fun scrapePoules(): List<Match> {
-        val hasStaticIndoorPoules = StaticPoules.hasIndoorPoules(SeasonContext.indoor.seasonName)
+        // AI generated: stage a complete scrape before publishing state or generated files.
+        val api = CompetitionApi(forceNetwork = forceNetwork)
+        val nextOutdoor = ConcurrentHashMap<String, PouleData>()
+        val nextIndoor = ConcurrentHashMap<String, PouleData>()
+        val nextSpecial = ConcurrentHashMap<String, Match>()
+        val nextActive: MutableSet<String> = ConcurrentHashMap.newKeySet()
+        val hasStaticIndoorPoules = System.getProperty("elo.scraper.useStaticIndoorPoules", "true").toBoolean() &&
+            StaticPoules.hasIndoorPoules(SeasonContext.indoor.seasonName)
         val sources = buildList {
             add(
-                outdoorPoules to listOf(
+                nextOutdoor to listOf(
                     listOf("KNKV-DISTRICT-LANDELIJK", "KORFBALL-VE-WK", "SN") to true,
+                    // AI generated: the legacy OOST code now denotes nationwide B-category, not a region.
                     listOf("KNKV-DISTRICT-OOST", "KORFBALL-VE-WK", "RN") to false,
                 )
             )
             if (!hasStaticIndoorPoules) {
                 //glanerb|vaassen|rivalen|vakge|westerh|borcu|vroomsh
                 add(
-                    indoorPoules to listOf(
+                    nextIndoor to listOf(
                         listOf("KNKV-DISTRICT-LANDELIJK", "KORFBALL-ZA-WK", "ZS") to true,
                         listOf("KNKV-DISTRICT-OOST", "KORFBALL-ZA-WK", "ZR") to false,
                         listOf("KNKV-DISTRICT-OOST", "KORFBALL-ZA-WK", "ZRB") to false,
@@ -74,37 +64,25 @@ object Scraper {
         val matches = sources.flatMap { (map, cats) ->
             cats.flatMap { (params, isProf) ->
                 val (district, sport, category) = params
-                val paramList = listOf("district" to district, "sport" to sport, "category" to category)
-                "https://api-mijn.korfbal.nl/api/v2/pools".httpGet(paramList).responseObject<PoolsResult>(forceNetwork)
-                    .poolsData.flatMap { pools ->
-//                    if (pools.division.name.contains(Regex("[^-]beker")))
-//                        return@flatMap emptySet<Match>()
+                api.pools(district, sport, category)
+                    .poolsData.also { groups ->
+                        println("KNKV $sport/$category: ${groups.sumOf { it.pools.size }} pools")
+                    }.flatMap { pools ->
                         pools.pools.pmap { pool ->
                             val matches = mutableSetOf<Match>()
-                            val standings = runCatching {
-                                "https://api-mijn.korfbal.nl/api/v2/matches/pools/${pool.refId}/standing".httpGet()
-                                    .responseObject<StandingResult>(forceNetwork)
-                                    .first().standings
-                            }.getOrElse {
-                                if ("beker" in pools.division.name
-                                    || isPostSeasonPool(pool.name)
-                                    || listOf(
-                                        "ervallen",
-//                                    "Play-down KKL",
-//                                    "Play-off KL2",
-//                                    "Statistieken",
-//                                    "EK play-off",
-                                        "Statistieken Reserveteams",
-                                        "2-06"
-//                                    "S-053",
-////                                    "979",
-////                                    "996"
-                                    ).any { it in pool.name }
-                                ) null else
-                                    run {
-                                        Thread.yield()
-                                        error("WTF + $pool")
-                                    }
+                            // AI generated: HTTP/envelope failures must propagate even for exceptional pools.
+                            val standings = api.standing(pool.refId).firstOrNull()?.standings
+                            if (standings == null && !("beker" in pools.division.name
+                                        || isPostSeasonPool(pool.name)
+                                        || listOf("ervallen", "Statistieken Reserveteams", "2-06").any { it in pool.name })) {
+                                // AI generated: upcoming competitions can legitimately be unpublished.
+                                val results = api.results(pool.refId, "2000-08-11", "2100-09-11")
+                                val program = api.program(pool.refId, "2000-08-11", "2100-09-11")
+                                check(results.isEmpty() && program.all { it.matches.isEmpty() }) {
+                                    "No standings for published matches in ${pool.name} (${pool.refId}) in ${pools.division.name}"
+                                }
+                                println("KNKV: skipping unpublished pool ${pool.name} (${pool.refId})")
+                                return@pmap emptySet()
                             }
                             val teams =
                                 standings?.associate { it.team.name to it.stats.penalties.points } ?: run {
@@ -114,36 +92,20 @@ object Scraper {
                             val isFirst = teams.filter { it.key.endsWith(" 1") }
 
                             for (teamName in isFirst) {
-                                activeTeams.add(RankingNew.map(teamName.key))
+                                nextActive.add(RankingNew.map(teamName.key))
                             }
 
                             if (isFirst.size >= 2 || teams.isEmpty() || isPostSeasonPool(pool.name)) {
-                                val matchesResult =
-                                    "https://api-mijn.korfbal.nl/api/v2/matches/pools/${pool.refId}/results?dateFrom=2000-08-11&dateTo=2100-09-11".httpGet()
-                                        .responseObject<ResultsResult>(forceNetwork)
-                                val results = try {
-                                    matchesResult.flatMap { it.matches }.filter {
-                                        it.teams.home.name.endsWith(" 1") && it.teams.away.name.endsWith(" 1")
-                                    }.filter { it.stats != null }.map { it.toMatch() }
-                                } catch (e: NullPointerException) {
-                                    error("WTF")
-                                }
+                                val results = api.results(pool.refId, "2000-08-11", "2100-09-11")
+                                    .filter { it.isFirstTeamMatch() }.map { it.toMatch() }
                                 if (isPostSeasonPool(pool.name)) {
-                                    specialMatches.putAll(results.associateBy(Match::formatFixture))
+                                    nextSpecial.putAll(results.associateBy(Match::formatFixture))
                                 }
                                 matches.addAll(results)
-                                if (isProf && teams.isNotEmpty() || isPostSeasonPool(pool.name)) {
-                                    val matchesProgram =
-                                        "https://api-mijn.korfbal.nl/api/v2/matches/pools/${pool.refId}/program?dateFrom=2000-08-11&dateTo=2100-09-11".httpGet()
-                                            .responseObject<ResultsResult>(forceNetwork)
-                                    val program = try {
-                                        matchesProgram.flatMap { it.matches }.filter {
-                                            it.teams.home.name.endsWith(" 1") && it.teams.away.name.endsWith(" 1")
-                                        }.filter { it.stats == null }.map { it.toMatch() }
-                                    } catch (e: NullPointerException) {
-                                        error("WTF")
-                                    }
-                                    standings?.forEach { it.team.name = RankingNew.map(it.team.name) }
+                                if ((isProf && teams.isNotEmpty()) || isPostSeasonPool(pool.name)) {
+                                    val program = api.program(pool.refId, "2000-08-11", "2100-09-11")
+                                        .flatMap { it.matches }.filter { it.isFirstTeamMatch() }
+                                        .filter { it.stats == null }.map { it.toMatch() }
                                     if (isPostSeasonPool(pool.name)) {
                                         for (match in (results + program)) {
                                             match.special = true
@@ -162,18 +124,39 @@ object Scraper {
 
         if (hasStaticIndoorPoules) {
             val indoorSeasonName = SeasonContext.indoor.seasonName
-            indoorPoules.putAll(StaticPoules.loadIndoorPoules(indoorSeasonName))
-            activeTeams.addAll(indoorPoules.values.flatMap { it.first.keys })
+            nextIndoor.putAll(StaticPoules.loadIndoorPoules(indoorSeasonName))
+            nextActive.addAll(nextIndoor.values.flatMap { it.first.keys })
         }
-        File("web/public/specials${SeasonContext.indoor.seasonName}.json").writeText(gson.toJson(specialMatches))
+        // AI generated: isolated live checks can write outputs outside the checkout.
+        val outputDirectory = File(System.getProperty("elo.scraper.outputDirectory", "."))
+        if (System.getProperty("elo.scraper.writeSpecialMatches", "true").toBoolean()) {
+            writeOutput(File(outputDirectory, "web/public/specials${SeasonContext.indoor.seasonName}.json"), gson.toJson(nextSpecial))
+        }
+        val distinctMatches = matches.distinct()
         if (writeCurrentMatches) {
-            File("matches/current.txt")
-                .writeText(
-                    matches.sortedBy { it.format() }
-                        .joinToString("\n") { (h, a, hS, aS, d) ->
-                            listOf(d, h, a, hS, aS).joinToString(",")
-                        } + "\n")
+            writeOutput(File(outputDirectory, "matches/current.txt"),
+                distinctMatches.sortedBy { it.format() }.joinToString("\n") { it.format() } + "\n")
         }
-        return matches
+        outdoorPoules.clear()
+        outdoorPoules.putAll(nextOutdoor)
+        indoorPoules.clear()
+        indoorPoules.putAll(nextIndoor)
+        specialMatches.clear()
+        specialMatches.putAll(nextSpecial)
+        activeTeams.clear()
+        activeTeams.addAll(nextActive)
+        return distinctMatches
+    }
+
+    // AI generated: readers should never see a half-written output file.
+    private fun writeOutput(file: File, content: String) {
+        file.parentFile.mkdirs()
+        val temporary = Files.createTempFile(file.parentFile.toPath(), "scrape-", ".tmp")
+        try {
+            Files.writeString(temporary, content)
+            Files.move(temporary, file.toPath(), StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.ATOMIC_MOVE)
+        } finally {
+            Files.deleteIfExists(temporary)
+        }
     }
 }

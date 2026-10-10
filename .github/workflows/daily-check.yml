@@ -18,10 +18,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: Compute Sportlink cache key
-        id: sportlink_cache
+      - name: Compute KNKV cache key
+        id: knkv_cache
         run: |
-          echo "key=sportlink-cache-v1-${{ runner.os }}-daily-$(date -u +%Y%m%dT%H%M%SZ)-${GITHUB_RUN_ID}" >> "$GITHUB_OUTPUT"
+          echo "key=knkv-cache-v2-${{ runner.os }}-daily-$(date -u +%Y%m%dT%H%M%SZ)-${GITHUB_RUN_ID}" >> "$GITHUB_OUTPUT"
 
       - name: Set up JDK
         uses: actions/setup-java@v6.0.1
@@ -29,7 +29,9 @@ jobs:
           distribution: 'temurin'
           java-version: '25'
 
-      - name: Scrape latest Sportlink data (force network)
+      # AI generated: only share cache snapshots from a complete successful scrape.
+      - name: Scrape latest KNKV data (force network)
+        id: scrape
         run: ./gradlew -Delo.scraper.forceNetwork=true scrape
 
       - name: Check for changes in matches/current.txt
@@ -37,15 +39,20 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git add matches/current.txt
-          changes=$(git diff --stat --cached -- matches/current.txt | awk '/insertion/ {print $4}')
-          echo "CHANGES=$changes" >> $GITHUB_ENV
+          # AI generated: corrections and deletions also require recomputing snapshots.
+          if git diff --cached --quiet -- matches/current.txt; then
+            echo "CHANGES=0" >> "$GITHUB_ENV"
+          else
+            echo "CHANGES=1" >> "$GITHUB_ENV"
+          fi
 
-      - name: Find earliest date from added lines in matches/current.txt
+      - name: Find earliest changed match date in matches/current.txt
         if: env.CHANGES > 0
         id: find_date
         run: |
-          # Get the earliest date from the added lines in matches/current.txt
-          earliest_date=$(git diff --cached -- matches/current.txt | grep '^+' | grep -P "\d{4}-\d{2}-\d{2}" -o | sort | head -n 1)
+          # AI generated: include removed rows so corrected results are replayed from their original date.
+          earliest_date=$(git diff --cached --unified=0 -- matches/current.txt | sed -nE 's/^[+-]([0-9]{4}-[0-9]{2}-[0-9]{2}),.*/\1/p' | sort | head -n 1)
+          test -n "$earliest_date"
           echo "EARLIEST_DATE=$earliest_date" >> $GITHUB_ENV
 
       - name: Find outdoor season
@@ -86,9 +93,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Save Sportlink cache for other workflows
-        if: always()
+      - name: Save KNKV cache for other workflows
+        if: always() && steps.scrape.outcome == 'success'
         uses: actions/cache/save@v6
         with:
           path: cache
-          key: ${{ steps.sportlink_cache.outputs.key }}
+          key: ${{ steps.knkv_cache.outputs.key }}
