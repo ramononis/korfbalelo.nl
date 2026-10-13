@@ -725,6 +725,7 @@
 2026-10-10,DOS (W),Oosterkwartier (H),12,8
 2026-10-10,DOS Kampen,Kinea / Udiros,13,16
 2026-10-10,DSC,Nieuwerkerk,18,15
+2026-10-10,DSO (A),Kleine Sluis,0,0
 2026-10-10,DTS (E),Stormvogels (U),17,9
 2026-10-10,DTS (S) / Harkema,DTG,9,13
 2026-10-10,DVS '69,Merwede,10,16
