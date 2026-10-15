@@ -832,3 +832,4 @@
 2026-10-10,Zaamslag,Keep Fit '70,16,10
 2026-10-10,Zuid '27,ACKC,7,18
 2026-10-11,Moedig Voorwaarts,Koru,8,14
+2026-10-14,In Fundo,Huizen,12,7
