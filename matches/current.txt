@@ -833,3 +833,10 @@
 2026-10-10,Zuid '27,ACKC,7,18
 2026-10-11,Moedig Voorwaarts,Koru,8,14
 2026-10-14,In Fundo,Huizen,12,7
+2026-10-17,DSO (A),Kleine Sluis,15,5
+2026-10-17,Hemur Enge,DKOD,6,16
+2026-10-17,KCD,Gemini,13,11
+2026-10-17,KVS '17,Ready '60,7,13
+2026-10-17,Oosterkwartier (H),SKV (S),15,8
+2026-10-17,RDZ,DOS (W),14,4
+2026-10-17,VIKO,EKCA,8,8
