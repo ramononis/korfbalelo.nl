@@ -90,7 +90,9 @@ object ApplicationNew {
             ranking.values.minByOrNull { requireNotNull(it.lastDate, it::toString) }.let(::printlnn)
             ranking.values.maxByOrNull { it.rating }.let(::printlnn)
             outputFiles.writeWebRanking(ranking.values)
-            if (!doOutdoor && StaticPoules.hasIndoorPoules(SeasonContext.indoor.seasonName)) {
+            // AI generated: live fixtures must not recreate static future snapshots.
+            if (!doOutdoor && System.getProperty("elo.scraper.useStaticIndoorPoules", "true").toBoolean()
+                && StaticPoules.hasIndoorPoules(SeasonContext.indoor.seasonName)) {
                 StaticPoules.writeFrontendArtifacts(SeasonContext.indoor.seasonName)
             }
             outputFiles.writeDiscontinuedTeams(DiscontinuedTeams.all())

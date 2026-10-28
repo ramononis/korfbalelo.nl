@@ -11,8 +11,6 @@ permissions:
 jobs:
   daily-run:
     runs-on: ubuntu-latest
-    env:
-      NEXT_ZAAL_PREDICTION_DATE: '2027-01-01'
 
     steps:
       - name: Checkout repository
@@ -32,7 +30,7 @@ jobs:
       # AI generated: only share cache snapshots from a complete successful scrape.
       - name: Scrape latest KNKV data (force network)
         id: scrape
-        run: ./gradlew -Delo.scraper.forceNetwork=true scrape
+        run: ./gradlew -Delo.scraper.forceNetwork=true -Delo.scraper.useStaticIndoorPoules=false scrape
 
       - name: Check for changes in matches/current.txt
         run: |
@@ -55,19 +53,20 @@ jobs:
           test -n "$earliest_date"
           echo "EARLIEST_DATE=$earliest_date" >> $GITHUB_ENV
 
-      - name: Find outdoor season
+      - name: Find indoor season
         if: env.CHANGES > 0
         run: |
-          outdoor_season=$(awk -F"'" '
-            /export const OUTDOOR_SEASON/ { in_block=1; next }
+          indoor_season=$(awk -F"'" '
+            /export const INDOOR_SEASON/ { in_block=1; next }
             in_block && /seasonName:/ { print $2; exit }
           ' web/src/season.ts)
-          echo "OUTDOOR_SEASON=$outdoor_season" >> $GITHUB_ENV
+          test -n "$indoor_season"
+          echo "INDOOR_SEASON=$indoor_season" >> "$GITHUB_ENV"
 
-      - name: Remove lines from outdoor season CSVs on or after earliest date
+      - name: Remove lines from indoor season CSVs on or after earliest date
         if: env.CHANGES > 0
         run: |
-          dir="web/public/csv/$OUTDOOR_SEASON"
+          dir="web/public/csv/$INDOOR_SEASON"
           if [ ! -d "$dir" ]; then
             exit 0
           fi
@@ -76,14 +75,16 @@ jobs:
             awk -v date="$EARLIEST_DATE" 'NR == 1 || $1 < date' "$file" > "$tmp" && mv "$tmp" "$file"
           done
 
-      - name: Commit and push changes if there are new changes in matches/current.txt
+      # AI generated: refresh live zaal predictions only when results change.
+      - name: Update indoor predictions and push changed artifacts
         if: env.CHANGES > 0
         run: |
-          # Run the Gradle command with the earliest date as an argument
-          #          ./gradlew predict --args="$EARLIEST_DATE"
-          ./gradlew -Delo.scraper.writeCurrentMatches=false predict --args="$EARLIEST_DATE veld"
-          ./gradlew -Delo.scraper.writeCurrentMatches=false -Delo.predict.forceInitialOutput=true -Delo.predict.clearSnapshots=true -Delo.predict.endDate="$NEXT_ZAAL_PREDICTION_DATE" predict --args="$NEXT_ZAAL_PREDICTION_DATE zaal"
+          ./gradlew -Delo.scraper.useStaticIndoorPoules=false -Delo.scraper.writeCurrentMatches=false -Delo.predict.forceInitialOutput=true predict --args="$EARLIEST_DATE zaal"
           git add -A
+
+          if git diff --cached --quiet; then
+            exit 0
+          fi
 
           # Commit the changes
           git commit -m "Automatic update of matches/current.txt and related data"
