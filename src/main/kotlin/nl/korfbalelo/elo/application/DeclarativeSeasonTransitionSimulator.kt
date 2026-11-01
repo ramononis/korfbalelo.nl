@@ -3,6 +3,7 @@ package nl.korfbalelo.elo.application
 import com.google.gson.Gson
 import nl.korfbalelo.elo.ApplicationNew
 import nl.korfbalelo.elo.PoulePredicter
+import nl.korfbalelo.elo.RatingModel
 import nl.korfbalelo.elo.Team
 import nl.korfbalelo.mijnkorfbal.PouleData
 import java.io.File
@@ -551,7 +552,10 @@ class DeclarativeSeasonTransitionSimulator(
             }
         }
         val homeAdvantage = if (neutral) 0.0 else Team.H
-        val pA = 1.0 / (1.0 + 10.0.pow((teamB.rating - teamA.rating - homeAdvantage) / 400.0))
+        // AI generated: playoff fallback uses the same calibration as regular matches.
+        val pA = 1.0 / (1.0 + 10.0.pow(
+            (teamB.rating - teamA.rating - homeAdvantage) / RatingModel.config.marginRatingScale,
+        ))
         return if (random.nextDouble() <= pA) teamA to teamB else teamB to teamA
     }
 

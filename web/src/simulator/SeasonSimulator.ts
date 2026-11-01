@@ -150,8 +150,8 @@ export async function constructCalc(params: SimulatorParams): Promise<() => Simu
           t1.sampleRating(d)
           t2.sampleRating(d)
           const hPower = neutral ? 0.0 : 1.0
-          // AI-assisted: keep the browser Elo probability formula aligned with the backend.
-          const ratingDifference = (t2.rating - t1.rating - metaData.H * hPower) / 400.0
+          // AI generated: use the exported calibration; older snapshots retain their original scale.
+          const ratingDifference = (t2.rating - t1.rating - metaData.H * hPower) / (metaData.MARGIN_RATING_SCALE ?? 400.0)
           const e1 = 1.0 / (1.0 + Math.pow(10.0, ratingDifference))
           return (Math.random() < e1) ? [t1, t2] : [t2, t1]
         }
