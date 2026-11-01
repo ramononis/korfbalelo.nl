@@ -43,8 +43,11 @@ class Team {
             }
         }
 
-    var rd: Double = RD_MAX / 2.0
-    var rv: Double = Glicko2Calculator.DEFAULT_VOLATILITY
+    var rd: Double = RD_MAX * RatingModel.config.initialRdFraction
+    var rv: Double = RatingModel.config.volatility.initial
+    // AI generated: process variance contributed since the last observed match.
+    var processVarianceSinceMatch: Double = 0.0
+        private set
     var averageScore = 5.0
     var currentDiff = 0.0
     var origins = 1
@@ -75,12 +78,16 @@ class Team {
 
     fun setNewRD(date: LocalDate) {
         val periods = ChronoUnit.DAYS.between(lastDate ?: date, date) / RD_PERIOD_DAYS
+        // AI generated: prepare both sides before computing their pre-match likelihood.
+        rv = GoalMarginVolatility.prepare(rv, periods * RD_PERIOD_DAYS, RatingModel.config.volatility)
+        val previousRd = rd
         rd = Glicko2Calculator.ageRatingDeviation(
             ratingDeviation = rd,
             volatility = rv,
             periods = periods,
             maxRatingDeviation = RD_MAX,
         )
+        processVarianceSinceMatch += (rd * rd - previousRd * previousRd).coerceAtLeast(0.0)
         lastDate = date
     }
 
@@ -115,6 +122,7 @@ class Team {
                 opponentRatingPenalty = homeAdvantageForTeam,
             ),
             maxRatingDeviation = RD_MAX,
+            updateVolatility = RatingModel.config.volatility.mode == VolatilityMode.LEGACY,
         )
         PredictionBenchmark.recordRatingDelta(glickoUpdate.normalizedRatingDelta.absoluteValue)
         val rPrime = glickoUpdate.rating.rating
@@ -159,12 +167,18 @@ class Team {
         return RatingUpdate(
             rating = rPrime,
             rd = rdPrime,
-            rv = glickoUpdate.rating.volatility,
+            rv = GoalMarginVolatility.next(
+                sigma = glickoUpdate.rating.volatility, actualMargin = diff.toDouble(),
+                meanMargin = diffDistro.first, goalSd = diffDistro.second,
+                ownRd = rd, opponentRd = opponent.rd, ownProcessVariance = processVarianceSinceMatch,
+                ratingScale = RatingModel.config.marginRatingScale, config = RatingModel.config.volatility,
+            ),
             averageScore = newAverageScore,
         )
     }
 
     fun setNewRating(update: RatingUpdate) {
+        processVarianceSinceMatch = 0.0
         rating = update.rating
         rd = update.rd
         rv = update.rv

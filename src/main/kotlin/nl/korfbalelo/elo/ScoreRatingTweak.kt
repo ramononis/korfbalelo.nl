@@ -143,20 +143,21 @@ data class ScoreRatingTweakConfig(
         )
 
         fun fromSystemProperties(): ScoreRatingTweakConfig {
+            val defaults = RatingProfiles.selected()?.scoreRating ?: defaultConfig
             val mode = System.getProperty("elo.model.scoreRating.mode")
                 ?.let { ScoreRatingTweakMode.valueOf(it.uppercase()) }
-                ?: defaultConfig.mode
+                ?: defaults.mode
             return ScoreRatingTweakConfig(
                 mode = mode,
                 learningRate = System.getProperty("elo.model.scoreRating.learningRate")?.toDoubleOrNull()
-                    ?: defaultConfig.learningRate,
+                    ?: defaults.learningRate,
                 maxAdjustment = System.getProperty("elo.model.scoreRating.maxAdjustment")?.toDoubleOrNull()
-                    ?: defaultConfig.maxAdjustment,
-                minGames = System.getProperty("elo.model.scoreRating.minGames")?.toIntOrNull() ?: defaultConfig.minGames,
+                    ?: defaults.maxAdjustment,
+                minGames = System.getProperty("elo.model.scoreRating.minGames")?.toIntOrNull() ?: defaults.minGames,
                 maxRatingPerGoal = System.getProperty("elo.model.scoreRating.maxRatingPerGoal")?.toDoubleOrNull()
-                    ?: defaultConfig.maxRatingPerGoal,
+                    ?: defaults.maxRatingPerGoal,
                 scaleByRd = System.getProperty("elo.model.scoreRating.scaleByRd")?.toBooleanStrictOrNull()
-                    ?: defaultConfig.scaleByRd,
+                    ?: defaults.scaleByRd,
             )
         }
     }

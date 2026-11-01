@@ -31,6 +31,12 @@ export type MetaData = {
   SD_B: number,
   RD_PERIOD_DAYS: number,
   RD_MAX: number,
+  // AI generated: absent fields retain the policy of older exported snapshots.
+  VOLATILITY_MODE?: 'LEGACY' | 'SHARED' | 'GOAL_MARGIN',
+  VOLATILITY_INITIAL?: number,
+  VOLATILITY_HALF_LIFE_DAYS?: number,
+  VOLATILITY_MINIMUM?: number,
+  VOLATILITY_MAXIMUM?: number,
   MARGIN_RATING_SCALE?: number,
   MIN_AVERAGE_SCORE?: number,
   SCORE_SEASONALITY_MODE?: 'OFF' | 'MONTHLY_OFFSET',

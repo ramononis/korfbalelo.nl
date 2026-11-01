@@ -1,6 +1,7 @@
 package nl.korfbalelo.elo
 
 import java.time.LocalDate
+import kotlin.math.PI
 import kotlin.math.absoluteValue
 import kotlin.math.ln
 import kotlin.math.pow
@@ -79,6 +80,11 @@ class PredictionWindowStats {
         private set
     var logLossSum = 0.0
         private set
+    // AI generated: proper Gaussian goal-margin scoring and interval calibration.
+    var marginGaussianNllSum = 0.0
+        private set
+    var marginCovered95 = 0
+        private set
     var marginAbsoluteError = 0.0
         private set
     var totalScoreAbsoluteError = 0.0
@@ -130,6 +136,10 @@ class PredictionWindowStats {
                 else -> pDraw
             }.coerceAtLeast(LOG_LOSS_FLOOR)
         )
+        val variance = diffDistro.second * diffDistro.second
+        val residual = actualDiff - expectedMargin
+        marginGaussianNllSum += 0.5 * ln(2 * PI * variance) + residual * residual / (2 * variance)
+        if (residual.absoluteValue <= 1.959963984540054 * diffDistro.second) marginCovered95++
         marginAbsoluteError += (expectedMargin - actualDiff).absoluteValue
         totalScoreAbsoluteError += (averageTotalScore - actualTotal).absoluteValue
         teamScoreAbsoluteError += (expectedHomeScore - match.homeScore).absoluteValue
@@ -144,6 +154,8 @@ class PredictionWindowStats {
     }
 
     fun summary() = PredictionBenchmarkSummary(
+        marginGaussianNll = marginGaussianNllSum.safeDiv(matches),
+        marginCoverage95 = marginCovered95.safeDiv(matches),
         matches = matches,
         weightedMarginAccuracy = weightedCorrectMargin.safeDiv(weightedMargin),
         decisiveAccuracy = signCorrect.safeDiv(decisiveMatches),
@@ -186,6 +198,8 @@ data class PredictionBenchmarkSummary(
     val ratingAverageScoreCorrelation: Double,
     val ratingGoalsCorrelation: Double,
     val averageScoreGoalsCorrelation: Double,
+    val marginGaussianNll: Double = Double.NaN,
+    val marginCoverage95: Double = Double.NaN,
 ) {
     fun compactLine(): String =
         "matches=$matches, weighted=${weightedMarginAccuracy.formatPct()}, " +

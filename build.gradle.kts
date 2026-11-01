@@ -84,3 +84,17 @@ tasks.register<JavaExec>("benchmarkModel") {
 tasks.test {
     useJUnitPlatform()
 }
+
+// AI generated: isolated volatility diagnostics and counterfactual replays; no production outputs.
+tasks.register<JavaExec>("investigateVolatility") {
+    classpath = sourceSets["main"].runtimeClasspath
+    mainClass.set("nl.korfbalelo.elo.VolatilityInvestigation")
+    forwardSystemProperties("elo.model.", "elo.benchmark.")
+}
+
+// AI generated: recalibrate shared and per-match goal-margin volatility models.
+tasks.register<JavaExec>("calibrateVolatility") {
+    classpath = sourceSets["main"].runtimeClasspath
+    mainClass.set("nl.korfbalelo.elo.VolatilityCalibration")
+    forwardSystemProperties("elo.model.", "elo.benchmark.")
+}

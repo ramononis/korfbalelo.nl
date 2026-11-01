@@ -1,0 +1,13 @@
+{
+  "ai_generated": true,
+  "active_since": "2025-08-01",
+  "roster_teams": 333,
+  "all_below_starting_sigma": true,
+  "recent_teams": 320,
+  "recent_single_lineage_teams": 252,
+  "games_sigma_correlation_single_lineage": -0.9808615474944322,
+  "games_sigma_correlation_all_recent": -0.6945571427176246,
+  "inverse_sigma_squared_intercept": 275.6378044046509,
+  "inverse_sigma_squared_slope": 0.025228679593334528,
+  "inverse_sigma_squared_r2": 0.964544274012395
+}
