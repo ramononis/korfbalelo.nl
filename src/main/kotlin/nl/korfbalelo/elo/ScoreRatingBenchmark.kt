@@ -56,10 +56,9 @@ object ScoreRatingBenchmark {
         ScoreRatingTweak.config = config
         ScoreSeasonality.config = ScoreSeasonalityConfig.off
         PredictionBenchmark.range = window
-        // AI generated: evaluation windows must retain all earlier training matches.
-        AccuracyTracker.ignoreMatchesBelow = LocalDate.MIN
+        AccuracyTracker.ignoreMatchesBelow = window.first
         RatingPipeline().run(
-            events = events.filter { !it.date.isAfter(window.second) }.toSet(),
+            events = events,
             window = RatingRunWindow(window.first, window.second),
             activeTeams = emptySet(),
             logEnabled = false,
