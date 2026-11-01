@@ -168,7 +168,8 @@ export default defineComponent({
         colorSaturation: 0.5,
         strokeWidth: 0.5,
         highlightSeriesBackgroundAlpha: 1,
-        valueRange: [300, 2700],
+        // AI generated: use the same default rating range as team graphs.
+        valueRange: [0, 3000],
       });
 
       for (const origin of origins.split('\n')) {
