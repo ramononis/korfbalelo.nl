@@ -13,7 +13,6 @@ object RatingModelBenchmark {
 
     @JvmStatic
     fun main(args: Array<String>) {
-        val quick = "quick" in args
         val events = eventCatalog.loadAllEvents()
         val window = BenchmarkWindow.fromEvents(events)
         ApplicationNew.log = false
@@ -22,12 +21,9 @@ object RatingModelBenchmark {
         if (System.getProperty("elo.benchmark.fittedStarts", "true") == "false") {
             ApplicationNew.startRatings.clear()
         }
-        val configs = when {
-            "refine" in args -> refinementConfigs()
-            "finalists" in args -> finalistConfigs()
-            "research" in args -> researchConfigs()
-            else -> configs(quick)
-        }
+        val baseline = RatingModelBenchmarkConfig(RatingModelConfig.fromSystemProperties(),
+            ScoreRatingTweakConfig.fromSystemProperties(), ScoreSeasonalityConfig.fromSystemProperties())
+        val configs = if ("calibrate" in args) calibrationConfigs(baseline) else listOf(baseline)
         println("Running ${configs.size} rating-model variants over ${window.first}..${window.second}")
         val results = mutableListOf<RatingModelBenchmarkResult>()
         val elapsed = measureTime {
@@ -38,25 +34,27 @@ object RatingModelBenchmark {
             }
         }
 
-        val byWeighted = results.sortedByDescending { it.prediction.weightedMarginAccuracy }
-        val byBrier = results.sortedBy { it.prediction.brier }
-        val byMargin = results.sortedBy { it.prediction.marginMae }
-        val byTeamScore = results.sortedBy { it.prediction.teamScoreMae }
+        if (results.size > 1) {
+            val byWeighted = results.sortedByDescending { it.prediction.weightedMarginAccuracy }
+            val byBrier = results.sortedBy { it.prediction.brier }
+            val byMargin = results.sortedBy { it.prediction.marginMae }
+            val byTeamScore = results.sortedBy { it.prediction.teamScoreMae }
 
-        println()
-        println("Best weighted-margin accuracy:")
-        byWeighted.take(15).forEachIndexed { index, result -> println("${index + 1}. ${result.oneLine()}") }
-        println()
-        println("Best Brier score:")
-        byBrier.take(10).forEachIndexed { index, result -> println("${index + 1}. ${result.oneLine()}") }
-        println()
-        println("Best margin MAE:")
-        byMargin.take(10).forEachIndexed { index, result -> println("${index + 1}. ${result.oneLine()}") }
-        println()
-        println("Best team-score MAE:")
-        byTeamScore.take(10).forEachIndexed { index, result -> println("${index + 1}. ${result.oneLine()}") }
+            println()
+            println("Best weighted-margin accuracy:")
+            byWeighted.take(15).forEachIndexed { index, result -> println("${index + 1}. ${result.oneLine()}") }
+            println()
+            println("Best Brier score:")
+            byBrier.take(10).forEachIndexed { index, result -> println("${index + 1}. ${result.oneLine()}") }
+            println()
+            println("Best margin MAE:")
+            byMargin.take(10).forEachIndexed { index, result -> println("${index + 1}. ${result.oneLine()}") }
+            println()
+            println("Best team-score MAE:")
+            byTeamScore.take(10).forEachIndexed { index, result -> println("${index + 1}. ${result.oneLine()}") }
+        }
 
-        writeCsv(results)
+        writeCsv(results, window)
         println()
         println("Finished in $elapsed")
     }
@@ -89,180 +87,22 @@ object RatingModelBenchmark {
         )
     }
 
-    // AI generated: interaction search restricted to development data.
-    private fun refinementConfigs(): List<RatingModelBenchmarkConfig> {
-        val base = researchConfigs().first()
-        return listOf(base) + listOf(280.0, 320.0, 360.0).flatMap { scale ->
-            listOf(0.12 to 1.5, 0.166 to 1.85, 0.22 to 2.2).flatMap { (a, b) ->
-                listOf(0.5, 1.0).map { period ->
-                    base.copy(model = base.model.copy(marginRatingScale = scale,
-                        scoreSdSlope = a, scoreSdIntercept = b, rdPeriodDays = period,
-                        scoreLearningWeightCap = 4.0))
-                }
-            }
-        }
-    }
-
-    // AI generated: frozen after the 2000-2022 search, before evaluating later seasons.
-    private fun finalistConfigs(): List<RatingModelBenchmarkConfig> {
-        val base = researchConfigs().first()
-        return listOf(
-            base,
-            base.copy(model = base.model.copy(scoreLearningWeightCap = 4.0)),
-            base.copy(model = base.model.copy(marginRatingScale = 360.0, scoreLearningWeightCap = 4.0)),
-            base.copy(model = base.model.copy(marginRatingScale = 320.0, scoreSdSlope = 0.12,
-                scoreSdIntercept = 1.5, scoreLearningWeightCap = 4.0)),
-        )
-    }
-
-    private fun researchConfigs(): List<RatingModelBenchmarkConfig> {
-        val base = RatingModelBenchmarkConfig(
-            // AI generated: preserve the pre-investigation reference after changing production defaults.
-            RatingModelConfig.standard.copy(marginRatingScale = 400.0, scoreLearningWeightCap = Double.POSITIVE_INFINITY),
-            ScoreRatingTweakConfig.fromSystemProperties(),
-            ScoreSeasonalityConfig.fromSystemProperties(),
-        )
+    // AI generated: local sensitivity search around the calibrated shared-growth model.
+    private fun calibrationConfigs(base: RatingModelBenchmarkConfig): List<RatingModelBenchmarkConfig> {
         val m = base.model
         return (listOf(base) +
-            listOf(0.5, 2.0, 4.0, 7.0, 14.0).map { base.copy(model = m.copy(rdPeriodDays = it)) } +
-            listOf(280.0, 320.0, 360.0, 440.0, 500.0).map { base.copy(model = m.copy(marginRatingScale = it)) } +
-            listOf(60.0, 130.0, 170.0).map { base.copy(model = m.copy(scoreSpeedInv = it)) } +
-            listOf(4.0, 8.0, 16.0, 32.0).map { base.copy(model = m.copy(scoreLearningWeightCap = it)) } +
-            listOf(0.12 to 1.5, 0.22 to 2.2, 0.24 to 2.6, 0.3 to 2.2).map { (a, b) ->
-                base.copy(model = m.copy(scoreSdSlope = a, scoreSdIntercept = b))
-            } +
-            base.copy(scoreRating = ScoreRatingTweakConfig()) +
-            base.copy(seasonality = ScoreSeasonalityConfig.off) +
-            listOf(0.0, 1.0 / 16.0, 1.0 / 4.0).map { base.copy(model = m.copy(homeAdvantageSpeed = it)) }
+            listOf(0.8, 1.2).map { base.copy(model = m.copy(rdGrowthPerSqrtDay = m.rdGrowthPerSqrtDay * it)) } +
+            listOf(300.0, 340.0).map { base.copy(model = m.copy(marginRatingScale = it)) } +
+            listOf(0.10, 0.14).map { base.copy(model = m.copy(scoreSdSlope = it)) } +
+            listOf(1.7, 2.1).map { base.copy(model = m.copy(scoreSdIntercept = it)) } +
+            listOf(80.0, 130.0).map { base.copy(model = m.copy(scoreSpeedInv = it)) } +
+            listOf(400.0, 500.0).map { base.copy(model = m.copy(rdMax = it)) } +
+            listOf(0.5, 1.0).map { base.copy(model = m.copy(initialRdFraction = it)) } +
+            listOf(0.0025, 0.01).map { base.copy(seasonality = base.seasonality.copy(learningRate = it)) }
         ).distinct()
     }
 
-    private fun configs(quick: Boolean): List<RatingModelBenchmarkConfig> {
-        val standard = RatingModelConfig.standard
-        val defaultScoreRating = ScoreRatingTweakConfig.fromSystemProperties()
-        val defaultSeasonality = ScoreSeasonalityConfig.fromSystemProperties()
-        val baseline = RatingModelBenchmarkConfig(standard, defaultScoreRating, defaultSeasonality)
-        val noSeasonalityBaseline = baseline.copy(seasonality = ScoreSeasonalityConfig.off)
-
-        val homeInitials = if (quick) listOf(25.0, 30.0, 35.0, 40.0, 45.0) else listOf(20.0, 25.0, 30.0, 35.0, 40.0, 45.0, 50.0)
-        val homeSpeeds = if (quick) listOf(0.0, 1.0 / 128.0, 1.0 / 64.0, 1.0 / 32.0) else listOf(0.0, 1.0 / 256.0, 1.0 / 128.0, 1.0 / 64.0, 1.0 / 48.0, 1.0 / 32.0)
-        val scoreSpeedInvs = if (quick) listOf(60.0, 80.0, 100.0, 130.0, 170.0) else listOf(40.0, 60.0, 80.0, 100.0, 130.0, 170.0, 220.0)
-        val marginScales = if (quick) listOf(320.0, 360.0, 400.0, 440.0, 500.0) else listOf(280.0, 320.0, 360.0, 400.0, 440.0, 500.0, 580.0)
-        val sdSlopes = if (quick) listOf(0.12, 0.166, 0.22) else listOf(0.08, 0.12, 0.166, 0.20, 0.24, 0.30)
-        val sdIntercepts = if (quick) listOf(1.5, 1.85, 2.2) else listOf(1.2, 1.5, 1.85, 2.2, 2.6)
-        val rdMaxes = if (quick) listOf(300.0, 350.0, 450.0) else listOf(250.0, 300.0, 350.0, 450.0, 600.0)
-        val rdPeriods = if (quick) listOf(0.5, 1.0, 2.0, 7.0) else listOf(0.25, 0.5, 1.0, 2.0, 7.0, 14.0)
-        val minScores = if (quick) listOf(0.5, 1.0) else listOf(0.1, 0.5, 1.0, 2.0)
-
-        val home = homeInitials.flatMap { initial ->
-            homeSpeeds.map { speed ->
-                baseline.copy(
-                    model = standard.copy(
-                        initialHomeAdvantage = initial,
-                        homeAdvantageSpeed = speed,
-                    )
-                )
-            }
-        }
-        val scoreSpeed = scoreSpeedInvs.map { scoreSpeedInv ->
-            baseline.copy(model = standard.copy(scoreSpeedInv = scoreSpeedInv))
-        }
-        val margin = marginScales.flatMap { marginScale ->
-            sdSlopes.flatMap { slope ->
-                sdIntercepts.map { intercept ->
-                    baseline.copy(
-                        model = standard.copy(
-                            marginRatingScale = marginScale,
-                            scoreSdSlope = slope,
-                            scoreSdIntercept = intercept,
-                        )
-                    )
-                }
-            }
-        }
-        val rd = rdMaxes.flatMap { rdMax ->
-            rdPeriods.map { rdPeriodDays ->
-                baseline.copy(
-                    model = standard.copy(
-                        rdMax = rdMax,
-                        rdPeriodDays = rdPeriodDays,
-                    )
-                )
-            }
-        }
-        val scoreFloor = minScores.map { minAverageScore ->
-            baseline.copy(model = standard.copy(minAverageScore = minAverageScore))
-        }
-        val scoreRatingVariants = listOf(
-            baseline.copy(scoreRating = ScoreRatingTweakConfig(mode = ScoreRatingTweakMode.OFF)),
-            baseline.copy(scoreRating = defaultScoreRating.copy(learningRate = 0.0005)),
-            baseline.copy(scoreRating = defaultScoreRating.copy(learningRate = 0.002)),
-            baseline.copy(scoreRating = defaultScoreRating.copy(maxAdjustment = 5.0)),
-            baseline.copy(scoreRating = defaultScoreRating.copy(maxAdjustment = 20.0)),
-            baseline.copy(scoreRating = defaultScoreRating.copy(scaleByRd = true)),
-        )
-        val rebalance = listOf(
-            baseline.copy(rebalanceRatings = false),
-        )
-        val seasonalityConfigs = seasonalityConfigs(quick)
-        val promisingModels = listOf(
-            standard,
-            standard.copy(scoreSdSlope = 0.166, scoreSdIntercept = 1.85, marginRatingScale = 320.0),
-            standard.copy(scoreSdSlope = 0.24, scoreSdIntercept = 2.6, marginRatingScale = 400.0),
-            standard.copy(scoreSdSlope = 0.3, scoreSdIntercept = 2.2, marginRatingScale = 320.0),
-        ).distinct()
-        val seasonality = promisingModels.flatMap { model ->
-            seasonalityConfigs.map { seasonality ->
-                baseline.copy(model = model, seasonality = seasonality)
-            }
-        }
-        val noSeasonality = promisingModels.map { model ->
-            baseline.copy(model = model, seasonality = ScoreSeasonalityConfig.off)
-        }
-
-        return (
-            listOf(baseline) +
-                noSeasonalityBaseline +
-                home +
-                scoreSpeed +
-                margin +
-                rd +
-                scoreFloor +
-                scoreRatingVariants +
-                rebalance +
-                noSeasonality +
-                seasonality
-            )
-            .distinct()
-    }
-
-    private fun seasonalityConfigs(quick: Boolean): List<ScoreSeasonalityConfig> {
-        val learningRates = if (quick) {
-            listOf(0.0025, 0.005, 0.01, 0.02)
-        } else {
-            listOf(0.001, 0.0025, 0.005, 0.01, 0.02, 0.04)
-        }
-        val caps = if (quick) listOf(3.0, 6.0) else listOf(2.0, 3.0, 6.0, 10.0)
-        val halfLives = if (quick) {
-            listOf(0.0, 3650.0)
-        } else {
-            listOf(0.0, 1825.0, 3650.0, 10950.0)
-        }
-        return learningRates.flatMap { learningRate ->
-            caps.flatMap { cap ->
-                halfLives.map { halfLife ->
-                    ScoreSeasonalityConfig(
-                        mode = ScoreSeasonalityMode.MONTHLY_OFFSET,
-                        learningRate = learningRate,
-                        maxAdjustment = cap,
-                        halfLifeDays = halfLife,
-                    )
-                }
-            }
-        }
-    }
-
-    private fun writeCsv(results: List<RatingModelBenchmarkResult>) {
+    private fun writeCsv(results: List<RatingModelBenchmarkResult>, window: Pair<LocalDate, LocalDate>) {
         val file = File(System.getProperty("elo.benchmark.output", "build/rating-model-benchmark.csv"))
         file.absoluteFile.parentFile.mkdirs()
         if (results.any { it.byDate.isNotEmpty() }) {
@@ -280,6 +120,9 @@ object RatingModelBenchmark {
             buildString {
                 appendLine(
                     listOf(
+                        "evaluationFrom",
+                        "evaluationTo",
+                        "fittedStarts",
                         "initialHomeAdvantage",
                         "homeAdvantageSpeed",
                         "scoreSpeedInv",
@@ -287,13 +130,15 @@ object RatingModelBenchmark {
                         "scoreSdIntercept",
                         "marginRatingScale",
                         "rdMax",
-                        "rdPeriodDays",
+                        "rdGrowthPerSqrtDay",
+                        "initialRdFraction",
                         "minAverageScore",
                         "scoreLearningWeightCap",
                         "scoreRatingMode",
                         "scoreRatingLearningRate",
                         "scoreRatingMaxAdjustment",
                         "scoreRatingMinGames",
+                        "scoreRatingMaxRatingPerGoal",
                         "scoreRatingScaleByRd",
                         "scoreSeasonalityMode",
                         "scoreSeasonalityLearningRate",
@@ -307,6 +152,8 @@ object RatingModelBenchmark {
                         "logLoss",
                         "marginMae",
                         "teamScoreMae",
+                        "marginGaussianNll",
+                        "marginCoverage95",
                         "exactScoreAccuracy",
                         "scoreRatingAverageAdjustment",
                         "seasonalityAverageOffset",
@@ -319,6 +166,9 @@ object RatingModelBenchmark {
                     val seasonality = result.config.seasonality
                     appendLine(
                         listOf(
+                            window.first,
+                            window.second,
+                            System.getProperty("elo.benchmark.fittedStarts", "true"),
                             model.initialHomeAdvantage,
                             model.homeAdvantageSpeed,
                             model.scoreSpeedInv,
@@ -326,13 +176,15 @@ object RatingModelBenchmark {
                             model.scoreSdIntercept,
                             model.marginRatingScale,
                             model.rdMax,
-                            model.rdPeriodDays,
+                            model.rdGrowthPerSqrtDay,
+                            model.initialRdFraction,
                             model.minAverageScore,
                             model.scoreLearningWeightCap,
                             score.mode,
                             score.learningRate,
                             score.maxAdjustment,
                             score.minGames,
+                            score.maxRatingPerGoal,
                             score.scaleByRd,
                             seasonality.mode,
                             seasonality.learningRate,
@@ -346,6 +198,8 @@ object RatingModelBenchmark {
                             result.prediction.logLoss,
                             result.prediction.marginMae,
                             result.prediction.teamScoreMae,
+                            result.prediction.marginGaussianNll,
+                            result.prediction.marginCoverage95,
                             result.prediction.exactScoreAccuracy,
                             result.scoreRating.averageAbsoluteAdjustment,
                             result.seasonality.averageAbsoluteOffset,

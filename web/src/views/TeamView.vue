@@ -161,8 +161,7 @@ const team = computed(() => {
     row.lastMatchDate ?? new Date(0),
     0,
     row.place,
-    350,
-    0.06,
+    450,
     5,
     row.firstMatchDate ?? row.lastMatchDate ?? new Date(0),
   )

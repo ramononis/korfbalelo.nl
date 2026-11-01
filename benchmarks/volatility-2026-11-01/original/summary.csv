@@ -1,2 +1,0 @@
-variant,from,to,matches,brier,logLoss,marginMae,teamScoreMae,wdlAccuracy,updates,decreases,increases,eligible,growthEvidence,balanced,balancedIncreases,residualRatio,binaryResidualRatio
-learned,2022-08-01,2026-11-01,16674,0.40909304520241035,0.7090681198797264,4.182476557180406,3.390785890101494,0.7070289072807965,612588,595926,16169,609738,16019,114592,74,0.24237005943088766,0.7562734012206255
