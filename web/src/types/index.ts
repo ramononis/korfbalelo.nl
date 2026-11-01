@@ -1,8 +1,7 @@
 import { metaData } from '@/simulator/SeasonSimulator'
-import { prepareVolatility } from '@/simulator/Volatility'
+import { ageRatingDeviation } from '@/simulator/RatingDeviation'
 import { formattedDiff, sampleND } from '@/utils'
 
-const D = 173.7178
 const DAY_MILLIS = 1000 * 60 * 60 * 24;
 export class Team {
   constructor(
@@ -12,7 +11,6 @@ export class Team {
     public seasonRatingDiff: number,
     public place: string,
     public rd: number,
-    public rv: number,
     public averageScore: number,
     public firstMatchDate: Date = lastMatchDate,
   ) {}
@@ -23,15 +21,9 @@ export class Team {
 
   sampleRating(d: string | Date) {
     const date = new Date(d)
-    const phiPre = this.rd / D
-    const periods = (date.getTime() - this.lastMatchDate.getTime())
-      / DAY_MILLIS / metaData!.RD_PERIOD_DAYS
-    // AI generated: mirror backend calendar aging for the exported policy.
-    this.rv = prepareVolatility(this.rv, periods * metaData!.RD_PERIOD_DAYS, metaData!)
-    const rd = Math.min(
-      metaData!.RD_MAX / D,
-      Math.sqrt(phiPre * phiPre + periods * this.rv * this.rv)
-    ) * D
+    // AI generated: use the shared calendar growth exported by the backend.
+    const days = (date.getTime() - this.lastMatchDate.getTime()) / DAY_MILLIS
+    const rd = ageRatingDeviation(this.rd, days, metaData!.RD_GROWTH_PER_SQRT_DAY, metaData!.RD_MAX)
     this.lastMatchDate = date
     this.rd = 0.0
     this.rating = sampleND([this.rating, rd])

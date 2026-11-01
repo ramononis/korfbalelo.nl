@@ -11,7 +11,6 @@ import kotlin.math.sign
 data class RatingUpdate(
     val rating: Double,
     val rd: Double,
-    val rv: Double,
     val averageScore: Double,
 ) {
     fun withRatingDelta(delta: Double): RatingUpdate =
@@ -44,10 +43,6 @@ class Team {
         }
 
     var rd: Double = RD_MAX * RatingModel.config.initialRdFraction
-    var rv: Double = RatingModel.config.volatility.initial
-    // AI generated: process variance contributed since the last observed match.
-    var processVarianceSinceMatch: Double = 0.0
-        private set
     var averageScore = 5.0
     var currentDiff = 0.0
     var origins = 1
@@ -76,18 +71,15 @@ class Team {
         rd = 0.0
     }
 
+    // AI generated: age uncertainty using the shared calendar growth rate.
     fun setNewRD(date: LocalDate) {
-        val periods = ChronoUnit.DAYS.between(lastDate ?: date, date) / RD_PERIOD_DAYS
-        // AI generated: prepare both sides before computing their pre-match likelihood.
-        rv = GoalMarginVolatility.prepare(rv, periods * RD_PERIOD_DAYS, RatingModel.config.volatility)
-        val previousRd = rd
-        rd = Glicko2Calculator.ageRatingDeviation(
+        val elapsedDays = ChronoUnit.DAYS.between(lastDate ?: date, date).toDouble()
+        rd = GlickoCalculator.ageRatingDeviation(
             ratingDeviation = rd,
-            volatility = rv,
-            periods = periods,
+            elapsedDays = elapsedDays,
+            growthPerSqrtDay = RatingModel.config.rdGrowthPerSqrtDay,
             maxRatingDeviation = RD_MAX,
         )
-        processVarianceSinceMatch += (rd * rd - previousRd * previousRd).coerceAtLeast(0.0)
         lastDate = date
     }
 
@@ -106,23 +98,20 @@ class Team {
         val matchScore = 1.0 - diffDistro.cdf(diffDistro.first - diff.toDouble())
         val expScore = sumAve + diffDistro.first * 0.5
         val homeAdvantageForTeam = if (atHome) H else -H
-        val glickoUpdate = Glicko2Calculator.update(
-            player = Glicko2Rating(
+        val glickoUpdate = GlickoCalculator.update(
+            player = GlickoRating(
                 rating = rating,
                 ratingDeviation = rd,
-                volatility = rv,
             ),
-            game = Glicko2Game(
-                opponent = Glicko2Rating(
+            game = GlickoGame(
+                opponent = GlickoRating(
                     rating = opponent.rating,
                     ratingDeviation = opponent.rd,
-                    volatility = opponent.rv,
                 ),
                 score = matchScore,
                 opponentRatingPenalty = homeAdvantageForTeam,
             ),
             maxRatingDeviation = RD_MAX,
-            updateVolatility = RatingModel.config.volatility.mode == VolatilityMode.LEGACY,
         )
         PredictionBenchmark.recordRatingDelta(glickoUpdate.normalizedRatingDelta.absoluteValue)
         val rPrime = glickoUpdate.rating.rating
@@ -167,21 +156,13 @@ class Team {
         return RatingUpdate(
             rating = rPrime,
             rd = rdPrime,
-            rv = GoalMarginVolatility.next(
-                sigma = glickoUpdate.rating.volatility, actualMargin = diff.toDouble(),
-                meanMargin = diffDistro.first, goalSd = diffDistro.second,
-                ownRd = rd, opponentRd = opponent.rd, ownProcessVariance = processVarianceSinceMatch,
-                ratingScale = RatingModel.config.marginRatingScale, config = RatingModel.config.volatility,
-            ),
             averageScore = newAverageScore,
         )
     }
 
     fun setNewRating(update: RatingUpdate) {
-        processVarianceSinceMatch = 0.0
         rating = update.rating
         rd = update.rd
-        rv = update.rv
         averageScore = max(RatingModel.config.minAverageScore, update.averageScore)
     }
 
@@ -194,7 +175,6 @@ class Team {
             ", age=" + games +
             ", origins=" + origins +
             ", RD=" + rd +
-            ", σ=" + rv +
             '}'
     }
 
@@ -212,8 +192,6 @@ class Team {
         var trackCurrent = false
         val RD_MAX: Double
             get() = RatingModel.config.rdMax
-        val RD_PERIOD_DAYS: Double
-            get() = RatingModel.config.rdPeriodDays
         val H_SPEED: Double
             get() = RatingModel.config.homeAdvantageSpeed
         val SCORE_SPEED_INV: Double

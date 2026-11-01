@@ -143,7 +143,7 @@ data class ScoreRatingTweakConfig(
         )
 
         fun fromSystemProperties(): ScoreRatingTweakConfig {
-            val defaults = RatingProfiles.selected()?.scoreRating ?: defaultConfig
+            val defaults = defaultConfig
             val mode = System.getProperty("elo.model.scoreRating.mode")
                 ?.let { ScoreRatingTweakMode.valueOf(it.uppercase()) }
                 ?: defaults.mode

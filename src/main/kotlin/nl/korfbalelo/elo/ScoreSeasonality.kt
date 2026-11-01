@@ -83,7 +83,7 @@ object ScoreSeasonality {
 
 data class ScoreSeasonalityConfig(
     val mode: ScoreSeasonalityMode = ScoreSeasonalityMode.MONTHLY_OFFSET,
-    val learningRate: Double = 0.0025,
+    val learningRate: Double = 0.005,
     val maxAdjustment: Double = 6.0,
     val halfLifeDays: Double = 1825.0,
 ) {
@@ -104,7 +104,7 @@ data class ScoreSeasonalityConfig(
         )
 
         fun fromSystemProperties(): ScoreSeasonalityConfig {
-            val defaults = RatingProfiles.selected()?.seasonality ?: standard
+            val defaults = standard
             return ScoreSeasonalityConfig(
                 mode = System.getProperty("elo.model.scoreSeasonality.mode")
                     ?.let { ScoreSeasonalityMode.valueOf(it.uppercase()) }
