@@ -39,4 +39,26 @@ class RatingProfilesTest {
             }
         }
     }
+
+    @Test fun `default is the selected shared calibration and legacy remains reproducible`() {
+        val keys = listOf("elo.model.profile", "elo.model.volatility.mode", "elo.model.volatility.initial",
+            "elo.model.marginRatingScale", "elo.model.rdMax", "elo.model.initialRdFraction")
+        val previous = keys.associateWith(System::getProperty)
+        try {
+            keys.forEach(System::clearProperty)
+            val selected = RatingModelConfig.fromSystemProperties()
+            assertEquals(VolatilityMode.SHARED, selected.volatility.mode)
+            assertEquals(.06, selected.volatility.initial)
+            assertEquals(320.0, selected.marginRatingScale)
+            assertEquals(450.0, selected.rdMax)
+            assertEquals(.75, selected.initialRdFraction)
+            System.setProperty("elo.model.profile", "legacy")
+            assertEquals(RatingModelConfig.standard, RatingModelConfig.fromSystemProperties())
+        } finally {
+            previous.forEach { (key, value) ->
+                if (value == null) System.clearProperty(key) else System.setProperty(key, value)
+            }
+        }
+    }
+
 }

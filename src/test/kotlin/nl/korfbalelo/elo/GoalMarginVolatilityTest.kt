@@ -1,6 +1,7 @@
 package nl.korfbalelo.elo
 
 import org.apache.commons.math3.special.Erf
+import kotlin.math.PI
 import kotlin.math.exp
 import kotlin.math.ln
 import kotlin.math.pow
@@ -103,6 +104,28 @@ class GoalMarginVolatilityTest {
             ApplicationNew.log = oldLog
             Team.H = oldHome
         }
+    }
+
+
+    @Test fun `shared volatility matches the original Glicko equations in rating-point units`() {
+        val sigma = .06
+        val agedRd = Glicko2Calculator.ageRatingDeviation(85.0, sigma, 10.0)
+        val player = Glicko2Rating(1600.0, agedRd, sigma)
+        val opponent = Glicko2Rating(1735.0, 120.0, sigma)
+        val result = Glicko2Calculator.update(player,
+            Glicko2Game(opponent, score = .73, opponentRatingPenalty = 35.0), updateVolatility = false)
+        // Original Glicko reference equations, using q = ln(10)/400 instead of normalized units.
+        val q = ln(10.0) / 400
+        val g = 1 / sqrt(1 + 3 * q * q * opponent.ratingDeviation.pow(2) / PI.pow(2))
+        val e = 1 / (1 + 10.0.pow(-g * (player.rating + 35 - opponent.rating) / 400))
+        val precision = 1 / agedRd.pow(2) + q * q * g * g * e * (1 - e)
+        val expectedRd = 1 / sqrt(precision)
+        val expectedRating = player.rating + q / precision * g * (.73 - e)
+        // Glicko-2's published 173.7178 conversion is rounded.
+        assertEquals(expectedRating, result.rating.rating, 1e-5)
+        assertEquals(expectedRd, result.rating.ratingDeviation, 1e-5)
+        assertEquals(sigma, result.rating.volatility)
+        assertEquals(85.0.pow(2) + 10 * (173.7178 * sigma).pow(2), agedRd.pow(2), 1e-8)
     }
 
 }
