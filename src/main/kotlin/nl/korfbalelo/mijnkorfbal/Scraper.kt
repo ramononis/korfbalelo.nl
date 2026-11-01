@@ -39,7 +39,8 @@ object Scraper {
         val nextIndoor = ConcurrentHashMap<String, PouleData>()
         val nextSpecial = ConcurrentHashMap<String, Match>()
         val nextActive: MutableSet<String> = ConcurrentHashMap.newKeySet()
-        val hasStaticIndoorPoules = System.getProperty("elo.scraper.useStaticIndoorPoules", "true").toBoolean() &&
+        // AI generated: retain published fixtures unless provisional static poules are explicitly requested.
+        val hasStaticIndoorPoules = System.getProperty("elo.scraper.useStaticIndoorPoules", "false").toBoolean() &&
             StaticPoules.hasIndoorPoules(SeasonContext.indoor.seasonName)
         val sources = buildList {
             add(
