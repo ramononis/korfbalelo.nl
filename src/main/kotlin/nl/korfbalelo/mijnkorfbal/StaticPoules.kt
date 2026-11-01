@@ -3,7 +3,6 @@ package nl.korfbalelo.mijnkorfbal
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.reflect.TypeToken
-import nl.korfbalelo.elo.RatingModel
 import nl.korfbalelo.elo.RankingNew
 import java.io.File
 import java.time.LocalDate
@@ -82,7 +81,7 @@ object StaticPoules {
         )
         val header = listOf("date", "pouleData") + teams.flatMap { listOf(it, it, it, it, it) }
         val row = listOf(snapshotDate.toString(), gson.toJson(pouleData)) + teams.flatMap { teamName ->
-            val rating = ratings[teamName] ?: RatingSnapshot(rating = 1500.0, rd = RatingModel.config.rdMax)
+            val rating = ratings[teamName] ?: RatingSnapshot(rating = 1500.0, rd = 350.0)
             listOf("0.0", "0.0", "0.0", rating.rating.toString(), rating.rd.toString())
         }
         snapshotFile.writeText(header.joinToString("\t") + "\n" + row.joinToString("\t") + "\n")

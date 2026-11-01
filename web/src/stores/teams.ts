@@ -45,7 +45,7 @@ export default defineStore('teams', {
 
             const parsedTeams = data
               .map((row) => {
-                const [name, rating, lastDateValue, firstDateValue, seasonRatingDiff, place, rd, averageScore] = row
+                const [name, rating, lastDateValue, firstDateValue, seasonRatingDiff, place, rd, rv, averageScore] = row
                 if (typeof name !== 'string' || typeof lastDateValue !== 'string' || typeof place !== 'string') {
                   return null
                 }
@@ -66,6 +66,7 @@ export default defineStore('teams', {
                   Number(seasonRatingDiff),
                   place,
                   Number(rd),
+                  Number(rv),
                   Number(averageScore),
                   firstMatchDate,
                 );

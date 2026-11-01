@@ -79,7 +79,7 @@ class FileRatingOutputs(
     fun writeWebRanking(teams: Collection<Team>) {
         teams.sortedWith(compareByDescending<Team> { it.rating }.thenBy { it.name })
             .joinToString("\n") {
-                "\"${it.name}\",\"${it.rating}\",\"${it.lastDate?.toString().orEmpty()}\",\"${it.firstMatchDate?.toString().orEmpty()}\",\"${it.currentDiff}\",\"${it.place}\",\"${it.rd}\",\"${it.averageScore}\""
+                "\"${it.name}\",\"${it.rating}\",\"${it.lastDate?.toString().orEmpty()}\",\"${it.firstMatchDate?.toString().orEmpty()}\",\"${it.currentDiff}\",\"${it.place}\",\"${it.rd}\",\"${it.rv}\",\"${it.averageScore}\""
             }
             .let(webRankingFile::writeText)
     }

@@ -1,6 +1,5 @@
 package nl.korfbalelo.elo
 
-import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import java.time.LocalDate
@@ -9,12 +8,8 @@ import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
 class ReplaceEventTest {
-    // AI generated: use explicit defaults so these tests are independent of CLI overrides.
-    private lateinit var previousModel: RatingModelConfig
     @BeforeEach
     fun resetState() {
-        previousModel = RatingModel.config
-        RatingModel.config = RatingModelConfig.standard
         ApplicationNew.log = false
         Team.reset()
         RankingNew.ranking.clear()
@@ -24,17 +19,13 @@ class ReplaceEventTest {
         originMap = mutableMapOf()
     }
 
-    @AfterEach
-    fun restoreModel() {
-        RatingModel.config = previousModel
-    }
-
     @Test
     fun `replace keeps historical and rating state`() {
         val replaceDate = LocalDate.of(2026, 1, 15)
         val oldTeam = Team("Old Team", "City", Team.MAGIC_1500).also {
             it.rating = 1623.0
             it.rd = 93.0
+            it.rv = 0.071
             it.games = 27
             it.averageScore = 17.8
             it.currentDiff = 42.0
@@ -58,6 +49,7 @@ class ReplaceEventTest {
 
         assertEquals(1623.0, newTeam.rating)
         assertEquals(93.0, newTeam.rd)
+        assertEquals(0.071, newTeam.rv)
 
         assertEquals(27, newTeam.games)
         assertEquals(17.8, newTeam.averageScore)
@@ -81,6 +73,7 @@ class ReplaceEventTest {
         val oldTeam = Team("Old Team", "City", Team.MAGIC_1500).also {
             it.rating = 1510.0
             it.rd = 80.0
+            it.rv = 0.06
             it.lastDate = replaceDate
         }
         RankingNew.add(oldTeam)
@@ -107,6 +100,7 @@ class ReplaceEventTest {
         val oldTeam = Team("Old Team", "City", Team.MAGIC_1500).also {
             it.rating = 1540.0
             it.rd = 91.0
+            it.rv = 0.062
             it.games = 88
             it.averageScore = 14.2
             it.currentDiff = -7.0
@@ -136,6 +130,7 @@ class ReplaceEventTest {
         val keepTeam = Team("Keep Me", "City", Team.MAGIC_1500).also {
             it.rating = 1510.0
             it.rd = 100.0
+            it.rv = 0.061
             it.games = 42
             it.averageScore = 13.1
             it.currentDiff = 3.0
@@ -146,6 +141,7 @@ class ReplaceEventTest {
         val otherTeam = Team("Other Team", "City", Team.MAGIC_1500).also {
             it.rating = 1660.0
             it.rd = 80.0
+            it.rv = 0.07
             it.games = 9
             it.averageScore = 20.0
             it.lastDate = mergeDate.minusDays(1)
@@ -169,6 +165,7 @@ class ReplaceEventTest {
         assertEquals(LocalDate.of(2020, 1, 1), merged.created)
         assertEquals(1660.0, merged.rating)
         assertEquals(otherTeam.rd, merged.rd)
+        assertEquals((0.061 + 0.07) / 2.0, merged.rv)
 
         val discontinued = DiscontinuedTeams.all()
         assertEquals(1, discontinued.size)
@@ -184,5 +181,4 @@ class ReplaceEventTest {
         val keepExisting = parseEvent("2026-01-01 merge Old Team,Other Team > Old Team > City") as MergeEvent
         assertTrue(keepExisting.name in keepExisting.oldNames)
     }
-
 }

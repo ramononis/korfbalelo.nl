@@ -100,22 +100,6 @@ class RatingPipelineTest {
     }
 
     @Test
-    fun `active sponsored KNKV team resolves to its existing rating`() {
-        // AI generated: reproduce the active-team lookup used by CI prediction runs.
-        val seedDate = LocalDate.now().minusYears(2)
-        RatingPipeline().run(
-            events = setOf(SeedTeamEvent(seedDate, "Apeldoorn", "Apeldoorn")),
-            window = RatingRunWindow(seedDate, seedDate),
-            activeTeams = setOf(RankingNew.map("Apeldoorn/PassaKorfbal 1")),
-            logEnabled = false,
-            onDate = {},
-        )
-
-        assertEquals(setOf("Apeldoorn"), RankingNew.ranking.keys)
-        assertEquals(LocalDate.now(), RankingNew.ranking.getValue("Apeldoorn").lastDate)
-    }
-
-    @Test
     fun `active team lookup follows a merge alias created during the run`() {
         // AI generated regression test for successor names received from Sportlink.
         val seedDate = LocalDate.now().minusYears(2)

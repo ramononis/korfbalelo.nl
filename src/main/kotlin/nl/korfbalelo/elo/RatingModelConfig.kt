@@ -5,57 +5,41 @@ data class RatingModelConfig(
     val initialHomeAdvantage: Double = 35.0,
     val homeAdvantageSpeed: Double = 1.0 / 64.0,
     val scoreSpeedInv: Double = 100.0,
-    val scoreSdSlope: Double = 0.12,
-    val scoreSdIntercept: Double = 1.9,
-    val marginRatingScale: Double = 320.0,
-    val rdMax: Double = 450.0,
-    val rdGrowthPerSqrtDay: Double = GlickoCalculator.DEFAULT_RD_GROWTH,
+    val scoreSdSlope: Double = 0.166,
+    val scoreSdIntercept: Double = 1.85,
+    val marginRatingScale: Double = 400.0,
+    val rdMax: Double = 350.0,
+    val rdPeriodDays: Double = 1.0,
     val minAverageScore: Double = 0.5,
-    // AI generated: bound the inverse-information multiplier used to learn scoring pace.
-    val scoreLearningWeightCap: Double = 4.0,
-    val initialRdFraction: Double = 0.75,
 ) {
-    init {
-        require(rdGrowthPerSqrtDay.isFinite() && rdGrowthPerSqrtDay >= 0)
-        require(rdMax.isFinite() && rdMax > 0)
-        require(initialRdFraction > 0 && initialRdFraction <= 1)
-        require(scoreLearningWeightCap > 0.0) { "Score learning weight cap must be positive" }
-    }
-
     override fun toString(): String =
         "H=$initialHomeAdvantage Hs=$homeAdvantageSpeed scoreInv=$scoreSpeedInv " +
             "sd=$scoreSdSlope/$scoreSdIntercept marginScale=$marginRatingScale " +
-            "rd=$rdMax growth=$rdGrowthPerSqrtDay minScore=$minAverageScore scoreWeightCap=$scoreLearningWeightCap " +
-            "initialRdFraction=$initialRdFraction"
+            "rd=$rdMax/$rdPeriodDays minScore=$minAverageScore"
 
     companion object {
         val standard = RatingModelConfig()
 
-        fun fromSystemProperties(): RatingModelConfig {
-            val defaults = standard
-            return RatingModelConfig(
-                initialRdFraction = System.getProperty("elo.model.initialRdFraction")?.toDouble() ?: defaults.initialRdFraction,
+        fun fromSystemProperties(): RatingModelConfig =
+            RatingModelConfig(
                 initialHomeAdvantage = System.getProperty("elo.model.initialHomeAdvantage")?.toDoubleOrNull()
-                    ?: defaults.initialHomeAdvantage,
+                    ?: standard.initialHomeAdvantage,
                 homeAdvantageSpeed = System.getProperty("elo.model.homeAdvantageSpeed")?.toDoubleOrNull()
-                    ?: defaults.homeAdvantageSpeed,
+                    ?: standard.homeAdvantageSpeed,
                 scoreSpeedInv = System.getProperty("elo.model.scoreSpeedInv")?.toDoubleOrNull()
-                    ?: defaults.scoreSpeedInv,
+                    ?: standard.scoreSpeedInv,
                 scoreSdSlope = System.getProperty("elo.model.scoreSdSlope")?.toDoubleOrNull()
-                    ?: defaults.scoreSdSlope,
+                    ?: standard.scoreSdSlope,
                 scoreSdIntercept = System.getProperty("elo.model.scoreSdIntercept")?.toDoubleOrNull()
-                    ?: defaults.scoreSdIntercept,
+                    ?: standard.scoreSdIntercept,
                 marginRatingScale = System.getProperty("elo.model.marginRatingScale")?.toDoubleOrNull()
-                    ?: defaults.marginRatingScale,
-                rdMax = System.getProperty("elo.model.rdMax")?.toDoubleOrNull() ?: defaults.rdMax,
-                rdGrowthPerSqrtDay = System.getProperty("elo.model.rdGrowthPerSqrtDay")?.toDoubleOrNull()
-                    ?: defaults.rdGrowthPerSqrtDay,
-                scoreLearningWeightCap = System.getProperty("elo.model.scoreLearningWeightCap")?.toDoubleOrNull()
-                    ?: defaults.scoreLearningWeightCap,
+                    ?: standard.marginRatingScale,
+                rdMax = System.getProperty("elo.model.rdMax")?.toDoubleOrNull() ?: standard.rdMax,
+                rdPeriodDays = System.getProperty("elo.model.rdPeriodDays")?.toDoubleOrNull()
+                    ?: standard.rdPeriodDays,
                 minAverageScore = System.getProperty("elo.model.minAverageScore")?.toDoubleOrNull()
-                    ?: defaults.minAverageScore,
+                    ?: standard.minAverageScore,
             )
-        }
     }
 }
 

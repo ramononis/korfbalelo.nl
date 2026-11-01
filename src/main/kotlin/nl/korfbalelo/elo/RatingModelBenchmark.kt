@@ -6,7 +6,6 @@ import nl.korfbalelo.elo.infrastructure.FileEventCatalog
 import java.io.File
 import java.time.LocalDate
 import kotlin.time.measureTime
-import kotlin.math.sqrt
 
 // AI generated
 object RatingModelBenchmark {
@@ -93,9 +92,7 @@ object RatingModelBenchmark {
         val sdSlopes = if (quick) listOf(0.12, 0.166, 0.22) else listOf(0.08, 0.12, 0.166, 0.20, 0.24, 0.30)
         val sdIntercepts = if (quick) listOf(1.5, 1.85, 2.2) else listOf(1.2, 1.5, 1.85, 2.2, 2.6)
         val rdMaxes = if (quick) listOf(300.0, 350.0, 450.0) else listOf(250.0, 300.0, 350.0, 450.0, 600.0)
-        // AI generated: express the existing aging-rate search in shared growth units.
-        val rdGrowthRates = (if (quick) listOf(0.5, 1.0, 2.0, 7.0) else listOf(0.25, 0.5, 1.0, 2.0, 7.0, 14.0))
-            .map { standard.rdGrowthPerSqrtDay / sqrt(it) }
+        val rdPeriods = if (quick) listOf(0.5, 1.0, 2.0, 7.0) else listOf(0.25, 0.5, 1.0, 2.0, 7.0, 14.0)
         val minScores = if (quick) listOf(0.5, 1.0) else listOf(0.1, 0.5, 1.0, 2.0)
 
         val home = homeInitials.flatMap { initial ->
@@ -125,11 +122,11 @@ object RatingModelBenchmark {
             }
         }
         val rd = rdMaxes.flatMap { rdMax ->
-            rdGrowthRates.map { growth ->
+            rdPeriods.map { rdPeriodDays ->
                 baseline.copy(
                     model = standard.copy(
                         rdMax = rdMax,
-                        rdGrowthPerSqrtDay = growth,
+                        rdPeriodDays = rdPeriodDays,
                     )
                 )
             }
@@ -220,7 +217,7 @@ object RatingModelBenchmark {
                         "scoreSdIntercept",
                         "marginRatingScale",
                         "rdMax",
-                        "rdGrowthPerSqrtDay",
+                        "rdPeriodDays",
                         "minAverageScore",
                         "scoreRatingMode",
                         "scoreRatingLearningRate",
@@ -258,7 +255,7 @@ object RatingModelBenchmark {
                             model.scoreSdIntercept,
                             model.marginRatingScale,
                             model.rdMax,
-                            model.rdGrowthPerSqrtDay,
+                            model.rdPeriodDays,
                             model.minAverageScore,
                             score.mode,
                             score.learningRate,

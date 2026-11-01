@@ -120,9 +120,7 @@ CI contract note: PR pipeline enforces earliest-date guard + predict determinism
 ### 2) Rating engine
 
 - Entrypoint: `src/main/kotlin/nl/korfbalelo/elo/ApplicationNew.kt`
-- Team state + per-match update: `src/main/kotlin/nl/korfbalelo/elo/Team.kt`
-- Glicko rating equations: `src/main/kotlin/nl/korfbalelo/elo/GlickoCalculator.kt`
-- Shared calibration: `src/main/kotlin/nl/korfbalelo/elo/RatingModelConfig.kt`
+- Team model + Glicko-style update: `src/main/kotlin/nl/korfbalelo/elo/Team.kt`
 - Match application + alias mapping: `src/main/kotlin/nl/korfbalelo/elo/RankingNew.kt`
 - Event parsing/execution: `src/main/kotlin/nl/korfbalelo/elo/RankingEvent.kt`
 
@@ -216,8 +214,8 @@ data/content files is not covered by the MIT source-code license.
 
 ## Known Caveats
 
-- `predict` accepts a date and optional `zaal` or `veld` argument; the default is `zaal`.
-- Test coverage is limited; rating equations, calendar aging and simulation rules have focused tests.
+- `SeasonPredicter.doOutdoor` is hardcoded (`false`) unless changed in code.
+- Test coverage is limited; `GlickoTest` is disabled.
 - Large generated data files can change often; avoid unrelated formatting churn.
 - `web/dist` and `web/node_modules` are build outputs and should not be committed.
 
@@ -227,49 +225,3 @@ These passed during doc creation:
 
 - `./gradlew clean test`
 - `cd web && npm ci && npm run build`
-
-## Rating model
-
-<!-- AI generated -->
-Korfbal Elo uses Glicko, updated after each match. Every team has a rating,
-a rating deviation (RD, uncertainty in rating points), and an estimated scoring
-pace. Both teams are updated from their pre-match state. Home advantage is
-estimated across all teams and changes gradually with match results.
-
-Uncertainty grows with elapsed calendar time using a shared rate:
-
-```text
-RD_before_match = min(450, sqrt(RD_previous² + elapsed_days * 10.423068²))
-```
-
-A new team starts with RD 337.5. A match reduces RD according to the information
-provided by the opponent. The growth rate is the same for every team; it is a
-model constant. Splitting an idle interval into several steps adds the same
-variance as aging it in one step. Browser simulations use the exported growth
-rate and RD cap when sampling future team strength.
-
-The observed goal margin is converted into a fractional result:
-`S = Φ(goal_margin / margin_sd)`. A draw gives 0.5; larger wins approach 1 and
-larger losses approach 0. For a team with expected scoring pace `μ`, its score
-standard deviation is `0.12 * μ + 1.9`. The margin SD is the square root of the
-sum of the two teams' score variances. Forecasts convert the home-adjusted rating
-difference into an expected margin using rating scale 320. The Glicko update
-uses its standard logistic rating scale, expressed internally in normalized
-units of 173.7178 rating points.
-
-Scoring pace learns from each team's score residual, with inverse learning speed
-100 and an information weight capped at 4. A small rating correction also learns
-from the relationship between rating and scoring pace (rate 0.001, maximum 10
-points per match, after four matches). Monthly score offsets track seasonal
-scoring differences (learning rate 0.005, cap 6 goals, half-life 1825 days).
-The initial home advantage is 35 points and its learning rate is 1/64.
-Ratings are recentered across active teams during replay.
-
-`RatingModelConfig`, `ScoreRatingTweakConfig` and `ScoreSeasonalityConfig` define
-the defaults. `elo.model.*` system properties override individual settings,
-for example `-Delo.model.rdGrowthPerSqrtDay=10.423068`.
-
-`ranking.csv` contains, in order: name, rating, last rating date, first match
-date, season rating change, place, RD and scoring pace. `meta.json` exports
-`RD_GROWTH_PER_SQRT_DAY`, `RD_MAX`, the forecast constants and monthly score offsets
-for the frontend.

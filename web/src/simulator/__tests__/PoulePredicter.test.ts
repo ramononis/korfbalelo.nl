@@ -6,7 +6,7 @@ import { Team, type MatchFixture } from '@/types'
 function teamsByName(names: string[]): Map<string, Team> {
   return new Map(names.map((name, index) => [
     name,
-    new Team(name, 1000 + index, new Date('2026-05-09'), 0, 'Test', 120, 15),
+    new Team(name, 1000 + index, new Date('2026-05-09'), 0, 'Test', 120, 0.06, 15),
   ]))
 }
 

@@ -168,6 +168,7 @@ data class MergeEvent(
             it.place = pl
             it.rating = rating
             it.rd = rd
+            it.rv = oldTeams.map { it.rv }.average()
             if (!keepStats) {
                 // AI-assisted: renames/fusions must not inherit only a rating while losing useful team state.
                 val totalGames = oldTeams.sumOf { team -> team.games }

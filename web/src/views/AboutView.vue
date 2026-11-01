@@ -116,30 +116,23 @@
         vermenigvuldigd met een factor <tx f="K" />. Het resultaat wordt bij de rating opgeteld of afgetrokken:<br>
         <tex f="R^\prime_A=R_A + (S_A-E_A)*K" />
         <br>
-        Echter wordt hier het Glicko-systeem gebruikt, waarbij het 'iets' ingewikkelder werkt.
+        Echter wordt hier het Glicko-2 systeem gebruikt, waarbij het 'iets' ingewikkelder werkt.
       </about-item>
 
       <about-item>
         <template #header>Glicko? Dat zijn die afvalcontainers toch?</template>
         Nee, dat is Kliko, lijkt erop...<br>
-        Glicko is een uitbreiding van het Elo-systeem.
-        Het Glicko-systeem voegt de mate van <i>onzekerheid</i> (rating deviation, afgekort <tx f="RD" />) van de rating van een team toe aan de berekening.
+        Glicko-2 is een uitbreiding van het Elo-systeem.
+        Het Glicko-2 systeem voegt de mate van <i>onzekerheid</i> (rating deviation, afgekort <tx f="RD" />) van de rating van een team toe aan de berekening.
         Bij een hoge <tx f="RD" /> kan de daadwerkelijke rating veel lager of hoger zijn dan de geschatte rating; de geschatte rating is dus onbetrouwbaar.
         Een lage <tx f="RD" /> geeft aan dat de rating betrouwbaarder is.<br>
-        Ook de onzekerheid van de tegenstander telt mee: een wedstrijd tegen een team met een onzekere rating geeft minder informatie.<br>
       </about-item>
 
       <about-item>
         <template #header>Zucht, weer een nieuw getal... Hoe wordt <tx f="RD" /> berekend?</template>
         Kort samengevat: <tx f="RD"/> wordt kleiner bij het spelen van wedstrijden, maar wordt ook elke dag iets hoger.
         De gedachte is dat het spelen van wedstrijden de betrouwbaarheid van de rating verhoogt, terwijl door het verstrijken van de tijd de betrouwbaarheid weer afneemt.<br>
-        <!-- AI generated: describe shared calendar aging in rating points. -->
-        Voor alle teams gebruiken we dezelfde groeisnelheid van onzekerheid:
-        <tex f="RD_{nieuw}=\min(450,\sqrt{RD_{oud}^2+d\cdot 10.423068^2})" />
-        Hierbij is <tx f="d" /> het aantal dagen sinds de vorige berekening.
-        Een nieuw team begint met een <tx f="RD" /> van 337.5.
-        Hoe vaak je de berekening tussendoor uitvoert maakt niet uit: het gaat om de verstreken tijd.<br>
-        Wil je precies weten hoe dit berekend wordt? <a href="https://www.glicko.net/glicko/glicko.pdf">Hier</a>, succes...<br>
+        Wil je precies weten hoe dit berekend wordt? <a href="http://www.glicko.net/glicko/glicko2.pdf">Hier</a>, succes...<br>
       </about-item>
 
       <about-item>
@@ -153,7 +146,7 @@
         Oke, vooruit.<br>
         Van elk team wordt het scorend vermogen μ bijgehouden: het verwachte aantal doelpunten dat een team maakt tegen een ongeveer even sterke tegenstander.<br>
         Vervolgens nemen we aan dat het aantal doelpunten van een team normaal verdeeld is: <tx f="X\sim N(\mu_X,\sigma_X^2)" />.<br>
-        In het model geldt (ongeveer) <tx f="\sigma_X=0.12\mu_X+1.9" />.<br>
+        In het model geldt (ongeveer) <tx f="\sigma_X=0.166\mu_X+1.85" />.<br>
         Voor twee teams A en B wordt dan gewerkt met de standaardafwijking van de winstmarge:<br>
         <tex f="\sigma_W=\sqrt{\sigma_A^2+\sigma_B^2}"/>
         En dan nu hoe we aan <tx f="S_A" /> komen voor een geobserveerde winstmarge <tx f="w" />:<br>
@@ -189,10 +182,7 @@
 
       <about-item>
         <template #header>Effe een stapje terug: je zei dat bij elke wedstrijd een voorspelling wordt gedaan?</template>
-        <!-- AI generated: the forecast uses the calibrated margin rating scale. -->
-        Klopt! Voor het verwachte resultaat gebruiken we het ratingverschil inclusief thuisvoordeel,
-        met schaal 320. Ook corrigeren we het scorend vermogen voor de maand van het jaar.
-        Vervolgens werkt het als volgt: bij elke voorspelling geldt dat <tx f="\mu_X+\mu_Y=X+Y"/>.
+        Klopt, dat werkt als volgt: bij elke voorspelling geldt dat <tx f="\mu_X+\mu_Y=X+Y"/>.
         Lees: het totaal aantal doelpunten in de voorspelling is gelijk aan de som van het scorend vermogen van beide teams.<br>
         Verder geldt dat de waarde van <tx f="S_A"/> die hoort bij de winstmarge <tx f="W=X-Y"/> gelijk moet zijn aan <tx f="E_A"/>.
         Oftewel: bij welke uitslag is het resultaat <tx f="S_A"/> gelijk aan het verwachte resultaat <tx f="E_A"/>,
@@ -214,9 +204,8 @@
         Heel simpel: bij alle berekeningen wordt de rating van het thuisteam verhoogd met een bepaalde universele waarde.
         Deze waarde is niet constant, maar wordt na elke wedstrijd aangepast.
         Presteert het thuisteam beter dan verwacht, dan gaat deze waarde omhoog, en anders gaat deze waarde omlaag. Dit principe houdt de waarde constant in balans.<br>
-        <!-- AI generated: use a timeless example rather than a stale current estimate. -->
-        Het gaat om enkele tientallen ratingpunten. Ter illustratie: bij 32 punten thuisvoordeel heeft het thuisteam
-        tegen een gelijkwaardig team ongeveer 56% kans op winst (als we geen gelijkspel toestaan).
+        Gedurende de geschiedenis van korfbal schommelt deze waarde tussen 28 en 39. Op dit moment is dit ongeveer 29.<br>
+        Dit betekent concreet dat bij een wedstrijd tussen twee gelijkwaardige teams, het thuisteam 54% kans op winst heeft (als we geen gelijkspel toestaan).
       </about-item>
 
       <about-item>

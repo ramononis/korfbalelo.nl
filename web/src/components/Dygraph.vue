@@ -58,8 +58,7 @@ onMounted(() => {
     height: 600,
     strokeWidth: 1,
     highlightSeriesBackgroundAlpha: 1,
-    // AI generated: show the full calibrated rating spread by default.
-    valueRange: [0, 3000]
+    valueRange: [300, 2700]
   })
   for (const origin of origins.split('\n')) {
     const os = origin.split(',')

@@ -119,6 +119,7 @@ describe('SeasonTransitionRules', () => {
       0,
       'Test',
       120,
+      0.06,
       15,
     )
     const standingsByPoule = new Map([
@@ -191,6 +192,7 @@ describe('SeasonTransitionRules', () => {
       0,
       'Test',
       120,
+      0.06,
       15,
     )
     const standing = (entries: Array<[string, [number, number, number]]>) =>

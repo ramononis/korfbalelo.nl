@@ -137,6 +137,7 @@ export default class PoulePredicter {
           0.0,
           "",
           team.rd,
+          team.rv,
           team.averageScore
         )
       }
