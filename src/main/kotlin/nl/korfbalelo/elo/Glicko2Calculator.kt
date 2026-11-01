@@ -48,6 +48,8 @@ object Glicko2Calculator {
             RATING_SCALE
     }
 
+    // AI generated: with fixed volatility and externally aged RD, this is the original
+    // Glicko rating/RD recurrence expressed on the normalized scale.
     fun update(
         player: Glicko2Rating,
         game: Glicko2Game,

@@ -226,6 +226,15 @@ These passed during doc creation:
 - `./gradlew clean test`
 - `cd web && npm ci && npm run build`
 
+## Active rating configuration (AI generated)
+
+The selected default is **`shared-matched`**: calibrated shared volatility 0.06,
+margin scale 320, score SD `0.12 * averageScore + 1.9`, RD maximum 450 and initial
+RD fraction 0.75. It is used by ordinary `run` and `predict` commands. Select
+`-Delo.model.profile=legacy` to reproduce the pre-selection model; other calibrated
+profiles and explicit property overrides remain available. The dated investigations
+below describe their historical reference models, not successive active defaults.
+
 ## Glicko investigation — 2026-11-01 (AI generated)
 
 The default model now uses **margin scale 360** (previously 400) and a **score-learning
@@ -630,8 +639,8 @@ Both alternatives are implemented and jointly recalibrated. **A calibrated share
 volatility is the simpler recommendation.** The new adaptive update greatly reduces
 lifetime match-count dependence, but does not establish an improvement over a
 matched, recalibrated constant-volatility control. There is no single winner on
-all forecast metrics. Existing default behavior is retained; the new complete
-configurations can be selected with `-Delo.model.profile=...`.
+all forecast metrics. The user subsequently selected **`shared-matched`**, which is now the runtime
+default. Other complete configurations can be selected with `-Delo.model.profile=...`.
 
 ![Comparison of recalibrated volatility models](benchmarks/volatility-model-comparison-2026-11-01/comparison.png)
 
@@ -695,6 +704,26 @@ versus matched shared Brier is **0.421542 → 0.418454** and WDL log loss
 Full individual calendar years are in `calendar-years.csv`; the grouped results
 are in `periods.csv`. Raw per-date losses for the two `since-2010` replays are
 compressed as `.csv.gz`, which the analysis script reads transparently.
+
+### Relationship to original Glicko
+
+With a shared constant sigma, the rating/RD recurrence is algebraically the
+[original Glicko recurrence](https://www.glicko.net/glicko/glicko.pdf), expressed in
+the normalized units also used by Glicko-2 (up to rounding of the published scale).
+Original Glicko ages uncertainty with a common constant `c`; this implementation
+uses `c = 173.7178 * sigma / sqrt(rdPeriodDays)` per square-root day. At sigma 0.06
+and a one-day period, that is **10.423068 rating points per square-root day**:
+`RD_aged^2 = RD_old^2 + elapsedDays * c^2`, subject to the configured RD cap.
+
+What was removed is Glicko-2's individualized volatility estimation, not the
+team-specific uncertainty represented by RD. The complete korfbalelo model still
+adds goal-margin fractional scores, calibrated goal distributions, home advantage,
+scoring-pace/seasonal adjustments, and custom initialization. It is consequently
+best described as a **Glicko-based goal-margin model**, rather than an unmodified
+implementation of the original win/draw/loss system. An independent regression
+test now compares shared-mode updates with the published Glicko equations in
+rating-point units. The calculator keeps its existing name because it also
+supports the historical Glicko-2 volatility experiment.
 
 ### Per-match adaptive calculation
 
@@ -854,7 +883,7 @@ dominance across every season or competition.
 Complete optional profiles are bundled in `src/main/resources/rating-profiles.json`.
 Individual `elo.model.*` system properties override the selected profile.
 
-| Setting | Existing default | `shared-matched` | `goal-margin-balanced` | `shared-balanced` |
+| Setting | Pre-selection baseline | `shared-matched` | `goal-margin-balanced` | `shared-balanced` |
 | --- | ---: | ---: | ---: | ---: |
 | Volatility mode | legacy | shared | goal-margin | shared |
 | Shared sigma / adaptive prior | 0.06 initially | 0.06 | 0.0825 | 0.066 |
@@ -880,7 +909,8 @@ archive-length parameter effect without extra per-club state learning and gives
 the lowest later Brier among the frozen candidates. Prefer **`shared-balanced`**
 when per-team point-score error matters more. Keep the adaptive profile available
 for further experiments; the tested complexity is not justified by these results.
-No default switch is made merely because one objective improves.
+The user selected `shared-matched` after reviewing those tradeoffs, and it is now
+the default. The benchmark baseline remains the pre-selection model.
 
 ```bash
 # AI generated: optional complete profiles, forwarded to run/predict by Gradle.

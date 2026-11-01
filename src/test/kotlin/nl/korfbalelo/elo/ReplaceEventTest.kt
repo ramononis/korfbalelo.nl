@@ -1,5 +1,6 @@
 package nl.korfbalelo.elo
 
+import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import java.time.LocalDate
@@ -8,8 +9,12 @@ import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
 class ReplaceEventTest {
+    // AI generated: preservation tests deliberately exercise historical per-team volatility.
+    private lateinit var previousModel: RatingModelConfig
     @BeforeEach
     fun resetState() {
+        previousModel = RatingModel.config
+        RatingModel.config = RatingModelConfig.standard
         ApplicationNew.log = false
         Team.reset()
         RankingNew.ranking.clear()
@@ -17,6 +22,11 @@ class ReplaceEventTest {
         RankingNew.graph.clear()
         DiscontinuedTeams.clear()
         originMap = mutableMapOf()
+    }
+
+    @AfterEach
+    fun restoreModel() {
+        RatingModel.config = previousModel
     }
 
     @Test
@@ -181,4 +191,20 @@ class ReplaceEventTest {
         val keepExisting = parseEvent("2026-01-01 merge Old Team,Other Team > Old Team > City") as MergeEvent
         assertTrue(keepExisting.name in keepExisting.oldNames)
     }
+
+    @Test
+    fun `shared policy normalizes predecessor volatility before a merge`() {
+        RatingModel.config = RatingModelConfig.standard.copy(
+            volatility = VolatilityConfig(mode = VolatilityMode.SHARED))
+        val date = LocalDate.of(2026, 1, 1)
+        val a = Team("A", "City", 1500.0).also { it.rv = .04; it.lastDate = date }
+        val b = Team("B", "City", 1600.0).also { it.rv = .08; it.lastDate = date }
+        RankingNew.add(a)
+        RankingNew.add(b)
+        MergeEvent(date, "A / B", "City", listOf("A", "B")).run()
+        assertEquals(.06, a.rv)
+        assertEquals(.06, b.rv)
+        assertEquals(.06, RankingNew.ranking.getValue("A / B").rv)
+    }
+
 }

@@ -115,6 +115,8 @@ object VolatilityInvestigation {
 
     @JvmStatic
     fun main(args: Array<String>) {
+        // AI generated: this historical diagnostic compares against the original learned policy.
+        if (System.getProperty("elo.model.profile") == null) System.setProperty("elo.model.profile", "legacy")
         val events = FileEventCatalog().loadAllEvents()
         val window = BenchmarkWindow.fromEvents(events)
         val output = File(System.getProperty("elo.benchmark.output", "build/volatility"))
