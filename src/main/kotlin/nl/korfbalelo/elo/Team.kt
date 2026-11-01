@@ -121,7 +121,9 @@ class Team {
         val rdPrime = glickoUpdate.rating.ratingDeviation
 
         if (trackCurrent) currentDiff += rPrime - rating
-        val scoreLearningWeight = glickoUpdate.ratingPeriodVariance * glickoUpdate.opponentImpact
+        // AI generated: extreme rating mismatches otherwise amplify score residuals without bound.
+        val scoreLearningWeight = (glickoUpdate.ratingPeriodVariance * glickoUpdate.opponentImpact)
+            .coerceAtMost(RatingModel.config.scoreLearningWeightCap)
         val newAverageScore = averageScore + (_for - expScore) / SCORE_SPEED_INV * scoreLearningWeight
 
         if (ApplicationNew.log) {

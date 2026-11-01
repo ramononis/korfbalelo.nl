@@ -1,5 +1,6 @@
 package nl.korfbalelo.elo
 
+import java.time.LocalDate
 import kotlin.math.absoluteValue
 import kotlin.math.ln
 import kotlin.math.pow
@@ -12,6 +13,8 @@ private const val LOG_LOSS_FLOOR = 1.0e-15
 // AI generated
 object PredictionBenchmark {
 
+    // AI generated: optional date clusters for paired, chronology-aware benchmark comparisons.
+    val byDate = sortedMapOf<LocalDate, PredictionWindowStats>()
     var range = AccuracyTracker.accuracyRange
     var ratingDeltaMagnitude = 0.0
     var minRatingDeltaMagnitude = Double.MAX_VALUE
@@ -21,6 +24,7 @@ object PredictionBenchmark {
         private set
 
     fun reset() {
+        byDate.clear()
         ratingDeltaMagnitude = 0.0
         accuracy = PredictionWindowStats()
         current = PredictionWindowStats()
@@ -42,6 +46,9 @@ object PredictionBenchmark {
         if (match.homeScore < 0 || match.awayScore < 0) return
         if (match.date in range.first..range.second) {
             accuracy.record(match, home, away, diffDistro)
+            if (java.lang.Boolean.getBoolean("elo.benchmark.byDate")) {
+                byDate.getOrPut(match.date) { PredictionWindowStats() }.record(match, home, away, diffDistro)
+            }
         }
         if (Team.trackCurrent) {
             current.record(match, home, away, diffDistro)

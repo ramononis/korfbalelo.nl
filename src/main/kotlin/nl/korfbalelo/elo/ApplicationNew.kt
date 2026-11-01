@@ -131,6 +131,8 @@ object ApplicationNew {
                 "HOME_ADVANTAGE_SPEED" to RatingModel.config.homeAdvantageSpeed,
                 "SCORE_SPEED_INV" to RatingModel.config.scoreSpeedInv,
                 "MARGIN_RATING_SCALE" to RatingModel.config.marginRatingScale,
+                // AI generated: include bounded pace learning in exported model provenance.
+                "SCORE_LEARNING_WEIGHT_CAP" to RatingModel.config.scoreLearningWeightCap.takeIf { it.isFinite() },
                 "MIN_AVERAGE_SCORE" to RatingModel.config.minAverageScore,
                 "SCORE_RATING_TWEAK_MODE" to ScoreRatingTweak.config.mode.name,
                 "SCORE_RATING_TWEAK_LEARNING_RATE" to ScoreRatingTweak.config.learningRate,
