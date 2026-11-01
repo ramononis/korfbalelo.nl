@@ -14,41 +14,50 @@ data class RatingModelConfig(
     val minAverageScore: Double = 0.5,
     // AI generated: bound the inverse-information multiplier used to learn scoring pace.
     val scoreLearningWeightCap: Double = 4.0,
+    // AI generated: volatility policies are independently calibrated in sequential replay.
+    val volatility: VolatilityConfig = VolatilityConfig(),
+    val initialRdFraction: Double = 0.5,
 ) {
     init {
+        require(initialRdFraction > 0 && initialRdFraction <= 1)
         require(scoreLearningWeightCap > 0.0) { "Score learning weight cap must be positive" }
     }
 
     override fun toString(): String =
         "H=$initialHomeAdvantage Hs=$homeAdvantageSpeed scoreInv=$scoreSpeedInv " +
             "sd=$scoreSdSlope/$scoreSdIntercept marginScale=$marginRatingScale " +
-            "rd=$rdMax/$rdPeriodDays minScore=$minAverageScore scoreWeightCap=$scoreLearningWeightCap"
+            "rd=$rdMax/$rdPeriodDays minScore=$minAverageScore scoreWeightCap=$scoreLearningWeightCap " +
+            "volatility=$volatility initialRdFraction=$initialRdFraction"
 
     companion object {
         val standard = RatingModelConfig()
 
-        fun fromSystemProperties(): RatingModelConfig =
-            RatingModelConfig(
+        fun fromSystemProperties(): RatingModelConfig {
+            val defaults = RatingProfiles.selected()?.model ?: standard
+            return RatingModelConfig(
+                volatility = VolatilityConfig.fromSystemProperties(defaults.volatility),
+                initialRdFraction = System.getProperty("elo.model.initialRdFraction")?.toDouble() ?: defaults.initialRdFraction,
                 initialHomeAdvantage = System.getProperty("elo.model.initialHomeAdvantage")?.toDoubleOrNull()
-                    ?: standard.initialHomeAdvantage,
+                    ?: defaults.initialHomeAdvantage,
                 homeAdvantageSpeed = System.getProperty("elo.model.homeAdvantageSpeed")?.toDoubleOrNull()
-                    ?: standard.homeAdvantageSpeed,
+                    ?: defaults.homeAdvantageSpeed,
                 scoreSpeedInv = System.getProperty("elo.model.scoreSpeedInv")?.toDoubleOrNull()
-                    ?: standard.scoreSpeedInv,
+                    ?: defaults.scoreSpeedInv,
                 scoreSdSlope = System.getProperty("elo.model.scoreSdSlope")?.toDoubleOrNull()
-                    ?: standard.scoreSdSlope,
+                    ?: defaults.scoreSdSlope,
                 scoreSdIntercept = System.getProperty("elo.model.scoreSdIntercept")?.toDoubleOrNull()
-                    ?: standard.scoreSdIntercept,
+                    ?: defaults.scoreSdIntercept,
                 marginRatingScale = System.getProperty("elo.model.marginRatingScale")?.toDoubleOrNull()
-                    ?: standard.marginRatingScale,
-                rdMax = System.getProperty("elo.model.rdMax")?.toDoubleOrNull() ?: standard.rdMax,
+                    ?: defaults.marginRatingScale,
+                rdMax = System.getProperty("elo.model.rdMax")?.toDoubleOrNull() ?: defaults.rdMax,
                 rdPeriodDays = System.getProperty("elo.model.rdPeriodDays")?.toDoubleOrNull()
-                    ?: standard.rdPeriodDays,
+                    ?: defaults.rdPeriodDays,
                 scoreLearningWeightCap = System.getProperty("elo.model.scoreLearningWeightCap")?.toDoubleOrNull()
-                    ?: standard.scoreLearningWeightCap,
+                    ?: defaults.scoreLearningWeightCap,
                 minAverageScore = System.getProperty("elo.model.minAverageScore")?.toDoubleOrNull()
-                    ?: standard.minAverageScore,
+                    ?: defaults.minAverageScore,
             )
+        }
     }
 }
 

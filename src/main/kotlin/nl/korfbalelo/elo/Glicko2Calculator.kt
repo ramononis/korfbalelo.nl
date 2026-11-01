@@ -52,6 +52,7 @@ object Glicko2Calculator {
         player: Glicko2Rating,
         game: Glicko2Game,
         maxRatingDeviation: Double = MAX_RATING_DEVIATION,
+        updateVolatility: Boolean = true,
     ): Glicko2Update {
         require(game.score in 0.0..1.0) { "Glicko-2 score must be in [0, 1], was ${game.score}" }
 
@@ -66,12 +67,12 @@ object Glicko2Calculator {
         val expectedScore = 1.0 / (1.0 + exp(-opponentImpact * ratingDifference))
         val variance = 1 / (opponentImpact * opponentImpact * expectedScore * (1.0 - expectedScore))
         val estimatedImprovement = variance * opponentImpact * (game.score - expectedScore)
-        val volatility = updatedVolatility(
+        val volatility = if (updateVolatility) updatedVolatility(
             phi = phi,
             volatility = player.volatility,
             variance = variance,
             estimatedImprovement = estimatedImprovement,
-        )
+        ) else player.volatility
 
         val newPhi = min(toPhi(maxRatingDeviation), 1.0 / sqrt(1.0 / phi / phi + 1.0 / variance))
         val normalizedRatingDelta = newPhi * newPhi * (opponentImpact * (game.score - expectedScore))

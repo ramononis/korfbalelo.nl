@@ -103,18 +103,20 @@ data class ScoreSeasonalityConfig(
             halfLifeDays = 0.0,
         )
 
-        fun fromSystemProperties(): ScoreSeasonalityConfig =
-            ScoreSeasonalityConfig(
+        fun fromSystemProperties(): ScoreSeasonalityConfig {
+            val defaults = RatingProfiles.selected()?.seasonality ?: standard
+            return ScoreSeasonalityConfig(
                 mode = System.getProperty("elo.model.scoreSeasonality.mode")
                     ?.let { ScoreSeasonalityMode.valueOf(it.uppercase()) }
-                    ?: standard.mode,
+                    ?: defaults.mode,
                 learningRate = System.getProperty("elo.model.scoreSeasonality.learningRate")?.toDoubleOrNull()
-                    ?: standard.learningRate,
+                    ?: defaults.learningRate,
                 maxAdjustment = System.getProperty("elo.model.scoreSeasonality.maxAdjustment")?.toDoubleOrNull()
-                    ?: standard.maxAdjustment,
+                    ?: defaults.maxAdjustment,
                 halfLifeDays = System.getProperty("elo.model.scoreSeasonality.halfLifeDays")?.toDoubleOrNull()
-                    ?: standard.halfLifeDays,
+                    ?: defaults.halfLifeDays,
             )
+        }
     }
 }
 

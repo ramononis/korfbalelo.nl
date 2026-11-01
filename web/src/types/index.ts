@@ -1,4 +1,5 @@
 import { metaData } from '@/simulator/SeasonSimulator'
+import { prepareVolatility } from '@/simulator/Volatility'
 import { formattedDiff, sampleND } from '@/utils'
 
 const D = 173.7178
@@ -25,6 +26,8 @@ export class Team {
     const phiPre = this.rd / D
     const periods = (date.getTime() - this.lastMatchDate.getTime())
       / DAY_MILLIS / metaData!.RD_PERIOD_DAYS
+    // AI generated: mirror backend calendar aging for the exported policy.
+    this.rv = prepareVolatility(this.rv, periods * metaData!.RD_PERIOD_DAYS, metaData!)
     const rd = Math.min(
       metaData!.RD_MAX / D,
       Math.sqrt(phiPre * phiPre + periods * this.rv * this.rv)
