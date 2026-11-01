@@ -101,7 +101,6 @@ For frontend/store/simulator changes:
 - Unit test coverage is light.
 - `GlickoCalculatorTest` checks rating equations and shared calendar uncertainty growth.
 - Keep backend uncertainty growth and `web/src/simulator/RatingDeviation.ts` aligned.
-- `benchmarkModel` evaluates the current defaults; `--args=calibrate` searches nearby constants.
 - Prefer validating behavior via targeted simulation runs plus frontend build/type-check.
 
 ## When Unsure

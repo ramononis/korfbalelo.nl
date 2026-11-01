@@ -266,47 +266,8 @@ The initial home advantage is 35 points and its learning rate is 1/64.
 Ratings are recentered across active teams during replay.
 
 `RatingModelConfig`, `ScoreRatingTweakConfig` and `ScoreSeasonalityConfig` define
-the defaults. `elo.model.*` system properties override individual settings for
-calibration, for example `-Delo.model.rdGrowthPerSqrtDay=10.423068`.
-
-### Evaluation and calibration
-
-<!-- AI generated -->
-The benchmark replays all preceding training matches, scores predictions before
-applying each result, and excludes events after the evaluation end date. It
-reports W/D/L Brier score and log loss, goal-margin and team-score MAE, Gaussian
-margin likelihood and 95% interval coverage. Lower losses and errors are better.
-
-```bash
-# Evaluate the current defaults, with all earlier matches retained for training.
-./gradlew benchmarkModel -Delo.benchmark.from=2010-01-01 \
-  -Delo.benchmark.output=build/model.csv
-
-# Search nearby constants on development data; evaluate chosen settings separately.
-./gradlew benchmarkModel --args=calibrate \
-  -Delo.benchmark.from=2010-01-01 -Delo.benchmark.to=2022-01-01 \
-  -Delo.benchmark.output=build/calibration.csv
-
-# Sensitivity check excluding the outcome-fitted team starting ratings.
-./gradlew benchmarkModel -Delo.benchmark.from=2010-01-01 \
-  -Delo.benchmark.fittedStarts=false -Delo.benchmark.output=build/no-fitted-starts.csv
-```
-
-The checked-in `benchmarks/model.csv` records the current model's evaluation from
-2010 onward; `model-recent.csv` covers matches after 2022-01-01 and
-`model-no-fitted-starts.csv` records the starting-rating sensitivity run.
-
-| Evaluation | Matches | Brier | W/D/L log loss | Margin MAE | Team-score MAE |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| 2010 onward | 71,531 | 0.418401 | 0.722009 | 3.9901 | 3.1769 |
-| After 2022-01-01 | 18,690 | 0.402473 | 0.695602 | 4.1859 | 3.2872 |
-| 2010 onward, without fitted starts | 71,531 | 0.418448 | 0.722067 | 3.9896 | 3.1769 |
-
-These results include matches through 2026-10-17. Starting ratings in
-`startratings.csv` are fitted using historical outcomes, so the default replay is not a completely independent prospective
-backtest. Use the sensitivity option above and a later evaluation window when
-assessing a calibration change. Benchmark tasks write their own result files;
-they do not regenerate website data.
+the defaults. `elo.model.*` system properties override individual settings,
+for example `-Delo.model.rdGrowthPerSqrtDay=10.423068`.
 
 `ranking.csv` contains, in order: name, rating, last rating date, first match
 date, season rating change, place, RD and scoring pace. `meta.json` exports
