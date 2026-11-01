@@ -186,7 +186,8 @@ published in-memory competition data untouched.
 The legacy `KNKV-DISTRICT-OOST` filter now labels nationwide **B-category** competitions.
 The outdoor SN and RN pool names/IDs match the previous cached source (67 and 156 pools,
 respectively, checked October 11, 2026). Both teams must still end in ` 1` to enter Elo input.
-The versioned `static-poules/zaal2627.json` remains the default indoor source. Upcoming live
+Live indoor poules and their dated fixtures are used by default. The versioned
+`static-poules/zaal2627.json` is available as an explicit provisional source. Upcoming live
 pools with no standings, results, or programme are skipped as unpublished; published matches
 without standings still cause a clear failure.
 
@@ -200,7 +201,7 @@ Other scraper properties:
 
 - `elo.scraper.apiBase`: override the API base for a future endpoint move.
 - `elo.scraper.cacheDirectory`: override the cache directory (default `cache`).
-- `elo.scraper.useStaticIndoorPoules=false`: explicitly test all live indoor sources.
+- `elo.scraper.useStaticIndoorPoules=true`: use provisional static indoor poules without a published fixture schedule.
 - `elo.scraper.writeCurrentMatches=false`: suppress match-file writes.
 - `elo.scraper.writeSpecialMatches=false`: suppress specials-file writes as well.
 - `elo.scraper.requestIntervalMillis`: minimum interval between requests (default `200`).

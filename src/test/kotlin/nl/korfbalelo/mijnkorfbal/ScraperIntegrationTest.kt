@@ -18,6 +18,9 @@ class ScraperIntegrationTest {
         var fail = false
         var unpublishedIndoor = false
         var resultsWithoutStandings = false
+        // AI generated: exercise both an upcoming first-team fixture and reserve filtering.
+        val firstTeamFixture = PortalFixtures.result.substringBefore(",\"stats\":")
+            .replace("2026-10-10", "2026-11-07") + "}"
         server.createContext("/competition") { exchange ->
             val uri = exchange.requestURI
             requests.add(uri.toString())
@@ -34,7 +37,7 @@ class ScraperIntegrationTest {
                 uri.path.endsWith("/standing") -> PortalFixtures.standing
                 uri.path.endsWith("/2/results") -> "[${PortalFixtures.result.replace("2026-10-10", "2026-10-09")}]"
                 uri.path.endsWith("/results") -> "[${PortalFixtures.result},${PortalFixtures.result.replace("Heerenveen 1", "Heerenveen 2")}]"
-                uri.path.endsWith("/program") -> "[{\"week\":41,\"matches\":[${PortalFixtures.fixture}]}]"
+                uri.path.endsWith("/program") -> "[{\"week\":41,\"matches\":[${PortalFixtures.fixture},$firstTeamFixture]}]"
                 else -> error("Unexpected request: $uri")
             }
             val body = if (fail && uri.path.endsWith("/results")) "{\"success\":false,\"statusCode\":200,\"message\":\"synthetic failure\",\"data\":[]}" else PortalFixtures.envelope(data)
@@ -73,13 +76,14 @@ class ScraperIntegrationTest {
             val specials = File(directory, "web/public/specialszaal2627.json")
             assertContains(specials.readText(), "2026-10-09,Heerenveen,WKS")
 
-            // Explicitly exercise the live indoor route despite the versioned static file.
-            System.setProperty("elo.scraper.useStaticIndoorPoules", "false")
+            // AI generated: the default route must keep live fixtures even when static poules exist.
+            System.clearProperty("elo.scraper.useStaticIndoorPoules")
             assertEquals(2, Scraper.scrapePoules().size)
             assertTrue(requests.any { it.contains("category=ZS") })
             assertTrue(requests.any { it.contains("category=ZR&") || it.endsWith("category=ZR") })
             assertTrue(requests.any { it.contains("category=ZRB") })
             assertEquals(setOf("EK-01"), Scraper.indoorPoules.keys)
+            assertTrue(Scraper.indoorPoules.getValue("EK-01").second.any { it.homeScore == -1 })
 
             unpublishedIndoor = true
             assertEquals(2, Scraper.scrapePoules().size)

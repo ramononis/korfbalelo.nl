@@ -91,7 +91,7 @@ object ApplicationNew {
             ranking.values.maxByOrNull { it.rating }.let(::printlnn)
             outputFiles.writeWebRanking(ranking.values)
             // AI generated: live fixtures must not recreate static future snapshots.
-            if (!doOutdoor && System.getProperty("elo.scraper.useStaticIndoorPoules", "true").toBoolean()
+            if (!doOutdoor && System.getProperty("elo.scraper.useStaticIndoorPoules", "false").toBoolean()
                 && StaticPoules.hasIndoorPoules(SeasonContext.indoor.seasonName)) {
                 StaticPoules.writeFrontendArtifacts(SeasonContext.indoor.seasonName)
             }
