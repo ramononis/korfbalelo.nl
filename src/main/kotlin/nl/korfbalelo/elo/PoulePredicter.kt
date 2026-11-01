@@ -277,7 +277,6 @@ class PoulePredicter(
                 teamsCopy[index] = Team(team.name, "JE MOEDER", team.rating).apply {
                     lastDate = team.lastDate
                     rd = team.rd
-                    rv = team.rv
                     averageScore = team.averageScore
                 }
             }

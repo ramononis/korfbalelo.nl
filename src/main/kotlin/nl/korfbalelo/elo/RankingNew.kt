@@ -131,6 +131,8 @@ object RankingNew {
         "Amicitia" to "Amicitia (V)",
         "Animo" to "Animo (G)",
         "Antilopen/Bloemendal Bouw" to "Antilopen",
+        // AI generated: normalize the sponsored KNKV name to the existing club.
+        "Apeldoorn/PassaKorfbal" to "Apeldoorn",
         "Avanti/Post Makelaardij" to "Avanti (P)",
         "Blauw-Wit (A)" to "Blauw Wit",
         "Celeritas" to "Celeritas (A)",

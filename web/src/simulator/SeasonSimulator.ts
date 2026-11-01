@@ -29,9 +29,9 @@ export type MetaData = {
   H: number,
   SD_A: number,
   SD_B: number,
-  RD_PERIOD_DAYS: number,
+  RD_GROWTH_PER_SQRT_DAY: number,
   RD_MAX: number,
-  MARGIN_RATING_SCALE?: number,
+  MARGIN_RATING_SCALE: number,
   MIN_AVERAGE_SCORE?: number,
   SCORE_SEASONALITY_MODE?: 'OFF' | 'MONTHLY_OFFSET',
   SCORE_SEASONALITY_MONTH_OFFSETS?: number[],
@@ -150,8 +150,8 @@ export async function constructCalc(params: SimulatorParams): Promise<() => Simu
           t1.sampleRating(d)
           t2.sampleRating(d)
           const hPower = neutral ? 0.0 : 1.0
-          // AI-assisted: keep the browser Elo probability formula aligned with the backend.
-          const ratingDifference = (t2.rating - t1.rating - metaData.H * hPower) / 400.0
+          // AI generated: use the exported margin scale for playoff win probabilities.
+          const ratingDifference = (t2.rating - t1.rating - metaData.H * hPower) / metaData.MARGIN_RATING_SCALE
           const e1 = 1.0 / (1.0 + Math.pow(10.0, ratingDifference))
           return (Math.random() < e1) ? [t1, t2] : [t2, t1]
         }

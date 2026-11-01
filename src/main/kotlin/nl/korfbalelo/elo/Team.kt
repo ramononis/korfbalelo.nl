@@ -11,7 +11,6 @@ import kotlin.math.sign
 data class RatingUpdate(
     val rating: Double,
     val rd: Double,
-    val rv: Double,
     val averageScore: Double,
 ) {
     fun withRatingDelta(delta: Double): RatingUpdate =
@@ -43,8 +42,7 @@ class Team {
             }
         }
 
-    var rd: Double = RD_MAX / 2.0
-    var rv: Double = Glicko2Calculator.DEFAULT_VOLATILITY
+    var rd: Double = RD_MAX * RatingModel.config.initialRdFraction
     var averageScore = 5.0
     var currentDiff = 0.0
     var origins = 1
@@ -73,12 +71,13 @@ class Team {
         rd = 0.0
     }
 
+    // AI generated: age uncertainty using the shared calendar growth rate.
     fun setNewRD(date: LocalDate) {
-        val periods = ChronoUnit.DAYS.between(lastDate ?: date, date) / RD_PERIOD_DAYS
-        rd = Glicko2Calculator.ageRatingDeviation(
+        val elapsedDays = ChronoUnit.DAYS.between(lastDate ?: date, date).toDouble()
+        rd = GlickoCalculator.ageRatingDeviation(
             ratingDeviation = rd,
-            volatility = rv,
-            periods = periods,
+            elapsedDays = elapsedDays,
+            growthPerSqrtDay = RatingModel.config.rdGrowthPerSqrtDay,
             maxRatingDeviation = RD_MAX,
         )
         lastDate = date
@@ -99,17 +98,15 @@ class Team {
         val matchScore = 1.0 - diffDistro.cdf(diffDistro.first - diff.toDouble())
         val expScore = sumAve + diffDistro.first * 0.5
         val homeAdvantageForTeam = if (atHome) H else -H
-        val glickoUpdate = Glicko2Calculator.update(
-            player = Glicko2Rating(
+        val glickoUpdate = GlickoCalculator.update(
+            player = GlickoRating(
                 rating = rating,
                 ratingDeviation = rd,
-                volatility = rv,
             ),
-            game = Glicko2Game(
-                opponent = Glicko2Rating(
+            game = GlickoGame(
+                opponent = GlickoRating(
                     rating = opponent.rating,
                     ratingDeviation = opponent.rd,
-                    volatility = opponent.rv,
                 ),
                 score = matchScore,
                 opponentRatingPenalty = homeAdvantageForTeam,
@@ -121,7 +118,9 @@ class Team {
         val rdPrime = glickoUpdate.rating.ratingDeviation
 
         if (trackCurrent) currentDiff += rPrime - rating
-        val scoreLearningWeight = glickoUpdate.ratingPeriodVariance * glickoUpdate.opponentImpact
+        // AI generated: extreme rating mismatches otherwise amplify score residuals without bound.
+        val scoreLearningWeight = (glickoUpdate.ratingPeriodVariance * glickoUpdate.opponentImpact)
+            .coerceAtMost(RatingModel.config.scoreLearningWeightCap)
         val newAverageScore = averageScore + (_for - expScore) / SCORE_SPEED_INV * scoreLearningWeight
 
         if (ApplicationNew.log) {
@@ -157,7 +156,6 @@ class Team {
         return RatingUpdate(
             rating = rPrime,
             rd = rdPrime,
-            rv = glickoUpdate.rating.volatility,
             averageScore = newAverageScore,
         )
     }
@@ -165,7 +163,6 @@ class Team {
     fun setNewRating(update: RatingUpdate) {
         rating = update.rating
         rd = update.rd
-        rv = update.rv
         averageScore = max(RatingModel.config.minAverageScore, update.averageScore)
     }
 
@@ -178,7 +175,6 @@ class Team {
             ", age=" + games +
             ", origins=" + origins +
             ", RD=" + rd +
-            ", σ=" + rv +
             '}'
     }
 
@@ -196,8 +192,6 @@ class Team {
         var trackCurrent = false
         val RD_MAX: Double
             get() = RatingModel.config.rdMax
-        val RD_PERIOD_DAYS: Double
-            get() = RatingModel.config.rdPeriodDays
         val H_SPEED: Double
             get() = RatingModel.config.homeAdvantageSpeed
         val SCORE_SPEED_INV: Double
