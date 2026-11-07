@@ -841,3 +841,61 @@
 2026-10-17,RDZ,DOS (W),14,4
 2026-10-17,VIKO,EKCA,8,8
 2026-11-06,DVO,DOS '46,27,28
+2026-11-07,Ados,De Corvers,27,12
+2026-11-07,Attila,NKV,15,19
+2026-11-07,DKV Victoria,EKVA,26,17
+2026-11-07,DSO (K),Zaamslag,24,12
+2026-11-07,DTS (E),Helios,24,13
+2026-11-07,De Parabool,ZKC '19,23,24
+2026-11-07,EKC 2000,Oranje Zwart,15,23
+2026-11-07,ESDO,Hebbes,10,12
+2026-11-07,Fiducia,SDO (K),26,26
+2026-11-07,Focus,Scheldevogels,11,16
+2026-11-07,Fortissimo,RODA (W),15,16
+2026-11-07,GKV,Dijkvogels,13,28
+2026-11-07,Gemini,WION,16,10
+2026-11-07,Good Luck,Erasmus,18,16
+2026-11-07,HBC (Be),Madjoe,18,10
+2026-11-07,Het Bosch,De Eemvogels,7,8
+2026-11-07,Huizen,DOS (W),19,12
+2026-11-07,IJsselvogels,Korbatjo,18,11
+2026-11-07,KCC,Blauw Wit,11,16
+2026-11-07,KVS '17,Ready '60,10,15
+2026-11-07,KVW '22,Wez Handich,25,21
+2026-11-07,Kesteren,Duko / Wesstar,0,0
+2026-11-07,Kleine Sluis,Stormvogels (U),13,18
+2026-11-07,Koveni,Luno,10,22
+2026-11-07,Leeuwarden,Sparta (Ze),10,27
+2026-11-07,Luctor,SKV (S),21,12
+2026-11-07,Maassluis,Avanti (P),23,28
+2026-11-07,Movado,ODO (M),19,7
+2026-11-07,Nexus,Conventus,16,14
+2026-11-07,Nijmegen,Woudenberg,0,0
+2026-11-07,OEC,DKB,14,19
+2026-11-07,Olympia '22,Roreko,21,14
+2026-11-07,Olympia (S),'t Capproen,10,16
+2026-11-07,Olympia (T),SF Deinum,26,7
+2026-11-07,PKC,KZ,24,17
+2026-11-07,Paal Centraal,VZOD,15,27
+2026-11-07,Phoenix (Z),Fluks (N),22,28
+2026-11-07,Rapid (H),Dunas,18,19
+2026-11-07,Reehorst '45,Devinco,34,23
+2026-11-07,Regio '72,Centrum,22,12
+2026-11-07,Revival,Nova,13,19
+2026-11-07,Rivalen,Hemur Enge,30,11
+2026-11-07,Rust Roest (E),Victum,22,27
+2026-11-07,SDO (W),TOP (V),12,15
+2026-11-07,Seolto,Oranje Zwart (M),18,13
+2026-11-07,SkunK,Rheko,15,20
+2026-11-07,Spannum,Pallas '08,16,20
+2026-11-07,Sporting West,OKV,15,13
+2026-11-07,Swift,Velocitas (L),18,14
+2026-11-07,Thor (H),RDZ,14,12
+2026-11-07,Trekvogels (R),Weidevogels,26,17
+2026-11-07,Ventura Sport,Twist,16,23
+2026-11-07,Voltreffers (O),Terda,11,10
+2026-11-07,Vriendenschaar (B),Zuid '27,19,10
+2026-11-07,WK,Noveas,10,10
+2026-11-07,WWC,Thrianta,19,19
+2026-11-07,Zwaluwen (Ze),Arena,15,13
+2026-11-07,Zwart Wit,Achilles (A) / AKC,10,19
