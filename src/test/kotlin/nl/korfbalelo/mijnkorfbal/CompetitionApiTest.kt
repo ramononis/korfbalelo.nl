@@ -1,6 +1,7 @@
 package nl.korfbalelo.mijnkorfbal
 
 import com.sun.net.httpserver.HttpServer
+import nl.korfbalelo.elo.RankingNew
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
@@ -95,6 +96,21 @@ class CompetitionApiTest {
         assertEquals(-1, fixture.toMatch().homeScore)
         assertEquals(-1, fixture.toMatch().awayScore)
         assertFalse(fixture.copy(homeTeam = CompetitionTeam("Hoogkerk U19-1"), awayTeam = CompetitionTeam("WKS 1")).isFirstTeamMatch())
+    }
+
+    // AI generated: the daily prediction failed on this new KNKV sponsor name.
+    @Test fun `Apeldoorn sponsor name stays consistent across results fixtures and standings`() {
+        val sponsoredResult = PortalFixtures.result.replace("Heerenveen 1", "Apeldoorn/PassaKorfbal 1")
+        body = PortalFixtures.envelope("[$sponsoredResult]")
+        assertEquals("Apeldoorn", api().results(103073, "2026-10-10", "2026-10-10").single().toMatch().home)
+
+        val sponsoredFixture = PortalFixtures.fixture.replace("Wêz Handich/DOW/TFS 4", "Apeldoorn/PassaKorfbal 1")
+        body = PortalFixtures.envelope("[{\"week\":41,\"matches\":[$sponsoredFixture]}]")
+        assertEquals("Apeldoorn", api().program(103073, "2026-10-10", "2026-10-10").single().matches.single().toMatch().away)
+
+        body = PortalFixtures.envelope(PortalFixtures.standing.replace("Heerenveen 1", "Apeldoorn/PassaKorfbal 1"))
+        val team = api().standing(103073).single().standings.first().team.name
+        assertEquals("Apeldoorn", RankingNew.map(team))
     }
 
     @Test fun `local calendar dates survive winter summer and near midnight timestamps`() {
