@@ -868,6 +868,7 @@
 2026-11-07,DTS (E),Helios,24,13
 2026-11-07,DVS '69,Triade,23,16
 2026-11-07,DWA / Argo,NKC (N)/Wees Kwiek,24,11
+2026-11-07,DWS (K),PSV,13,10
 2026-11-07,De Parabool,ZKC '19,23,24
 2026-11-07,De Pein,De Granaet,21,23
 2026-11-07,De Wâlden,ROG,34,17
@@ -897,7 +898,7 @@
 2026-11-07,Huizen,DOS (W),19,12
 2026-11-07,IJsselvogels,Korbatjo,18,11
 2026-11-07,It Fean,VDDO,18,16
-2026-11-07,Juliana,TOGO (G),27,12
+2026-11-07,Juliana,TOGO (G),27,14
 2026-11-07,KCC,Blauw Wit,11,16
 2026-11-07,KCR,Atlas,29,24
 2026-11-07,KIOS (N),KZ Danaiden,19,19
@@ -974,3 +975,4 @@
 2026-11-07,Westergo,In Fundo,16,12
 2026-11-07,Zwaluwen (Ze),Arena,15,13
 2026-11-07,Zwart Wit,Achilles (A) / AKC,10,19
+2026-11-08,LDODK,DeetosSnel,24,21
