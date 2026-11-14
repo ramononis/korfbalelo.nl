@@ -978,3 +978,4 @@
 2026-11-07,Zwart Wit,Achilles (A) / AKC,10,19
 2026-11-08,LDODK,DeetosSnel,24,21
 2026-11-10,Kesteren,Duko / Wesstar,9,22
+2026-11-13,KZ,LDODK,28,25
