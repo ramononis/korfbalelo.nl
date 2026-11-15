@@ -725,7 +725,6 @@
 2026-10-10,DOS (W),Oosterkwartier (H),12,8
 2026-10-10,DOS Kampen,Kinea / Udiros,13,16
 2026-10-10,DSC,Nieuwerkerk,18,15
-2026-10-10,DSO (A),Kleine Sluis,0,0
 2026-10-10,DTS (E),Stormvogels (U),17,9
 2026-10-10,DTS (S) / Harkema,DTG,9,13
 2026-10-10,DVS '69,Merwede,10,16
@@ -754,7 +753,6 @@
 2026-10-10,Heerenveen,WKS,13,19
 2026-10-10,Hellas '63,Sparta (Zw),8,26
 2026-10-10,Hoogkerk,ROG,16,9
-2026-10-10,In Fundo,Huizen,0,0
 2026-10-10,It Fean,ASVD,14,17
 2026-10-10,Juliana,Movado,11,19
 2026-10-10,Juventa,HKC (He),18,6
@@ -843,7 +841,6 @@
 2026-11-06,DVO,DOS '46,27,28
 2026-11-07,ACKC,RWA,25,20
 2026-11-07,ADO,OZC,18,20
-2026-11-07,ALO,Refleks,0,0
 2026-11-07,ASVD,Drachten,27,22
 2026-11-07,AVO,De Meeuwen,20,17
 2026-11-07,AW.DTV,Die Haghe,24,23
@@ -907,7 +904,6 @@
 2026-11-07,KVK,Keep Fit '70,13,13
 2026-11-07,KVS '17,Ready '60,10,15
 2026-11-07,KVW '22,Wez Handich,25,21
-2026-11-07,Kesteren,Duko / Wesstar,0,0
 2026-11-07,Kleine Sluis,Stormvogels (U),13,18
 2026-11-07,Koveni,Luno,10,22
 2026-11-07,Leeuwarden,Sparta (Ze),10,27
@@ -922,7 +918,6 @@
 2026-11-07,Nexus,Conventus,16,14
 2026-11-07,Nic,OVVO,17,14
 2026-11-07,Nieuwerkerk,GKV (G),29,26
-2026-11-07,Nijmegen,Woudenberg,0,0
 2026-11-07,Noordenveld,Wit Blauw,16,18
 2026-11-07,OEC,DKB,14,19
 2026-11-07,ONDO (G),Rohda (A),20,21
@@ -1089,7 +1084,6 @@
 2026-11-14,Telstar,Reehorst '45,21,15
 2026-11-14,Thrianta,Quick '21 / Vlug en Vaardig (G),25,14
 2026-11-14,Tiel '72,Viking,14,15
-2026-11-14,Tilburg,Fortis,9,15
 2026-11-14,Triade,IJsselvogels,13,17
 2026-11-14,Twist,Olympia (S),29,9
 2026-11-14,Unitas,PKC,18,24
