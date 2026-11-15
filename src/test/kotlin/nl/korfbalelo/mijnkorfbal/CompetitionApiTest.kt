@@ -18,6 +18,8 @@ internal object PortalFixtures {
     val standing = """[{"standings":[{"team":{"name":"Heerenveen 1"},"stats":{"penalties":{"points":0},"position":1,"points":12,"goals":{"for":149,"against":69},"won":6,"draw":0,"lost":0}},{"team":{"name":"WKS/European Aerosols 1"},"stats":{"penalties":{"points":0},"position":2,"points":8,"goals":{"for":110,"against":87},"won":4,"draw":0,"lost":2}}]}]"""
     val result = """{"date":"2026-10-10","datetime":"2026-10-10T15:30:00+0200","week":"Week 41","homeTeam":{"teamName":"Heerenveen 1","score":13},"awayTeam":{"teamName":"WKS/European Aerosols 1","score":19},"stats":{"home":{"score":13},"away":{"score":19}}}"""
     val fixture = """{"date":"2026-10-10","datetime":"2026-10-10T12:00:00+0200","week":"Week 41","homeTeam":{"teamName":"Hoogkerk/Schelwald Optiek 4","score":null},"awayTeam":{"teamName":"Wêz Handich/DOW/TFS 4","score":null}}"""
+    // AI generated: canceled original from the observed 2D response, with placeholder scores.
+    val suspendedResult = """{"ref_id":5973,"date":"2026-11-07","homeTeam":{"teamName":"Kesteren 1"},"awayTeam":{"teamName":"Duko/Wesstar 1"},"status":{"game":"Gestaakt of veld afgekeurd","status":"SUSPENDED"},"stats":{"home":{"score":0,"extensionScore":0,"penaltyScore":0},"away":{"score":0,"extensionScore":0,"penaltyScore":0}}}"""
     fun envelope(data: String) = """{"success":true,"statusCode":200,"message":"","data":$data}"""
 }
 
@@ -111,6 +113,52 @@ class CompetitionApiTest {
         body = PortalFixtures.envelope(PortalFixtures.standing.replace("Heerenveen 1", "Apeldoorn/PassaKorfbal 1"))
         val team = api().standing(103073).single().standings.first().team.name
         assertEquals("Apeldoorn", RankingNew.map(team))
+    }
+
+
+    // AI generated: reduced live response from indoor 2D (pool 101215), fetched 2026-11-15.
+    @Test fun `2D suspended original is removed while the rescheduled result remains including from cache`() {
+        val response = javaClass.getResource("/knkv/zaal2627-2d-results.json")!!.readText()
+        body = PortalFixtures.envelope(response)
+        val results = api().results(101215, "2000-08-11", "2100-09-11")
+        assertEquals(8, results.size)
+        val matches = results.map { it.toMatch() }
+        val rescheduled = matches.filter { it.home == "Kesteren" && it.away == "Duko / Wesstar" }.single()
+        assertEquals(LocalDate.of(2026, 11, 10), rescheduled.date)
+        assertEquals(9, rescheduled.homeScore)
+        assertEquals(22, rescheduled.awayScore)
+        assertFalse(matches.any { it.home == "Kesteren" && it.date == LocalDate.of(2026, 11, 7) })
+        assertEquals(results, api().results(101215, "2000-08-11", "2100-09-11"))
+        assertEquals(1, queries.size)
+    }
+
+    // AI generated: non-final statuses must be excluded regardless of placeholder scores.
+    @Test fun `inactive matches are excluded from both results and programme`() {
+        for (status in listOf("SUSPENDED", "CANCELED", "CANCELLED", "POSTPONED", "UNKNOWN")) {
+            for (scores in listOf(true, false)) {
+                val match = if (scores) PortalFixtures.result else PortalFixtures.fixture
+                val inactive = match.dropLast(1) + """, "status":{"status":"$status"}}"""
+                body = PortalFixtures.envelope("[$inactive]")
+                assertTrue(api(true).results(1, "2026-10-10", "2026-10-10").isEmpty(), status)
+                body = PortalFixtures.envelope("""[{"week":41,"matches":[$inactive]}]""")
+                assertTrue(api(true).program(1, "2026-10-10", "2026-10-10").single().matches.isEmpty(), status)
+            }
+        }
+    }
+
+    // AI generated: an actual completed 0-0 draw is valid, and scheduled matches stay unplayed.
+    @Test fun `final zero draw and active scheduled fixture are preserved`() {
+        val zeroDraw = PortalFixtures.result.replace("\"score\":13", "\"score\":0")
+            .replace("\"score\":19", "\"score\":0").dropLast(1) + """, "status":{"status":"FINAL"}}"""
+        val scheduled = PortalFixtures.fixture.dropLast(1) + """, "status":{"status":"SCHEDULED"}}"""
+        body = PortalFixtures.envelope("[$zeroDraw,$scheduled]")
+        val result = api().results(1, "2026-10-10", "2026-10-10").single().toMatch()
+        assertEquals(0, result.homeScore)
+        assertEquals(0, result.awayScore)
+        body = PortalFixtures.envelope("""[{"week":41,"matches":[$zeroDraw,$scheduled]}]""")
+        val fixture = api().program(1, "2026-10-10", "2026-10-10").single().matches.single().toMatch()
+        assertEquals(-1, fixture.homeScore)
+        assertEquals(-1, fixture.awayScore)
     }
 
     @Test fun `local calendar dates survive winter summer and near midnight timestamps`() {

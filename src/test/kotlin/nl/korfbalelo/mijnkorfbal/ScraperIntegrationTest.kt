@@ -33,8 +33,8 @@ class ScraperIntegrationTest {
                 uri.path.endsWith("/2/standing") -> "[]"
                 uri.path.endsWith("/standing") -> PortalFixtures.standing
                 uri.path.endsWith("/2/results") -> "[${PortalFixtures.result.replace("2026-10-10", "2026-10-09")}]"
-                uri.path.endsWith("/results") -> "[${PortalFixtures.result},${PortalFixtures.result.replace("Heerenveen 1", "Heerenveen 2")}]"
-                uri.path.endsWith("/program") -> "[{\"week\":41,\"matches\":[${PortalFixtures.fixture}]}]"
+                uri.path.endsWith("/results") -> "[${PortalFixtures.result},${PortalFixtures.result.replace("Heerenveen 1", "Heerenveen 2")},${PortalFixtures.suspendedResult}]"
+                uri.path.endsWith("/program") -> "[{\"week\":41,\"matches\":[${PortalFixtures.fixture},${PortalFixtures.suspendedResult}]}]"
                 else -> error("Unexpected request: $uri")
             }
             val body = if (fail && uri.path.endsWith("/results")) "{\"success\":false,\"statusCode\":200,\"message\":\"synthetic failure\",\"data\":[]}" else PortalFixtures.envelope(data)
@@ -70,6 +70,9 @@ class ScraperIntegrationTest {
             assertTrue(Scraper.activeTeams.containsAll(listOf("Heerenveen", "WKS")))
             val output = File(directory, "matches/current.txt")
             assertContains(output.readText(), "2026-10-10,Heerenveen,WKS,13,19")
+            // AI generated: inactive originals must not enter persisted or prediction match data.
+            assertFalse(output.readText().contains("Kesteren"))
+            assertFalse(Scraper.outdoorPoules.values.flatMap { it.second }.any { it.home == "Kesteren" })
             val specials = File(directory, "web/public/specialszaal2627.json")
             assertContains(specials.readText(), "2026-10-09,Heerenveen,WKS")
 
@@ -80,6 +83,7 @@ class ScraperIntegrationTest {
             assertTrue(requests.any { it.contains("category=ZR&") || it.endsWith("category=ZR") })
             assertTrue(requests.any { it.contains("category=ZRB") })
             assertEquals(setOf("EK-01"), Scraper.indoorPoules.keys)
+            assertFalse(Scraper.indoorPoules.values.flatMap { it.second }.any { it.home == "Kesteren" })
 
             unpublishedIndoor = true
             assertEquals(2, Scraper.scrapePoules().size)

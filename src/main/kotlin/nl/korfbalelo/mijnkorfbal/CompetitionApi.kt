@@ -10,6 +10,7 @@ import java.io.File
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
 import java.security.MessageDigest
+import java.time.LocalDate
 import java.time.ZonedDateTime
 import java.time.format.DateTimeFormatter
 import java.util.concurrent.Semaphore
@@ -55,11 +56,12 @@ internal class CompetitionApi(
         }
     }
 
-    fun results(poolId: Int, dateFrom: String, dateTo: String): ResultsResult = load(
+    fun results(poolId: Int, dateFrom: String, dateTo: String): ResultsResult = load<ResultsResult>(
         "matches/pools/$poolId/results", dateParameters(dateFrom, dateTo)
     ) { data -> data.array().forEach { validateMatch(it, played = true) } }
+        .filter(CompetitionMatch::isCompleted)
 
-    fun program(poolId: Int, dateFrom: String, dateTo: String): ProgramResult = load(
+    fun program(poolId: Int, dateFrom: String, dateTo: String): ProgramResult = load<ProgramResult>(
         "matches/pools/$poolId/program", dateParameters(dateFrom, dateTo)
     ) { data ->
         data.array().forEach { group ->
@@ -67,22 +69,25 @@ internal class CompetitionApi(
             group.field("matches").array().forEach { validateMatch(it, played = false) }
         }
     }
+        .map { group -> group.copy(matches = group.matches.filter(CompetitionMatch::isScheduled)) }
 
     private fun dateParameters(from: String, to: String) = listOf("dateFrom" to from, "dateTo" to to)
 
     private fun validateMatch(data: JsonElement, played: Boolean) {
         data.field("homeTeam").field("teamName").string()
         data.field("awayTeam").field("teamName").string()
-        data.field("date").string()
+        LocalDate.parse(data.field("date").string())
+        // AI generated: validate identity/date even when an inactive record has no usable scores.
+        val match = gson.fromJson(data, CompetitionMatch::class.java)
+        val status = match.status?.status
+        if (status != null && status !in setOf("FINAL", "SCHEDULED")) return
         val stats = data.asJsonObject.get("stats")?.takeUnless { it.isJsonNull }
-        require(!played || stats != null) { "Result has no scores" }
+        require(!played || status == "SCHEDULED" || stats != null) { "Result has no scores" }
         if (stats != null) {
             listOf("home", "away").forEach {
                 require(stats.field(it).field("score").integer() >= 0) { "Invalid match score" }
             }
         }
-        // Validate the calendar date before saving a response, including reserve-team matches.
-        gson.fromJson(data, CompetitionMatch::class.java).toMatch()
     }
 
     private inline fun <reified T> load(

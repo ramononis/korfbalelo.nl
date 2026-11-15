@@ -40,7 +40,12 @@ data class CompetitionMatch(
     val awayTeam: CompetitionTeam,
     val stats: MatchStats?,
     val date: String,
+    val status: CompetitionMatchStatus? = null,
 ) {
+    // AI generated: suspended/canceled matches can carry placeholder 0-0 scores.
+    fun isCompleted() = stats != null && (status?.status == null || status.status == "FINAL")
+    fun isScheduled() = stats == null && (status?.status == null || status.status == "SCHEDULED")
+
     fun isFirstTeamMatch() = homeTeam.teamName.endsWith(" 1") && awayTeam.teamName.endsWith(" 1")
 
     fun toMatch() = nl.korfbalelo.elo.Match(
@@ -52,5 +57,6 @@ data class CompetitionMatch(
         )
 
 }
+data class CompetitionMatchStatus(val status: String?)
 data class MatchStats(val home: TeamMatchStats, val away: TeamMatchStats)
 data class TeamMatchStats(val score: Int)

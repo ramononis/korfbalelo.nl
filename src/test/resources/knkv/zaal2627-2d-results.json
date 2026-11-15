@@ -1,0 +1,236 @@
+[
+  {
+    "ref_id": 4904,
+    "date": "2026-11-14",
+    "homeTeam": {
+      "teamName": "ODIK/JansenvdGrift 1"
+    },
+    "awayTeam": {
+      "teamName": "Zwaluwen 1"
+    },
+    "status": {
+      "game": "Uitgespeeld",
+      "status": "FINAL"
+    },
+    "stats": {
+      "home": {
+        "score": 17,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      },
+      "away": {
+        "score": 10,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      }
+    }
+  },
+  {
+    "ref_id": 4437,
+    "date": "2026-11-14",
+    "homeTeam": {
+      "teamName": "Duko/Wesstar 1"
+    },
+    "awayTeam": {
+      "teamName": "DWS 1"
+    },
+    "status": {
+      "game": "Uitgespeeld",
+      "status": "FINAL"
+    },
+    "stats": {
+      "home": {
+        "score": 11,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      },
+      "away": {
+        "score": 12,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      }
+    }
+  },
+  {
+    "ref_id": 4579,
+    "date": "2026-11-14",
+    "homeTeam": {
+      "teamName": "PSV 1"
+    },
+    "awayTeam": {
+      "teamName": "Kesteren 1"
+    },
+    "status": {
+      "game": "Uitgespeeld",
+      "status": "FINAL"
+    },
+    "stats": {
+      "home": {
+        "score": 25,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      },
+      "away": {
+        "score": 17,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      }
+    }
+  },
+  {
+    "ref_id": 4112,
+    "date": "2026-11-14",
+    "homeTeam": {
+      "teamName": "Arena 1"
+    },
+    "awayTeam": {
+      "teamName": "HKC (U) 1"
+    },
+    "status": {
+      "game": "Uitgespeeld",
+      "status": "FINAL"
+    },
+    "stats": {
+      "home": {
+        "score": 11,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      },
+      "away": {
+        "score": 31,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      }
+    }
+  },
+  {
+    "ref_id": 11851,
+    "date": "2026-11-10",
+    "homeTeam": {
+      "teamName": "Kesteren 1"
+    },
+    "awayTeam": {
+      "teamName": "Duko/Wesstar 1"
+    },
+    "status": {
+      "game": "Uitgespeeld",
+      "status": "FINAL"
+    },
+    "stats": {
+      "home": {
+        "score": 9,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      },
+      "away": {
+        "score": 22,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      }
+    }
+  },
+  {
+    "ref_id": 4067,
+    "date": "2026-11-07",
+    "homeTeam": {
+      "teamName": "DWS 1"
+    },
+    "awayTeam": {
+      "teamName": "PSV 1"
+    },
+    "status": {
+      "game": "Uitgespeeld",
+      "status": "FINAL"
+    },
+    "stats": {
+      "home": {
+        "score": 13,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      },
+      "away": {
+        "score": 10,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      }
+    }
+  },
+  {
+    "ref_id": 5098,
+    "date": "2026-11-07",
+    "homeTeam": {
+      "teamName": "HKC (U) 1"
+    },
+    "awayTeam": {
+      "teamName": "ODIK/JansenvdGrift 1"
+    },
+    "status": {
+      "game": "Uitgespeeld",
+      "status": "FINAL"
+    },
+    "stats": {
+      "home": {
+        "score": 23,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      },
+      "away": {
+        "score": 18,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      }
+    }
+  },
+  {
+    "ref_id": 5973,
+    "date": "2026-11-07",
+    "homeTeam": {
+      "teamName": "Kesteren 1"
+    },
+    "awayTeam": {
+      "teamName": "Duko/Wesstar 1"
+    },
+    "status": {
+      "game": "Gestaakt of veld afgekeurd",
+      "status": "SUSPENDED"
+    },
+    "stats": {
+      "home": {
+        "score": 0,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      },
+      "away": {
+        "score": 0,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      }
+    }
+  },
+  {
+    "ref_id": 4660,
+    "date": "2026-11-07",
+    "homeTeam": {
+      "teamName": "Zwaluwen 1"
+    },
+    "awayTeam": {
+      "teamName": "Arena 1"
+    },
+    "status": {
+      "game": "Uitgespeeld",
+      "status": "FINAL"
+    },
+    "stats": {
+      "home": {
+        "score": 15,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      },
+      "away": {
+        "score": 13,
+        "extensionScore": 0,
+        "penaltyScore": 0
+      }
+    }
+  }
+]
