@@ -984,6 +984,7 @@
 2026-11-14,Aurora / DKV (IJ),GKV,15,16
 2026-11-14,Avanti (P),VEO,33,21
 2026-11-14,Blauw Zwart,Elburg,15,36
+2026-11-14,Centrum,EKC 2000,14,9
 2026-11-14,Conventus,Gemini,10,16
 2026-11-14,DKB,KVS '17,20,8
 2026-11-14,DOS (W),Koveni,16,13
@@ -1006,6 +1007,7 @@
 2026-11-14,Duko / Wesstar,DWS (K),11,12
 2026-11-14,Dunas,Paal Centraal,31,13
 2026-11-14,EKVA,HBC (Be),21,16
+2026-11-14,Elko,Zwart Wit,23,16
 2026-11-14,Erasmus,Movado,15,21
 2026-11-14,Excelsior (D),Sporting Trigon,31,29
 2026-11-14,Fiks,AVO,24,25
@@ -1075,6 +1077,7 @@
 2026-11-14,SDO (K),ALO,22,16
 2026-11-14,SDO (V),Animo (G),21,20
 2026-11-14,SEV (Z),EKCA,6,23
+2026-11-14,SKV (S),Seolto,9,19
 2026-11-14,Scheldevogels,KVK,18,22
 2026-11-14,Sparta (Ze),DTL,20,13
 2026-11-14,Stadskanaal '74,It Fean,20,18
@@ -1105,3 +1108,5 @@
 2026-11-14,ZKC '19,KVW '22,32,24
 2026-11-14,Zaamslag,Blauw Wit (K),26,29
 2026-11-14,Zuid '27,ADO,10,14
+2026-11-15,Blauw Wit,Groen Geel,23,17
+2026-11-15,DOS '46,Fortuna (D),18,32
