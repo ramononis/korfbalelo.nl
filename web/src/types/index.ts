@@ -13,6 +13,7 @@ export class Team {
     public rd: number,
     public averageScore: number,
     public firstMatchDate: Date = lastMatchDate,
+    public seasonScoring: number[][] = [], // AI generated: serialized scoring context history.
   ) {}
 
   get formattedRating(): string {

@@ -234,7 +234,7 @@ These passed during doc creation:
 <!-- AI generated -->
 Korfbal Elo uses Glicko, updated after each match. Every team has a rating,
 a rating deviation (RD, uncertainty in rating points), and an estimated scoring
-pace. Both teams are updated from their pre-match state. Home advantage is
+pace, plus separate recent scoring-context histories. Both teams are updated from their pre-match state. Home advantage is
 estimated across all teams and changes gradually with match results.
 
 Uncertainty grows with elapsed calendar time using a shared rate:
@@ -274,3 +274,25 @@ for example `-Delo.model.rdGrowthPerSqrtDay=10.423068`.
 date, season rating change, place, RD and scoring pace. `meta.json` exports
 `RD_GROWTH_PER_SQRT_DAY`, `RD_MAX`, the forecast constants and monthly score offsets
 for the frontend.
+
+<!-- AI generated -->
+### Season-aware scoring correction
+
+Forecasts add a small team-specific scoring-total correction while retaining the
+base ratings, expected margin and score variances. Separate histories cover
+November–March and April–October (a calendar proxy for competition context).
+Each team stores normalized surprises in the combined goal total relative to
+the uncorrected model. Evidence decays with a 180-day half-life, uses one prior
+observation at zero, clips each surprise to three standard deviations, and applies
+0.75 times the average of both teams' estimates times the current margin SD.
+The combined correction is capped at ±3 goals and divided equally between teams.
+Same-day results are withheld until a later calendar date. Simulations age the
+observed history to each fixture date without learning from simulated outcomes.
+Renames retain history; new club identities start fresh. This correction never feeds back
+into strength ratings, base scoring pace or monthly offsets.
+
+The ninth field in `web/public/ranking.csv` contains JSON arrays for both contexts.
+Each array stores committed residual sum, effective count, day, pending residual
+sum, pending count and pending day (UTC epoch days). Kotlin and the frontend use
+the same constants and date convention. Older eight-field exports imply no
+correction. Set `-Delo.model.seasonScoring=false` for a baseline replay.

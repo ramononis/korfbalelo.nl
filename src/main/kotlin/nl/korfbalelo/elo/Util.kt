@@ -59,5 +59,7 @@ fun distroBetween(home: Team, away: Team, neutral: Boolean = false, date: LocalD
     val sdDiff = sqrt(sdH * sdH + sdA * sdA)
     val a =  sdDiff * Erf.erfInv(twoP - 1.0) / PoulePredicter.SQRT2 - (muH - muA) / 2.0
 
-    return ND(muH + a, sdH) to ND(muA - a, sdA)
+    // AI generated: preserve the margin and variances while shifting both means.
+    val tempo = SeasonScoring.correction(home, away, date, sdDiff) / 2
+    return ND(muH + a + tempo, sdH) to ND(muA - a + tempo, sdA)
 }

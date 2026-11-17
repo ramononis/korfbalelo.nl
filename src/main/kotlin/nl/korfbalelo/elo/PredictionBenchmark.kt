@@ -85,7 +85,8 @@ class PredictionWindowStats {
         val expectedMargin = diffDistro.first
         val homeAverageScore = ScoreSeasonality.adjustedAverageScore(home.averageScore, match.date)
         val awayAverageScore = ScoreSeasonality.adjustedAverageScore(away.averageScore, match.date)
-        val averageTotalScore = homeAverageScore + awayAverageScore
+        val averageTotalScore = homeAverageScore + awayAverageScore +
+            SeasonScoring.correction(home, away, match.date, diffDistro.second)
         val expectedHomeScore = (averageTotalScore + expectedMargin) / 2.0
         val expectedAwayScore = (averageTotalScore - expectedMargin) / 2.0
         val expectedHomeScoreRounded = expectedHomeScore.roundToInt()

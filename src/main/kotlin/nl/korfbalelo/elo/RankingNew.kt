@@ -52,6 +52,14 @@ object RankingNew {
 
         val diffDistro = diffDistroBetween(home, away, match.date)
         PredictionBenchmark.record(match, home, away, diffDistro)
+        // AI generated: learn baseline total surprises; never feed the correction into ratings.
+        if (SeasonScoring.enabled()) {
+            val total = ScoreSeasonality.adjustedAverageScore(home.averageScore, match.date) +
+                ScoreSeasonality.adjustedAverageScore(away.averageScore, match.date)
+            val residual = (homeScore + awayScore - total) / diffDistro.second
+            home.seasonScoring.observe(match.date, residual)
+            away.seasonScoring.observe(match.date, residual)
+        }
         val awayRating = away.newRating(home, awayScore, homeScore, false, match, -diffDistro.first to diffDistro.second)
         val homeRating = home.newRating(away, homeScore, awayScore, true, match, diffDistro)
         val (adjustedHomeRating, adjustedAwayRating) = ScoreRatingTweak.adjust(

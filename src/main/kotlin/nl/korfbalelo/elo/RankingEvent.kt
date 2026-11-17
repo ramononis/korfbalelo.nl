@@ -173,6 +173,8 @@ data class MergeEvent(
                 val totalGames = oldTeams.sumOf { team -> team.games }
                 val validAverageScores = oldTeams.filter { team -> team.averageScore.isFinite() }
                 it.games = totalGames
+                // AI generated: preserve a rename; new fusions start fresh context history.
+                if (oldTeams.size == 1) it.seasonScoring = oldTeams.single().seasonScoring
                 it.averageScore = when {
                     totalGames > 0 -> oldTeams.sumOf { team -> team.averageScore * team.games } / totalGames
                     validAverageScores.isNotEmpty() -> validAverageScores.map(Team::averageScore).average()

@@ -278,6 +278,7 @@ class PoulePredicter(
                     lastDate = team.lastDate
                     rd = team.rd
                     averageScore = team.averageScore
+                    seasonScoring = team.seasonScoring
                 }
             }
             for ((date, ms) in order) {

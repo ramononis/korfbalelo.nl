@@ -137,7 +137,9 @@ export default class PoulePredicter {
           0.0,
           "",
           team.rd,
-          team.averageScore
+          team.averageScore,
+          team.firstMatchDate,
+          team.seasonScoring
         )
       }
       for (const [date, mi] of this.order) {

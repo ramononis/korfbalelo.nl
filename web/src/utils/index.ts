@@ -1,3 +1,4 @@
+import { scoringCorrection } from '@/simulator/SeasonScoring'
 // Add this function to your script section
 import { Team } from '@/types'
 import { metaData } from '@/simulator/SeasonSimulator'
@@ -44,7 +45,9 @@ export function distroBetween(home: Team, away: Team, neutral: boolean = false, 
   const sdA = muA * metaData!.SD_A + metaData!.SD_B
   const sdDiff = Math.sqrt(sdH * sdH + sdA * sdA)
   const a = sdDiff * erfinv(twoP - 1.0) / SQRT2 - (muH - muA) / 2.0
-  return [[muH + a, sdH], [muA - a, sdA]]
+  // AI generated: keep the margin and variances fixed.
+  const tempo = scoringCorrection(home.seasonScoring ?? [], away.seasonScoring ?? [], date, sdDiff) / 2
+  return [[muH + a + tempo, sdH], [muA - a + tempo, sdA]]
 }
 export function sampleND(nd: [number, number]): number {
   return gaussian(nd[0], nd[1])

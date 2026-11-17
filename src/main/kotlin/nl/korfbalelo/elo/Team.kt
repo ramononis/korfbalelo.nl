@@ -43,6 +43,7 @@ class Team {
         }
 
     var rd: Double = RD_MAX * RatingModel.config.initialRdFraction
+    var seasonScoring = SeasonScoring() // AI generated: independent forecast-only tempo history.
     var averageScore = 5.0
     var currentDiff = 0.0
     var origins = 1
@@ -128,8 +129,9 @@ class Team {
                 match.pHome = 1.0 - diffDistro.cdf(0.5)
                 match.pDraw = diffDistro.cdf(0.5) - diffDistro.cdf(-0.5)
                 match.pAway = diffDistro.cdf(-0.5)
-                match.guessHome = expScore.roundToInt()
-                match.guessAway = (expScore - diffDistro.first).roundToInt()
+                val tempo = SeasonScoring.correction(this, opponent, match.date, diffDistro.second) / 2
+                match.guessHome = (expScore + tempo).roundToInt()
+                match.guessAway = (expScore - diffDistro.first + tempo).roundToInt()
                 if (match.guessHome == match.guessAway) {
                     val adjustedOpponentRating = opponent.rating - homeAdvantageForTeam
                     match.guessHome += (rating - adjustedOpponentRating).sign.toInt()

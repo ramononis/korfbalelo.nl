@@ -45,7 +45,7 @@ export default defineStore('teams', {
 
             const parsedTeams = data
               .map((row) => {
-                const [name, rating, lastDateValue, firstDateValue, seasonRatingDiff, place, rd, averageScore] = row
+                const [name, rating, lastDateValue, firstDateValue, seasonRatingDiff, place, rd, averageScore, scoringState] = row
                 if (typeof name !== 'string' || typeof lastDateValue !== 'string' || typeof place !== 'string') {
                   return null
                 }
@@ -68,6 +68,7 @@ export default defineStore('teams', {
                   Number(rd),
                   Number(averageScore),
                   firstMatchDate,
+                  typeof scoringState === 'string' ? JSON.parse(scoringState) : [],
                 );
               })
               .filter((team): team is Team => !!team)

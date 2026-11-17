@@ -167,6 +167,11 @@
       <about-item>
         <template #header>Oke, dus je houdt het scorend vermogen bij... #hoedan?</template>
         Dus nogmaals: het scorend vermogen <tx f="\mu_A"/> van Team A is hoeveel je verwacht dat dit team tegen een gelijksoortig team scoort.<br>
+        <!-- AI generated: explain the forecast-only scoring correction. -->
+        Daarnaast kijken we of recente wedstrijden van beide teams meer of minder doelpunten opleverden dan verwacht.
+        We houden november–maart en de overige maanden apart. Oudere resultaten tellen minder mee.
+        De voorspelde totaalscore wordt maximaal drie doelpunten aangepast, gelijk verdeeld over beide teams.
+        Deze correctie verandert de sterkteverschillen en ratings niet.<br>
         Bij elke wedstrijd wordt een voorspelling van de thuisscore <tx f="X"/> en uitscore <tx f="Y"/> gedaan.
         Scoort een team meer dan deze voorspelling, dan gaat zijn scorend vermogen omhoog, en anders omlaag.
       </about-item>
