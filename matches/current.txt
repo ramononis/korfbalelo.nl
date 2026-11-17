@@ -725,7 +725,6 @@
 2026-10-10,DOS (W),Oosterkwartier (H),12,8
 2026-10-10,DOS Kampen,Kinea / Udiros,13,16
 2026-10-10,DSC,Nieuwerkerk,18,15
-2026-10-10,DSO (A),Kleine Sluis,0,0
 2026-10-10,DTS (E),Stormvogels (U),17,9
 2026-10-10,DTS (S) / Harkema,DTG,9,13
 2026-10-10,DVS '69,Merwede,10,16
@@ -754,7 +753,6 @@
 2026-10-10,Heerenveen,WKS,13,19
 2026-10-10,Hellas '63,Sparta (Zw),8,26
 2026-10-10,Hoogkerk,ROG,16,9
-2026-10-10,In Fundo,Huizen,0,0
 2026-10-10,It Fean,ASVD,14,17
 2026-10-10,Juliana,Movado,11,19
 2026-10-10,Juventa,HKC (He),18,6
@@ -906,7 +904,6 @@
 2026-11-07,KVK,Keep Fit '70,13,13
 2026-11-07,KVS '17,Ready '60,10,15
 2026-11-07,KVW '22,Wez Handich,25,21
-2026-11-07,Kesteren,Duko / Wesstar,0,0
 2026-11-07,Kleine Sluis,Stormvogels (U),13,18
 2026-11-07,Koveni,Luno,10,22
 2026-11-07,Leeuwarden,Sparta (Ze),10,27
@@ -921,7 +918,6 @@
 2026-11-07,Nexus,Conventus,16,14
 2026-11-07,Nic,OVVO,17,14
 2026-11-07,Nieuwerkerk,GKV (G),29,26
-2026-11-07,Nijmegen,Woudenberg,0,0
 2026-11-07,Noordenveld,Wit Blauw,16,18
 2026-11-07,OEC,DKB,14,19
 2026-11-07,ONDO (G),Rohda (A),20,21
@@ -976,3 +972,141 @@
 2026-11-07,Zwaluwen (Ze),Arena,15,13
 2026-11-07,Zwart Wit,Achilles (A) / AKC,10,19
 2026-11-08,LDODK,DeetosSnel,24,21
+2026-11-10,Kesteren,Duko / Wesstar,9,22
+2026-11-13,KZ,LDODK,28,25
+2026-11-14,'t Capproen,Ventura Sport,14,8
+2026-11-14,Achilles (A) / AKC,SDO (S),26,24
+2026-11-14,Antilopen,Amicitia (V),27,28
+2026-11-14,Apeldoorn,DOT (O),34,27
+2026-11-14,Apollo,Phoenix (Z),13,13
+2026-11-14,Arena,HKC (U),11,31
+2026-11-14,Atlas,Merwede,27,27
+2026-11-14,Aurora / DKV (IJ),GKV,15,16
+2026-11-14,Avanti (P),VEO,33,21
+2026-11-14,Blauw Zwart,Elburg,15,36
+2026-11-14,Centrum,EKC 2000,14,9
+2026-11-14,Conventus,Gemini,10,16
+2026-11-14,DKB,KVS '17,20,8
+2026-11-14,DOS (W),Koveni,16,13
+2026-11-14,DSC,AW.DTV,26,17
+2026-11-14,DTG,Westergo,18,16
+2026-11-14,DTS (S) / Harkema,WK,21,12
+2026-11-14,Dalto,DVO,18,25
+2026-11-14,De Corvers,DSO (A),18,14
+2026-11-14,De Granaet,DOS Kampen,25,25
+2026-11-14,De Meervogels,Atlantis,23,23
+2026-11-14,De Meeuwen,Dindoa,20,17
+2026-11-14,De Vinken,Tweemaal Zes,11,13
+2026-11-14,De Waterpoort,Olympia (T),13,20
+2026-11-14,DeetosSnel,TOP (S),17,17
+2026-11-14,Devinco,Sparta (N),21,29
+2026-11-14,Diderna,DLKV,17,13
+2026-11-14,Die Haghe,HKC (Ha),23,25
+2026-11-14,Dijkvogels,Oosterkwartier (H),27,3
+2026-11-14,Drachten,Harich,36,20
+2026-11-14,Duko / Wesstar,DWS (K),11,12
+2026-11-14,Dunas,Paal Centraal,31,13
+2026-11-14,EKVA,HBC (Be),21,16
+2026-11-14,Elko,Zwart Wit,23,16
+2026-11-14,Erasmus,Movado,15,21
+2026-11-14,Excelsior (D),Sporting Trigon,31,29
+2026-11-14,Fiks,AVO,24,25
+2026-11-14,Flamingo's (B),De Wâlden,22,12
+2026-11-14,Fluks (N),Badhoevedorp,21,20
+2026-11-14,Furore,Ados,23,14
+2026-11-14,GKV (G),Achilles (H),30,24
+2026-11-14,Groen Zwart,Ons Clubje,10,11
+2026-11-14,HKC (He),Hellas '63,16,16
+2026-11-14,HKV / Ons Eibernest,ACKC,31,17
+2026-11-14,Haarlem,BEP,12,18
+2026-11-14,Hebbes,Thor (H),10,16
+2026-11-14,Helios,Kleine Sluis,31,8
+2026-11-14,Hemur Enge,SkunK,8,29
+2026-11-14,Hoogkerk,De Pein,25,11
+2026-11-14,IFC '25,WWC,20,14
+2026-11-14,In Fundo,WIK '34,23,13
+2026-11-14,Joure,Leeuwarden,17,13
+2026-11-14,Juventa,Exakwa,24,23
+2026-11-14,KCD,DKOD,26,12
+2026-11-14,KOAG,Juliana,26,15
+2026-11-14,KVA,Nic,23,15
+2026-11-14,KVS,TOP (A),30,16
+2026-11-14,KVZ '23,Maassluis,20,17
+2026-11-14,KVZ,DOS-WK,29,29
+2026-11-14,KZ Danaiden,Swift,18,15
+2026-11-14,Keep Fit '70,Focus,23,5
+2026-11-14,Kinderdijk,Swift (M),25,29
+2026-11-14,Kinea / Udiros,ASVD,20,19
+2026-11-14,Korbatjo,DVS '69,22,32
+2026-11-14,Korbis,Trekvogels (R),26,14
+2026-11-14,Luno,Huizen,16,10
+2026-11-14,MN en W,Spannum,17,12
+2026-11-14,Madjoe,DKV Victoria,14,20
+2026-11-14,Mid Fryslân,Spirit (Vo),28,24
+2026-11-14,NKC '51,Synergo,17,18
+2026-11-14,NKC (N)/Wees Kwiek,Vitesse (Be),21,19
+2026-11-14,NKV,VIKO,18,8
+2026-11-14,NRC '22,SKF,8,20
+2026-11-14,Nova,MIA,13,18
+2026-11-14,Noveas,WSS,19,25
+2026-11-14,ODIK,Zwaluwen (Ze),17,10
+2026-11-14,ODO (M),Good Luck,24,22
+2026-11-14,OJC '98,Attila,18,9
+2026-11-14,OKO,Heerenveen,16,20
+2026-11-14,OKV,Fortissimo,21,21
+2026-11-14,ONDO (M),KCR,20,27
+2026-11-14,OVVO,KIOS (R),25,19
+2026-11-14,OZC,Vriendenschaar (B),12,16
+2026-11-14,Oerterp,DWA / Argo,16,20
+2026-11-14,Oost Arnhem,Nieuwerkerk,23,25
+2026-11-14,Oranje Wit (D),Sporting Delta,17,21
+2026-11-14,Oranje Zwart (M),Luctor,18,14
+2026-11-14,Oranje Zwart,Regio '72,15,10
+2026-11-14,PSV,Kesteren,25,17
+2026-11-14,Pallas '08,HHV,13,22
+2026-11-14,Pernix,ONDO (G),19,21
+2026-11-14,RDZ,ESDO,17,7
+2026-11-14,RODA (W),Sporting West,20,20
+2026-11-14,ROG,Rood Wit (W),18,18
+2026-11-14,RWA,NIO,25,22
+2026-11-14,Ready '60,OEC,12,13
+2026-11-14,Reeuwijk,DSO (K),19,19
+2026-11-14,Refleks,Fiducia,22,21
+2026-11-14,Ritola,CSL,19,21
+2026-11-14,Rohda (A),Tempo,17,19
+2026-11-14,SDO (K),ALO,22,16
+2026-11-14,SDO (V),Animo (G),21,20
+2026-11-14,SEV (Z),EKCA,6,23
+2026-11-14,SKV (S),Seolto,9,19
+2026-11-14,Scheldevogels,KVK,18,22
+2026-11-14,Sparta (Ze),DTL,20,13
+2026-11-14,Stadskanaal '74,It Fean,20,18
+2026-11-14,Stormvogels (U),DTS (E),5,25
+2026-11-14,TOGO (G),Tjoba,10,14
+2026-11-14,TOP (V),Olympia '22,17,15
+2026-11-14,Telstar,Reehorst '45,21,15
+2026-11-14,Thrianta,Quick '21 / Vlug en Vaardig (G),25,14
+2026-11-14,Tiel '72,Viking,14,15
+2026-11-14,Triade,IJsselvogels,13,17
+2026-11-14,Twist,Olympia (S),29,9
+2026-11-14,Unitas,PKC,18,24
+2026-11-14,VDDO,Lintjo,15,19
+2026-11-14,VZOD,Rapid (H),22,16
+2026-11-14,Valto,Albatros,15,14
+2026-11-14,Velocitas (L),KIOS (N),11,15
+2026-11-14,Victum,Nijmegen,23,19
+2026-11-14,Vitesse (Ba),DES (De),22,16
+2026-11-14,Vlug en Vaardig (A),Amsterdam,14,22
+2026-11-14,WION,Nexus,14,16
+2026-11-14,WKS,Noordenveld,22,23
+2026-11-14,Wageningen,KCC,27,18
+2026-11-14,Weidevogels,Vriendenschaar (H),21,22
+2026-11-14,Wez Handich,De Parabool,14,32
+2026-11-14,Wit Blauw,Sparta (Zw),18,16
+2026-11-14,Wolderwijd,Revival,9,15
+2026-11-14,Woudenberg,Rust Roest (E),16,10
+2026-11-14,ZKC '19,KVW '22,32,24
+2026-11-14,Zaamslag,Blauw Wit (K),26,29
+2026-11-14,Zuid '27,ADO,10,14
+2026-11-15,Blauw Wit,Groen Geel,23,17
+2026-11-15,DOS '46,Fortuna (D),18,32
