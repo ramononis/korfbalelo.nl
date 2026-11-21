@@ -1112,3 +1112,4 @@
 2026-11-15,DOS '46,Fortuna (D),18,32
 2026-11-17,Volharding,BKC (Br),14,3
 2026-11-19,DSO (A),Furore,9,27
+2026-11-20,Fortuna (D),Dalto,20,18
