@@ -1162,6 +1162,7 @@
 2026-11-21,Groen Geel,Wageningen,26,17
 2026-11-21,HKC (Ha),DSC,25,14
 2026-11-21,HKC (U),Zwaluwen (Ze),25,13
+2026-11-21,Haarlem,KZ Danaiden,16,9
 2026-11-21,Hebbes,Luno,6,28
 2026-11-21,Heerenveen,CSL,21,21
 2026-11-21,Hoogkerk,Wez Handich,17,17
