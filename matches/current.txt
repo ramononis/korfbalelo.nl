@@ -1201,7 +1201,7 @@
 2026-11-21,ONDO (G),Tempo,22,10
 2026-11-21,ONDO (M),TOGO (G),20,16
 2026-11-21,OVVO,De Meeuwen,18,20
-2026-11-21,Oerterp,DTS (S) / Harkema,11,21
+2026-11-21,Oerterp,DTS (S) / Harkema,11,24
 2026-11-21,Olympia '22,SDO (W),17,14
 2026-11-21,Olympia (S),Ventura Sport,17,20
 2026-11-21,Oranje Wit (D),Kinderdijk,26,28
@@ -1249,3 +1249,5 @@
 2026-11-21,Zaamslag,OZC,23,22
 2026-11-21,Zuid '27,Reeuwijk,13,18
 2026-11-21,Zwart Wit,SDO (S),17,22
+2026-11-22,Mid Fryslân,Die Haghe,20,18
+2026-11-22,TOP (S),KZ,16,13
