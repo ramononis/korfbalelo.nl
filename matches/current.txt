@@ -1251,3 +1251,5 @@
 2026-11-21,Zwart Wit,SDO (S),17,22
 2026-11-22,Mid Fryslân,Die Haghe,20,18
 2026-11-22,TOP (S),KZ,16,13
+2026-11-24,ALO,Refleks,20,23
+2026-11-24,Rivalen,Rheko,19,25
