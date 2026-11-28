@@ -1254,3 +1254,4 @@
 2026-11-24,ALO,Refleks,20,23
 2026-11-24,Rivalen,Rheko,19,25
 2026-11-25,Regio '72,Olympia '22,21,17
+2026-11-27,DeetosSnel,Fortuna (D),18,24
